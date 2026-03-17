@@ -1,181 +1,177 @@
 #!/usr/bin/env python3
 """
 Scraper talents.aefe.fr → emplois.json
-Tourne chaque nuit via GitHub Actions
+Utilise Selenium headless pour exécuter le JavaScript du site
 """
-import requests, json, time, re
+import json, time, re
 from datetime import datetime
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
-    "Accept": "application/json, text/html, */*",
-    "Accept-Language": "fr-FR,fr;q=0.9",
-    "Referer": "https://talents.aefe.fr/fr/annonces",
-}
+BASE_URL = "https://talents.aefe.fr/fr/annonces"
 
-BASE_URL = "https://talents.aefe.fr"
+def make_driver():
+    opts = Options()
+    opts.add_argument("--headless")
+    opts.add_argument("--no-sandbox")
+    opts.add_argument("--disable-dev-shm-usage")
+    opts.add_argument("--disable-gpu")
+    opts.add_argument("--window-size=1920,1080")
+    opts.add_argument("--lang=fr-FR")
+    opts.add_argument("user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36")
+    return webdriver.Chrome(options=opts)
 
-def get_offers_page(page=1, per_page=50):
-    """Essaie plusieurs endpoints connus de Digital Recruiters / Cegid HR"""
-    endpoints = [
-        f"{BASE_URL}/api/v1/offers?page={page}&limit={per_page}",
-        f"{BASE_URL}/api/offers?page={page}&perPage={per_page}",
-        f"{BASE_URL}/fr/annonces?page={page}&format=json",
-        f"{BASE_URL}/api/v2/jobs?page={page}&size={per_page}",
-    ]
-    for url in endpoints:
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=10)
-            if r.status_code == 200:
-                try:
-                    data = r.json()
-                    # Normaliser selon la structure retournée
-                    offers = (data.get("offers") or data.get("data") or
-                              data.get("results") or data.get("jobs") or [])
-                    if isinstance(offers, list) and len(offers) > 0:
-                        print(f"✓ API trouvée: {url} → {len(offers)} offres")
-                        return offers, data
-                except:
-                    pass
-        except Exception as e:
-            print(f"  ✗ {url}: {e}")
-    return [], {}
-
-def scrape_html_offers():
-    """Fallback: scraper le HTML de la page annonces"""
-    offers = []
+def extract_json_from_page(driver):
     try:
-        r = requests.get(f"{BASE_URL}/fr/annonces", headers=HEADERS, timeout=15)
-        if r.status_code != 200:
-            return offers
-        html = r.text
-        
-        # Chercher les JSON embarqués dans le HTML (common avec SPA)
-        # Pattern: __NUXT_DATA__ ou window.__data__ ou similar
-        patterns = [
-            r'window\.__INITIAL_STATE__\s*=\s*({.*?});',
-            r'window\.__data__\s*=\s*({.*?});',
-            r'"offers"\s*:\s*(\[.*?\])',
-            r'"jobs"\s*:\s*(\[.*?\])',
-        ]
-        for pattern in patterns:
-            match = re.search(pattern, html, re.DOTALL)
-            if match:
-                try:
-                    data = json.loads(match.group(1))
-                    if isinstance(data, list):
-                        offers = data
-                    elif isinstance(data, dict):
-                        offers = data.get("offers", data.get("jobs", []))
-                    if offers:
-                        print(f"✓ JSON trouvé dans HTML: {len(offers)} offres")
-                        return offers
-                except:
-                    pass
+        result = driver.execute_script("""
+            const sources = [window.__NUXT__, window.__DATA__, window.__STATE__, window.__INITIAL_STATE__];
+            for (const src of sources) {
+                if (!src) continue;
+                const str = JSON.stringify(src);
+                const m = str.match(/"offers":\s*(\[.{10,}\])/);
+                if (m) { try { return JSON.parse(m[1]); } catch(e) {} }
+            }
+            // Chercher dans tous les scripts inline
+            for (const s of document.querySelectorAll('script:not([src])')) {
+                const m = s.textContent.match(/"offers":\s*(\[.{10,}\])/);
+                if (m) { try { const d = JSON.parse(m[1]); if (d.length > 0) return d; } catch(e) {} }
+            }
+            return null;
+        """)
+        if result and isinstance(result, list) and len(result) > 0:
+            print(f"  JSON JS: {len(result)} offres")
+            return result
     except Exception as e:
-        print(f"✗ Scraping HTML: {e}")
+        print(f"  JS extract err: {e}")
+    return None
+
+def parse_cards(driver):
+    offers = []
+    selectors = [
+        "article", ".offer", "[class*='offer-card']", "[class*='OfferCard']",
+        "[class*='job-card']", "[class*='annonce']", "[data-offer]"
+    ]
+    cards = []
+    for sel in selectors:
+        try:
+            found = driver.find_elements(By.CSS_SELECTOR, sel)
+            if found:
+                cards = found
+                print(f"  Sélecteur '{sel}': {len(found)} éléments")
+                break
+        except:
+            pass
+
+    for card in cards:
+        try:
+            text = card.text.strip()
+            if not text or len(text) < 5:
+                continue
+            lines = [l.strip() for l in text.split('\n') if l.strip()]
+            titre = lines[0] if lines else "Poste"
+            etab  = lines[1] if len(lines) > 1 else ""
+            ville, pays, contrat = "", "", ""
+            for line in lines[2:]:
+                if ',' in line or '·' in line:
+                    parts = re.split(r'[,·]', line)
+                    ville = parts[0].strip()
+                    if len(parts) > 1: pays = parts[-1].strip()
+                if any(w in line.lower() for w in ['cdi','cdd','permanent','temporaire']):
+                    contrat = line
+            url = BASE_URL
+            try:
+                a = card.find_element(By.TAG_NAME, "a")
+                href = a.get_attribute("href")
+                if href: url = href
+            except:
+                pass
+            offers.append({"titre": titre, "etab": etab, "ville": ville,
+                           "pays": pays, "contrat": contrat, "date": "", "url": url})
+        except:
+            pass
     return offers
 
-def normalize_offer(raw):
-    """Normalise une offre brute en format standard"""
+def load_more(driver, max_clicks=30):
+    for i in range(max_clicks):
+        clicked = False
+        try:
+            btns = driver.find_elements(By.TAG_NAME, "button")
+            for btn in btns:
+                if btn.is_displayed() and btn.is_enabled():
+                    txt = btn.text.lower()
+                    if any(w in txt for w in ['voir plus', 'load more', 'charger', 'afficher plus', 'suivant', 'more']):
+                        driver.execute_script("arguments[0].scrollIntoView();", btn)
+                        driver.execute_script("arguments[0].click();", btn)
+                        time.sleep(2)
+                        clicked = True
+                        print(f"  Clic '{btn.text}' ({i+1})")
+                        break
+        except:
+            pass
+        if not clicked:
+            break
+
+def normalize(raw):
     if not isinstance(raw, dict):
         return None
-    
-    # Essayer différents champs selon la version de l'API
-    titre = (raw.get("title") or raw.get("label") or raw.get("name") or
-             raw.get("jobTitle") or "Poste à pourvoir")
-    
-    etab = (raw.get("company") or raw.get("establishment") or
-            raw.get("employer") or raw.get("organization") or "")
-    
-    ville = (raw.get("city") or raw.get("location") or
-             raw.get("place") or raw.get("address", {}).get("city", "") or "")
-    
-    pays = (raw.get("country") or raw.get("countryName") or
-            raw.get("address", {}).get("country", "") or "")
-    
-    contrat = (raw.get("contract_type") or raw.get("contractType") or
-               raw.get("type") or raw.get("employmentType") or "")
-    
-    date_pub = (raw.get("publication_date") or raw.get("publishedAt") or
-                raw.get("date") or raw.get("createdAt") or "")
-    
-    url_id = raw.get("id") or raw.get("uid") or ""
-    url_slug = raw.get("slug") or raw.get("url") or ""
-    if url_slug and url_slug.startswith("http"):
-        url = url_slug
-    elif url_id:
-        url = f"{BASE_URL}/fr/annonce/{url_id}-{url_slug}" if url_slug else f"{BASE_URL}/fr/annonce/{url_id}"
+    uid = raw.get("id") or raw.get("uid") or ""
+    slug = raw.get("slug") or ""
+    if slug and slug.startswith("http"):
+        url = slug
+    elif uid:
+        url = f"https://talents.aefe.fr/fr/annonce/{uid}-{slug}" if slug else f"https://talents.aefe.fr/fr/annonce/{uid}"
     else:
-        url = f"{BASE_URL}/fr/annonces"
-    
-    # Disciplines / catégories
-    discipline = (raw.get("category") or raw.get("discipline") or
-                  raw.get("jobCategory") or raw.get("domain") or "")
-    
+        url = "https://talents.aefe.fr/fr/annonces"
     return {
-        "titre": titre,
-        "etab": etab,
-        "ville": ville,
-        "pays": pays,
-        "contrat": contrat,
-        "date": str(date_pub)[:10] if date_pub else "",
-        "discipline": discipline,
-        "url": url,
+        "titre":   raw.get("title") or raw.get("label") or raw.get("name") or "Poste",
+        "etab":    raw.get("company") or raw.get("establishment") or raw.get("employer") or "",
+        "ville":   raw.get("city") or raw.get("location") or "",
+        "pays":    raw.get("country") or raw.get("countryName") or "",
+        "contrat": raw.get("contract_type") or raw.get("contractType") or raw.get("type") or "",
+        "date":    str(raw.get("publication_date") or raw.get("publishedAt") or "")[:10],
+        "url":     url
     }
 
 def main():
     print(f"=== Scraping talents.aefe.fr — {datetime.now().strftime('%Y-%m-%d %H:%M')} ===")
-    
     all_offers = []
-    
-    # Tentative API paginée
-    for page in range(1, 20):  # max 19 pages × 50 = 950 offres
-        offers_raw, meta = get_offers_page(page=page)
-        if not offers_raw:
-            if page == 1:
-                # API non accessible, essayer HTML
-                print("API non disponible, tentative HTML...")
-                offers_raw = scrape_html_offers()
-                if offers_raw:
-                    all_offers.extend([o for o in [normalize_offer(r) for r in offers_raw] if o])
-            break
-        
-        normalized = [o for o in [normalize_offer(r) for r in offers_raw] if o]
-        all_offers.extend(normalized)
-        print(f"  Page {page}: {len(normalized)} offres (total: {len(all_offers)})")
-        
-        # Vérifier s'il y a encore des pages
-        total = (meta.get("total") or meta.get("totalCount") or
-                 meta.get("count") or meta.get("total_count") or 0)
-        if total and len(all_offers) >= total:
-            break
-        if len(offers_raw) < 50:  # Dernière page
-            break
-        
-        time.sleep(0.5)  # Respecter le serveur
-    
-    print(f"\n✅ Total offres récupérées: {len(all_offers)}")
-    
-    # Sauvegarder
-    output = {
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "total": len(all_offers),
-        "offers": all_offers
-    }
-    
+    driver = None
+    try:
+        driver = make_driver()
+        print(f"Chargement {BASE_URL}...")
+        driver.get(BASE_URL)
+        time.sleep(5)
+
+        # 1. JSON dans variables JS
+        json_offers = extract_json_from_page(driver)
+        if json_offers:
+            all_offers = [o for o in [normalize(r) for r in json_offers] if o]
+
+        # 2. Charger toutes les pages puis parser les cartes
+        if not all_offers:
+            load_more(driver)
+            time.sleep(2)
+            all_offers = parse_cards(driver)
+
+    except Exception as e:
+        print(f"Erreur: {e}")
+        import traceback; traceback.print_exc()
+    finally:
+        if driver:
+            driver.quit()
+
+    print(f"\n✅ Total: {len(all_offers)} offres")
+    output = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+              "total": len(all_offers), "offers": all_offers}
     with open("emplois.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    print(f"💾 Sauvegardé dans emplois.json")
-    
-    # Aperçu
+    print("💾 emplois.json sauvegardé")
     if all_offers:
-        print("\nAperçu des 5 premières offres:")
         for o in all_offers[:5]:
             print(f"  • {o['titre']} — {o['etab']} ({o['ville']}, {o['pays']})")
-    else:
-        print("⚠️  Aucune offre récupérée — emplois.json vide créé")
 
 if __name__ == "__main__":
     main()
