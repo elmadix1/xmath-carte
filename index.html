@@ -19,7 +19,8 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
 /* panels sous la carte */
 #bottom-panels{display:none;margin-top:10px;gap:10px}
 #bottom-panels.visible{display:grid;grid-template-columns:1fr 1fr}
-@media(max-width:700px){#bottom-panels.visible{grid-template-columns:1fr}}
+#bottom-panels.visible.with-emplois{grid-template-columns:1fr 1fr 1fr}
+@media(max-width:700px){#bottom-panels.visible,#bottom-panels.visible.with-emplois{grid-template-columns:1fr}}
 #bottom-panels #ep{grid-column:1/2;max-height:340px;overflow-y:auto}
 #bottom-panels #pp{grid-column:2/3}
 #bottom-panels #ed{display:none;grid-column:1/-1}
@@ -151,27 +152,27 @@ function runSearch(){
     }
     return true;
   }).slice(0,80);
-  count.textContent=res.length?res.length+' résultat'+(res.length>1?'s':''):'Aucun résultat';
+  count.textContent=res.length?res.length+' résultat'+(res.length>1?'s':"" ):'Aucun résultat';
   var ul=document.getElementById('search-list');ul.innerHTML='';
   if(!res.length){ul.innerHTML='<div class="sr-empty">Aucun établissement trouvé</div>';document.getElementById('search-detail').innerHTML='<span style="color:#94a3b8;font-size:11px">Aucun résultat</span>';return;}
   res.forEach(function(r){
     var d=document.createElement('div');d.className='sr';
     var sc={EGD:{bg:'#dcfce7',c:'#166534'},Conv:{bg:'#dbeafe',c:'#1e40af'},Part:{bg:'#f3f4f6',c:'#4b5563'}};
     var s=sc[r.statut]||sc.Part;
-    var bt=(r.brevet?'<span class="sr-badge" style="background:#dbeafe;color:#1e40af">DNB</span>':'')+(r.bac?'<span class="sr-badge" style="background:#dcfce7;color:#166534">BAC</span>':'');
-    d.innerHTML='<div class="sr-nom">'+r.nom+'</div><div class="sr-meta"><span>'+(r.ville?r.ville+' · ':'')+r.pays+'</span><span class="sr-badge" style="background:'+s.bg+';color:'+s.c+'">'+r.statut+'</span>'+bt+'</div>';
+    var bt=(r.brevet?'<span class="sr-badge" style="background:#dbeafe;color:#1e40af">DNB</span>':"" )+(r.bac?'<span class="sr-badge" style="background:#dcfce7;color:#166534">BAC</span>':"" );
+    d.innerHTML='<div class="sr-nom">'+r.nom+'</div><div class="sr-meta"><span>'+(r.ville?r.ville+' · ':"" )+r.pays+'</span><span class="sr-badge" style="background:'+s.bg+';color:'+s.c+'">'+r.statut+'</span>'+bt+'</div>';
     d.onclick=function(){
       document.querySelectorAll('.sr').forEach(function(e){e.classList.remove('sel');});
       d.classList.add('sel');selectedResult=r;
       var det=document.getElementById('search-detail');
-      var bv=r.brevet?'<span style="background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500">📋 Brevet</span>':'';
-      var bc=r.bac?'<span style="background:#dcfce7;color:#166534;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500">🎓 Bac</span>':'';
-      var sw=r.site?'<a href="'+r.site+'" target="_blank" style="color:#1d4ed8;word-break:break-all">'+r.site.replace(/^https?:\/\//,'').replace(/\/$/,'')+'</a>':'';
-      var aw=r.aefe?'<a href="'+r.aefe+'" target="_blank" style="color:#1d4ed8">→ Fiche AEFE</a>':'';
+      var bv=r.brevet?'<span style="background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500">📋 Brevet</span>':"" ;
+      var bc=r.bac?'<span style="background:#dcfce7;color:#166534;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500">🎓 Bac</span>':"" ;
+      var sw=r.site?'<a href="'+r.site+'" target="_blank" style="color:#1d4ed8;word-break:break-all">'+r.site.replace(/^https?:\/\//,'').replace(/\/$/,'')+'</a>':"" ;
+      var aw=r.aefe?'<a href="'+r.aefe+'" target="_blank" style="color:#1d4ed8">→ Fiche AEFE</a>':"" ;
       det.innerHTML='<div style="font-size:13px;font-weight:600;color:#0f172a">'+r.nom+'</div>'
-        +'<div style="color:#64748b">'+(r.ville?r.ville+' · ':'')+'<b>'+r.pays+'</b> · '+(r.statut==='EGD'?'Gestion directe':r.statut==='Conv'?'Conventionné':'Partenaire')+'</div>'
-        +'<div style="display:flex;gap:5px;flex-wrap:wrap">'+bv+bc+(!bv&&!bc?'<span style="color:#94a3b8;font-size:11px">École primaire</span>':'')+'</div>'
-        +(sw?sw:'')+(aw?aw:'');
+        +'<div style="color:#64748b">'+(r.ville?r.ville+' · ':"" )+'<b>'+r.pays+'</b> · '+(r.statut==='EGD'?'Gestion directe':r.statut==='Conv'?'Conventionné':'Partenaire')+'</div>'
+        +'<div style="display:flex;gap:5px;flex-wrap:wrap">'+bv+bc+(!bv&&!bc?'<span style="color:#94a3b8;font-size:11px">École primaire</span>':"" )+'</div>'
+        +(sw?sw:"" )+(aw?aw:"" );
       if(typeof zoomToPays==='function')zoomToPays(r.d3key,r.paysObj,r.etab);
     };
     ul.appendChild(d);
@@ -220,6 +221,21 @@ document.querySelectorAll('.fchip').forEach(function(btn){
       <div class="row"><div class="lbl">📋 Brevet — sujet & date</div><div class="val" id="p-sujet"></div></div>
       <div class="row"><div class="lbl">🎓 Bac — sujet & date</div><div class="val" id="p-bac-sujet"></div></div>
       <div class="row"><div class="lbl">Ressources xmath</div><div class="val blue" id="p-pack"></div></div>
+    </div>
+  </div>
+  <div class="panel" id="emplois-panel" style="display:none">
+    <div class="ph" style="display:flex;justify-content:space-between;align-items:center">
+      <span class="pt">💼 Postes à pourvoir</span>
+      <span class="badge" id="emplois-nb" style="background:#f0fdf4;color:#166534"></span>
+    </div>
+    <div class="pb">
+      <div id="emplois-list" style="display:flex;flex-direction:column;gap:6px;max-height:260px;overflow-y:auto">
+        <div style="font-size:11px;color:#94a3b8;text-align:center;padding:12px">Chargement des offres...</div>
+      </div>
+      <a id="emplois-link" href="https://talents.aefe.fr/fr/annonces" target="_blank" 
+         style="display:block;margin-top:10px;font-size:11px;color:#1d4ed8;text-align:center;text-decoration:none">
+        → Voir toutes les offres sur talents.aefe.fr
+      </a>
     </div>
   </div>
   <div class="panel" id="ed" style="display:none">
@@ -610,7 +626,7 @@ function showPays(name,p){
   document.getElementById('p-sujet').textContent=p.sujet+' · '+p.date;
   const bac=BAC_ZONES[p.zone]||{sujet:'—',date:'—',pack:'—'};
   document.getElementById('p-bac-sujet').textContent=bac.sujet+' · '+bac.date;
-  document.getElementById('p-pack').textContent=p.pack+(bac.pack!==p.pack?' · '+bac.pack:'');
+  document.getElementById('p-pack').textContent=p.pack+(bac.pack!==p.pack?' · '+bac.pack:"" );
 }
 
 // Noms exacts tels qu'ils apparaissent dans le filtre pays AEFE
@@ -753,7 +769,7 @@ function getLink(e,p){
 function showTerritoireFR(p){
   document.getElementById('ep').style.display='';
   document.getElementById('ed').style.display='none';
-  document.getElementById('ep-nb').textContent=p.etabs.length+' établissement'+(p.etabs.length>1?'s':'')+' — Éducation nationale';
+  document.getElementById('ep-nb').textContent=p.etabs.length+' établissement'+(p.etabs.length>1?'s':"" )+' — Éducation nationale';
   const ul=document.getElementById('elist');ul.innerHTML='';
   // Bandeau spécial territoire français
   const bandeau=document.createElement('div');
@@ -766,13 +782,13 @@ function showTerritoireFR(p){
     const sc=SC[e.s]||SC.EGD;
     const d=document.createElement('div');d.className='ei';
     d.style.borderLeft='3px solid #f97316';
-    const bTags=(e.brevet?'<span style="background:#dbeafe;color:#1e40af;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:4px">DNB</span>':'')+
-                (e.bac?'<span style="background:#dcfce7;color:#166534;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:2px">BAC</span>':'');
+    const bTags=(e.brevet?'<span style="background:#dbeafe;color:#1e40af;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:4px">DNB</span>':"" )+
+                (e.bac?'<span style="background:#dcfce7;color:#166534;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:2px">BAC</span>':"" );
     d.innerHTML=`
       <div class="ei-name">${e.n}${bTags}</div>
-      <div style="font-size:10px;color:#64748b;margin-top:2px">${e.v||'—'}</div>
-      ${e.fond?`<div style="font-size:10px;color:#1d4ed8;margin-top:3px;line-height:1.4">📖 ${e.fond}</div>`:''}
-      ${e.w?`<a class="ei-aefe" href="${e.w}" target="_blank" onclick="event.stopPropagation()" style="margin-top:3px;display:inline-block">↗ Académie</a>`:''}`;
+      <div style="font-size:10px;color:#64748b;margin-top:2px">${e.v||"—"}</div>
+      ${e.fond?`<div style="font-size:10px;color:#1d4ed8;margin-top:3px;line-height:1.4">📖 ${e.fond}</div>`:""}
+      ${e.w?`<a class="ei-aefe" href="${e.w}" target="_blank" onclick="event.stopPropagation()" style="margin-top:3px;display:inline-block">↗ Académie</a>`:""}`;
     ul.appendChild(d);
   });
 }
@@ -782,7 +798,7 @@ function showElist(p){
   document.getElementById('ep').style.display='';
   const nomAefe=NOM_AEFE[p.nom]||p.nom;
   const aefePaysUrl='https://aefe.gouv.fr/fr/etablissements?field_pays_target_id='+encodeURIComponent(nomAefe);
-  document.getElementById('ep-nb').textContent=p.etabs.length+' établissement'+(p.etabs.length>1?'s':'')+' répertoriés';
+  document.getElementById('ep-nb').textContent=p.etabs.length+' établissement'+(p.etabs.length>1?'s':"" )+' répertoriés';
   const ul=document.getElementById('elist');ul.innerHTML='';
   if(!p.etabs.length){
     ul.innerHTML=`<div class="hint0">Aucun établissement dans notre base pour ce pays.<br><a href="${aefePaysUrl}" target="_blank" style="color:#1d4ed8">→ Voir la liste complète sur aefe.gouv.fr</a></div>`;
@@ -791,13 +807,13 @@ function showElist(p){
   p.etabs.forEach(e=>{
     const sc=SC[e.s]||SC.Part;
     const lk=getLink(e,p);
-    const bTags=(e.brevet?'<span style="background:#dbeafe;color:#1e40af;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:4px">DNB</span>':'')+
-                (e.bac?'<span style="background:#dcfce7;color:#166534;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:2px">BAC</span>':'');
+    const bTags=(e.brevet?'<span style="background:#dbeafe;color:#1e40af;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:4px">DNB</span>':"" )+
+                (e.bac?'<span style="background:#dcfce7;color:#166534;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:2px">BAC</span>':"" );
     const d=document.createElement('div');d.className='ei';
     d.innerHTML=`
       <div class="ei-name">${e.n} <span class="es" style="background:${sc.bg};color:${sc.c}">${e.s}</span>${bTags}</div>
       <div class="ei-ville">
-        <span>${e.v||'—'}</span>
+        <span>${e.v||"—"}</span>
         <a class="ei-aefe" href="${lk.url}" target="_blank" onclick="event.stopPropagation()">${lk.label}</a>
       </div>`;
     d.onclick=()=>showEtab(e,p);
@@ -874,7 +890,7 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
 
   const countries=topojson.feature(world,world.objects.countries);
   mapG.selectAll('.country').data(countries.features).join('path')
-    .attr('class',d=>'country'+(isFerme(d.properties.name||'')?' ferme':''))
+    .attr('class',d=>'country'+(isFerme(d.properties.name||'')?' ferme':"" ))
     .attr('d',path)
     .attr('fill',d=>gc(d.properties.name||''))
     .attr('stroke',d=>isFerme(d.properties.name||'')?'#ef4444':'#fff')
@@ -932,7 +948,7 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
         document.getElementById('pp').style.display='none';
         document.getElementById('ep').style.display='';
         document.getElementById('ed').style.display='none';
-        document.getElementById('ep-nb').textContent=fermeEtabs.length+' établissement'+(fermeEtabs.length>1?'s':'')+' — fermé'+(fermeEtabs.length>1?'s':'');
+        document.getElementById('ep-nb').textContent=fermeEtabs.length+' établissement'+(fermeEtabs.length>1?'s':"" )+' — fermé'+(fermeEtabs.length>1?'s':'');
         const ul=document.getElementById('elist');ul.innerHTML='';
         const alerte=document.createElement('div');
         alerte.style.cssText='font-size:11px;color:#991b1b;background:#fee2e2;border:1px solid #fca5a5;border-radius:6px;padding:7px 11px;margin-bottom:6px;line-height:1.5';
@@ -949,9 +965,9 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
               <span style="background:#fee2e2;color:#991b1b;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:4px">FERMÉ</span>
             </div>
             <div style="font-size:10px;color:#64748b;margin-top:2px">${e.v}</div>
-            ${e.fond?`<div style="font-size:10px;color:#1d4ed8;margin-top:3px;line-height:1.4">📖 ${e.fond}</div>`:''}
+            ${e.fond?`<div style="font-size:10px;color:#1d4ed8;margin-top:3px;line-height:1.4">📖 ${e.fond}</div>`:""}
             <div style="font-size:10px;color:#ef4444;margin-top:3px;line-height:1.4">⚠️ ${e.sf}</div>
-            ${e.aefe?`<a class="ei-aefe" href="${e.aefe}" target="_blank" onclick="event.stopPropagation()" style="margin-top:3px;display:inline-block">↗ Source AEFE</a>`:''}`;
+            ${e.aefe?`<a class="ei-aefe" href="${e.aefe}" target="_blank" onclick="event.stopPropagation()" style="margin-top:3px;display:inline-block">↗ Source AEFE</a>`:""}`;
           ul.appendChild(d2);
         });
         return;
@@ -972,6 +988,7 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
       currentPays=p;
       showPays(name,p);
       showElist(p);
+      showEmplois(p);
       if(fermeEtabs){
         setTimeout(()=>{
           const ul=document.getElementById('elist');
@@ -989,9 +1006,9 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
                 <span style="background:#fee2e2;color:#991b1b;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:4px">FERMÉ</span>
               </div>
               <div style="font-size:10px;color:#64748b;margin-top:2px">${e.v}</div>
-              ${e.fond?`<div style="font-size:10px;color:#1d4ed8;margin-top:3px;line-height:1.4">📖 ${e.fond}</div>`:''}
+              ${e.fond?`<div style="font-size:10px;color:#1d4ed8;margin-top:3px;line-height:1.4">📖 ${e.fond}</div>`:""}
               <div style="font-size:10px;color:#ef4444;margin-top:3px;line-height:1.4">⚠️ ${e.sf}</div>
-              ${e.aefe?`<a class="ei-aefe" href="${e.aefe}" target="_blank" onclick="event.stopPropagation()" style="margin-top:3px;display:inline-block">↗ Source AEFE</a>`:''}`;
+              ${e.aefe?`<a class="ei-aefe" href="${e.aefe}" target="_blank" onclick="event.stopPropagation()" style="margin-top:3px;display:inline-block">↗ Source AEFE</a>`:""}`;
             ul.appendChild(d2);
           });
           document.getElementById('ep-nb').textContent=p.etabs.length+' actifs + '+fermeEtabs.length+' fermé'+(fermeEtabs.length>1?'s':'');
@@ -1002,7 +1019,107 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
     })
     .append('title').text(d=>d.properties.name||'');
 
-  // ── ÎLES FRANÇAISES INVISIBLES — marqueurs fixes dans mapG ──
+  // ── EMPLOIS — talents.aefe.fr ──
+// Quelques offres statiques de secours (option B) — à mettre à jour mensuellement
+const EMPLOIS_STATIQUES=[
+  {titre:"Professeur de Mathématiques",etab:"Lycée Descartes",ville:"Rabat",pays:"Morocco",pays_nom:"Maroc",contrat:"CDI",url:"https://talents.aefe.fr/fr/annonces",date:"2026"},
+  {titre:"Professeur de Mathématiques",etab:"Lycée Balzac",ville:"Le Caire",pays:"Egypt",pays_nom:"Égypte",contrat:"CDI",url:"https://talents.aefe.fr/fr/annonces",date:"2026"},
+  {titre:"Professeur de Mathématiques",etab:"Lycée Jules-Verne",ville:"San José Pinula",pays:"Guatemala",pays_nom:"Guatemala",contrat:"CDI",url:"https://talents.aefe.fr/fr/annonces",date:"2026"},
+  {titre:"Professeur de Mathématiques",etab:"LF Sophie Germain",ville:"Rabat",pays:"Morocco",pays_nom:"Maroc",contrat:"CDI",url:"https://talents.aefe.fr/fr/annonces",date:"2026"},
+  {titre:"Professeur de Mathématiques",etab:"LF Louis-Pasteur",ville:"Bogota",pays:"Colombia",pays_nom:"Colombie",contrat:"CDI",url:"https://talents.aefe.fr/fr/annonces",date:"2026"},
+  {titre:"Professeur de Mathématiques",etab:"Lycée Blaise-Pascal",ville:"Libreville",pays:"Gabon",pays_nom:"Gabon",contrat:"CDI",url:"https://talents.aefe.fr/fr/annonces",date:"2026"},
+  {titre:"Professeur de Mathématiques",etab:"LF d'Accra",ville:"Accra",pays:"Ghana",pays_nom:"Ghana",contrat:"CDI",url:"https://talents.aefe.fr/fr/annonces",date:"2026"},
+  {titre:"Professeur de Mathématiques",etab:"LF Gustave-Eiffel",ville:"Maputo",pays:"Mozambique",pays_nom:"Mozambique",contrat:"CDI",url:"https://talents.aefe.fr/fr/annonces",date:"2026"},
+  {titre:"Professeur de Mathématiques",etab:"LFI Las Terrenas",ville:"Las Terrenas",pays:"Dominican Republic",pays_nom:"Rep. dominicaine",contrat:"CDI",url:"https://talents.aefe.fr/fr/annonces",date:"2026"},
+  {titre:"Professeur de Mathématiques",etab:"LFM México",ville:"Mexico",pays:"Mexico",pays_nom:"Mexique",contrat:"CDI",url:"https://talents.aefe.fr/fr/annonces",date:"2026"},
+];
+
+// Cache global du JSON emplois (chargé une seule fois)
+let EMPLOIS_CACHE=null;
+
+async function loadEmploisJSON(){
+  if(EMPLOIS_CACHE) return EMPLOIS_CACHE;
+  try {
+    const r=await fetch('./emplois.json',{signal:AbortSignal.timeout(6000)});
+    if(r.ok){ EMPLOIS_CACHE=await r.json(); return EMPLOIS_CACHE; }
+  } catch(e){}
+  return null;
+}
+
+async function showEmplois(p){
+  const panel=document.getElementById('emplois-panel');
+  const list=document.getElementById('emplois-list');
+  const nb=document.getElementById('emplois-nb');
+  const lien=document.getElementById('emplois-link');
+  panel.style.display='';
+  document.getElementById('bottom-panels').classList.add('with-emplois');
+  list.innerHTML='<div style="font-size:11px;color:#94a3b8;text-align:center;padding:12px">\uD83D\uDD0D Recherche des offres...</div>';
+  nb.textContent='';
+  lien.href='https://talents.aefe.fr/fr/annonces';
+  lien.textContent='\u2192 Voir toutes les offres sur talents.aefe.fr';
+
+  const data=await loadEmploisJSON();
+
+  if(data && data.offers && data.offers.length>0){
+    const nomLower=p.nom.toLowerCase();
+    const filtered=data.offers.filter(o=>{
+      const paysO=(o.pays||'').toLowerCase();
+      const villeO=(o.ville||'').toLowerCase();
+      return paysO.includes(nomLower.slice(0,5))||
+             nomLower.includes(paysO.slice(0,5))||
+             villeO.includes(nomLower.slice(0,4));
+    });
+    if(filtered.length>0){
+      const maj=data.updated?'<div style="font-size:10px;color:#94a3b8;text-align:right;margin-bottom:4px">Mis \u00e0 jour : '+data.updated+'</div>':'';
+      list.innerHTML=maj;
+      afficherOffres(filtered.slice(0,10),list,nb,p);
+      lien.href='https://talents.aefe.fr/fr/annonces?location='+encodeURIComponent(p.nom);
+      lien.textContent='\u2192 Voir toutes les offres pour '+p.nom+' sur talents.aefe.fr';
+      return;
+    } else {
+      list.innerHTML='<div style="font-size:11px;color:#64748b;text-align:center;padding:16px;line-height:1.6">Aucun poste actuellement pour '+p.nom+'<br><span style="font-size:10px;color:#94a3b8">Mis \u00e0 jour : '+(data.updated||'?')+'</span></div>';
+      nb.textContent='0 offre';
+      return;
+    }
+  }
+
+  // Fallback statique
+  const offresStatiques=EMPLOIS_STATIQUES.filter(o=>
+    o.pays_nom===p.nom||o.ville.toLowerCase().includes(p.nom.toLowerCase().slice(0,4))
+  );
+  if(offresStatiques.length>0){
+    list.innerHTML='<div style="font-size:10px;color:#f59e0b;margin-bottom:6px">\u26A0\uFE0F Donn\u00e9es de d\u00e9monstration</div>';
+    afficherOffres(offresStatiques,list,nb,p);
+  } else {
+    list.innerHTML='<div style="font-size:11px;color:#64748b;text-align:center;padding:16px;line-height:1.6">Aucune offre connue pour '+p.nom+'<br><a href="https://talents.aefe.fr/fr/annonces" target="_blank" style="color:#1d4ed8;font-weight:500">\u2192 Chercher sur talents.aefe.fr</a></div>';
+    nb.textContent='0 offre';
+  }
+}
+
+function afficherOffres(offres,list,nb,p){
+  nb.textContent=offres.length+' offre'+(offres.length>1?'s':"" );
+  list.innerHTML='';
+  offres.forEach(o=>{
+    const d=document.createElement('div');
+    d.style.cssText='background:#f8fafc;border:1px solid #e2e8f0;border-radius:7px;padding:7px 10px;border-left:3px solid #22c55e';
+    d.innerHTML=`
+      <div style="font-size:12px;font-weight:600;color:#0f172a;margin-bottom:2px">${o.titre}</div>
+      <div style="font-size:11px;color:#64748b">${[o.etab,o.ville].filter(Boolean).join(" · ")}</div>
+      ${o.contrat?`<span style="font-size:9px;background:#dcfce7;color:#166534;padding:1px 5px;border-radius:3px;margin-top:3px;display:inline-block">${o.contrat}</span>`:""}
+      <a href="${o.url}" target="_blank" 
+         style="display:block;font-size:10px;color:#1d4ed8;margin-top:4px;text-decoration:none">\u2192 Voir l\u2019offre</a>`;
+    list.appendChild(d);
+  });
+  // Bouton voir tout
+  const more=document.createElement('a');
+  more.href=`https://talents.aefe.fr/fr/annonces?location=${encodeURIComponent(p.nom)}`;
+  more.target='_blank';
+  more.style.cssText='display:block;text-align:center;font-size:11px;color:#1d4ed8;padding:6px;border:1px dashed #bfdbfe;border-radius:6px;text-decoration:none;margin-top:2px';
+  more.textContent='→ Toutes les offres pour '+p.nom;
+  list.appendChild(more);
+}
+
+
   // Coordonnées réelles mais affichées légèrement agrandies pour visibilité
   const ILES_FR=[
     // Territoires français hors AEFE
@@ -1069,7 +1186,7 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
       const r=box.getBoundingClientRect();
       tip.style.left=(ev.clientX-r.left+12)+'px';
       tip.style.top=(ev.clientY-r.top-34)+'px';
-      tip.textContent=(p.zone==='fr_om'?'🇫🇷 ':'')+(p.nom||ile.nom)+' — '+(p.zone==='fr_om'?'Territoire français':p.centre);
+      tip.textContent=(p.zone==='fr_om'?'🇫🇷 ':"" )+(p.nom||ile.nom)+' — '+(p.zone==='fr_om'?'Territoire français':p.centre);
       tip.style.opacity='1';
       ev.stopPropagation();
     })
@@ -1083,6 +1200,7 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
       d3.selectAll('.country').classed('sel',false);
       showPays(ile.key,p);
       showElist(p);
+      showEmplois(p);
       document.getElementById('bottom-panels').classList.add('visible');
       document.getElementById('btn-back').style.display='flex';
       // Zoom sur l'île
@@ -1138,6 +1256,8 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
     document.getElementById('pp').style.display='none';
     document.getElementById('ep').style.display='none';
     document.getElementById('ed').style.display='none';
+    document.getElementById('emplois-panel').style.display='none';
+    document.getElementById('bottom-panels').classList.remove('with-emplois');
   }
 
   document.getElementById('btn-back').addEventListener('click', resetToWorld);
