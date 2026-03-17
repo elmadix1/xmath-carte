@@ -14,21 +14,19 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install Chrome
+      - name: Install Chrome + Selenium
         run: |
-          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
           sudo apt-get update -q
           sudo apt-get install -y google-chrome-stable
-
-      - name: Install dependencies
-        run: pip install selenium webdriver-manager
+          pip install selenium
 
       - name: Run scraper
         run: python scrape_emplois.py
@@ -37,6 +35,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add emplois.json
           git diff --staged --quiet || git commit -m "Update emplois.json $(date +'%Y-%m-%d')"
           git push
