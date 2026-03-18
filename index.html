@@ -1053,27 +1053,22 @@ async function showEmplois(p){
   const lien=document.getElementById('emplois-link');
   panel.style.display='';
   document.getElementById('bottom-panels').classList.add('with-emplois');
-  list.innerHTML='<div style="font-size:11px;color:#94a3b8;text-align:center;padding:12px">\uD83D\uDD0D Recherche des offres...</div>';
+  list.innerHTML='<div style="font-size:11px;color:#94a3b8;text-align:center;padding:12px">🔍 Recherche des offres...</div>';
   nb.textContent='';
   lien.href='https://talents.aefe.fr/fr/annonces';
-  lien.textContent='\u2192 Voir toutes les offres sur talents.aefe.fr';
+  lien.textContent='→ Voir toutes les offres sur talents.aefe.fr';
 
   const data=await loadEmploisJSON();
 
   if(data && data.offers && data.offers.length>0){
-    // Filtre par pays (champ pays maintenant rempli par le scraper)
     const nomLower=p.nom.toLowerCase();
-    const filtered=data.offers.filter(o=>{
-      const paysO=(o.pays||'').toLowerCase();
-      if(!paysO) return false;
-      return paysO===nomLower;
-    });
-    const maj=data.updated?'<div style="font-size:10px;color:#94a3b8;text-align:right;margin-bottom:4px">Mis à jour : '+data.updated+'</div>':'';
+    const filtered=data.offers.filter(o=>(o.pays||'').toLowerCase()===nomLower);
+    const maj=data.updated?'<div style="font-size:10px;color:#94a3b8;text-align:right;margin-bottom:6px">Source : talents.aefe.fr · Mis à jour : '+data.updated+'</div>':'';
     list.innerHTML=maj;
     if(filtered.length>0){
       afficherOffres(filtered.slice(0,20),list,nb,p);
       lien.href='https://talents.aefe.fr/fr/annonces?location='+encodeURIComponent(p.nom);
-      lien.textContent='\u2192 Voir toutes les offres pour '+p.nom+' sur talents.aefe.fr';
+      lien.textContent='→ Voir toutes les offres pour '+p.nom+' sur talents.aefe.fr';
     } else {
       list.innerHTML=maj+'<div style="font-size:11px;color:#64748b;text-align:center;padding:16px;line-height:1.6">Aucun poste actuellement pour '+p.nom+'<br><span style="font-size:10px;color:#94a3b8">Mis à jour : '+(data.updated||'?')+'</span></div>';
       nb.textContent='0 offre';
@@ -1082,36 +1077,50 @@ async function showEmplois(p){
   }
 
   // Fallback statique
-  const offresStatiques=EMPLOIS_STATIQUES.filter(o=>
-    o.pays_nom===p.nom
-  );
+  const offresStatiques=EMPLOIS_STATIQUES.filter(o=>o.pays_nom===p.nom);
   if(offresStatiques.length>0){
-    list.innerHTML='<div style="font-size:10px;color:#f59e0b;margin-bottom:6px">\u26A0\uFE0F Données de démonstration</div>';
+    list.innerHTML='<div style="font-size:10px;color:#f59e0b;margin-bottom:6px">⚠️ Données de démonstration</div>';
     afficherOffres(offresStatiques,list,nb,p);
   } else {
-    list.innerHTML='<div style="font-size:11px;color:#64748b;text-align:center;padding:16px;line-height:1.6">Aucune offre connue pour '+p.nom+'<br><a href="https://talents.aefe.fr/fr/annonces" target="_blank" style="color:#1d4ed8;font-weight:500">\u2192 Chercher sur talents.aefe.fr</a></div>';
+    list.innerHTML='<div style="font-size:11px;color:#64748b;text-align:center;padding:16px;line-height:1.6">Aucune offre connue pour '+p.nom+'<br><a href="https://talents.aefe.fr/fr/annonces" target="_blank" style="color:#1d4ed8;font-weight:500">→ Chercher sur talents.aefe.fr</a></div>';
     nb.textContent='0 offre';
   }
 }
 
 function afficherOffres(offres,list,nb,p){
-  nb.textContent=offres.length+' offre'+(offres.length>1?'s':"");
+  nb.textContent=offres.length+' offre'+(offres.length>1?'s':'');
+  const aujourdhui=new Date();
   offres.forEach(o=>{
     const d=document.createElement('div');
-    d.style.cssText='background:#f8fafc;border:1px solid #e2e8f0;border-radius:7px;padding:7px 10px;border-left:3px solid #22c55e;margin-bottom:6px';
+    d.style.cssText='background:#f8fafc;border:1px solid #e2e8f0;border-radius:7px;padding:8px 10px;border-left:3px solid #22c55e;margin-bottom:6px';
+
+    // Badge date + "Nouveau" si < 30 jours
+    let dateBadge='';
+    if(o.date){
+      const parts=o.date.split('/'); // "01/02/2026"
+      const dateOffre=new Date(parts[2],parts[1]-1,parts[0]);
+      const diffJours=Math.floor((aujourdhui-dateOffre)/(1000*60*60*24));
+      const couleur=diffJours<=14?'#dcfce7':'diffJours<=30?#fef3c7':'#f1f5f9';
+      const texte=diffJours<=14?'🟢 Nouveau · '+o.date:diffJours<=30?'🟡 '+o.date:'📅 '+o.date;
+      dateBadge=`<span style="font-size:9px;padding:1px 6px;border-radius:3px;background:${diffJours<=14?'#dcfce7':diffJours<=30?'#fef3c7':'#f1f5f9'};color:${diffJours<=14?'#166534':diffJours<=30?'#92400e':'#64748b'};margin-left:4px">${texte}</span>`;
+    }
+
     d.innerHTML=`
-      <div style="font-size:12px;font-weight:600;color:#0f172a;margin-bottom:2px">${o.titre}</div>
-      <div style="font-size:11px;color:#64748b">${[o.etab,o.ville].filter(Boolean).join(" · ")}</div>
-      ${o.contrat?`<span style="font-size:9px;background:#dcfce7;color:#166534;padding:1px 5px;border-radius:3px;margin-top:3px;display:inline-block">${o.contrat}</span>`:""}
-      <a href="${o.url}" target="_blank"
-         style="display:block;font-size:10px;color:#1d4ed8;margin-top:4px;text-decoration:none">\u2192 Voir l\u2019offre</a>`;
+      <div style="font-size:12px;font-weight:600;color:#0f172a;margin-bottom:3px;line-height:1.4">${o.titre}</div>
+      <div style="font-size:11px;color:#64748b;display:flex;align-items:center;flex-wrap:wrap;gap:4px">
+        ${o.ville?'<span>'+o.ville+'</span>':''}
+        ${o.contrat?`<span style="font-size:9px;background:#dbeafe;color:#1e40af;padding:1px 5px;border-radius:3px">${o.contrat}</span>`:''}
+        ${dateBadge}
+      </div>
+      <div style="font-size:9px;color:#94a3b8;margin-top:3px">Source : talents.aefe.fr</div>
+      <a href="${o.url}" target="_blank" style="display:block;font-size:10px;color:#1d4ed8;margin-top:4px;text-decoration:none">→ Voir l'offre</a>`;
     list.appendChild(d);
   });
   const more=document.createElement('a');
   more.href=`https://talents.aefe.fr/fr/annonces?location=${encodeURIComponent(p.nom)}`;
   more.target='_blank';
-  more.style.cssText='display:block;text-align:center;font-size:11px;color:#1d4ed8;padding:6px;border:1px dashed #bfdbfe;border-radius:6px;text-decoration:none;margin-top:2px';
-  more.textContent='→ Toutes les offres pour '+p.nom;
+  more.style.cssText='display:block;text-align:center;font-size:11px;color:#1d4ed8;padding:6px;border:1px dashed #bfdbfe;border-radius:6px;text-decoration:none;margin-top:4px';
+  more.textContent='→ Toutes les offres pour '+p.nom+' sur talents.aefe.fr';
   list.appendChild(more);
 }
 
