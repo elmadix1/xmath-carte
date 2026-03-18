@@ -249,7 +249,7 @@ def scrape_fiche(url):
     return result
 
 
-def scrape_all_fiches_parallel(urls, workers=5):
+def scrape_all_fiches_parallel(urls, workers=15):
     """Phase 2 : visite toutes les fiches en parallèle."""
     print(f"\nScraping de {len(urls)} fiches en parallèle ({workers} workers)...")
     results = []
@@ -320,7 +320,7 @@ def main():
     # ────────────────────────────────────
 
     # Phase 2 : scraper les fiches en parallèle
-    etabs = scrape_all_fiches_parallel(urls, workers=5)
+    etabs = scrape_all_fiches_parallel(urls, workers=15)
 
     # Phase 3 : géocodage
     etabs = geocode_all(etabs)
