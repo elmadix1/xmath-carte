@@ -14,8 +14,10 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager
 
 BASE = "https://aefe.gouv.fr"
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
@@ -28,7 +30,8 @@ def make_driver():
     opts.add_argument("--disable-gpu")
     opts.add_argument("--window-size=1920,1080")
     opts.add_argument("--lang=fr-FR")
-    return webdriver.Chrome(options=opts)
+    service = Service(ChromeDriverManager().install())
+    return webdriver.Chrome(service=service, options=opts)
 
 # ── PHASE 1 : récupérer toutes les URLs d'établissements ──────────────────────
 

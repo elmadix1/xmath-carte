@@ -2,7 +2,7 @@ name: Scrape Etablissements AEFE
 
 on:
   schedule:
-    - cron: '0 3 * * 0'  # Chaque dimanche à 3h du matin (hebdo suffit)
+    - cron: '0 3 * * 0'  # Chaque dimanche à 3h du matin
   workflow_dispatch:       # Déclenchement manuel depuis GitHub
 
 jobs:
@@ -20,9 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install selenium requests
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser chromium-chromedriver
+          pip install selenium webdriver-manager requests
 
       - name: Run scraper
         run: python scrape_etabs.py
