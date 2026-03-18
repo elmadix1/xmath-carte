@@ -324,7 +324,8 @@ def geocode(nom, ville, pays):
         time.sleep(1)  # Respecter la limite Nominatim (1 req/sec)
     return None
 
-CACHE_FILE = "coords_cache.json"
+import os as _os
+CACHE_FILE = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "coords_cache.json")
 
 def load_cache():
     try:
