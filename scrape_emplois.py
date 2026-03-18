@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json, time, re
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -95,8 +96,9 @@ def make_driver():
     opts.add_argument("--lang=fr-FR")
     return webdriver.Chrome(options=opts)
 
-def get_date_publication(driver, url):
-    """Visite la page de l'offre et extrait la date dans <p class="html-block__published-at-text">"""
+def fetch_date_for_offer(url):
+    """Driver dédié pour récupérer la date d'une offre (utilisé en parallèle)."""
+    driver = make_driver()
     try:
         driver.get(url)
         WebDriverWait(driver, 10).until(
@@ -105,12 +107,14 @@ def get_date_publication(driver, url):
         )
         elems = driver.find_elements(By.CSS_SELECTOR, "p.html-block__published-at-text")
         if elems:
-            texte = elems[0].text.strip()  # ex: "Publiée le 01/02/2026"
+            texte = elems[0].text.strip()
             m = re.search(r'(\d{2}/\d{2}/\d{4})', texte)
             if m:
-                return m.group(1)  # "01/02/2026"
+                return m.group(1)
     except:
         pass
+    finally:
+        driver.quit()
     return ""
 
 def parse_cards(driver):
@@ -149,12 +153,12 @@ def parse_cards(driver):
             pass
     return offers
 
-def scrape():
+def scrape_all_cards():
+    """Phase 1 : un seul driver récupère toutes les cards."""
     driver = make_driver()
     all_offers = []
     page = 1
     try:
-        # ── Phase 1 : récupérer toutes les cards ──
         print(f"Chargement {BASE}/fr/annonces ...")
         driver.get(f"{BASE}/fr/annonces")
         try:
@@ -190,36 +194,63 @@ def scrape():
             time.sleep(0.3)
             driver.execute_script("arguments[0].click();", next_btn)
             page += 1
-            if page > 2:  # TEST - remettre 40 pour la prod
+            if page > 200:
                 break
-
-        # ── Phase 2 : visiter chaque offre pour la date ──
-        print(f"\nRécupération des dates pour {len(all_offers)} offres...")
-        for i, offer in enumerate(all_offers):
-            offer["date"] = get_date_publication(driver, offer["url"])
-            if (i + 1) % 50 == 0:
-                print(f"  {i+1}/{len(all_offers)} dates récupérées...")
-            time.sleep(0.5)
-        print("  Toutes les dates récupérées.")
-
     except Exception as e:
-        print(f"Erreur: {e}")
+        print(f"Erreur phase 1: {e}")
         import traceback; traceback.print_exc()
     finally:
         driver.quit()
+    return all_offers
 
-    # Trier par ID décroissant (plus récent en premier)
-    all_offers.sort(key=lambda o: o.get("id", 0), reverse=True)
+def fetch_all_dates_parallel(all_offers, workers=5):
+    """Phase 2 : 5 drivers Chrome en parallèle pour récupérer les dates."""
+    print(f"\nRécupération des dates en parallèle ({workers} workers) pour {len(all_offers)} offres...")
+    dates = {}
+    completed = 0
+
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        future_to_url = {
+            executor.submit(fetch_date_for_offer, offer["url"]): offer["url"]
+            for offer in all_offers
+        }
+        for future in as_completed(future_to_url):
+            url = future_to_url[future]
+            try:
+                date = future.result()
+            except Exception:
+                date = ""
+            dates[url] = date
+            completed += 1
+            if completed % 50 == 0:
+                print(f"  {completed}/{len(all_offers)} dates récupérées...")
+
+    # Injecter les dates dans les offres
+    for offer in all_offers:
+        offer["date"] = dates.get(offer["url"], "")
+
+    print("  Toutes les dates récupérées.")
     return all_offers
 
 def main():
-    print(f"=== Scraping talents.aefe.fr - {datetime.now().strftime('%Y-%m-%d %H:%M')} ===")
-    all_offers = scrape()
-    print(f"Total: {len(all_offers)} offres")
+    start = datetime.now()
+    print(f"=== Scraping talents.aefe.fr - {start.strftime('%Y-%m-%d %H:%M')} ===")
 
+    # Phase 1 : récupérer toutes les cards (1 driver séquentiel)
+    all_offers = scrape_all_cards()
+    print(f"Total cards: {len(all_offers)} offres")
+
+    # Phase 2 : récupérer les dates (5 drivers en parallèle)
+    all_offers = fetch_all_dates_parallel(all_offers, workers=5)
+
+    # Trier par ID décroissant (plus récent en premier)
+    all_offers.sort(key=lambda o: o.get("id", 0), reverse=True)
+
+    # Stats
     sans_date = sum(1 for o in all_offers if not o["date"])
     sans_pays = sum(1 for o in all_offers if not o["pays"])
-    print(f"Sans date: {sans_date} | Sans pays: {sans_pays}")
+    duree = (datetime.now() - start).seconds // 60
+    print(f"Sans date: {sans_date} | Sans pays: {sans_pays} | Durée: {duree} min")
 
     output = {
         "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -228,7 +259,7 @@ def main():
     }
     with open("emplois.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    print("Sauvegarde emplois.json")
+    print("Sauvegarde emplois.json ✓")
     for o in all_offers[:5]:
         print(f"  - {o['titre']} ({o['ville']}) [{o['pays']}] — {o['date']}")
 
