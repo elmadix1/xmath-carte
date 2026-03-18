@@ -1115,29 +1115,6 @@ function afficherOffres(offres,list,nb,p){
   list.appendChild(more);
 }
 
-function afficherOffres(offres,list,nb,p){
-  nb.textContent=offres.length+' offre'+(offres.length>1?'s':"" );
-  list.innerHTML='';
-  offres.forEach(o=>{
-    const d=document.createElement('div');
-    d.style.cssText='background:#f8fafc;border:1px solid #e2e8f0;border-radius:7px;padding:7px 10px;border-left:3px solid #22c55e';
-    d.innerHTML=`
-      <div style="font-size:12px;font-weight:600;color:#0f172a;margin-bottom:2px">${o.titre}</div>
-      <div style="font-size:11px;color:#64748b">${[o.etab,o.ville].filter(Boolean).join(" · ")}</div>
-      ${o.contrat?`<span style="font-size:9px;background:#dcfce7;color:#166534;padding:1px 5px;border-radius:3px;margin-top:3px;display:inline-block">${o.contrat}</span>`:""}
-      <a href="${o.url}" target="_blank" 
-         style="display:block;font-size:10px;color:#1d4ed8;margin-top:4px;text-decoration:none">\u2192 Voir l\u2019offre</a>`;
-    list.appendChild(d);
-  });
-  // Bouton voir tout
-  const more=document.createElement('a');
-  more.href=`https://talents.aefe.fr/fr/annonces?location=${encodeURIComponent(p.nom)}`;
-  more.target='_blank';
-  more.style.cssText='display:block;text-align:center;font-size:11px;color:#1d4ed8;padding:6px;border:1px dashed #bfdbfe;border-radius:6px;text-decoration:none;margin-top:2px';
-  more.textContent='→ Toutes les offres pour '+p.nom;
-  list.appendChild(more);
-}
-
 
   // Coordonnées réelles mais affichées légèrement agrandies pour visibilité
   const ILES_FR=[
