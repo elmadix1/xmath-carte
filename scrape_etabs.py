@@ -130,6 +130,7 @@ def scrape_fiche(url):
         "bac": False,
         "niveaux": [],
         "nb_eleves": "",
+        "coords": None,
     }
     try:
         driver.get(url)
@@ -199,46 +200,76 @@ def scrape_fiche(url):
             result["niveaux"] = niveaux
         except: pass
 
-        # Site web
+        # Site web — chercher le lien "Site web" dans la section contact
         try:
-            site_links = driver.find_elements(By.CSS_SELECTOR, "a[href^='http']")
-            for link in site_links:
-                href = link.get_attribute("href") or ""
-                if ("aefe.gouv.fr" not in href and
-                    "facebook" not in href and
-                    "twitter" not in href and
-                    "linkedin" not in href and
-                    "bsky.app" not in href and
-                    "instagram" not in href and
-                    "youtube" not in href and
-                    "legifrance" not in href and
-                    "gouvernement" not in href and
-                    "service-public" not in href and
-                    "data.gouv" not in href and
-                    len(href) > 10):
-                    result["site"] = href
+            # Chercher spécifiquement le label "Site web" puis le lien suivant
+            page_source = driver.page_source
+            # Pattern : après "Site web", trouver le premier lien http externe
+            m = re.search(r'Site web.*?href="(https?://[^"]+)"', page_source, re.DOTALL)
+            if m:
+                site = m.group(1)
+                # Exclure les liens AEFE, réseaux sociaux et bibliothèques JS
+                excluded = ["aefe.gouv.fr", "facebook", "twitter", "linkedin",
+                           "bsky.app", "instagram", "youtube", "legifrance",
+                           "gouvernement", "service-public", "data.gouv",
+                           "leafletjs.com", "openstreetmap", "cdnjs"]
+                if not any(ex in site for ex in excluded):
+                    result["site"] = site
+        except: pass
+
+        # Adresse — chercher le texte après le label "Adresse"
+        try:
+            page_text = driver.find_element(By.CSS_SELECTOR, "main, .node__content").text
+            # Pattern : "Adresse\n[contenu de l'adresse]\nContact" ou "Adresse\n[contenu]\n"
+            m = re.search(r'Adresse\s*\n(.+?)(?:\nContact|\nSite web|\nHaut de page)', page_text, re.DOTALL)
+            if m:
+                adresse = m.group(1).strip()
+                if adresse and adresse != "Adresse" and len(adresse) > 5:
+                    result["adresse"] = adresse
+        except: pass
+
+        # Téléphone — chercher dans le bloc Contact
+        try:
+            page_text = driver.find_element(By.CSS_SELECTOR, "main, .node__content").text
+            m = re.search(r'Contact\s*\n([\d\s\+\-\.\(\)]{6,})', page_text)
+            if m:
+                result["telephone"] = m.group(1).strip()
+        except: pass
+
+        # Email — chercher le vrai mailto (pas le lien de partage)
+        try:
+            email_links = driver.find_elements(By.CSS_SELECTOR, "a[href^='mailto:']")
+            for el in email_links:
+                href = el.get_attribute("href") or ""
+                email = href.replace("mailto:", "")
+                # Le vrai email ne contient pas de "subject=" ni de "%"
+                if "@" in email and "subject" not in email and "%" not in email:
+                    result["email"] = email
                     break
         except: pass
 
-        # Adresse
+        # Coordonnées GPS — extraites depuis le JS Leaflet dans le source HTML
         try:
-            adresse_el = driver.find_element(By.XPATH, "//*[contains(text(),'Adresse')]/following-sibling::*[1] | //*[contains(@class,'adresse')]")
-            result["adresse"] = adresse_el.text.strip()
-        except: pass
-
-        # Téléphone
-        try:
-            tel_el = driver.find_element(By.XPATH, "//*[contains(text(),'Contact')]/following-sibling::*[1]")
-            text = tel_el.text.strip()
-            m = re.search(r'[\d\s\+\-\.]{8,}', text)
+            source = driver.page_source
+            # Leaflet initialise la carte avec L.map(...).setView([lat, lon], zoom)
+            m = re.search(r'setView\s*\(\s*\[\s*([-\d.]+)\s*,\s*([-\d.]+)\s*\]', source)
             if m:
-                result["telephone"] = m.group(0).strip()
+                lat = float(m.group(1))
+                lon = float(m.group(2))
+                result["coords"] = [lon, lat]
+            else:
+                # Autre pattern : marker.setLatLng([lat, lon]) ou L.marker([lat, lon])
+                m2 = re.search(r'L\.marker\s*\(\s*\[\s*([-\d.]+)\s*,\s*([-\d.]+)\s*\]', source)
+                if m2:
+                    lat = float(m2.group(1))
+                    lon = float(m2.group(2))
+                    result["coords"] = [lon, lat]
         except: pass
 
-        # Email
+        # Nombre d'élèves
         try:
-            email_link = driver.find_element(By.CSS_SELECTOR, "a[href^='mailto:']")
-            result["email"] = email_link.get_attribute("href").replace("mailto:", "")
+            nb_el = driver.find_element(By.CSS_SELECTOR, "p.aefe-chiffre-cle__chiffre")
+            result["nb_eleves"] = nb_el.text.strip()
         except: pass
 
     except Exception as e:
@@ -249,7 +280,7 @@ def scrape_fiche(url):
     return result
 
 
-def scrape_all_fiches_parallel(urls, workers=15):
+def scrape_all_fiches_parallel(urls, workers=5):
     """Phase 2 : visite toutes les fiches en parallèle."""
     print(f"\nScraping de {len(urls)} fiches en parallèle ({workers} workers)...")
     results = []
@@ -316,14 +347,14 @@ def main():
     urls = get_all_etab_urls()
     print(f"\nTotal URLs trouvées : {len(urls)}")
 
+    # ── MODE TEST : limiter à 20 fiches ──
     # Commenter ces 2 lignes pour la prod
+    print("MODE TEST : limitation à 20 fiches")
+    urls = urls[:20]
     # ────────────────────────────────────
 
     # Phase 2 : scraper les fiches en parallèle
-    etabs = scrape_all_fiches_parallel(urls, workers=15)
-
-    # Phase 3 : géocodage
-    etabs = geocode_all(etabs)
+    etabs = scrape_all_fiches_parallel(urls, workers=5)
 
     # Stats
     avec_brevet = sum(1 for e in etabs if e.get("brevet"))
