@@ -324,16 +324,42 @@ def geocode(nom, ville, pays):
         time.sleep(1)  # Respecter la limite Nominatim (1 req/sec)
     return None
 
+CACHE_FILE = "coords_cache.json"
+
+def load_cache():
+    try:
+        import json as _json
+        with open(CACHE_FILE, encoding="utf-8") as f:
+            return _json.load(f)
+    except:
+        return {}
+
+def save_cache(cache):
+    import json as _json
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        _json.dump(cache, f, ensure_ascii=False, indent=2)
+
+def cache_key(url):
+    return url.rstrip("/").split("/")[-1]
+
 def geocode_all(etabs):
-    """Phase 3 : géocode tous les établissements sans coordonnées."""
-    print(f"\nGéocodage de {len(etabs)} établissements...")
+    """Phase 3 : géocode avec cache."""
+    cache = load_cache()
+    nouveaux = 0
+    print(f"\nGéocodage avec cache ({len(cache)} entrées existantes)...")
     for i, e in enumerate(etabs):
-        if not e.get("coords"):
+        key = cache_key(e.get("url_aefe", ""))
+        if key in cache:
+            e["coords"] = cache[key]
+        else:
             coords = geocode(e.get("nom",""), e.get("ville",""), e.get("pays",""))
             e["coords"] = coords
-        if (i + 1) % 50 == 0:
-            print(f"  {i+1}/{len(etabs)} géocodés...")
-    print("  Géocodage terminé.")
+            cache[key] = coords
+            nouveaux += 1
+            if nouveaux % 10 == 0:
+                save_cache(cache)
+    save_cache(cache)
+    print(f"  Géocodage terminé. {nouveaux} nouveaux / {len(cache)} en cache.")
     return etabs
 
 
