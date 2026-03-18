@@ -380,8 +380,8 @@ def main():
     # Phase 2 : scraper les fiches en parallèle
     etabs = scrape_all_fiches_parallel(urls, workers=15)
 
-    # Phase 3 : géocodage avec cache
-    etabs = geocode_all(etabs)
+    # Phase 3 : géocodage avec cache (TEST: 5 premiers)
+    etabs = geocode_all(etabs[:5]) + etabs[5:]
 
     # Stats
     avec_brevet = sum(1 for e in etabs if e.get("brevet"))
