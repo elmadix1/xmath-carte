@@ -316,10 +316,7 @@ def main():
     urls = get_all_etab_urls()
     print(f"\nTotal URLs trouvées : {len(urls)}")
 
-    # ── MODE TEST : limiter à 20 fiches ──
     # Commenter ces 2 lignes pour la prod
-    print("MODE TEST : limitation à 20 fiches")
-    urls = urls[:20]
     # ────────────────────────────────────
 
     # Phase 2 : scraper les fiches en parallèle
