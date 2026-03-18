@@ -190,7 +190,7 @@ def scrape():
             time.sleep(0.3)
             driver.execute_script("arguments[0].click();", next_btn)
             page += 1
-            if page > 40:
+            if page > 2:  # TEST - remettre 40 pour la prod
                 break
 
         # ── Phase 2 : visiter chaque offre pour la date ──
