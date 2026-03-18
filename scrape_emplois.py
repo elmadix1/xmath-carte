@@ -24,11 +24,9 @@ PAYS_NORM = {
     "ZAMBIE": "Zambie", "ZIMBABWE": "Zimbabwe", "ILE MAURICE": "Île Maurice",
     "ÎLE MAURICE": "Île Maurice", "SEYCHELLES": "Seychelles",
     "COMORES": "Comores", "MAURITANIE": "Mauritanie", "GUINEE": "Guinée",
-    "GUINÉE": "Guinée", "LIBERIA": "Liberia",
-    "REP. CENTRAFRICAINE": "Rep. centrafricaine",
-    "RD CONGO": "RD Congo", "REPUBLIQUE DEMOCRATIQUE DU CONGO": "RD Congo",
-    "REPUBLIQUE DU CONGO": "Congo-Brazzaville",
-    "CONGO-BRAZZAVILLE": "Congo-Brazzaville",
+    "GUINÉE": "Guinée", "REP. CENTRAFRICAINE": "Rep. centrafricaine",
+    "REPUBLIQUE DEMOCRATIQUE DU CONGO": "RD Congo", "RD CONGO": "RD Congo",
+    "REPUBLIQUE DU CONGO": "Congo-Brazzaville", "CONGO-BRAZZAVILLE": "Congo-Brazzaville",
     "ESPAGNE": "Espagne", "ALLEMAGNE": "Allemagne", "ITALIE": "Italie",
     "PORTUGAL": "Portugal", "BELGIQUE": "Belgique", "PAYS-BAS": "Pays-Bas",
     "SUISSE": "Suisse", "LUXEMBOURG": "Luxembourg", "AUTRICHE": "Autriche",
@@ -58,7 +56,6 @@ PAYS_NORM = {
     "URUGUAY": "Uruguay", "PARAGUAY": "Paraguay", "VENEZUELA": "Venezuela",
     "GUATEMALA": "Guatemala", "CUBA": "Cuba", "HAITI": "Haïti", "HAÏTI": "Haïti",
     "REPUBLIQUE DOMINICAINE": "Rép. dominicaine",
-    "REPÚBLICA DOMINICAINE": "Rép. dominicaine",
     "SALVADOR": "Salvador", "PANAMA": "Panama", "NICARAGUA": "Nicaragua",
     "HONDURAS": "Honduras", "COSTA RICA": "Costa Rica",
     "ALBANIE": "Albanie", "SERBIE": "Serbie", "CROATIE": "Croatie",
@@ -78,13 +75,15 @@ PAYS_NORM = {
 }
 
 def extract_pays(titre):
-    """Extrait le pays depuis un titre AEFE type '... - VILLE - PAYS'"""
     titre_up = titre.upper()
-    # Trier par longueur décroissante pour matcher d'abord les noms longs
     for pays_key in sorted(PAYS_NORM.keys(), key=len, reverse=True):
         if pays_key in titre_up:
             return PAYS_NORM[pays_key]
     return ""
+
+def extract_id(url):
+    m = re.search(r'/annonce/(\d+)-', url)
+    return int(m.group(1)) if m else 0
 
 def make_driver():
     opts = Options()
@@ -95,6 +94,24 @@ def make_driver():
     opts.add_argument("--window-size=1920,1080")
     opts.add_argument("--lang=fr-FR")
     return webdriver.Chrome(options=opts)
+
+def get_date_publication(driver, url):
+    """Visite la page de l'offre et extrait la date dans <p class="html-block__published-at-text">"""
+    try:
+        driver.get(url)
+        WebDriverWait(driver, 10).until(
+            lambda d: len(d.find_elements(By.CSS_SELECTOR, "p.html-block__published-at-text")) > 0
+                      or len(d.find_elements(By.CSS_SELECTOR, "h1")) > 0
+        )
+        elems = driver.find_elements(By.CSS_SELECTOR, "p.html-block__published-at-text")
+        if elems:
+            texte = elems[0].text.strip()  # ex: "Publiée le 01/02/2026"
+            m = re.search(r'(\d{2}/\d{2}/\d{4})', texte)
+            if m:
+                return m.group(1)  # "01/02/2026"
+    except:
+        pass
+    return ""
 
 def parse_cards(driver):
     offers = []
@@ -112,12 +129,22 @@ def parse_cards(driver):
             except:
                 titre = a.text.strip() or "Poste"
             footer_items = [li.text.strip() for li in card.find_elements(By.CSS_SELECTOR, "ul.job-ad-card__description__footer li") if li.text.strip()]
-            ville = footer_items[0] if len(footer_items) > 0 else ""
-            contrat = footer_items[1] if len(footer_items) > 1 else ""
+            ville      = footer_items[0] if len(footer_items) > 0 else ""
+            contrat    = footer_items[1] if len(footer_items) > 1 else ""
             discipline = footer_items[2] if len(footer_items) > 2 else ""
-            pays = extract_pays(titre)
-            offers.append({"titre": titre, "etab": "", "ville": ville, "pays": pays,
-                           "contrat": contrat, "discipline": discipline, "date": "", "url": href})
+            pays     = extract_pays(titre)
+            id_offre = extract_id(href)
+            offers.append({
+                "id": id_offre,
+                "titre": titre,
+                "etab": "",
+                "ville": ville,
+                "pays": pays,
+                "contrat": contrat,
+                "discipline": discipline,
+                "date": "",
+                "url": href
+            })
         except:
             pass
     return offers
@@ -127,16 +154,17 @@ def scrape():
     all_offers = []
     page = 1
     try:
+        # ── Phase 1 : récupérer toutes les cards ──
         print(f"Chargement {BASE}/fr/annonces ...")
         driver.get(f"{BASE}/fr/annonces")
-        print("Attente chargement...")
         try:
             WebDriverWait(driver, 20).until(
                 lambda d: len(d.find_elements(By.CSS_SELECTOR, "div.job-ad-card-wrapper")) > 0
             )
-            print("  Cartes chargees")
+            print("  Cartes chargées")
         except:
             print("  Timeout")
+
         while True:
             time.sleep(2)
             cards = parse_cards(driver)
@@ -164,30 +192,45 @@ def scrape():
             page += 1
             if page > 40:
                 break
+
+        # ── Phase 2 : visiter chaque offre pour la date ──
+        print(f"\nRécupération des dates pour {len(all_offers)} offres...")
+        for i, offer in enumerate(all_offers):
+            offer["date"] = get_date_publication(driver, offer["url"])
+            if (i + 1) % 50 == 0:
+                print(f"  {i+1}/{len(all_offers)} dates récupérées...")
+            time.sleep(0.5)
+        print("  Toutes les dates récupérées.")
+
     except Exception as e:
         print(f"Erreur: {e}")
         import traceback; traceback.print_exc()
     finally:
         driver.quit()
+
+    # Trier par ID décroissant (plus récent en premier)
+    all_offers.sort(key=lambda o: o.get("id", 0), reverse=True)
     return all_offers
 
 def main():
     print(f"=== Scraping talents.aefe.fr - {datetime.now().strftime('%Y-%m-%d %H:%M')} ===")
     all_offers = scrape()
     print(f"Total: {len(all_offers)} offres")
-    # Stats par pays
-    pays_count = {}
-    for o in all_offers:
-        p = o["pays"] or "Inconnu"
-        pays_count[p] = pays_count.get(p, 0) + 1
-    print(f"Pays détectés: {len([k for k in pays_count if k != 'Inconnu'])}")
-    print(f"Sans pays: {pays_count.get('Inconnu', 0)}")
-    output = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"), "total": len(all_offers), "offers": all_offers}
+
+    sans_date = sum(1 for o in all_offers if not o["date"])
+    sans_pays = sum(1 for o in all_offers if not o["pays"])
+    print(f"Sans date: {sans_date} | Sans pays: {sans_pays}")
+
+    output = {
+        "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "total": len(all_offers),
+        "offers": all_offers
+    }
     with open("emplois.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     print("Sauvegarde emplois.json")
     for o in all_offers[:5]:
-        print(f"  - {o['titre']} ({o['ville']}) [{o['pays']}]")
+        print(f"  - {o['titre']} ({o['ville']}) [{o['pays']}] — {o['date']}")
 
 if __name__ == "__main__":
     main()
