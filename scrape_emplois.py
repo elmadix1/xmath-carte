@@ -66,23 +66,25 @@ def scrape():
             print(f"  Page {page}: +{len(new)} offres (total: {len(all_offers)})")
             if not new:
                 break
+            # Bouton suivant : button.pagination__controls avec chevron_right
             next_btn = None
-            for btn in driver.find_elements(By.TAG_NAME, "button"):
-                if btn.text.strip() in [">", "Suivant", "Next"] and btn.is_displayed() and btn.is_enabled():
-                    next_btn = btn
-                    break
-            if not next_btn:
-                for sel in ["button[aria-label*='uivant']", "button[aria-label*='ext']", ".pagination__next"]:
-                    btns = [b for b in driver.find_elements(By.CSS_SELECTOR, sel) if b.is_displayed() and b.is_enabled()]
-                    if btns:
-                        next_btn = btns[0]
-                        break
+            btns = driver.find_elements(By.CSS_SELECTOR, "button.pagination__controls")
+            for btn in btns:
+                try:
+                    if btn.find_elements(By.CSS_SELECTOR, "span[data-icon-type='chevron_right']"):
+                        if btn.is_displayed() and btn.is_enabled() and btn.get_attribute("disabled") is None:
+                            next_btn = btn
+                            break
+                except:
+                    pass
             if not next_btn:
                 print("  Fin pagination")
                 break
+            driver.execute_script("arguments[0].scrollIntoView(true);", next_btn)
+            time.sleep(0.3)
             driver.execute_script("arguments[0].click();", next_btn)
             page += 1
-            if page > 30:
+            if page > 40:
                 break
     except Exception as e:
         print(f"Erreur: {e}")
