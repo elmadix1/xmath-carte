@@ -280,7 +280,7 @@ def scrape_fiche(url):
     return result
 
 
-def scrape_all_fiches_parallel(urls, workers=5):
+def scrape_all_fiches_parallel(urls, workers=15):
     """Phase 2 : visite toutes les fiches en parallèle."""
     print(f"\nScraping de {len(urls)} fiches en parallèle ({workers} workers)...")
     results = []
@@ -347,14 +347,11 @@ def main():
     urls = get_all_etab_urls()
     print(f"\nTotal URLs trouvées : {len(urls)}")
 
-    # ── MODE TEST : limiter à 20 fiches ──
     # Commenter ces 2 lignes pour la prod
-    print("MODE TEST : limitation à 20 fiches")
-    urls = urls[:20]
     # ────────────────────────────────────
 
     # Phase 2 : scraper les fiches en parallèle
-    etabs = scrape_all_fiches_parallel(urls, workers=5)
+    etabs = scrape_all_fiches_parallel(urls, workers=15)
 
     # Stats
     avec_brevet = sum(1 for e in etabs if e.get("brevet"))
