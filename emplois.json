@@ -1,5 +1,206 @@
 {
-  "updated": "2026-03-17 22:49",
-  "total": 0,
-  "offers": []
+  "updated": "2026-03-18 00:44",
+  "total": 20,
+  "offers": [
+    {
+      "titre": "Professeur de SVT - F/H - Lycée Franco-Mexicain - CDMX - Mexique",
+      "etab": "",
+      "ville": "Ciudad de México",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4281285-professeur-de-svt-fh-lycee-franco-mexicain-cdmx-mexique-11530-ciudad-de-mexico"
+    },
+    {
+      "titre": "Professeur Lettres et Hist-géo - F/H - MONTENEGRO - PODGORICA",
+      "etab": "",
+      "ville": "Podgorica",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4249035-professeur-lettres-et-hist-geo-fh-montenegro-podgorica-podgorica"
+    },
+    {
+      "titre": "Conseiller Principal d'Éducation F/H",
+      "etab": "",
+      "ville": "Cuernavaca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4280985-conseiller-principal-deducation-fh-62227-cuernavaca"
+    },
+    {
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Cuernavaca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4280955-professeur-des-ecoles-fh-62227-cuernavaca"
+    },
+    {
+      "titre": "Professeur du secondaire PLP Français Histoire Géographie ou certifié HG ou Fr",
+      "etab": "",
+      "ville": "Essaouira",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4280803-professeur-du-secondaire-plp-francais-histoire-geographie-ou-certifie-hg-ou-fr-essaouira"
+    },
+    {
+      "titre": "Professeur du Second Degré - Technologies - F/H - SINGAPOUR",
+      "etab": "",
+      "ville": "Singapore",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de technologie F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4280631-professeur-du-second-degre-technologies-fh-singapour-singapore"
+    },
+    {
+      "titre": "Professeur du Second Degré - ANGLAIS - F/H - MUMBAI - INDE",
+      "etab": "",
+      "ville": "Mumbai",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4012247-professeur-du-second-degre-anglais-fh-mumbai-inde-400013-mumbai"
+    },
+    {
+      "titre": "Professeur du Second Degré EPS - F/H - DUBAI - EMIRATS ARABES UNIS",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4280385-professeur-du-second-degre-eps-fh-dubai-emirats-arabes-unis-dubai"
+    },
+    {
+      "titre": "Assistante de Direction- F/H - EGD - Lycée Gustave Flaubert – LA MARSA - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4280297-assistante-de-direction-fh-egd-lycee-gustave-flaubert-la-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "titre": "Professeur d'Histoire géographie - F/H - DUBAI - EMIRATS ARABES UNIS",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4280279-professeur-dhistoire-geographie-fh-dubai-emirats-arabes-unis-dubai"
+    },
+    {
+      "titre": "Professeur d'Anglais - F/H - EGD - Lycée Gustave Flaubert – LA MARSA - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4280251-professeur-danglais-fh-egd-lycee-gustave-flaubert-la-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "titre": "Professeur du second degré - Mathématiques - F/H - DUBAI - EMIRATS ARABES UNIS",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4280247-professeur-du-second-degre-mathematiques-fh-dubai-emirats-arabes-unis-dubai"
+    },
+    {
+      "titre": "Professeur des écoles - F/H - SHENZHEN - CHINE",
+      "etab": "",
+      "ville": "Shenzhen",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4279235-professeur-des-ecoles-fh-shenzhen-chine-shenzhen"
+    },
+    {
+      "titre": "PROFESSEUR DE SCIENCES PHYSIQUES - F/H - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4279111-professeur-de-sciences-physiques-fh-rabat-maroc-rabat"
+    },
+    {
+      "titre": "Responsable administratif - F/H - KATMANDOU - NÉPAL",
+      "etab": "",
+      "ville": "Katmandou",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Directeur Administratif et Financier F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4279069-responsable-administratif-fh-katmandou-nepal-44600-katmandou"
+    },
+    {
+      "titre": "Professeur des écoles - F/H - SHENZHEN - CHINE",
+      "etab": "",
+      "ville": "Shenzhen",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4279063-professeur-des-ecoles-fh-shenzhen-chine-shenzhen"
+    },
+    {
+      "titre": "Professeur de Lettres F/H - Jakarta-Indonésie (poste susceptible d'être vacant)",
+      "etab": "",
+      "ville": "Daerah Khusus Ibukota Jakarta",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4279057-professeur-de-lettres-fh-jakarta-indonesie-poste-susceptible-detre-vacant-kota-jakarta-selatan"
+    },
+    {
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - TOKYO - JAPON",
+      "etab": "",
+      "ville": "Kita City",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4279055-professeur-du-second-degre-mathematiques-fh-tokyo-japon-114-0023-kita-city"
+    },
+    {
+      "titre": "Professeur du Second Degré - ESPAGNOL - F/H - LFA - ALEXANDRIE - EGYPTE",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4278967-professeur-du-second-degre-espagnol-fh-lfa-alexandrie-egypte-alexandria"
+    },
+    {
+      "titre": "Professeur des écoles - F/H - STUTTGART - ALLEMAGNE",
+      "etab": "",
+      "ville": "Stuttgart",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4278815-professeur-des-ecoles-fh-stuttgart-allemagne-70619-stuttgart"
+    }
+  ]
 }
