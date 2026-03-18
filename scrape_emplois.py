@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, time
+import json, time, re
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -7,6 +7,84 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
 BASE = "https://talents.aefe.fr"
+
+PAYS_NORM = {
+    "MAROC": "Maroc", "TUNISIE": "Tunisie", "ALGERIE": "Algérie",
+    "ALGÉRIE": "Algérie", "EGYPTE": "Égypte", "ÉGYPTE": "Égypte",
+    "SENEGAL": "Sénégal", "SÉNÉGAL": "Sénégal",
+    "COTE D'IVOIRE": "Côte d'Ivoire", "CÔTE D'IVOIRE": "Côte d'Ivoire",
+    "COTE DIVOIRE": "Côte d'Ivoire", "CAMEROUN": "Cameroun",
+    "GABON": "Gabon", "MADAGASCAR": "Madagascar", "KENYA": "Kenya",
+    "TANZANIE": "Tanzanie", "ANGOLA": "Angola", "MOZAMBIQUE": "Mozambique",
+    "AFRIQUE DU SUD": "Afrique du Sud", "NIGER": "Niger", "MALI": "Mali",
+    "TCHAD": "Tchad", "BURKINA FASO": "Burkina Faso", "TOGO": "Togo",
+    "BENIN": "Bénin", "BÉNIN": "Bénin", "GHANA": "Ghana", "NIGERIA": "Nigéria",
+    "RWANDA": "Rwanda", "BURUNDI": "Burundi", "OUGANDA": "Ouganda",
+    "ETHIOPIE": "Éthiopie", "ÉTHIOPIE": "Éthiopie", "DJIBOUTI": "Djibouti",
+    "ZAMBIE": "Zambie", "ZIMBABWE": "Zimbabwe", "ILE MAURICE": "Île Maurice",
+    "ÎLE MAURICE": "Île Maurice", "SEYCHELLES": "Seychelles",
+    "COMORES": "Comores", "MAURITANIE": "Mauritanie", "GUINEE": "Guinée",
+    "GUINÉE": "Guinée", "LIBERIA": "Liberia",
+    "REP. CENTRAFRICAINE": "Rep. centrafricaine",
+    "RD CONGO": "RD Congo", "REPUBLIQUE DEMOCRATIQUE DU CONGO": "RD Congo",
+    "REPUBLIQUE DU CONGO": "Congo-Brazzaville",
+    "CONGO-BRAZZAVILLE": "Congo-Brazzaville",
+    "ESPAGNE": "Espagne", "ALLEMAGNE": "Allemagne", "ITALIE": "Italie",
+    "PORTUGAL": "Portugal", "BELGIQUE": "Belgique", "PAYS-BAS": "Pays-Bas",
+    "SUISSE": "Suisse", "LUXEMBOURG": "Luxembourg", "AUTRICHE": "Autriche",
+    "POLOGNE": "Pologne", "HONGRIE": "Hongrie", "ROUMANIE": "Roumanie",
+    "BULGARIE": "Bulgarie", "GRECE": "Grèce", "GRÈCE": "Grèce",
+    "TURQUIE": "Turquie", "LIBAN": "Liban", "JORDANIE": "Jordanie",
+    "ARABIE SAOUDITE": "Arabie Saoudite", "EMIRATS ARABES UNIS": "Émirats Arabes Unis",
+    "ÉMIRATS ARABES UNIS": "Émirats Arabes Unis", "EAU": "Émirats Arabes Unis",
+    "QATAR": "Qatar", "KOWEIT": "Koweït", "KOWEÏT": "Koweït",
+    "BAHREIN": "Bahreïn", "BAHREÏN": "Bahreïn", "OMAN": "Oman",
+    "ISRAEL": "Israël", "IRAN": "Iran", "IRAK": "Irak",
+    "CHINE": "Chine", "JAPON": "Japon", "VIETNAM": "Vietnam",
+    "CAMBODGE": "Cambodge", "THAILANDE": "Thaïlande", "THAÏLANDE": "Thaïlande",
+    "INDONESIE": "Indonésie", "INDONÉSIE": "Indonésie",
+    "SINGAPOUR": "Singapour", "MALAISIE": "Malaisie", "PHILIPPINES": "Philippines",
+    "INDE": "Inde", "NEPAL": "Népal", "NÉPAL": "Népal",
+    "BANGLADESH": "Bangladesh", "SRI LANKA": "Sri Lanka", "AUSTRALIE": "Australie",
+    "COREE DU SUD": "Corée du Sud", "CORÉE DU SUD": "Corée du Sud",
+    "TAIWAN": "Taiwan", "MONGOLIE": "Mongolie", "LAOS": "Laos",
+    "MYANMAR": "Myanmar", "VANUATU": "Vanuatu",
+    "ETATS UNIS": "États-Unis", "ETATS-UNIS": "États-Unis",
+    "ÉTATS-UNIS": "États-Unis", "ÉTATS UNIS": "États-Unis",
+    "CANADA": "Canada", "MEXIQUE": "Mexique", "BRESIL": "Brésil",
+    "BRÉSIL": "Brésil", "ARGENTINE": "Argentine", "CHILI": "Chili",
+    "COLOMBIE": "Colombie", "PEROU": "Pérou", "PÉROU": "Pérou",
+    "BOLIVIE": "Bolivie", "EQUATEUR": "Équateur", "ÉQUATEUR": "Équateur",
+    "URUGUAY": "Uruguay", "PARAGUAY": "Paraguay", "VENEZUELA": "Venezuela",
+    "GUATEMALA": "Guatemala", "CUBA": "Cuba", "HAITI": "Haïti", "HAÏTI": "Haïti",
+    "REPUBLIQUE DOMINICAINE": "Rép. dominicaine",
+    "REPÚBLICA DOMINICAINE": "Rép. dominicaine",
+    "SALVADOR": "Salvador", "PANAMA": "Panama", "NICARAGUA": "Nicaragua",
+    "HONDURAS": "Honduras", "COSTA RICA": "Costa Rica",
+    "ALBANIE": "Albanie", "SERBIE": "Serbie", "CROATIE": "Croatie",
+    "SLOVAQUIE": "Slovaquie", "RUSSIE": "Russie", "UKRAINE": "Ukraine",
+    "GEORGIE": "Géorgie", "GÉORGIE": "Géorgie", "ARMENIE": "Arménie",
+    "ARMÉNIE": "Arménie", "LITUANIE": "Lituanie", "LETTONIE": "Lettonie",
+    "SUEDE": "Suède", "SUÈDE": "Suède", "NORVEGE": "Norvège", "NORVÈGE": "Norvège",
+    "DANEMARK": "Danemark", "IRLANDE": "Irlande",
+    "ROYAUME-UNI": "Royaume-Uni", "ROYAUME UNI": "Royaume-Uni",
+    "CHYPRE": "Chypre", "MONTENEGRO": "Monténégro", "MONTÉNÉGRO": "Monténégro",
+    "BOSNIE-HERZEGOVINE": "Bosnie-Herzégovine", "BOSNIE": "Bosnie-Herzégovine",
+    "MACEDOINE": "Macédoine du Nord", "MACÉDOINE": "Macédoine du Nord",
+    "KOSOVO": "Kosovo", "UZBEKISTAN": "Ouzbékistan", "OUZBEKISTAN": "Ouzbékistan",
+    "KAZAKHSTAN": "Kazakhstan", "TURKMENISTAN": "Turkménistan",
+    "SLOVENIE": "Slovénie", "SLOVÉNIE": "Slovénie",
+    "FINLANDE": "Finlande", "MONACO": "Monaco",
+}
+
+def extract_pays(titre):
+    """Extrait le pays depuis un titre AEFE type '... - VILLE - PAYS'"""
+    titre_up = titre.upper()
+    # Trier par longueur décroissante pour matcher d'abord les noms longs
+    for pays_key in sorted(PAYS_NORM.keys(), key=len, reverse=True):
+        if pays_key in titre_up:
+            return PAYS_NORM[pays_key]
+    return ""
 
 def make_driver():
     opts = Options()
@@ -37,7 +115,8 @@ def parse_cards(driver):
             ville = footer_items[0] if len(footer_items) > 0 else ""
             contrat = footer_items[1] if len(footer_items) > 1 else ""
             discipline = footer_items[2] if len(footer_items) > 2 else ""
-            offers.append({"titre": titre, "etab": "", "ville": ville, "pays": "",
+            pays = extract_pays(titre)
+            offers.append({"titre": titre, "etab": "", "ville": ville, "pays": pays,
                            "contrat": contrat, "discipline": discipline, "date": "", "url": href})
         except:
             pass
@@ -66,7 +145,6 @@ def scrape():
             print(f"  Page {page}: +{len(new)} offres (total: {len(all_offers)})")
             if not new:
                 break
-            # Bouton suivant : button.pagination__controls avec chevron_right
             next_btn = None
             btns = driver.find_elements(By.CSS_SELECTOR, "button.pagination__controls")
             for btn in btns:
@@ -97,12 +175,19 @@ def main():
     print(f"=== Scraping talents.aefe.fr - {datetime.now().strftime('%Y-%m-%d %H:%M')} ===")
     all_offers = scrape()
     print(f"Total: {len(all_offers)} offres")
+    # Stats par pays
+    pays_count = {}
+    for o in all_offers:
+        p = o["pays"] or "Inconnu"
+        pays_count[p] = pays_count.get(p, 0) + 1
+    print(f"Pays détectés: {len([k for k in pays_count if k != 'Inconnu'])}")
+    print(f"Sans pays: {pays_count.get('Inconnu', 0)}")
     output = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"), "total": len(all_offers), "offers": all_offers}
     with open("emplois.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     print("Sauvegarde emplois.json")
     for o in all_offers[:5]:
-        print(f"  - {o['titre']} ({o['ville']})")
+        print(f"  - {o['titre']} ({o['ville']}) [{o['pays']}]")
 
 if __name__ == "__main__":
     main()
