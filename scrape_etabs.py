@@ -380,6 +380,10 @@ def geocode_all(etabs):
             "ecole-primaire-francaise-c-ambohibao": ("Tananarive", "MADAGASCAR"),
             "college-stanislas-annexe-de-quebec": ("Québec", "CANADA"),
             "lycee-francais-de-bali-louis-antoine-de-bougainville": ("Bali", "INDONÉSIE"),
+            "lycee-francais-de-prague": ("PRAGUE", "RÉPUBLIQUE TCHÈQUE"),
+            "college-international-francais-de-sarajevo": ("SARAJEVO", "BOSNIE-HERZÉGOVINE"),
+            "ecole-francaise-de-mongolie": ("OULAN-BATOR", "MONGOLIE"),
+            "lycee-francais-charles-de-gaulle-0": ("BANGUI", "RÉPUBLIQUE CENTRAFRICAINE"),
         }
         if key in CORRECTIONS:
             ville_fix, pays_fix = CORRECTIONS[key]
