@@ -1707,8 +1707,6 @@
     1.215829,
     6.130419
   ],
-  "ecole-la-clairefontaine": null,
-  "highgate-school": null,
   "lycee-francais-charles-de-gaulle": [
     -73.0502064,
     -36.8270698
@@ -1729,12 +1727,10 @@
     35.6092036,
     33.9663878
   ],
-  "lycee-condorcet-international-school-sydney": null,
   "college-international-francais-jean-racine": [
     10.1342046,
     36.843532
   ],
-  "ecole-francaise-damsterdam-annexe-du-lycee-vincent-van-gogh-de-la-haye": null,
   "etablissement-francais-international-edmond-albius": [
     50.2810433,
     -14.9012302
@@ -1799,7 +1795,6 @@
     8.7787919,
     -0.7151966
   ],
-  "lycee-francais-de-kuala-lumpur-henri-fauconnier": null,
   "groupe-scolaire-la-residence": [
     -7.6151744,
     33.5795673
@@ -1836,7 +1831,6 @@
     135.7681441,
     35.0115754
   ],
-  "ecole-primaire-francaise-b-ampandrianomby-et-son-annexe-lecole-primaire-francaise-d": null,
   "groupe-scolaire-honore-de-balzac": [
     -6.570169,
     34.26457
@@ -1881,56 +1875,6 @@
     -84.6418562,
     41.4849557
   ],
-  "lycee-francais-international-victor-segalen": null,
-  "redbridge-school": null,
-  "etablissement-francais-philippe-seguin": null,
-  "college-protestant-francais": null,
-  "college-mar-antonios-des-soeurs-antonines": null,
-  "ecole-maternelle-et-primaire-paul-et-virginie": null,
-  "institut-saint-dominique": null,
-  "lycee-francais-prins-henrik": null,
-  "la-farandole-internationale": null,
-  "college-de-la-mere-de-dieu": null,
-  "lycee-francais-jean-mermoz-south": null,
-  "college-des-freres": null,
-  "ecole-francaise-de-gaulle-adenauer": null,
-  "ecole-francaise-docteur-rene-guillet": null,
-  "lycee-louis-pasteur-0": null,
-  "college-des-filles-de-la-charite-dar-en-nour": null,
-  "lycee-francais-sadi-carnot": null,
-  "lycee-franco-hellenique-eugene-delacroix": null,
-  "ecole-franco-americaine-du-puget-sound": null,
-  "ecole-al-massalik": null,
-  "lycee-francais-international-de-la-havane-alejo-carpentier": null,
-  "groupe-scolaire-michel-foucault": null,
-  "lycee-franco-americain-international-school": null,
-  "ecole-francaise-de-hambourg-antoine-de-saint-exupery": null,
-  "lycee-gustave-flaubert": null,
-  "ecole-francaise-internationale-de-katmandou": null,
-  "enseignement-francais-chinois-le-phoenix": null,
-  "lycee-francais-alioune-blondin-beye": null,
-  "ecole-francaise-francois-rabelais": null,
-  "lycee-francais-anne-de-kyiv": null,
-  "lycee-lyautey": null,
-  "la-petite-ecole": null,
-  "ecole-paul-cezanne": null,
-  "college-saint-gregoire-affilie-au-college-notre-dame-de-jamhour": null,
-  "ecole-primaire-francaise-de-fort-dauphin": null,
-  "auburn-high-school": null,
-  "paradis-denfants-ghadir": null,
-  "petite-ecole-dhydra": null,
-  "lycee-franco-argentin-jean-mermoz": null,
-  "lycee-international-francais-charlemagne": null,
-  "isc-el-menzah": null,
-  "ecole-albert-camus": null,
-  "lycee-rochambeau-french-international-school": null,
-  "lycee-francais-du-cap-francois-le-vaillant": null,
-  "ecole-franco-senegalaise": null,
-  "ecole-maternelle-privee-lile-aux-enfants": null,
-  "taipei-european-school-lycee-francais-de-taipei": null,
-  "ecole-la-clairefontaine-0": null,
-  "lycee-francais-international-de-delhi": null,
-  "college-de-la-sainte-famille-francaise": null,
   "lycee-francais-mlf-de-bahrein": [
     50.6164127,
     26.2465946
@@ -1983,12 +1927,6 @@
     14.3281625,
     10.6033083
   ],
-  "lycee-moliere": null,
-  "etablissement-francois-dassise-nicolas-barre": null,
-  "ecole-maternelle-franco-australienne-red-hill": null,
-  "ecole-primaire-mlf-comilog": null,
-  "charles-baudelaire-lumiere-de-connaissance": null,
-  "lycee-francais-de-chicago": null,
   "lycee-international-de-houston": [
     -95.6612023,
     29.789025
@@ -2060,51 +1998,5 @@
   "les-lilas-french-bilingual-community-school": [
     -122.163494,
     47.7279683
-  ],
-  "lycee-louis-massignon": null,
-  "lycee-francais-de-caracas-colegio-francia": null,
-  "le-petit-poucet": null,
-  "lycee-francais-international-samuel-beckett": null,
-  "college-carmel-saint-joseph": null,
-  "ecole-privee-notre-dame-sainte-sophie": null,
-  "lycee-francais-international-danvers": null,
-  "lycee-francais-de-madrid-et-son-ecole-annexe-saint-exupery": null,
-  "lycee-francais-saint-louis-de-stockholm": null,
-  "lycee-francais-theodore-monod": null,
-  "lycee-francais-charles-de-gaulle-de-londres-et-ses-ecoles-annexes": null,
-  "ecole-francaise-de-melbourne": null,
-  "ecole-simone-de-beauvoir": null,
-  "college-charles-iii": null,
-  "lycee-francais-de-djibouti": null,
-  "college-anatole-france": null,
-  "tingalpa-state-school-ecole-publique-de-tingalpa": null,
-  "academie-providence-soeurs-antonines": null,
-  "ecole-francaise-des-seychelles": null,
-  "lycee-francais-jean-mermoz-0": null,
-  "lycee-francais-international-de-bogota": null,
-  "college-notre-dame-de-nazareth": null,
-  "college-saint-exupery": null,
-  "la-petite-ecole-0": null,
-  "lycee-francais-international-de-malaga": null,
-  "lycee-la-bourdonnais": null,
-  "ecole-francaise-de-battambang": null,
-  "lycee-international-de-calgary": null,
-  "ecole-maternelle-franco-allemande-de-fribourg": null,
-  "lycee-francais-de-saint-domingue": null,
-  "college-mariste-champville": null,
-  "lycee-francais-international-dibiza": null,
-  "ecole-francaise-internationale-de-riyad": null,
-  "groupe-scolaire-rene-descartes": null,
-  "groupe-scolaire-grain-de-soleil": null,
-  "ecole-internationale-francaise-monastir": null,
-  "vauban-ecole-et-lycee-francais-de-luxembourg": null,
-  "ecole-internationale-jules-verne": null,
-  "ecole-francaise-internationale-de-tirana": null,
-  "ecole-voltaire": null,
-  "lycee-claudel": null,
-  "lycee-international-francais-de-vilnius": null,
-  "lycee-francais-de-san-francisco": null,
-  "lycee-francais-international-de-las-terrenas-theodore-chasseriau": null,
-  "ecole-francaise-internationale-de-bucarest": null,
-  "college-des-freres-des-ecoles-chretiennes": null
+  ]
 }

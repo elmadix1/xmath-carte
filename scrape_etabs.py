@@ -368,12 +368,13 @@ def geocode_all(etabs):
     print(f"\nGéocodage avec cache ({len(cache)} entrées existantes)...")
     for i, e in enumerate(etabs):
         key = cache_key(e.get("url_aefe", ""))
-        if key in cache:
+        if key in cache and cache[key] is not None:
             e["coords"] = cache[key]
         else:
             coords = geocode(e.get("adresse",""), e.get("ville",""), e.get("pays",""))
             e["coords"] = coords
-            cache[key] = coords
+            if coords:  # ne sauvegarder que si trouvé
+                cache[key] = coords
             nouveaux += 1
             if nouveaux % 10 == 0:
                 save_cache(cache)
