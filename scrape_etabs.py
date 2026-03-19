@@ -368,10 +368,47 @@ def geocode_all(etabs):
     print(f"\nGéocodage avec cache ({len(cache)} entrées existantes)...")
     for i, e in enumerate(etabs):
         key = cache_key(e.get("url_aefe", ""))
+        # Corrections manuelles pour établissements mal parsés
+        CORRECTIONS = {
+            "college-saint-gregoire-affilie-au-college-notre-dame-de-jamhour": ("Beyrouth", "LIBAN"),
+            "lycee-francais-de-kuala-lumpur-henri-fauconnier": ("Kuala Lumpur", "MALAISIE"),
+            "ecole-francaise-damsterdam-annexe-du-lycee-vincent-van-gogh-de-la-haye": ("Amsterdam", "PAYS-BAS"),
+            "lycee-condorcet-international-school-sydney": ("Maroubra", "AUSTRALIE"),
+            "vauban-ecole-et-lycee-francais-de-luxembourg": ("Luxembourg", "LUXEMBOURG"),
+            "ecole-primaire-francaise-b-ampandrianomby-et-son-annexe-lecole-primaire-francaise-d": ("Tananarive", "MADAGASCAR"),
+            "ecole-primaire-francaise-a-ampefiloha": ("Tananarive", "MADAGASCAR"),
+            "ecole-primaire-francaise-c-ambohibao": ("Tananarive", "MADAGASCAR"),
+            "college-stanislas-annexe-de-quebec": ("Québec", "CANADA"),
+            "lycee-francais-de-bali-louis-antoine-de-bougainville": ("Bali", "INDONÉSIE"),
+        }
+        if key in CORRECTIONS:
+            ville_fix, pays_fix = CORRECTIONS[key]
+            e["ville"] = ville_fix
+            e["pays"] = pays_fix
+
         if key in cache and cache[key] is not None:
             e["coords"] = cache[key]
         else:
-            coords = geocode(e.get("adresse",""), e.get("ville",""), e.get("pays",""))
+            # Si pays invalide (mal parsé), utiliser adresse seule
+            pays = e.get("pays","")
+            ville = e.get("ville","")
+            adresse = e.get("adresse","")
+            PAYS_VALIDES = {"FRANCE","MAROC","TUNISIE","ALGÉRIE","SÉNÉGAL","CÔTE D'IVOIRE","MADAGASCAR","CAMEROUN","GABON","MALI","BURKINA FASO","NIGER","TCHAD","CONGO","RÉPUBLIQUE DÉMOCRATIQUE DU CONGO","GUINÉE","BÉNIN","TOGO","MAURITANIE","DJIBOUTI","ÉTHIOPIE","KENYA","TANZANIE","ZIMBABWE","AFRIQUE DU SUD","ANGOLA","MOZAMBIQUE","RWANDA","BURUNDI","ZAMBIE","SEYCHELLES","MAURICE","COMORES","CAP-VERT","GAMBIE","GUINÉE-BISSAU","GHANA","NIGÉRIA","OUGANDA","ESPAGNE","PORTUGAL","ITALIE","ALLEMAGNE","BELGIQUE","LUXEMBOURG","PAYS-BAS","ROYAUME-UNI","IRLANDE","SUISSE","AUTRICHE","POLOGNE","TCHÉQUIE","SLOVAQUIE","HONGRIE","ROUMANIE","BULGARIE","GRÈCE","SUÈDE","NORVÈGE","DANEMARK","FINLANDE","CROATIE","SERBIE","SLOVÉNIE","ALBANIE","MONTÉNÉGRO","KOSOVO","MACÉDOINE DU NORD","LITUANIE","LETTONIE","ESTONIE","UKRAINE","RUSSIE","GÉORGIE","ARMÉNIE","TURQUIE","CHYPRE","MONACO","ÉGYPTE","ISRAËL","PALESTINE","LIBAN","SYRIE","JORDANIE","IRAK","IRAN","ARABIE SAOUDITE","ÉMIRATS ARABES UNIS","QATAR","KOWEÏT","BAHREÏN","OMAN","KAZAKHSTAN","OUZBÉKISTAN","TURKMÉNISTAN","CHINE","JAPON","CORÉE DU SUD","VIETNAM","THAÏLANDE","CAMBODGE","LAOS","BIRMANIE (MYANMAR)","SINGAPOUR","MALAISIE","INDONÉSIE","PHILIPPINES","TAIWAN","HONG KONG","INDE","PAKISTAN","BANGLADESH","NÉPAL","SRI LANKA","AUSTRALIE","VANUATU","ÉTATS-UNIS","CANADA","MEXIQUE","GUATEMALA","HONDURAS","NICARAGUA","COSTA RICA","PANAMA","CUBA","HAÏTI","RÉPUBLIQUE DOMINICAINE","COLOMBIE","VÉNÉZUÉLA","ÉQUATEUR","PÉROU","BOLIVIE","BRÉSIL","CHILI","ARGENTINE","URUGUAY","PARAGUAY","SALVADOR","JÉRUSALEM","MONGOLIE","BOSNIE-HERZÉGOVINE","RÉPUBLIQUE TCHÈQUE","RÉPUBLIQUE CENTRAFRICAINE","GUINÉE ÉQUATORIALE"}
+            if pays.upper() not in PAYS_VALIDES:
+                # Pays mal parsé — extraire pays depuis adresse ou nom
+                import re as _re_fix
+                # Essayer de trouver un pays connu dans l adresse
+                pays_trouve = ""
+                for p in PAYS_VALIDES:
+                    if p.lower() in adresse.lower():
+                        pays_trouve = p
+                        break
+                if pays_trouve:
+                    pays = pays_trouve
+                    ville = ""  # reset ville car mal parsée
+                else:
+                    ville = ""  # juste adresse
+            coords = geocode(adresse, ville, pays)
             e["coords"] = coords
             if coords:  # ne sauvegarder que si trouvé
                 cache[key] = coords
