@@ -310,8 +310,14 @@ def geocode(adresse, ville, pays):
     import re as _re
     headers = {"User-Agent": "xmath-academy-scraper/1.0 (contact@xmath.academy)"}
     queries = []
-    if adresse and len(adresse) > 5 and "B.P." not in adresse and "P.O." not in adresse:
-        queries.append(f"{adresse}, {pays}")
+    if adresse and len(adresse) > 5:
+        import re as _re3
+        # Nettoyer les préfixes et boites postales
+        adr = _re3.sub(r"^[^:]+:\s*", "", adresse)  # supprimer "Campus principal : "
+        adr = _re3.split(r"\.\s+", adr)[0]  # prendre avant le premier point suivi d'espace
+        adr = adr.strip()
+        if "B.P." not in adr and "P.O." not in adr and "PO Box" not in adr and len(adr) > 5:
+            queries.append(f"{adr}, {pays}")
     if ville:
         queries.append(f"{ville}, {pays}")
     if ville and "-" in ville:
