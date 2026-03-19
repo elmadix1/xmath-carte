@@ -306,14 +306,26 @@ def scrape_all_fiches_parallel(urls, workers=15):
 
 # ── PHASE 3 : géocodage via Nominatim (OpenStreetMap, gratuit) ───────────────
 
-def geocode(nom, ville, pays):
-    """Retourne [lon, lat] ou None via Nominatim."""
+def geocode(adresse, ville, pays):
+    import re as _re
     headers = {"User-Agent": "xmath-academy-scraper/1.0 (contact@xmath.academy)"}
-    queries = [
-        f"{nom}, {ville}, {pays}",
-        f"{ville}, {pays}",
-        f"{pays}",
-    ]
+    queries = []
+    if adresse and len(adresse) > 5 and "B.P." not in adresse and "P.O." not in adresse:
+        queries.append(f"{adresse}, {pays}")
+    if ville:
+        queries.append(f"{ville}, {pays}")
+    if ville and "-" in ville:
+        queries.append(f"{ville.split('-')[-1].strip()}, {pays}")
+    if ville and "(" in ville:
+        m = _re.search(r"\(([^)]+)\)", ville)
+        if m: queries.append(f"{m.group(1)}, {pays}")
+    if ville:
+        for mot in [x.strip() for x in ville.replace("-"," ").replace("(","").replace(")","").split() if len(x.strip()) > 3]:
+            queries.append(f"{mot}, {pays}")
+    if adresse:
+        mots = sorted([x for x in _re.findall(r"[A-Za-zÀ-ÿ]{5,}", adresse) if x.lower() not in ["road","street","avenue","rue","box","bis","nord","sud","est","ouest","zone","quartier","boite","postale","district","liban","france","maroc"]], key=len, reverse=True)
+        for mot in mots[:5]:
+            queries.append(f"{mot}, {pays}")
     for q in queries:
         try:
             r = requests.get(NOMINATIM, params={"q": q, "format": "json", "limit": 1}, headers=headers, timeout=5)
@@ -321,7 +333,7 @@ def geocode(nom, ville, pays):
             if data:
                 return [float(data[0]["lon"]), float(data[0]["lat"])]
         except: pass
-        time.sleep(1)  # Respecter la limite Nominatim (1 req/sec)
+        time.sleep(1)
     return None
 
 import os as _os
@@ -353,7 +365,7 @@ def geocode_all(etabs):
         if key in cache:
             e["coords"] = cache[key]
         else:
-            coords = geocode(e.get("nom",""), e.get("ville",""), e.get("pays",""))
+            coords = geocode(e.get("adresse",""), e.get("ville",""), e.get("pays",""))
             e["coords"] = coords
             cache[key] = coords
             nouveaux += 1
