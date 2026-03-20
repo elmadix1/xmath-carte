@@ -2190,5 +2190,245 @@
   "ecole-internationale-jules-verne": [
     -4.016107,
     5.320357
+  ],
+  "ecole-francaise-de-gaulle-adenauer": [
+    7.1890647,
+    50.6587371
+  ],
+  "lycee-francais-international-de-la-havane-alejo-carpentier": [
+    -82.3589631,
+    23.135305
+  ],
+  "lycee-francais-international-de-delhi": [
+    77.2090057,
+    28.6138954
+  ],
+  "vauban-ecole-et-lycee-francais-de-luxembourg": [
+    6.1296751,
+    49.8158683
+  ],
+  "auburn-high-school": [
+    145.0449327,
+    -37.8402262
+  ],
+  "lycee-francais-international-de-malaga": [
+    -4.4216366,
+    36.7213028
+  ],
+  "lycee-francais-international-dibiza": [
+    1.4197463,
+    38.9743901
+  ],
+  "ecole-primaire-francaise-b-ampandrianomby-et-son-annexe-lecole-primaire-francaise-d": [
+    47.5255809,
+    -18.9100122
+  ],
+  "lycee-francais-international-danvers": [
+    4.4194401,
+    51.2032243
+  ],
+  "college-charles-iii": [
+    7.4315747,
+    43.748122
+  ],
+  "etablissement-francais-philippe-seguin": [
+    10.6405254,
+    35.8288284
+  ],
+  "groupe-scolaire-michel-foucault": [
+    10.1948518,
+    36.8522476
+  ],
+  "ecole-voltaire": [
+    13.3570967,
+    52.5019786
+  ],
+  "ecole-internationale-francaise-monastir": [
+    10.8280511,
+    35.7707582
+  ],
+  "ecole-francaise-damsterdam-annexe-du-lycee-vincent-van-gogh-de-la-haye": [
+    4.8924534,
+    52.3730796
+  ],
+  "college-saint-exupery": [
+    -6.8408929,
+    34.0218454
+  ],
+  "lycee-francais-international-samuel-beckett": [
+    -6.2605593,
+    53.3493795
+  ],
+  "college-de-la-mere-de-dieu": [
+    31.2357257,
+    30.0443879
+  ],
+  "lycee-francais-anne-de-kyiv": [
+    30.5241361,
+    50.4500336
+  ],
+  "lycee-francais-charles-de-gaulle-de-londres-et-ses-ecoles-annexes": [
+    -0.1769534,
+    51.4952778
+  ],
+  "lycee-international-francais-de-vilnius": [
+    25.2829111,
+    54.6870458
+  ],
+  "lycee-rochambeau-french-international-school": [
+    -77.1134137,
+    39.0133886
+  ],
+  "lycee-louis-pasteur-0": [
+    -74.0510342,
+    4.6709934
+  ],
+  "ecole-francaise-de-hambourg-antoine-de-saint-exupery": [
+    9.9580909,
+    53.6045252
+  ],
+  "ecole-francaise-internationale-de-bucarest": [
+    26.102684,
+    44.4361414
+  ],
+  "ecole-primaire-mlf-comilog": [
+    13.2218993,
+    -1.554764
+  ],
+  "groupe-scolaire-grain-de-soleil": [
+    -4.016107,
+    5.320357
+  ],
+  "college-carmel-saint-joseph": [
+    35.4515609,
+    33.717943
+  ],
+  "lycee-international-francais-charlemagne": [
+    11.8503297,
+    -4.7975373
+  ],
+  "la-farandole-internationale": [
+    -3.9985353,
+    5.3711171
+  ],
+  "college-de-la-sainte-famille-francaise": [
+    35.6200633,
+    33.9741506
+  ],
+  "lycee-francais-international-de-las-terrenas-theodore-chasseriau": [
+    -69.543067,
+    19.3110142
+  ],
+  "ecole-maternelle-privee-lile-aux-enfants": [
+    -17.447938,
+    14.693425
+  ],
+  "ecole-maternelle-franco-australienne-red-hill": [
+    149.1325066,
+    -35.338228
+  ],
+  "ecole-francaise-francois-rabelais": [
+    -16.2724609,
+    12.5634929
+  ],
+  "lycee-francais-sadi-carnot": [
+    49.2913743,
+    -12.2779632
+  ],
+  "ecole-francaise-internationale-de-riyad": [
+    45.333333,
+    23.333333
+  ],
+  "tingalpa-state-school-ecole-publique-de-tingalpa": [
+    152.948963,
+    -27.365991
+  ],
+  "lycee-francais-de-saint-domingue": [
+    -69.8918436,
+    18.4713858
+  ],
+  "lycee-francais-alioune-blondin-beye": [
+    13.2439512,
+    -8.8272699
+  ],
+  "college-saint-gregoire-affilie-au-college-notre-dame-de-jamhour": [
+    35.5025585,
+    33.8892265
+  ],
+  "college-notre-dame-de-nazareth": [
+    35.5025585,
+    33.8892265
+  ],
+  "lycee-condorcet-international-school-sydney": [
+    151.2389857,
+    -33.9358151
+  ],
+  "lycee-moliere": [
+    -43.1906717,
+    -22.9307921
+  ],
+  "paradis-denfants-ghadir": [
+    35.6200633,
+    33.9741506
+  ],
+  "highgate-school": [
+    138.6237142,
+    -34.9635079
+  ],
+  "lycee-francais-de-kuala-lumpur-henri-fauconnier": [
+    101.6610621,
+    3.1856756
+  ],
+  "ecole-franco-americaine-du-puget-sound": [
+    -122.2075909,
+    47.5765294
+  ],
+  "groupe-scolaire-rene-descartes": [
+    10.1948518,
+    36.8522476
+  ],
+  "lycee-francais-prins-henrik": [
+    12.545207,
+    55.684166
+  ],
+  "lycee-franco-argentin-jean-mermoz": [
+    -58.4397673,
+    -34.5512454
+  ],
+  "ecole-simone-de-beauvoir": [
+    10.7604024,
+    34.7394361
+  ],
+  "lycee-francais-de-san-francisco": [
+    -122.4768793,
+    37.752059
+  ],
+  "ecole-la-clairefontaine-0": [
+    47.5255809,
+    -18.9100122
+  ],
+  "la-petite-ecole": [
+    103.795577,
+    1.3335872
+  ],
+  "lycee-francais-international-de-bogota": [
+    -74.0397886,
+    4.643151
+  ],
+  "lycee-francais-de-caracas-colegio-francia": [
+    -66.9146008,
+    10.5060934
+  ],
+  "college-des-freres": [
+    34.7509908,
+    32.0443395
+  ],
+  "ecole-albert-camus": [
+    -6.8237368,
+    34.0168091
+  ],
+  "college-protestant-francais": [
+    35.5025585,
+    33.8892265
   ]
 }
