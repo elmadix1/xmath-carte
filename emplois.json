@@ -1,7 +1,18 @@
 {
-  "updated": "2026-03-21 05:42",
-  "total": 651,
+  "updated": "2026-03-22 06:16",
+  "total": 641,
   "offers": [
+    {
+      "id": 4289359,
+      "titre": "Professeur Documentaliste F/H - BRATISLAVA - SLOVAQUIE",
+      "etab": "",
+      "ville": "Bratislava",
+      "pays": "Slovaquie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "21/03/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4289359-professeur-documentaliste-fh-bratislava-slovaquie-851-01-bratislava"
+    },
     {
       "id": 4289205,
       "titre": "Professeur des écoles Grande Section F/H - Los Angeles, Etats Unis",
@@ -5072,127 +5083,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "20/01/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4180107-professeur-des-ecoles-fh-cuenca-equateur-cuenca"
-    },
-    {
-      "id": 4177869,
-      "titre": "Conseiller Principal d'Éducation F/H - JAKARTA - INDONÉSIE",
-      "etab": "",
-      "ville": "Daerah Khusus Ibukota Jakarta",
-      "pays": "Indonésie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "20/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4177869-conseiller-principal-deducation-fh-jakarta-indonesie-kota-jakarta-selatan"
-    },
-    {
-      "id": 4177769,
-      "titre": "Professeur des écoles F/H - MUHARRAQ - BAHREIN",
-      "etab": "",
-      "ville": "Busaiteen",
-      "pays": "Bahreïn",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "20/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4177769-professeur-des-ecoles-fh-muharraq-bahrein-busaiteen"
-    },
-    {
-      "id": 4177749,
-      "titre": "Professeur des écoles F/H - MUHARRAQ - BAHREIN",
-      "etab": "",
-      "ville": "Busaiteen",
-      "pays": "Bahreïn",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "20/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4177749-professeur-des-ecoles-fh-muharraq-bahrein-busaiteen"
-    },
-    {
-      "id": 4177657,
-      "titre": "Professeur du Second Degré F/H - PORT-AU-PRINCE - HAITI",
-      "etab": "",
-      "ville": "Port-au-Prince",
-      "pays": "Haïti",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "19/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4177657-professeur-du-second-degre-fh-port-au-prince-haiti-port-au-prince"
-    },
-    {
-      "id": 4177467,
-      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "19/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4177467-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
-    },
-    {
-      "id": 4177445,
-      "titre": "Comptable - Intendance - YAOUNDÉ - CAMEROUN",
-      "etab": "",
-      "ville": "Yaoundé",
-      "pays": "Cameroun",
-      "contrat": "Contrat permanent",
-      "discipline": "Comptable F/H",
-      "date": "19/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4177445-comptable-intendance-yaounde-cameroun-yaounde"
-    },
-    {
-      "id": 4177415,
-      "titre": "Professeur d'Histoire Géographie - HGGSP F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "19/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4177415-professeur-dhistoire-geographie-hggsp-fh-sfax-tunisie-3062-sfax"
-    },
-    {
-      "id": 4177271,
-      "titre": "Professeur de SES - F/H - Lycée Léon l'Africain - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "19/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4177271-professeur-de-ses-fh-lycee-leon-lafricain-casablanca-maroc-20250-casablanca"
-    },
-    {
-      "id": 4177227,
-      "titre": "Professeur de lettres F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "19/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4177227-professeur-de-lettres-fh-sfax-tunisie-3062-sfax"
-    },
-    {
-      "id": 4176325,
-      "titre": "Assistant d'Éducation F/H - Lycée Louis Massignon - ABU DHABI - EAU",
-      "etab": "",
-      "ville": "Abu Dhabi",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "19/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4176325-assistant-deducation-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
-    },
-    {
-      "id": 4176281,
-      "titre": "Professeur du Second Degré - Philosophie F/H -KOWEIT - KOWEIT",
-      "etab": "",
-      "ville": "Salmiya",
-      "pays": "Koweït",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de philosophie F/H",
-      "date": "19/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4176281-professeur-du-second-degre-philosophie-fh-koweit-koweit-salmiya"
     },
     {
       "id": 4174615,
