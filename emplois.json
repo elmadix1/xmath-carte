@@ -1,7 +1,18 @@
 {
-  "updated": "2026-03-22 06:16",
-  "total": 641,
+  "updated": "2026-03-23 07:02",
+  "total": 634,
   "offers": [
+    {
+      "id": 4289615,
+      "titre": "Responsable Crèche / Maternelle - F/H – TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Directeur du primaire F/H",
+      "date": "22/03/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4289615-responsable-creche-maternelle-fh-tunis-tunisie-tunis"
+    },
     {
       "id": 4289359,
       "titre": "Professeur Documentaliste F/H - BRATISLAVA - SLOVAQUIE",
@@ -397,6 +408,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "17/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4280955-professeur-des-ecoles-fh-cuernavaca-mexique-62227-cuernavaca"
+    },
+    {
+      "id": 4280803,
+      "titre": "Professeur du secondaire PLP Français Histoire Géographie ou certifié HG ou Fr",
+      "etab": "",
+      "ville": "Essaouira",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "",
+      "url": "https://talents.aefe.fr/fr/annonce/4280803-professeur-du-secondaire-plp-francais-histoire-geographie-ou-certifie-hg-ou-fr-essaouira"
     },
     {
       "id": 4280631,
@@ -2555,17 +2577,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4241213-enseignant-specialise-fh-new-york-etats-unis-10021-new-york"
     },
     {
-      "id": 4240479,
-      "titre": "Professeur Physique Chimie susceptible d'être vacant F/H - AMSTERDAM - PAYS-BAS",
-      "etab": "",
-      "ville": "Amsterdam",
-      "pays": "Pays-Bas",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "24/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4240479-professeur-physique-chimie-susceptible-detre-vacant-fh-amsterdam-pays-bas-1075-sw-amsterdam"
-    },
-    {
       "id": 4240471,
       "titre": "Infirmier Scolaire F/H - LUANDA - ANGOLA",
       "etab": "",
@@ -3697,17 +3708,6 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "10/02/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4216297-professeur-du-2nd-degre-ses-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4215835,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H - DAKAR - SÉNÉGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "10/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4215835-professeur-du-second-degre-dhistoire-geographie-fh-dakar-senegal-dakar"
     },
     {
       "id": 4215775,
@@ -5063,28 +5063,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4181515-infirmier-scolaire-fh-hell-ville-madagascar-hell-ville"
     },
     {
-      "id": 4180763,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H - AMSTERDAM - PAYS-BAS",
-      "etab": "",
-      "ville": "Amsterdam",
-      "pays": "Pays-Bas",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "21/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4180763-professeur-du-second-degre-dhistoire-geographie-fh-amsterdam-pays-bas-1075-sw-amsterdam"
-    },
-    {
-      "id": 4180107,
-      "titre": "Professeur des écoles F/H - CUENCA - EQUATEUR",
-      "etab": "",
-      "ville": "Cuenca",
-      "pays": "Équateur",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "20/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4180107-professeur-des-ecoles-fh-cuenca-equateur-cuenca"
-    },
-    {
       "id": 4174615,
       "titre": "Professeur du Second Degré Lettres Modernes 2026/2028 - F/H- PEREIRA - COLOMBIE",
       "etab": "",
@@ -5492,17 +5470,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4134861-professeur-documentaliste-fh-tunis-tunisie-le-kram"
     },
     {
-      "id": 4132689,
-      "titre": "Professeur d'Anglais Primaire - F/H - SHANGHAI - CHINE",
-      "etab": "",
-      "ville": "Shanghai",
-      "pays": "Chine",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "05/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4132689-professeur-danglais-primaire-fh-shanghai-chine-shanghai"
-    },
-    {
       "id": 4132683,
       "titre": "Professeur du Second Degré - Anglais - SHANGHAI - CHINE",
       "etab": "",
@@ -5523,17 +5490,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "05/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4132659-professeur-du-second-degre-mathematiques-fh-shanghai-chine-shanghai"
-    },
-    {
-      "id": 4132655,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - SHANGHAI - CHINE",
-      "etab": "",
-      "ville": "Shanghai",
-      "pays": "Chine",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "05/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4132655-professeur-du-second-degre-lettres-modernes-fh-shanghai-chine-shanghai"
     },
     {
       "id": 4132653,
@@ -6493,17 +6449,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4065747-professeur-du-second-degre-physique-chimie-mathematiques-fh-cuernavaca-mexique-62227-cuernavaca"
     },
     {
-      "id": 4065429,
-      "titre": "Directeur de Crèche - F/H – TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Directeur du primaire F/H",
-      "date": "27/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4065429-directeur-de-creche-fh-tunis-tunisie-tunis"
-    },
-    {
       "id": 4064715,
       "titre": "Professeur des écoles - F/H – BUCAREST - ROUMANIE",
       "etab": "",
@@ -6559,17 +6504,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4043333-professeur-darts-plastiques-second-degre-fh-dubai-eau-dubai"
     },
     {
-      "id": 4041779,
-      "titre": "Surveillance des études (temps partiel) F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "21/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillance-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
-    },
-    {
       "id": 4040723,
       "titre": "Professeur du Second Degré - Physique Chimie - F/H - TAIPEI - TAIWAN",
       "etab": "",
@@ -6590,17 +6524,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "16/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4035559-professeur-des-ecoles-fh-hambourg-allemagne-22529-hamburg"
-    },
-    {
-      "id": 4020099,
-      "titre": "Surveillance de la pause méridienne (temps partiel) F/H - MUNICH- ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "21/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillance-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 4012247,
