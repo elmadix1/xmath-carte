@@ -1,17 +1,39 @@
 {
-  "updated": "2026-03-28 06:23",
-  "total": 644,
+  "updated": "2026-03-29 06:57",
+  "total": 639,
   "offers": [
     {
+      "id": 4301841,
+      "titre": "Enseignant(e) Ecole Primaire",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "28/03/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4301841-enseignante-ecole-primaire-bp-157-abidjan"
+    },
+    {
+      "id": 4301709,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "etab": "",
+      "ville": "Düsseldorf",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "28/03/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4301709-professeur-du-second-degre-physique-chimie-fh-40237-dusseldorf"
+    },
+    {
       "id": 4301695,
-      "titre": "Responsable de Communication vacant -F/H- Buenos Aires - Argentine",
+      "titre": "Responsable de Communication F/H Buenos Aires - Argentine",
       "etab": "",
       "ville": "BAG",
       "pays": "Argentine",
       "contrat": "Contrat permanent",
       "discipline": "Chargé de communication F/H",
       "date": "28/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4301695-responsable-de-communication-vacant-fh-buenos-aires-argentine-c1428-bag"
+      "url": "https://talents.aefe.fr/fr/annonce/4301695-responsable-de-communication-fh-buenos-aires-argentine-c1428-bag"
     },
     {
       "id": 4300947,
@@ -4718,7 +4740,7 @@
       "pays": "Paraguay",
       "contrat": "Contrat permanent",
       "discipline": "Psychologue scolaire F/H",
-      "date": "02/02/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4202387-psychologue-scolaire-fh-asuncion-paraguay-asuncion"
     },
     {
@@ -5063,61 +5085,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4193309-principal-fh-ecole-aloys-kobes-dakar-senegal-dakar"
     },
     {
-      "id": 4190859,
-      "titre": "Professeur Anglais Section internationale F/H - DAR ES SALAAM - TANZANIE",
-      "etab": "",
-      "ville": "Dar es Salaam",
-      "pays": "Tanzanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "27/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4190859-professeur-anglais-section-internationale-fh-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
-      "id": 4190759,
-      "titre": "Professeur 2nd Degré Mathématiques / NSI F/H - DAR ES SALAAM - TANZANIE",
-      "etab": "",
-      "ville": "Dar es Salaam",
-      "pays": "Tanzanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "27/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4190759-professeur-2nd-degre-mathematiques-nsi-fh-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
-      "id": 4190613,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H - DAR ES SALAAM - TANZANIE",
-      "etab": "",
-      "ville": "Dar es Salaam",
-      "pays": "Tanzanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "27/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4190613-professeur-du-second-degre-lettres-modernes-fh-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
-      "id": 4190533,
-      "titre": "Professeur du Second Degré - SES F/H - DAR ES SALAAM - TANZANIE",
-      "etab": "",
-      "ville": "Dar es Salaam",
-      "pays": "Tanzanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "27/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4190533-professeur-du-second-degre-ses-fh-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
-      "id": 4190441,
-      "titre": "Professeur Documentaliste F/H - Ecole Arthur Rimbaud - DAR ES SALAAM - TANZANIE",
-      "etab": "",
-      "ville": "Dar es Salaam",
-      "pays": "Tanzanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "27/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4190441-professeur-documentaliste-fh-ecole-arthur-rimbaud-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
       "id": 4190241,
       "titre": "Professeur des écoles - F/H - Ecole Arthur RIMBAUD - DAR ES SALAAM - TANZANIE",
       "etab": "",
@@ -5127,17 +5094,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "19/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4190241-professeur-des-ecoles-fh-ecole-arthur-rimbaud-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
-      "id": 4190177,
-      "titre": "PROFESSEUR D'ANGLAIS SECOND DEGRE F/H - PORT-AU-PRINCE - HAITI",
-      "etab": "",
-      "ville": "Port-au-Prince",
-      "pays": "Haïti",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "26/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4190177-professeur-danglais-second-degre-fh-port-au-prince-haiti-port-au-prince"
     },
     {
       "id": 4188629,
@@ -5457,17 +5413,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "19/02/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140091-professeur-physique-chimie-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4138139,
-      "titre": "Professeur d'histoire géographie et SES - F/H - VICTORIA - SEYCHELLES",
-      "etab": "",
-      "ville": "Seychelles",
-      "pays": "Seychelles",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "22/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4138139-professeur-dhistoire-geographie-et-ses-fh-victoria-seychelles-seychelles"
     },
     {
       "id": 4136515,
@@ -6753,7 +6698,7 @@
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Technicien de laboratoire F/H",
-      "date": "10/03/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/3835737-technicien-de-laboratoire-fh-rabat-maroc-rabat"
     },
     {
@@ -6940,7 +6885,7 @@
       "pays": "Allemagne",
       "contrat": "Contrat permanent",
       "discipline": "Aide maternelle F/H",
-      "date": "21/02/2026",
+      "date": "28/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3490195-educateur-asem-fh-hambourg-allemagne-22529-hamburg"
     },
     {
