@@ -1,105 +1,281 @@
 {
-  "updated": "2026-04-01 08:15",
-  "total": 635,
+  "updated": "2026-04-02 07:05",
+  "total": 640,
   "offers": [
     {
-      "id": 4307733,
-      "titre": "Professeur(e) d’EPS - EGD - Lycée Français Charles de Gaulle Ankara",
+      "id": 4310013,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H et philosophie",
       "etab": "",
-      "ville": "Ankara",
+      "ville": "Barton",
       "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
       "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307733-professeure-d-eps-egd-lycee-francais-charles-de-gaulle-ankara-golbas%C4%B1"
+      "url": "https://talents.aefe.fr/fr/annonce/4310013-professeur-du-second-degre-lettres-modernes-fh-et-philosophie-2600-barton"
     },
     {
-      "id": 4307697,
-      "titre": "Professeur du Second Degré - Arts Plastiques F/H",
+      "id": 4310001,
+      "titre": "Professeur des écoles - F/H - Lycée français international de Panama - PANAMA",
       "etab": "",
-      "ville": "Ankara",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’arts plastiques F/H",
+      "ville": "Panamá Oeste Province",
+      "pays": "Panama",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
       "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307697-professeur-du-second-degre-arts-plastiques-fh-golbas%C4%B1"
+      "url": "https://talents.aefe.fr/fr/annonce/4310001-professeur-des-ecoles-fh-lycee-francais-international-de-panama-panama-arraijan-district"
     },
     {
-      "id": 4307629,
-      "titre": "Professeur(e) d’Allemand&FLSCO - EGD - Lycée Français Charles de Gaulle Ankara",
+      "id": 4309989,
+      "titre": "Professeur des écoles (F/H) - CALGARY - CANADA",
       "etab": "",
-      "ville": "Ankara",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307629-professeure-d-allemandflsco-egd-lycee-francais-charles-de-gaulle-ankara-golbas%C4%B1"
-    },
-    {
-      "id": 4307545,
-      "titre": "Professeur(e) des écoles TPS ou TPS-PS -EGD- Lycée Français Charles de Gaulle",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "",
+      "ville": "Calgary",
+      "pays": "Canada",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307545-professeure-des-ecoles-tps-ou-tps-ps-egd-lycee-francais-charles-de-gaulle-golbas%C4%B1"
+      "url": "https://talents.aefe.fr/fr/annonce/4309989-professeur-des-ecoles-fh-calgary-canada-t2t-6g2-calgary"
+    },
+    {
+      "id": 4309931,
+      "titre": "Professeur de Lettres Modernes et Théâtre pour la rentree 2026-27",
+      "etab": "",
+      "ville": "Cambridge",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4309931-professeur-de-lettres-modernes-et-theatre-pour-la-rentree-2026-27-02140-cambridge"
+    },
+    {
+      "id": 4309817,
+      "titre": "Conseiller Principal d'Éducation F/H",
+      "etab": "",
+      "ville": "La Paz",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4309817-conseiller-principal-deducation-fh-la-paz"
+    },
+    {
+      "id": 4308675,
+      "titre": "Secrétaire de scolarité 2nd degré - F/H - MILAN - ITALIE",
+      "etab": "",
+      "ville": "Milano",
+      "pays": "Italie",
+      "contrat": "Contrat permanent",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4308675-secretaire-de-scolarite-2nd-degre-fh-milan-italie-20148-milano"
+    },
+    {
+      "id": 4308663,
+      "titre": "Enseignant d'anglais en école primaire - F/H - MILAN - ITALIE",
+      "etab": "",
+      "ville": "Milano",
+      "pays": "Italie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4308663-enseignant-danglais-en-ecole-primaire-fh-milan-italie-20148-milano"
+    },
+    {
+      "id": 4308651,
+      "titre": "Professeur de Physique-Chimie - F/H - MILAN - ITALIE",
+      "etab": "",
+      "ville": "Milano",
+      "pays": "Italie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4308651-professeur-de-physique-chimie-fh-milan-italie-20148-milano"
+    },
+    {
+      "id": 4308641,
+      "titre": "Professeur d'italien - F/H - MILAN - ITALIE",
+      "etab": "",
+      "ville": "Milano",
+      "pays": "Italie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’italien F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4308641-professeur-ditalien-fh-milan-italie-20148-milano"
+    },
+    {
+      "id": 4308635,
+      "titre": "Professeurs du second degré F/H -Mathématiques - LFI SOUSSE - TUNISIE",
+      "etab": "",
+      "ville": "Sousse",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4308635-professeurs-du-second-degre-fh-mathematiques-lfi-sousse-tunisie-4023-sousse"
+    },
+    {
+      "id": 4308625,
+      "titre": "Professeur de Lettres - F/H - MILAN - ITALIE",
+      "etab": "",
+      "ville": "Milano",
+      "pays": "Italie",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4308625-professeur-de-lettres-fh-milan-italie-20148-milano"
+    },
+    {
+      "id": 4308617,
+      "titre": "Professeur d'E.P.S. - F/H - MILAN - ITALIE",
+      "etab": "",
+      "ville": "Milano",
+      "pays": "Italie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4308617-professeur-de-p-s-fh-milan-italie-20148-milano"
+    },
+    {
+      "id": 4308081,
+      "titre": "Professeur de physique chimie-F/H - Lycée Victor Hugo -FRANCFORT -ALLEMAGNE",
+      "etab": "",
+      "ville": "Frankfurt am Main",
+      "pays": "Allemagne",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4308081-professeur-de-physique-chimie-fh-lycee-victor-hugo-francfort-allemagne-60488-frankfurt-am-main"
+    },
+    {
+      "id": 4307919,
+      "titre": "Enseignante documentaliste (1er et 2nd degré) - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4307919-enseignante-documentaliste-1er-et-2nd-degre-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
+      "id": 4307837,
+      "titre": "Professeur de Physique Chimie - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4307837-professeur-de-physique-chimie-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
+      "id": 4307779,
+      "titre": "Professeur d’Anglais - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4307779-professeur-d-anglais-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
+      "id": 4307733,
+      "titre": "Professeur d’EPS - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4307733-professeur-d-eps-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
+      "id": 4307697,
+      "titre": "Professeur du Second Degré - Arts Plastiques - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’arts plastiques F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4307697-professeur-du-second-degre-arts-plastiques-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
+      "id": 4307629,
+      "titre": "Professeur d’Allemand & FLSCO - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4307629-professeur-d-allemand-flsco-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
+      "id": 4307545,
+      "titre": "Professeur des écoles TPS ou TPS-PS - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "01/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4307545-professeur-des-ecoles-tps-ou-tps-ps-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4307491,
-      "titre": "Agent Technique Service Ecole Maternelle Expérimentée",
+      "titre": "Agent Technique Service Ecole Maternelle Expérimentée - F/H - PONDICHERY - INDE",
       "etab": "",
       "ville": "Puducherry",
-      "pays": "",
+      "pays": "Inde",
       "contrat": "Contrat permanent",
       "discipline": "Aide maternelle F/H",
       "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307491-agent-technique-service-ecole-maternelle-experimentee-puducherry"
+      "url": "https://talents.aefe.fr/fr/annonce/4307491-agent-technique-service-ecole-maternelle-experimentee-fh-pondichery-inde-puducherry"
     },
     {
       "id": 4307455,
-      "titre": "Professeur du Second Degré - Sciences (SVT/Phys./Chimie/Techno)",
+      "titre": "Professeur de Sciences (SVT/Phys./Chimie/Techno) - F/H - RANGOUN - BIRMANIE",
       "etab": "",
       "ville": "Yangon",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur du second degré F/H",
       "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307455-professeur-du-second-degre-sciences-svtphys-chimietechno-yangon"
+      "url": "https://talents.aefe.fr/fr/annonce/4307455-professeur-de-sciences-svtphys-chimietechno-fh-rangoun-birmanie-yangon"
     },
     {
       "id": 4307453,
-      "titre": "Professeur du Second Degré - Français",
+      "titre": "Professeur du Second Degré -Français -F/H -RANGOUN (YANGON) -BIRMANIE (MYANMAR)",
       "etab": "",
       "ville": "Yangon",
-      "pays": "",
+      "pays": "Myanmar",
       "contrat": "Contrat permanent",
       "discipline": "Professeur du second degré F/H",
       "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307453-professeur-du-second-degre-francais-yangon"
+      "url": "https://talents.aefe.fr/fr/annonce/4307453-professeur-du-second-degre-francais-fh-rangoun-yangon-birmanie-myanmar-yangon"
     },
     {
       "id": 4307451,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "titre": "Professeur du Second Degré d'H-G - F/H - RANGOUN (YANGON) - BIRMANIE (MYANMAR)",
       "etab": "",
       "ville": "Yangon",
-      "pays": "",
+      "pays": "Myanmar",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307451-professeur-du-second-degre-dhistoire-geographie-fh-yangon"
+      "url": "https://talents.aefe.fr/fr/annonce/4307451-professeur-du-second-degre-dh-g-fh-rangoun-yangon-birmanie-myanmar-yangon"
     },
     {
       "id": 4307449,
-      "titre": "Conseiller Principal d'Éducation F/H",
+      "titre": "Conseiller Principal d'Éducation - F/H - RANGOUN (YANGON) - BIRMANIE (MYANMAR)",
       "etab": "",
       "ville": "Yangon",
-      "pays": "",
+      "pays": "Myanmar",
       "contrat": "Contrat permanent",
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307449-conseiller-principal-deducation-fh-yangon"
+      "url": "https://talents.aefe.fr/fr/annonce/4307449-conseiller-principal-deducation-fh-rangoun-yangon-birmanie-myanmar-yangon"
     },
     {
       "id": 4306393,
@@ -650,17 +826,6 @@
       "discipline": "Sécrétaire / assistant F/H",
       "date": "25/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4295357-charge-de-coordination-au-service-des-examens-fh-madrid-espagne-28043-madrid"
-    },
-    {
-      "id": 4295131,
-      "titre": "Chargé de communication - F/H - RANGOUN (YANGON) - BIRMANIE (MYANMAR)",
-      "etab": "",
-      "ville": "Yangon",
-      "pays": "Myanmar",
-      "contrat": "Contrat permanent",
-      "discipline": "Chargé de communication F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4295131-charge-de-communication-fh-rangoun-yangon-birmanie-myanmar-yangon"
     },
     {
       "id": 4294695,
@@ -3468,17 +3633,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4235017-professeur-du-second-degre-mathematiques-fh-mumbai-inde-400013-mumbai"
     },
     {
-      "id": 4233691,
-      "titre": "Chef d'établissement (primaire et secondaire) - F/H - SIEM REAP - CAMBODGE",
-      "etab": "",
-      "ville": "Krong Siem Reap",
-      "pays": "Cambodge",
-      "contrat": "Contrat permanent",
-      "discipline": "Proviseur F/H",
-      "date": "20/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4233691-chef-detablissement-primaire-et-secondaire-fh-siem-reap-cambodge-krong-siem-reap"
-    },
-    {
       "id": 4233563,
       "titre": "Professeur du 2nd Degré - Histoire-géographie EMC/SES - F/H - CALGARY - CANADA",
       "etab": "",
@@ -3675,17 +3829,6 @@
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "16/02/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4226421-prof-deps-poste-susceptible-detre-vacant-fh-rentree-2026-rabat-maroc-rabat"
-    },
-    {
-      "id": 4226395,
-      "titre": "Professeur de physique chimie F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "16/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4226395-professeur-de-physique-chimie-fh-sfax-tunisie-3062-sfax"
     },
     {
       "id": 4226063,
@@ -4601,17 +4744,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4203121-professeur-d-histoire-geographie-fh-nicosie-chypre-2121-%CE%B1%CE%B3%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%B9%CE%B1"
     },
     {
-      "id": 4203015,
-      "titre": "Professeur Documentaliste F/H - SIEM REAP - CAMBODGE",
-      "etab": "",
-      "ville": "Krong Siem Reap",
-      "pays": "Cambodge",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "03/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4203015-professeur-documentaliste-fh-siem-reap-cambodge-krong-siem-reap"
-    },
-    {
       "id": 4202935,
       "titre": "PROFESSEUR D’ANGLAIS - F/H - NICOSIE - CHYPRE",
       "etab": "",
@@ -4621,17 +4753,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "25/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4202935-professeur-d-anglais-fh-nicosie-chypre-2121-%CE%B1%CE%B3%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%B9%CE%B1"
-    },
-    {
-      "id": 4202911,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - SIEM REAP - CAMBODGE",
-      "etab": "",
-      "ville": "Krong Siem Reap",
-      "pays": "Cambodge",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "03/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4202911-professeur-du-second-degre-mathematiques-fh-siem-reap-cambodge-krong-siem-reap"
     },
     {
       "id": 4202897,
@@ -4841,39 +4962,6 @@
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "02/02/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4199891-coordinateur-du-departement-d-eps-fh-primaire-et-secondaire-sydney-australie-2035-maroubra"
-    },
-    {
-      "id": 4199217,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H - LFA (ALEXANDRIE - ÉGYPTE)",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "30/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4199217-professeur-du-second-degre-dhistoire-geographie-fh-lfa-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4199193,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - LFA (ALEXANDRIE - ÉGYPTE)",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "30/01/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4199193-professeur-du-second-degre-mathematiques-fh-lfa-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4197423,
-      "titre": "Professeurs du second degré F/H - Toutes disciplines - LFI Sousse - Tunisie",
-      "etab": "",
-      "ville": "Sousse",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "31/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4197423-professeurs-du-second-degre-fh-toutes-disciplines-lfi-sousse-tunisie-4023-sousse"
     },
     {
       "id": 4196989,
@@ -5140,17 +5228,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4163607-professeur-des-ecoles-fh-lfige-maputo-mozambique-maputo"
     },
     {
-      "id": 4162575,
-      "titre": "Professeur des écoles F/H - Windfield International School KOH SAMUI - THAILANDE",
-      "etab": "",
-      "ville": "Koh Samui",
-      "pays": "Thaïlande",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4162575-professeur-des-ecoles-fh-windfield-international-school-koh-samui-thailande-84310-koh-samui"
-    },
-    {
       "id": 4161877,
       "titre": "Professeur d'allemand du Second Degré - F/H - BANGKOK - THAILANDE",
       "etab": "",
@@ -5371,17 +5448,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140091-professeur-physique-chimie-fh-le-caire-egypte-cairo"
     },
     {
-      "id": 4138141,
-      "titre": "Proviseur(e) adjoint(e) - Casabanca Maroc",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Proviseur adjoint F/H",
-      "date": "31/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4138141-proviseure-adjointe-casabanca-maroc-casablanca"
-    },
-    {
       "id": 4136519,
       "titre": "Professeur d'Espagnol - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -5413,17 +5479,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "18/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4136507-professeur-de-physique-chimie-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4136475,
-      "titre": "Professeur de Mathématiques - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "31/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4136475-professeur-de-mathematiques-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4136303,
@@ -6383,17 +6438,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4068421-professeur-dhistoire-geographie-fh-abidjan-cote-divoire-2-psv-abidjan"
     },
     {
-      "id": 4068009,
-      "titre": "Professeur du Second Degré Mathématiques - F/H ABIDJAN - CÔTE D'IVOIRE (2 PSV)",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "13/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4068009-professeur-du-second-degre-mathematiques-fh-abidjan-cote-divoire-2-psv-abidjan"
-    },
-    {
       "id": 4067145,
       "titre": "Professeur sciences économiques et sociales (F/H) - CASABLANCA - MAROC",
       "etab": "",
@@ -6722,6 +6766,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "05/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3654631-professeur-des-ecoles-fh-jakarta-indonesie-kota-jakarta-selatan"
+    },
+    {
+      "id": 3651243,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H - ABU DHABI - EAU",
+      "etab": "",
+      "ville": "Abu Dhabi",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "02/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3651243-professeur-du-second-degre-dhistoire-geographie-fh-abu-dhabi-eau-abu-dhabi"
     },
     {
       "id": 3630115,
