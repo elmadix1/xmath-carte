@@ -696,9 +696,11 @@ function afficherPastillesMonde(data){
   var _svg=window.svg, _proj=window.proj, _zoom=window.zoom;
   if(!_svg||!_proj) return;
   d3.selectAll('.pastilles-monde-g').remove();
-  var pastillesG=_svg.append('g').attr('class','pastilles-monde-g');
-  var currentT=d3.zoomTransform(_svg.node());
-  pastillesG.attr('transform',currentT);
+  var _mapG=window.mapG;
+  if(!_mapG) return;
+  _mapG.selectAll('.pastilles-monde-g').remove();
+  var pastillesG=_mapG.append('g').attr('class','pastilles-monde-g');
+
 
   Object.entries(DB).forEach(function(entry){
     var p=entry[1];
@@ -731,10 +733,7 @@ function afficherPastillesMonde(data){
       .text(nb>9?'9+':String(nb));
   });
 
-  // Suivre le zoom exactement comme mapG
-  _zoom.on('zoom.pastillesMonde',function(ev){
-    pastillesG.attr('transform',ev.transform);
-  });
+  // pas besoin de zoom handler - mapG suit déjà le zoom
 }
 
 async function showEmplois(p){
@@ -839,7 +838,8 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
 var svg=window.svg
     .attr('viewBox','0 0 '+W+' '+H).attr('width','100%');
   svg.append('rect').attr('width',W).attr('height',H).attr('fill','#b8d4e8');
-  const mapG=svg.append('g');
+  window.mapG=svg.append('g');
+  var mapG=window.mapG;
   const dotsG=svg.append('g');
   window.proj=d3.geoNaturalEarth1().scale(W/6.3).translate([W/2,H/2]);
 var proj=window.proj;
@@ -1194,9 +1194,7 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
   },{passive:false});
 
   window._svgReady=true;
-loadEmploisJSON().then(function(data){
-  if(data) afficherPastillesMonde(data);
-});
+  if(window.EMPLOIS_DATA_READY) afficherPastillesMonde(window.EMPLOIS_DATA_READY);
 })
 .catch(function(){document.getElementById('loader').textContent='Erreur de chargement — vérifiez votre connexion.';});
 </script>
