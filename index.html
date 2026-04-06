@@ -685,7 +685,7 @@ async function showEmplois(p){
     const maj=data.updated?'<div style="font-size:10px;color:#94a3b8;text-align:right;margin-bottom:6px">Source : talents.aefe.fr · Mis à jour : '+data.updated+'</div>':'';
     list.innerHTML=maj;
     if(filtered.length>0){
-      afficherOffres(filtered.slice(0,20),list,nb,p);
+      afficherOffres(filtered,list,nb,p);
       lien.href='https://talents.aefe.fr/fr/annonces?location='+encodeURIComponent(p.nom);
       lien.textContent='→ Voir toutes les offres pour '+p.nom+' sur talents.aefe.fr';
     } else {
