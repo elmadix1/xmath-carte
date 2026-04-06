@@ -672,7 +672,8 @@ async function loadEmploisJSON(){
 
 
 function afficherPastillesMonde(data){
-  if(!data||!data.offers||typeof svg==='undefined'||typeof proj==='undefined') return;
+  if(!data||!data.offers) return;
+  if(!window.svg||!window.proj){console.log('svg/proj pas encore prêts');return;}
   // Supprimer les anciennes pastilles
   d3.selectAll('.pastilles-monde-g').remove();
   var aujourdhui=new Date();
@@ -691,8 +692,11 @@ function afficherPastillesMonde(data){
   });
 
   // Groupe AU-DESSUS de tout, suit le zoom comme mapG
-  var pastillesG=svg.append('g').attr('class','pastilles-monde-g');
-  var currentT=d3.zoomTransform(svg.node());
+  var _svg=window.svg, _proj=window.proj, _zoom=window.zoom;
+  if(!_svg||!_proj) return;
+  d3.selectAll('.pastilles-monde-g').remove();
+  var pastillesG=_svg.append('g').attr('class','pastilles-monde-g');
+  var currentT=d3.zoomTransform(_svg.node());
   pastillesG.attr('transform',currentT);
 
   Object.entries(DB).forEach(function(entry){
@@ -700,7 +704,7 @@ function afficherPastillesMonde(data){
     if(!paysCompte[p.nom]) return;
     var etab=(p.etabs||[]).find(function(e){return e.c;});
     if(!etab) return;
-    var pt=proj([etab.c[0],etab.c[1]]);
+    var pt=_proj([etab.c[0],etab.c[1]]);
     if(!pt||isNaN(pt[0])||isNaN(pt[1])) return;
 
     var nb=paysCompte[p.nom];
@@ -727,7 +731,7 @@ function afficherPastillesMonde(data){
   });
 
   // Suivre le zoom exactement comme mapG
-  zoom.on('zoom.pastillesMonde',function(ev){
+  _zoom.on('zoom.pastillesMonde',function(ev){
     pastillesG.attr('transform',ev.transform);
   });
 }
@@ -830,15 +834,18 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
 .then(world=>{
   document.getElementById('loader').remove();
   const W=box.clientWidth||900,H=Math.round(W*0.62);
-  var svg=d3.select('#map-box').insert('svg','#tip')
+  window.svg=d3.select('#map-box').insert('svg','#tip')
+var svg=window.svg
     .attr('viewBox','0 0 '+W+' '+H).attr('width','100%');
   svg.append('rect').attr('width',W).attr('height',H).attr('fill','#b8d4e8');
   const mapG=svg.append('g');
   const dotsG=svg.append('g');
-  var proj=d3.geoNaturalEarth1().scale(W/6.3).translate([W/2,H/2]);
+  window.proj=d3.geoNaturalEarth1().scale(W/6.3).translate([W/2,H/2]);
+var proj=window.proj;
   const path=d3.geoPath().projection(proj);
 
-  const zoom=d3.zoom().scaleExtent([0.8,120]).on('zoom',function(e){
+  window.zoom=d3.zoom()
+var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
     mapG.attr('transform',e.transform);
     dotsG.attr('transform',e.transform);
     currentScale=e.transform.k;
