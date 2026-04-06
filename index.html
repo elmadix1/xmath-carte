@@ -1194,7 +1194,9 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
   },{passive:false});
 
   window._svgReady=true;
-  if(window.EMPLOIS_DATA_READY) afficherPastillesMonde(window.EMPLOIS_DATA_READY);
+loadEmploisJSON().then(function(data){
+  if(data) afficherPastillesMonde(data);
+});
 })
 .catch(function(){document.getElementById('loader').textContent='Erreur de chargement — vérifiez votre connexion.';});
 </script>
