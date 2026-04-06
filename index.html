@@ -685,14 +685,14 @@ async function showEmplois(p){
     const maj=data.updated?'<div style="font-size:10px;color:#94a3b8;text-align:right;margin-bottom:6px">Source : talents.aefe.fr · Mis à jour : '+data.updated+'</div>':'';
     list.innerHTML=maj;
     if(filtered.length>0){
-      filtered.sort(function(a,b){
-  if(!a.date && !b.date) return b.id - a.id;
-  if(!a.date) return 1;
-  if(!b.date) return -1;
-  var da=a.date.split('/'); var db=b.date.split('/');
-  var ta=new Date(da[2],da[1]-1,da[0]);
-  var tb=new Date(db[2],db[1]-1,db[0]);
-  return tb-ta;
+   filtered.sort(function(a,b){
+  function toDate(str){
+    if(!str) return new Date(0);
+    var p=str.split('/');
+    // format JJ/MM/AAAA
+    return new Date(parseInt(p[2]), parseInt(p[1])-1, parseInt(p[0]));
+  }
+  return toDate(b.date) - toDate(a.date);
 });
 afficherOffres(filtered,list,nb,p);
       lien.href='https://talents.aefe.fr/fr/annonces?location='+encodeURIComponent(p.nom);
