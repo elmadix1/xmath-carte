@@ -90,6 +90,8 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
 .sr-badge{font-size:9px;padding:1px 5px;border-radius:3px}
 .sr-empty{font-size:12px;color:#94a3b8;text-align:center;padding:20px}
 #search-detail{padding:14px;display:flex;flex-direction:column;gap:8px;font-size:12px}
+@keyframes pulse-orange{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.6;transform:scale(1.4)}}
+.pastille-new{animation:pulse-orange 1.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 </style>
 </head>
 <body>
@@ -103,10 +105,6 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
     <span id="search-clear">×</span>
   </div>
   <div class="filter-row">
-    <div id="nouvelles-offres-bandeau" style="display:none;align-items:center;gap:8px;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:8px 14px;margin-bottom:8px;font-size:12px;color:#166534;line-height:1.5">
-  <span style="font-size:16px">🟢</span>
-  <span id="nouvelles-offres-texte"></span>
-</div>
     <button class="fchip" data-f="brevet">📋 Brevet</button>
     <button class="fchip" data-f="bac">🎓 Bac</button>
     <button class="fchip" data-f="ecole">🏫 École</button>
@@ -663,115 +661,83 @@ async function loadEmploisJSON(){
   if(EMPLOIS_CACHE) return EMPLOIS_CACHE;
   try {
     const r=await fetch('./emplois.json',{signal:AbortSignal.timeout(6000)});
-    if(r.ok){EMPLOIS_CACHE=await r.json();afficherBandeauNouveautes(EMPLOIS_CACHE);afficherPastillesMonde(EMPLOIS_CACHE);return EMPLOIS_CACHE;}
+    if(r.ok){EMPLOIS_CACHE=await r.json();
+    afficherBandeauNouveautes(EMPLOIS_CACHE);
+    window.EMPLOIS_DATA_READY=EMPLOIS_CACHE;
+    if(window._svgReady) afficherPastillesMonde(EMPLOIS_CACHE);
+    return EMPLOIS_CACHE;}
   } catch(e){}
   return null;
 }
 
-  function afficherBandeauNouveautes(data){
-  if(!data||!data.offers) return;
-  var aujourdhui=new Date();
-  var seuil7=new Date(aujourdhui.getTime()-7*24*60*60*1000);
-  var seuil30=new Date(aujourdhui.getTime()-30*24*60*60*1000);
 
-  var nouvelles=[]; // < 7 jours
-  var recentes=[]; // 7-30 jours
-  var paysNouveaux=new Set();
-
-  data.offers.forEach(function(o){
-    if(!o.date) return;
-    var p=o.date.split('/');
-    if(p.length!==3) return;
-    var d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
-    if(d>=seuil7){
-      nouvelles.push(o);
-      if(o.pays) paysNouveaux.add(o.pays);
-    } else if(d>=seuil30){
-      recentes.push(o);
-    }
-  });
-
-  // Bandeau sous la recherche
-  var bandeau=document.getElementById('nouvelles-offres-bandeau');
-  var texte=document.getElementById('nouvelles-offres-texte');
-  if(bandeau&&texte&&nouvelles.length>0){
-    texte.innerHTML='<strong>'+nouvelles.length+' nouvelle'+(nouvelles.length>1?'s':'')+' offre'+(nouvelles.length>1?'s':'')+' cette semaine</strong>'
-      +' dans <strong>'+paysNouveaux.size+'</strong> pays'
-      +(recentes.length>0?' · '+recentes.length+' offre'+(recentes.length>1?'s':'')+' ce mois':'')
-      +' · Mis à jour : '+(data.updated||'?');
-    bandeau.style.display='flex';
-  }
-
-  // Stocker pour les pastilles sur la carte
-  window.PAYS_NOUVELLES_OFFRES=paysNouveaux;
-}
-  function afficherPastillesMonde(data){
-  if(!data||!data.offers) return;
+function afficherPastillesMonde(data){
+  if(!data||!data.offers||typeof svg==='undefined'||typeof proj==='undefined') return;
+  // Supprimer les anciennes pastilles
+  d3.selectAll('.pastilles-monde-g').remove();
   var aujourdhui=new Date();
   var seuil7=new Date(aujourdhui.getTime()-7*24*60*60*1000);
 
-  // Construire la liste des pays avec nouvelles offres
-  var paysAvecNouveautes={};
+  // Compter les nouvelles offres par pays (nom français)
+  var paysCompte={};
   data.offers.forEach(function(o){
     if(!o.date||!o.pays) return;
     var p=o.date.split('/');
     if(p.length!==3) return;
     var d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
     if(d>=seuil7){
-      paysAvecNouveautes[o.pays]=(paysAvecNouveautes[o.pays]||0)+1;
+      paysCompte[o.pays]=(paysCompte[o.pays]||0)+1;
     }
   });
 
-  // Dessiner une pastille orange sur chaque pays concerné
-  // On parcourt la DB pour trouver les coords
-  var pastillesG=svg.append('g').attr('class','pastilles-monde');
-  var t=d3.zoomTransform(svg.node());
+  var pastillesG=svg.append('g').attr('class','pastilles-monde-g');
 
   Object.entries(DB).forEach(function(entry){
     var p=entry[1];
-    if(!paysAvecNouveautes[p.nom]) return;
-    // Prendre les coords du premier étab avec coords
-    var etab=p.etabs.find(function(e){return e.c;});
+    if(!paysCompte[p.nom]) return;
+    var etab=(p.etabs||[]).find(function(e){return e.c;});
     if(!etab) return;
     var pt=proj([etab.c[0],etab.c[1]]);
-    if(isNaN(pt[0])||isNaN(pt[1])) return;
+    if(!pt||isNaN(pt[0])||isNaN(pt[1])) return;
 
-    var nb=paysAvecNouveautes[p.nom];
-    var g2=pastillesG.append('g').style('pointer-events','none');
+    var nb=paysCompte[p.nom];
+    var t=d3.zoomTransform(svg.node());
+    var r=8/t.k;
+
+    var g2=pastillesG.append('g')
+      .attr('class','pastille-new')
+      .style('pointer-events','none');
 
     g2.append('circle')
-      .attr('cx',pt[0]+6).attr('cy',pt[1]-6)
-      .attr('r',5)
+      .attr('cx',pt[0]).attr('cy',pt[1])
+      .attr('r',r)
       .attr('fill','#f97316')
       .attr('stroke','#fff')
-      .attr('stroke-width',0.8);
+      .attr('stroke-width',1.5/t.k);
 
-    if(nb>1){
-      g2.append('text')
-        .attr('x',pt[0]+6).attr('y',pt[1]-6)
-        .attr('text-anchor','middle')
-        .attr('dominant-baseline','central')
-        .attr('fill','#fff')
-        .attr('font-size','5px')
-        .attr('font-weight','700')
-        .attr('font-family','system-ui,sans-serif')
-        .text(nb>9?'9+':nb);
-    }
+    g2.append('text')
+      .attr('x',pt[0]).attr('y',pt[1])
+      .attr('text-anchor','middle')
+      .attr('dominant-baseline','central')
+      .attr('fill','#fff')
+      .attr('font-size',(7/t.k)+'px')
+      .attr('font-weight','700')
+      .attr('font-family','system-ui,sans-serif')
+      .text(nb>9?'9+':String(nb));
   });
 
-  // Mettre à jour les pastilles avec le zoom
-  zoom.on('zoom.pastilles',function(ev){
+  // Rescaler avec le zoom
+  svg.on('zoom.pastillesMonde',function(ev){
     var k=ev.transform.k;
     pastillesG.selectAll('g').each(function(){
       var g2=d3.select(this);
-      var cx=+g2.select('circle').attr('cx');
-      var cy=+g2.select('circle').attr('cy');
-      var r=5/k;
-      g2.select('circle').attr('r',r).attr('stroke-width',0.8/k);
-      g2.select('text').attr('font-size',(5/k)+'px');
+      var r=8/k;
+      g2.select('circle').attr('r',r).attr('stroke-width',1.5/k);
+      g2.select('text').attr('font-size',(7/k)+'px');
     });
   });
 }
+
 async function showEmplois(p){
   const panel=document.getElementById('emplois-panel');
   const list=document.getElementById('emplois-list');
@@ -870,12 +836,12 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
 .then(world=>{
   document.getElementById('loader').remove();
   const W=box.clientWidth||900,H=Math.round(W*0.62);
-  const svg=d3.select('#map-box').insert('svg','#tip')
+  var svg=d3.select('#map-box').insert('svg','#tip')
     .attr('viewBox','0 0 '+W+' '+H).attr('width','100%');
   svg.append('rect').attr('width',W).attr('height',H).attr('fill','#b8d4e8');
   const mapG=svg.append('g');
   const dotsG=svg.append('g');
-  const proj=d3.geoNaturalEarth1().scale(W/6.3).translate([W/2,H/2]);
+  var proj=d3.geoNaturalEarth1().scale(W/6.3).translate([W/2,H/2]);
   const path=d3.geoPath().projection(proj);
 
   const zoom=d3.zoom().scaleExtent([0.8,120]).on('zoom',function(e){
@@ -1127,21 +1093,6 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
       var r=screenR/t.k,sw=1/t.k;
       var g=dotsG.append('g').attr('data-n',n).style('cursor','pointer');
       g.append('circle').attr('cx',px).attr('cy',py).attr('r',r).attr('fill',col).attr('stroke','#fff').attr('stroke-width',sw);
-      // Pastille orange si nouvelles offres < 7 jours
-if(window.PAYS_NOUVELLES_OFFRES){
-  var hasNew=group.etabs.some(function(e){
-    return window.PAYS_NOUVELLES_OFFRES.has(p.nom);
-  });
-  if(hasNew){
-    var pr=screenR*0.45/t.k;
-    g.append('circle')
-      .attr('cx',px+r*0.7).attr('cy',py-r*0.7)
-      .attr('r',pr)
-      .attr('fill','#f97316')
-      .attr('stroke','#fff')
-      .attr('stroke-width',0.5/t.k);
-  }
-}
       g.append('text').attr('x',px).attr('y',py).attr('text-anchor','middle').attr('dominant-baseline','central').attr('fill','#fff').attr('font-size',(screenR*1.3/t.k).toFixed(2)+'px').attr('font-weight','700').attr('font-family','system-ui,sans-serif').attr('pointer-events','none').text(n);
       g.on('mousemove',function(ev){
         var rr=box.getBoundingClientRect();
@@ -1239,6 +1190,9 @@ if(window.PAYS_NOUVELLES_OFFRES){
     var newT=d3.zoomIdentity.translate(pt[0]-((pt[0]-t.x)/t.k)*newScale,pt[1]-((pt[1]-t.y)/t.k)*newScale).scale(newScale);
     svg.call(zoom.transform,newT);
   },{passive:false});
+
+  window._svgReady=true;
+  if(window.EMPLOIS_DATA_READY) afficherPastillesMonde(window.EMPLOIS_DATA_READY);
 })
 .catch(function(){document.getElementById('loader').textContent='Erreur de chargement — vérifiez votre connexion.';});
 </script>
