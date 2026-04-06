@@ -2,8 +2,8 @@ name: Scrape AEFE Emplois + Deploy
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # chaque nuit à 3h UTC
-  workflow_dispatch:        # déclenchement manuel possible
+    - cron: '0 3 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
