@@ -103,6 +103,10 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
     <span id="search-clear">×</span>
   </div>
   <div class="filter-row">
+    <div id="nouvelles-offres-bandeau" style="display:none;align-items:center;gap:8px;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:8px 14px;margin-bottom:8px;font-size:12px;color:#166534;line-height:1.5">
+  <span style="font-size:16px">🟢</span>
+  <span id="nouvelles-offres-texte"></span>
+</div>
     <button class="fchip" data-f="brevet">📋 Brevet</button>
     <button class="fchip" data-f="bac">🎓 Bac</button>
     <button class="fchip" data-f="ecole">🏫 École</button>
@@ -659,11 +663,49 @@ async function loadEmploisJSON(){
   if(EMPLOIS_CACHE) return EMPLOIS_CACHE;
   try {
     const r=await fetch('./emplois.json',{signal:AbortSignal.timeout(6000)});
-    if(r.ok){EMPLOIS_CACHE=await r.json();return EMPLOIS_CACHE;}
+    if(r.ok){EMPLOIS_CACHE=await r.json();afficherBandeauNouveautes(EMPLOIS_CACHE);return EMPLOIS_CACHE;}
   } catch(e){}
   return null;
 }
 
+  function afficherBandeauNouveautes(data){
+  if(!data||!data.offers) return;
+  var aujourdhui=new Date();
+  var seuil7=new Date(aujourdhui.getTime()-7*24*60*60*1000);
+  var seuil30=new Date(aujourdhui.getTime()-30*24*60*60*1000);
+
+  var nouvelles=[]; // < 7 jours
+  var recentes=[]; // 7-30 jours
+  var paysNouveaux=new Set();
+
+  data.offers.forEach(function(o){
+    if(!o.date) return;
+    var p=o.date.split('/');
+    if(p.length!==3) return;
+    var d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
+    if(d>=seuil7){
+      nouvelles.push(o);
+      if(o.pays) paysNouveaux.add(o.pays);
+    } else if(d>=seuil30){
+      recentes.push(o);
+    }
+  });
+
+  // Bandeau sous la recherche
+  var bandeau=document.getElementById('nouvelles-offres-bandeau');
+  var texte=document.getElementById('nouvelles-offres-texte');
+  if(bandeau&&texte&&nouvelles.length>0){
+    texte.innerHTML='<strong>'+nouvelles.length+' nouvelle'+(nouvelles.length>1?'s':'')+' offre'+(nouvelles.length>1?'s':'')+' cette semaine</strong>'
+      +' dans <strong>'+paysNouveaux.size+'</strong> pays'
+      +(recentes.length>0?' · '+recentes.length+' offre'+(recentes.length>1?'s':'')+' ce mois':'')
+      +' · Mis à jour : '+(data.updated||'?');
+    bandeau.style.display='flex';
+  }
+
+  // Stocker pour les pastilles sur la carte
+  window.PAYS_NOUVELLES_OFFRES=paysNouveaux;
+}
+  
 async function showEmplois(p){
   const panel=document.getElementById('emplois-panel');
   const list=document.getElementById('emplois-list');
@@ -1019,6 +1061,21 @@ fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
       var r=screenR/t.k,sw=1/t.k;
       var g=dotsG.append('g').attr('data-n',n).style('cursor','pointer');
       g.append('circle').attr('cx',px).attr('cy',py).attr('r',r).attr('fill',col).attr('stroke','#fff').attr('stroke-width',sw);
+      // Pastille orange si nouvelles offres < 7 jours
+if(window.PAYS_NOUVELLES_OFFRES){
+  var hasNew=group.etabs.some(function(e){
+    return window.PAYS_NOUVELLES_OFFRES.has(p.nom);
+  });
+  if(hasNew){
+    var pr=screenR*0.45/t.k;
+    g.append('circle')
+      .attr('cx',px+r*0.7).attr('cy',py-r*0.7)
+      .attr('r',pr)
+      .attr('fill','#f97316')
+      .attr('stroke','#fff')
+      .attr('stroke-width',0.5/t.k);
+  }
+}
       g.append('text').attr('x',px).attr('y',py).attr('text-anchor','middle').attr('dominant-baseline','central').attr('fill','#fff').attr('font-size',(screenR*1.3/t.k).toFixed(2)+'px').attr('font-weight','700').attr('font-family','system-ui,sans-serif').attr('pointer-events','none').text(n);
       g.on('mousemove',function(ev){
         var rr=box.getBoundingClientRect();
