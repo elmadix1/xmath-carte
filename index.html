@@ -690,7 +690,10 @@ function afficherPastillesMonde(data){
     }
   });
 
+  // Groupe AU-DESSUS de tout, suit le zoom comme mapG
   var pastillesG=svg.append('g').attr('class','pastilles-monde-g');
+  var currentT=d3.zoomTransform(svg.node());
+  pastillesG.attr('transform',currentT);
 
   Object.entries(DB).forEach(function(entry){
     var p=entry[1];
@@ -701,40 +704,31 @@ function afficherPastillesMonde(data){
     if(!pt||isNaN(pt[0])||isNaN(pt[1])) return;
 
     var nb=paysCompte[p.nom];
-    var t=d3.zoomTransform(svg.node());
-    var r=8/t.k;
-
     var g2=pastillesG.append('g')
       .attr('class','pastille-new')
       .style('pointer-events','none');
 
     g2.append('circle')
       .attr('cx',pt[0]).attr('cy',pt[1])
-      .attr('r',r)
-      .attr('fill','#f97316')
+      .attr('r',8)
+      .attr('fill','#22c55e')
       .attr('stroke','#fff')
-      .attr('stroke-width',1.5/t.k);
+      .attr('stroke-width',1.5);
 
     g2.append('text')
       .attr('x',pt[0]).attr('y',pt[1])
       .attr('text-anchor','middle')
       .attr('dominant-baseline','central')
       .attr('fill','#fff')
-      .attr('font-size',(7/t.k)+'px')
+      .attr('font-size','7px')
       .attr('font-weight','700')
       .attr('font-family','system-ui,sans-serif')
       .text(nb>9?'9+':String(nb));
   });
 
-  // Rescaler avec le zoom
-  svg.on('zoom.pastillesMonde',function(ev){
-    var k=ev.transform.k;
-    pastillesG.selectAll('g').each(function(){
-      var g2=d3.select(this);
-      var r=8/k;
-      g2.select('circle').attr('r',r).attr('stroke-width',1.5/k);
-      g2.select('text').attr('font-size',(7/k)+'px');
-    });
+  // Suivre le zoom exactement comme mapG
+  zoom.on('zoom.pastillesMonde',function(ev){
+    pastillesG.attr('transform',ev.transform);
   });
 }
 
