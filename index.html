@@ -672,68 +672,57 @@ async function loadEmploisJSON(){
 
 
 function afficherPastillesMonde(data){
-  if(!data||!data.offers) return;
-  if(!window.svg||!window.proj){console.log('svg/proj pas encore prêts');return;}
-  // Supprimer les anciennes pastilles
-  d3.selectAll('.pastilles-monde-g').remove();
-  var aujourdhui=new Date();
-  var seuil=new Date(aujourdhui.getTime()-30*24*60*60*1000); // 30 jours
+  var g=window.pastillesMondeG;
+  if(!g||!data||!data.offers) return;
+  g.selectAll('*').remove();
 
-  // Compter les nouvelles offres par pays (nom français)
+  var aujourdhui=new Date();
+  var seuil=new Date(aujourdhui.getTime()-30*24*60*60*1000);
   var paysCompte={};
   data.offers.forEach(function(o){
-    if(!o.date||!o.pays) return;
+    if(!o.pays||!o.date) return;
     var p=o.date.split('/');
     if(p.length!==3) return;
     var d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
-    if(d>=seuil){
-      paysCompte[o.pays]=(paysCompte[o.pays]||0)+1;
-    }
+    if(d>=seuil) paysCompte[o.pays]=(paysCompte[o.pays]||0)+1;
   });
-  console.log('[Pastilles] Pays avec offres récentes:', Object.keys(paysCompte).length, paysCompte);
+  console.log('[Pastilles] pays trouvés:',Object.keys(paysCompte).length, paysCompte);
 
-  // Groupe AU-DESSUS de tout, suit le zoom comme mapG
-  var _svg=window.svg, _proj=window.proj, _zoom=window.zoom;
-  if(!_svg||!_proj) return;
-  d3.selectAll('.pastilles-monde-g').remove();
-  var _mapG=window.mapG;
-  if(!_mapG) return;
-  _mapG.selectAll('.pastilles-monde-g').remove();
-  var pastillesG=_mapG.append('g').attr('class','pastilles-monde-g');
-
-
+  var t=d3.zoomTransform(svg.node());
   Object.entries(DB).forEach(function(entry){
     var p=entry[1];
     if(!paysCompte[p.nom]) return;
     var etab=(p.etabs||[]).find(function(e){return e.c;});
     if(!etab) return;
-    var pt=_proj([etab.c[0],etab.c[1]]);
+    var pt=proj([etab.c[0],etab.c[1]]);
     if(!pt||isNaN(pt[0])||isNaN(pt[1])) return;
-
     var nb=paysCompte[p.nom];
-    var g2=pastillesG.append('g')
-      .attr('class','pastille-new')
-      .style('pointer-events','none');
-
-    g2.append('circle')
+    var r=8/t.k;
+    var pg=g.append('g').attr('class','pastille-new').style('pointer-events','none');
+    pg.append('circle')
       .attr('cx',pt[0]).attr('cy',pt[1])
-      .attr('r',8)
+      .attr('r',r)
       .attr('fill','#22c55e')
       .attr('stroke','#fff')
-      .attr('stroke-width',1.5);
-
-    g2.append('text')
+      .attr('stroke-width',1.5/t.k);
+    pg.append('text')
       .attr('x',pt[0]).attr('y',pt[1])
-      .attr('text-anchor','middle')
-      .attr('dominant-baseline','central')
-      .attr('fill','#fff')
-      .attr('font-size','7px')
-      .attr('font-weight','700')
-      .attr('font-family','system-ui,sans-serif')
+      .attr('text-anchor','middle').attr('dominant-baseline','central')
+      .attr('fill','#fff').attr('font-size',(6/t.k)+'px')
+      .attr('font-weight','700').attr('font-family','system-ui,sans-serif')
       .text(nb>9?'9+':String(nb));
   });
 
-  // pas besoin de zoom handler - mapG suit déjà le zoom
+  // Rescaler avec zoom
+  zoom.on('zoom.pastillesMonde',function(ev){
+    var k=ev.transform.k;
+    g.selectAll('g').each(function(){
+      var pg=d3.select(this);
+      var r=8/k;
+      pg.select('circle').attr('r',r).attr('stroke-width',1.5/k);
+      pg.select('text').attr('font-size',(6/k)+'px');
+    });
+  });
 }
 
 async function showEmplois(p){
@@ -841,6 +830,8 @@ var svg=window.svg
   window.mapG=svg.append('g');
   var mapG=window.mapG;
   const dotsG=svg.append('g');
+  var pastillesMondeG=mapG.append('g').attr('class','pastilles-monde-g');
+  window.pastillesMondeG=pastillesMondeG;
   window.proj=d3.geoNaturalEarth1().scale(W/6.3).translate([W/2,H/2]);
 var proj=window.proj;
   const path=d3.geoPath().projection(proj);
