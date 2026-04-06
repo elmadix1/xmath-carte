@@ -677,7 +677,7 @@ function afficherPastillesMonde(data){
   // Supprimer les anciennes pastilles
   d3.selectAll('.pastilles-monde-g').remove();
   var aujourdhui=new Date();
-  var seuil7=new Date(aujourdhui.getTime()-7*24*60*60*1000);
+  var seuil=new Date(aujourdhui.getTime()-30*24*60*60*1000); // 30 jours
 
   // Compter les nouvelles offres par pays (nom français)
   var paysCompte={};
@@ -686,10 +686,11 @@ function afficherPastillesMonde(data){
     var p=o.date.split('/');
     if(p.length!==3) return;
     var d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
-    if(d>=seuil7){
+    if(d>=seuil){
       paysCompte[o.pays]=(paysCompte[o.pays]||0)+1;
     }
   });
+  console.log('[Pastilles] Pays avec offres récentes:', Object.keys(paysCompte).length, paysCompte);
 
   // Groupe AU-DESSUS de tout, suit le zoom comme mapG
   var _svg=window.svg, _proj=window.proj, _zoom=window.zoom;
