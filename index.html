@@ -670,9 +670,11 @@ async function loadEmploisJSON(){
 
 
 function afficherPastillesMonde(data){
-  var g=window.pastillesMondeG;
-  if(!g||!data||!data.offers) return;
-  g.selectAll('*').remove();
+  if(!window.mapG||!data||!data.offers) return;
+  window.mapG.selectAll('.pastille-monde').remove();
+  // TEST : dessiner un cercle rouge fixe dans mapG
+  window.mapG.append('circle').attr('class','pastille-monde').attr('cx',500).attr('cy',300).attr('r',15).attr('fill','red').attr('opacity',0.8);
+  console.log('Cercle test dessiné dans mapG');
 
   var aujourdhui=new Date();
   var seuil=new Date(aujourdhui.getTime()-30*24*60*60*1000);
@@ -696,7 +698,7 @@ function afficherPastillesMonde(data){
     if(!pt||isNaN(pt[0])||isNaN(pt[1])) return;
     var nb=paysCompte[p.nom];
     var r=8/t.k;
-    var pg=g.append('g').attr('class','pastille-new').style('pointer-events','none');
+    var pg=window.mapG.append('g').attr('class','pastille-monde pastille-new').style('pointer-events','none');
     pg.append('circle')
       .attr('cx',pt[0]).attr('cy',pt[1])
       .attr('r',r)
