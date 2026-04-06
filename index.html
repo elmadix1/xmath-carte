@@ -663,7 +663,7 @@ async function loadEmploisJSON(){
   if(EMPLOIS_CACHE) return EMPLOIS_CACHE;
   try {
     const r=await fetch('./emplois.json',{signal:AbortSignal.timeout(6000)});
-    if(r.ok){EMPLOIS_CACHE=await r.json();afficherBandeauNouveautes(EMPLOIS_CACHE);return EMPLOIS_CACHE;}
+    if(r.ok){EMPLOIS_CACHE=await r.json();afficherBandeauNouveautes(EMPLOIS_CACHE);afficherPastillesMonde(EMPLOIS_CACHE);return EMPLOIS_CACHE;}
   } catch(e){}
   return null;
 }
@@ -705,7 +705,73 @@ async function loadEmploisJSON(){
   // Stocker pour les pastilles sur la carte
   window.PAYS_NOUVELLES_OFFRES=paysNouveaux;
 }
-  
+  function afficherPastillesMonde(data){
+  if(!data||!data.offers) return;
+  var aujourdhui=new Date();
+  var seuil7=new Date(aujourdhui.getTime()-7*24*60*60*1000);
+
+  // Construire la liste des pays avec nouvelles offres
+  var paysAvecNouveautes={};
+  data.offers.forEach(function(o){
+    if(!o.date||!o.pays) return;
+    var p=o.date.split('/');
+    if(p.length!==3) return;
+    var d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
+    if(d>=seuil7){
+      paysAvecNouveautes[o.pays]=(paysAvecNouveautes[o.pays]||0)+1;
+    }
+  });
+
+  // Dessiner une pastille orange sur chaque pays concerné
+  // On parcourt la DB pour trouver les coords
+  var pastillesG=svg.append('g').attr('class','pastilles-monde');
+  var t=d3.zoomTransform(svg.node());
+
+  Object.entries(DB).forEach(function(entry){
+    var p=entry[1];
+    if(!paysAvecNouveautes[p.nom]) return;
+    // Prendre les coords du premier étab avec coords
+    var etab=p.etabs.find(function(e){return e.c;});
+    if(!etab) return;
+    var pt=proj([etab.c[0],etab.c[1]]);
+    if(isNaN(pt[0])||isNaN(pt[1])) return;
+
+    var nb=paysAvecNouveautes[p.nom];
+    var g2=pastillesG.append('g').style('pointer-events','none');
+
+    g2.append('circle')
+      .attr('cx',pt[0]+6).attr('cy',pt[1]-6)
+      .attr('r',5)
+      .attr('fill','#f97316')
+      .attr('stroke','#fff')
+      .attr('stroke-width',0.8);
+
+    if(nb>1){
+      g2.append('text')
+        .attr('x',pt[0]+6).attr('y',pt[1]-6)
+        .attr('text-anchor','middle')
+        .attr('dominant-baseline','central')
+        .attr('fill','#fff')
+        .attr('font-size','5px')
+        .attr('font-weight','700')
+        .attr('font-family','system-ui,sans-serif')
+        .text(nb>9?'9+':nb);
+    }
+  });
+
+  // Mettre à jour les pastilles avec le zoom
+  zoom.on('zoom.pastilles',function(ev){
+    var k=ev.transform.k;
+    pastillesG.selectAll('g').each(function(){
+      var g2=d3.select(this);
+      var cx=+g2.select('circle').attr('cx');
+      var cy=+g2.select('circle').attr('cy');
+      var r=5/k;
+      g2.select('circle').attr('r',r).attr('stroke-width',0.8/k);
+      g2.select('text').attr('font-size',(5/k)+'px');
+    });
+  });
+}
 async function showEmplois(p){
   const panel=document.getElementById('emplois-panel');
   const list=document.getElementById('emplois-list');
