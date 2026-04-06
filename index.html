@@ -662,9 +662,7 @@ async function loadEmploisJSON(){
   try {
     const r=await fetch('./emplois.json',{signal:AbortSignal.timeout(6000)});
     if(r.ok){EMPLOIS_CACHE=await r.json();
-    afficherBandeauNouveautes(EMPLOIS_CACHE);
     window.EMPLOIS_DATA_READY=EMPLOIS_CACHE;
-    if(window._svgReady) afficherPastillesMonde(EMPLOIS_CACHE);
     return EMPLOIS_CACHE;}
   } catch(e){}
   return null;
@@ -1185,7 +1183,14 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
   },{passive:false});
 
   window._svgReady=true;
-  if(window.EMPLOIS_DATA_READY) afficherPastillesMonde(window.EMPLOIS_DATA_READY);
+  // Charger le JSON emplois maintenant que tout est prêt
+  loadEmploisJSON().then(function(data){
+    if(data){
+      afficherBandeauNouveautes(data);
+      window.pastillesMondeG=window.mapG.select('.pastilles-monde-g');
+      afficherPastillesMonde(data);
+    }
+  });
 })
 .catch(function(){document.getElementById('loader').textContent='Erreur de chargement — vérifiez votre connexion.';});
 </script>
