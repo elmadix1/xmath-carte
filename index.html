@@ -735,7 +735,7 @@ function afficherPastillesMonde(data){
   // Rescaler avec zoom
   zoom.on('zoom.pastillesMonde',function(ev){
     var k=ev.transform.k;
-    g.selectAll('g').each(function(){
+    window.mapG.selectAll('.pastille-monde').each(function(){
       var pg=d3.select(this);
       var r=8/k;
       pg.select('circle').attr('r',r).attr('stroke-width',1.5/k);
