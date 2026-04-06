@@ -669,6 +669,26 @@ async function loadEmploisJSON(){
 }
 
 
+function afficherBandeauNouveautes(data){
+  if(!data||!data.offers) return;
+  var aujourdhui=new Date();
+  var seuil7=new Date(aujourdhui.getTime()-7*24*60*60*1000);
+  var nb=0, pays=new Set();
+  data.offers.forEach(function(o){
+    if(!o.date) return;
+    var p=o.date.split('/');
+    if(p.length!==3) return;
+    var d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
+    if(d>=seuil7){ nb++; if(o.pays) pays.add(o.pays); }
+  });
+  var bandeau=document.getElementById('nouvelles-offres-bandeau');
+  var texte=document.getElementById('nouvelles-offres-texte');
+  if(bandeau&&texte&&nb>0){
+    texte.innerHTML='<strong>'+nb+' nouvelle'+(nb>1?'s':'')+' offre'+(nb>1?'s':'')+' cette semaine</strong> dans <strong>'+pays.size+'</strong> pays · Mis à jour : '+(data.updated||'?');
+    bandeau.style.display='flex';
+  }
+}
+
 function afficherPastillesMonde(data){
   if(!window.mapG||!data||!data.offers) return;
   window.mapG.selectAll('.pastille-monde').remove();
