@@ -691,37 +691,43 @@ function afficherBandeauNouveautes(data){
 function afficherPastillesMonde(data){
   if(!window.mapG||!data||!data.offers) return;
   window.mapG.selectAll('.pastille-monde').remove();
-  // TEST : dessiner un cercle rouge fixe dans mapG
-  window.mapG.append('circle').attr('class','pastille-monde').attr('cx',500).attr('cy',300).attr('r',15).attr('fill','red').attr('opacity',0.8);
-  console.log('Cercle test dessiné dans mapG');
 
   var aujourdhui=new Date();
-  var seuil=new Date(aujourdhui.getTime()-30*24*60*60*1000);
-  var paysCompte={};
+  var seuilVert=new Date(aujourdhui.getTime()-14*24*60*60*1000);
+  var seuilJaune=new Date(aujourdhui.getTime()-30*24*60*60*1000);
+
+  // Compter par pays : vert ≤14j, jaune 15-30j, gris >30j
+  var paysData={};
   data.offers.forEach(function(o){
     if(!o.pays||!o.date) return;
     var p=o.date.split('/');
     if(p.length!==3) return;
     var d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
-    if(d>=seuil) paysCompte[o.pays]=(paysCompte[o.pays]||0)+1;
+    if(!paysData[o.pays]) paysData[o.pays]={total:0,vert:0,jaune:0,gris:0};
+    paysData[o.pays].total++;
+    if(d>=seuilVert) paysData[o.pays].vert++;
+    else if(d>=seuilJaune) paysData[o.pays].jaune++;
+    else paysData[o.pays].gris++;
   });
-  console.log('[Pastilles] pays trouvés:',Object.keys(paysCompte).length, paysCompte);
 
   var t=d3.zoomTransform(svg.node());
   Object.entries(DB).forEach(function(entry){
     var p=entry[1];
-    if(!paysCompte[p.nom]) return;
+    var stats=paysData[p.nom];
+    if(!stats||stats.vert+stats.jaune===0) return;
     var etab=(p.etabs||[]).find(function(e){return e.c;});
     if(!etab) return;
     var pt=proj([etab.c[0],etab.c[1]]);
     if(!pt||isNaN(pt[0])||isNaN(pt[1])) return;
-    var nb=paysCompte[p.nom];
+    // Couleur : vert si au moins 1 offre récente, sinon jaune
+    var couleur=stats.vert>0?'#22c55e':'#f59e0b';
+    var nb=stats.vert>0?stats.vert:stats.jaune;
     var r=8/t.k;
     var pg=window.mapG.append('g').attr('class','pastille-monde pastille-new').style('pointer-events','none');
     pg.append('circle')
       .attr('cx',pt[0]).attr('cy',pt[1])
       .attr('r',r)
-      .attr('fill','#22c55e')
+      .attr('fill',couleur)
       .attr('stroke','#fff')
       .attr('stroke-width',1.5/t.k);
     pg.append('text')
@@ -752,7 +758,7 @@ async function showEmplois(p){
   panel.style.display='';
   document.getElementById('bottom-panels').classList.add('with-emplois');
   list.innerHTML='<div style="font-size:11px;color:#94a3b8;text-align:center;padding:12px">🔍 Recherche des offres...</div>';
-  nb.textContent='';
+  nb.innerHTML='';
   lien.href='https://talents.aefe.fr/fr/annonces';
   lien.textContent='→ Voir toutes les offres sur talents.aefe.fr';
 
@@ -767,35 +773,54 @@ async function showEmplois(p){
     list.innerHTML=maj;
     if(filtered.length>0){
       filtered.sort(function(a,b){
-      function toDate(str){
-        if(!str) return new Date(0);
-        var p=str.split('/');
-        return new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
-      }
-      return toDate(b.date)-toDate(a.date);
-    });
-    afficherOffres(filtered,list,nb,p);
+        function toDate(str){
+          if(!str) return new Date(0);
+          var pt=str.split('/');
+          return new Date(parseInt(pt[2]),parseInt(pt[1])-1,parseInt(pt[0]));
+        }
+        return toDate(b.date)-toDate(a.date);
+      });
+      afficherOffres(filtered,list,nb,p);
       lien.href='https://talents.aefe.fr/fr/annonces?location='+encodeURIComponent(p.nom);
       lien.textContent='→ Voir toutes les offres pour '+p.nom+' sur talents.aefe.fr';
     } else {
       list.innerHTML=maj+'<div style="font-size:11px;color:#64748b;text-align:center;padding:16px;line-height:1.6">Aucun poste actuellement pour '+p.nom+'<br><span style="font-size:10px;color:#94a3b8">Mis à jour : '+(data.updated||'?')+'</span></div>';
-      nb.textContent='0 offre';
+      nb.innerHTML='0 offre';
     }
     return;
   }
 
   const offresStatiques=EMPLOIS_STATIQUES.filter(function(o){return o.pays_nom===p.nom;});
   if(offresStatiques.length>0){
-    list.innerHTML='<div style="font-size:10px;color:#f59e0b;margin-bottom:6px">⚠️ Données de démonstration</div>';
     afficherOffres(offresStatiques,list,nb,p);
   } else {
-    list.innerHTML='<div style="font-size:11px;color:#64748b;text-align:center;padding:16px;line-height:1.6">Aucune offre connue pour '+p.nom+'<br><a href="https://talents.aefe.fr/fr/annonces" target="_blank" style="color:#1d4ed8;font-weight:500">→ Chercher sur talents.aefe.fr</a></div>';
-    nb.textContent='0 offre';
+    list.innerHTML='<div style="font-size:11px;color:#64748b;text-align:center;padding:16px">Aucun poste actuellement pour '+p.nom+'</div>';
+    nb.innerHTML='0 offre';
   }
 }
 
+
 function afficherOffres(offres,list,nb,p){
-  nb.textContent=offres.length+' offre'+(offres.length>1?'s':'');
+  // Compter par catégorie
+  var aujourdhui=new Date();
+  var seuilVert=new Date(aujourdhui.getTime()-14*24*60*60*1000);
+  var seuilJaune=new Date(aujourdhui.getTime()-30*24*60*60*1000);
+  var cVert=0, cJaune=0, cGris=0;
+  offres.forEach(function(o){
+    if(!o.date) { cGris++; return; }
+    var p2=o.date.split('/');
+    if(p2.length!==3) { cGris++; return; }
+    var d=new Date(parseInt(p2[2]),parseInt(p2[1])-1,parseInt(p2[0]));
+    if(d>=seuilVert) cVert++;
+    else if(d>=seuilJaune) cJaune++;
+    else cGris++;
+  });
+  var totalLabel=offres.length+' offre'+(offres.length>1?'s':'');
+  var details=[];
+  if(cVert>0) details.push('<span style="color:#166534">🟢 '+cVert+' récente'+(cVert>1?'s':'')+'</span>');
+  if(cJaune>0) details.push('<span style="color:#92400e">🟡 '+cJaune+' ce mois</span>');
+  if(cGris>0) details.push('<span style="color:#64748b">⚪ '+cGris+' ancienne'+(cGris>1?'s':'')+'</span>');
+  nb.innerHTML=totalLabel+(details.length?' · '+details.join(' · '):'');
   var aujourdhui=new Date();
   offres.forEach(function(o){
     var d=document.createElement('div');
@@ -809,11 +834,11 @@ function afficherOffres(offres,list,nb,p){
         var diffJours=Math.floor((aujourdhui-dateOffre)/(1000*60*60*24));
         var bgCol, txtCol, label;
         if(diffJours<=14){
-          bgCol='#dcfce7'; txtCol='#166534'; label='🟢 Nouveau · '+o.date;
+          bgCol='#dcfce7'; txtCol='#166534'; label='🟢 Récent · '+o.date;
         } else if(diffJours<=30){
-          bgCol='#fef3c7'; txtCol='#92400e'; label='🟡 '+o.date;
+          bgCol='#fef3c7'; txtCol='#92400e'; label='🟡 Ce mois · '+o.date;
         } else {
-          bgCol='#f1f5f9'; txtCol='#64748b'; label='📅 '+o.date;
+          bgCol='#f1f5f9'; txtCol='#64748b'; label='⚪ Ancien · '+o.date;
         }
         dateBadge='<span style="font-size:9px;padding:1px 6px;border-radius:3px;background:'+bgCol+';color:'+txtCol+'">'+label+'</span>';
       }
