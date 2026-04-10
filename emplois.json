@@ -1,17 +1,61 @@
 {
-  "updated": "2026-04-10 08:21",
-  "total": 626,
+  "updated": "2026-04-10 14:40",
+  "total": 630,
   "offers": [
     {
+      "id": 4325021,
+      "titre": "Professeur des écoles remplaçant F/H",
+      "etab": "",
+      "ville": "Viña del Mar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4325021-professeur-des-ecoles-remplacant-fh-vina-del-mar"
+    },
+    {
+      "id": 4324651,
+      "titre": "Assistant Pédagogique H/F au Lycée des Mascareignes - Ile Maurice",
+      "etab": "",
+      "ville": "Moka",
+      "pays": "Île Maurice",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4324651-assistant-pedagogique-hf-au-lycee-des-mascareignes-ile-maurice-moka"
+    },
+    {
+      "id": 4324137,
+      "titre": "Professeur des écoles– intervention en 6ème (sciences) - F/H - PRISTINA - KOSOVO",
+      "etab": "",
+      "ville": "Pristina",
+      "pays": "Kosovo",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4324137-professeur-des-ecoles-intervention-en-6eme-sciences-fh-pristina-kosovo-pristina"
+    },
+    {
+      "id": 4323971,
+      "titre": "Intervenant Section Sportive Scolaire Basket Ball - F/H - SALY - SENEGAL",
+      "etab": "",
+      "ville": "Saly",
+      "pays": "Sénégal",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4323971-intervenant-section-sportive-scolaire-basket-ball-fh-saly-senegal-saly"
+    },
+    {
       "id": 4322967,
-      "titre": "Professeur de français - BCIS Phuket, Thaïlande",
+      "titre": "Professeur de français - F/H - BCIS - PHUKET - THAILANDE",
       "etab": "",
       "ville": "Chalong",
       "pays": "Thaïlande",
       "contrat": "Contrat temporaire",
       "discipline": "professeur de lettres modernes F/H",
       "date": "10/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4322967-professeur-de-francais-bcis-phuket-thailande-83130-chalong"
+      "url": "https://talents.aefe.fr/fr/annonce/4322967-professeur-de-francais-fh-bcis-phuket-thailande-83130-chalong"
     },
     {
       "id": 4322645,
@@ -1418,7 +1462,7 @@
       "pays": "Nigéria",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "24/03/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4294487-professeur-des-ecoles-fh-lagos-nigeria-106104-lagos"
     },
     {
@@ -1763,17 +1807,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4286699-professeur-des-ecoles-fh-ecole-les-prunelles-nouakchott-mauritanie-nouakchott"
     },
     {
-      "id": 4286625,
-      "titre": "Adjoint de direction (maternelle) - F/H - Ecole Voltaire - BERLIN - ALLEMAGNE",
-      "etab": "",
-      "ville": "Berlin",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "23/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4286625-adjoint-de-direction-maternelle-fh-ecole-voltaire-berlin-allemagne-10785-berlin"
-    },
-    {
       "id": 4286557,
       "titre": "Professeur des écoles - F/H - DAKAR - SENEGAL",
       "etab": "",
@@ -2102,6 +2135,17 @@
       "discipline": "Directeur Administratif et Financier F/H",
       "date": "17/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4279069-responsable-administratif-fh-katmandou-nepal-44600-katmandou"
+    },
+    {
+      "id": 4279055,
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - TOKYO - JAPON",
+      "etab": "",
+      "ville": "Kita City",
+      "pays": "Japon",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4279055-professeur-du-second-degre-mathematiques-fh-tokyo-japon-114-0023-kita-city"
     },
     {
       "id": 4278967,
@@ -4580,14 +4624,14 @@
     },
     {
       "id": 4215775,
-      "titre": "Professeur des écoles F/H - Cycle 2 - Rentrée 2026 - LUANG PRABANG - LAOS",
+      "titre": "Professeur des écoles - Cycle 2 - Rentrée 2026 - F/H - LUANG PRABANG - LAOS",
       "etab": "",
       "ville": "Luang Prabang",
       "pays": "Laos",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "10/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4215775-professeur-des-ecoles-fh-cycle-2-rentree-2026-luang-prabang-laos-luang-prabang"
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4215775-professeur-des-ecoles-cycle-2-rentree-2026-fh-luang-prabang-laos-luang-prabang"
     },
     {
       "id": 4215647,
@@ -4742,17 +4786,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "09/02/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4214123-conseiller-pedagogique-1er-degre-fh-lycee-i-balzac-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4212965,
-      "titre": "Professeur du Second Degré - Physique Chimie F/H - KOWEIT",
-      "etab": "",
-      "ville": "Salmiya",
-      "pays": "Koweït",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "09/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4212965-professeur-du-second-degre-physique-chimie-fh-koweit-salmiya"
     },
     {
       "id": 4212001,
@@ -6865,6 +6898,17 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "07/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3486785-professeur-du-second-degre-physique-chimie-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
+    },
+    {
+      "id": 3486777,
+      "titre": "Professeur 2nd Degré Histoire-Géographie - F/H - SARAJEVO - BOSNIE-HERZÉGOVINE",
+      "etab": "",
+      "ville": "Sarajevo",
+      "pays": "Bosnie-Herzégovine",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3486777-professeur-2nd-degre-histoire-geographie-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
     },
     {
       "id": 3473079,

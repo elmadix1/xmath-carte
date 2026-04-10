@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-10 08:21",
-  "total": 245,
+  "updated": "2026-04-10 14:40",
+  "total": 248,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3154,6 +3154,20 @@
       "url": "https://recrutement.mlfmonde.org/3680_offre-emploi-enseignant-ecogestion.html"
     },
     {
+      "id": 3712,
+      "titre": "Professeur(e) de français (Lettres modernes)",
+      "etab": "",
+      "ville": "Londres",
+      "pays": "Royaume-Uni",
+      "contrat": "",
+      "discipline": "",
+      "date": "08/04/2026",
+      "date_limite": "26/04/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3712_offre-emploi-professeure-de-francais-lettres-modernes.html"
+    },
+    {
       "id": 3471,
       "titre": "Enseignant - Histoire-Géographie",
       "etab": "",
@@ -3322,6 +3336,20 @@
       "url": "https://recrutement.mlfmonde.org/3705_offre-emploi-professeur-documentaliste.html"
     },
     {
+      "id": 3710,
+      "titre": "Professeur de Lettres Modernes et Théâtre pour la rentree 2026-27",
+      "etab": "",
+      "ville": "Boston",
+      "pays": "États-Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "01/04/2026",
+      "date_limite": "01/05/2026",
+      "date_prise": "25/08/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3710_offre-emploi-professeur-de-lettres-modernes-et-theatre-pour-la-rentree-202627.html"
+    },
+    {
       "id": 3707,
       "titre": "ENSEIGNANT.E RÉFÉRENT.E ÉCOLE INCLUSIVE (EREI)",
       "etab": "",
@@ -3376,6 +3404,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3704_offre-emploi-chef-de-projet-parcours-avenir-cppa.html"
+    },
+    {
+      "id": 3713,
+      "titre": "Enseignant.e Maître ressources en école primaire",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "09/04/2026",
+      "date_limite": "31/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3713_offre-emploi-enseignante-maitre-ressources-en-ecole-primaire.html"
     },
     {
       "id": 3476,
