@@ -257,7 +257,54 @@
     line-height: 1.4;
     margin-bottom: 5px;
     transition: color 0.15s;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
   }
+
+  .freshness-dot {
+    flex-shrink: 0;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    margin-top: 5px;
+    position: relative;
+  }
+
+  .freshness-dot.fraiche {
+    background: #4caf50;
+    box-shadow: 0 0 0 0 rgba(76,175,80,0.6);
+    animation: pulse-green 1.8s infinite;
+  }
+
+  .freshness-dot.recente  { background: #f9a825; }
+  .freshness-dot.encours  { background: #ef6c00; }
+  .freshness-dot.tenace   { background: #bdbdbd; }
+
+  @keyframes pulse-green {
+    0%   { box-shadow: 0 0 0 0 rgba(76,175,80,0.6); }
+    70%  { box-shadow: 0 0 0 7px rgba(76,175,80,0); }
+    100% { box-shadow: 0 0 0 0 rgba(76,175,80,0); }
+  }
+
+  /* Tooltip au survol de la pastille */
+  .freshness-dot::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 14px; top: -4px;
+    background: var(--gris-fonce);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .freshness-dot:hover::after { opacity: 1; }
 
   .offer-meta {
     display: flex;
@@ -596,12 +643,25 @@
     }
   }
 
+  function freshness(s) {
+    if (!s) return { cls: 'tenace', label: 'Tenace' };
+    const diff = Math.floor((Date.now() - parseDate(s)) / 86400000);
+    if (diff <= 3)  return { cls: 'fraiche', label: 'Fraîche' };
+    if (diff <= 14) return { cls: 'recente', label: 'Récente' };
+    if (diff <= 30) return { cls: 'encours', label: 'En cours' };
+    return { cls: 'tenace', label: 'Tenace' };
+  }
+
   // ── HTML d'une carte ─────────────────────────────────────────
   function cardHTML(o) {
     const loc = [o.ville, o.pays].filter(Boolean).join(', ');
+    const f   = freshness(o.date);
     return `
       <div class="offer-left">
-        <div class="offer-titre">${esc(o.titre)}</div>
+        <div class="offer-titre">
+          <span class="freshness-dot ${f.cls}" data-label="${f.label}" title="${f.label}"></span>
+          ${esc(o.titre)}
+        </div>
         <div class="offer-meta">
           ${loc     ? `<span class="offer-location">${esc(loc)}</span>` : ''}
           ${o.discipline ? `<span class="offer-discipline">${esc(o.discipline)}</span>` : ''}
