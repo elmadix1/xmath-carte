@@ -465,7 +465,7 @@
     font-size: 0.8rem;
     color: var(--gris-moyen);
     position: sticky;
-    top: 89px; /* hauteur de la barre de recherche */
+    top: 89px; /* sera ajusté dynamiquement par JS */
     z-index: 99;
     box-shadow: 0 1px 6px rgba(0,0,0,0.04);
   }
@@ -838,6 +838,18 @@
 
   // ── Touche Entrée ────────────────────────────────────────────
   document.addEventListener('keydown', e => { if (e.key === 'Enter') filtrer(); });
+
+  // Ajuste le top de la légende selon la hauteur réelle de la barre de recherche
+  function adjustLegend() {
+    const search = document.querySelector('.search-section');
+    const legend = document.querySelector('.legend-bar');
+    if (search && legend) {
+      legend.style.top = search.offsetHeight + 'px';
+    }
+  }
+
+  window.addEventListener('load', adjustLegend);
+  window.addEventListener('resize', adjustLegend);
 
   loadData();
 </script>
