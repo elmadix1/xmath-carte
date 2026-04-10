@@ -1,19 +1,15 @@
-name: Scrape AEFE Emplois + Deploy
-
+name: Scrape AEFE + MLF Emplois + Deploy
 on:
   schedule:
     - cron: '0 3 * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
   pages: write
   id-token: write
-
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -25,18 +21,21 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install selenium
+          pip install selenium requests beautifulsoup4
 
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1
 
-      - name: Run scraper
+      - name: Run scraper AEFE
         run: python scrape_emplois.py
 
-      - name: Commit emplois.json
+      - name: Run scraper MLF
+        run: python scraper_mlf.py
+
+      - name: Commit JSON files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add emplois.json
-          git diff --staged --quiet || git commit -m "Update emplois.json $(date +'%Y-%m-%d %H:%M')"
+          git add emplois.json emplois_mlf.json
+          git diff --staged --quiet || git commit -m "Update emplois AEFE + MLF $(date +'%Y-%m-%d %H:%M')"
           git push
