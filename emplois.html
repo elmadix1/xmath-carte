@@ -780,12 +780,18 @@
 </div>
 
 <div class="legend-bar">
-  <span class="legend-title">Ancienneté :</span>
-  <span class="legend-item" onclick="filtrerParAnciennete('today')"   data-fresh="today">  <span class="legend-dot today"></span>  Aujourd'hui <em>(24h)</em></span>
+  <span class="legend-title">AEFE – Ancienneté :</span>
+  <span class="legend-item" onclick="filtrerParAnciennete('today')"   data-fresh="today">  <span class="legend-dot today"></span>  Aujourd'hui</span>
   <span class="legend-item" onclick="filtrerParAnciennete('fraiche')" data-fresh="fraiche"><span class="legend-dot fraiche"></span> Fraîche <em>(1–3 j)</em></span>
   <span class="legend-item" onclick="filtrerParAnciennete('recente')" data-fresh="recente"><span class="legend-dot recente"></span> Récente <em>(4–14 j)</em></span>
   <span class="legend-item" onclick="filtrerParAnciennete('encours')" data-fresh="encours"><span class="legend-dot encours"></span> En cours <em>(15–30 j)</em></span>
   <span class="legend-item" onclick="filtrerParAnciennete('tenace')"  data-fresh="tenace"> <span class="legend-dot tenace"></span>  Tenace <em>(+30 j)</em></span>
+  <span class="legend-sep"></span>
+  <span class="legend-title">MLF – Délai :</span>
+  <span class="legend-item"><span class="legend-dot today"></span> Ferme aujourd'hui</span>
+  <span class="legend-item"><span class="legend-dot fraiche"></span> Ferme dans 7 j</span>
+  <span class="legend-item"><span class="legend-dot recente"></span> Ferme dans 30 j</span>
+  <span class="legend-item"><span class="legend-dot encours"></span> Ferme dans +30 j</span>
   <span class="legend-sep"></span>
   <span class="legend-title">Source :</span>
   <span class="legend-item" onclick="filtrerParSource('AEFE')"><span class="legend-badge aefe">AEFE</span> Réseau public</span>
@@ -913,7 +919,7 @@
   function renderHeroStats(offers) {
     const counts = { today: 0, fraiche: 0, recente: 0, encours: 0, tenace: 0 };
     offers.forEach(o => {
-      const f = freshness(o.date);
+      const f = freshness(o.date, (o.source||'AEFE').toUpperCase(), o.date_limite);
       counts[f.cls] = (counts[f.cls] || 0) + 1;
     });
 
@@ -991,7 +997,7 @@
       if (contrat === 'permanent'  && !c.includes('permanent'))  return false;
       if (contrat === 'temporaire' && !c.includes('temporaire')) return false;
       if (source && s !== source) return false;
-      if (activeFresh && freshness(o.date).cls !== activeFresh) return false;
+      if (activeFresh && freshness(o.date, (o.source||'AEFE').toUpperCase(), o.date_limite).cls !== activeFresh) return false;
       if (region) {
         const paysLower = (o.pays || '').toLowerCase();
         const villeLower = (o.ville || '').toLowerCase();
@@ -1079,7 +1085,17 @@
     }
   }
 
-  function freshness(s) {
+  function freshness(s, source, date_limite) {
+    // Pour MLF : ancienneté basée sur le temps restant avant date_limite
+    if (source === 'MLF' && date_limite) {
+      const reste = Math.floor((parseDate(date_limite) - Date.now()) / 86400000);
+      if (reste < 0)  return { cls: 'tenace',  label: 'Expirée' };
+      if (reste === 0) return { cls: 'today',  label: 'Ferme aujourd\'hui' };
+      if (reste <= 7)  return { cls: 'fraiche', label: `Ferme dans ${reste} j` };
+      if (reste <= 30) return { cls: 'recente', label: `Ferme dans ${Math.ceil(reste/7)} sem.` };
+      return { cls: 'encours', label: `Ferme dans +30 j` };
+    }
+    // Pour AEFE : ancienneté basée sur la date de publication
     if (!s) return { cls: 'tenace', label: 'Tenace' };
     const diff = Math.floor((Date.now() - parseDate(s)) / 86400000);
     if (diff === 0) return { cls: 'today',   label: "Aujourd'hui" };
@@ -1092,8 +1108,8 @@
   // ── HTML d'une carte ─────────────────────────────────────────
   function cardHTML(o) {
     const loc    = [o.ville, o.pays].filter(Boolean).join(', ');
-    const f      = freshness(o.date);
     const source = (o.source || 'AEFE').toUpperCase();
+    const f      = freshness(o.date, source, o.date_limite);
 
     // Date limite pour les offres MLF
     const dateLimite = (source === 'MLF' && o.date_limite)
