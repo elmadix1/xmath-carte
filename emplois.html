@@ -824,6 +824,10 @@
     document.getElementById('resultsCount').innerHTML =
       `<strong>${total}</strong> offre${total !== 1 ? 's' : ''} trouvée${total !== 1 ? 's' : ''}`;
 
+    // Mettre à jour les stats hero avec les offres filtrées
+    renderHeroStats(filtered);
+    document.getElementById('totalMeta').textContent = total;
+
     if (total === 0) {
       document.getElementById('listContainer').innerHTML =
         `<div class="no-results"><span class="emoji">🔍</span>
