@@ -586,7 +586,56 @@
     .legend-bar { padding: 10px 16px; gap: 12px; }
   }
 
-  #scrollTop {
+  .category-bar {
+    background: #fff;
+    border-bottom: 1px solid var(--gris-clair);
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 98;
+  }
+
+  .category-title {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--gris-moyen);
+    margin-right: 4px;
+    white-space: nowrap;
+  }
+
+  .cat-pill {
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 20px;
+    border: 1.5px solid var(--gris-clair);
+    background: #fff;
+    color: var(--gris-moyen);
+    cursor: pointer;
+    transition: all 0.15s;
+    user-select: none;
+    white-space: nowrap;
+  }
+
+  .cat-pill:hover {
+    border-color: var(--vert);
+    color: var(--vert);
+    background: var(--vert-pale);
+  }
+
+  .cat-pill.active {
+    background: var(--vert);
+    border-color: var(--vert);
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    .category-bar { padding: 10px 16px; }
+  }
     position: fixed;
     bottom: 28px; right: 28px;
     width: 42px; height: 42px;
@@ -701,7 +750,17 @@
   <span class="legend-item" onclick="filtrerParSource('MLF')"><span class="legend-badge mlf">MLF</span> Mission Laïque</span>
 </div>
 
-<main>
+<div class="category-bar">
+  <span class="category-title">Catégorie :</span>
+  <span class="cat-pill" onclick="filtrerParCategorie(this, '1er degré')">🏫 1er degré</span>
+  <span class="cat-pill" onclick="filtrerParCategorie(this, '2nd degré')">📚 2nd degré</span>
+  <span class="cat-pill" onclick="filtrerParCategorie(this, 'langues')">🌍 Langues</span>
+  <span class="cat-pill" onclick="filtrerParCategorie(this, 'direction')">🏛️ Direction</span>
+  <span class="cat-pill" onclick="filtrerParCategorie(this, 'administratif')">📋 Administratif</span>
+  <span class="cat-pill" onclick="filtrerParCategorie(this, 'sante')">🏥 Santé & Spécialisé</span>
+  <span class="cat-pill" onclick="filtrerParCategorie(this, 'support')">🔧 Support</span>
+  <span class="cat-pill" onclick="filtrerParCategorie(this, 'autre')">🏫 Autre métier</span>
+</div>
   <div class="results-header">
     <div class="results-count" id="resultsCount"></div>
     <select class="sort-select" id="sortSelect" onchange="filtrer()">
@@ -735,6 +794,33 @@
   let filtered  = [];
   let displayed = 0;
   let busy      = false;
+
+  let activeCategory = '';
+
+  const categoryKeywords = {
+    '1er degré':     ['professeur des écoles', 'maternelle', 'primaire', 'asem', 'aide maternelle', 'éducateur', 'erzieher', 'assistant maternel', 'aide enseignant', 'périscolaire', 'crèche'],
+    '2nd degré':     ['mathématiques', 'physique', 'chimie', 'svt', 'histoire', 'géographie', 'lettres', 'philosophie', 'ses', 'eps', 'technologie', 'snt', 'sciences', 'éducation musicale', 'arts plastiques', 'documentaliste', 'second degré', 'secondaire', 'éducation physique', 'certifié', 'agrégé', 'eco gestion', 'hggsp', 'nsi', 'prio'],
+    'langues':       ['anglais', 'espagnol', 'allemand', 'italien', 'arabe', 'chinois', 'fle', 'flsco', 'portugais', 'luxembourgeois', 'langue', 'lva'],
+    'direction':     ['directeur', 'principal', 'proviseur', 'chef d\'établissement', 'cpe', 'conseiller pédagogique', 'head of', 'coordinateur péda', 'adjoint de direction'],
+    'administratif': ['administratif', 'daf', 'secrétaire', 'assistant de direction', 'communication', 'rh', 'ressources humaines', 'gestionnaire', 'comptable', 'chef de projet', 'responsable administratif', 'directeur des services', 'directeur des programmes', 'expert pédagogie', 'responsable du site'],
+    'sante':         ['infirmier', 'psychologue', 'orthophoniste', 'aesh', 'médecin', 'puériculteur', 'inclusif', 'erei', 'référent'],
+    'support':       ['laboratoire', 'entretien', 'accueil', 'technicien', 'aquatique', 'bassin', 'ouvrier', 'agent', 'maintenance', 'cuisinier', 'bibliothécaire', 'bcd', 'robotique', 'danse', 'surveillant', 'informatique'],
+  };
+
+  function getCategory(o) {
+    const text = (o.titre + ' ' + (o.discipline||'')).toLowerCase();
+    for (const [cat, keywords] of Object.entries(categoryKeywords)) {
+      if (keywords.some(k => text.includes(k))) return cat;
+    }
+    return 'autre';
+  }
+
+  function filtrerParCategorie(el, cat) {
+    activeCategory = activeCategory === cat ? '' : cat;
+    document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
+    if (activeCategory) el.classList.add('active');
+    filtrer();
+  }
 
   let activeFresh = '';
 
@@ -841,6 +927,16 @@
       if (contrat === 'temporaire' && !c.includes('temporaire')) return false;
       if (source && s !== source) return false;
       if (activeFresh && freshness(o.date).cls !== activeFresh) return false;
+      if (activeCategory) {
+        const cat = getCategory(o);
+        if (activeCategory === 'autre') {
+          if (cat !== 'autre') return false;
+        } else {
+          const keywords = categoryKeywords[activeCategory] || [];
+          const searchStr = (o.titre + ' ' + (o.discipline||'')).toLowerCase();
+          if (!keywords.some(k => searchStr.includes(k))) return false;
+        }
+      }
       return true;
     });
 
@@ -866,7 +962,6 @@
 
     // Mettre à jour les stats hero avec les offres filtrées
     renderHeroStats(filtered);
-    document.getElementById('totalMeta').textContent = total;
 
     if (total === 0) {
       document.getElementById('listContainer').innerHTML =
@@ -992,9 +1087,11 @@
     document.getElementById('selectContrat').value    = '';
     document.getElementById('selectSource').value     = '';
     document.getElementById('sortSelect').value       = 'date';
+    activeCategory = '';
     activeFresh = '';
     document.querySelectorAll('.legend-item').forEach(el => el.classList.remove('active'));
     document.querySelectorAll('.legend-badge').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.cat-pill').forEach(el => el.classList.remove('active'));
     filtrer();
   }
 
@@ -1026,8 +1123,12 @@
   function adjustLegend() {
     const search = document.querySelector('.search-section');
     const legend = document.querySelector('.legend-bar');
+    const catBar = document.querySelector('.category-bar');
     if (search && legend) {
       legend.style.top = search.offsetHeight + 'px';
+    }
+    if (search && legend && catBar) {
+      catBar.style.top = (search.offsetHeight + legend.offsetHeight) + 'px';
     }
   }
 
