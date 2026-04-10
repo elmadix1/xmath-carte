@@ -149,7 +149,7 @@
     max-width: 1100px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr auto;
     gap: 12px;
     align-items: end;
   }
@@ -585,10 +585,6 @@
 
 <header>
   <div class="logo-text">x<span>math</span>.academy</div>
-  <div class="badges">
-    <span class="badge aefe">AEFE</span>
-    <span class="badge mlf">MLF</span>
-  </div>
 </header>
 
 <div class="hero">
@@ -629,6 +625,14 @@
         <option value="">Tous les contrats</option>
         <option value="permanent">CDI (permanent)</option>
         <option value="temporaire">CDD (temporaire)</option>
+      </select>
+    </div>
+    <div class="search-field">
+      <label>Source</label>
+      <select id="selectSource">
+        <option value="">AEFE + MLF</option>
+        <option value="AEFE">AEFE uniquement</option>
+        <option value="MLF">MLF uniquement</option>
       </select>
     </div>
     <div class="btn-row">
@@ -729,16 +733,19 @@
     const mots    = document.getElementById('inputMotsCles').value.toLowerCase().trim();
     const loc     = document.getElementById('inputLocalisation').value.toLowerCase().trim();
     const contrat = document.getElementById('selectContrat').value;
+    const source  = document.getElementById('selectSource').value;
     const sort    = document.getElementById('sortSelect').value;
 
     filtered = allOffers.filter(o => {
       const t = (o.titre + ' ' + (o.discipline||'')).toLowerCase();
       const l = ((o.pays||'') + ' ' + (o.ville||'')).toLowerCase();
       const c = (o.contrat || '').toLowerCase();
-      if (mots && !t.includes(mots)) return false;
-      if (loc  && !l.includes(loc))  return false;
+      const s = (o.source || 'AEFE').toUpperCase();
+      if (mots   && !t.includes(mots)) return false;
+      if (loc    && !l.includes(loc))  return false;
       if (contrat === 'permanent'  && !c.includes('permanent'))  return false;
       if (contrat === 'temporaire' && !c.includes('temporaire')) return false;
+      if (source && s !== source) return false;
       return true;
     });
 
@@ -879,6 +886,7 @@
     document.getElementById('inputMotsCles').value    = '';
     document.getElementById('inputLocalisation').value = '';
     document.getElementById('selectContrat').value    = '';
+    document.getElementById('selectSource').value     = '';
     document.getElementById('sortSelect').value       = 'date';
     filtrer();
   }
