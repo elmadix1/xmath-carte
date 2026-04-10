@@ -566,7 +566,7 @@
     </em>
     &nbsp;à l'international
   </h1>
-  <p class="subtitle">Les opportunités du réseau scolaire français partout dans le monde</p>
+  <p class="subtitle"></p>
   <div class="meta">
     <div class="meta-item"><span class="dot"></span><span id="totalMeta">…</span> offres disponibles</div>
     <div class="meta-item"><span class="dot"></span>Plus de 100 pays</div>
@@ -651,7 +651,7 @@
       allOffers  = data.offers || [];
       const upd  = data.updated || '';
       document.getElementById('updatedBar').textContent =
-        upd ? `Dernière mise à jour : ${upd} — Source : talents.aefe.fr` : 'Données AEFE';
+        upd ? `Dernière mise à jour : ${upd}` : '';
       document.getElementById('totalMeta').textContent = allOffers.length;
       filtrer();
     } catch {
