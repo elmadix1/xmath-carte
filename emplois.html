@@ -44,15 +44,24 @@
 
   header .logo-text span { color: var(--vert-clair); }
 
-  header .badge {
+  header .badges {
     margin-left: auto;
-    background: var(--vert);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  header .badge {
     color: #fff;
-    font-size: 0.75rem;
-    font-weight: 500;
+    font-size: 0.72rem;
+    font-weight: 600;
     padding: 4px 12px;
     border-radius: 20px;
+    letter-spacing: 0.3px;
   }
+
+  header .badge.aefe { background: #1a56b0; }
+  header .badge.mlf  { background: #b01a1a; }
 
   .hero {
     background: linear-gradient(135deg, var(--gris-fonce) 0%, #2d3a26 100%);
@@ -316,7 +325,6 @@
     100% { box-shadow: 0 0 0 0 rgba(76,175,80,0); }
   }
 
-  /* Tooltip au survol de la pastille */
   .freshness-dot::after {
     content: attr(data-label);
     position: absolute;
@@ -358,12 +366,18 @@
 
   .offer-date { font-size: 0.78rem; color: #bbb; }
 
+  .offer-date-limite {
+    font-size: 0.75rem;
+    color: #e07b00;
+    white-space: nowrap;
+  }
+
   .offer-right {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 6px;
-    min-width: 100px;
+    min-width: 110px;
   }
 
   .badge-contrat {
@@ -378,6 +392,19 @@
   .badge-contrat.temporaire { background: #fdf2e4; color: var(--temporaire); }
   .badge-contrat.autre      { background: var(--gris-clair); color: var(--gris-moyen); }
 
+  /* Badge source AEFE / MLF */
+  .badge-source {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+
+  .badge-source.aefe { background: #e8f0fe; color: #1a56b0; }
+  .badge-source.mlf  { background: #fce8e8; color: #b01a1a; }
+
   .offer-arrow {
     color: var(--gris-clair);
     font-size: 1rem;
@@ -386,7 +413,6 @@
 
   .offer-card:hover .offer-arrow { color: var(--vert); transform: translateX(3px); }
 
-  /* LOADER INFINI */
   #loader {
     display: none;
     text-align: center;
@@ -445,15 +471,6 @@
 
   @keyframes spin { to { transform: rotate(360deg); } }
 
-  .updated-bar {
-    background: var(--vert-pale);
-    text-align: center;
-    padding: 8px;
-    font-size: 0.8rem;
-    color: var(--gris-moyen);
-    border-bottom: 1px solid var(--gris-clair);
-  }
-
   .legend-bar {
     background: #f5f8f3;
     border-bottom: 1px solid var(--gris-clair);
@@ -465,7 +482,7 @@
     font-size: 0.8rem;
     color: var(--gris-moyen);
     position: sticky;
-    top: 89px; /* sera ajusté dynamiquement par JS */
+    top: 89px;
     z-index: 99;
     box-shadow: 0 1px 6px rgba(0,0,0,0.04);
   }
@@ -501,11 +518,30 @@
   .legend-dot.encours { background: #ef6c00; }
   .legend-dot.tenace  { background: #bdbdbd; }
 
+  /* séparateur dans la légende */
+  .legend-sep {
+    width: 1px;
+    height: 16px;
+    background: var(--gris-clair);
+    margin: 0 4px;
+  }
+
+  /* mini badges source dans la légende */
+  .legend-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+  }
+
+  .legend-badge.aefe { background: #e8f0fe; color: #1a56b0; }
+  .legend-badge.mlf  { background: #fce8e8; color: #b01a1a; }
+
   @media (max-width: 768px) {
     .legend-bar { padding: 10px 16px; gap: 12px; }
   }
 
-  /* SCROLL-TO-TOP */
   #scrollTop {
     position: fixed;
     bottom: 28px; right: 28px;
@@ -549,7 +585,10 @@
 
 <header>
   <div class="logo-text">x<span>math</span>.academy</div>
-  <div class="badge">Réseau AEFE</div>
+  <div class="badges">
+    <span class="badge aefe">AEFE</span>
+    <span class="badge mlf">MLF</span>
+  </div>
 </header>
 
 <div class="hero">
@@ -600,12 +639,16 @@
 </div>
 
 <div class="legend-bar">
-  <span class="legend-title">Ancienneté de l'offre :</span>
+  <span class="legend-title">Ancienneté :</span>
   <span class="legend-item"><span class="legend-dot today"></span> Aujourd'hui <em>(24h)</em></span>
-  <span class="legend-item"><span class="legend-dot fraiche"></span> Fraîche <em>(1–3 jours)</em></span>
-  <span class="legend-item"><span class="legend-dot recente"></span> Récente <em>(4–14 jours)</em></span>
-  <span class="legend-item"><span class="legend-dot encours"></span> En cours <em>(15–30 jours)</em></span>
-  <span class="legend-item"><span class="legend-dot tenace"></span> Tenace <em>(+30 jours)</em></span>
+  <span class="legend-item"><span class="legend-dot fraiche"></span> Fraîche <em>(1–3 j)</em></span>
+  <span class="legend-item"><span class="legend-dot recente"></span> Récente <em>(4–14 j)</em></span>
+  <span class="legend-item"><span class="legend-dot encours"></span> En cours <em>(15–30 j)</em></span>
+  <span class="legend-item"><span class="legend-dot tenace"></span> Tenace <em>(+30 j)</em></span>
+  <span class="legend-sep"></span>
+  <span class="legend-title">Source :</span>
+  <span class="legend-item"><span class="legend-badge aefe">AEFE</span> Réseau public</span>
+  <span class="legend-item"><span class="legend-badge mlf">MLF</span> Mission Laïque</span>
 </div>
 
 <main>
@@ -643,23 +686,41 @@
   let displayed = 0;
   let busy      = false;
 
-  // ── Chargement ──────────────────────────────────────────────
+  // ── Chargement des deux sources en parallèle ─────────────────
   async function loadData() {
     try {
-      const res  = await fetch('emplois.json');
-      const data = await res.json();
-      allOffers  = data.offers || [];
-      const upd  = data.updated || '';
+      const [resAEFE, resMLF] = await Promise.allSettled([
+        fetch('emplois.json'),
+        fetch('emplois_mlf.json')
+      ]);
+
+      let offresAEFE = [];
+      let offresMLF  = [];
+      let updAEFE    = '';
+
+      if (resAEFE.status === 'fulfilled' && resAEFE.value.ok) {
+        const data = await resAEFE.value.json();
+        offresAEFE = (data.offers || []).map(o => ({ ...o, source: 'AEFE' }));
+        updAEFE    = data.updated || '';
+      }
+
+      if (resMLF.status === 'fulfilled' && resMLF.value.ok) {
+        const data = await resMLF.value.json();
+        offresMLF  = (data.offers || []).map(o => ({ ...o, source: 'MLF' }));
+      }
+
+      allOffers = [...offresAEFE, ...offresMLF];
+
       document.getElementById('updatedBar').textContent =
-        upd ? `Dernière mise à jour : ${upd}` : '';
+        updAEFE ? `Dernière mise à jour : ${updAEFE}` : '';
       document.getElementById('totalMeta').textContent = allOffers.length;
+
       filtrer();
     } catch {
       document.getElementById('listContainer').innerHTML =
         `<div class="no-results"><span class="emoji">⚠️</span>
-         <p>Impossible de charger <strong>emplois.json</strong>.<br>
-         Assurez-vous que le fichier est dans le même dossier.</p></div>`;
-      document.getElementById('updatedBar').textContent = 'Fichier emplois.json introuvable';
+         <p>Impossible de charger les offres.<br>
+         Assurez-vous que emplois.json est dans le même dossier.</p></div>`;
     }
   }
 
@@ -671,8 +732,8 @@
     const sort    = document.getElementById('sortSelect').value;
 
     filtered = allOffers.filter(o => {
-      const t = (o.titre + ' ' + o.discipline).toLowerCase();
-      const l = (o.pays  + ' ' + o.ville).toLowerCase();
+      const t = (o.titre + ' ' + (o.discipline||'')).toLowerCase();
+      const l = ((o.pays||'') + ' ' + (o.ville||'')).toLowerCase();
       const c = (o.contrat || '').toLowerCase();
       if (mots && !t.includes(mots)) return false;
       if (loc  && !l.includes(loc))  return false;
@@ -688,7 +749,6 @@
       return 0;
     });
 
-    // Reset affichage
     displayed = 0;
     document.getElementById('listContainer').innerHTML = '';
     document.getElementById('end-message').style.display = 'none';
@@ -704,7 +764,6 @@
       return;
     }
 
-    // Conteneur liste
     const list = document.createElement('div');
     list.className = 'offer-list';
     list.id = 'offerList';
@@ -718,7 +777,7 @@
     if (busy || displayed >= filtered.length) return;
     busy = true;
 
-    const list  = document.getElementById('offerList');
+    const list = document.getElementById('offerList');
     if (!list) { busy = false; return; }
 
     const batch = filtered.slice(displayed, displayed + BATCH);
@@ -755,8 +814,15 @@
 
   // ── HTML d'une carte ─────────────────────────────────────────
   function cardHTML(o) {
-    const loc = [o.ville, o.pays].filter(Boolean).join(', ');
-    const f   = freshness(o.date);
+    const loc    = [o.ville, o.pays].filter(Boolean).join(', ');
+    const f      = freshness(o.date);
+    const source = (o.source || 'AEFE').toUpperCase();
+
+    // Date limite pour les offres MLF
+    const dateLimite = (source === 'MLF' && o.date_limite)
+      ? `<span class="offer-date-limite">⏳ Limite : ${o.date_limite}</span>`
+      : '';
+
     return `
       <div class="offer-left">
         <div class="offer-titre">
@@ -764,12 +830,14 @@
           ${esc(o.titre)}
         </div>
         <div class="offer-meta">
-          ${loc     ? `<span class="offer-location">${esc(loc)}</span>` : ''}
+          ${loc          ? `<span class="offer-location">${esc(loc)}</span>` : ''}
           ${o.discipline ? `<span class="offer-discipline">${esc(o.discipline)}</span>` : ''}
-          ${o.date  ? `<span class="offer-date">${relDate(o.date)}</span>` : ''}
+          ${o.date       ? `<span class="offer-date">${relDate(o.date)}</span>` : ''}
+          ${dateLimite}
         </div>
       </div>
       <div class="offer-right">
+        <span class="badge-source ${source.toLowerCase()}">${source}</span>
         ${badgeHTML(o.contrat)}
         <span class="offer-arrow">→</span>
       </div>`;
@@ -808,10 +876,10 @@
   }
 
   function reset() {
-    document.getElementById('inputMotsCles').value   = '';
+    document.getElementById('inputMotsCles').value    = '';
     document.getElementById('inputLocalisation').value = '';
-    document.getElementById('selectContrat').value   = '';
-    document.getElementById('sortSelect').value      = 'date';
+    document.getElementById('selectContrat').value    = '';
+    document.getElementById('sortSelect').value       = 'date';
     filtrer();
   }
 
@@ -839,7 +907,7 @@
   // ── Touche Entrée ────────────────────────────────────────────
   document.addEventListener('keydown', e => { if (e.key === 'Enter') filtrer(); });
 
-  // Ajuste le top de la légende selon la hauteur réelle de la barre de recherche
+  // ── Ajustement dynamique de la légende ───────────────────────
   function adjustLegend() {
     const search = document.querySelector('.search-section');
     const legend = document.querySelector('.legend-bar');
