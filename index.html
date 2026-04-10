@@ -7,6 +7,11 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:system-ui,sans-serif;background:#f8fafc;padding:16px;max-width:1100px;margin:0 auto}
+.site-header{display:flex;align-items:center;justify-content:space-between;background:#1a1f16;border-radius:10px;padding:12px 20px;margin-bottom:14px;border-bottom:3px solid #5a8a3c}
+.site-header .logo{font-family:Georgia,serif;font-size:1.2rem;color:#fff;text-decoration:none}
+.site-header .logo span{color:#7ab055}
+.site-header a.nav-btn{background:#5a8a3c;color:#fff;text-decoration:none;font-size:0.82rem;font-weight:600;padding:7px 16px;border-radius:20px}
+.site-header a.nav-btn:hover{background:#7ab055}
 h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
 .sub{font-size:13px;color:#64748b;margin-bottom:10px}
 .click-hint{display:flex;align-items:center;gap:8px;background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:8px 12px;margin-bottom:10px;font-size:12px;color:#92400e;line-height:1.5}
@@ -95,6 +100,10 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
 </style>
 </head>
 <body>
+<div class="site-header">
+  <a href="/" class="logo">x<span>math</span>.academy</a>
+  <a href="/emplois.html" class="nav-btn">💼 Offres d'emploi</a>
+</div>
 <h3>Réseau AEFE — Zones d'examen Brevet &amp; Bac · Programme MEN</h3>
 
 <div id="search-wrap">
