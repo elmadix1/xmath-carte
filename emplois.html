@@ -525,6 +525,22 @@
     display: flex;
     align-items: center;
     gap: 6px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 3px 8px;
+    transition: background 0.15s;
+    user-select: none;
+  }
+
+  .legend-item:hover { background: var(--vert-pale); }
+  .legend-item.active { background: var(--vert-pale); outline: 2px solid var(--vert); }
+
+  .legend-badge {
+    cursor: pointer;
+  }
+
+  .legend-badge:hover, .legend-badge.active {
+    outline: 2px solid currentColor;
   }
 
   .legend-item em {
@@ -629,7 +645,7 @@
     </em>
     &nbsp;à l'international
   </h1>
-  <p class="subtitle">Enseignement, direction, administration, santé scolaire : tous les postes disponibles dans les réseaux AEFE et MLF à travers le monde.</p>
+  <p class="subtitle" style="color:rgba(255,255,255,0.9);font-size:1rem;font-weight:400;margin-top:12px;">Enseignement, direction, administration, santé scolaire : tous les postes disponibles dans les réseaux AEFE et MLF à travers le monde.</p>
   <div class="meta">
     <div class="meta-item"><span class="dot"></span><span id="totalMeta">…</span> offres disponibles</div>
     <div class="meta-item"><span class="dot"></span>Plus de 100 pays</div>
@@ -674,15 +690,15 @@
 
 <div class="legend-bar">
   <span class="legend-title">Ancienneté :</span>
-  <span class="legend-item"><span class="legend-dot today"></span> Aujourd'hui <em>(24h)</em></span>
-  <span class="legend-item"><span class="legend-dot fraiche"></span> Fraîche <em>(1–3 j)</em></span>
-  <span class="legend-item"><span class="legend-dot recente"></span> Récente <em>(4–14 j)</em></span>
-  <span class="legend-item"><span class="legend-dot encours"></span> En cours <em>(15–30 j)</em></span>
-  <span class="legend-item"><span class="legend-dot tenace"></span> Tenace <em>(+30 j)</em></span>
+  <span class="legend-item" onclick="filtrerParAnciennete('today')"   data-fresh="today">  <span class="legend-dot today"></span>  Aujourd'hui <em>(24h)</em></span>
+  <span class="legend-item" onclick="filtrerParAnciennete('fraiche')" data-fresh="fraiche"><span class="legend-dot fraiche"></span> Fraîche <em>(1–3 j)</em></span>
+  <span class="legend-item" onclick="filtrerParAnciennete('recente')" data-fresh="recente"><span class="legend-dot recente"></span> Récente <em>(4–14 j)</em></span>
+  <span class="legend-item" onclick="filtrerParAnciennete('encours')" data-fresh="encours"><span class="legend-dot encours"></span> En cours <em>(15–30 j)</em></span>
+  <span class="legend-item" onclick="filtrerParAnciennete('tenace')"  data-fresh="tenace"> <span class="legend-dot tenace"></span>  Tenace <em>(+30 j)</em></span>
   <span class="legend-sep"></span>
   <span class="legend-title">Source :</span>
-  <span class="legend-item"><span class="legend-badge aefe">AEFE</span> Réseau public</span>
-  <span class="legend-item"><span class="legend-badge mlf">MLF</span> Mission Laïque</span>
+  <span class="legend-item" onclick="filtrerParSource('AEFE')"><span class="legend-badge aefe">AEFE</span> Réseau public</span>
+  <span class="legend-item" onclick="filtrerParSource('MLF')"><span class="legend-badge mlf">MLF</span> Mission Laïque</span>
 </div>
 
 <main>
@@ -719,6 +735,29 @@
   let filtered  = [];
   let displayed = 0;
   let busy      = false;
+
+  let activeFresh = '';
+
+  function filtrerParAnciennete(cls) {
+    // Toggle
+    activeFresh = activeFresh === cls ? '' : cls;
+    // Update active state visually
+    document.querySelectorAll('.legend-item[data-fresh]').forEach(el => {
+      el.classList.toggle('active', el.dataset.fresh === activeFresh);
+    });
+    filtrer();
+  }
+
+  function filtrerParSource(src) {
+    const sel = document.getElementById('selectSource');
+    sel.value = sel.value === src ? '' : src;
+    // Update active state visually
+    document.querySelectorAll('.legend-item:not([data-fresh])').forEach(el => {
+      const badge = el.querySelector('.legend-badge');
+      if (badge) badge.classList.toggle('active', sel.value === badge.textContent.trim());
+    });
+    filtrer();
+  }
 
   // ── Stats hero ───────────────────────────────────────────────
   function renderHeroStats(offers) {
@@ -801,6 +840,7 @@
       if (contrat === 'permanent'  && !c.includes('permanent'))  return false;
       if (contrat === 'temporaire' && !c.includes('temporaire')) return false;
       if (source && s !== source) return false;
+      if (activeFresh && freshness(o.date).cls !== activeFresh) return false;
       return true;
     });
 
@@ -952,6 +992,9 @@
     document.getElementById('selectContrat').value    = '';
     document.getElementById('selectSource').value     = '';
     document.getElementById('sortSelect').value       = 'date';
+    activeFresh = '';
+    document.querySelectorAll('.legend-item').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.legend-badge').forEach(el => el.classList.remove('active'));
     filtrer();
   }
 
