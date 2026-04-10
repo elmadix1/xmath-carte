@@ -601,6 +601,943 @@
     </em>
     &nbsp;à l'international
   </h1>
+  <p class="subtitle">Enseignement, direction, administration, santé scolaire : tous les postes disponibles dans les réseaux AEFE et MLF à travers le monde.</p>
+  <div class="meta">
+    <div class="meta-item"><span class="dot"></span><span id="totalMeta">…</span> offres disponibles</div>
+    <div class="meta-item"><span class="dot"></span>Plus de 100 pays</div>
+    <div class="meta-item"><span class="dot"></span>CDI &amp; CDD</div>
+  </div>
+</div>
+
+<div class="search-section">
+  <div class="search-grid">
+    <div class="search-field">
+      <label>Mots-clés</label>
+      <input type="text" id="inputMotsCles" placeholder="ex: mathématiques, CPE, directeur…">
+    </div>
+    <div class="search-field">
+      <label>Pays / Ville</label>
+      <input type="text" id="inputLocalisation" placeholder="ex: Maroc, Dubai, Paris…">
+    </div>
+    <div class="search-field">
+      <label>Contrat</label>
+      <select id="selectContrat">
+        <option value="">Tous les contrats</option>
+        <option value="permanent">CDI (permanent)</option>
+        <option value="temporaire">CDD (temporaire)</option>
+      </select>
+    </div>
+    <div class="search-field">
+      <label>Source</label>
+      <select id="selectSource">
+        <option value="">AEFE + MLF</option>
+        <option value="AEFE">AEFE uniquement</option>
+        <option value="MLF">MLF uniquement</option>
+      </select>
+    </div>
+    <div class="btn-row">
+      <button class="btn-search" onclick="filtrer()">Rechercher</button>
+      <button class="btn-reset" onclick="reset()" title="Effacer">✕</button>
+    </div>
+  </div>
+</div>
+
+<div class="legend-bar">
+  <span class="legend-title">Ancienneté :</span>
+  <span class="legend-item"><span class="legend-dot today"></span> Aujourd'hui <em>(24h)</em></span>
+  <span class="legend-item"><span class="legend-dot fraiche"></span> Fraîche <em>(1–3 j)</em></span>
+  <span class="legend-item"><span class="legend-dot recente"></span> Récente <em>(4–14 j)</em></span>
+  <span class="legend-item"><span class="legend-dot encours"></span> En cours <em>(15–30 j)</em></span>
+  <span class="legend-item"><span class="legend-dot tenace"></span> Tenace <em>(+30 j)</em></span>
+  <span class="legend-sep"></span>
+  <span class="legend-title">Source :</span>
+  <span class="legend-item"><span class="legend-badge aefe">AEFE</span> Réseau public</span>
+  <span class="legend-item"><span class="legend-badge mlf">MLF</span> Mission Laïque</span>
+</div>
+
+<main>
+  <div class="results-header">
+    <div class="results-count" id="resultsCount"></div>
+    <select class="sort-select" id="sortSelect" onchange="filtrer()">
+      <option value="date">Plus récent / urgent d'abord</option>
+      <option value="pays">Par pays</option>
+      <option value="titre">Par titre</option>
+    </select>
+  </div>
+
+  <div id="listContainer">
+    <div class="loading-init">
+      <div class="spinner"></div>
+      Chargement des offres…
+    </div>
+  </div>
+
+  <div id="loader">
+    <div class="loader-dots"><span></span><span></span><span></span></div>
+  </div>
+
+  <div id="end-message">✓ Toutes les offres ont été affichées</div>
+
+  <div id="sentinel"></div>
+</main>
+
+<button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+  const BATCH = 30;
+  let allOffers = [];
+  let filtered  = [];
+  let displayed = 0;
+  let busy      = false;
+
+  // ── Chargement des deux sources en parallèle ─────────────────
+  async function loadData() {
+    try {
+      const [resAEFE, resMLF] = await Promise.allSettled([
+        fetch('emplois.json'),
+        fetch('emplois_mlf.json')
+      ]);
+
+      let offresAEFE = [];
+      let offresMLF  = [];
+      let updAEFE    = '';
+
+      if (resAEFE.status === 'fulfilled' && resAEFE.value.ok) {
+        const data = await resAEFE.value.json();
+        offresAEFE = (data.offers || []).map(o => ({ ...o, source: 'AEFE' }));
+        updAEFE    = data.updated || '';
+      }
+
+      if (resMLF.status === 'fulfilled' && resMLF.value.ok) {
+        const data = await resMLF.value.json();
+        offresMLF  = (data.offers || []).map(o => ({ ...o, source: 'MLF' }));
+      }
+
+      allOffers = [...offresAEFE, ...offresMLF];
+
+      document.getElementById('updatedBar').textContent =
+        updAEFE ? `Dernière mise à jour : ${updAEFE}` : '';
+      document.getElementById('totalMeta').textContent = allOffers.length;
+
+      filtrer();
+    } catch {
+      document.getElementById('listContainer').innerHTML =
+        `<div class="no-results"><span class="emoji">⚠️</span>
+         <p>Impossible de charger les offres.<br>
+         Assurez-vous que emplois.json est dans le même dossier.</p></div>`;
+    }
+  }
+
+  // ── Filtrage ─────────────────────────────────────────────────
+  function filtrer() {
+    const mots    = document.getElementById('inputMotsCles').value.toLowerCase().trim();
+    const loc     = document.getElementById('inputLocalisation').value.toLowerCase().trim();
+    const contrat = document.getElementById('selectContrat').value;
+    const source  = document.getElementById('selectSource').value;
+    const sort    = document.getElementById('sortSelect').value;
+
+    filtered = allOffers.filter(o => {
+      const t = (o.titre + ' ' + (o.discipline||'')).toLowerCase();
+      const l = ((o.pays||'') + ' ' + (o.ville||'')).toLowerCase();
+      const c = (o.contrat || '').toLowerCase();
+      const s = (o.source || 'AEFE').toUpperCase();
+      if (mots   && !t.includes(mots)) return false;
+      if (loc    && !l.includes(loc))  return false;
+      if (contrat === 'permanent'  && !c.includes('permanent'))  return false;
+      if (contrat === 'temporaire' && !c.includes('temporaire')) return false;
+      if (source && s !== source) return false;
+      return true;
+    });
+
+    filtered.sort((a, b) => {
+      if (sort === 'date') {
+        // Pour MLF on trie par date_limite, pour AEFE par date de publication
+        const dateA = (a.source === 'MLF' && a.date_limite) ? parseDate(a.date_limite) : parseDate(a.date);
+        const dateB = (b.source === 'MLF' && b.date_limite) ? parseDate(b.date_limite) : parseDate(b.date);
+        return dateB - dateA;
+      }
+      if (sort === 'pays')  return (a.pays||'').localeCompare(b.pays||'', 'fr');
+      if (sort === 'titre') return (a.titre||'').localeCompare(b.titre||'', 'fr');
+      return 0;
+    });
+
+    displayed = 0;
+    document.getElementById('listContainer').innerHTML = '';
+    document.getElementById('end-message').style.display = 'none';
+
+    const total = filtered.length;
+    document.getElementById('resultsCount').innerHTML =
+      `<strong>${total}</strong> offre${total !== 1 ? 's' : ''} trouvée${total !== 1 ? 's' : ''}`;
+
+    if (total === 0) {
+      document.getElementById('listContainer').innerHTML =
+        `<div class="no-results"><span class="emoji">🔍</span>
+         <p>Aucune offre ne correspond à votre recherche.<br>Élargissez les critères.</p></div>`;
+      return;
+    }
+
+    const list = document.createElement('div');
+    list.className = 'offer-list';
+    list.id = 'offerList';
+    document.getElementById('listContainer').appendChild(list);
+
+    loadMore();
+  }
+
+  // ── Charger un batch ─────────────────────────────────────────
+  function loadMore() {
+    if (busy || displayed >= filtered.length) return;
+    busy = true;
+
+    const list = document.getElementById('offerList');
+    if (!list) { busy = false; return; }
+
+    const batch = filtered.slice(displayed, displayed + BATCH);
+
+    batch.forEach((o, i) => {
+      const a = document.createElement('a');
+      a.className = 'offer-card';
+      a.href      = o.url || '#';
+      a.target    = '_blank';
+      a.rel       = 'noopener';
+      a.style.animationDelay = `${i * 18}ms`;
+      a.innerHTML = cardHTML(o);
+      list.appendChild(a);
+    });
+
+    displayed += batch.length;
+    busy = false;
+
+    if (displayed >= filtered.length) {
+      document.getElementById('loader').style.display = 'none';
+      document.getElementById('end-message').style.display = 'block';
+    }
+  }
+
+  function freshness(s) {
+    if (!s) return { cls: 'tenace', label: 'Tenace' };
+    const diff = Math.floor((Date.now() - parseDate(s)) / 86400000);
+    if (diff === 0) return { cls: 'today',   label: "Aujourd'hui" };
+    if (diff <= 3)  return { cls: 'fraiche', label: 'Fraîche' };
+    if (diff <= 14) return { cls: 'recente', label: 'Récente' };
+    if (diff <= 30) return { cls: 'encours', label: 'En cours' };
+    return { cls: 'tenace', label: 'Tenace' };
+  }
+
+  // ── HTML d'une carte ─────────────────────────────────────────
+  function cardHTML(o) {
+    const loc    = [o.ville, o.pays].filter(Boolean).join(', ');
+    const f      = freshness(o.date);
+    const source = (o.source || 'AEFE').toUpperCase();
+
+    // Date limite pour les offres MLF
+    const dateLimite = (source === 'MLF' && o.date_limite)
+      ? `<span class="offer-date-limite">⏳ Limite : ${o.date_limite}</span>`
+      : '';
+
+    return `
+      <div class="offer-left">
+        <div class="offer-titre">
+          <span class="freshness-dot ${f.cls}" data-label="${f.label}" title="${f.label}"></span>
+          ${esc(o.titre)}
+        </div>
+        <div class="offer-meta">
+          ${loc          ? `<span class="offer-location">${esc(loc)}</span>` : ''}
+          ${o.discipline ? `<span class="offer-discipline">${esc(o.discipline)}</span>` : ''}
+          ${o.date       ? `<span class="offer-date">${relDate(o.date)}</span>` : ''}
+          ${dateLimite}
+        </div>
+      </div>
+      <div class="offer-right">
+        <span class="badge-source ${source.toLowerCase()}">${source}</span>
+        ${badgeHTML(o.contrat)}
+        <span class="offer-arrow">→</span>
+      </div>`;
+  }
+
+  // ── Helpers ──────────────────────────────────────────────────
+  function parseDate(s) {
+    if (!s) return new Date(0);
+    const [d, m, y] = s.split('/');
+    return new Date(`${y}-${m}-${d}`);
+  }
+
+  function relDate(s) {
+    if (!s) return '';
+    const diff = Math.floor((Date.now() - parseDate(s)) / 86400000);
+    if (diff === 0) return "Aujourd'hui";
+    if (diff === 1) return 'Hier';
+    if (diff < 7)  return `Il y a ${diff} j`;
+    if (diff < 30) return `Il y a ${Math.floor(diff/7)} sem.`;
+    return s;
+  }
+
+  function badgeHTML(c) {
+    if (!c) return '<span class="badge-contrat autre">—</span>';
+    const l = c.toLowerCase();
+    if (l.includes('permanent'))  return '<span class="badge-contrat permanent">CDI</span>';
+    if (l.includes('temporaire')) return '<span class="badge-contrat temporaire">CDD</span>';
+    return `<span class="badge-contrat autre">${esc(c)}</span>`;
+  }
+
+  function esc(s) {
+    return (s||'')
+      .replace(/&/g,'&amp;')
+      .replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;');
+  }
+
+  function reset() {
+    document.getElementById('inputMotsCles').value    = '';
+    document.getElementById('inputLocalisation').value = '';
+    document.getElementById('selectContrat').value    = '';
+    document.getElementById('selectSource').value     = '';
+    document.getElementById('sortSelect').value       = 'date';
+    filtrer();
+  }
+
+  // ── IntersectionObserver (scroll infini) ─────────────────────
+  const sentinel = document.getElementById('sentinel');
+  const observer = new IntersectionObserver(entries => {
+    if (!entries[0].isIntersecting) return;
+    if (displayed > 0 && displayed < filtered.length) {
+      document.getElementById('loader').style.display = 'block';
+      setTimeout(() => {
+        loadMore();
+        document.getElementById('loader').style.display = 'none';
+      }, 120);
+    }
+  }, { rootMargin: '300px' });
+
+  observer.observe(sentinel);
+
+  // ── Bouton scroll-to-top ─────────────────────────────────────
+  window.addEventListener('scroll', () => {
+    const btn = document.getElementById('scrollTop');
+    btn.style.display = window.scrollY > 400 ? 'flex' : 'none';
+  });
+
+  // ── Touche Entrée ────────────────────────────────────────────
+  document.addEventListener('keydown', e => { if (e.key === 'Enter') filtrer(); });
+
+  // ── Ajustement dynamique de la légende ───────────────────────
+  function adjustLegend() {
+    const search = document.querySelector('.search-section');
+    const legend = document.querySelector('.legend-bar');
+    if (search && legend) {
+      legend.style.top = search.offsetHeight + 'px';
+    }
+  }
+
+  window.addEventListener('load', adjustLegend);
+  window.addEventListener('resize', adjustLegend);
+
+  loadData();
+</script>
+</body>
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Postes à Pourvoir — xmath.academy</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --vert: #5a8a3c;
+    --vert-clair: #7ab055;
+    --vert-pale: #eef4e9;
+    --gris-fonce: #1a1f16;
+    --gris-moyen: #4a5240;
+    --gris-clair: #e8ede4;
+    --blanc: #fafcf8;
+    --permanent: #5a8a3c;
+    --temporaire: #c07a2a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--blanc);
+    color: var(--gris-fonce);
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--gris-fonce);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 3px solid var(--vert);
+  }
+
+  header .logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  header .logo-text span { color: var(--vert-clair); }
+
+  header .badges {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  header .badge {
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    letter-spacing: 0.3px;
+  }
+
+  header .badge.aefe { background: #1a56b0; }
+  header .badge.mlf  { background: #b01a1a; }
+
+  .hero {
+    background: linear-gradient(135deg, var(--gris-fonce) 0%, #2d3a26 100%);
+    padding: 60px 40px 50px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+    background: rgba(90,138,60,0.12);
+  }
+
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    color: #fff;
+    line-height: 1.15;
+    max-width: 700px;
+  }
+
+  .hero h1 em { font-style: normal; }
+
+  .mot-francais .fr-bleu  { color: #4169e1; }
+  .mot-francais .fr-blanc { color: #ffffff; }
+  .mot-francais .fr-rouge { color: #ED2939; }
+
+  .flag-svg {
+    display: inline-block;
+    width: 32px;
+    height: 22px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    vertical-align: middle;
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+    flex-shrink: 0;
+  }
+
+  .hero .subtitle {
+    margin-top: 12px;
+    color: rgba(255,255,255,0.6);
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .hero .meta {
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .hero .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255,255,255,0.8);
+    font-size: 0.9rem;
+  }
+
+  .hero .meta-item .dot {
+    width: 8px; height: 8px;
+    background: var(--vert-clair);
+    border-radius: 50%;
+  }
+
+  .search-section {
+    background: #fff;
+    border-bottom: 1px solid var(--gris-clair);
+    padding: 24px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  }
+
+  .search-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr auto;
+    gap: 12px;
+    align-items: end;
+  }
+
+  .search-field label {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--gris-moyen);
+    margin-bottom: 5px;
+  }
+
+  .search-field input,
+  .search-field select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1.5px solid var(--gris-clair);
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    background: var(--blanc);
+    color: var(--gris-fonce);
+    outline: none;
+    transition: border-color 0.2s;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  .search-field input:focus,
+  .search-field select:focus { border-color: var(--vert); }
+
+  .btn-row { display: flex; gap: 8px; }
+
+  .btn-search {
+    background: var(--vert);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+    white-space: nowrap;
+  }
+
+  .btn-search:hover { background: var(--vert-clair); }
+
+  .btn-reset {
+    background: none;
+    color: var(--gris-moyen);
+    border: 1.5px solid var(--gris-clair);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .btn-reset:hover { border-color: var(--vert); color: var(--vert); }
+
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 40px 60px;
+  }
+
+  .results-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .results-count { font-size: 0.9rem; color: var(--gris-moyen); }
+  .results-count strong { color: var(--gris-fonce); font-size: 1.1rem; }
+
+  .sort-select {
+    padding: 7px 12px;
+    border: 1.5px solid var(--gris-clair);
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    background: #fff;
+    color: var(--gris-fonce);
+    outline: none;
+    cursor: pointer;
+  }
+
+  .offer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: var(--gris-clair);
+    border: 1px solid var(--gris-clair);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .offer-card {
+    background: #fff;
+    padding: 18px 24px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s;
+    opacity: 0;
+    transform: translateY(6px);
+    animation: fadeUp 0.2s ease forwards;
+  }
+
+  @keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .offer-card:hover { background: var(--vert-pale); }
+  .offer-card:hover .offer-titre { color: var(--vert); }
+
+  .offer-titre {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--gris-fonce);
+    line-height: 1.4;
+    margin-bottom: 5px;
+    transition: color 0.15s;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .freshness-dot {
+    flex-shrink: 0;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    margin-top: 5px;
+    position: relative;
+  }
+
+  .freshness-dot.today {
+    background: #e53935;
+    box-shadow: 0 0 0 0 rgba(229,57,53,0.7);
+    animation: pulse-red 1.2s infinite;
+  }
+
+  .freshness-dot.fraiche {
+    background: #4caf50;
+    box-shadow: 0 0 0 0 rgba(76,175,80,0.6);
+    animation: pulse-green 1.8s infinite;
+  }
+
+  .freshness-dot.recente  { background: #f9a825; }
+  .freshness-dot.encours  { background: #ef6c00; }
+  .freshness-dot.tenace   { background: #bdbdbd; }
+
+  @keyframes pulse-red {
+    0%   { box-shadow: 0 0 0 0 rgba(229,57,53,0.7); }
+    70%  { box-shadow: 0 0 0 8px rgba(229,57,53,0); }
+    100% { box-shadow: 0 0 0 0 rgba(229,57,53,0); }
+  }
+
+  @keyframes pulse-green {
+    0%   { box-shadow: 0 0 0 0 rgba(76,175,80,0.6); }
+    70%  { box-shadow: 0 0 0 7px rgba(76,175,80,0); }
+    100% { box-shadow: 0 0 0 0 rgba(76,175,80,0); }
+  }
+
+  .freshness-dot::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 14px; top: -4px;
+    background: var(--gris-fonce);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .freshness-dot:hover::after { opacity: 1; }
+
+  .offer-meta {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+
+  .offer-location {
+    font-size: 0.82rem;
+    color: var(--gris-moyen);
+  }
+
+  .offer-location::before { content: '📍'; margin-right: 3px; font-size: 0.72rem; }
+
+  .offer-discipline {
+    font-size: 0.8rem;
+    color: var(--gris-moyen);
+    font-style: italic;
+  }
+
+  .offer-date { font-size: 0.78rem; color: #bbb; }
+
+  .offer-date-limite {
+    font-size: 0.75rem;
+    color: #e07b00;
+    white-space: nowrap;
+  }
+
+  .offer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    min-width: 110px;
+  }
+
+  .badge-contrat {
+    font-size: 0.73rem;
+    font-weight: 500;
+    padding: 3px 9px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .badge-contrat.permanent  { background: #e8f4e3; color: var(--permanent); }
+  .badge-contrat.temporaire { background: #fdf2e4; color: var(--temporaire); }
+  .badge-contrat.autre      { background: var(--gris-clair); color: var(--gris-moyen); }
+
+  /* Badge source AEFE / MLF */
+  .badge-source {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+
+  .badge-source.aefe { background: #e8f0fe; color: #1a56b0; }
+  .badge-source.mlf  { background: #fce8e8; color: #b01a1a; }
+
+  .offer-arrow {
+    color: var(--gris-clair);
+    font-size: 1rem;
+    transition: color 0.15s, transform 0.15s;
+  }
+
+  .offer-card:hover .offer-arrow { color: var(--vert); transform: translateX(3px); }
+
+  #loader {
+    display: none;
+    text-align: center;
+    padding: 28px 0;
+  }
+
+  .loader-dots span {
+    display: inline-block;
+    width: 9px; height: 9px;
+    background: var(--vert);
+    border-radius: 50%;
+    margin: 0 3px;
+    animation: bounce 1s infinite ease-in-out;
+  }
+
+  .loader-dots span:nth-child(2) { animation-delay: 0.15s; }
+  .loader-dots span:nth-child(3) { animation-delay: 0.30s; }
+
+  @keyframes bounce {
+    0%, 80%, 100% { transform: translateY(0); opacity: 0.4; }
+    40% { transform: translateY(-9px); opacity: 1; }
+  }
+
+  #end-message {
+    display: none;
+    text-align: center;
+    padding: 28px;
+    color: var(--gris-moyen);
+    font-size: 0.85rem;
+    border-top: 1px dashed var(--gris-clair);
+    margin-top: 1px;
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--gris-moyen);
+  }
+
+  .no-results .emoji { font-size: 3rem; display: block; margin-bottom: 16px; }
+
+  .loading-init {
+    text-align: center;
+    padding: 60px;
+    color: var(--gris-moyen);
+  }
+
+  .spinner {
+    width: 32px; height: 32px;
+    border: 3px solid var(--gris-clair);
+    border-top-color: var(--vert);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 16px;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .legend-bar {
+    background: #f5f8f3;
+    border-bottom: 1px solid var(--gris-clair);
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: var(--gris-moyen);
+    position: sticky;
+    top: 89px;
+    z-index: 99;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  }
+
+  .legend-title {
+    font-weight: 500;
+    color: var(--gris-fonce);
+    margin-right: 4px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .legend-item em {
+    font-style: normal;
+    color: #aaa;
+    font-size: 0.75rem;
+  }
+
+  .legend-dot {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+
+  .legend-dot.today   { background: #e53935; }
+  .legend-dot.fraiche { background: #4caf50; }
+  .legend-dot.recente { background: #f9a825; }
+  .legend-dot.encours { background: #ef6c00; }
+  .legend-dot.tenace  { background: #bdbdbd; }
+
+  /* séparateur dans la légende */
+  .legend-sep {
+    width: 1px;
+    height: 16px;
+    background: var(--gris-clair);
+    margin: 0 4px;
+  }
+
+  /* mini badges source dans la légende */
+  .legend-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+  }
+
+  .legend-badge.aefe { background: #e8f0fe; color: #1a56b0; }
+  .legend-badge.mlf  { background: #fce8e8; color: #b01a1a; }
+
+  @media (max-width: 768px) {
+    .legend-bar { padding: 10px 16px; gap: 12px; }
+  }
+
+  #scrollTop {
+    position: fixed;
+    bottom: 28px; right: 28px;
+    width: 42px; height: 42px;
+    background: var(--vert);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    transition: background 0.2s, transform 0.2s;
+    z-index: 200;
+  }
+
+  #scrollTop:hover { background: var(--vert-clair); transform: translateY(-2px); }
+
+  @media (max-width: 768px) {
+    header { padding: 16px 20px; }
+    .hero { padding: 36px 20px; }
+    .search-section { padding: 16px 20px; }
+    .search-grid { grid-template-columns: 1fr 1fr; }
+    .search-grid > div:last-child { grid-column: span 2; }
+    main { padding: 20px 16px 50px; }
+    .offer-card { grid-template-columns: 1fr; }
+    .offer-right { flex-direction: row; }
+  }
+
+  @media (max-width: 480px) {
+    .search-grid { grid-template-columns: 1fr; }
+    .search-grid > div:last-child { grid-column: 1; }
+  }
+</style>
+</head>
+<body>
+
+<div style="text-align:right;padding:3px 16px;font-size:0.65rem;color:#ccc;background:var(--blanc);letter-spacing:0.5px;" id="updatedBar"></div>
+
+<header>
+  <div class="logo-text">x<span>math</span>.academy</div>
+</header>
+
+<div class="hero">
+  <h1>Tous les postes du réseau scolaire<br>
+    <em>
+      <span class="mot-francais">
+        <span class="fr-bleu">fran</span><span class="fr-blanc">ça</span><span class="fr-rouge">is</span>
+      </span>
+      <svg class="flag-svg" viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg">
+        <rect width="1" height="2" fill="#002395"/>
+        <rect x="1" width="1" height="2" fill="#ffffff"/>
+        <rect x="2" width="1" height="2" fill="#ED2939"/>
+      </svg>
+    </em>
+    &nbsp;à l'international
+  </h1>
   <p class="subtitle"></p>
   <div class="meta">
     <div class="meta-item"><span class="dot"></span><span id="totalMeta">…</span> offres disponibles</div>
