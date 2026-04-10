@@ -502,17 +502,23 @@
   .legend-bar {
     background: #f5f8f3;
     border-bottom: 1px solid var(--gris-clair);
-    padding: 10px 40px;
+    padding: 8px 40px;
     display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    font-size: 0.8rem;
-    color: var(--gris-moyen);
+    flex-direction: column;
+    gap: 6px;
     position: sticky;
     top: 89px;
     z-index: 99;
     box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  }
+
+  .legend-line {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: var(--gris-moyen);
   }
 
   .legend-title {
@@ -780,22 +786,26 @@
 </div>
 
 <div class="legend-bar">
-  <span class="legend-title">AEFE – Ancienneté :</span>
-  <span class="legend-item" onclick="filtrerParAnciennete('today')"   data-fresh="today">  <span class="legend-dot today"></span>  Aujourd'hui</span>
-  <span class="legend-item" onclick="filtrerParAnciennete('fraiche')" data-fresh="fraiche"><span class="legend-dot fraiche"></span> Fraîche <em>(1–3 j)</em></span>
-  <span class="legend-item" onclick="filtrerParAnciennete('recente')" data-fresh="recente"><span class="legend-dot recente"></span> Récente <em>(4–14 j)</em></span>
-  <span class="legend-item" onclick="filtrerParAnciennete('encours')" data-fresh="encours"><span class="legend-dot encours"></span> En cours <em>(15–30 j)</em></span>
-  <span class="legend-item" onclick="filtrerParAnciennete('tenace')"  data-fresh="tenace"> <span class="legend-dot tenace"></span>  Tenace <em>(+30 j)</em></span>
-  <span class="legend-sep"></span>
-  <span class="legend-title">MLF – Délai :</span>
-  <span class="legend-item"><span class="legend-dot today"></span> Ferme aujourd'hui</span>
-  <span class="legend-item"><span class="legend-dot fraiche"></span> Ferme dans 7 j</span>
-  <span class="legend-item"><span class="legend-dot recente"></span> Ferme dans 30 j</span>
-  <span class="legend-item"><span class="legend-dot encours"></span> Ferme dans +30 j</span>
-  <span class="legend-sep"></span>
-  <span class="legend-title">Source :</span>
-  <span class="legend-item" onclick="filtrerParSource('AEFE')"><span class="legend-badge aefe">AEFE</span> Réseau public</span>
-  <span class="legend-item" onclick="filtrerParSource('MLF')"><span class="legend-badge mlf">MLF</span> Mission Laïque</span>
+  <div class="legend-line">
+    <span class="legend-title">AEFE :</span>
+    <span class="legend-item" onclick="filtrerParAnciennete('today')"   data-fresh="today">  <span class="legend-dot today"></span>  Aujourd'hui</span>
+    <span class="legend-item" onclick="filtrerParAnciennete('fraiche')" data-fresh="fraiche"><span class="legend-dot fraiche"></span> Fraîche <em>(1–3 j)</em></span>
+    <span class="legend-item" onclick="filtrerParAnciennete('recente')" data-fresh="recente"><span class="legend-dot recente"></span> Récente <em>(4–14 j)</em></span>
+    <span class="legend-item" onclick="filtrerParAnciennete('encours')" data-fresh="encours"><span class="legend-dot encours"></span> En cours <em>(15–30 j)</em></span>
+    <span class="legend-item" onclick="filtrerParAnciennete('tenace')"  data-fresh="tenace"> <span class="legend-dot tenace"></span>  Tenace <em>(+30 j)</em></span>
+    <span class="legend-sep"></span>
+    <span class="legend-title">Source :</span>
+    <span class="legend-item" onclick="filtrerParSource('AEFE')"><span class="legend-badge aefe">AEFE</span> Réseau public</span>
+    <span class="legend-item" onclick="filtrerParSource('MLF')"><span class="legend-badge mlf">MLF</span> Mission Laïque</span>
+  </div>
+  <div class="legend-line">
+    <span class="legend-title">MLF :</span>
+    <span class="legend-item" onclick="filtrerParAnciennete('today')"   data-fresh="today">  <span class="legend-dot today"></span>  Ferme aujourd'hui</span>
+    <span class="legend-item" onclick="filtrerParAnciennete('fraiche')" data-fresh="fraiche"><span class="legend-dot fraiche"></span> Ferme dans 7 j</span>
+    <span class="legend-item" onclick="filtrerParAnciennete('recente')" data-fresh="recente"><span class="legend-dot recente"></span> Ferme dans 30 j</span>
+    <span class="legend-item" onclick="filtrerParAnciennete('encours')" data-fresh="encours"><span class="legend-dot encours"></span> Ferme dans +30 j</span>
+    <span class="legend-item" onclick="filtrerParAnciennete('tenace')"  data-fresh="tenace"> <span class="legend-dot tenace"></span>  Expirée</span>
+  </div>
 </div>
 
 <div class="category-bar">
