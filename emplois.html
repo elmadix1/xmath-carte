@@ -659,7 +659,7 @@
   <div class="results-header">
     <div class="results-count" id="resultsCount"></div>
     <select class="sort-select" id="sortSelect" onchange="filtrer()">
-      <option value="date">Plus récent d'abord</option>
+      <option value="date">Plus récent / urgent d'abord</option>
       <option value="pays">Par pays</option>
       <option value="titre">Par titre</option>
     </select>
@@ -750,7 +750,12 @@
     });
 
     filtered.sort((a, b) => {
-      if (sort === 'date')  return parseDate(b.date) - parseDate(a.date);
+      if (sort === 'date') {
+        // Pour MLF on trie par date_limite, pour AEFE par date de publication
+        const dateA = (a.source === 'MLF' && a.date_limite) ? parseDate(a.date_limite) : parseDate(a.date);
+        const dateB = (b.source === 'MLF' && b.date_limite) ? parseDate(b.date_limite) : parseDate(b.date);
+        return dateB - dateA;
+      }
       if (sort === 'pays')  return (a.pays||'').localeCompare(b.pays||'', 'fr');
       if (sort === 'titre') return (a.titre||'').localeCompare(b.titre||'', 'fr');
       return 0;
