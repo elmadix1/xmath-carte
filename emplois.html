@@ -177,7 +177,7 @@
     max-width: 1100px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr auto;
+    grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr auto;
     gap: 12px;
     align-items: end;
   }
@@ -653,6 +653,36 @@
     z-index: 200;
   }
 
+  .continent-bar {
+    background: #f9fbf7;
+    border-bottom: 1px solid var(--gris-clair);
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 97;
+  }
+
+  .cont-pill {
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 20px;
+    border: 1.5px solid var(--gris-clair);
+    background: #fff;
+    color: var(--gris-moyen);
+    cursor: pointer;
+    transition: all 0.15s;
+    user-select: none;
+    white-space: nowrap;
+  }
+
+  .cont-pill:hover { border-color: var(--vert); color: var(--vert); background: var(--vert-pale); }
+  .cont-pill.active { background: var(--vert); border-color: var(--vert); color: #fff; }
+
   #scrollTop:hover { background: var(--vert-clair); transform: translateY(-2px); }
 
   @media (max-width: 768px) {
@@ -670,7 +700,6 @@
     .search-grid { grid-template-columns: 1fr; }
     .search-grid > div:last-child { grid-column: 1; }
   }
-</style>
 </head>
 <body>
 
@@ -730,6 +759,18 @@
         <option value="MLF">MLF uniquement</option>
       </select>
     </div>
+    <div class="search-field">
+      <label>Région</label>
+      <select id="selectRegion" onchange="filtrer()">
+        <option value="">Toutes les régions</option>
+        <option value="afrique">🌍 Afrique</option>
+        <option value="europe">🇪🇺 Europe</option>
+        <option value="moyen-orient">🕌 Moyen-Orient</option>
+        <option value="ameriques">🌎 Amériques</option>
+        <option value="asie">🌏 Asie</option>
+        <option value="oceanie">🏝️ Océanie</option>
+      </select>
+    </div>
     <div class="btn-row">
       <button class="btn-search" onclick="filtrer()">Rechercher</button>
       <button class="btn-reset" onclick="reset()" title="Effacer">✕</button>
@@ -761,6 +802,10 @@
   <span class="cat-pill" onclick="filtrerParCategorie(this, 'support')">🔧 Support</span>
   <span class="cat-pill" onclick="filtrerParCategorie(this, 'autre')">🏫 Autre métier</span>
 </div>
+
+<div class="continent-bar" style="display:none"></div>
+
+<main>
   <div class="results-header">
     <div class="results-count" id="resultsCount"></div>
     <select class="sort-select" id="sortSelect" onchange="filtrer()">
@@ -794,6 +839,24 @@
   let filtered  = [];
   let displayed = 0;
   let busy      = false;
+
+  let activeContinent = '';
+
+  const continentPays = {
+    'afrique':      ['maroc', 'algérie', 'tunisie', 'sénégal', 'côte d\'ivoire', 'cameroun', 'gabon', 'mali', 'guinée', 'burkina', 'togo', 'bénin', 'congo', 'madagascar', 'mozambique', 'angola', 'tanzanie', 'ouganda', 'nigeria', 'nigéria', 'ghana', 'kenya', 'éthiopie', 'djibouti', 'mauritanie', 'tchad', 'niger', 'sénégal', 'burundi', 'zambie', 'zimbabwe', 'afrique du sud', 'seychelles', 'cap-vert', 'rwanda', 'libéria', 'sierra leone'],
+    'europe':       ['france', 'belgique', 'espagne', 'italie', 'portugal', 'allemagne', 'royaume-uni', 'suisse', 'luxembourg', 'pays-bas', 'autriche', 'pologne', 'roumanie', 'bulgarie', 'hongrie', 'turquie', 'grèce', 'serbie', 'bosnie', 'monténégro', 'albanie', 'lituanie', 'slovaquie', 'slovénie', 'croatie', 'tchèque', 'danemark', 'suède', 'norvège', 'finlande'],
+    'moyen-orient': ['maroc', 'émirats', 'arabie', 'qatar', 'koweït', 'oman', 'bahreïn', 'liban', 'jordanie', 'égypte', 'irak', 'iran', 'syrie', 'yémen', 'israel', 'palestine', 'israël'],
+    'ameriques':    ['états-unis', 'canada', 'mexique', 'brésil', 'argentine', 'colombie', 'chili', 'pérou', 'équateur', 'bolivie', 'uruguay', 'paraguay', 'venezuela', 'cuba', 'haïti', 'panama', 'costa rica', 'guatemala', 'honduras', 'salvador', 'nicaragua'],
+    'asie':         ['chine', 'japon', 'inde', 'vietnam', 'thaïlande', 'indonésie', 'malaisie', 'singapour', 'philippines', 'cambodge', 'laos', 'myanmar', 'birmanie', 'bangladesh', 'pakistan', 'sri lanka', 'taiwan', 'corée', 'kazakhstan', 'azerbaïdjan', 'arménie', 'géorgie', 'ouzbékistan', 'turkménistan', 'hong kong', 'macao'],
+    'oceanie':      ['australie', 'nouvelle-zélande', 'vanuatu', 'nouvelle-calédonie', 'polynésie', 'papouasie'],
+  };
+
+  function filtrerParContinent(el, cont) {
+    activeContinent = activeContinent === cont ? '' : cont;
+    document.querySelectorAll('.cont-pill').forEach(p => p.classList.remove('active'));
+    if (activeContinent) el.classList.add('active');
+    filtrer();
+  }
 
   let activeCategory = '';
 
@@ -910,11 +973,12 @@
 
   // ── Filtrage ─────────────────────────────────────────────────
   function filtrer() {
-    const mots    = document.getElementById('inputMotsCles').value.toLowerCase().trim();
-    const loc     = document.getElementById('inputLocalisation').value.toLowerCase().trim();
-    const contrat = document.getElementById('selectContrat').value;
-    const source  = document.getElementById('selectSource').value;
-    const sort    = document.getElementById('sortSelect').value;
+    const mots     = document.getElementById('inputMotsCles').value.toLowerCase().trim();
+    const loc      = document.getElementById('inputLocalisation').value.toLowerCase().trim();
+    const contrat  = document.getElementById('selectContrat').value;
+    const source   = document.getElementById('selectSource').value;
+    const region   = document.getElementById('selectRegion').value;
+    const sort     = document.getElementById('sortSelect').value;
 
     filtered = allOffers.filter(o => {
       const t = (o.titre + ' ' + (o.discipline||'')).toLowerCase();
@@ -927,6 +991,12 @@
       if (contrat === 'temporaire' && !c.includes('temporaire')) return false;
       if (source && s !== source) return false;
       if (activeFresh && freshness(o.date).cls !== activeFresh) return false;
+      if (region) {
+        const paysLower = (o.pays || '').toLowerCase();
+        const villeLower = (o.ville || '').toLowerCase();
+        const keywords = continentPays[region] || [];
+        if (!keywords.some(k => paysLower.includes(k) || villeLower.includes(k))) return false;
+      }
       if (activeCategory) {
         const cat = getCategory(o);
         if (activeCategory === 'autre') {
@@ -1086,12 +1156,15 @@
     document.getElementById('inputLocalisation').value = '';
     document.getElementById('selectContrat').value    = '';
     document.getElementById('selectSource').value     = '';
+    document.getElementById('selectRegion').value     = '';
     document.getElementById('sortSelect').value       = 'date';
     activeCategory = '';
+    activeContinent = '';
     activeFresh = '';
     document.querySelectorAll('.legend-item').forEach(el => el.classList.remove('active'));
     document.querySelectorAll('.legend-badge').forEach(el => el.classList.remove('active'));
     document.querySelectorAll('.cat-pill').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.cont-pill').forEach(el => el.classList.remove('active'));
     filtrer();
   }
 
@@ -1121,14 +1194,18 @@
 
   // ── Ajustement dynamique de la légende ───────────────────────
   function adjustLegend() {
-    const search = document.querySelector('.search-section');
-    const legend = document.querySelector('.legend-bar');
-    const catBar = document.querySelector('.category-bar');
+    const search  = document.querySelector('.search-section');
+    const legend  = document.querySelector('.legend-bar');
+    const catBar  = document.querySelector('.category-bar');
+    const contBar = document.querySelector('.continent-bar');
     if (search && legend) {
       legend.style.top = search.offsetHeight + 'px';
     }
     if (search && legend && catBar) {
       catBar.style.top = (search.offsetHeight + legend.offsetHeight) + 'px';
+    }
+    if (search && legend && catBar && contBar) {
+      contBar.style.top = (search.offsetHeight + legend.offsetHeight + catBar.offsetHeight) + 'px';
     }
   }
 
