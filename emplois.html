@@ -424,7 +424,51 @@
     border-bottom: 1px solid var(--gris-clair);
   }
 
-  #sentinel { height: 1px; }
+  .legend-bar {
+    background: #f5f8f3;
+    border-bottom: 1px solid var(--gris-clair);
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: var(--gris-moyen);
+  }
+
+  .legend-title {
+    font-weight: 500;
+    color: var(--gris-fonce);
+    margin-right: 4px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .legend-item em {
+    font-style: normal;
+    color: #aaa;
+    font-size: 0.75rem;
+  }
+
+  .legend-dot {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+
+  .legend-dot.fraiche { background: #4caf50; }
+  .legend-dot.recente { background: #f9a825; }
+  .legend-dot.encours { background: #ef6c00; }
+  .legend-dot.tenace  { background: #bdbdbd; }
+
+  @media (max-width: 768px) {
+    .legend-bar { padding: 10px 16px; gap: 12px; }
+  }
 
   /* SCROLL-TO-TOP */
   #scrollTop {
@@ -506,6 +550,14 @@
       <button class="btn-reset" onclick="reset()" title="Effacer">✕</button>
     </div>
   </div>
+</div>
+
+<div class="legend-bar">
+  <span class="legend-title">Ancienneté de l'offre :</span>
+  <span class="legend-item"><span class="legend-dot fraiche"></span> Fraîche <em>(0–3 jours)</em></span>
+  <span class="legend-item"><span class="legend-dot recente"></span> Récente <em>(4–14 jours)</em></span>
+  <span class="legend-item"><span class="legend-dot encours"></span> En cours <em>(15–30 jours)</em></span>
+  <span class="legend-item"><span class="legend-dot tenace"></span> Tenace <em>(+30 jours)</em></span>
 </div>
 
 <main>
