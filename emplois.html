@@ -562,7 +562,18 @@
     flex-shrink: 0;
   }
 
-  .legend-dot.today   { background: #e53935; }
+  .freshness-dot.expired  { background: #9e9e9e; border: 2px solid #757575; }
+  .legend-dot.expired     { background: #9e9e9e; border: 2px solid #757575; }
+
+  .freshness-dot.mlf-today   { background: #e53935; box-shadow: 0 0 0 0 rgba(229,57,53,0.7); animation: pulse-red 1.2s infinite; }
+  .freshness-dot.mlf-soon    { background: #4caf50; }
+  .freshness-dot.mlf-month   { background: #f9a825; }
+  .freshness-dot.mlf-open    { background: #ef6c00; }
+
+  .legend-dot.mlf-today  { background: #e53935; }
+  .legend-dot.mlf-soon   { background: #4caf50; }
+  .legend-dot.mlf-month  { background: #f9a825; }
+  .legend-dot.mlf-open   { background: #ef6c00; }
   .legend-dot.fraiche { background: #4caf50; }
   .legend-dot.recente { background: #f9a825; }
   .legend-dot.encours { background: #ef6c00; }
@@ -800,11 +811,11 @@
   </div>
   <div class="legend-line">
     <span class="legend-title">MLF :</span>
-    <span class="legend-item" onclick="filtrerParAnciennete('today')"   data-fresh="today">  <span class="legend-dot today"></span>  Ferme aujourd'hui</span>
-    <span class="legend-item" onclick="filtrerParAnciennete('fraiche')" data-fresh="fraiche"><span class="legend-dot fraiche"></span> Ferme dans 7 j</span>
-    <span class="legend-item" onclick="filtrerParAnciennete('recente')" data-fresh="recente"><span class="legend-dot recente"></span> Ferme dans 30 j</span>
-    <span class="legend-item" onclick="filtrerParAnciennete('encours')" data-fresh="encours"><span class="legend-dot encours"></span> Ferme dans +30 j</span>
-    <span class="legend-item" onclick="filtrerParAnciennete('tenace')"  data-fresh="tenace"> <span class="legend-dot tenace"></span>  Expirée</span>
+    <span class="legend-item" onclick="filtrerMLF('mlf-today')" data-fresh="mlf-today"><span class="legend-dot mlf-today"></span> Ferme aujourd'hui</span>
+    <span class="legend-item" onclick="filtrerMLF('mlf-soon')"  data-fresh="mlf-soon"> <span class="legend-dot mlf-soon"></span>  Ferme dans 7 j</span>
+    <span class="legend-item" onclick="filtrerMLF('mlf-month')" data-fresh="mlf-month"><span class="legend-dot mlf-month"></span> Ferme dans 30 j</span>
+    <span class="legend-item" onclick="filtrerMLF('mlf-open')"  data-fresh="mlf-open"> <span class="legend-dot mlf-open"></span>  Ferme dans +30 j</span>
+    <span class="legend-item" onclick="filtrerMLF('expired')"   data-fresh="expired">  <span class="legend-dot expired"></span>   Expirée</span>
   </div>
 </div>
 
@@ -904,6 +915,16 @@
 
   let activeFresh = '';
 
+  function filtrerMLF(cls) {
+    // Force source MLF + ancienneté
+    document.getElementById('selectSource').value = 'MLF';
+    activeFresh = activeFresh === cls ? '' : cls;
+    document.querySelectorAll('.legend-item[data-fresh]').forEach(el => {
+      el.classList.toggle('active', el.dataset.fresh === activeFresh);
+    });
+    filtrer();
+  }
+
   function filtrerParAnciennete(cls) {
     // Toggle
     activeFresh = activeFresh === cls ? '' : cls;
@@ -927,7 +948,7 @@
 
   // ── Stats hero ───────────────────────────────────────────────
   function renderHeroStats(offers) {
-    const counts = { today: 0, fraiche: 0, recente: 0, encours: 0, tenace: 0 };
+    const counts = { today: 0, fraiche: 0, recente: 0, encours: 0, tenace: 0, 'mlf-today': 0, 'mlf-soon': 0, 'mlf-month': 0, 'mlf-open': 0, expired: 0 };
     offers.forEach(o => {
       const f = freshness(o.date, (o.source||'AEFE').toUpperCase(), o.date_limite);
       counts[f.cls] = (counts[f.cls] || 0) + 1;
@@ -1099,11 +1120,11 @@
     // Pour MLF : ancienneté basée sur le temps restant avant date_limite
     if (source === 'MLF' && date_limite) {
       const reste = Math.floor((parseDate(date_limite) - Date.now()) / 86400000);
-      if (reste < 0)  return { cls: 'tenace',  label: 'Expirée' };
-      if (reste === 0) return { cls: 'today',  label: 'Ferme aujourd\'hui' };
-      if (reste <= 7)  return { cls: 'fraiche', label: `Ferme dans ${reste} j` };
-      if (reste <= 30) return { cls: 'recente', label: `Ferme dans ${Math.ceil(reste/7)} sem.` };
-      return { cls: 'encours', label: `Ferme dans +30 j` };
+      if (reste < 0)   return { cls: 'expired',   label: 'Expirée' };
+      if (reste === 0) return { cls: 'mlf-today', label: 'Ferme aujourd\'hui' };
+      if (reste <= 7)  return { cls: 'mlf-soon',  label: `Ferme dans ${reste} j` };
+      if (reste <= 30) return { cls: 'mlf-month', label: `Ferme dans ${Math.ceil(reste/7)} sem.` };
+      return { cls: 'mlf-open', label: 'Ferme dans +30 j' };
     }
     // Pour AEFE : ancienneté basée sur la date de publication
     if (!s) return { cls: 'tenace', label: 'Tenace' };
