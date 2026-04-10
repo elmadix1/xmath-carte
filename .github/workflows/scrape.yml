@@ -13,29 +13,23 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: |
           pip install selenium requests beautifulsoup4
-
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1
-
       - name: Run scraper AEFE
         run: python scrape_emplois.py
-
       - name: Run scraper MLF
         run: python scraper_mlf.py
-
       - name: Commit JSON files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add emplois.json emplois_mlf.json
-          git diff --staged --quiet || git commit -m "Update emplois AEFE + MLF $(date +'%Y-%m-%d %H:%M')"
+          git add emplois.json emplois_mlf.json sitemap.xml
+          git diff --staged --quiet || git commit -m "Update emplois AEFE + MLF + sitemap $(date +'%Y-%m-%d %H:%M')"
           git push
