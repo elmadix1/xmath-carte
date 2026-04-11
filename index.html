@@ -71,7 +71,29 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
 .ld{width:10px;height:10px;border-radius:2px;flex-shrink:0}
 .mhint{font-size:11px;color:#94a3b8;text-align:center;margin-top:5px}
 #loader{text-align:center;padding:60px;font-size:13px;color:#64748b}
-
+#search-wrap{margin-bottom:10px;position:relative;z-index:100}
+#search-row{display:flex;gap:8px;align-items:center;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:6px 12px;margin-bottom:6px;position:relative;z-index:100}
+#search-row:hover{cursor:text}
+#search-input{flex:1;min-width:0;border:none;outline:none;font-size:13px;color:#0f172a;background:transparent;cursor:text;display:block}
+#search-input::placeholder{color:#94a3b8}
+#search-count{font-size:11px;color:#94a3b8;white-space:nowrap}
+#search-clear{font-size:18px;color:#94a3b8;cursor:pointer;line-height:1;padding:0 2px;display:none;font-weight:300}
+#search-clear:hover{color:#0f172a}
+.filter-row{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px}
+.fchip{font-size:11px;padding:3px 10px;border-radius:10px;border:1px solid #e2e8f0;background:#fff;color:#64748b;cursor:pointer;white-space:nowrap}
+.fchip.on{background:#0f172a;color:#fff;border-color:#0f172a}
+#search-panel{display:none;border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;background:#fff;margin-bottom:10px}
+#search-panel.open{display:grid;grid-template-columns:1fr 1fr}
+@media(max-width:600px){#search-panel.open{grid-template-columns:1fr}}
+#search-list{border-right:1px solid #f1f5f9;max-height:260px;overflow-y:auto}
+.sr{padding:8px 12px;border-bottom:1px solid #f8fafc;cursor:pointer}
+.sr:hover{background:#f8fafc}
+.sr.sel{background:#eff6ff}
+.sr-nom{font-size:12px;font-weight:500;color:#0f172a;line-height:1.3}
+.sr-meta{font-size:10px;color:#94a3b8;margin-top:2px;display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.sr-badge{font-size:9px;padding:1px 5px;border-radius:3px}
+.sr-empty{font-size:12px;color:#94a3b8;text-align:center;padding:20px}
+#search-detail{padding:14px;display:flex;flex-direction:column;gap:8px;font-size:12px}
 
 @keyframes pulse-orange{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.6;transform:scale(1.4)}}
 .pastille-new{animation:pulse-orange 1.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
@@ -83,6 +105,101 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
   <a href="/emplois.html" class="nav-btn">💼 Offres d'emploi</a>
 </div>
 <h3>Réseau AEFE — Zones d'examen Brevet &amp; Bac · Programme MEN</h3>
+  <div id="search-wrap">
+  <div id="search-row" onclick="document.getElementById('search-input').focus()">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" style="flex-shrink:0;cursor:default;pointer-events:none"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input id="search-input" placeholder="Rechercher un établissement, une ville, un pays..." autocomplete="off">
+    <span id="search-count"></span>
+    <span id="search-clear">×</span>
+  </div>
+  <div class="filter-row">
+    <button class="fchip" data-f="brevet">📋 Brevet</button>
+    <button class="fchip" data-f="bac">🎓 Bac</button>
+    <button class="fchip" data-f="ecole">🏫 École</button>
+    <button class="fchip" data-f="EGD">EGD</button>
+    <button class="fchip" data-f="Conv">Conv</button>
+    <button class="fchip" data-f="Part">Part</button>
+    <button class="fchip" data-f="afrique">Afrique</button>
+    <button class="fchip" data-f="europe">Europe</button>
+    <button class="fchip" data-f="asie">Asie</button>
+    <button class="fchip" data-f="ameriques">Amériques</button>
+  </div>
+  <div id="search-panel">
+    <div id="search-list"></div>
+    <div id="search-detail"><span style="color:#94a3b8;font-size:11px">Sélectionne un établissement</span></div>
+  </div>
+</div>
+
+<script>
+var SEARCH_INDEX=[], _searchReady=false, activeFilters=new Set(), selectedResult=null;
+
+function toggleFilter(btn){
+  var f=btn.dataset.f;
+  if(activeFilters.has(f)){activeFilters.delete(f);btn.classList.remove('on');}
+  else{activeFilters.add(f);btn.classList.add('on');}
+  runSearch();
+}
+function runSearch(){
+  if(!_searchReady)return;
+  var q=document.getElementById('search-input').value.trim().toLowerCase();
+  var panel=document.getElementById('search-panel');
+  var clear=document.getElementById('search-clear');
+  var count=document.getElementById('search-count');
+  if(!q&&activeFilters.size===0){panel.classList.remove('open');clear.style.display='none';count.textContent='';return;}
+  panel.classList.add('open');clear.style.display='';
+  var res=SEARCH_INDEX.filter(function(r){
+    if(q&&!r.search.includes(q))return false;
+    for(var f of activeFilters){
+      if(f==='brevet'&&!r.brevet)return false;
+      if(f==='bac'&&!r.bac)return false;
+      if(f==='ecole'&&!r.ecole)return false;
+      if(f==='EGD'&&r.statut!=='EGD')return false;
+      if(f==='Conv'&&r.statut!=='Conv')return false;
+      if(f==='Part'&&r.statut!=='Part')return false;
+      if(['afrique','europe','asie','ameriques'].includes(f)&&r.geoZone!==f)return false;
+    }
+    return true;
+  }).slice(0,80);
+  count.textContent=res.length?res.length+' résultat'+(res.length>1?'s':''):'Aucun résultat';
+  var ul=document.getElementById('search-list');ul.innerHTML='';
+  if(!res.length){ul.innerHTML='<div class="sr-empty">Aucun établissement trouvé</div>';document.getElementById('search-detail').innerHTML='<span style="color:#94a3b8;font-size:11px">Aucun résultat</span>';return;}
+  res.forEach(function(r){
+    var d=document.createElement('div');d.className='sr';
+    var sc={EGD:{bg:'#dcfce7',c:'#166534'},Conv:{bg:'#dbeafe',c:'#1e40af'},Part:{bg:'#f3f4f6',c:'#4b5563'}};
+    var s=sc[r.statut]||sc.Part;
+    var bt=(r.brevet?'<span class="sr-badge" style="background:#dbeafe;color:#1e40af">DNB</span>':'')+(r.bac?'<span class="sr-badge" style="background:#dcfce7;color:#166634">BAC</span>':'');
+    d.innerHTML='<div class="sr-nom">'+r.nom+'</div><div class="sr-meta"><span>'+(r.ville?r.ville+' · ':'')+r.pays+'</span><span class="sr-badge" style="background:'+s.bg+';color:'+s.c+'">'+r.statut+'</span>'+bt+'</div>';
+    d.onclick=function(){
+      document.querySelectorAll('.sr').forEach(function(e){e.classList.remove('sel');});
+      d.classList.add('sel');selectedResult=r;
+      var det=document.getElementById('search-detail');
+      var bv=r.brevet?'<span style="background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500">📋 Brevet</span>':'';
+      var bc=r.bac?'<span style="background:#dcfce7;color:#166534;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500">🎓 Bac</span>':'';
+      var sw=r.site?'<a href="'+r.site+'" target="_blank" style="color:#1d4ed8;word-break:break-all">'+r.site.replace(/^https?:\/\//,'').replace(/\/$/,'')+'</a>':'';
+      var aw=r.aefe?'<a href="'+r.aefe+'" target="_blank" style="color:#1d4ed8">→ Fiche AEFE</a>':'';
+      det.innerHTML='<div style="font-size:13px;font-weight:600;color:#0f172a">'+r.nom+'</div>'
+        +'<div style="color:#64748b">'+(r.ville?r.ville+' · ':'')+' <b>'+r.pays+'</b> · '+(r.statut==='EGD'?'Gestion directe':r.statut==='Conv'?'Conventionné':'Partenaire')+'</div>'
+        +'<div style="display:flex;gap:5px;flex-wrap:wrap">'+bv+bc+(!bv&&!bc?'<span style="color:#94a3b8;font-size:11px">École primaire</span>':'')+'</div>'
+        +(sw?sw:'')+(aw?aw:'');
+      if(typeof zoomToPays==='function')zoomToPays(r.d3key,r.paysObj,r.etab);
+    };
+    ul.appendChild(d);
+  });
+}
+document.getElementById('search-input').addEventListener('input',runSearch);
+document.getElementById('search-clear').addEventListener('click',function(){
+  document.getElementById('search-input').value='';
+  activeFilters.clear();
+  document.querySelectorAll('.fchip').forEach(function(c){c.classList.remove('on');});
+  document.getElementById('search-panel').classList.remove('open');
+  document.getElementById('search-clear').style.display='none';
+  document.getElementById('search-count').textContent='';
+});
+document.querySelectorAll('.fchip').forEach(function(btn){
+  btn.addEventListener('click',function(){toggleFilter(btn);});
+});
+</script>
+
 <div class="click-hint" id="click-hint">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="pointer-events:none"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="8" stroke-linecap="round" stroke-width="3"/><line x1="12" y1="11" x2="12" y2="17"/></svg>
   Clique sur un pays coloré pour zoomer dessus et voir ses établissements · Scroll pour naviguer
