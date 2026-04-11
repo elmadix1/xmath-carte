@@ -1,28 +1,72 @@
 {
-  "updated": "2026-04-10 14:40",
-  "total": 630,
+  "updated": "2026-04-11 06:26",
+  "total": 635,
   "offers": [
     {
+      "id": 4325709,
+      "titre": "Professeur du Second Degré - Philosophie F/H",
+      "etab": "",
+      "ville": "Managua",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4325709-professeur-du-second-degre-philosophie-fh-managua"
+    },
+    {
+      "id": 4325693,
+      "titre": "Professeur du Second Degré - Arts Plastiques F/H",
+      "etab": "",
+      "ville": "Managua",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’arts plastiques F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4325693-professeur-du-second-degre-arts-plastiques-fh-managua"
+    },
+    {
+      "id": 4325563,
+      "titre": "Proviseur adjoint (H/F) – Casablanca, Maroc",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Proviseur adjoint F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4325563-proviseur-adjoint-hf-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4325559,
+      "titre": "Professeur des écoles MATERNELLE PS/MS",
+      "etab": "",
+      "ville": "North Vancouver",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4325559-professeur-des-ecoles-maternelle-psms-v7k-2e6-north-vancouver"
+    },
+    {
       "id": 4325021,
-      "titre": "Professeur des écoles remplaçant F/H",
+      "titre": "Professeur des écoles remplaçant - F/H - VIÑA DEL MAR - CHILI",
       "etab": "",
       "ville": "Viña del Mar",
-      "pays": "",
+      "pays": "Chili",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "10/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4325021-professeur-des-ecoles-remplacant-fh-vina-del-mar"
+      "url": "https://talents.aefe.fr/fr/annonce/4325021-professeur-des-ecoles-remplacant-fh-vina-del-mar-chili-vina-del-mar"
     },
     {
       "id": 4324651,
-      "titre": "Assistant Pédagogique H/F au Lycée des Mascareignes - Ile Maurice",
+      "titre": "Assistant Pédagogique - Lycée des Mascareignes - F/H - MOKA - ILE MAURICE",
       "etab": "",
       "ville": "Moka",
       "pays": "Île Maurice",
       "contrat": "Contrat temporaire",
       "discipline": "Assistant d'éducation F/H",
       "date": "10/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4324651-assistant-pedagogique-hf-au-lycee-des-mascareignes-ile-maurice-moka"
+      "url": "https://talents.aefe.fr/fr/annonce/4324651-assistant-pedagogique-lycee-des-mascareignes-fh-moka-ile-maurice-moka"
     },
     {
       "id": 4324137,
@@ -1462,7 +1506,7 @@
       "pays": "Nigéria",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "",
+      "date": "24/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4294487-professeur-des-ecoles-fh-lagos-nigeria-106104-lagos"
     },
     {
@@ -4808,6 +4852,17 @@
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "07/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4206229-conseiller-principal-d-education-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4205105,
+      "titre": "enseignant/e en Lettres-Philosophie",
+      "etab": "",
+      "ville": "Cuenca",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "10/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4205105-enseignante-en-lettres-philosophie-cuenca"
     },
     {
       "id": 4203121,
