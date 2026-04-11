@@ -71,6 +71,7 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
 .ld{width:10px;height:10px;border-radius:2px;flex-shrink:0}
 .mhint{font-size:11px;color:#94a3b8;text-align:center;margin-top:5px}
 #loader{text-align:center;padding:60px;font-size:13px;color:#64748b}
+
 #search-wrap{margin-bottom:10px;position:relative;z-index:100}
 #search-row{display:flex;gap:8px;align-items:center;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:6px 12px;margin-bottom:6px;position:relative;z-index:100}
 #search-row:hover{cursor:text}
@@ -94,7 +95,6 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
 .sr-badge{font-size:9px;padding:1px 5px;border-radius:3px}
 .sr-empty{font-size:12px;color:#94a3b8;text-align:center;padding:20px}
 #search-detail{padding:14px;display:flex;flex-direction:column;gap:8px;font-size:12px}
-
 @keyframes pulse-orange{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.6;transform:scale(1.4)}}
 .pastille-new{animation:pulse-orange 1.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 </style>
@@ -105,7 +105,8 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
   <a href="/emplois.html" class="nav-btn">💼 Offres d'emploi</a>
 </div>
 <h3>Réseau AEFE — Zones d'examen Brevet &amp; Bac · Programme MEN</h3>
-  <div id="search-wrap">
+
+<div id="search-wrap">
   <div id="search-row" onclick="document.getElementById('search-input').focus()">
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" style="flex-shrink:0;cursor:default;pointer-events:none"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
     <input id="search-input" placeholder="Rechercher un établissement, une ville, un pays..." autocomplete="off">
