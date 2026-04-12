@@ -737,14 +737,13 @@
   }
 
   @media (max-width: 768px) {
-    #filtres-toggle { display: block !important; }
+    #filtres-toggle { display: block; }
     .hero { display: none; }
-    .search-section { position: relative; display: none; }
-    .search-section.open { display: block; }
-    .legend-bar { position: relative; display: none; }
-    .legend-bar.open { display: flex; }
-    .category-bar { position: sticky; top: 44px; display: none; }
-    .category-bar.open { display: flex; }
+    #filtres-wrapper { display: none; }
+    #filtres-wrapper.open { display: block; }
+    .search-section { position: static; display: block; box-shadow: none; }
+    .legend-bar { position: static; display: flex; top: auto; }
+    .category-bar { position: static; display: flex; top: auto; }
   }
 </style>
 </head>
