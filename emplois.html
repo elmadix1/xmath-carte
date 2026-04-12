@@ -786,7 +786,7 @@
   <div class="meta-stats" id="metaStats"></div>
 </div>
 
-<div class="search-section">
+<div id="filtres-wrapper"><div class="search-section">
   <div class="search-grid">
     <div class="search-field">
       <label>Mots-clés</label>
@@ -865,6 +865,7 @@
   <span class="cat-pill" onclick="filtrerParCategorie(this, 'support')">🔧 Support</span>
   <span class="cat-pill" onclick="filtrerParCategorie(this, 'autre')">🏫 Autre métier</span>
 </div>
+</div><!-- /filtres-wrapper -->
 
 <div class="continent-bar" style="display:none"></div>
 
@@ -1298,9 +1299,7 @@
   loadData();
 
   function toggleFiltres() {
-    var open = document.querySelector('.search-section').classList.toggle('open');
-    document.querySelector('.legend-bar').classList.toggle('open', open);
-    document.querySelector('.category-bar').classList.toggle('open', open);
+    var open = document.getElementById('filtres-wrapper').classList.toggle('open');
     document.getElementById('filtres-toggle').textContent = open
       ? '🔍 Filtres & Catégories ▴'
       : '🔍 Filtres & Catégories ▾';
