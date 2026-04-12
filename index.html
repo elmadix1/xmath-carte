@@ -26,7 +26,7 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
 #bottom-panels.visible.with-emplois{grid-template-columns:1fr 1fr 1fr}
 @media(max-width:700px){#bottom-panels.visible,#bottom-panels.visible.with-emplois{grid-template-columns:1fr}#map-box{max-height:50vh}body{padding:8px}}
 #bottom-panels #ep{grid-column:1/2;max-height:340px;overflow-y:auto}
-#bottom-panels #pp{grid-column:2/3}
+#bottom-panels #pp{grid-column:2/3}@media(max-width:700px){#bottom-panels #ep,#bottom-panels #pp,#bottom-panels #emplois-panel{grid-column:1/-1}}
 #bottom-panels #ed{display:none;grid-column:1/-1}
 .country{stroke:#fff;stroke-width:0.8;cursor:pointer;transition:filter .12s;vector-effect:non-scaling-stroke}
 .country:hover{filter:brightness(.8)}
