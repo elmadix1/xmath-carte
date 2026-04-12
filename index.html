@@ -337,7 +337,7 @@ let EMPLOIS_CACHE=null;
 async function loadEmploisJSON(){
   if(EMPLOIS_CACHE) return EMPLOIS_CACHE;
   try {
-    const r=await fetch('./emplois.json',{signal:AbortSignal.timeout(6000)});
+    const r=await fetch('./emplois.json');
     if(r.ok){EMPLOIS_CACHE=await r.json();
     window.EMPLOIS_DATA_READY=EMPLOIS_CACHE;
     return EMPLOIS_CACHE;}
