@@ -619,7 +619,7 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
 
       var btn=document.getElementById('btn-back');
       btn.style.display='flex';
-      document.getElementById('bottom-panels').classList.add('visible');
+      document.getElementById('bottom-panels').classList.add('visible'); document.getElementById('bottom-panels').scrollIntoView({behavior:'smooth',block:'start'});
 
       var fermeEtabs=ETABS_FERMES[realKey];
       var p=gp(name);
