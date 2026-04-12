@@ -164,7 +164,7 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
   <div class="li"><div class="ld" style="background:#f97316"></div>Territoires FR — hors AEFE</div>
   <div class="li"><div class="ld" style="background:#9ca3af"></div>Programme local</div>
   <div class="li"><div class="ld" style="background:#fff;border:2px solid #ef4444;border-radius:2px;animation:pulse-red 2s infinite"></div>Établissement(s) fermé(s)</div>
-  <div class="li"><div class="ld" style="background:#7c3aed"></div>Aucune école française</div>
+  <div class="li"><div class="ld" style="background:#db2777"></div>Aucune école française</div>
 </div>
 <div class="mhint">Points = établissements AEFE · diminuent avec le zoom · clic pour infos · <span style="background:#dcfce7;color:#166534;padding:1px 5px;border-radius:3px;font-size:10px">EGD</span> <span style="background:#dbeafe;color:#1e40af;padding:1px 5px;border-radius:3px;font-size:10px">Conv</span> <span style="background:#f3f4f6;color:#4b5563;padding:1px 5px;border-radius:3px;font-size:10px">Part</span></div>
 
@@ -173,7 +173,7 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
 <script src="db.js"></script>
 <script>
 var SEARCH_INDEX=[];
-const ZC={ce:"#3b82f6",asie:"#10b981",amn:"#f59e0b",ams:"#8b5cf6",pol:"#f43f5e",drom:"#06b6d4",nc:"#9ca3af",fr_om:"#f97316"};const COULEUR_SANS_ECOLE="#7c3aed";
+const ZC={ce:"#3b82f6",asie:"#10b981",amn:"#f59e0b",ams:"#8b5cf6",pol:"#f43f5e",drom:"#06b6d4",nc:"#9ca3af",fr_om:"#f97316"};const COULEUR_SANS_ECOLE="#db2777";
 const SC={EGD:{bg:"#dcfce7",c:"#166534"},Conv:{bg:"#dbeafe",c:"#1e40af"},Part:{bg:"#f3f4f6",c:"#4b5563"}};
 const ZB={ce:{bg:"#dbeafe",c:"#1e40af"},asie:{bg:"#d1fae5",c:"#065f46"},amn:{bg:"#fef3c7",c:"#92400e"},ams:{bg:"#ede9fe",c:"#4c1d95"},pol:{bg:"#ffe4e6",c:"#9f1239"},drom:{bg:"#cffafe",c:"#0e7490"},nc:{bg:"#f3f4f6",c:"#374151"},fr_om:{bg:"#ffedd5",c:"#c2410c"}};
 const DC="#cbd5e1";
@@ -634,15 +634,18 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
         document.getElementById('btn-back').style.display='flex';
         document.getElementById('pp-title').textContent='🌍 Pays sans école française';
         document.getElementById('p-badge').textContent='Aucune école AEFE';
-        document.getElementById('p-badge').style.background='#ede9fe';
-        document.getElementById('p-badge').style.color='#6d28d9';
-        document.getElementById('p-acad').textContent='—';
-        document.getElementById('p-centre').textContent='Aucun établissement français répertorié';
+        document.getElementById('p-badge').style.background='#fce7f3';
+        document.getElementById('p-badge').style.color='#9d174d';
+        document.getElementById('p-acad').textContent=pse.af?'✅ Oui':'❌ Non';
+        document.getElementById('p-centre').textContent=pse.raison;
         document.getElementById('p-sujet').textContent=pse.anecdote;
-        document.getElementById('p-bac-sujet').textContent=pse.solution;
-        document.getElementById('p-pack').textContent=pse.raison;
+        document.getElementById('p-bac-sujet').textContent='—';
+        document.getElementById('p-pack').textContent=pse.solution;
         document.getElementById('ep-nb').textContent='0 établissement';
-        document.getElementById('elist').innerHTML='<div style="padding:12px;font-size:12px;line-height:1.6"><div style="background:#ede9fe;border-radius:8px;padding:10px 14px;margin-bottom:10px;color:#6d28d9;font-weight:500">🏫 Aucune école française dans ce pays</div><div style="color:#64748b;margin-bottom:10px">'+pse.raison+'</div><div style="background:#f0fdf4;border-radius:8px;padding:10px 14px;margin-bottom:10px;color:#166534">💡 '+pse.solution+'</div><a href="mailto:contact@emplois-scolaires-monde.online?subject=Demande école française — '+pse.nom+'&body=Bonjour, je vis en '+pse.nom+' et souhaite ouvrir une école française." style="display:block;background:#7c3aed;color:#fff;text-align:center;padding:10px;border-radius:8px;text-decoration:none;font-weight:600">✉️ Signaler une demande d\'école</a></div>';
+                // Update labels
+        document.querySelector('[for-pp-acad]') && (document.querySelector('[for-pp-acad]').textContent='Alliance Française');
+        document.querySelector('.lbl:has(+#p-acad)') && (document.querySelector('.lbl:has(+#p-acad)').textContent='Alliance Française');
+        document.getElementById('elist').innerHTML='<div style="padding:12px;font-size:12px;line-height:1.6"><div style="background:#ede9fe;border-radius:8px;padding:10px 14px;margin-bottom:10px;color:#6d28d9;font-weight:500">🏫 Aucune école française dans ce pays</div><div style="color:#64748b;margin-bottom:10px">'+pse.raison+'</div><div style="background:#f0fdf4;border-radius:8px;padding:10px 14px;margin-bottom:10px;color:#166534">💡 '+pse.solution+'</div><a href="mailto:contact@emplois-scolaires-monde.online?subject=Demande école française — '+pse.nom+'&body=Bonjour, je vis en '+pse.nom+' et souhaite ouvrir une école française." style="display:block;background:#db2777;color:#fff;text-align:center;padding:10px;border-radius:8px;text-decoration:none;font-weight:600">✉️ Signaler une demande d\'école</a></div>';
         return;
       }
       var fermeEtabs=ETABS_FERMES[realKey];
