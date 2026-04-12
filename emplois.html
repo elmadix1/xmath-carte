@@ -718,6 +718,32 @@
     .search-grid { grid-template-columns: 1fr; }
     .search-grid > div:last-child { grid-column: 1; }
   }
+
+  @media (max-width: 768px) {
+    #filtres-toggle { display: block; }
+    .search-section { position: relative; display: none; }
+    .search-section.open { display: block; }
+    .legend-bar { position: relative; display: none; }
+    .legend-bar.open { display: flex; }
+    .category-bar { position: sticky; top: 44px; display: none; }
+    .category-bar.open { display: flex; }
+  }
+  #filtres-toggle {
+    display: none;
+    width: 100%;
+    padding: 12px 20px;
+    background: var(--vert);
+    color: #fff;
+    border: none;
+    font-family: DM Sans, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 101;
+  }
 </style>
 </head>
 <body>
@@ -757,6 +783,7 @@
   <div class="meta-stats" id="metaStats"></div>
 </div>
 
+<button id="filtres-toggle" onclick="toggleFiltres()">🔍 Filtres &amp; Catégories ▾</button>
 <div class="search-section">
   <div class="search-grid">
     <div class="search-field">
@@ -1267,6 +1294,15 @@
   window.addEventListener('resize', adjustLegend);
 
   loadData();
+
+  function toggleFiltres() {
+    var open = document.querySelector('.search-section').classList.toggle('open');
+    document.querySelector('.legend-bar').classList.toggle('open', open);
+    document.querySelector('.category-bar').classList.toggle('open', open);
+    document.getElementById('filtres-toggle').textContent = open
+      ? '🔍 Filtres & Catégories ▴'
+      : '🔍 Filtres & Catégories ▾';
+  }
 </script>
 </body>
 </html>
