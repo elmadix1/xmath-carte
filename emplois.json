@@ -1,7 +1,150 @@
 {
-  "updated": "2026-04-13 11:14",
-  "total": 620,
+  "updated": "2026-04-13 16:31",
+  "total": 631,
   "offers": [
+    {
+      "id": 4328479,
+      "titre": "Chauffeur coursier",
+      "etab": "",
+      "ville": "Douala",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Chargé de maintenance et d’entretien F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4328479-chauffeur-coursier-douala"
+    },
+    {
+      "id": 4328349,
+      "titre": "Professeur du Second Degré - Allemand F/H",
+      "etab": "",
+      "ville": "Douala",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4328349-professeur-du-second-degre-allemand-fh-douala"
+    },
+    {
+      "id": 4328263,
+      "titre": "Professeur du Second Degré - Anglais F/H",
+      "etab": "",
+      "ville": "Douala",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4328263-professeur-du-second-degre-anglais-fh-douala"
+    },
+    {
+      "id": 4328159,
+      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "etab": "",
+      "ville": "Douala",
+      "pays": "",
+      "contrat": "",
+      "discipline": "",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4328159-professeur-du-second-degre-education-physique-et-sportive-fh-douala"
+    },
+    {
+      "id": 4327977,
+      "titre": "Professeur du Second Degré - Philosophie F/H",
+      "etab": "",
+      "ville": "Douala",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4327977-professeur-du-second-degre-philosophie-fh-douala"
+    },
+    {
+      "id": 4327919,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Douala",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4327919-professeur-du-second-degre-mathematiques-fh-douala"
+    },
+    {
+      "id": 4327909,
+      "titre": "Professeur de mathématiques- pour le lycée Léon l'Africain de Casablanca",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4327909-professeur-de-mathematiques-pour-le-lycee-leon-lafricain-de-casablanca-casablanca"
+    },
+    {
+      "id": 4327707,
+      "titre": "Éducateur au Primaire (F/H)",
+      "etab": "",
+      "ville": "Toronto",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Aide maternelle F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4327707-educateur-au-primaire-fh-m6e-3s5-toronto"
+    },
+    {
+      "id": 4327689,
+      "titre": "Professeur d'anglais en Primaire (F/H)",
+      "etab": "",
+      "ville": "Toronto",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais américain F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4327689-professeur-danglais-en-primaire-fh-m6e-3s5-toronto"
+    },
+    {
+      "id": 4327645,
+      "titre": "Agent d'entretien principal (F/H)",
+      "etab": "",
+      "ville": "Toronto",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Chargé de maintenance et d’entretien F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4327645-agent-dentretien-principal-fh-m6e-3s5-toronto"
+    },
+    {
+      "id": 4327477,
+      "titre": "Professeur des écoles",
+      "etab": "",
+      "ville": "Santo Domingo",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4327477-professeur-des-ecoles-santo-domingo"
+    },
+    {
+      "id": 4327383,
+      "titre": "Secrétaire F/H",
+      "etab": "",
+      "ville": "Santo Domingo",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4327383-secretaire-fh-santo-domingo"
+    },
+    {
+      "id": 4327269,
+      "titre": "Professeur en lettres modernes-F/H- Lycée Descartes -Rabat-Maroc 2026/2027",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4327269-professeur-en-lettres-modernes-fh-lycee-descartes-rabat-maroc-20262027-rabat"
+    },
     {
       "id": 4327175,
       "titre": "Professeur des écoles F/H - Lycée de Lusaka - LUSAKA - ZAMBIE SUSCEPTIBLE",
@@ -1510,17 +1653,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4296335-professeur-de-lettres-fh-sfax-tunisie-3062-sfax"
     },
     {
-      "id": 4296101,
-      "titre": "Adjoint de laboratoire F/H - MADRID - ESPAGNE",
-      "etab": "",
-      "ville": "Madrid",
-      "pays": "Espagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Aide de laboratoire F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4296101-adjoint-de-laboratoire-fh-madrid-espagne-28043-madrid"
-    },
-    {
       "id": 4295801,
       "titre": "Professeur du Second Degré - Mathématiques F/H - PRAIA - CAP-VERT",
       "etab": "",
@@ -1783,17 +1915,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "23/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4291137-professeur-du-second-degre-sciences-physiques-fh-vienne-autriche-1090-wien"
-    },
-    {
-      "id": 4291133,
-      "titre": "Professeur du Second Degré - EPS - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "23/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4291133-professeur-du-second-degre-eps-fh-tunis-tunisie-2037-tunis"
     },
     {
       "id": 4291115,
@@ -2190,17 +2311,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "17/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4280955-professeur-des-ecoles-fh-cuernavaca-mexique-62227-cuernavaca"
-    },
-    {
-      "id": 4280803,
-      "titre": "Professeur PLP Français et H-G ou certifié HG ou Fr - ESSAOUIRA - MAROC",
-      "etab": "",
-      "ville": "Essaouira",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "22/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4280803-professeur-plp-francais-et-h-g-ou-certifie-hg-ou-fr-essaouira-maroc-essaouira"
     },
     {
       "id": 4280631,
@@ -6579,6 +6689,17 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "13/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3725161-professeur-du-2nd-degre-sciences-economiques-et-sociales-fh-seoul-coree-du-sud-seoul"
+    },
+    {
+      "id": 3718385,
+      "titre": "Professeur d'Arabe F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’arabe F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3718385-professeur-darabe-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 3702775,
