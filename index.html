@@ -106,6 +106,7 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
   <div class="panel" id="pp" style="display:none">
     <div class="ph"><span class="pt" id="pp-title">Zone de session</span><span class="badge" id="p-badge"></span></div>
     <div class="pb">
+      <div class="row" id="p-risque" style="display:none"><div class="lbl">🛡️ Sécurité</div><div class="val"></div></div>
       <div class="row"><div class="lbl">Académie</div><div class="val" id="p-acad"></div></div>
       <div class="row"><div class="lbl">Centre de session</div><div class="val" id="p-centre"></div></div>
       <div class="row"><div class="lbl">📋 Brevet — sujet & date</div><div class="val" id="p-sujet"></div></div>
@@ -698,6 +699,19 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
       document.querySelectorAll('#pp .lbl')[3].textContent='🎓 Bac — sujet & date';
       document.querySelectorAll('#pp .lbl')[4].textContent='Ressources xmath';
       document.querySelectorAll('#pp .row')[3].style.display='';
+      // Afficher niveau sécurité
+      var niv=window.RISQUES&&window.RISQUES[name];
+      var nivLabel={'1':'🟢 Vigilance normale','2':'🟡 Vigilance renforcée','3':'🟠 Déconseillé sauf raison impérative','4':'🔴 Formellement déconseillé'};
+      var nivEl=document.getElementById('p-risque');
+      if(nivEl){
+        if(niv&&niv!='1'){
+          nivEl.style.display='';
+          nivEl.querySelector('.val').textContent=nivLabel[niv]||'';
+          nivEl.querySelector('.val').style.color=niv=='4'?'#dc2626':niv=='3'?'#ea580c':'#ca8a04';
+        } else {
+          nivEl.style.display='none';
+        }
+      }
       showPays(name,p);
       showElist(p);
       showEmplois(p);
