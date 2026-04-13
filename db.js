@@ -228,12 +228,8 @@ const PAYS_SANS_ECOLE={
   "Trinidad and Tobago":{nom:"Trinidad",af:true,anecdote:"Trinidad partage avec la France une histoire culturelle profonde: le Carnaval, les créoles, la musique. Une école française ne ferait que renforcer ces liens déjà tissés depuis des siècles.",raison:"Histoire française forte, proximité géographique avec les Antilles françaises",solution:"Diversifier l'économie via la francophonie et renforcer les liens culturels caribéens",c:[-61.22,10.65]},
   "Papua New Guinea":{nom:"Papouasie-N.-G.",af:false,anecdote:"Avec plus de 800 langues parlées, la Papouasie-Nouvelle-Guinée est le pays le plus linguistiquement diversifié au monde. Le français pourrait devenir un pont vers l\'international",raison:"Proximité avec la Nouvelle-Calédonie, liens avec le Pacifique francophone",solution:"Une école française en Papouasie ouvrirait aux jeunes une passerelle vers l'espace francophone du Pacifique: Nouvelle-Calédonie et Polynésie française sont à portée",c:[143.96,-6.31]},
   "Fiji":{nom:"Fidji",af:true,anecdote:"Les Fidjiens ont inventé le rugby à 7 et la France est championne du monde de rugby, une alliance naturelle qui mérite bien une école.",raison:"Hub du Pacifique, liens naturels avec la Polynésie française",solution:"Former une élite démocrate et francophone tournée vers l'Europe et l'Océanie",c:[178.06,-17.71]},
-  "North Korea":{nom:"Corée du Nord",af:false,anecdote:"Un pont culturel franco-coréen pourrait être le premier pas vers une ouverture diplomatique: l'éducation précède toujours la paix. Kim Jong-un a étudié en Suisse et parle couramment français: preuve que la langue de Molière peut s\'inviter même dans les régimes les plus fermés",raison:"Dernier grand pays sans aucune présence éducative française",solution:"Un objectif à long terme: l'ouverture diplomatique passe toujours par la culture et l'éducation.",c:[127.51,40.34]}
-};
-
-// Nouveaux pays sans école ajoutés
-const PAYS_SANS_ECOLE_2={
-  "Moldova":{nom:"Moldavie",af:false,anecdote:"La Moldavie est l'un des pays les plus francophones d'Europe de l'Est, sans aucune école française",raison:"Pays francophone, candidat à l'UE depuis 2022",solution:"Accompagner l'intégration européenne via l'éducation française",c:[28.37,47.41]},
+  "North Korea":{nom:"Corée du Nord",af:false,anecdote:"Un pont culturel franco-coréen pourrait être le premier pas vers une ouverture diplomatique: l'éducation précède toujours la paix. Kim Jong-un a étudié en Suisse et parle couramment français: preuve que la langue de Molière peut s\'inviter même dans les régimes les plus fermés",raison:"Dernier grand pays sans aucune présence éducative française",solution:"Un objectif à long terme: l'ouverture diplomatique passe toujours par la culture et l'éducation.",c:[127.51,40.34]},
+ "Moldova":{nom:"Moldavie",af:false,anecdote:"La Moldavie est l'un des pays les plus francophones d'Europe de l'Est, sans aucune école française",raison:"Pays francophone, candidat à l'UE depuis 2022",solution:"Accompagner l'intégration européenne via l'éducation française",c:[28.37,47.41]},
   "Belarus":{nom:"Biélorussie",af:false,anecdote:"Minsk est une ville de résistance culturelle, un pont éducatif avec la France s'impose naturellement",raison:"Importante diaspora francophone en exil depuis 2020",solution:"Soutenir la société civile biélorusse via l'éducation française",c:[27.95,53.71]},
   "Iceland":{nom:"Islande",af:false,anecdote:"Les Islandais sont les plus grands lecteurs du monde, et pourtant pas un seul lycée français",raison:"Fort tourisme français, membre de l'EEE",solution:"Former une élite nordique bilingue tournée vers l'Europe continentale",c:[-19.02,64.96]},
   "Jamaica":{nom:"Jamaïque",af:false,anecdote:"La Jamaïque et la France partagent une passion commune pour la musique, la culture et la liberté d'expression",raison:"Proximité avec Haïti et les Antilles françaises",solution:"Renforcer les échanges franco-jamaïcains dans la Caraïbe",c:[-77.30,18.11]},
@@ -249,5 +245,5 @@ const PAYS_SANS_ECOLE_2={
   "Guyana":{nom:"Guyana",af:true,anecdote:"Le Guyana partage sa frontière avec le Suriname et le Venezuela : une position géographique unique entre deux mondes",raison:"Seul pays anglophone d'Amérique du Sud, entouré de francophones",solution:"Tisser des liens éducatifs durables entre l'Amérique du Sud anglophone et francophone",c:[-58.93,4.86]}
 };
 
-// Fusionner avec PAYS_SANS_ECOLE existant
-Object.assign(PAYS_SANS_ECOLE, PAYS_SANS_ECOLE_2);
+
+
