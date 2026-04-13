@@ -1,7 +1,51 @@
 {
-  "updated": "2026-04-13 16:31",
-  "total": 631,
+  "updated": "2026-04-13 20:50",
+  "total": 635,
   "offers": [
+    {
+      "id": 4328947,
+      "titre": "Professeur du Second Degré - Mathématiques F/H - SANTIAGO - CHILI",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "Chili",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4328947-professeur-du-second-degre-mathematiques-fh-santiago-chili-7630599-santiago"
+    },
+    {
+      "id": 4328665,
+      "titre": "Professeur du Second Degré ANGLAIS",
+      "etab": "",
+      "ville": "Mauritania",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4328665-professeur-du-second-degre-anglais-mauritania"
+    },
+    {
+      "id": 4328651,
+      "titre": "Proviseur H/F",
+      "etab": "",
+      "ville": "Mauritania",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Proviseur F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4328651-proviseur-hf-mauritania"
+    },
+    {
+      "id": 4328637,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H - SANTIAGO - CHILI",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "Chili",
+      "contrat": "",
+      "discipline": "",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4328637-professeur-du-second-degre-physique-chimie-fh-santiago-chili-7630599-santiago"
+    },
     {
       "id": 4328479,
       "titre": "Chauffeur coursier",
@@ -4942,15 +4986,15 @@
       "url": "https://talents.aefe.fr/fr/annonce/4188629-head-of-british-section-fh-londres-royaume-uni-greater-london"
     },
     {
-      "id": 4182389,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - CALI (Yumbo) - COLOMBIE",
+      "id": 4182379,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H - CALI (Yumbo) - COLOMBIE",
       "etab": "",
       "ville": "Cali",
       "pays": "Colombie",
       "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "23/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4182389-professeur-du-second-degre-lettres-modernes-fh-cali-yumbo-colombie-760042-cali"
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "13/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4182379-professeur-du-second-degre-dhistoire-geographie-fh-cali-yumbo-colombie-760042-cali"
     },
     {
       "id": 4182373,
