@@ -415,6 +415,31 @@ function afficherPastillesMonde(data){
   });
 
   // Rescaler avec zoom
+  // Icônes ⚠️ pays fermés et à risque
+  function drawWarnings(){
+    window.mapG.selectAll('.warning-icon').remove();
+    var t=d3.zoomTransform(svg.node());
+    var COORDS_FERMES={
+      "Sudan":[32.5,15.6],"Afghanistan":[67.7,33.9],"Mali":[-2.0,17.0],
+      "Niger":[8.0,17.0],"Libya":[17.0,26.0],"Syria":[38.0,35.0],
+      "Yemen":[48.0,15.5],"Myanmar":[96.0,19.0],"Haiti":[-72.3,18.9],
+      "Lebanon":[35.5,33.9],"Ukraine":[31.0,48.5],"Russia":[60.0,55.0],
+      "South Sudan":[31.6,6.9],"Burkina Faso":[-1.5,12.4]
+    };
+    Object.entries(COORDS_FERMES).forEach(function([pays,coords]){
+      var pt=proj(coords);
+      if(!pt||isNaN(pt[0])) return;
+      var s=14/t.k;
+      var g=window.mapG.append('g').attr('class','warning-icon').style('pointer-events','none');
+      g.append('text')
+        .attr('x',pt[0]).attr('y',pt[1])
+        .attr('text-anchor','middle').attr('dominant-baseline','central')
+        .attr('font-size',s+'px')
+        .text('⚠️');
+    });
+  }
+  drawWarnings();
+  zoom.on('zoom.warnings',function(){drawWarnings();});
   zoom.on('zoom.pastillesMonde',function(ev){
     var k=ev.transform.k;
     window.mapG.selectAll('.pastille-monde').each(function(){
