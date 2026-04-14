@@ -673,12 +673,17 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
         document.getElementById('p-sujet').textContent=pse.anecdote;
         document.getElementById('p-bac-sujet').textContent='';
         document.querySelectorAll('#pp .row')[3].style.display='none';
+        document.querySelectorAll('#pp .row')[4].style.display='none';
+        document.querySelectorAll('#pp .row')[5].style.display='none';
         document.getElementById('p-pack').textContent=pse.solution;
         document.getElementById('ep-nb').textContent='0 établissement';
                 // Update labels
         document.querySelector('[for-pp-acad]') && (document.querySelector('[for-pp-acad]').textContent='Alliance Française');
         document.querySelector('.lbl:has(+#p-acad)') && (document.querySelector('.lbl:has(+#p-acad)').textContent='Alliance Française');
         document.getElementById('elist').innerHTML='<div style="padding:12px;font-size:12px;line-height:1.6"><div style="background:#ede9fe;border-radius:8px;padding:10px 14px;margin-bottom:10px;color:#6d28d9;font-weight:500">🏫 Aucune école française dans ce pays</div><div style="color:#64748b;margin-bottom:10px">'+pse.raison+'</div><div style="background:#f0fdf4;border-radius:8px;padding:10px 14px;margin-bottom:10px;color:#166534">💡 '+pse.solution+'</div><a href="mailto:contact@emplois-scolaires-monde.online?subject=Demande école française — '+pse.nom+'&body=Bonjour, je vis en '+pse.nom+' et souhaite ouvrir une école française." style="display:block;background:#db2777;color:#fff;text-align:center;padding:10px;border-radius:8px;text-decoration:none;font-weight:600">✉️ Signaler une demande d\'école</a></div>';
+        // Conditions expatriation pour pays sans école
+        var argsElPse=document.getElementById('p-nego');
+        if(argsElPse) argsElPse.style.display='none';
         return;
       }
       var fermeEtabs=ETABS_FERMES[realKey];
@@ -726,6 +731,8 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
       document.querySelectorAll('#pp .lbl')[3].textContent='🎓 Bac — sujet & date';
       document.querySelectorAll('#pp .lbl')[4].textContent='Ressources xmath';
       document.querySelectorAll('#pp .row')[3].style.display='';
+      document.querySelectorAll('#pp .row')[4].style.display='';
+      document.querySelectorAll('#pp .row')[5].style.display='';
       // Afficher niveau sécurité
       var niv=window.RISQUES&&window.RISQUES[name];
       var nivLabel={'1':'🟢 Vigilance normale','2':'🟡 Vigilance renforcée','3':'🟠 Déconseillé sauf raison impérative','4':'🔴 Formellement déconseillé'};
