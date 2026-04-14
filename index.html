@@ -671,7 +671,8 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
         document.querySelectorAll('#pp .lbl')[4].textContent='💡 Le potentiel éducatif';
         document.getElementById('p-centre').textContent=pse.raison;
         document.getElementById('p-sujet').textContent=pse.anecdote;
-        document.getElementById('p-bac-sujet').textContent='Non applicable';
+        document.getElementById('p-bac-sujet').textContent='';
+        document.querySelectorAll('#pp .row')[3].style.display='none';
         document.getElementById('p-pack').textContent=pse.solution;
         document.getElementById('ep-nb').textContent='0 établissement';
                 // Update labels
@@ -739,18 +740,16 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
         }
       }
       // Afficher argument négociation
-      setTimeout(function(){
-        var argsEl=document.getElementById('p-nego');
-        var arg=window.ARGS_NEGO&&window.ARGS_NEGO[name];
-        if(argsEl){
-          if(arg){
-            argsEl.style.display='';
-            argsEl.querySelector('.val').textContent=arg;
-          } else {
-            argsEl.style.display='none';
-          }
-        }
-      },500);
+      var argsEl=document.getElementById('p-nego');
+      if(argsEl){
+        var checkArg=function(){
+          var arg=window.ARGS_NEGO&&window.ARGS_NEGO[name];
+          if(arg){argsEl.style.display='';argsEl.querySelector('.val').textContent=arg;}
+          else{argsEl.style.display='none';}
+        };
+        if(window.ARGS_NEGO) checkArg();
+        else setTimeout(checkArg,1000);
+      }
       showPays(name,p);
       showElist(p);
       showEmplois(p);
