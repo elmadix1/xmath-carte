@@ -564,6 +564,8 @@ function afficherOffres(offres,list,nb,p){
   more.textContent='→ Toutes les offres pour '+p.nom+' sur talents.aefe.fr';
   list.appendChild(more);
 }
+fetch('risques.json').then(r=>r.json()).then(d=>{window.RISQUES=d;}).catch(()=>{window.RISQUES={};});
+fetch('arguments_nego.json').then(r=>r.json()).then(d=>{window.ARGS_NEGO=d;}).catch(()=>{window.ARGS_NEGO={};});
 fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
 .then(r=>r.json())
 .then(world=>{
