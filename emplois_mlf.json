@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-15 10:12",
-  "total": 249,
+  "updated": "2026-04-15 20:20",
+  "total": 251,
   "source": "MLF Monde",
   "offers": [
     {
@@ -1626,6 +1626,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3547_offre-emploi-cpe-a-casablanca.html"
+    },
+    {
+      "id": 3688,
+      "titre": "Directeur des programmes francais du secondaire et des affaires francaises de l'etablissement 2026-27",
+      "etab": "",
+      "ville": "Boston",
+      "pays": "États-Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "21/01/2026",
+      "date_limite": "26/02/2026",
+      "date_prise": "25/08/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3688_offre-emploi-directeur-des-programmes-francais-du-secondaire-et-des-affaires-francaises-de-letablissement-202627.html"
     },
     {
       "id": 3470,
@@ -3460,6 +3474,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3714_offre-emploi-were-hiring-primary-school-esl-teacher-marrakech-benguerir.html"
+    },
+    {
+      "id": 3716,
+      "titre": "Professeur des Ecoles",
+      "etab": "",
+      "ville": "Bata",
+      "pays": "Guinée Équatoriale",
+      "contrat": "",
+      "discipline": "",
+      "date": "15/04/2026",
+      "date_limite": "31/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3716_offre-emploi-professeur-des-ecoles.html"
     },
     {
       "id": 3701,

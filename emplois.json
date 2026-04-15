@@ -1,7 +1,73 @@
 {
-  "updated": "2026-04-15 10:12",
-  "total": 638,
+  "updated": "2026-04-15 20:20",
+  "total": 640,
   "offers": [
+    {
+      "id": 4333647,
+      "titre": "Psychopédagogue - F/H - SANTIAGO - CHILI",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "Chili",
+      "contrat": "Contrat permanent",
+      "discipline": "Psychologue scolaire F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333647-psychopedagogue-fh-santiago-chili-7630599-santiago"
+    },
+    {
+      "id": 4333615,
+      "titre": "Secrétaire de direction - F/H - SANTIAGO - CHILI",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "Chili",
+      "contrat": "Contrat permanent",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333615-secretaire-de-direction-fh-santiago-chili-7630599-santiago"
+    },
+    {
+      "id": 4333583,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Damascus",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333583-professeur-du-second-degre-dhistoire-geographie-fh-damascus"
+    },
+    {
+      "id": 4333031,
+      "titre": "Professeur des écoles - F/H - TPS/PS - RIGA - LETTONIE",
+      "etab": "",
+      "ville": "Rīga",
+      "pays": "Lettonie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333031-professeur-des-ecoles-fh-tpsps-riga-lettonie-1005-riga"
+    },
+    {
+      "id": 4332559,
+      "titre": "Professeur des écoles en Élémentaire - F/H - Lycée franco-libanais - DUBAI - EAU",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "Liban",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4332559-professeur-des-ecoles-en-elementaire-fh-lycee-franco-libanais-dubai-eau-dubai"
+    },
+    {
+      "id": 4332531,
+      "titre": "Professeur des écoles en Maternelle - F/H - Lycée franco-libanais - DUBAI - EAU",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "Liban",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4332531-professeur-des-ecoles-en-maternelle-fh-lycee-franco-libanais-dubai-eau-dubai"
+    },
     {
       "id": 4332017,
       "titre": "Référent du Pôle EBEP - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
@@ -37,25 +103,14 @@
     },
     {
       "id": 4331817,
-      "titre": "Professeur des écoles remplaçant F/H -Lycée Guebre-Mariam- ADDIS-ABEBA- ETHIOPIE",
+      "titre": "Professeurs des écoles remplaçants -Lycée Guebre-Mariam- ADDIS-ABEBA- ETHIOPIE",
       "etab": "",
       "ville": "Addis-Abeba",
       "pays": "Éthiopie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331817-professeur-des-ecoles-remplacant-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331797,
-      "titre": "Professeur des écoles remplaçant F/H -Lycée Guebre-Mariam- ADDIS-ABEBA- ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331797-professeur-des-ecoles-remplacant-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+      "url": "https://talents.aefe.fr/fr/annonce/4331817-professeurs-des-ecoles-remplacants-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4331697,
@@ -81,25 +136,14 @@
     },
     {
       "id": 4331631,
-      "titre": "Professeur de Lettres modernes - F/H -Lycée Guebre-Mariam- ADDIS-ABEBA- ETHIOPIE",
+      "titre": "Professeurs de Lettres modernes - F/H -Lycée Guebre-Mariam-ADDIS-ABEBA- ETHIOPIE",
       "etab": "",
       "ville": "Addis-Abeba",
       "pays": "Éthiopie",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331631-professeur-de-lettres-modernes-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331623,
-      "titre": "Professeur de Lettres modernes- F/H - Lycée Guebre-Mariam- ADDIS-ABEBA- ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331623-professeur-de-lettres-modernes-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+      "url": "https://talents.aefe.fr/fr/annonce/4331631-professeurs-de-lettres-modernes-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4331579,
@@ -290,25 +334,25 @@
     },
     {
       "id": 4330373,
-      "titre": "Chargé des admissions - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
+      "titre": "Chargé(e) des admissions - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
       "etab": "",
       "ville": "Marrakesh",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Chargé d’admission F/H",
       "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330373-charge-des-admissions-fh-lycee-victor-hugo-marrakech-maroc-marrakesh"
+      "url": "https://talents.aefe.fr/fr/annonce/4330373-chargee-des-admissions-fh-lycee-victor-hugo-marrakech-maroc-marrakesh"
     },
     {
       "id": 4330307,
-      "titre": "Surveillant au second degré - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
+      "titre": "Surveillant(e) au second degré - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
       "etab": "",
       "ville": "Marrakesh",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Assistant d'éducation F/H",
       "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330307-surveillant-au-second-degre-fh-lycee-victor-hugo-marrakech-maroc-marrakesh"
+      "url": "https://talents.aefe.fr/fr/annonce/4330307-surveillante-au-second-degre-fh-lycee-victor-hugo-marrakech-maroc-marrakesh"
     },
     {
       "id": 4330293,
@@ -345,14 +389,14 @@
     },
     {
       "id": 4330241,
-      "titre": "Surveillant général de vie scolaire Cycle 3 Primaire - F/H - MARRAKECH - MAROC",
+      "titre": "Surveillant(e) général de vie scolaire Cycle 3 Primaire -F/H- MARRAKECH - MAROC",
       "etab": "",
       "ville": "Marrakesh",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Assistant d'éducation F/H",
       "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330241-surveillant-general-de-vie-scolaire-cycle-3-primaire-fh-marrakech-maroc-marrakesh"
+      "url": "https://talents.aefe.fr/fr/annonce/4330241-surveillante-general-de-vie-scolaire-cycle-3-primaire-fh-marrakech-maroc-marrakesh"
     },
     {
       "id": 4330229,
@@ -389,7 +433,7 @@
     },
     {
       "id": 4330177,
-      "titre": "Assistante de direction - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
+      "titre": "Assistant(e) de direction - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
       "etab": "",
       "ville": "Marrakesh",
       "pays": "Maroc",
@@ -514,7 +558,7 @@
       "etab": "",
       "ville": "Santiago",
       "pays": "Chili",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur de physique chimie F/H",
       "date": "13/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4328637-professeur-du-second-degre-physique-chimie-fh-santiago-chili-7630599-santiago"
@@ -1906,17 +1950,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4301709-professeur-du-second-degre-physique-chimie-fh-dusseldorf-allemagne-40237-dusseldorf"
     },
     {
-      "id": 4301695,
-      "titre": "Responsable de Communication - F/H - BUENOS AIRES - ARGENTINE",
-      "etab": "",
-      "ville": "BAG",
-      "pays": "Argentine",
-      "contrat": "Contrat permanent",
-      "discipline": "Chargé de communication F/H",
-      "date": "28/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4301695-responsable-de-communication-fh-buenos-aires-argentine-c1428-bag"
-    },
-    {
       "id": 4300947,
       "titre": "Professeur du Second Degré d'histoire géographie - F/H - MALAGA - ESPAGNE",
       "etab": "",
@@ -2773,17 +2806,6 @@
       "discipline": "Professeur de technologie F/H",
       "date": "17/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4280631-professeur-du-second-degre-technologies-fh-singapour-singapore"
-    },
-    {
-      "id": 4280385,
-      "titre": "Professeur du Second Degré EPS - F/H - DUBAI - EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "17/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4280385-professeur-du-second-degre-eps-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
       "id": 4280279,
@@ -6295,17 +6317,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4108363-professeur-de-lettres-modernes-fh-abidjan-cote-divoire-abidjan"
     },
     {
-      "id": 4106945,
-      "titre": "Professeur des écoles - F/H - PRINCETON - NEW JERSEY - ETATS-UNIS",
-      "etab": "",
-      "ville": "Princeton",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4106945-professeur-des-ecoles-fh-princeton-new-jersey-etats-unis-08540-princeton"
-    },
-    {
       "id": 4102357,
       "titre": "Professeur des écoles - F/H - Le CAIRE - EGYPTE",
       "etab": "",
@@ -7008,6 +7019,17 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "10/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3486777-professeur-2nd-degre-histoire-geographie-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
+    },
+    {
+      "id": 3403337,
+      "titre": "Professeur d'Allemand - F/H - LFI M'HAMED DRISS - SOUSSE - TUNISIE",
+      "etab": "",
+      "ville": "Sousse",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3403337-professeur-dallemand-fh-lfi-mhamed-driss-sousse-tunisie-4023-sousse"
     },
     {
       "id": 3363779,
