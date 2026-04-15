@@ -1,54 +1,208 @@
 {
-  "updated": "2026-04-14 20:25",
-  "total": 622,
+  "updated": "2026-04-15 10:12",
+  "total": 638,
   "offers": [
     {
+      "id": 4332017,
+      "titre": "Référent du Pôle EBEP - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4332017-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331925,
+      "titre": "Enseignant FLSco - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331925-enseignant-flsco-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331837,
+      "titre": "Professeurs des écoles - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331837-professeurs-des-ecoles-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331817,
+      "titre": "Professeur des écoles remplaçant F/H -Lycée Guebre-Mariam- ADDIS-ABEBA- ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331817-professeur-des-ecoles-remplacant-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331797,
+      "titre": "Professeur des écoles remplaçant F/H -Lycée Guebre-Mariam- ADDIS-ABEBA- ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331797-professeur-des-ecoles-remplacant-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331697,
+      "titre": "Professeur Lettres/ H-G - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331697-professeur-lettres-h-g-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331647,
+      "titre": "Professeur d'H-G - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331647-professeur-dh-g-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331631,
+      "titre": "Professeur de Lettres modernes - F/H -Lycée Guebre-Mariam- ADDIS-ABEBA- ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331631-professeur-de-lettres-modernes-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331623,
+      "titre": "Professeur de Lettres modernes- F/H - Lycée Guebre-Mariam- ADDIS-ABEBA- ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331623-professeur-de-lettres-modernes-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331579,
+      "titre": "Professeur de Mathématiques - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331579-professeur-de-mathematiques-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331567,
+      "titre": "Professeur de SVT - collège/lycée - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331567-professeur-de-svt-collegelycee-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331503,
+      "titre": "Professeur d'EPS - collège/lycée - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331503-professeur-deps-collegelycee-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331493,
+      "titre": "Professeur de Mathématiques - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331493-professeur-de-mathematiques-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
+      "id": 4331489,
+      "titre": "Professeur de Physique Chimie - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331489-professeur-de-physique-chimie-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
       "id": 4331377,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - QUITO",
+      "titre": "Professeur du Second Degré - Mathématiques F/H - QUITO - EQUATEUR",
       "etab": "",
       "ville": "Quito",
-      "pays": "",
+      "pays": "Équateur",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de mathématiques F/H",
       "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331377-professeur-du-second-degre-mathematiques-fh-quito-quito"
+      "url": "https://talents.aefe.fr/fr/annonce/4331377-professeur-du-second-degre-mathematiques-fh-quito-equateur-quito"
     },
     {
       "id": 4331283,
-      "titre": "Professeur du Second Degré - Sciences Economiques et Sociales F/H",
+      "titre": "Professeur du Second Degré - SES - F/H - CONAKRY - GUINÉE",
       "etab": "",
       "ville": "Conakry",
-      "pays": "",
+      "pays": "Guinée",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331283-professeur-du-second-degre-sciences-economiques-et-sociales-fh-conakry"
+      "url": "https://talents.aefe.fr/fr/annonce/4331283-professeur-du-second-degre-ses-fh-conakry-guinee-conakry"
     },
     {
       "id": 4331279,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "titre": "Professeur du Second Degré d'histoire géographie - F/H - CONAKRY - GUINÉE",
       "etab": "",
       "ville": "Conakry",
-      "pays": "",
+      "pays": "Guinée",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331279-professeur-du-second-degre-dhistoire-geographie-fh-conakry"
+      "url": "https://talents.aefe.fr/fr/annonce/4331279-professeur-du-second-degre-dhistoire-geographie-fh-conakry-guinee-conakry"
     },
     {
       "id": 4331273,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - CONAKRY - GUINÉE",
       "etab": "",
       "ville": "Conakry",
-      "pays": "",
+      "pays": "Guinée",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331273-professeur-du-second-degre-mathematiques-fh-conakry"
+      "url": "https://talents.aefe.fr/fr/annonce/4331273-professeur-du-second-degre-mathematiques-fh-conakry-guinee-conakry"
     },
     {
       "id": 4331267,
-      "titre": "Professeur du Second Degré -PHYSIQUE/CHIMIE - F/H - TUNIS - TUNISIE",
+      "titre": "Professeur du Second Degré - PHYSIQUE/CHIMIE - F/H - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
@@ -59,7 +213,7 @@
     },
     {
       "id": 4331257,
-      "titre": "Professeur des écoles F/H - TUNIS - TUNISIE",
+      "titre": "Professeur des écoles - F/H - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
@@ -70,14 +224,14 @@
     },
     {
       "id": 4331235,
-      "titre": "TECHNICIEN DE LABORATOIRE",
+      "titre": "TECHNICIEN DE LABORATOIRE - F/H - RABAT - MAROC",
       "etab": "",
       "ville": "Rabat",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Aide de laboratoire F/H",
       "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331235-technicien-de-laboratoire-rabat"
+      "url": "https://talents.aefe.fr/fr/annonce/4331235-technicien-de-laboratoire-fh-rabat-maroc-rabat"
     },
     {
       "id": 4331161,
@@ -92,25 +246,25 @@
     },
     {
       "id": 4330675,
-      "titre": "Surveillant(e) - site Incek - F/H - ANKARA - TURQUIE",
+      "titre": "Surveillant - site Incek - F/H - ANKARA - TURQUIE",
       "etab": "",
       "ville": "Ankara",
       "pays": "Turquie",
       "contrat": "Contrat temporaire",
       "discipline": "Assistant d'éducation F/H",
       "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330675-surveillante-site-incek-fh-ankara-turquie-golbas%C4%B1"
+      "url": "https://talents.aefe.fr/fr/annonce/4330675-surveillant-site-incek-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4330647,
-      "titre": "Responsable de garderie - site Ayranci - Lycée Français Charles de Gaulle Ankara",
+      "titre": "Responsable de garderie - site Ayranci - F/H - ANKARA - TURQUIE",
       "etab": "",
       "ville": "Ankara",
-      "pays": "",
+      "pays": "Turquie",
       "contrat": "Contrat temporaire",
       "discipline": "Agent du périscolaire F/H",
       "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330647-responsable-de-garderie-site-ayranci-lycee-francais-charles-de-gaulle-ankara-golbas%C4%B1"
+      "url": "https://talents.aefe.fr/fr/annonce/4330647-responsable-de-garderie-site-ayranci-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4330587,
@@ -179,6 +333,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4330255-professeur-dallemand-remplacement-second-degre-fh-la-haye-pays-bas-2584-aa-den-haag"
     },
     {
+      "id": 4330243,
+      "titre": "Professeur des écoles (poste en élémentaire) - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4330243-professeur-des-ecoles-poste-en-elementaire-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
       "id": 4330241,
       "titre": "Surveillant général de vie scolaire Cycle 3 Primaire - F/H - MARRAKECH - MAROC",
       "etab": "",
@@ -188,6 +353,39 @@
       "discipline": "Assistant d'éducation F/H",
       "date": "14/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4330241-surveillant-general-de-vie-scolaire-cycle-3-primaire-fh-marrakech-maroc-marrakesh"
+    },
+    {
+      "id": 4330229,
+      "titre": "Professeur des écoles remplaçant (poste au Primaire) - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4330229-professeur-des-ecoles-remplacant-poste-au-primaire-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
+      "id": 4330219,
+      "titre": "Professeur des écoles (poste en élémentaire) - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4330219-professeur-des-ecoles-poste-en-elementaire-fh-ankara-turquie-golbas%C4%B1"
+    },
+    {
+      "id": 4330211,
+      "titre": "Professeur des écoles (poste en maternelle) - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4330211-professeur-des-ecoles-poste-en-maternelle-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4330177,
@@ -3556,39 +3754,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4258505-professeur-de-sciences-numeriques-et-technologie-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4258419,
-      "titre": "CONSEILLER PRINCIPAL D'EDUCATION - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "05/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4258419-conseiller-principal-deducation-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4258357,
-      "titre": "INFIRMIER SCOLAIRE - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat permanent",
-      "discipline": "Infirmier scolaire F/H",
-      "date": "05/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4258357-infirmier-scolaire-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4258335,
-      "titre": "ENSEIGNANT 2ND DEGRE - MUSIQUE - Lycée Français du Caire - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation musicale F/H",
-      "date": "05/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4258335-enseignant-2nd-degre-musique-lycee-francais-du-caire-le-caire-egypte-cairo"
-    },
-    {
       "id": 4258271,
       "titre": "PRIO (Personnel Ressources Information et Orientation)- F/H - ISTANBUL - TURQUIE",
       "etab": "",
@@ -5323,7 +5488,7 @@
       "pays": "Bénin",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "11/04/2026",
+      "date": "15/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4142975-professeur-des-ecoles-rentree-20262027-fh-cotonou-benin-9087-cotonou"
     },
     {
@@ -6329,7 +6494,7 @@
     },
     {
       "id": 4068021,
-      "titre": "Professeur du Second Degré - SVT F/H - CASABLANCA - MAROC",
+      "titre": "Professeur du Second Degré - SVT - F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
@@ -6340,7 +6505,7 @@
     },
     {
       "id": 4068011,
-      "titre": "Professeur du Second Degré - Physique Chimie F/H - CASABLANCA - MAROC",
+      "titre": "Professeur du Second Degré - Physique Chimie - F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
@@ -6362,7 +6527,7 @@
     },
     {
       "id": 4068001,
-      "titre": "Professeur du Second Degré - Philosophie F/H - CASABLANCA - MAROC",
+      "titre": "Professeur du Second Degré - Philosophie - F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
@@ -6373,7 +6538,7 @@
     },
     {
       "id": 4067979,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - CASABLANCA - MAROC",
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
@@ -6384,7 +6549,7 @@
     },
     {
       "id": 4067969,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H - CASABLANCA - MAROC",
+      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
@@ -6524,6 +6689,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "13/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4001511-professeur-des-ecoles-ice-school-fh-dubai-emirats-arabes-unis-dubai"
+    },
+    {
+      "id": 3985767,
+      "titre": "Professeur des écoles - F/H - NAIROBI – KENYA",
+      "etab": "",
+      "ville": "Nairobi",
+      "pays": "Kenya",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3985767-professeur-des-ecoles-fh-nairobi-kenya-nairobi"
     },
     {
       "id": 3980205,
