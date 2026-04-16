@@ -1,7 +1,194 @@
 {
-  "updated": "2026-04-15 20:20",
-  "total": 640,
+  "updated": "2026-04-16 10:10",
+  "total": 655,
   "offers": [
+    {
+      "id": 4334623,
+      "titre": "Responsable du développement des partenariats/APS F/H - Riyad - Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Chargé de partenariats",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4334623-responsable-du-developpement-des-partenariatsaps-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4334491,
+      "titre": "Responsable du programme IB F/H - Riyad - Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Proviseur adjoint F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4334491-responsable-du-programme-ib-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4334421,
+      "titre": "Professeurs des écoles- F/H - Pôle AEFE -Rabat-Maroc Rentrée 2026/2027",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4334421-professeurs-des-ecoles-fh-pole-aefe-rabat-maroc-rentree-20262027-rabat"
+    },
+    {
+      "id": 4334415,
+      "titre": "Technicien d'ouvrage F/H - Riyad - Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Chargé de maintenance et d’entretien F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4334415-technicien-douvrage-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4334255,
+      "titre": "Assistante Moyens Généraux - F/H - Riyad Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Gestionnaire matériel F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4334255-assistante-moyens-generaux-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4334165,
+      "titre": "Infirmier(e) Scolaire F/H Riyad Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Infirmier scolaire F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4334165-infirmiere-scolaire-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4334121,
+      "titre": "Professeur de langue Arabe Primaire - F/H - Riyad Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’arabe F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4334121-professeur-de-langue-arabe-primaire-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4334053,
+      "titre": "Bibliothécaire F/H - Riyad - Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Chargé du centre de documentation F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4334053-bibliothecaire-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4333927,
+      "titre": "Assistante maternelle - Riyad - Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Aide maternelle F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333927-assistante-maternelle-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4333869,
+      "titre": "Professeur du Second Degré - Anglais F/H - Riyad - Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333869-professeur-du-second-degre-anglais-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4333867,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H - Riyad Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333867-professeur-du-second-degre-dhistoire-geographie-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4333855,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H - Riyad Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333855-professeur-du-second-degre-lettres-modernes-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4333851,
+      "titre": "Assistant d'Éducation - F/H - Riyad - Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333851-assistant-deducation-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4333843,
+      "titre": "Professeur du Second Degré - Philosophie F/H - Riyad - Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333843-professeur-du-second-degre-philosophie-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4333807,
+      "titre": "Professeur des écoles F/H - Riyad - Arabie Saoudite",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "Arabie Saoudite",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333807-professeur-des-ecoles-fh-riyad-arabie-saoudite-13317-riyadh"
+    },
+    {
+      "id": 4333789,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Asuncion",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333789-professeur-du-second-degre-lettres-modernes-fh-asuncion"
+    },
+    {
+      "id": 4333753,
+      "titre": "Poste vacant de professeur(e ) de Sciences Economiques et Sociales",
+      "etab": "",
+      "ville": "Tegucigalpa",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "15/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333753-poste-vacant-de-professeure-de-sciences-economiques-et-sociales-tegucigalpa"
+    },
     {
       "id": 4333647,
       "titre": "Psychopédagogue - F/H - SANTIAGO - CHILI",
@@ -1258,14 +1445,14 @@
     },
     {
       "id": 4316851,
-      "titre": "Professeur des écoles-F/H - Lycée Français International d'Accra - ACCRA - GHANA",
+      "titre": "Professeur(e) des écoles-F/H - Lycée Français International d'Accra-ACCRA-GHANA",
       "etab": "",
       "ville": "Accra",
       "pays": "Ghana",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "07/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4316851-professeur-des-ecoles-fh-lycee-francais-international-daccra-accra-ghana-accra"
+      "url": "https://talents.aefe.fr/fr/annonce/4316851-professeure-des-ecoles-fh-lycee-francais-international-daccra-accra-ghana-accra"
     },
     {
       "id": 4316747,
@@ -2214,17 +2401,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4295533-directeur-administratif-et-financier-daf-fh-dusseldorf-allemagne-40237-dusseldorf"
     },
     {
-      "id": 4295357,
-      "titre": "Chargé de coordination au service des examens - F/H - MADRID - ESPAGNE",
-      "etab": "",
-      "ville": "Madrid",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4295357-charge-de-coordination-au-service-des-examens-fh-madrid-espagne-28043-madrid"
-    },
-    {
       "id": 4294695,
       "titre": "Professeur du Second Degré - Espagnol - F/H - ISTANBUL - TURQUIE",
       "etab": "",
@@ -3158,17 +3334,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "13/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4275013-professeur-du-second-degre-mathematiques-fh-queretaro-mexique-76269-zakia"
-    },
-    {
-      "id": 4273649,
-      "titre": "Professeur d'Allemand - F/H - SHANGHAI - CHINE",
-      "etab": "",
-      "ville": "Shanghai",
-      "pays": "Chine",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "13/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4273649-professeur-dallemand-fh-shanghai-chine-shanghai"
     },
     {
       "id": 4273421,
@@ -4817,7 +4982,7 @@
       "pays": "Espagne",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "14/02/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4224765-professeur-de-sciences-de-la-vie-et-de-la-terre-fh-malaga-espagne-29018-malaga"
     },
     {
@@ -4828,7 +4993,7 @@
       "pays": "Sénégal",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "14/02/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4224731-professeur-des-ecoles-fh-dakar-senegal-dakar"
     },
     {
@@ -5468,17 +5633,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "05/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4144085-professeur-de-flscofle-fh-shanghai-chine-shanghai"
-    },
-    {
-      "id": 4144079,
-      "titre": "Psychologue Scolaire - F/H - SHANGHAI - CHINE",
-      "etab": "",
-      "ville": "Shanghai",
-      "pays": "Chine",
-      "contrat": "Contrat permanent",
-      "discipline": "Psychologue scolaire F/H",
-      "date": "05/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4144079-psychologue-scolaire-fh-shanghai-chine-shanghai"
     },
     {
       "id": 4143823,
@@ -6788,6 +6942,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "23/02/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3799639-educateurerzieher-personnel-parlant-allemand-fh-munich-allemagne-81539-munchen"
+    },
+    {
+      "id": 3761065,
+      "titre": "Professeur du Second Degré - Mathématiques F/H - ADDIS ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "16/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3761065-professeur-du-second-degre-mathematiques-fh-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 3725161,
