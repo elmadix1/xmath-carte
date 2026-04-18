@@ -749,7 +749,25 @@
 </style>
 </head>
 <body>
-
+  
+<noscript>
+<div style="padding:40px 20px;max-width:800px;margin:0 auto;font-family:sans-serif;line-height:1.6;">
+  <h1>Offres d'emploi AEFE et MLF — Réseau français à l'étranger</h1>
+  <p><strong>Cette page nécessite JavaScript pour afficher la liste dynamique des offres.</strong></p>
+  <p>Notre plateforme agrège quotidiennement :</p>
+  <ul>
+    <li><strong>Les offres AEFE</strong> (Agence pour l'Enseignement Français à l'Étranger) — réseau public d'établissements homologués par le ministère de l'Éducation nationale française, présent dans plus de 130 pays.</li>
+    <li><strong>Les offres MLF</strong> (Mission Laïque Française) — association créée en 1902, gérant des écoles, collèges et lycées français à l'étranger.</li>
+  </ul>
+  <h2>Postes disponibles</h2>
+  <p>Enseignants premier et second degré (mathématiques, français, anglais, espagnol, allemand, histoire-géographie, SVT, physique-chimie, EPS, arts, musique), direction (proviseur, principal, CPE, directeur), administration (DAF, secrétaire, RH), santé scolaire (infirmier, psychologue, AESH), support technique.</p>
+  <h2>Régions couvertes</h2>
+  <p>Afrique (Maroc, Tunisie, Sénégal, Côte d'Ivoire), Europe (Espagne, Allemagne, Royaume-Uni), Moyen-Orient (Émirats, Qatar, Liban), Amériques (États-Unis, Canada, Brésil), Asie (Chine, Japon, Inde, Vietnam), Océanie.</p>
+  <p><a href="https://talents.aefe.fr/fr/annonces">→ Voir les offres AEFE sur talents.aefe.fr</a></p>
+  <p><a href="https://www.mlfmonde.org/la-mission-laique-francaise-recrute/">→ Voir les offres MLF sur mlfmonde.org</a></p>
+</div>
+</noscript>
+  
 <div style="text-align:right;padding:3px 16px;font-size:0.65rem;color:#ccc;background:var(--blanc);letter-spacing:0.5px;" id="updatedBar"></div>
 
 <header>
@@ -1297,6 +1315,134 @@
   window.addEventListener('resize', adjustLegend);
 
   loadData();
+<script>
+// ── JSON-LD JobPosting pour Google for Jobs ──────────────────
+// Mapping pays → code ISO-3166 (pour addressCountry)
+const PAYS_ISO = {
+  'maroc':'MA','tunisie':'TN','algérie':'DZ','sénégal':'SN','côte d\'ivoire':'CI','cameroun':'CM',
+  'gabon':'GA','mali':'ML','togo':'TG','bénin':'BJ','madagascar':'MG','djibouti':'DJ','mauritanie':'MR',
+  'éthiopie':'ET','kenya':'KE','tanzanie':'TZ','congo':'CG','mozambique':'MZ','ghana':'GH','nigeria':'NG',
+  'afrique du sud':'ZA','seychelles':'SC','angola':'AO','ouganda':'UG','zambie':'ZM','zimbabwe':'ZW',
+  'france':'FR','espagne':'ES','portugal':'PT','italie':'IT','allemagne':'DE','royaume-uni':'GB',
+  'belgique':'BE','suisse':'CH','luxembourg':'LU','pays-bas':'NL','autriche':'AT','pologne':'PL',
+  'grèce':'GR','hongrie':'HU','roumanie':'RO','bulgarie':'BG','danemark':'DK','suède':'SE','norvège':'NO',
+  'finlande':'FI','irlande':'IE','turquie':'TR','serbie':'RS','croatie':'HR',
+  'émirats arabes unis':'AE','émirats':'AE','qatar':'QA','arabie saoudite':'SA','koweït':'KW',
+  'oman':'OM','bahreïn':'BH','liban':'LB','jordanie':'JO','égypte':'EG','israël':'IL','irak':'IQ',
+  'iran':'IR','syrie':'SY',
+  'états-unis':'US','canada':'CA','mexique':'MX','brésil':'BR','argentine':'AR','chili':'CL',
+  'colombie':'CO','pérou':'PE','uruguay':'UY','paraguay':'PY','venezuela':'VE','équateur':'EC',
+  'bolivie':'BO','cuba':'CU','haïti':'HT','panama':'PA','costa rica':'CR','guatemala':'GT',
+  'chine':'CN','japon':'JP','inde':'IN','vietnam':'VN','thaïlande':'TH','indonésie':'ID','malaisie':'MY',
+  'singapour':'SG','philippines':'PH','cambodge':'KH','laos':'LA','birmanie':'MM','myanmar':'MM',
+  'bangladesh':'BD','pakistan':'PK','sri lanka':'LK','taiwan':'TW','corée du sud':'KR','corée':'KR',
+  'kazakhstan':'KZ','ouzbékistan':'UZ','azerbaïdjan':'AZ','géorgie':'GE','arménie':'AM',
+  'hong kong':'HK','macao':'MO',
+  'australie':'AU','nouvelle-zélande':'NZ','vanuatu':'VU','nouvelle-calédonie':'NC','polynésie française':'PF'
+};
+
+function paysToISO(pays) {
+  if (!pays) return 'FR';
+  const key = pays.toLowerCase().trim();
+  return PAYS_ISO[key] || 'FR';
+}
+
+// Convertit "15/04/2026" (format AEFE/MLF) → "2026-04-15" (ISO 8601)
+function dateToISO(s) {
+  if (!s) return null;
+  const m = s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (!m) return null;
+  return `${m[3]}-${m[2].padStart(2,'0')}-${m[1].padStart(2,'0')}`;
+}
+
+// Genère le JSON-LD JobPosting d'une offre
+function offerToJobPosting(o) {
+  const source = (o.source || 'AEFE').toUpperCase();
+  const employmentType = (o.contrat || '').toLowerCase().includes('temporaire') ? 'CONTRACTOR' : 'FULL_TIME';
+  const datePosted = dateToISO(o.date) || new Date().toISOString().split('T')[0];
+  const validThrough = o.date_limite ? dateToISO(o.date_limite) + 'T23:59:59+00:00' : null;
+  const orgName = source === 'MLF' ? 'Mission Laïque Française' : 'AEFE — Agence pour l\'Enseignement Français à l\'Étranger';
+  const orgUrl  = source === 'MLF' ? 'https://www.mlfmonde.org' : 'https://www.aefe.fr';
+
+  const description = [
+    `Poste de ${o.titre || 'enseignant'}`,
+    o.discipline ? `en ${o.discipline}` : '',
+    (o.ville || o.pays) ? `à ${[o.ville, o.pays].filter(Boolean).join(', ')}` : '',
+    `via le réseau ${source} (${orgName}).`,
+    o.contrat ? `Type de contrat : ${o.contrat}.` : '',
+    'Voir les détails complets et postuler sur le site officiel.'
+  ].filter(Boolean).join(' ');
+
+  const jp = {
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": o.titre || 'Poste à pourvoir',
+    "description": description,
+    "datePosted": datePosted,
+    "employmentType": employmentType,
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": orgName,
+      "sameAs": orgUrl
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": paysToISO(o.pays),
+        "addressLocality": o.ville || o.pays || '',
+        "addressRegion": o.pays || ''
+      }
+    },
+    "directApply": false,
+    "url": o.url || 'https://emplois-scolaires-monde.online/emplois.html'
+  };
+
+  if (validThrough) jp.validThrough = validThrough;
+  if (o.discipline) jp.occupationalCategory = o.discipline;
+
+  return jp;
+}
+
+// Injecte le JSON-LD dans le DOM une fois les offres chargées
+function injectJobPostingsLD(offers) {
+  // Nettoyer un éventuel précédent
+  const prev = document.getElementById('jobpostings-ld');
+  if (prev) prev.remove();
+
+  // Limiter à 100 offres pour ne pas gonfler la page inutilement
+  // (Google n'a pas besoin de plus pour comprendre la structure)
+  const subset = offers.slice(0, 100);
+
+  const ld = subset.map(offerToJobPosting);
+
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.id   = 'jobpostings-ld';
+  script.textContent = JSON.stringify(ld, null, 2);
+  document.head.appendChild(script);
+}
+
+// Met à jour la balise canonical selon les filtres actifs
+function updateCanonical() {
+  const params = new URLSearchParams();
+  const region  = document.getElementById('selectRegion')?.value;
+  const source  = document.getElementById('selectSource')?.value;
+  const contrat = document.getElementById('selectContrat')?.value;
+  const pays    = document.getElementById('inputLocalisation')?.value?.trim();
+
+  if (region)  params.set('region', region);
+  if (source)  params.set('source', source);
+  if (contrat) params.set('contrat', contrat);
+  if (pays)    params.set('pays', pays.toLowerCase());
+
+  const canonical = document.getElementById('canonicalLink');
+  if (canonical) {
+    const qs = params.toString();
+    canonical.href = 'https://emplois-scolaires-monde.online/emplois.html' + (qs ? '?' + qs : '');
+  }
+}
+</script>
 
   function toggleFiltres() {
     var open = document.getElementById('filtres-wrapper').classList.toggle('open');
