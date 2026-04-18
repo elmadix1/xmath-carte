@@ -1313,8 +1313,6 @@
 
   window.addEventListener('load', adjustLegend);
   window.addEventListener('resize', adjustLegend);
-
-  loadData();
 <script>
 // ── JSON-LD JobPosting pour Google for Jobs ──────────────────
 // Mapping pays → code ISO-3166 (pour addressCountry)
@@ -1443,6 +1441,8 @@ function updateCanonical() {
   }
 }
 </script>
+  loadData();
+
 
   function toggleFiltres() {
     var open = document.getElementById('filtres-wrapper').classList.toggle('open');
