@@ -1152,7 +1152,8 @@
       }
 
       allOffers = [...offresAEFE, ...offresMLF];
-
+    // ➕ SEO : injecter JSON-LD JobPosting pour Google for Jobs
+    injectJobPostingsLD(allOffers);
       document.getElementById('updatedBar').textContent =
         updAEFE ? `Dernière mise à jour : ${updAEFE}` : '';
       document.getElementById('totalMeta').textContent = allOffers.length;
@@ -1239,7 +1240,13 @@
     list.className = 'offer-list';
     list.id = 'offerList';
     document.getElementById('listContainer').appendChild(list);
-
+    // ➕ SEO : mettre à jour le canonical selon les filtres actifs
+    updateCanonical();
+    // ➕ SEO : re-injecter le JSON-LD avec les offres filtrées
+    //    (seulement si filtré, sinon on garde le full set)
+    if (filtered.length > 0 && filtered.length < allOffers.length) {
+      injectJobPostingsLD(filtered);
+    }
     loadMore();
   }
 
