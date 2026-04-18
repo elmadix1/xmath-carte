@@ -1583,7 +1583,7 @@ function updateCanonical() {
     canonical.href = 'https://emplois-scolaires-monde.online/emplois.html' + (qs ? '?' + qs : '');
   }
 }
-
+applyURLFilters();   // ➕ SEO : pré-appliquer filtres URL
   loadData();
 
 
