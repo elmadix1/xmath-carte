@@ -1,4 +1,30 @@
+# robots.txt — emplois-scolaires-monde.online
+# Autoriser tous les crawlers légitimes
+
 User-agent: *
 Allow: /
+Disallow: /scripts/
+Disallow: /.github/
+Disallow: /*.json$
+
+# Autoriser explicitement Googlebot pour emplois.json (utile pour Google for Jobs)
+User-agent: Googlebot
+Allow: /emplois.json
+Allow: /emplois_mlf.json
+
+# Autoriser Bingbot de la même façon
+User-agent: bingbot
+Allow: /emplois.json
+Allow: /emplois_mlf.json
+
+# Bloquer les scrapers agressifs connus
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
 
 Sitemap: https://emplois-scolaires-monde.online/sitemap.xml
