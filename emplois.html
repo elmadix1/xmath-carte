@@ -1024,7 +1024,40 @@
   let filtered  = [];
   let displayed = 0;
   let busy      = false;
-
+  // ➕ SEO : appliquer les filtres depuis l'URL (?region=…&source=…&pays=…)
+  //    Exécuté une fois le DOM prêt, avant loadData().
+  function applyURLFilters() {
+    const p = new URLSearchParams(window.location.search);
+    const region  = p.get('region');
+    const source  = p.get('source');
+    const contrat = p.get('contrat');
+    const pays    = p.get('pays');
+    const cat     = p.get('cat');
+    if (region)  document.getElementById('selectRegion').value  = region;
+    if (source)  document.getElementById('selectSource').value  = source;
+    if (contrat) document.getElementById('selectContrat').value = contrat;
+    if (pays)    document.getElementById('inputLocalisation').value = pays;
+    // La catégorie sera gérée via activeCategory ci-dessous
+    if (cat) {
+      const map = {
+        '1er-degre': '1er degré',
+        '2nd-degre': '2nd degré',
+        'langues': 'langues',
+        'direction': 'direction',
+        'administratif': 'administratif',
+        'sante': 'sante',
+        'support': 'support'
+      };
+      activeCategory = map[cat] || '';
+      if (activeCategory) {
+        setTimeout(() => {
+          document.querySelectorAll('.cat-pill').forEach(p => {
+            if (p.textContent.includes(activeCategory)) p.classList.add('active');
+          });
+        }, 50);
+      }
+    }
+  }
   let activeContinent = '';
 
   const continentPays = {
