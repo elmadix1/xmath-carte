@@ -1595,5 +1595,333 @@ applyURLFilters();   // ➕ SEO : pré-appliquer filtres URL
       : '🔍 Filtres & Catégories ▾';
   }
 </script>
+     <!-- ═══════════════════════════════════════════════════════════════
+     MODULE CAPTURE EMAIL — FORMAT D (slider bas droite)
+     
+     À coller dans emplois.html, juste avant </body>
+     
+     Comportement :
+     - S'affiche après 45s sur la page
+     - S'adapte au filtre pays/région actif de l'URL
+     - Dismissible (✕) — ne revient pas pendant 7 jours
+     - Si succès inscription → désactivé définitivement (localStorage)
+     - Responsive mobile
+     
+     ⚠️ Pour l'instant : le submit est en mode "console.log" — pas d'API branchée
+     ═══════════════════════════════════════════════════════════════ -->
+
+<div id="esm-slider" style="display:none;">
+  <button class="esm-x" aria-label="Fermer">✕</button>
+  <div class="esm-header">
+    <span class="esm-icon">📬</span>
+    <strong>Soyez les premiers informés</strong>
+  </div>
+  <p class="esm-pitch">
+    Recevez par email les <strong>nouvelles offres <span id="esm-filter-label">AEFE &amp; MLF</span></strong>
+    dès leur publication, <em>avant tout le monde</em>.
+  </p>
+  <form id="esm-form">
+    <input type="email" id="esm-email" placeholder="votre@email.fr" required autocomplete="email">
+    <button type="submit" id="esm-submit">Je m'inscris →</button>
+  </form>
+  <div class="esm-footnote">
+    Gratuit · 1 email/jour max · Désinscription en 1 clic
+  </div>
+  <div id="esm-success" style="display:none;">
+    <div class="esm-check">✓</div>
+    <strong>Inscription confirmée !</strong>
+    <p>Vérifiez votre boîte mail pour valider.</p>
+  </div>
+</div>
+
+<style>
+#esm-slider {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 340px;
+  max-width: calc(100vw - 40px);
+  background: #fff;
+  border: 1px solid #5a8a3c;
+  border-radius: 12px;
+  padding: 20px 22px 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 9999;
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  animation: esmSlideIn 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes esmSlideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+#esm-slider.esm-closing {
+  animation: esmSlideOut 0.3s ease forwards;
+}
+
+@keyframes esmSlideOut {
+  to { transform: translateY(20px); opacity: 0; }
+}
+
+#esm-slider .esm-x {
+  position: absolute;
+  top: 8px; right: 10px;
+  background: none; border: none;
+  font-size: 16px;
+  color: #888;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.15s, color 0.15s;
+}
+#esm-slider .esm-x:hover { background: #f4f4f4; color: #333; }
+
+#esm-slider .esm-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #1a1f16;
+  margin-bottom: 8px;
+}
+#esm-slider .esm-icon { font-size: 1.2rem; }
+#esm-slider .esm-header strong { font-weight: 600; }
+
+#esm-slider .esm-pitch {
+  font-size: 0.82rem;
+  color: #4a5240;
+  line-height: 1.45;
+  margin-bottom: 12px;
+}
+#esm-slider .esm-pitch strong { color: #1a1f16; font-weight: 600; }
+#esm-slider .esm-pitch em { color: #5a8a3c; font-style: normal; font-weight: 600; }
+
+#esm-slider form {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+#esm-slider input[type="email"] {
+  flex: 1;
+  padding: 9px 12px;
+  border: 1.5px solid #e8ede4;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.15s;
+  min-width: 0;
+}
+#esm-slider input[type="email"]:focus { border-color: #5a8a3c; }
+
+#esm-slider button[type="submit"] {
+  background: #5a8a3c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+#esm-slider button[type="submit"]:hover { background: #7ab055; }
+#esm-slider button[type="submit"]:disabled { background: #bdbdbd; cursor: wait; }
+
+#esm-slider .esm-footnote {
+  font-size: 0.7rem;
+  color: #888;
+  text-align: center;
+}
+
+#esm-slider #esm-success {
+  text-align: center;
+  padding: 8px 0;
+}
+#esm-slider #esm-success .esm-check {
+  width: 42px; height: 42px;
+  background: #e8f4e3;
+  color: #5a8a3c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 auto 10px;
+}
+#esm-slider #esm-success strong {
+  color: #1a1f16;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 4px;
+}
+#esm-slider #esm-success p {
+  font-size: 0.8rem;
+  color: #4a5240;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  #esm-slider {
+    right: 10px; left: 10px;
+    bottom: 10px;
+    width: auto;
+    padding: 16px 18px 14px;
+  }
+  #esm-slider form { flex-direction: column; }
+  #esm-slider button[type="submit"] { width: 100%; }
+}
+</style>
+
+<script>
+(function() {
+  const STORAGE_KEY = 'esm_capture_state';
+  const DISPLAY_DELAY_MS = 45000;
+  const DISMISS_COOLDOWN_DAYS = 7;
+
+  // ── État persistant ──────────────────────────────────────────
+  function getState() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    } catch { return {}; }
+  }
+
+  function setState(patch) {
+    const current = getState();
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...current, ...patch }));
+  }
+
+  function shouldShow() {
+    const s = getState();
+    if (s.subscribed) return false;
+    if (s.dismissedAt) {
+      const daysSince = (Date.now() - s.dismissedAt) / (1000 * 60 * 60 * 24);
+      if (daysSince < DISMISS_COOLDOWN_DAYS) return false;
+    }
+    return true;
+  }
+
+  // ── Contexte de segmentation (basé sur filtres URL + page) ───
+  function getSegmentContext() {
+    const params = new URLSearchParams(window.location.search);
+    const pays   = params.get('pays');
+    const region = params.get('region');
+    const source = params.get('source');
+    const cat    = params.get('cat');
+
+    const tags = ['newsletter-general'];
+    let label = 'AEFE & MLF';
+
+    if (pays) {
+      tags.push('alerte-pays-' + pays.toLowerCase().replace(/\s+/g,'-'));
+      label = 'au ' + capitalize(pays);
+    } else if (region) {
+      tags.push('alerte-region-' + region.toLowerCase());
+      label = 'en ' + regionLabel(region);
+    } else if (source) {
+      tags.push('alerte-source-' + source.toLowerCase());
+      label = source.toUpperCase();
+    }
+    if (cat) tags.push('alerte-cat-' + cat.toLowerCase());
+    if (source && !tags.some(t => t.startsWith('alerte-source'))) {
+      tags.push('alerte-source-' + source.toLowerCase());
+    }
+
+    return { tags, label };
+  }
+
+  function capitalize(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
+  }
+
+  function regionLabel(r) {
+    const map = {
+      'afrique': 'Afrique',
+      'europe': 'Europe',
+      'moyen-orient': 'Moyen-Orient',
+      'ameriques': 'Amériques',
+      'asie': 'Asie',
+      'oceanie': 'Océanie'
+    };
+    return map[r] || r;
+  }
+
+  // ── Affichage ────────────────────────────────────────────────
+  function showSlider() {
+    if (!shouldShow()) return;
+
+    const ctx = getSegmentContext();
+    document.getElementById('esm-filter-label').textContent = ctx.label;
+    document.getElementById('esm-slider').style.display = 'block';
+
+    // Tracking en console (remplacer plus tard par analytics.track)
+    console.log('[ESM] Slider shown with tags:', ctx.tags);
+  }
+
+  function closeSlider() {
+    const el = document.getElementById('esm-slider');
+    el.classList.add('esm-closing');
+    setTimeout(() => { el.style.display = 'none'; }, 300);
+  }
+
+  function dismissSlider() {
+    setState({ dismissedAt: Date.now() });
+    closeSlider();
+  }
+
+  // ── Soumission (version sans API pour l'instant) ─────────────
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const email = document.getElementById('esm-email').value.trim();
+    const btn   = document.getElementById('esm-submit');
+    const ctx   = getSegmentContext();
+
+    if (!email) return;
+
+    btn.disabled = true;
+    btn.textContent = 'Envoi…';
+
+    // ⚠️ STUB — à remplacer par l'appel API Systeme.io
+    console.log('[ESM] Submit:', { email, tags: ctx.tags });
+    await new Promise(r => setTimeout(r, 600));
+
+    // Succès simulé
+    setState({ subscribed: true, email, tags: ctx.tags });
+    document.getElementById('esm-form').style.display = 'none';
+    document.getElementById('esm-slider').querySelector('.esm-pitch').style.display = 'none';
+    document.getElementById('esm-slider').querySelector('.esm-header').style.display = 'none';
+    document.getElementById('esm-slider').querySelector('.esm-footnote').style.display = 'none';
+    document.getElementById('esm-success').style.display = 'block';
+
+    // Auto-close après 4s
+    setTimeout(closeSlider, 4000);
+  }
+
+  // ── Init ─────────────────────────────────────────────────────
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  function init() {
+    document.querySelector('#esm-slider .esm-x').addEventListener('click', dismissSlider);
+    document.getElementById('esm-form').addEventListener('submit', handleSubmit);
+
+    // Déclencher après le délai
+    setTimeout(showSlider, DISPLAY_DELAY_MS);
+
+    // Shortcut dev : afficher immédiatement avec ?esm=test
+    if (new URLSearchParams(window.location.search).get('esm') === 'test') {
+      setTimeout(showSlider, 500);
+    }
+  }
+})();
+</script>
 </body>
 </html>
