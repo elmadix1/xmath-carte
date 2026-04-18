@@ -1,12 +1,114 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<!-- ═══════════════════════════════════════════════════════════════
+     SEO HEAD — emplois-scolaires-monde.online
+     À REMPLACER : tout le contenu entre <head> et <style> (exclus)
+     Garde le bloc <style>…</style> tel quel.
+     ═══════════════════════════════════════════════════════════════ -->
+
 <meta charset="UTF-8">
-<meta name="description" content="Tous les postes d'enseignants français à l'étranger en temps réel. Offres CDI et CDD dans le réseau AEFE et MLF, actualisées chaque jour dans plus de 100 pays.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Postes à Pourvoir — Réseau Français</title>
+
+<!-- Title optimisé longue-traîne (55-60 caractères idéal) -->
+<title>Offres d'emploi AEFE & MLF | Enseigner en lycée français à l'étranger</title>
+
+<!-- Meta description (150-160 caractères) -->
+<meta name="description" content="Toutes les offres d'emploi AEFE et MLF actualisées chaque jour : enseignants, CPE, direction, administratif dans les lycées français à l'étranger. Plus de 100 pays.">
+
+<meta name="keywords" content="emploi AEFE, emploi MLF, enseigner à l'étranger, lycée français étranger, poste enseignant expatrié, recrutement AEFE, mission laïque française, emploi professeur étranger">
+
+<!-- Robots -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+
+<!-- Canonical (sera réécrit dynamiquement selon les filtres) -->
+<link rel="canonical" href="https://emplois-scolaires-monde.online/emplois.html" id="canonicalLink">
+
+<!-- Langue -->
+<meta http-equiv="content-language" content="fr">
+<link rel="alternate" hreflang="fr" href="https://emplois-scolaires-monde.online/emplois.html">
+<link rel="alternate" hreflang="x-default" href="https://emplois-scolaires-monde.online/emplois.html">
+
+<!-- Open Graph (Facebook, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="XMath Academy — Emplois Réseau Français">
+<meta property="og:title" content="Offres d'emploi AEFE & MLF | Enseigner en lycée français à l'étranger">
+<meta property="og:description" content="Toutes les offres d'emploi AEFE et MLF actualisées chaque jour : enseignants, CPE, direction, administratif dans les lycées français à l'étranger. Plus de 100 pays.">
+<meta property="og:url" content="https://emplois-scolaires-monde.online/emplois.html">
+<meta property="og:image" content="https://emplois-scolaires-monde.online/og-emplois.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Emplois AEFE et MLF dans le réseau scolaire français mondial">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Offres d'emploi AEFE & MLF — Réseau français à l'étranger">
+<meta name="twitter:description" content="Tous les postes AEFE et MLF actualisés chaque jour. Enseignants, direction, administratif dans 100+ pays.">
+<meta name="twitter:image" content="https://emplois-scolaires-monde.online/og-emplois.png">
+
+<!-- Favicon (adapte si tu en as déjà un) -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" href="/favicon.png">
+
+<!-- Preconnect pour perf (bon signal SEO Core Web Vitals) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="emplois.json" as="fetch" crossorigin="anonymous">
+<link rel="preload" href="emplois_mlf.json" as="fetch" crossorigin="anonymous">
+
+<!-- Fonts (conservé de ta version) -->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
+
+<!-- JSON-LD : WebSite + SearchAction (pour sitelinks search box Google) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Emplois Scolaires Monde — Réseau Français",
+  "alternateName": "XMath Academy — Emplois",
+  "url": "https://emplois-scolaires-monde.online/",
+  "inLanguage": "fr",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://emplois-scolaires-monde.online/emplois.html?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- JSON-LD : Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "XMath Academy",
+  "url": "https://emplois-scolaires-monde.online/",
+  "logo": "https://emplois-scolaires-monde.online/logo.png",
+  "description": "Plateforme agrégeant toutes les offres d'emploi des réseaux AEFE et MLF pour l'enseignement français à l'étranger.",
+  "sameAs": [
+    "https://xmath.academy",
+    "https://elmadix1.github.io/xmath-carte/"
+  ]
+}
+</script>
+
+<!-- JSON-LD : BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://emplois-scolaires-monde.online/"},
+    {"@type": "ListItem", "position": 2, "name": "Offres d'emploi", "item": "https://emplois-scolaires-monde.online/emplois.html"}
+  ]
+}
+</script>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     Ici tu gardes ton bloc <style>…</style> ACTUEL tel quel
+     ═══════════════════════════════════════════════════════════════ --><style>
   :root {
     --vert: #5a8a3c;
     --vert-clair: #7ab055;
