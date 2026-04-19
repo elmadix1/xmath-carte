@@ -1,7 +1,18 @@
 {
-  "updated": "2026-04-19 06:36",
-  "total": 647,
+  "updated": "2026-04-19 17:41",
+  "total": 646,
   "offers": [
+    {
+      "id": 4339775,
+      "titre": "Infirmier Scolaire F/H",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Infirmier scolaire F/H",
+      "date": "19/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4339775-infirmier-scolaire-fh-abidjan"
+    },
     {
       "id": 4339295,
       "titre": "Professeur du Second Degré - Espagnol - F/H - DAKAR - SENEGAL",
@@ -318,7 +329,7 @@
       "pays": "Arabie Saoudite",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d’arabe F/H",
-      "date": "16/04/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4334121-professeur-de-langue-arabe-primaire-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
@@ -4896,28 +4907,6 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "18/02/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4230797-professeur-du-second-degre-ses-fh-lusaka-zambie-lusaka"
-    },
-    {
-      "id": 4229375,
-      "titre": "Assistant d'Éducation du primaire - F/H - BUDAPEST - HONGRIE",
-      "etab": "",
-      "ville": "Budapest",
-      "pays": "Hongrie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "17/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4229375-assistant-deducation-du-primaire-fh-budapest-hongrie-1029-budapest"
-    },
-    {
-      "id": 4229289,
-      "titre": "Professeur des écoles - F/H - THIES - SENEGAL",
-      "etab": "",
-      "ville": "Thiès",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "17/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4229289-professeur-des-ecoles-fh-thies-senegal-thies"
     },
     {
       "id": 4220181,
