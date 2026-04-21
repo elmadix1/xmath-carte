@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-21 06:59",
+  "updated": "2026-04-21 18:06",
   "total": 251,
   "source": "MLF Monde",
   "offers": [
@@ -1544,34 +1544,6 @@
       "url": "https://recrutement.mlfmonde.org/3535_offre-emploi-professeure-de-lettres-a-casablanca.html"
     },
     {
-      "id": 3536,
-      "titre": "Professeur.e de mathématiques à Casablanca",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "11/10/2025",
-      "date_limite": "20/02/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3536_offre-emploi-professeure-de-mathematiques-a-casablanca.html"
-    },
-    {
-      "id": 3537,
-      "titre": "Professeur.e d'anglais à Casablanca",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "11/10/2025",
-      "date_limite": "20/02/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3537_offre-emploi-professeure-danglais-a-casablanca.html"
-    },
-    {
       "id": 3538,
       "titre": "Professeur.e d'espagnol à Casablanca",
       "etab": "",
@@ -1584,20 +1556,6 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3538_offre-emploi-professeure-despagnol-a-casablanca.html"
-    },
-    {
-      "id": 3539,
-      "titre": "Professeur.e d'histoire-géographie à Casablanca",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "11/10/2025",
-      "date_limite": "20/02/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3539_offre-emploi-professeure-dhistoiregeographie-a-casablanca.html"
     },
     {
       "id": 3540,
@@ -3348,6 +3306,48 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3447_offre-emploi-professeure-danglais-primaire-maternelle-bilingue-et-cycle-23.html"
+    },
+    {
+      "id": 3536,
+      "titre": "Professeur.e de mathématiques à Casablanca",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "11/10/2025",
+      "date_limite": "15/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3536_offre-emploi-professeure-de-mathematiques-a-casablanca.html"
+    },
+    {
+      "id": 3537,
+      "titre": "Professeur.e d'anglais à Casablanca",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "11/10/2025",
+      "date_limite": "15/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3537_offre-emploi-professeure-danglais-a-casablanca.html"
+    },
+    {
+      "id": 3539,
+      "titre": "Professeur.e d'histoire-géographie à Casablanca",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "11/10/2025",
+      "date_limite": "15/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3539_offre-emploi-professeure-dhistoiregeographie-a-casablanca.html"
     },
     {
       "id": 3596,
