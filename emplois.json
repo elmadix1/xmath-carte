@@ -1,7 +1,29 @@
 {
-  "updated": "2026-04-21 18:06",
+  "updated": "2026-04-22 07:06",
   "total": 645,
   "offers": [
+    {
+      "id": 4345127,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H - SANTIAGO - CHILI",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "Chili",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "21/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4345127-professeur-du-second-degre-lettres-modernes-fh-santiago-chili-7630599-santiago"
+    },
+    {
+      "id": 4345113,
+      "titre": "Prof. du Second Degré - Sciences de la Vie et de la Terre F/H - SANTIAGO - CHILI",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "Chili",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "21/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4345113-prof-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-santiago-chili-7630599-santiago"
+    },
     {
       "id": 4344901,
       "titre": "Directrice de crèche / maternelle",
@@ -56,17 +78,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "21/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4343447-professeur-des-ecoles-fh-lycee-francais-du-caire-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4343361,
-      "titre": "ASSISTANT DU PROVISEUR - F/H - International French School (IFS) - SINGAPOUR",
-      "etab": "",
-      "ville": "Singapore",
-      "pays": "Singapour",
-      "contrat": "Contrat permanent",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4343361-assistant-du-proviseur-fh-international-french-school-ifs-singapour-singapore"
     },
     {
       "id": 4343323,
@@ -4907,17 +4918,6 @@
       "discipline": "Sécrétaire / assistant F/H",
       "date": "23/02/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4236865-assistant-de-direction-scolarite-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
-    },
-    {
-      "id": 4236159,
-      "titre": "Professeur des écoles F/H - International School of Brooklyn-NEW YORK-ETATS UNIS",
-      "etab": "",
-      "ville": "New York",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "20/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4236159-professeur-des-ecoles-fh-international-school-of-brooklyn-new-york-etats-unis-kings-county"
     },
     {
       "id": 4235947,
