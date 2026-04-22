@@ -1,10 +1,197 @@
 {
-  "updated": "2026-04-22 07:06",
-  "total": 645,
+  "updated": "2026-04-22 18:07",
+  "total": 662,
   "offers": [
     {
+      "id": 4347063,
+      "titre": "Enseignant(e) en éducation environnementale intégrée (Maternelle - CP)",
+      "etab": "",
+      "ville": "Toronto",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4347063-enseignante-en-education-environnementale-integree-maternelle-cp-m4n-1t7-toronto"
+    },
+    {
+      "id": 4346847,
+      "titre": "Professeur du second degré d'histoire-géographie - F/H - TANGER - MAROC",
+      "etab": "",
+      "ville": "Tanger",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346847-professeur-du-second-degre-dhistoire-geographie-fh-tanger-maroc-90000-tanger"
+    },
+    {
+      "id": 4346543,
+      "titre": "AGENT SPECIALISE DES ECOLES MATERNELLES H/F",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Aide maternelle F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346543-agent-specialise-des-ecoles-maternelles-hf-cairo"
+    },
+    {
+      "id": 4346469,
+      "titre": "PROFESSEUR DES ECOLES F//H - TEMPS PARTIEL",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346469-professeur-des-ecoles-fh-temps-partiel-cairo"
+    },
+    {
+      "id": 4346381,
+      "titre": "Surveillant (H/F) - EGD - LYCEE GUSTAVE FLAUBERT - LA MARSA - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346381-surveillant-hf-egd-lycee-gustave-flaubert-la-marsa-tunisie-la-marsa"
+    },
+    {
+      "id": 4346373,
+      "titre": "PE Anglais / Arabe - EGD - Ecole Georges Sand - Nabeul - Tunisie",
+      "etab": "",
+      "ville": "Nabeul",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346373-pe-anglais-arabe-egd-ecole-georges-sand-nabeul-tunisie-nabeul-"
+    },
+    {
+      "id": 4346357,
+      "titre": "PROFESSEUR DES ECOLES H/F - EGD - ECOLE JEAN GIONO - BIZERTE - TUNISIE",
+      "etab": "",
+      "ville": "Bizerte",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346357-professeur-des-ecoles-hf-egd-ecole-jean-giono-bizerte-tunisie-bizerte"
+    },
+    {
+      "id": 4346337,
+      "titre": "PROFESSEUR DES ECOLES H/F - CDD - EGD - ECOLE PAUL VERLAINE - LA MARSA - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346337-professeur-des-ecoles-hf-cdd-egd-ecole-paul-verlaine-la-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4346323,
+      "titre": "Professeur de Sciences de la Vie et de la Terre (SVT)",
+      "etab": "",
+      "ville": "Bujumbura",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346323-professeur-de-sciences-de-la-vie-et-de-la-terre-svt-bujumbura"
+    },
+    {
+      "id": 4346315,
+      "titre": "Professeur(e) Lettres Modernes - EGD - Lycée Gustave Flaubert – Marsa - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346315-professeure-lettres-modernes-egd-lycee-gustave-flaubert-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4346221,
+      "titre": "PE MATERNELLE - F/H - EGD - ECOLE PAUL VERLAINE - LA MARSA - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346221-pe-maternelle-fh-egd-ecole-paul-verlaine-la-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4346199,
+      "titre": "PE ELEMENTAIRE - EGD - ECOLE PAUL VERLAINE - LA MARSA - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346199-pe-elementaire-egd-ecole-paul-verlaine-la-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4346179,
+      "titre": "Professeur Eco-Gestion - F/H - EGD - Lycée Gustave Flaubert – LA MARSA - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346179-professeur-eco-gestion-fh-egd-lycee-gustave-flaubert-la-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4346099,
+      "titre": "Enseignants qualifiés du 1er degré - F/H - LONDRES - ROYAUME UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4346099-enseignants-qualifies-du-1er-degre-fh-londres-royaume-uni-greater-london"
+    },
+    {
+      "id": 4345649,
+      "titre": "ENSEIGNANT 2ND DEGRE H-G - F/H - LYCEE FRANCAIS DU CAIRE - LE CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4345649-enseignant-2nd-degre-h-g-fh-lycee-francais-du-caire-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4345631,
+      "titre": "ENSEIGNANT 2ND DEGRE MATHS - F/H - Lycée Français du Caire - LE CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4345631-enseignant-2nd-degre-maths-fh-lycee-francais-du-caire-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4345265,
+      "titre": "Professeur d'histoire et géographie - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "22/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4345265-professeur-dhistoire-et-geographie-fh-casablanca-maroc-casablanca"
+    },
+    {
       "id": 4345127,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H - SANTIAGO - CHILI",
+      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - SANTIAGO - CHILI",
       "etab": "",
       "ville": "Santiago",
       "pays": "Chili",
@@ -15,36 +202,36 @@
     },
     {
       "id": 4345113,
-      "titre": "Prof. du Second Degré - Sciences de la Vie et de la Terre F/H - SANTIAGO - CHILI",
+      "titre": "Prof. du Second Degré - SVT - F/H - SANTIAGO - CHILI",
       "etab": "",
       "ville": "Santiago",
       "pays": "Chili",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4345113-prof-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-santiago-chili-7630599-santiago"
+      "url": "https://talents.aefe.fr/fr/annonce/4345113-prof-du-second-degre-svt-fh-santiago-chili-7630599-santiago"
     },
     {
       "id": 4344901,
-      "titre": "Directrice de crèche / maternelle",
+      "titre": "Directeur de crèche/maternelle - F/H - Ecole Al Massalik - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Directeur du primaire F/H",
       "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4344901-directrice-de-creche-maternelle-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4344901-directeur-de-crechematernelle-fh-ecole-al-massalik-casablanca-maroc-casablanca"
     },
     {
       "id": 4344543,
-      "titre": "Professeur Lettres Modernes, Langage & Littérature - NY - USA",
+      "titre": "Professeur LettresModernes,Langage&Littérature- F/H - NEW YORK CITY - ETATS-UNIS",
       "etab": "",
       "ville": "New York",
-      "pays": "",
+      "pays": "États-Unis",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4344543-professeur-lettres-modernes-langage-litterature-ny-usa-10017-new-york"
+      "url": "https://talents.aefe.fr/fr/annonce/4344543-professeur-lettresmoderneslangagelitterature-fh-new-york-city-etats-unis-10017-new-york"
     },
     {
       "id": 4343621,
