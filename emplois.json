@@ -1,7 +1,40 @@
 {
-  "updated": "2026-04-22 18:07",
-  "total": 662,
+  "updated": "2026-04-23 07:12",
+  "total": 665,
   "offers": [
+    {
+      "id": 4347453,
+      "titre": "Professeur.e des écoles - 1er degré - VIENNE - AUTRICHE",
+      "etab": "",
+      "ville": "Wien",
+      "pays": "Autriche",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4347453-professeur-e-des-ecoles-1er-degre-vienne-autriche-1090-wien"
+    },
+    {
+      "id": 4347441,
+      "titre": "Comptable - F/H",
+      "etab": "",
+      "ville": "Αγλαντζιά",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Comptable F/H",
+      "date": "23/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4347441-comptable-fh-2121-%CE%B1%CE%B3%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%B9%CE%B1"
+    },
+    {
+      "id": 4347431,
+      "titre": "Professeur des écoles - ICE SCHOOL - F/H - DUBAÏ - EMIRATS ARABES UNIS",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4347431-professeur-des-ecoles-ice-school-fh-dubai-emirats-arabes-unis-dubai"
+    },
     {
       "id": 4347063,
       "titre": "Enseignant(e) en éducation environnementale intégrée (Maternelle - CP)",
@@ -3849,7 +3882,7 @@
       "pays": "Lituanie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "13/03/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4276021-professeur-du-second-degre-eps-fh-vilnius-lituanie-10317-vilnius"
     },
     {
