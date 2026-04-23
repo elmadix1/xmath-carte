@@ -35,7 +35,7 @@ PAYS_NORM = {
     "BULGARIE": "Bulgarie", "GRECE": "Grèce", "GRÈCE": "Grèce",
     "TURQUIE": "Turquie", "LIBAN": "Liban", "JORDANIE": "Jordanie",
     "ARABIE SAOUDITE": "Arabie Saoudite", "EMIRATS ARABES UNIS": "Émirats Arabes Unis",
-    "ÉMIRATS ARABES UNIS": "Émirats Arabes Unis", "EAU": "Émirats Arabes Unis", "DUBAI": "Émirats Arabes Unis", "DUBAÏ": "Émirats Arabes Unis",
+    "ÉMIRATS ARABES UNIS": "Émirats Arabes Unis", "EAU": "Émirats Arabes Unis", "DUBAI": "Émirats Arabes Unis", "DUBAÏ": "Émirats Arabes Unis", "DUBAI": "Émirats Arabes Unis", "DUBAÏ": "Émirats Arabes Unis",
     "QATAR": "Qatar", "KOWEIT": "Koweït", "KOWEÏT": "Koweït",
     "BAHREIN": "Bahreïn", "BAHREÏN": "Bahreïn", "OMAN": "Oman",
     "ISRAEL": "Israël", "IRAN": "Iran", "IRAK": "Irak",
