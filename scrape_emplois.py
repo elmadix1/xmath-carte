@@ -77,6 +77,21 @@ PAYS_NORM = {
 
 def extract_pays(titre):
     titre_up = titre.upper()
+    VILLES_PRIORITAIRES = {
+        "DUBAI": "Émirats Arabes Unis",
+        "DUBAÏ": "Émirats Arabes Unis",
+        "ABU DHABI": "Émirats Arabes Unis",
+        "SHARJAH": "Émirats Arabes Unis",
+        "DOHA": "Qatar",
+        "RIYAD": "Arabie Saoudite",
+        "DJEDDAH": "Arabie Saoudite",
+        "BEYROUTH": "Liban",
+        "AMMAN": "Jordanie",
+        "KOWEIT": "Koweït",
+    }
+    for ville, pays in VILLES_PRIORITAIRES.items():
+        if ville in titre_up:
+            return pays
     for pays_key in sorted(PAYS_NORM.keys(), key=len, reverse=True):
         if pays_key in titre_up:
             return PAYS_NORM[pays_key]
