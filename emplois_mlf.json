@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-23 07:12",
+  "updated": "2026-04-23 22:42",
   "total": 251,
   "source": "MLF Monde",
   "offers": [
@@ -1528,20 +1528,6 @@
       "date_prise": "28/08/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3685_offre-emploi-professeur-des-ecoles-cycles-1-2.html"
-    },
-    {
-      "id": 3535,
-      "titre": "Professeur.e de Lettres à Casablanca",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "11/10/2025",
-      "date_limite": "20/02/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3535_offre-emploi-professeure-de-lettres-a-casablanca.html"
     },
     {
       "id": 3538,
@@ -3404,6 +3390,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3709_offre-emploi-professeur-dhistoire-geographie.html"
+    },
+    {
+      "id": 3535,
+      "titre": "Professeur.e de Lettres à Casablanca",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "11/10/2025",
+      "date_limite": "28/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3535_offre-emploi-professeure-de-lettres-a-casablanca.html"
     },
     {
       "id": 3713,
