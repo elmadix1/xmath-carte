@@ -1,7 +1,62 @@
 {
-  "updated": "2026-04-23 23:02",
-  "total": 679,
+  "updated": "2026-04-24 07:14",
+  "total": 686,
   "offers": [
+    {
+      "id": 4349889,
+      "titre": "Professeur.e de Physique Chimie à Las Terrenas, République dominicaine",
+      "etab": "",
+      "ville": "Las Terrenas",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "24/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4349889-professeur-e-de-physique-chimie-a-las-terrenas-republique-dominicaine-32000-las-terrenas"
+    },
+    {
+      "id": 4349823,
+      "titre": "English Teacher for Middle and High school",
+      "etab": "",
+      "ville": "Bei Jing Shi",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "24/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4349823-english-teacher-for-middle-and-high-school-bei-jing-shi"
+    },
+    {
+      "id": 4349821,
+      "titre": "Professeur du Second Degré - Philosophie F/H",
+      "etab": "",
+      "ville": "Bei Jing Shi",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "24/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4349821-professeur-du-second-degre-philosophie-fh-bei-jing-shi"
+    },
+    {
+      "id": 4349819,
+      "titre": "Professeur(e) d'espagnol",
+      "etab": "",
+      "ville": "Bei Jing Shi",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "24/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4349819-professeure-despagnol-bei-jing-shi"
+    },
+    {
+      "id": 4349817,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Bei Jing Shi",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "24/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4349817-professeur-du-second-degre-mathematiques-fh-bei-jing-shi"
+    },
     {
       "id": 4349505,
       "titre": "Professeur du Second Degré - Histoire-Géo - SES - TIRANA - ALBANIE",
@@ -485,6 +540,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "21/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4343447-professeur-des-ecoles-fh-lycee-francais-du-caire-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4343361,
+      "titre": "ASSISTANT DU PROVISEUR - F/H - International French School (IFS) - SINGAPOUR",
+      "etab": "",
+      "ville": "Singapore",
+      "pays": "Singapour",
+      "contrat": "Contrat permanent",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "24/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4343361-assistant-du-proviseur-fh-international-french-school-ifs-singapour-singapore"
     },
     {
       "id": 4343323,
@@ -5336,6 +5402,17 @@
       "discipline": "Professeur d’anglais britannique F/H",
       "date": "08/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4230967-professeur-danglais-1er-degre-fh-abidjan-cote-divoire-bp-157-abidjan"
+    },
+    {
+      "id": 4230797,
+      "titre": "Professeur du Second Degré - SES - F/H - LUSAKA - ZAMBIE",
+      "etab": "",
+      "ville": "Lusaka",
+      "pays": "Zambie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "24/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4230797-professeur-du-second-degre-ses-fh-lusaka-zambie-lusaka"
     },
     {
       "id": 4227079,
