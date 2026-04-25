@@ -1,7 +1,18 @@
 {
-  "updated": "2026-04-25 06:28",
-  "total": 683,
+  "updated": "2026-04-25 17:44",
+  "total": 676,
   "offers": [
+    {
+      "id": 4352317,
+      "titre": "Directeur du primaire F/H",
+      "etab": "",
+      "ville": "Tanambao Marivorahona",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Directeur du primaire F/H",
+      "date": "25/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4352317-directeur-du-primaire-fh-tanambao-marivorahona"
+    },
     {
       "id": 4351883,
       "titre": "Assistant de direction H/F au Collège Saint Exupéry à Rabat - AEFE MAROC",
@@ -769,7 +780,7 @@
       "pays": "Espagne",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'éducation musicale F/H",
-      "date": "",
+      "date": "21/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4342865-professeur-deducation-musicale-10h-fh-malaga-espagne-29018-malaga"
     },
     {
@@ -1651,17 +1662,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "15/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4330243-professeur-des-ecoles-poste-en-elementaire-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4330241,
-      "titre": "Surveillant(e) général de vie scolaire Cycle 3 Primaire -F/H- MARRAKECH - MAROC",
-      "etab": "",
-      "ville": "Marrakesh",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330241-surveillante-general-de-vie-scolaire-cycle-3-primaire-fh-marrakech-maroc-marrakesh"
     },
     {
       "id": 4330229,
@@ -5270,83 +5270,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "24/02/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4241213-enseignant-specialise-fh-new-york-etats-unis-10021-new-york"
-    },
-    {
-      "id": 4240471,
-      "titre": "Infirmier Scolaire F/H - LUANDA - ANGOLA",
-      "etab": "",
-      "ville": "Luanda",
-      "pays": "Angola",
-      "contrat": "Contrat permanent",
-      "discipline": "Infirmier scolaire F/H",
-      "date": "24/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4240471-infirmier-scolaire-fh-luanda-angola-luanda"
-    },
-    {
-      "id": 4240443,
-      "titre": "Professeur du Second Degré - Physique Chimie F/H - LUANDA - ANGOLA",
-      "etab": "",
-      "ville": "Luanda",
-      "pays": "Angola",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "24/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4240443-professeur-du-second-degre-physique-chimie-fh-luanda-angola-luanda"
-    },
-    {
-      "id": 4240407,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - LUANDA - ANGOLA",
-      "etab": "",
-      "ville": "Muene Luanda",
-      "pays": "Angola",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "24/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4240407-professeur-du-second-degre-lettres-modernes-fh-luanda-angola-muene-luanda"
-    },
-    {
-      "id": 4240301,
-      "titre": "Professeur des écoles - F/H - LUANDA - ANGOLA",
-      "etab": "",
-      "ville": "Luanda",
-      "pays": "Angola",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4240301-professeur-des-ecoles-fh-luanda-angola-luanda"
-    },
-    {
-      "id": 4239445,
-      "titre": "Professeur de SVT - F/H - Lycée Français Anatole France - EREVAN - ARMENIE",
-      "etab": "",
-      "ville": "Երևան",
-      "pays": "Arménie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "24/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4239445-professeur-de-svt-fh-lycee-francais-anatole-france-erevan-armenie-0051-%D5%A5%D6%80%D5%A5%D6%82%D5%A1%D5%B6"
-    },
-    {
-      "id": 4239007,
-      "titre": "Directeur du primaire - F/H - SAINT PETERSBOURG - RUSSIE",
-      "etab": "",
-      "ville": "Санкт-Петербург",
-      "pays": "Russie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Directeur du primaire F/H",
-      "date": "24/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4239007-directeur-du-primaire-fh-saint-petersbourg-russie-191180-%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
-    },
-    {
-      "id": 4238951,
-      "titre": "Professeur des écoles - F/H - SAINT-PETERSBOURG - RUSSIE",
-      "etab": "",
-      "ville": "Санкт-Петербург",
-      "pays": "Russie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4238951-professeur-des-ecoles-fh-saint-petersbourg-russie-191180-%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
     },
     {
       "id": 4235947,
