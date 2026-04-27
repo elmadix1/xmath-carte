@@ -1,7 +1,29 @@
 {
-  "updated": "2026-04-26 17:44",
+  "updated": "2026-04-27 07:42",
   "total": 675,
   "offers": [
+    {
+      "id": 4352735,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "27/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4352735-professeur-du-second-degre-mathematiques-fh-alexandria"
+    },
+    {
+      "id": 4352671,
+      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "26/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4352671-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-alexandria"
+    },
     {
       "id": 4352565,
       "titre": "Directeur du primaire F/H",
@@ -2168,17 +2190,6 @@
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "10/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4323971-intervenant-section-sportive-scolaire-basket-ball-fh-saly-senegal-saly"
-    },
-    {
-      "id": 4322967,
-      "titre": "Professeur de français - F/H - BCIS - PHUKET - THAILANDE",
-      "etab": "",
-      "ville": "Chalong",
-      "pays": "Thaïlande",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "10/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4322967-professeur-de-francais-fh-bcis-phuket-thailande-83130-chalong"
     },
     {
       "id": 4322645,
@@ -4601,17 +4612,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4264335-professeur-danglais-du-second-degre-fh-pointe-noire-republique-du-congo-pointe-noire"
     },
     {
-      "id": 4264009,
-      "titre": "Professeur Education Physique et Sportive F/H - JAKARTA - INDONESIE",
-      "etab": "",
-      "ville": "Daerah Khusus Ibukota Jakarta",
-      "pays": "Indonésie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "09/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4264009-professeur-education-physique-et-sportive-fh-jakarta-indonesie-kota-jakarta-selatan"
-    },
-    {
       "id": 4263973,
       "titre": "Professeur du Second Degré - Anglais - F/H - JAKARTA - INDONESIE",
       "etab": "",
@@ -5004,7 +5004,7 @@
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "02/03/2026",
+      "date": "27/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4250757-professeur-deps-fh-lycee-voltaire-le-caire-egypte-cairo"
     },
     {
@@ -6225,7 +6225,7 @@
       "pays": "Laos",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'éducation musicale F/H",
-      "date": "16/03/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4130045-professeur-deducation-musicale-fh-vientiane-laos-vientiane"
     },
     {
