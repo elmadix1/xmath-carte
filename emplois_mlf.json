@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-28 07:37",
-  "total": 251,
+  "updated": "2026-04-28 18:24",
+  "total": 252,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3278,6 +3278,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3707_offre-emploi-enseignante-referente-ecole-inclusive-erei.html"
+    },
+    {
+      "id": 3718,
+      "titre": "Professeur(e) de Mathématiques – Secondaire",
+      "etab": "",
+      "ville": "Londres",
+      "pays": "Royaume-Uni",
+      "contrat": "",
+      "discipline": "",
+      "date": "28/04/2026",
+      "date_limite": "10/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3718_offre-emploi-professeure-de-mathematiques-secondaire.html"
     },
     {
       "id": 3447,
