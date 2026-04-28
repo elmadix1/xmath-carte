@@ -1874,33 +1874,7 @@ applyURLFilters();   // ➕ SEO : pré-appliquer filtres URL
     closeSlider();
   }
 
-  // ── Soumission (version sans API pour l'instant) ─────────────
-  async function handleSubmit(e) {
-    e.preventDefault();
-    const email = document.getElementById('esm-email').value.trim();
-    const btn   = document.getElementById('esm-submit');
-    const ctx   = getSegmentContext();
-
-    if (!email) return;
-
-    btn.disabled = true;
-    btn.textContent = 'Envoi…';
-
-    // ⚠️ STUB — à remplacer par l'appel API Systeme.io
-    console.log('[ESM] Submit:', { email, tags: ctx.tags });
-    await new Promise(r => setTimeout(r, 600));
-
-    // Succès simulé
-    setState({ subscribed: true, email, tags: ctx.tags });
-    document.getElementById('esm-form').style.display = 'none';
-    document.getElementById('esm-slider').querySelector('.esm-pitch').style.display = 'none';
-    document.getElementById('esm-slider').querySelector('.esm-header').style.display = 'none';
-    document.getElementById('esm-slider').querySelector('.esm-footnote').style.display = 'none';
-    document.getElementById('esm-success').style.display = 'block';
-
-    // Auto-close après 4s
-    setTimeout(closeSlider, 4000);
-  }
+  
 
   // ── Init ─────────────────────────────────────────────────────
   if (document.readyState === 'loading') {
@@ -1911,7 +1885,7 @@ applyURLFilters();   // ➕ SEO : pré-appliquer filtres URL
 
   function init() {
     document.querySelector('#esm-slider .esm-x').addEventListener('click', dismissSlider);
-    document.getElementById('esm-form').addEventListener('submit', handleSubmit);
+   
 
     // Déclencher après le délai
     setTimeout(showSlider, DISPLAY_DELAY_MS);
