@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alertes postes à l'étranger : soyez le premier informé — Emplois Scolaires Monde</title>
+<meta name="description" content="Recevez les nouvelles offres de postes dans les établissements français à l'étranger directement dans votre boîte mail, dès leur publication. 9€/mois, sans engagement.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://emplois-scolaires-monde.online/alertes.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --vert: #5a8a3c;
+    --vert-clair: #7ab055;
+    --vert-pale: #eef4e9;
+    --gris-fonce: #1a1f16;
+    --gris-moyen: #4a5240;
+    --gris-clair: #e8ede4;
+    --blanc: #fafcf8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--blanc); color: var(--gris-fonce); min-height: 100vh; }
+  header { background: var(--gris-fonce); padding: 20px 40px; display: flex; align-items: center; border-bottom: 3px solid var(--vert); }
+  .logo-text { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: #fff; text-decoration: none; }
+  .logo-text span { color: var(--vert-clair); }
+  header nav { margin-left: auto; }
+  header nav a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: color 0.2s; }
+  header nav a:hover { color: #fff; }
+  .hero { background: linear-gradient(135deg, var(--gris-fonce) 0%, #2d3a26 100%); padding: 72px 40px 64px; text-align: center; position: relative; overflow: hidden; }
+  .hero::before { content: ''; position: absolute; top: -80px; right: -80px; width: 360px; height: 360px; border-radius: 50%; background: rgba(90,138,60,0.10); pointer-events: none; }
+  .hero-eyebrow { display: inline-block; background: rgba(90,138,60,0.25); border: 1px solid rgba(122,176,85,0.4); color: var(--vert-clair); font-size: 0.75rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; padding: 5px 16px; border-radius: 20px; margin-bottom: 24px; }
+  .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 4.5vw, 2.8rem); color: #fff; line-height: 1.2; max-width: 680px; margin: 0 auto 20px; }
+  .hero-sub { color: rgba(255,255,255,0.7); font-size: 1rem; font-weight: 300; max-width: 500px; margin: 0 auto 40px; line-height: 1.6; }
+  .hero-cta { display: inline-block; background: var(--vert); color: #fff; text-decoration: none; padding: 16px 40px; border-radius: 8px; font-size: 1rem; font-weight: 600; transition: background 0.2s, transform 0.15s; position: relative; z-index: 1; }
+  .hero-cta:hover { background: var(--vert-clair); transform: translateY(-1px); }
+  .hero-price { margin-top: 16px; color: rgba(255,255,255,0.5); font-size: 0.82rem; }
+  .arguments { max-width: 720px; margin: 64px auto; padding: 0 40px; }
+  .arguments h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--gris-fonce); margin-bottom: 32px; text-align: center; }
+  .arg-list { display: flex; flex-direction: column; gap: 16px; }
+  .arg-item { display: flex; align-items: flex-start; gap: 16px; padding: 20px 24px; background: #fff; border: 1px solid var(--gris-clair); border-radius: 10px; transition: border-color 0.2s, box-shadow 0.2s; }
+  .arg-item:hover { border-color: var(--vert); box-shadow: 0 2px 12px rgba(90,138,60,0.08); }
+  .arg-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 2px; }
+  .arg-text { font-size: 0.92rem; color: var(--gris-moyen); line-height: 1.5; }
+  .arg-text strong { color: var(--gris-fonce); font-weight: 500; display: block; margin-bottom: 3px; font-size: 0.95rem; }
+  .tarif-section { background: var(--vert-pale); border-top: 1px solid var(--gris-clair); border-bottom: 1px solid var(--gris-clair); padding: 64px 40px; text-align: center; }
+  .tarif-card { background: #fff; border: 2px solid var(--vert); border-radius: 14px; padding: 40px 48px; max-width: 400px; margin: 0 auto; box-shadow: 0 4px 24px rgba(90,138,60,0.10); }
+  .tarif-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--vert); margin-bottom: 16px; }
+  .tarif-prix { font-family: 'Playfair Display', serif; font-size: 3.5rem; color: var(--gris-fonce); line-height: 1; margin-bottom: 4px; }
+  .tarif-prix sup { font-size: 1.4rem; vertical-align: super; font-family: 'DM Sans', sans-serif; font-weight: 400; }
+  .tarif-periode { color: var(--gris-moyen); font-size: 0.85rem; margin-bottom: 28px; }
+  .tarif-details { list-style: none; text-align: left; margin-bottom: 32px; display: flex; flex-direction: column; gap: 10px; }
+  .tarif-details li { font-size: 0.87rem; color: var(--gris-moyen); display: flex; align-items: flex-start; gap: 10px; line-height: 1.4; }
+  .tarif-details li::before { content: '✓'; color: var(--vert); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+  .btn-abonner { display: block; width: 100%; background: var(--vert); color: #fff; text-decoration: none; padding: 15px; border-radius: 8px; font-size: 1rem; font-weight: 600; text-align: center; transition: background 0.2s, transform 0.15s; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; }
+  .btn-abonner:hover { background: var(--vert-clair); transform: translateY(-1px); }
+  .tarif-note { margin-top: 12px; font-size: 0.72rem; color: #bbb; text-align: center; }
+  .faq { max-width: 640px; margin: 64px auto; padding: 0 40px; }
+  .faq h2 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--gris-fonce); margin-bottom: 28px; text-align: center; }
+  .faq-item { border-bottom: 1px solid var(--gris-clair); padding: 18px 0; }
+  .faq-q { font-size: 0.92rem; font-weight: 500; color: var(--gris-fonce); margin-bottom: 6px; }
+  .faq-a { font-size: 0.85rem; color: var(--gris-moyen); line-height: 1.55; }
+  .cta-bottom { background: var(--gris-fonce); padding: 56px 40px; text-align: center; }
+  .cta-bottom h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #fff; margin-bottom: 12px; }
+  .cta-bottom p { color: rgba(255,255,255,0.6); font-size: 0.9rem; margin-bottom: 28px; }
+  footer { background: #111; color: #9ca3af; text-align: center; padding: 20px; font-size: 0.78rem; }
+  footer a { color: var(--vert-clair); text-decoration: none; }
+  @media (max-width: 600px) {
+    header { padding: 16px 20px; }
+    .hero { padding: 48px 20px 40px; }
+    .arguments { padding: 0 20px; margin: 40px auto; }
+    .tarif-section { padding: 40px 20px; }
+    .tarif-card { padding: 28px 24px; }
+    .faq { padding: 0 20px; margin: 40px auto; }
+    .cta-bottom { padding: 40px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="logo-text">X<span>Math</span>Academy</a>
+  <nav><a href="/emplois.html">← Voir les offres</a></nav>
+</header>
+
+<section class="hero">
+  <div class="hero-eyebrow">Alertes emploi</div>
+  <h1>Alertes postes à l'étranger : soyez le premier informé</h1>
+  <p class="hero-sub">Les nouvelles offres dans votre boîte mail, dès leur publication. Avant tout le monde.</p>
+  <a href="#abonnement" class="hero-cta">Activer mes alertes →</a>
+  <p class="hero-price">9€/mois · Sans engagement · Résiliable en 1 clic</p>
+</section>
+
+<section class="arguments">
+  <h2>Pourquoi s'abonner ?</h2>
+  <div class="arg-list">
+    <div class="arg-item">
+      <span class="arg-icon">📬</span>
+      <div class="arg-text">
+        <strong>Les nouvelles offres dans votre boîte mail, dès leur publication</strong>
+        Vous n'avez rien à faire. Les postes arrivent directement chez vous.
+      </div>
+    </div>
+    <div class="arg-item">
+      <span class="arg-icon">⏱️</span>
+      <div class="arg-text">
+        <strong>Les postes viennent à vous, sans recherche quotidienne</strong>
+        Plus besoin de consulter plusieurs sources chaque jour.
+      </div>
+    </div>
+    <div class="arg-item">
+      <span class="arg-icon">🎯</span>
+      <div class="arg-text">
+        <strong>Plus de chances de postuler tôt, avant que le poste soit pourvu</strong>
+        Les premières candidatures ont plus de visibilité. Être informé en premier, c'est un avantage concret.
+      </div>
+    </div>
+    <div class="arg-item">
+      <span class="arg-icon">🌍</span>
+      <div class="arg-text">
+        <strong>Découvrir un nouveau territoire, une autre culture, un autre cadre de vie</strong>
+        Plus de 100 pays couverts. Du Maroc au Japon, en passant par le Canada ou le Liban.
+      </div>
+    </div>
+    <div class="arg-item">
+      <span class="arg-icon">✈️</span>
+      <div class="arg-text">
+        <strong>Travailler à l'étranger, c'est une expérience qui change une carrière</strong>
+        La première étape, c'est d'être au courant des opportunités au moment où elles paraissent.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tarif-section" id="abonnement">
+  <div class="tarif-card">
+    <div class="tarif-label">Abonnement alertes</div>
+    <div class="tarif-prix"><sup>€</sup>9</div>
+    <div class="tarif-periode">par mois</div>
+    <ul class="tarif-details">
+      <li>Nouvelles offres reçues dès leur publication</li>
+      <li>Postes dans plus de 100 pays</li>
+      <li>Enseignants, direction, administratif, santé et plus</li>
+      <li>Un email par jour maximum, uniquement si nouvelles offres</li>
+      <li>Sans engagement, résiliable en 1 clic</li>
+    </ul>
+    <!-- REMPLACER href="#" par l'URL Stripe à l'étape 3 -->
+    <a href="#" class="btn-abonner" id="btn-stripe">S'abonner pour 9€/mois →</a>
+    <p class="tarif-note">Paiement sécurisé · Carte bancaire · Géré par Stripe</p>
+  </div>
+</section>
+
+<section class="faq">
+  <h2>Questions fréquentes</h2>
+  <div class="faq-item">
+    <p class="faq-q">Comment ça fonctionne ?</p>
+    <p class="faq-a">Dès qu'un nouveau poste est publié, vous recevez un email avec les détails et le lien direct pour postuler. Pas de résumé hebdomadaire : les offres arrivent dès leur parution.</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Quels types de postes sont couverts ?</p>
+    <p class="faq-a">Tous les postes des établissements français à l'étranger : enseignants (toutes disciplines), direction, CPE, administratif, infirmiers, psychologues, et postes de support. Plus de 900 offres référencées.</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Combien d'emails vais-je recevoir ?</p>
+    <p class="faq-a">Un email par jour maximum, uniquement les jours où de nouvelles offres sont publiées. Pas d'email si rien de nouveau.</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Comment résilier ?</p>
+    <p class="faq-a">En un clic depuis le lien présent dans chaque email, ou en nous contactant directement. Aucune condition, aucun préavis.</p>
+  </div>
+</section>
+
+<section class="cta-bottom">
+  <h2>Prêt à postuler en premier ?</h2>
+  <p>Rejoignez les abonnés qui reçoivent les offres avant tout le monde.</p>
+  <a href="#abonnement" class="hero-cta">Activer mes alertes pour 9€/mois →</a>
+</section>
+
+<footer>
+  <p>© 2026 emplois-scolaires-monde.online — Tous droits réservés</p>
+  <p style="margin-top:8px">
+    <a href="/legal.html">Mentions légales</a>
+    · <a href="mailto:contact@emplois-scolaires-monde.online">Contact</a>
+    · <a href="/emplois.html">Voir les offres</a>
+  </p>
+</footer>
+
+</body>
+</html>
