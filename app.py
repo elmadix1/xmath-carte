@@ -132,8 +132,8 @@ def stripe_webhook():
         print(f"Webhook error: {e}")
         return jsonify({'error': str(e)}), 400
 
-    event_type = event.get('type', '')
-    obj        = event.get('data', {}).get('object', {})
+    event_type = event['type']
+    obj        = event['data']['object']
 
     print(f"Event recu: {event_type}")
 
