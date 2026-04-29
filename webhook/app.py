@@ -53,8 +53,7 @@ def send_welcome_email(email, prenom):
         "api-key": BREVO_API_KEY
     }
     prenom_display = prenom if prenom else "vous"
-    html = f"""
-<!DOCTYPE html>
+    html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head><meta charset="UTF-8"></head>
 <body style="margin:0;padding:0;background:#f5f5f5;font-family:Arial,sans-serif;">
@@ -81,14 +80,14 @@ def send_welcome_email(email, prenom):
             </p>
             <a href="https://emplois-scolaires-monde.online/emplois.html"
                style="display:inline-block;background:#5a8a3c;color:#fff;text-decoration:none;padding:12px 28px;border-radius:8px;font-weight:600;font-size:0.95rem;">
-              Voir les offres →
+              Voir les offres &rarr;
             </a>
           </td>
         </tr>
         <tr>
           <td style="background:#f5f8f3;padding:16px 32px;border-top:1px solid #e8ede4;text-align:center;">
             <p style="margin:0;font-size:0.72rem;color:#aaa;">
-              Pour gérer ou annuler votre abonnement : <a href="https://xmath-carte-production.up.railway.app/desabonnement?email={email}" style="color:#5a8a3c;">Se désabonner</a>
+              Pour annuler votre abonnement : <a href="https://xmath-carte-production.up.railway.app/desabonnement?email={email}" style="color:#5a8a3c;">Se désabonner</a>
             </p>
           </td>
         </tr>
@@ -129,11 +128,11 @@ def stripe_webhook():
 
     if event['type'] == 'checkout.session.completed':
         session     = event['data']['object']
-        email       = session.customer_details.email if session.customer_details else ''
-        nom_complet = session.customer_details.name if session.customer_details else ''
-        prenom      = session.collected_information.individual_name if session.collected_information else nom_complet
-        prenom      = nom_complet.split()[0] if nom_complet else ''
-        customer_id = session.customer or ''
+        email       = session['customer_details']['email'] if session.get('customer_details') else ''
+        nom_complet = session['customer_details']['name'] if session.get('customer_details') else ''
+        collected   = session.get('collected_information') or {}
+        prenom      = collected.get('individual_name') or (nom_complet.split()[0] if nom_complet else '')
+        customer_id = session.get('customer') or ''
         if email:
             add_to_brevo(email, prenom, customer_id)
             send_welcome_email(email, prenom)
@@ -141,12 +140,13 @@ def stripe_webhook():
 
     elif event['type'] in ['customer.subscription.deleted', 'invoice.payment_failed']:
         obj         = event['data']['object']
-        customer_id = obj.customer
-        customer    = stripe.Customer.retrieve(customer_id)
-        email       = customer.email or ''
-        if email:
-            remove_from_brevo(email)
-            print(f"Abonné supprimé : {email}")
+        customer_id = obj.get('customer') or ''
+        if customer_id:
+            customer = stripe.Customer.retrieve(customer_id)
+            email    = customer.get('email') or ''
+            if email:
+                remove_from_brevo(email)
+                print(f"Abonné supprimé : {email}")
 
     return jsonify({'status': 'ok'}), 200
 
@@ -161,10 +161,14 @@ def desabonnement():
         return redirect('https://emplois-scolaires-monde.online/desabonnement.html?status=introuvable')
 
     customer_id = contact.get('attributes', {}).get('STRIPE_ID', '')
+    fin_periode = ''
     if customer_id:
-        cancel_stripe_subscription(customer_id)
+        fin_periode = cancel_stripe_subscription(customer_id)
 
     remove_from_brevo(email)
+
+    if fin_periode:
+        return redirect(f'https://emplois-scolaires-monde.online/desabonnement.html?status=ok&fin={fin_periode}')
     return redirect('https://emplois-scolaires-monde.online/desabonnement.html?status=ok')
 
 @app.route('/')
