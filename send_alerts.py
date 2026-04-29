@@ -101,7 +101,7 @@ def build_email_html(offers):
           <td style="background:#f5f8f3;padding:16px 32px;border-top:1px solid #e8ede4;text-align:center;">
             <p style="margin:0;font-size:0.72rem;color:#aaa;">
               Vous recevez cet email car vous êtes abonné aux alertes emplois.<br>
-              <a href="https://billing.stripe.com/p/login/PLACEHOLDER" style="color:#5a8a3c;">Gérer mon abonnement</a>
+              <a href="https://xmath-carte-production.up.railway.app/desabonnement?email={email}" style="color:#5a8a3c;">Se désabonner</a>
               · <a href="https://emplois-scolaires-monde.online" style="color:#5a8a3c;">emplois-scolaires-monde.online</a>
             </p>
           </td>
