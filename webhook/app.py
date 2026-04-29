@@ -98,8 +98,8 @@ def send_welcome_email(email, prenom):
 </body>
 </html>"""
     data = {
-        "sender": {{"name": "Postes Réseau Français", "email": "contact@emplois-scolaires-monde.online"}},
-        "to": [{{"email": email, "name": prenom or ""}}],
+        "sender": {"name": "Postes Réseau Français", "email": "contact@emplois-scolaires-monde.online"},
+        "to": [{"email": email, "name": prenom or ""}],
         "subject": "Bienvenue — vos alertes emploi sont activées",
         "htmlContent": html
     }
