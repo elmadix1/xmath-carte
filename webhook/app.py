@@ -140,7 +140,7 @@ def stripe_webhook():
 
     elif event['type'] in ['customer.subscription.deleted', 'invoice.payment_failed']:
         obj         = event['data']['object']
-        customer_id = obj.get('customer') or ''
+        customer_id = obj['customer'] if 'customer' in obj else ''
         if customer_id:
             customer = stripe.Customer.retrieve(customer_id)
             email    = customer.get('email') or ''
