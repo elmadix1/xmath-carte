@@ -133,7 +133,7 @@ def stripe_webhook():
         return jsonify({'error': str(e)}), 400
 
     event_type = event['type']
-    obj        = event['data']['object']
+    obj        = dict(event['data']['object'])
 
     print(f"Event recu: {event_type}")
 
