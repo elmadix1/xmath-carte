@@ -1,7 +1,18 @@
 {
-  "updated": "2026-04-28 18:24",
-  "total": 668,
+  "updated": "2026-04-29 03:48",
+  "total": 667,
   "offers": [
+    {
+      "id": 4357935,
+      "titre": "Professeur d’Anglais - F/H - Native speaker or native alike - TANGER - MAROC",
+      "etab": "",
+      "ville": "Tangier",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "28/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4357935-professeur-d-anglais-fh-native-speaker-or-native-alike-tanger-maroc-tangier"
+    },
     {
       "id": 4357053,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - TUNIS - TUNISIE",
@@ -1189,17 +1200,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "20/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4341605-professeur-du-second-degre-dhistoire-geographie-fh-abidjan-cote-divoire-abidjan"
-    },
-    {
-      "id": 4340009,
-      "titre": "Professeur du Second Degré - SVT et Mathématiques - F/H - CANBERRA - AUSTRALIE",
-      "etab": "",
-      "ville": "Barton",
-      "pays": "Australie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "20/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4340009-professeur-du-second-degre-svt-et-mathematiques-fh-canberra-australie-2600-barton"
     },
     {
       "id": 4339845,
@@ -5316,28 +5316,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4248921-directeur-du-college-fh-new-york-etats-unis-10543-mamaroneck"
     },
     {
-      "id": 4248657,
-      "titre": "Directeur du primaire - F/H - HO CHI MINH VILLE - VIETNAM",
-      "etab": "",
-      "ville": "Hồ Chí Minh",
-      "pays": "Vietnam",
-      "contrat": "Contrat temporaire",
-      "discipline": "Directeur du primaire F/H",
-      "date": "28/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4248657-directeur-du-primaire-fh-ho-chi-minh-ville-vietnam-ho-chi-minh"
-    },
-    {
-      "id": 4248569,
-      "titre": "Professeur de SVT - F/H - TORONTO - CANADA",
-      "etab": "",
-      "ville": "Toronto",
-      "pays": "Canada",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "27/02/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4248569-professeur-de-svt-fh-toronto-canada-m6e-3s5-toronto"
-    },
-    {
       "id": 4245953,
       "titre": "Professeur des écoles - F/H - PORT-VILA - VANUATU",
       "etab": "",
@@ -6656,6 +6634,17 @@
       "discipline": "Professeur d’arabe F/H",
       "date": "20/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4112253-professeur-darabe-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
+    },
+    {
+      "id": 4112139,
+      "titre": "Professeur des écoles - F/H - écoles Al Jabr - TANGER - MAROC",
+      "etab": "",
+      "ville": "Tangier",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "28/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4112139-professeur-des-ecoles-fh-ecoles-al-jabr-tanger-maroc-tangier"
     },
     {
       "id": 4112137,
