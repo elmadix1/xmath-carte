@@ -1,0 +1,5 @@
+[build]
+watchPatterns = ["webhook/**"]
+
+[deploy]
+startCommand = "cd webhook && gunicorn app:app"
