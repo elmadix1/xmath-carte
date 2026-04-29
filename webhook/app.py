@@ -1,4 +1,5 @@
 import os
+import json
 import stripe
 import requests
 from flask import Flask, request, jsonify, redirect
@@ -133,7 +134,8 @@ def stripe_webhook():
         return jsonify({'error': str(e)}), 400
 
     event_type = event['type']
-    obj        = stripe.util.convert_to_dict(event)['data']['object']
+    event_dict = json.loads(request.data)
+    obj        = event_dict.get('data', {}).get('object', {})
 
     print(f"Event recu: {event_type}")
 
