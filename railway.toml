@@ -1,2 +1,2 @@
 [deploy]
-startCommand = "cd /app/webhook && gunicorn app:app"
+startCommand = "gunicorn app:app"
