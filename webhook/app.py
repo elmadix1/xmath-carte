@@ -45,6 +45,66 @@ def get_brevo_contact(email):
         return r.json()
     return None
 
+def send_welcome_email(email, prenom):
+    url = "https://api.brevo.com/v3/smtp/email"
+    headers = {
+        "accept": "application/json",
+        "content-type": "application/json",
+        "api-key": BREVO_API_KEY
+    }
+    prenom_display = prenom if prenom else "vous"
+    html = f"""
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"></head>
+<body style="margin:0;padding:0;background:#f5f5f5;font-family:Arial,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f5f5f5;padding:32px 0;">
+    <tr><td align="center">
+      <table width="600" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:12px;overflow:hidden;max-width:600px;width:100%;">
+        <tr>
+          <td style="background:#1a1f16;padding:24px 32px;border-bottom:3px solid #5a8a3c;">
+            <span style="font-size:1.3rem;font-weight:700;">
+              <span style="color:#4169E1">Postes</span>
+              <span style="color:#ffffff"> Réseau </span>
+              <span style="color:#ED2939">Français</span>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:32px;">
+            <h1 style="color:#1a1f16;font-size:1.3rem;margin:0 0 16px;">Bienvenue {prenom_display} !</h1>
+            <p style="color:#4a5240;font-size:0.95rem;line-height:1.6;margin:0 0 16px;">
+              Votre abonnement aux alertes emploi est actif. Vous recevrez les nouvelles offres dès leur publication, avant tout le monde.
+            </p>
+            <p style="color:#4a5240;font-size:0.95rem;line-height:1.6;margin:0 0 24px;">
+              En attendant, consultez les 900+ offres disponibles dès maintenant :
+            </p>
+            <a href="https://emplois-scolaires-monde.online/emplois.html"
+               style="display:inline-block;background:#5a8a3c;color:#fff;text-decoration:none;padding:12px 28px;border-radius:8px;font-weight:600;font-size:0.95rem;">
+              Voir les offres →
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="background:#f5f8f3;padding:16px 32px;border-top:1px solid #e8ede4;text-align:center;">
+            <p style="margin:0;font-size:0.72rem;color:#aaa;">
+              Pour gérer ou annuler votre abonnement : <a href="https://xmath-carte-production.up.railway.app/desabonnement?email={email}" style="color:#5a8a3c;">Se désabonner</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>"""
+    data = {
+        "sender": {{"name": "Postes Réseau Français", "email": "contact@emplois-scolaires-monde.online"}},
+        "to": [{{"email": email, "name": prenom or ""}}],
+        "subject": "Bienvenue — vos alertes emploi sont activées",
+        "htmlContent": html
+    }
+    requests.post(url, json=data, headers=headers)
+
 def cancel_stripe_subscription(customer_id):
     try:
         subs = stripe.Subscription.list(customer=customer_id, status='active', limit=1)
@@ -72,6 +132,7 @@ def stripe_webhook():
         customer_id = session.get('customer', '')
         if email:
             add_to_brevo(email, prenom, customer_id)
+            send_welcome_email(email, prenom)
             print(f"Abonné ajouté : {email}")
 
     elif event['type'] in ['customer.subscription.deleted', 'invoice.payment_failed']:
