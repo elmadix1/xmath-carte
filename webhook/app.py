@@ -129,10 +129,11 @@ def stripe_webhook():
 
     if event['type'] == 'checkout.session.completed':
         session     = event['data']['object']
-        email       = session.get('customer_details', {}).get('email', '')
-        nom_complet = session.get('customer_details', {}).get('name', '') or ''
+        email       = session.customer_details.email if session.customer_details else ''
+        nom_complet = session.customer_details.name if session.customer_details else ''
+        prenom      = session.collected_information.individual_name if session.collected_information else nom_complet
         prenom      = nom_complet.split()[0] if nom_complet else ''
-        customer_id = session.get('customer', '')
+        customer_id = session.customer or ''
         if email:
             add_to_brevo(email, prenom, customer_id)
             send_welcome_email(email, prenom)
