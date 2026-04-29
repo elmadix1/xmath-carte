@@ -26,6 +26,11 @@ jobs:
         run: python scrape_emplois.py
       - name: Run scraper MLF
         run: python scraper_mlf.py
+      - name: Send email alerts
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: python send_alerts.py
+
       - name: Commit JSON files
         run: |
           git config user.name "github-actions[bot]"
