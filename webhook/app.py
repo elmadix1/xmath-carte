@@ -153,8 +153,9 @@ def stripe_webhook():
 
     elif event_type in ['customer.subscription.deleted', 'invoice.payment_failed']:
         customer_id = obj.get('customer', '')
-        print(f"Sub deleted/failed: customer_id={customer_id}")
-        if customer_id:
+        cancel_at_period_end = obj.get('cancel_at_period_end', False)
+        print(f"Sub deleted/failed: customer_id={customer_id} cancel_at_period_end={cancel_at_period_end}")
+        if customer_id and not cancel_at_period_end:
             try:
                 customer = stripe.Customer.retrieve(customer_id)
                 email    = customer.email or ''
