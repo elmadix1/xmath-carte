@@ -143,7 +143,7 @@ def stripe_webhook():
         customer_id = obj['customer'] if 'customer' in obj else ''
         if customer_id:
             customer = stripe.Customer.retrieve(customer_id)
-            email    = customer.get('email') or ''
+            email    = customer.email or ''
             if email:
                 remove_from_brevo(email)
                 print(f"Abonné supprimé : {email}")
