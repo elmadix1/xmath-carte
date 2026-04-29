@@ -2,4 +2,4 @@
 watchPatterns = ["webhook/**"]
 
 [deploy]
-startCommand = "cd webhook && gunicorn app:app"
+startCommand = "gunicorn --chdir webhook app:app"
