@@ -1,7 +1,18 @@
 {
-  "updated": "2026-04-29 04:19",
-  "total": 667,
+  "updated": "2026-04-29 07:30",
+  "total": 671,
   "offers": [
+    {
+      "id": 4358027,
+      "titre": "Professeur des écoles F/H VIENTIANE, LAOS",
+      "etab": "",
+      "ville": "Vientiane",
+      "pays": "Laos",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "29/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4358027-professeur-des-ecoles-fh-vientiane-laos-vientiane"
+    },
     {
       "id": 4357935,
       "titre": "Professeur d’Anglais - F/H - Native speaker or native alike - TANGER - MAROC",
@@ -5701,6 +5712,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4202729-professeur-des-ecoles-fh-limassol-chypre-2121-%CE%B1%CE%B3%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%B9%CE%B1"
     },
     {
+      "id": 4202573,
+      "titre": "Professeur d’Espagnol – Collège / Lycée - F/H - KOH SAMUI - THAILANDE",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "Thaïlande",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "29/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4202573-professeur-d-espagnol-college-lycee-fh-koh-samui-thailande-84310-koh-samui"
+    },
+    {
       "id": 4202371,
       "titre": "ASSISTANT DE DIRECTION - F/H - ASUNCION - PARAGUAY",
       "etab": "",
@@ -5732,6 +5754,28 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "27/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4201137-professeur-dhistoire-geographie-fh-dusseldorf-allemagne-40237-dusseldorf"
+    },
+    {
+      "id": 4199905,
+      "titre": "Professeur d’Espagnol F/H–Primaire (français & Cambridge) - KOH SAMUI, THAILANDE",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "Thaïlande",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "29/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4199905-professeur-d-espagnol-fh-primaire-francais-cambridge-koh-samui-thailande-84310-koh-samui"
+    },
+    {
+      "id": 4199903,
+      "titre": "PROFESSEUR DE TECHNOLOGIE, ROBOTIQUE, PROGRAMMATION F/H – KOH SAMUI - THAILANDE",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "Thaïlande",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
+      "date": "29/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4199903-professeur-de-technologie-robotique-programmation-fh-koh-samui-thailande-84310-koh-samui"
     },
     {
       "id": 4196989,
@@ -6361,17 +6405,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4132659-professeur-du-second-degre-mathematiques-fh-shanghai-chine-shanghai"
     },
     {
-      "id": 4132655,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - SHANGHAI - CHINE",
-      "etab": "",
-      "ville": "Shanghai",
-      "pays": "Chine",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4132655-professeur-du-second-degre-lettres-modernes-fh-shanghai-chine-shanghai"
-    },
-    {
       "id": 4130043,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - VIENTIANE - LAOS",
       "etab": "",
@@ -6788,6 +6821,17 @@
       "discipline": "Professeur d'éducation musicale F/H",
       "date": "21/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4083445-professeur-deducation-musicale-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4082281,
+      "titre": "Professeur de Mathématiques F/H - KOH SAMUI - THAILANDE",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "Thaïlande",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "29/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4082281-professeur-de-mathematiques-fh-koh-samui-thailande-84310-koh-samui"
     },
     {
       "id": 4076705,
