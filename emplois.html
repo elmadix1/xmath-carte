@@ -1856,7 +1856,7 @@ applyURLFilters();   // ➕ SEO : pré-appliquer filtres URL
     if (!shouldShow()) return;
 
     const ctx = getSegmentContext();
-    document.getElementById('esm-filter-label').textContent = ctx.label;
+    // esm-filter-label supprimé
     document.getElementById('esm-slider').style.display = 'block';
 
     // Tracking en console (remplacer plus tard par analytics.track)
