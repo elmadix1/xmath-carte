@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-29 07:30",
-  "total": 250,
+  "updated": "2026-04-29 18:20",
+  "total": 251,
   "source": "MLF Monde",
   "offers": [
     {
@@ -1038,6 +1038,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3558_offre-emploi-enseignante-dhistoire-geographie-emc.html"
+    },
+    {
+      "id": 3603,
+      "titre": "Proviseur (e) - Chef (fe) d'établissement",
+      "etab": "",
+      "ville": "Le Caire",
+      "pays": "Égypte",
+      "contrat": "",
+      "discipline": "",
+      "date": "07/11/2025",
+      "date_limite": "18/01/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3603_offre-emploi-proviseur-e-chef-fe-detablissement.html"
     },
     {
       "id": 3644,
