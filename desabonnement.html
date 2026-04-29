@@ -84,5 +84,21 @@
   const cardId = map[status] || 'card-erreur';
   document.getElementById(cardId).style.display = 'block';
 </script>
+<script>
+const params = new URLSearchParams(window.location.search);
+const fin = params.get('fin');
+if (fin) {
+    const el = document.querySelector('.message-detail');
+    if (el) el.innerHTML = `Vous continuerez à recevoir les alertes jusqu'au <strong>${fin}</strong>, sans aucun prélèvement supplémentaire.`;
+}
+</script>
+<script>
+const params = new URLSearchParams(window.location.search);
+const fin = params.get('fin');
+if (fin) {
+    const el = document.getElementById('msg-detail');
+    if (el) el.innerHTML = "Vous continuerez à recevoir les alertes jusqu'au <strong>" + fin + "</strong>, sans aucun prélèvement supplémentaire.";
+}
+</script>
 </body>
 </html>

@@ -109,11 +109,14 @@ def cancel_stripe_subscription(customer_id):
     try:
         subs = stripe.Subscription.list(customer=customer_id, status='active', limit=1)
         if subs.data:
-            stripe.Subscription.delete(subs.data[0].id)
-            return True
+            sub = stripe.Subscription.modify(subs.data[0].id, cancel_at_period_end=True)
+            from datetime import datetime
+            ts = sub.current_period_end
+            fin = datetime.utcfromtimestamp(ts).strftime('%d/%m/%Y')
+            return fin
     except Exception as e:
         print(f"Erreur annulation Stripe : {e}")
-    return False
+    return ''
 
 @app.route('/webhook/stripe', methods=['POST'])
 def stripe_webhook():
