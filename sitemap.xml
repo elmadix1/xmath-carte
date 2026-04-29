@@ -15,4 +15,9 @@
     <priority>1.0</priority>
   </url>
 
+  <url>
+    <loc>https://emplois-scolaires-monde.online/privacy.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
