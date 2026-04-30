@@ -216,7 +216,7 @@ def cancel_stripe_subscription(customer_id):
             print(f"billing_cycle_anchor raw: {sub_dict.get('billing_cycle_anchor')}")
             print(f"cancel_at raw: {sub_dict.get('cancel_at')}")
             print(f"status: {sub_dict.get('status')}")
-            ts = sub_dict.get("current_period_end") or sub_dict.get("billing_cycle_anchor")
+            ts = sub_dict.get("cancel_at") or sub_dict.get("billing_cycle_anchor")
             fin = datetime.utcfromtimestamp(ts).strftime('%d/%m/%Y')
             return fin
     except Exception as e:
