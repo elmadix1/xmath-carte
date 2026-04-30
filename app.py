@@ -272,7 +272,12 @@ def desabonnement():
 
     contact = get_brevo_contact(email)
     if not contact:
-        return redirect('https://emplois-scolaires-monde.online/desabonnement.html?status=introuvable')
+        return redirect('https://emplois-scolaires-monde.online/desabonnement.html?status=deja-desabonne')
+
+    # Vérifier si le contact est encore dans la liste
+    lists = contact.get('listIds', [])
+    if BREVO_LIST_ID not in lists:
+        return redirect('https://emplois-scolaires-monde.online/desabonnement.html?status=deja-desabonne')
 
     customer_id = contact.get('attributes', {}).get('STRIPE_ID', '')
     print(f"Desabonnement: email={email} customer_id={customer_id}")
