@@ -178,12 +178,17 @@ def desabonnement():
         return redirect('https://emplois-scolaires-monde.online/desabonnement.html?status=introuvable')
 
     customer_id = contact.get('attributes', {}).get('STRIPE_ID', '')
+    print(f"Desabonnement: email={email} customer_id={customer_id}")
     fin_periode = ''
     if customer_id:
         fin_periode = cancel_stripe_subscription(customer_id)
+        print(f"Fin periode: {fin_periode}")
+    else:
+        print("Pas de customer_id trouve dans Brevo")
 
     remove_from_brevo(email)
 
+    print(f"Redirection: status=ok fin={fin_periode}")
     if fin_periode:
         return redirect(f'https://emplois-scolaires-monde.online/desabonnement.html?status=ok&fin={fin_periode}')
     return redirect('https://emplois-scolaires-monde.online/desabonnement.html?status=ok')
