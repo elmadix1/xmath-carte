@@ -207,6 +207,8 @@ def cancel_stripe_subscription(customer_id):
         subs = stripe.Subscription.list(customer=customer_id, status='active', limit=1)
         if subs.data:
             sub = stripe.Subscription.modify(subs.data[0].id, cancel_at_period_end=True)
+            print(f"sub type: {type(sub)}")
+            print(f"sub keys: {list(sub.keys()) if hasattr(sub, 'keys') else dir(sub)[:10]}")
             ts = sub["current_period_end"] if isinstance(sub, dict) else sub.current_period_end
             fin = datetime.utcfromtimestamp(ts).strftime('%d/%m/%Y')
             return fin
