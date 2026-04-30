@@ -121,11 +121,27 @@ def notify_owner(email, prenom):
     data = {
         "sender": {"name": "Postes Réseau Français", "email": "contact@emplois-scolaires-monde.online"},
         "to": [{"email": "elmadix1@gmail.com", "name": "Mo"}],
-        "subject": "Nouvel abonné : " + (prenom or email),
+        "subject": "🎉 Nouvel abonné : " + (prenom or email) + " (" + email + ")",
         "htmlContent": f"<p>Nouvel abonné : <strong>{prenom or 'inconnu'}</strong> ({email})</p>"
     }
     r = requests.post(url, json=data, headers=headers)
     print(f"Notify owner: {r.status_code}")
+
+def notify_owner_unsubscribe(email):
+    url = "https://api.brevo.com/v3/smtp/email"
+    headers = {
+        "accept": "application/json",
+        "content-type": "application/json",
+        "api-key": BREVO_API_KEY
+    }
+    data = {
+        "sender": {"name": "Postes Réseau Français", "email": "contact@emplois-scolaires-monde.online"},
+        "to": [{"email": "elmadix1@gmail.com", "name": "Mo"}],
+        "subject": "👋 Désabonnement : " + email,
+        "htmlContent": f"<p>Désabonnement : <strong>{email}</strong></p>"
+    }
+    r = requests.post(url, json=data, headers=headers)
+    print(f"Notify owner unsubscribe: {r.status_code}")
 
 def cancel_stripe_subscription(customer_id):
     try:
@@ -204,6 +220,7 @@ def desabonnement():
         print("Pas de customer_id trouve dans Brevo")
 
     remove_from_brevo(email)
+    notify_owner_unsubscribe(email)
 
     print(f"Redirection: status=ok fin={fin_periode}")
     if fin_periode:
