@@ -56,6 +56,12 @@
     <a href="mailto:contact@emplois-scolaires-monde.online" class="btn">Nous contacter →</a>
   </div>
 
+  <div class="card" id="card-deja" style="display:none;">
+    <div class="icon">ℹ️</div>
+    <h1>Déjà désabonné</h1>
+    <p>Vous êtes déjà désabonné des alertes emploi.</p>
+    <a href="/emplois.html" class="btn">Voir les offres gratuitement →</a>
+  </div>
   <div class="card" id="card-introuvable" style="display:none;">
     <div class="icon">🔍</div>
     <h1>Email introuvable</h1>
@@ -80,7 +86,7 @@
 <script>
   const params = new URLSearchParams(window.location.search);
   const status = params.get('status') || 'erreur';
-  const map = { ok: 'card-ok', erreur: 'card-erreur', introuvable: 'card-introuvable' };
+  const map = { ok: 'card-ok', erreur: 'card-erreur', introuvable: 'card-introuvable', 'deja-desabonne': 'card-deja' };
   const cardId = map[status] || 'card-erreur';
   document.getElementById(cardId).style.display = 'block';
 </script>
