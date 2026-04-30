@@ -92,8 +92,8 @@ def send_welcome_email(email, prenom):
         <tr>
           <td style="background:#f5f8f3;padding:16px 32px;border-top:1px solid #e8ede4;text-align:center;">
             <p style="margin:0;font-size:0.72rem;color:#aaa;">
-              Pour annuler votre abonnement :
-              <a href="https://xmath-carte-production.up.railway.app/desabonnement?email={email}" style="color:#5a8a3c;">Se desabonner</a>
+              Pour résilier votre abonnement aux alertes emploi :
+              <a href="https://xmath-carte-production.up.railway.app/desabonnement?email={email}" style="color:#5a8a3c;">Résilier mon abonnement</a>
             </p>
           </td>
         </tr>
