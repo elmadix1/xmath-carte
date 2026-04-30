@@ -111,6 +111,22 @@ def send_welcome_email(email, prenom):
     r = requests.post(url, json=data, headers=headers)
     print(f"Welcome email: {r.status_code} {r.text}")
 
+def notify_owner(email, prenom):
+    url = "https://api.brevo.com/v3/smtp/email"
+    headers = {
+        "accept": "application/json",
+        "content-type": "application/json",
+        "api-key": BREVO_API_KEY
+    }
+    data = {
+        "sender": {"name": "Postes Réseau Français", "email": "contact@emplois-scolaires-monde.online"},
+        "to": [{"email": "elmadix1@gmail.com", "name": "Mo"}],
+        "subject": "Nouvel abonné : " + (prenom or email),
+        "htmlContent": f"<p>Nouvel abonné : <strong>{prenom or 'inconnu'}</strong> ({email})</p>"
+    }
+    r = requests.post(url, json=data, headers=headers)
+    print(f"Notify owner: {r.status_code}")
+
 def cancel_stripe_subscription(customer_id):
     try:
         subs = stripe.Subscription.list(customer=customer_id, status='active', limit=1)
@@ -150,6 +166,7 @@ def stripe_webhook():
         if email:
             add_to_brevo(email, prenom, customer_id)
             send_welcome_email(email, prenom)
+            notify_owner(email, prenom)
 
     elif event_type in ['customer.subscription.deleted', 'invoice.payment_failed']:
         customer_id = obj.get('customer', '')
