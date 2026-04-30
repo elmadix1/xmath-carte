@@ -25,7 +25,7 @@ def get_new_offers():
 
 def build_email_html(offers):
     rows = ""
-    for o in offers[:20]:  # max 20 offres par email
+    for o in offers[:50]:  # max 20 offres par email
         source = (o.get('source') or 'AEFE').upper()
         color  = '#1a56b0' if source == 'AEFE' else '#b01a1a'
         loc    = ', '.join(filter(None, [o.get('ville'), o.get('pays')]))
@@ -137,7 +137,7 @@ def send_email(to_email, to_name, html_content, nb_offres):
         "content-type": "application/json",
         "api-key": BREVO_API_KEY
     }
-    subject = f"{nb_offres} nouveau{'x' if nb_offres > 1 else ''} poste{'s' if nb_offres > 1 else ''} — Postes Réseau Français"
+    subject = f"{nb_offres} nouveau{'x' if nb_offres > 1 else ''} poste{'s' if nb_offres > 1 else ''} : Postes Réseau Français"
     data = {
         "sender": {"name": "Postes Réseau Français", "email": "contact@emplois-scolaires-monde.online"},
         "to": [{"email": to_email, "name": to_name or "Abonné"}],
