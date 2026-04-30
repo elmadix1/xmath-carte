@@ -1,7 +1,29 @@
 {
-  "updated": "2026-04-30 18:18",
-  "total": 669,
+  "updated": "2026-04-30 19:06",
+  "total": 668,
   "offers": [
+    {
+      "id": 4362843,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "La Paz",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "30/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4362843-professeur-du-second-degre-mathematiques-fh-la-paz"
+    },
+    {
+      "id": 4362839,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "La Paz",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "30/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4362839-professeur-du-second-degre-dhistoire-geographie-fh-la-paz"
+    },
     {
       "id": 4362243,
       "titre": "Enseignant anglais primaire - F/H - CDD 6 mois - VAUBAN - LUXEMBOURG",
@@ -1374,7 +1396,7 @@
       "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'histoire géographie F/H",
-      "date": "",
+      "date": "17/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4337739-professeur-du-second-degre-dhistoire-geographie-fh-tanger-maroc-tangier"
     },
     {
@@ -4456,39 +4478,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "14/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4276169-professeur-du-second-degre-lettres-modernes-fh-tunis-tunisie-1001-tunis"
-    },
-    {
-      "id": 4276159,
-      "titre": "Professeur du Second Degré documentaliste - F/H - SAN JOSE PINULA - GUATEMALA",
-      "etab": "",
-      "ville": "San José Pinula",
-      "pays": "Guatemala",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "13/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4276159-professeur-du-second-degre-documentaliste-fh-san-jose-pinula-guatemala-san-jose-pinula"
-    },
-    {
-      "id": 4276157,
-      "titre": "Conseiller Principal d'Éducation - F/H - SAN JOSE PINULA - GUATEMALA",
-      "etab": "",
-      "ville": "San José Pinula",
-      "pays": "Guatemala",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "13/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4276157-conseiller-principal-deducation-fh-san-jose-pinula-guatemala-san-jose-pinula"
-    },
-    {
-      "id": 4276153,
-      "titre": "Professeur du Second Degré de mathématiques - F/H - SAN JOSE PINULA - GUATEMALA",
-      "etab": "",
-      "ville": "San José Pinula",
-      "pays": "Guatemala",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "13/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4276153-professeur-du-second-degre-de-mathematiques-fh-san-jose-pinula-guatemala-san-jose-pinula"
     },
     {
       "id": 4276151,
