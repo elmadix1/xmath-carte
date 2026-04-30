@@ -209,7 +209,7 @@ def cancel_stripe_subscription(customer_id):
             sub = stripe.Subscription.modify(subs.data[0].id, cancel_at_period_end=True)
             print(f"sub type: {type(sub)}")
             print(f"sub dir: {[x for x in dir(sub) if not x.startswith('_')]}")
-            ts = sub["current_period_end"] if isinstance(sub, dict) else sub.current_period_end
+            ts = sub._data["current_period_end"]
             fin = datetime.utcfromtimestamp(ts).strftime('%d/%m/%Y')
             return fin
     except Exception as e:
