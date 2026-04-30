@@ -140,7 +140,7 @@ def send_email(to_email, to_name, html_content, nb_offres):
     subject = f"{nb_offres} nouveau{'x' if nb_offres > 1 else ''} poste{'s' if nb_offres > 1 else ''} — Postes Réseau Français"
     data = {
         "sender": {"name": "Postes Réseau Français", "email": "contact@emplois-scolaires-monde.online"},
-        "to": [{"email": to_email, "name": to_name or ""}],
+        "to": [{"email": to_email, "name": to_name or "Abonné"}],
         "subject": subject,
         "htmlContent": html_content
     }
