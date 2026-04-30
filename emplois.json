@@ -1,7 +1,18 @@
 {
-  "updated": "2026-04-29 18:20",
+  "updated": "2026-04-30 07:35",
   "total": 671,
   "offers": [
+    {
+      "id": 4360229,
+      "titre": "PROFESSEUR DE MUSIQUE – ÉTABLISSEMENT INTERNATIONAL (FR/EN)",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation musicale F/H",
+      "date": "30/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4360229-professeur-de-musique-etablissement-international-fren-84310-koh-samui"
+    },
     {
       "id": 4359085,
       "titre": "Enseignant Mathématiques - CDD (H/F) - VAUBAN - LUXEMBOURG",
@@ -34,6 +45,17 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "28/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4357935-professeur-d-anglais-fh-native-speaker-or-native-alike-tanger-maroc-tangier"
+    },
+    {
+      "id": 4357105,
+      "titre": "Professeur du Second Degré - Lettres Classiques F/H",
+      "etab": "",
+      "ville": "Düsseldorf",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de lettres classiques F/H",
+      "date": "28/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4357105-professeur-du-second-degre-lettres-classiques-fh-40237-dusseldorf"
     },
     {
       "id": 4357053,
@@ -659,7 +681,7 @@
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "",
+      "date": "23/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4349377-professeur-des-ecoles-fh-brazzaville-congo-brazzaville"
     },
     {
@@ -4256,7 +4278,7 @@
       "pays": "Japon",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
-      "date": "",
+      "date": "10/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4279055-professeur-du-second-degre-mathematiques-fh-tokyo-japon-114-0023-kita-city"
     },
     {
@@ -5283,17 +5305,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4249017-professeur-de-physique-chimie-fh-misr-language-school-le-caire-egypte-%D8%A7%D9%84%D9%87%D8%B1%D9%85"
     },
     {
-      "id": 4248955,
-      "titre": "Professeur Philosophie - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de philosophie F/H",
-      "date": "01/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4248955-professeur-philosophie-fh-le-caire-egypte-cairo"
-    },
-    {
       "id": 4245953,
       "titre": "Professeur des écoles - F/H - PORT-VILA - VANUATU",
       "etab": "",
@@ -5303,17 +5314,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "27/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4245953-professeur-des-ecoles-fh-port-vila-vanuatu-port-vila"
-    },
-    {
-      "id": 4245951,
-      "titre": "Professeur de mathématiques - F/H - PORT-VILA - VANUATU",
-      "etab": "",
-      "ville": "Port-Vila",
-      "pays": "Vanuatu",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "27/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4245951-professeur-de-mathematiques-fh-port-vila-vanuatu-port-vila"
     },
     {
       "id": 4243357,
