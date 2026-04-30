@@ -148,7 +148,7 @@ def cancel_stripe_subscription(customer_id):
         subs = stripe.Subscription.list(customer=customer_id, status='active', limit=1)
         if subs.data:
             sub = stripe.Subscription.modify(subs.data[0].id, cancel_at_period_end=True)
-            ts = sub.current_period_end
+            ts = sub["current_period_end"] if isinstance(sub, dict) else sub.current_period_end
             fin = datetime.utcfromtimestamp(ts).strftime('%d/%m/%Y')
             return fin
     except Exception as e:
