@@ -206,7 +206,8 @@ def cancel_stripe_subscription(customer_id):
     try:
         subs = stripe.Subscription.list(customer=customer_id, status='active', limit=1)
         if subs.data:
-            sub = stripe.Subscription.modify(subs.data[0].id, cancel_at_period_end=True)
+            stripe.Subscription.modify(subs.data[0].id, cancel_at_period_end=True)
+            sub = stripe.Subscription.retrieve(subs.data[0].id)
             print(f"sub type: {type(sub)}")
             print(f"sub dir: {[x for x in dir(sub) if not x.startswith('_')]}")
             sub_dict = sub.to_dict()
