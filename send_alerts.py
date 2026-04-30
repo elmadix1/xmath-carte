@@ -146,8 +146,7 @@ def send_email(to_email, to_name, html_content, nb_offres):
     }
     data["htmlContent"] = html_content.replace("EMAIL_PLACEHOLDER", to_email)
     r = requests.post(url, json=data, headers=headers)
-    if r.status_code != 201:
-        print(f"Brevo error: {r.text}")
+    print(f"Brevo response: {r.status_code} {r.text}")
     return r.status_code
 
 def main():
