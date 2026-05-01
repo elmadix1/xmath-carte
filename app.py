@@ -249,7 +249,7 @@ def stripe_webhook():
         customer_id = obj.get('customer', '')
         cancel_at_period_end = obj.get('cancel_at_period_end', False)
         print(f"Sub deleted/failed: customer_id={customer_id} cancel_at_period_end={cancel_at_period_end}")
-        if customer_id and not cancel_at_period_end:
+        if customer_id:
             try:
                 customer = stripe.Customer.retrieve(customer_id)
                 email    = customer.email or ''
@@ -285,7 +285,6 @@ def desabonnement():
     else:
         print("Pas de customer_id trouve dans Brevo")
 
-    remove_from_brevo(email)
     notify_owner_unsubscribe(email)
     send_unsubscribe_confirmation(email, fin_periode)
 
