@@ -134,11 +134,12 @@
     · <a href="/alertes.html">Alertes</a>
   </p>
 <script>
-fetch('/emplois.json')
-  .then(r => r.json())
-  .then(data => {
+Promise.all([fetch('/emplois.json'), fetch('/emplois_mlf.json')])
+  .then(([r1, r2]) => Promise.all([r1.json(), r2.json()]))
+  .then(([d1, d2]) => {
     const pays = 'Portugal';
-    const count = (data.offers || []).filter(o => o.pays === pays).length;
+    const all = [...(d1.offers || []), ...(d2.offers || [])];
+    const count = all.filter(o => o.pays === pays).length;
     document.querySelectorAll('.count-offres').forEach(el => el.textContent = count);
     const btn = document.querySelector('.btn-main');
     if (btn) btn.textContent = `Voir les ${count} offres →`;
