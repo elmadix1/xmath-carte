@@ -1148,7 +1148,10 @@
   ],
 };
   function getCategory(o) {
-    const text = (o.titre + ' ' + (o.discipline||'')).toLowerCase().replace(/\(e\)|\(s\)|\(es\)|\(rice\)|\(trice\)|\(\.e\)|\(fe\)/g, '');
+    const text = (o.titre + ' ' + (o.discipline||'')).toLowerCase()
+  .replace(/\(e\)|\(s\)|\(es\)|\(rice\)|\(trice\)|\(\.e\)|\(fe\)|\.e\b/g, '')
+  .replace(/['']/g, "'");
+       
     for (const [cat, keywords] of Object.entries(categoryKeywords)) {
       if (keywords.some(k => text.includes(k))) return cat;
     }
