@@ -208,14 +208,7 @@ def cancel_stripe_subscription(customer_id):
         if subs.data:
             stripe.Subscription.modify(subs.data[0].id, cancel_at_period_end=True)
             sub = stripe.Subscription.retrieve(subs.data[0].id)
-            print(f"sub type: {type(sub)}")
-            print(f"sub dir: {[x for x in dir(sub) if not x.startswith('_')]}")
             sub_dict = sub.to_dict()
-            print(f"sub_dict keys: {list(sub_dict.keys())}")
-            print(f"current_period_end raw: {sub_dict.get('current_period_end')}")
-            print(f"billing_cycle_anchor raw: {sub_dict.get('billing_cycle_anchor')}")
-            print(f"cancel_at raw: {sub_dict.get('cancel_at')}")
-            print(f"status: {sub_dict.get('status')}")
             ts = sub_dict.get("cancel_at") or sub_dict.get("billing_cycle_anchor")
             fin = datetime.utcfromtimestamp(ts).strftime('%d/%m/%Y')
             return fin
