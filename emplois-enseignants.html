@@ -54,16 +54,15 @@
 </header>
 
 <section class="hero">
-  <h1>Offres d'emploi pour enseignants
-dans les établissements français à l'étranger</h1>
+  <h1>Offres d'emploi pour enseignants dans les établissements français à l'étranger</h1>
   <p>Toutes les offres pour professeurs du 1er et 2nd degré dans les établissements français à l'étranger. Mathématiques, lettres, sciences, langues, histoire-géographie, EPS et plus.</p>
   <div class="hero-stats">
-    <div class="stat"><strong class="count-1er">...</strong> postes 1er degré</div>
-    <div class="stat"><strong class="count-2nd">...</strong> postes 2nd degré</div>
+    <div class="stat"><strong class="count-1er">…</strong> postes 1er degré</div>
+    <div class="stat"><strong class="count-2nd">…</strong> postes 2nd degré</div>
     <div class="stat">Mis à jour chaque nuit</div>
     <div class="stat">100+ pays</div>
   </div>
-  <a href="/emplois.html" class="btn-voir btn-main">Voir toutes les offres →</a>
+  <a href="/emplois.html" class="btn-voir btn-main">Voir les offres →</a>
 </section>
 
 <section class="content">
@@ -90,22 +89,80 @@ dans les établissements français à l'étranger</h1>
     · <a href="/emplois.html">Offres</a>
     · <a href="/alertes.html">Alertes</a>
   </p>
+</footer>
+
 <script>
-Promise.all([fetch('/emplois.json'), fetch('/emplois_mlf.json')])
-  .then(([r1, r2]) => Promise.all([r1.json(), r2.json()]))
-  .then(([d1, d2]) => {
-    const all = [...(d1.offers || []), ...(d2.offers || [])];
-    const k1er = ['professeur des écoles', 'maternelle', 'primaire', 'asem', 'aide maternelle', 'périscolaire', 'crèche'];
-    const k2nd = ['mathématiques', 'physique', 'chimie', 'svt', 'histoire', 'géographie', 'lettres', 'philosophie', 'eps', 'sciences', 'certifié', 'agrégé', 'technologie', 'documentaliste'];
-    const count1 = all.filter(o => { const t = ((o.titre||'')+(o.discipline||'')).toLowerCase(); return k1er.some(k => t.includes(k)); }).length;
-    const count2 = all.filter(o => { const t = ((o.titre||'')+(o.discipline||'')).toLowerCase(); return k2nd.some(k => t.includes(k)); }).length;
-    const total = count1 + count2;
-    document.querySelectorAll('.count-1er').forEach(el => el.textContent = count1);
-    document.querySelectorAll('.count-2nd').forEach(el => el.textContent = count2);
+async function updateCounts() {
+  const k1er = [
+    'professeur des écoles', 'professeurs des écoles', 'professeur des ecoles',
+    'professeurs des ecoles', 'professeur des ecole', 'maternelle', 'primaire',
+    'asem', 'aide maternelle', 'éducateur', 'erzieher', 'assistant maternel',
+    'périscolaire', 'crèche', 'premier degré', '1er degré', 'cycle 2', 'cycle 3',
+    'cycles 1', 'esl teacher', 'maître formateur', 'maitre formateur',
+    'maître ressources', 'flsco', 'fle', 'enseignant spécialisé primaire',
+    'orthopédagogue', 'total-mlf',
+  ];
+  const k2nd = [
+    'mathématiques', 'mathematiques', 'physique', 'chimie', 'svt', 'histoire',
+    'géographie', 'geographie', 'lettres', 'philosophie', 'ses', 'eps',
+    'technologie', 'snt', 'sciences', 'éducation musicale', 'education musicale',
+    'arts plastiques', 'documentaliste', 'second degré', 'second degre',
+    'secondaire', 'éducation physique', 'education physique', 'certifié', 'agrégé',
+    'certifie', 'agrege', 'eco gestion', 'eco-gestion', 'hggsp', 'nsi',
+    'sciences économiques', 'sciences economiques', 'sciences physiques',
+    'lettres modernes', 'lettres classiques', 'histoire-géographie',
+    'histoire géographie', 'physique-chimie', 'physique chimie', 'musique',
+    'theatre', 'théâtre', 'français', 'francais', 'anglais', 'espagnol',
+    'espagol', 'allemand', 'italien', 'arabe', 'portugais', 'bachibac', 'spc',
+    'enseignant - ', 'enseignant d', 'enseignant de ', 'hg ', 'h-g',
+  ];
+
+  function clean(str) {
+    return (str || '').toLowerCase()
+      .replace(/\(e\)|\(s\)|\(es\)|\(rice\)|\(trice\)|\(\.e\)|\(fe\)|\.e\b/g, '')
+      .replace(/['']/g, "'");
+  }
+
+  try {
+    const [resAEFE, resMLF] = await Promise.allSettled([
+      fetch('/emplois.json'),
+      fetch('/emplois_mlf.json')
+    ]);
+
+    let offers = [];
+    if (resAEFE.status === 'fulfilled' && resAEFE.value.ok) {
+      const data = await resAEFE.value.json();
+      offers = offers.concat(data.offers || []);
+    }
+    if (resMLF.status === 'fulfilled' && resMLF.value.ok) {
+      const data = await resMLF.value.json();
+      offers = offers.concat(data.offers || []);
+    }
+
+    let count1er = 0, count2nd = 0;
+    offers.forEach(o => {
+      const text = clean(o.titre) + ' ' + clean(o.discipline);
+      // 1er degré en priorité
+      if (k1er.some(k => text.includes(k))) {
+        count1er++;
+      } else if (k2nd.some(k => text.includes(k))) {
+        count2nd++;
+      }
+    });
+
+    const total = count1er + count2nd;
+
+    document.querySelectorAll('.count-1er').forEach(el => el.textContent = count1er);
+    document.querySelectorAll('.count-2nd').forEach(el => el.textContent = count2nd);
     const btn = document.querySelector('.btn-main');
     if (btn) btn.textContent = `Voir les ${total} offres →`;
-  });
+
+  } catch(e) {
+    console.error('Erreur chargement offres', e);
+  }
+}
+
+updateCounts();
 </script>
-</footer>
 </body>
 </html>
