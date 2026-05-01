@@ -88,11 +88,11 @@
   <h1>Offres d'emploi au Panama<br>dans les établissements français</h1>
   <p>Postes disponibles dans les établissements scolaires français au Panama. Enseignants, direction, administratif, santé et plus.</p>
   <div class="hero-stats">
-    <div class="stat"><strong>1</strong> offre disponible</div>
+    <div class="stat"><strong class="count-offres">...</strong> offre disponible</div>
     <div class="stat">Mis à jour chaque nuit</div>
     <div class="stat">CDI & CDD</div>
   </div>
-  <a href="/emplois.html?pays=Panama" class="btn-voir">Voir les 1 offre →</a>
+  <a href="/emplois.html?pays=Panama" class="btn-voir btn-main">Voir les offres →</a>
 </section>
 
 <section class="content">
@@ -133,6 +133,17 @@
     · <a href="/emplois.html">Offres</a>
     · <a href="/alertes.html">Alertes</a>
   </p>
+<script>
+fetch('/emplois.json')
+  .then(r => r.json())
+  .then(data => {
+    const pays = 'Panama';
+    const count = (data.offers || []).filter(o => o.pays === pays).length;
+    document.querySelectorAll('.count-offres').forEach(el => el.textContent = count);
+    const btn = document.querySelector('.btn-main');
+    if (btn) btn.textContent = `Voir les ${count} offres →`;
+  });
+</script>
 </footer>
 
 </body>
