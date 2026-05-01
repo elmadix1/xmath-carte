@@ -1143,7 +1143,7 @@
 };
 
   function getCategory(o) {
-    const text = (o.titre + ' ' + (o.discipline||'')).toLowerCase();
+    const text = (o.titre + ' ' + (o.discipline||'')).toLowerCase().replace(/\(e\)|\(s\)|\(es\)|\(rice\)|\(trice\)|\(\.e\)|\(fe\)/g, '');
     for (const [cat, keywords] of Object.entries(categoryKeywords)) {
       if (keywords.some(k => text.includes(k))) return cat;
     }
