@@ -92,7 +92,7 @@
     <div class="stat">Mis à jour chaque nuit</div>
     <div class="stat">CDI & CDD</div>
   </div>
-  <a href="/emplois.html?pays=Afrique%20du%20Sud" class="btn-voir">Voir les 5 offres →</a>
+  <a href="/emplois.html?pays=Afrique%20du%20Sud" class="btn-voir btn-main">Voir les 5 offres →</a>
 </section>
 
 <section class="content">
@@ -140,9 +140,8 @@ fetch('https://elmadix1.github.io/xmath-carte/emplois.json')
     const pays = 'Afrique du Sud';
     const count = (data.offers || []).filter(o => o.pays === pays).length;
     document.querySelectorAll('.count-offres').forEach(el => el.textContent = count);
-    document.querySelectorAll('.btn-voir').forEach(el => {
-      el.textContent = `Voir les ${count} offres →`;
-    });
+    const btn = document.querySelector('.btn-main');
+    if (btn) btn.textContent = `Voir les ${count} offres →`;
   });
 </script>
 </footer>
