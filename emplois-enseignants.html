@@ -192,7 +192,7 @@ async function updateCounts() {
     offers.forEach(o => {
       const t = (o.titre + ' ' + (o.discipline||'')).toLowerCase();
       if (k1er.some(k => t.includes(k))) count1er++;
-      else if (k2nd.some(k => t.includes(k))) count2nd++;
+      if (k2nd.some(k => t.includes(k))) count2nd++;
     });
 
     const total = count1er + count2nd;
