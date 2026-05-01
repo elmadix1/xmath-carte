@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-01 07:34",
+  "updated": "2026-05-01 18:05",
   "total": 251,
   "source": "MLF Monde",
   "offers": [
@@ -478,20 +478,6 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3620_offre-emploi-directeurdirectrice.html"
-    },
-    {
-      "id": 3545,
-      "titre": "Directeur d'école publique conventionnée à Franceville (Gabon)",
-      "etab": "",
-      "ville": "FranceVille",
-      "pays": "Gabon",
-      "contrat": "",
-      "discipline": "",
-      "date": "15/10/2025",
-      "date_limite": "04/01/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3545_offre-emploi-directeur-decole-publique-conventionnee-a-franceville-gabon.html"
     },
     {
       "id": 3546,
@@ -3292,6 +3278,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3447_offre-emploi-professeure-danglais-primaire-maternelle-bilingue-et-cycle-23.html"
+    },
+    {
+      "id": 3545,
+      "titre": "Directeur d'école publique conventionnée à Franceville (Gabon)",
+      "etab": "",
+      "ville": "FranceVille",
+      "pays": "Gabon",
+      "contrat": "",
+      "discipline": "",
+      "date": "15/10/2025",
+      "date_limite": "15/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3545_offre-emploi-directeur-decole-publique-conventionnee-a-franceville-gabon.html"
     },
     {
       "id": 3536,

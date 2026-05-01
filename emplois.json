@@ -1,7 +1,18 @@
 {
-  "updated": "2026-05-01 07:34",
-  "total": 668,
+  "updated": "2026-05-01 18:04",
+  "total": 663,
   "offers": [
+    {
+      "id": 4362983,
+      "titre": "Professeur Histoire géographie et SES - PODGORICA - MONTENEGRO",
+      "etab": "",
+      "ville": "Podgorica",
+      "pays": "Monténégro",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "01/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4362983-professeur-histoire-geographie-et-ses-podgorica-montenegro-podgorica"
+    },
     {
       "id": 4362843,
       "titre": "Professeur du Second Degré - Mathématiques F/H",
@@ -5250,17 +5261,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4250385-professeur-des-ecoles-fh-tirana-albanie-lunder-1"
     },
     {
-      "id": 4250333,
-      "titre": "Professeur de Lettres - F/H - MISR LANGUAGE SCHOOLS - LE CAIRE - ÉGYPTE",
-      "etab": "",
-      "ville": "الهرم",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "02/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4250333-professeur-de-lettres-fh-misr-language-schools-le-caire-egypte-%D8%A7%D9%84%D9%87%D8%B1%D9%85"
-    },
-    {
       "id": 4249035,
       "titre": "Professeur Lettres - F/H - PODGORICA - MONTENEGRO",
       "etab": "",
@@ -5598,7 +5598,7 @@
       "pays": "Cambodge",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "28/04/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4207709-professeur-des-ecoles-fh-battambang-cambodge-krong-battambang"
     },
     {
@@ -6273,50 +6273,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4136303-professeur-de-lettres-modernes-fh-casablanca-maroc-province-de-tinghir"
     },
     {
-      "id": 4136067,
-      "titre": "Professeur de Mathématiques - F/H - Rentrée 2026-2027 - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "02/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4136067-professeur-de-mathematiques-fh-rentree-2026-2027-rabat-maroc-rabat"
-    },
-    {
-      "id": 4136027,
-      "titre": "Professeur de SES - F/H - Rentrée 2026-2027 - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "02/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4136027-professeur-de-ses-fh-rentree-2026-2027-rabat-maroc-rabat"
-    },
-    {
-      "id": 4135945,
-      "titre": "Professeur d'Histoire et géographie - F/H - Rentrée 2026-2027 - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "02/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4135945-professeur-dhistoire-et-geographie-fh-rentree-2026-2027-rabat-maroc-rabat"
-    },
-    {
-      "id": 4135919,
-      "titre": "Professeur de lettres modernes - F/H - Rentrée 2026-2027 - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "02/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4135919-professeur-de-lettres-modernes-fh-rentree-2026-2027-rabat-maroc-rabat"
-    },
-    {
       "id": 4135887,
       "titre": "Professeur d’histoire-géographie - F/H - BUCAREST - ROUMANIE",
       "etab": "",
@@ -6326,17 +6282,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "21/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4135887-professeur-d-histoire-geographie-fh-bucarest-roumanie-015016-bucuresti"
-    },
-    {
-      "id": 4135845,
-      "titre": "Professeur de physique-chimie - F/H - rentrée 2026-2027 - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "02/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4135845-professeur-de-physique-chimie-fh-rentree-2026-2027-rabat-maroc-rabat"
     },
     {
       "id": 4132683,
