@@ -58,7 +58,8 @@
 dans les établissements français à l'étranger</h1>
   <p>Toutes les offres pour professeurs du 1er et 2nd degré dans les établissements français à l'étranger. Mathématiques, lettres, sciences, langues, histoire-géographie, EPS et plus.</p>
   <div class="hero-stats">
-    <div class="stat"><strong>900+</strong> offres disponibles</div>
+    <div class="stat"><strong class="count-1er">...</strong> postes 1er degré</div>
+    <div class="stat"><strong class="count-2nd">...</strong> postes 2nd degré</div>
     <div class="stat">Mis à jour chaque nuit</div>
     <div class="stat">100+ pays</div>
   </div>
@@ -93,14 +94,16 @@ dans les établissements français à l'étranger</h1>
 Promise.all([fetch('/emplois.json'), fetch('/emplois_mlf.json')])
   .then(([r1, r2]) => Promise.all([r1.json(), r2.json()]))
   .then(([d1, d2]) => {
-    const keywords = ["professeur des écoles", "maternelle", "primaire", "mathématiques", "physique", "chimie", "svt", "histoire", "géographie", "lettres", "philosophie", "eps", "sciences", "certifié", "agrégé", "anglais", "espagnol", "allemand", "italien", "arabe", "chinois", "fle", "langue"];
     const all = [...(d1.offers || []), ...(d2.offers || [])];
-    const count = all.filter(o => {
-      const text = ((o.titre || '') + ' ' + (o.discipline || '')).toLowerCase();
-      return keywords.some(k => text.includes(k));
-    }).length;
+    const k1er = ['professeur des écoles', 'maternelle', 'primaire', 'asem', 'aide maternelle', 'périscolaire', 'crèche'];
+    const k2nd = ['mathématiques', 'physique', 'chimie', 'svt', 'histoire', 'géographie', 'lettres', 'philosophie', 'eps', 'sciences', 'certifié', 'agrégé', 'technologie', 'documentaliste'];
+    const count1 = all.filter(o => { const t = ((o.titre||'')+(o.discipline||'')).toLowerCase(); return k1er.some(k => t.includes(k)); }).length;
+    const count2 = all.filter(o => { const t = ((o.titre||'')+(o.discipline||'')).toLowerCase(); return k2nd.some(k => t.includes(k)); }).length;
+    const total = count1 + count2;
+    document.querySelectorAll('.count-1er').forEach(el => el.textContent = count1);
+    document.querySelectorAll('.count-2nd').forEach(el => el.textContent = count2);
     const btn = document.querySelector('.btn-main');
-    if (btn) btn.textContent = `Voir les ${count} offres →`;
+    if (btn) btn.textContent = `Voir les ${total} offres →`;
   });
 </script>
 </footer>
