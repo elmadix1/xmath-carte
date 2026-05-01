@@ -92,17 +92,20 @@
 </footer>
 
 <script>
-async function updateCounts() {
-  const k1er = [
+// Copie exacte de categoryKeywords et getCategory depuis emplois.html
+const categoryKeywords = {
+  '1er degré': [
     'professeur des écoles', 'professeurs des écoles', 'professeur des ecoles',
     'professeurs des ecoles', 'professeur des ecole', 'maternelle', 'primaire',
     'asem', 'aide maternelle', 'éducateur', 'erzieher', 'assistant maternel',
-    'périscolaire', 'crèche', 'premier degré', '1er degré', 'cycle 2', 'cycle 3',
-    'cycles 1', 'esl teacher', 'maître formateur', 'maitre formateur',
-    'maître ressources', 'flsco', 'fle', 'enseignant spécialisé primaire',
-    'orthopédagogue', 'total-mlf',
-  ];
-  const k2nd = [
+    'aide enseignant', 'périscolaire', 'crèche', 'premier degré', '1er degré',
+    'cycle 2', 'cycle 3', 'cycles 1', 'esl teacher', 'maître formateur',
+    'maitre formateur', 'maître ressources', 'référent du pôle', 'flsco', 'fle',
+    'enseignant spécialisé primaire', 'orthopédagogue',
+    'conseiller pédagogique 1er', 'conseillère pédagogique 1er',
+    'conseiller.e pédagogique 1er',
+  ],
+  '2nd degré': [
     'mathématiques', 'mathematiques', 'physique', 'chimie', 'svt', 'histoire',
     'géographie', 'geographie', 'lettres', 'philosophie', 'ses', 'eps',
     'technologie', 'snt', 'sciences', 'éducation musicale', 'education musicale',
@@ -111,18 +114,62 @@ async function updateCounts() {
     'certifie', 'agrege', 'eco gestion', 'eco-gestion', 'hggsp', 'nsi',
     'sciences économiques', 'sciences economiques', 'sciences physiques',
     'lettres modernes', 'lettres classiques', 'histoire-géographie',
-    'histoire géographie', 'physique-chimie', 'physique chimie', 'musique',
+    'histoire géographie', 'histoire géo', 'histoire-geo',
+    'physique-chimie', 'physique chimie', 'éducation physique et sportive',
+    'education physique et sportive', 'éducation musicale', 'musique',
     'theatre', 'théâtre', 'français', 'francais', 'anglais', 'espagnol',
     'espagol', 'allemand', 'italien', 'arabe', 'portugais', 'bachibac', 'spc',
-    'enseignant - ', 'enseignant d', 'enseignant de ', 'hg ', 'h-g',
-  ];
+    'enseignant - ', 'enseignant d', 'enseignant de ',
+    'conseiller pédagogique 2nd', 'conseillère pédagogique 2nd',
+    'conseiller.e pédagogique 2nd', 'hg ', 'h-g',
+  ],
+  'langues': [
+    'anglais', 'espagnol', 'allemand', 'italien', 'arabe', 'chinois',
+    'fle', 'flsco', 'portugais', 'luxembourgeois', 'langue', 'lva',
+    'néerlandais', 'neerlandais', 'malgache',
+  ],
+  'direction': [
+    'directeur', 'directrice', 'principal', 'proviseur', 'chef d\'établissement',
+    'chef detablissement', 'cpe', 'conseiller pédagogique', 'head of',
+    'coordinateur péda', 'adjoint de direction', 'proviseur adjoint',
+    'proviseure adjointe', 'responsable du site', 'directeur des programmes',
+    'directeur des services',
+  ],
+  'administratif': [
+    'administratif', 'daf', 'secrétaire', 'secretaire', 'assistant de direction',
+    'communication', 'rh', 'ressources humaines', 'gestionnaire', 'comptable',
+    'chef de projet', 'responsable administratif', 'directeur des services',
+    'directeur administratif', 'parcours avenir', 'cppa', 'coordonateur',
+    'coordinateur transport', 'partenariats', 'conseiller d\'information',
+    'conseiller d\'orientation', 'assistant pédagogique', 'assistant pedagogique',
+    'expert pédagogie', 'expert pedagogie',
+  ],
+  'sante': [
+    'infirmier', 'psychologue', 'orthophoniste', 'aesh', 'médecin', 'medecin',
+    'puériculteur', 'puericulteur', 'inclusif', 'erei', 'référent',
+    'école inclusive', 'ecole inclusive',
+  ],
+  'support': [
+    'laboratoire', 'entretien', 'accueil', 'technicien', 'aquatique', 'bassin',
+    'ouvrier', 'agent', 'maintenance', 'cuisinier', 'bibliothécaire',
+    'bibliothecaire', 'bcd', 'robotique', 'danse', 'surveillant', 'informatique',
+    'chauffeur', 'coursier', 'garderie', 'assistant d\'education',
+    'assistant d\'éducation', 'adjoint d\'education', 'adjoint d\'éducation',
+    'aed',
+  ],
+};
 
-  function clean(str) {
-    return (str || '').toLowerCase()
-      .replace(/\(e\)|\(s\)|\(es\)|\(rice\)|\(trice\)|\(\.e\)|\(fe\)|\.e\b/g, '')
-      .replace(/['']/g, "'");
+function getCategory(o) {
+  const text = (o.titre + ' ' + (o.discipline||'')).toLowerCase()
+    .replace(/\(e\)|\(s\)|\(es\)|\(rice\)|\(trice\)|\(\.e\)|\(fe\)|\.e\b/g, '')
+    .replace(/['']/g, "'");
+  for (const [cat, keywords] of Object.entries(categoryKeywords)) {
+    if (keywords.some(k => text.includes(k))) return cat;
   }
+  return 'autre';
+}
 
+async function updateCounts() {
   try {
     const [resAEFE, resMLF] = await Promise.allSettled([
       fetch('/emplois.json'),
@@ -132,22 +179,18 @@ async function updateCounts() {
     let offers = [];
     if (resAEFE.status === 'fulfilled' && resAEFE.value.ok) {
       const data = await resAEFE.value.json();
-      offers = offers.concat(data.offers || []);
+      offers = offers.concat((data.offers || []).map(o => ({...o, source: 'AEFE'})));
     }
     if (resMLF.status === 'fulfilled' && resMLF.value.ok) {
       const data = await resMLF.value.json();
-      offers = offers.concat(data.offers || []);
+      offers = offers.concat((data.offers || []).map(o => ({...o, source: 'MLF'})));
     }
 
     let count1er = 0, count2nd = 0;
     offers.forEach(o => {
-      const text = clean(o.titre) + ' ' + clean(o.discipline);
-      // 1er degré en priorité
-      if (k1er.some(k => text.includes(k))) {
-        count1er++;
-      } else if (k2nd.some(k => text.includes(k))) {
-        count2nd++;
-      }
+      const cat = getCategory(o);
+      if (cat === '1er degré') count1er++;
+      else if (cat === '2nd degré') count2nd++;
     });
 
     const total = count1er + count2nd;
@@ -155,7 +198,7 @@ async function updateCounts() {
     document.querySelectorAll('.count-1er').forEach(el => el.textContent = count1er);
     document.querySelectorAll('.count-2nd').forEach(el => el.textContent = count2nd);
     const btn = document.querySelector('.btn-main');
-    if (btn) btn.textContent = `Voir les ${total} offres →`;
+    if (btn) btn.textContent = `Voir les ${total} offres enseignants →`;
 
   } catch(e) {
     console.error('Erreur chargement offres', e);
