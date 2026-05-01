@@ -187,10 +187,12 @@ async function updateCounts() {
     }
 
     let count1er = 0, count2nd = 0;
+    const k1er = categoryKeywords['1er degré'];
+    const k2nd = categoryKeywords['2nd degré'];
     offers.forEach(o => {
-      const cat = getCategory(o);
-      if (cat === '1er degré') count1er++;
-      else if (cat === '2nd degré') count2nd++;
+      const t = (o.titre + ' ' + (o.discipline||'')).toLowerCase();
+      if (k1er.some(k => t.includes(k))) count1er++;
+      else if (k2nd.some(k => t.includes(k))) count2nd++;
     });
 
     const total = count1er + count2nd;
