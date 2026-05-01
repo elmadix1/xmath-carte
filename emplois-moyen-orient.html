@@ -99,6 +99,7 @@ Promise.all([fetch('/emplois.json'), fetch('/emplois_mlf.json')])
       const p = (o.pays || '').toLowerCase();
       return keywords.some(k => p.includes(k));
     }).length;
+    document.querySelectorAll('.count-offres').forEach(el => el.textContent = count);
     const btn = document.querySelector('.btn-main');
     if (btn) btn.textContent = `Voir les ${count} offres →`;
   });
