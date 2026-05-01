@@ -62,7 +62,7 @@ dans les établissements français à l'étranger</h1>
     <div class="stat">Mis à jour chaque nuit</div>
     <div class="stat">100+ pays</div>
   </div>
-  <a href="/emplois.html?cat=sante" class="btn-voir">Voir toutes les offres →</a>
+  <a href="/emplois.html?cat=sante" class="btn-voir btn-main">Voir toutes les offres →</a>
 </section>
 
 <section class="content">
@@ -89,6 +89,20 @@ dans les établissements français à l'étranger</h1>
     · <a href="/emplois.html">Offres</a>
     · <a href="/alertes.html">Alertes</a>
   </p>
+<script>
+Promise.all([fetch('/emplois.json'), fetch('/emplois_mlf.json')])
+  .then(([r1, r2]) => Promise.all([r1.json(), r2.json()]))
+  .then(([d1, d2]) => {
+    const keywords = ["infirmier", "psychologue", "orthophoniste", "aesh", "médecin", "puériculteur"];
+    const all = [...(d1.offers || []), ...(d2.offers || [])];
+    const count = all.filter(o => {
+      const text = ((o.titre || '') + ' ' + (o.discipline || '')).toLowerCase();
+      return keywords.some(k => text.includes(k));
+    }).length;
+    const btn = document.querySelector('.btn-main');
+    if (btn) btn.textContent = `Voir les ${count} offres →`;
+  });
+</script>
 </footer>
 </body>
 </html>
