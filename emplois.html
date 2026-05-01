@@ -1083,14 +1083,64 @@
   let activeCategory = '';
 
   const categoryKeywords = {
-    '1er degré':     ['professeur des écoles', 'maternelle', 'primaire', 'asem', 'aide maternelle', 'éducateur', 'erzieher', 'assistant maternel', 'aide enseignant', 'périscolaire', 'crèche'],
-    '2nd degré':     ['mathématiques', 'physique', 'chimie', 'svt', 'histoire', 'géographie', 'lettres', 'philosophie', 'ses', 'eps', 'technologie', 'snt', 'sciences', 'éducation musicale', 'arts plastiques', 'documentaliste', 'second degré', 'secondaire', 'éducation physique', 'certifié', 'agrégé', 'eco gestion', 'hggsp', 'nsi', 'prio'],
-    'langues':       ['anglais', 'espagnol', 'allemand', 'italien', 'arabe', 'chinois', 'fle', 'flsco', 'portugais', 'luxembourgeois', 'langue', 'lva'],
-    'direction':     ['directeur', 'principal', 'proviseur', 'chef d\'établissement', 'cpe', 'conseiller pédagogique', 'head of', 'coordinateur péda', 'adjoint de direction'],
-    'administratif': ['administratif', 'daf', 'secrétaire', 'assistant de direction', 'communication', 'rh', 'ressources humaines', 'gestionnaire', 'comptable', 'chef de projet', 'responsable administratif', 'directeur des services', 'directeur des programmes', 'expert pédagogie', 'responsable du site'],
-    'sante':         ['infirmier', 'psychologue', 'orthophoniste', 'aesh', 'médecin', 'puériculteur', 'inclusif', 'erei', 'référent'],
-    'support':       ['laboratoire', 'entretien', 'accueil', 'technicien', 'aquatique', 'bassin', 'ouvrier', 'agent', 'maintenance', 'cuisinier', 'bibliothécaire', 'bcd', 'robotique', 'danse', 'surveillant', 'informatique'],
-  };
+  '1er degré': [
+    'professeur des écoles', 'professeurs des écoles', 'professeur des ecoles',
+    'professeurs des ecoles', 'maternelle', 'primaire', 'asem', 'aide maternelle',
+    'éducateur', 'erzieher', 'assistant maternel', 'aide enseignant', 'périscolaire',
+    'crèche', 'premier degré', '1er degré', 'cycle 2', 'cycle 3', 'cycles 1',
+    'esl teacher', 'maître formateur', 'maitre formateur', 'maître ressources',
+    'référent du pôle', 'flsco', 'fle', 'enseignant spécialisé primaire',
+    'orthopédagogue', 'conseiller pédagogique 1er', 'conseillère pédagogique 1er',
+    'conseiller.e pédagogique 1er',
+  ],
+  '2nd degré': [
+    'mathématiques', 'mathematiques', 'physique', 'chimie', 'svt', 'histoire',
+    'géographie', 'geographie', 'lettres', 'philosophie', 'ses', 'eps',
+    'technologie', 'snt', 'sciences', 'éducation musicale', 'education musicale',
+    'arts plastiques', 'documentaliste', 'second degré', 'second degre',
+    'secondaire', 'éducation physique', 'education physique', 'certifié', 'agrégé',
+    'certifie', 'agrege', 'eco gestion', 'eco-gestion', 'hggsp', 'nsi',
+    'sciences économiques', 'sciences economiques', 'sciences physiques',
+    'lettres modernes', 'lettres classiques', 'histoire-géographie',
+    'histoire géographie', 'histoire géo', 'histoire-geo',
+    'physique-chimie', 'physique chimie', 'éducation physique et sportive',
+    'education physique et sportive', 'arts plastiques', 'éducation musicale',
+    'musique', 'theatre', 'théâtre', 'français', 'francais', 'anglais',
+    'espagnol', 'allemand', 'italien', 'arabe', 'portugais', 'bachibac',
+    'enseignant - ', 'enseignant d', 'enseignant de ',
+    'conseiller pédagogique 2nd', 'conseillère pédagogique 2nd',
+    'conseiller.e pédagogique 2nd', 'hg ', 'h-g',
+  ],
+  'langues': [
+    'anglais', 'espagnol', 'allemand', 'italien', 'arabe', 'chinois',
+    'fle', 'flsco', 'portugais', 'luxembourgeois', 'langue', 'lva',
+    'néerlandais', 'neerlandais', 'malgache',
+  ],
+  'direction': [
+    'directeur', 'directrice', 'principal', 'proviseur', 'chef d\'établissement',
+    'chef detablissement', 'cpe', 'conseiller pédagogique', 'head of',
+    'coordinateur péda', 'adjoint de direction', 'proviseur adjoint',
+    'proviseure adjointe', 'responsable du site', 'directeur des programmes',
+    'directeur des services',
+  ],
+  'administratif': [
+    'administratif', 'daf', 'secrétaire', 'secretaire', 'assistant de direction',
+    'communication', 'rh', 'ressources humaines', 'gestionnaire', 'comptable',
+    'chef de projet', 'responsable administratif', 'directeur des services',
+    'directeur administratif', 'parcours avenir', 'cppa',
+  ],
+  'sante': [
+    'infirmier', 'psychologue', 'orthophoniste', 'aesh', 'médecin', 'medecin',
+    'puériculteur', 'puericulteur', 'inclusif', 'erei', 'référent',
+    'école inclusive', 'ecole inclusive',
+  ],
+  'support': [
+    'laboratoire', 'entretien', 'accueil', 'technicien', 'aquatique', 'bassin',
+    'ouvrier', 'agent', 'maintenance', 'cuisinier', 'bibliothécaire',
+    'bibliothecaire', 'bcd', 'robotique', 'danse', 'surveillant', 'informatique',
+    'chauffeur', 'coursier', 'garderie',
+  ],
+};
 
   function getCategory(o) {
     const text = (o.titre + ' ' + (o.discipline||'')).toLowerCase();
