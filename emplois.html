@@ -1206,21 +1206,37 @@
       counts[f.cls] = (counts[f.cls] || 0) + 1;
     });
 
-    const items = [
-      { cls: 'today',   color: '#e53935', label: "Aujourd'hui" },
-      { cls: 'fraiche', color: '#4caf50', label: 'Fraîches' },
-      { cls: 'recente', color: '#f9a825', label: 'Récentes' },
-      { cls: 'encours', color: '#ef6c00', label: 'En cours' },
-      { cls: 'tenace',  color: '#bdbdbd', label: 'Tenaces' },
-    ];
+    const itemsAEFE = [
+  { cls: 'today',   color: '#e53935', label: "Aujourd'hui" },
+  { cls: 'fraiche', color: '#4caf50', label: 'Fraîches' },
+  { cls: 'recente', color: '#f9a825', label: 'Récentes' },
+  { cls: 'encours', color: '#ef6c00', label: 'En cours' },
+  { cls: 'tenace',  color: '#bdbdbd', label: 'Tenaces' },
+];
 
-    document.getElementById('metaStats').innerHTML = items
-      .filter(i => counts[i.cls] > 0)
-      .map(i => `
-        <div class="stat-pill">
-          <span class="sdot" style="background:${i.color}"></span>
-          <span class="scount">${counts[i.cls]}</span> ${i.label}
-        </div>`).join('');
+const itemsMLF = [
+  { cls: 'mlf-today', color: '#e53935', label: "Ferment aujourd'hui" },
+  { cls: 'mlf-soon',  color: '#4caf50', label: 'Ferment dans 7j' },
+  { cls: 'mlf-month', color: '#f9a825', label: 'Ferment dans 30j' },
+  { cls: 'mlf-open',  color: '#ef6c00', label: 'Ferment dans +30j' },
+  { cls: 'expired',   color: '#bdbdbd', label: 'Expirées' },
+];
+
+const labelStyle = 'font-size:0.72rem;font-weight:600;color:rgba(255,255,255,0.5);letter-spacing:0.5px;margin-right:4px;';
+
+const pillsAEFE = itemsAEFE.filter(i => counts[i.cls] > 0)
+  .map(i => `<div class="stat-pill"><span class="sdot" style="background:${i.color}"></span><span class="scount">${counts[i.cls]}</span> ${i.label}</div>`).join('');
+
+const pillsMLF = itemsMLF.filter(i => counts[i.cls] > 0)
+  .map(i => `<div class="stat-pill"><span class="sdot" style="background:${i.color}"></span><span class="scount">${counts[i.cls]}</span> ${i.label}</div>`).join('');
+
+document.getElementById('metaStats').innerHTML = `
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+    <span style="${labelStyle}">AEFE</span>${pillsAEFE}
+  </div>
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:8px;">
+    <span style="${labelStyle}">MLF</span>${pillsMLF}
+  </div>`;
   }
 
   // ── Chargement des deux sources en parallèle ─────────────────
