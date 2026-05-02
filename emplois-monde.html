@@ -69,6 +69,16 @@
   .badge-sans { background: #fde8c0; color: var(--orange); }
   .pays-count { font-size: 0.78rem; font-weight: 600; color: var(--vert); flex-shrink: 0; }
   .pays-count.sans { color: var(--orange); }
+  .pays-card.ferme { border-color: #e03030; background: #fff5f5; }
+  .pays-card.ferme:hover { border-color: #c02020; background: #ffe8e8; }
+  .badge-ferme { background: #fde8e8; color: #c02020; }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+  .blink { animation: blink 1.5s infinite; }
+  .pays-card.ferme { border-color: #e03030; background: #fff5f5; }
+  .pays-card.ferme:hover { border-color: #c02020; background: #ffe8e8; }
+  .badge-ferme { background: #fde8e8; color: #c02020; }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+  .blink { animation: blink 1.5s infinite; }
 
   .legend { display: flex; gap: 20px; margin-bottom: 32px; font-size: 0.82rem; color: var(--gris-moyen); flex-wrap: wrap; }
   .legend-item { display: flex; align-items: center; gap: 6px; }
@@ -131,6 +141,8 @@
   <div class="legend">
     <div class="legend-item"><div class="legend-dot ecole"></div> Pays avec établissement français — offres disponibles</div>
     <div class="legend-item"><div class="legend-dot sans"></div> Pas encore d'établissement — page contextuelle</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#fde8e8;border:1.5px solid #c02020"></div> École française fermée ou suspendue</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#fde8e8;border:1.5px solid #c02020"></div> École française fermée ou suspendue</div>
   </div>
   <div id="regions"></div>
   <div class="no-results" id="noResults" style="display:none">Aucun pays trouvé.</div>
@@ -203,6 +215,14 @@ const PAYS = {
       { nom: "Tunisie", drapeau: "🇹🇳", slug: "tunisie", type: "ecole", filtre: "tunisie" },
       { nom: "Zambie", drapeau: "🇿🇲", slug: "zambie", type: "ecole", filtre: "zambie" },
       { nom: "Zimbabwe", drapeau: "🇿🇼", slug: null, type: "ecole", filtre: "zimbabwe" },
+      { nom: "Soudan", drapeau: "🇸🇩", slug: null, type: "ferme", filtre: null, raison: "École française de Khartoum — fermée depuis avril 2023 (guerre civile)" },
+      { nom: "Libye", drapeau: "🇱🇾", slug: null, type: "ferme", filtre: null, raison: "Aucun établissement depuis 2011 (guerre civile)" },
+      { nom: "Niger", drapeau: "🇳🇪", slug: null, type: "ferme", filtre: null, raison: "Lycée français de Niamey — activité suspendue suite au coup d'État (juillet 2023)" },
+      { nom: "Afghanistan", drapeau: "🇦🇫", slug: null, type: "ferme", filtre: null, raison: "Lycées Esteqlal et Malalay — fermés depuis août 2021 (retour des talibans)" },
+      { nom: "Soudan", drapeau: "🇸🇩", slug: null, type: "ferme", filtre: null, raison: "École française de Khartoum — fermée depuis avril 2023 (guerre civile)" },
+      { nom: "Libye", drapeau: "🇱🇾", slug: null, type: "ferme", filtre: null, raison: "Aucun établissement depuis 2011 (guerre civile)" },
+      { nom: "Niger", drapeau: "🇳🇪", slug: null, type: "ferme", filtre: null, raison: "Lycée français de Niamey — activité suspendue suite au coup d'État (juillet 2023)" },
+      { nom: "Afghanistan", drapeau: "🇦🇫", slug: null, type: "ferme", filtre: null, raison: "Lycées Esteqlal et Malalay — fermés depuis août 2021 (retour des talibans)" },
     ]
   },
   "europe": {
@@ -268,8 +288,8 @@ const PAYS = {
       { nom: "Oman", drapeau: "🇴🇲", slug: null, type: "ecole", filtre: "oman" },
       { nom: "Palestine", drapeau: "🇵🇸", slug: null, type: "ecole", filtre: "palestine" },
       { nom: "Qatar", drapeau: "🇶🇦", slug: "qatar", type: "ecole", filtre: "qatar" },
-      { nom: "Syrie", drapeau: "🇸🇾", slug: null, type: "ecole", filtre: "syrie" },
-      { nom: "Yémen", drapeau: "🇾🇪", slug: null, type: "ecole", filtre: "yémen" },
+      { nom: "Syrie", drapeau: "🇸🇾", slug: null, type: "ferme", filtre: null, raison: "Aucun établissement depuis 2012 (guerre civile)" },
+      { nom: "Yémen", drapeau: "🇾🇪", slug: null, type: "ferme", filtre: null, raison: "Aucun établissement depuis 2015 (conflit)" },
     ]
   },
   "ameriques": {
@@ -322,7 +342,7 @@ const PAYS = {
       { nom: "Laos", drapeau: "🇱🇦", slug: "laos", type: "ecole", filtre: "laos" },
       { nom: "Malaisie", drapeau: "🇲🇾", slug: "malaisie", type: "ecole", filtre: "malaisie" },
       { nom: "Mongolie", drapeau: "🇲🇳", slug: null, type: "ecole", filtre: "mongolie" },
-      { nom: "Myanmar", drapeau: "🇲🇲", slug: "myanmar", type: "ecole", filtre: "myanmar" },
+      { nom: "Myanmar", drapeau: "🇲🇲", slug: "myanmar", type: "ferme", filtre: null, raison: "Établissements sous pression depuis le coup d'État militaire (2021)" },
       { nom: "Népal", drapeau: "🇳🇵", slug: "nepal", type: "ecole", filtre: "népal" },
       { nom: "Ouzbékistan", drapeau: "🇺🇿", slug: null, type: "ecole", filtre: "ouzbékistan" },
       { nom: "Pakistan", drapeau: "🇵🇰", slug: "pakistan", type: "sans", filtre: null },
@@ -427,7 +447,7 @@ function render() {
       const url = getUrl(p);
 
       const card = document.createElement('a');
-      card.className = `pays-card${p.type === 'sans' ? ' sans-ecole' : ''}`;
+      card.className = `pays-card${p.type === 'sans' ? ' sans-ecole' : ''}${p.type === 'ferme' ? ' ferme' : ''}`;
       card.href = url;
 
       card.innerHTML = `
