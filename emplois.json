@@ -1,7 +1,18 @@
 {
-  "updated": "2026-05-01 18:04",
+  "updated": "2026-05-02 07:09",
   "total": 663,
   "offers": [
+    {
+      "id": 4363191,
+      "titre": "Professeur des écoles (CP) - F/H - TIRANA - ALBANIE",
+      "etab": "",
+      "ville": "Lundër 1",
+      "pays": "Albanie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "01/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4363191-professeur-des-ecoles-cp-fh-tirana-albanie-lunder-1"
+    },
     {
       "id": 4362983,
       "titre": "Professeur Histoire géographie et SES - PODGORICA - MONTENEGRO",
@@ -5598,7 +5609,7 @@
       "pays": "Cambodge",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "",
+      "date": "28/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4207709-professeur-des-ecoles-fh-battambang-cambodge-krong-battambang"
     },
     {
@@ -7151,17 +7162,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "11/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3630115-professeur-du-second-degre-physique-chimie-bamako-mali-bamako"
-    },
-    {
-      "id": 3562249,
-      "titre": "Agent spécialisé des écoles maternelles (ASEM) - F/H - BUDAPEST - HONGRIE",
-      "etab": "",
-      "ville": "Budapest",
-      "pays": "Hongrie",
-      "contrat": "Contrat permanent",
-      "discipline": "Aide maternelle F/H",
-      "date": "03/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3562249-agent-specialise-des-ecoles-maternelles-asem-fh-budapest-hongrie-1029-budapest"
     },
     {
       "id": 3561629,
