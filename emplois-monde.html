@@ -74,11 +74,6 @@
   .badge-ferme { background: #fde8e8; color: #c02020; }
   @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
   .blink { animation: blink 1.5s infinite; }
-  .pays-card.ferme { border-color: #e03030; background: #fff5f5; }
-  .pays-card.ferme:hover { border-color: #c02020; background: #ffe8e8; }
-  .badge-ferme { background: #fde8e8; color: #c02020; }
-  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
-  .blink { animation: blink 1.5s infinite; }
 
   .legend { display: flex; gap: 20px; margin-bottom: 32px; font-size: 0.82rem; color: var(--gris-moyen); flex-wrap: wrap; }
   .legend-item { display: flex; align-items: center; gap: 6px; }
@@ -215,10 +210,6 @@ const PAYS = {
       { nom: "Tunisie", drapeau: "🇹🇳", slug: "tunisie", type: "ecole", filtre: "tunisie" },
       { nom: "Zambie", drapeau: "🇿🇲", slug: "zambie", type: "ecole", filtre: "zambie" },
       { nom: "Zimbabwe", drapeau: "🇿🇼", slug: null, type: "ecole", filtre: "zimbabwe" },
-      { nom: "Soudan", drapeau: "🇸🇩", slug: null, type: "ferme", filtre: null, raison: "École française de Khartoum — fermée depuis avril 2023 (guerre civile)" },
-      { nom: "Libye", drapeau: "🇱🇾", slug: null, type: "ferme", filtre: null, raison: "Aucun établissement depuis 2011 (guerre civile)" },
-      { nom: "Niger", drapeau: "🇳🇪", slug: null, type: "ferme", filtre: null, raison: "Lycée français de Niamey — activité suspendue suite au coup d'État (juillet 2023)" },
-      { nom: "Afghanistan", drapeau: "🇦🇫", slug: null, type: "ferme", filtre: null, raison: "Lycées Esteqlal et Malalay — fermés depuis août 2021 (retour des talibans)" },
       { nom: "Soudan", drapeau: "🇸🇩", slug: null, type: "ferme", filtre: null, raison: "École française de Khartoum — fermée depuis avril 2023 (guerre civile)" },
       { nom: "Libye", drapeau: "🇱🇾", slug: null, type: "ferme", filtre: null, raison: "Aucun établissement depuis 2011 (guerre civile)" },
       { nom: "Niger", drapeau: "🇳🇪", slug: null, type: "ferme", filtre: null, raison: "Lycée français de Niamey — activité suspendue suite au coup d'État (juillet 2023)" },
@@ -454,8 +445,8 @@ function render() {
         <span class="pays-drapeau">${p.drapeau}</span>
         <div class="pays-info">
           <div class="pays-nom">${p.nom}</div>
-          <span class="pays-badge ${p.type === 'sans' ? 'badge-sans' : 'badge-offres'}">
-            ${p.type === 'sans' ? 'Pas d\'établissement' : 'Établissement français'}
+          <span class="pays-badge ${p.type === 'ferme' ? 'badge-ferme blink' : p.type === 'sans' ? 'badge-sans' : 'badge-offres'}">
+            ${p.type === 'ferme' ? 'École fermée' : p.type === 'sans' ? 'Pas d'établissement' : 'Établissement français'}
           </span>
         </div>
         ${p.type === 'ecole' && count > 0 ? `<span class="pays-count">${count}</span>` : ''}
