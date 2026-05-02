@@ -72,6 +72,9 @@
   .pays-card.ferme { border-color: #e03030; background: #fff5f5; }
   .pays-card.ferme:hover { border-color: #c02020; background: #ffe8e8; }
   .badge-ferme { background: #fde8e8; color: #c02020; }
+  .pays-card.territoire { border-color: #4169E1; background: #f0f4ff; }
+  .pays-card.territoire:hover { border-color: #1a3fa0; background: #e0e8ff; }
+  .badge-territoire { background: #e0e8ff; color: #1a3fa0; }
   @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
   .blink { animation: blink 1.5s infinite; }
 
@@ -129,6 +132,7 @@
     <span class="region-pill" onclick="filtrerRegion(this, 'ameriques')">🌎 Amériques</span>
     <span class="region-pill" onclick="filtrerRegion(this, 'asie')">🌏 Asie</span>
     <span class="region-pill" onclick="filtrerRegion(this, 'oceanie')">🏝️ Océanie</span>
+    <span class="region-pill" onclick="filtrerRegion(this, 'territoires')">🇫🇷 Territoires</span>
   </div>
 </div>
 
@@ -137,6 +141,7 @@
     <div class="legend-item"><div class="legend-dot ecole"></div> Pays avec établissement français — offres disponibles</div>
     <div class="legend-item"><div class="legend-dot sans"></div> Pas encore d'établissement — page contextuelle</div>
     <div class="legend-item"><div class="legend-dot" style="background:#fde8e8;border:1.5px solid #c02020"></div> École française fermée ou suspendue</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#e0e8ff;border:1.5px solid #4169E1"></div> Territoire français</div>
   </div>
   <div id="regions"></div>
   <div class="no-results" id="noResults" style="display:none">Aucun pays trouvé.</div>
@@ -347,6 +352,22 @@ const PAYS = {
       { nom: "Vietnam", drapeau: "🇻🇳", slug: "vietnam", type: "ecole", filtre: "vietnam" },
     ]
   },
+  
+  "territoires": {
+    label: "🇫🇷 Territoires français",
+    pays: [
+      { nom: "La Réunion", drapeau: "🇷🇪", slug: "reunion", type: "territoire", filtre: "réunion" },
+      { nom: "Martinique", drapeau: "🇲🇶", slug: "martinique", type: "territoire", filtre: "martinique" },
+      { nom: "Guadeloupe", drapeau: "🇬🇵", slug: "guadeloupe", type: "territoire", filtre: "guadeloupe" },
+      { nom: "Mayotte", drapeau: "🇾🇹", slug: "mayotte", type: "territoire", filtre: "mayotte" },
+      { nom: "Polynésie française", drapeau: "🇵🇫", slug: "polynesie", type: "territoire", filtre: "polynésie" },
+      { nom: "Nouvelle-Calédonie", drapeau: "🇳🇨", slug: "nouvelle-caledonie", type: "territoire", filtre: "calédonie" },
+      { nom: "Wallis-et-Futuna", drapeau: "🇼🇫", slug: "wallis-futuna", type: "territoire", filtre: "wallis" },
+      { nom: "Saint-Pierre-et-Miquelon", drapeau: "🇵🇲", slug: "saint-pierre-miquelon", type: "territoire", filtre: "saint-pierre" },
+      { nom: "Saint-Barthélemy", drapeau: "🇧🇱", slug: "saint-barthelemy", type: "territoire", filtre: "saint-barthélemy" },
+      { nom: "Saint-Martin", drapeau: "🇲🇫", slug: "saint-martin", type: "territoire", filtre: "saint-martin" },
+    ]
+  },
   "oceanie": {
     label: "🏝️ Océanie",
     pays: [
@@ -437,15 +458,15 @@ function render() {
       const url = getUrl(p);
 
       const card = document.createElement('a');
-      card.className = `pays-card${p.type === 'sans' ? ' sans-ecole' : ''}${p.type === 'ferme' ? ' ferme' : ''}`;
+      card.className = `pays-card${p.type === 'sans' ? ' sans-ecole' : ''}${p.type === 'ferme' ? ' ferme' : ''}${p.type === 'territoire' ? ' territoire' : ''}`;
       card.href = url;
 
       card.innerHTML = `
         <span class="pays-drapeau">${p.drapeau}</span>
         <div class="pays-info">
           <div class="pays-nom">${p.nom}</div>
-          <span class="pays-badge ${p.type === 'ferme' ? 'badge-ferme blink' : p.type === 'sans' ? 'badge-sans' : 'badge-offres'}">
-            ${p.type === 'ferme' ? 'École fermée' : p.type === 'sans' ? 'Pas d&apos;établissement' : 'Établissement français'}
+          <span class="pays-badge ${p.type === 'ferme' ? 'badge-ferme blink' : p.type === 'territoire' ? 'badge-territoire' : p.type === 'sans' ? 'badge-sans' : 'badge-offres'}">
+            ${p.type === 'ferme' ? 'École fermée' : p.type === 'territoire' ? 'Territoire français' : p.type === 'sans' ? 'Pas d&apos;établissement' : 'Établissement français'}
           </span>
         </div>
         ${p.type === 'ecole' && count > 0 ? `<span class="pays-count">${count}</span>` : ''}
