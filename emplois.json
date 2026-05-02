@@ -1,7 +1,40 @@
 {
-  "updated": "2026-05-02 07:09",
-  "total": 663,
+  "updated": "2026-05-02 18:23",
+  "total": 662,
   "offers": [
+    {
+      "id": 4363449,
+      "titre": "Professeur de SVT H/F",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "02/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4363449-professeur-de-svt-hf-bp-157-abidjan"
+    },
+    {
+      "id": 4363447,
+      "titre": "Professeur d'Histoire-Géographie-EMC",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "02/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4363447-professeur-dhistoire-geographie-emc-bp-157-abidjan"
+    },
+    {
+      "id": 4363439,
+      "titre": "Professeur de Lettres Modernes ou Classiques H/F",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "02/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4363439-professeur-de-lettres-modernes-ou-classiques-hf-bp-157-abidjan"
+    },
     {
       "id": 4363191,
       "titre": "Professeur des écoles (CP) - F/H - TIRANA - ALBANIE",
@@ -5206,39 +5239,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4254809-professeur-des-ecoles-fh-ottawa-canada-k1k-3l5-ottawa"
     },
     {
-      "id": 4254609,
-      "titre": "PROFESSEUR DE SVT - F/H - LYCEE LEON L'AFRICAIN DE RABAT - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "03/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4254609-professeur-de-svt-fh-lycee-leon-lafricain-de-rabat-rabat-maroc-rabat"
-    },
-    {
-      "id": 4253289,
-      "titre": "Professeur du Second Degré - LV Espagnol - F/H - ARIANA - TUNISIE",
-      "etab": "",
-      "ville": "Ariana",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "03/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4253289-professeur-du-second-degre-lv-espagnol-fh-ariana-tunisie-2094-ariana"
-    },
-    {
-      "id": 4252773,
-      "titre": "Directeur des Services - F/H - DUBAI - EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Directeur Administratif et Financier F/H",
-      "date": "03/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4252773-directeur-des-services-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
       "id": 4250757,
       "titre": "Professeur d'EPS - F/H - Lycée Voltaire - LE CAIRE - EGYPTE",
       "etab": "",
@@ -6315,17 +6315,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "28/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4132659-professeur-du-second-degre-mathematiques-fh-shanghai-chine-shanghai"
-    },
-    {
-      "id": 4130043,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - VIENTIANE - LAOS",
-      "etab": "",
-      "ville": "Vientiane",
-      "pays": "Laos",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "03/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4130043-professeur-du-second-degre-mathematiques-fh-vientiane-laos-vientiane"
     },
     {
       "id": 4130035,
