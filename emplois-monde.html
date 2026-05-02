@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emplois dans les établissements français dans le monde | Postes Réseau Français</title>
+<meta name="description" content="Toutes les offres d'emploi dans les établissements français à l'étranger, classées par pays et région. AEFE et MLF dans 130+ pays.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://emplois-scolaires-monde.online/emplois-monde.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --vert: #5a8a3c; --vert-clair: #7ab055; --vert-pale: #eef4e9;
+    --gris-fonce: #1a1f16; --gris-moyen: #4a5240; --gris-clair: #e8ede4; --blanc: #fafcf8;
+    --orange: #c07a2a; --orange-pale: #fdf2e4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--blanc); color: var(--gris-fonce); }
+
+  header { background: var(--gris-fonce); padding: 20px 40px; display: flex; align-items: center; border-bottom: 3px solid var(--vert); }
+  .logo { font-family: 'Playfair Display', serif; font-size: 1.4rem; text-decoration: none; }
+  header nav { margin-left: auto; display: flex; gap: 12px; }
+  header nav a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: color 0.2s; }
+  header nav a:hover { color: #fff; }
+
+  .hero { background: linear-gradient(135deg, var(--gris-fonce) 0%, #2d3a26 100%); padding: 60px 40px 50px; }
+  .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 4vw, 2.8rem); color: #fff; line-height: 1.2; margin-bottom: 16px; }
+  .hero p { color: rgba(255,255,255,0.75); font-size: 1rem; max-width: 650px; line-height: 1.6; margin-bottom: 28px; }
+  .hero-stats { display: flex; gap: 16px; flex-wrap: wrap; }
+  .stat { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 20px; padding: 6px 16px; font-size: 0.82rem; color: rgba(255,255,255,0.8); }
+  .stat strong { color: #fff; }
+
+  .search-bar { background: #fff; border-bottom: 1px solid var(--gris-clair); padding: 16px 40px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 12px rgba(0,0,0,0.06); display: flex; gap: 12px; align-items: center; }
+  .search-bar input { flex: 1; max-width: 400px; padding: 9px 16px; border: 1.5px solid var(--gris-clair); border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 0.9rem; outline: none; transition: border-color 0.2s; }
+  .search-bar input:focus { border-color: var(--vert); }
+  .region-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+  .region-pill { font-size: 0.78rem; font-weight: 500; padding: 5px 12px; border-radius: 20px; border: 1.5px solid var(--gris-clair); background: #fff; color: var(--gris-moyen); cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+  .region-pill:hover { border-color: var(--vert); color: var(--vert); }
+  .region-pill.active { background: var(--vert); border-color: var(--vert); color: #fff; }
+
+  .content { max-width: 1100px; margin: 0 auto; padding: 40px 40px 80px; }
+
+  .region-section { margin-bottom: 48px; }
+  .region-title { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--gris-fonce); margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid var(--gris-clair); display: flex; align-items: center; gap: 10px; }
+
+  .pays-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+
+  .pays-card {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1.5px solid var(--gris-clair);
+    background: #fff;
+    text-decoration: none;
+    color: var(--gris-fonce);
+    transition: all 0.15s;
+    cursor: pointer;
+  }
+  .pays-card:hover { border-color: var(--vert); background: var(--vert-pale); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(90,138,60,0.12); }
+  .pays-card.sans-ecole { border-color: #e8c090; background: #fffaf4; }
+  .pays-card.sans-ecole:hover { border-color: var(--orange); background: var(--orange-pale); }
+
+  .pays-drapeau { font-size: 1.4rem; flex-shrink: 0; }
+  .pays-info { flex: 1; min-width: 0; }
+  .pays-nom { font-size: 0.88rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pays-badge { font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 4px; margin-top: 3px; display: inline-block; }
+  .badge-offres { background: var(--vert-pale); color: var(--vert); }
+  .badge-sans { background: #fde8c0; color: var(--orange); }
+  .pays-count { font-size: 0.78rem; font-weight: 600; color: var(--vert); flex-shrink: 0; }
+  .pays-count.sans { color: var(--orange); }
+
+  .legend { display: flex; gap: 20px; margin-bottom: 32px; font-size: 0.82rem; color: var(--gris-moyen); flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 3px; }
+  .legend-dot.ecole { background: var(--vert-pale); border: 1.5px solid var(--vert); }
+  .legend-dot.sans { background: #fde8c0; border: 1.5px solid var(--orange); }
+
+  .no-results { text-align: center; padding: 60px 20px; color: var(--gris-moyen); }
+
+  footer { background: #1a1f16; color: #9ca3af; text-align: center; padding: 20px; font-size: 0.8rem; }
+  footer a { color: #7ab055; text-decoration: none; }
+
+  @media (max-width: 768px) {
+    header { padding: 16px 20px; }
+    .hero { padding: 40px 20px; }
+    .search-bar { padding: 12px 16px; flex-direction: column; align-items: stretch; }
+    .content { padding: 24px 16px 60px; }
+    .pays-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="logo">
+    <span style="color:#4169E1">Postes</span>
+    <span style="color:#ffffff"> Réseau </span>
+    <span style="color:#ED2939">Français</span>
+  </a>
+  <nav>
+    <a href="/emplois.html">💼 Toutes les offres</a>
+    <a href="/alertes.html">🔔 Alertes</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Emplois dans les établissements français dans le monde</h1>
+  <p>Explorez les offres d'emploi par pays. Cliquez sur un pays pour voir les postes disponibles dans les établissements AEFE et MLF.</p>
+  <div class="hero-stats">
+    <div class="stat"><strong id="totalPays">195</strong> pays couverts</div>
+    <div class="stat"><strong id="totalAvec">130+</strong> avec établissement français</div>
+    <div class="stat"><strong id="totalOffres">…</strong> offres actuellement</div>
+  </div>
+</section>
+
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="🔍 Rechercher un pays…" oninput="filtrer()">
+  <div class="region-pills">
+    <span class="region-pill active" onclick="filtrerRegion(this, 'all')">Tous</span>
+    <span class="region-pill" onclick="filtrerRegion(this, 'afrique')">🌍 Afrique</span>
+    <span class="region-pill" onclick="filtrerRegion(this, 'europe')">🇪🇺 Europe</span>
+    <span class="region-pill" onclick="filtrerRegion(this, 'moyen-orient')">🕌 Moyen-Orient</span>
+    <span class="region-pill" onclick="filtrerRegion(this, 'ameriques')">🌎 Amériques</span>
+    <span class="region-pill" onclick="filtrerRegion(this, 'asie')">🌏 Asie</span>
+    <span class="region-pill" onclick="filtrerRegion(this, 'oceanie')">🏝️ Océanie</span>
+  </div>
+</div>
+
+<div class="content">
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot ecole"></div> Pays avec établissement français — offres disponibles</div>
+    <div class="legend-item"><div class="legend-dot sans"></div> Pas encore d'établissement — page contextuelle</div>
+  </div>
+  <div id="regions"></div>
+  <div class="no-results" id="noResults" style="display:none">Aucun pays trouvé.</div>
+</div>
+
+<footer>
+  <p>© 2026 emplois-scolaires-monde.online — Tous droits réservés</p>
+  <p style="margin-top:8px">
+    <a href="/legal.html">Mentions légales & CGV</a>
+    · <a href="/privacy.html">Confidentialité</a>
+    · <a href="mailto:contact@emplois-scolaires-monde.online">Contact</a>
+    · <a href="/emplois.html">Offres</a>
+    · <a href="/alertes.html">Alertes</a>
+  </p>
+</footer>
+
+<script>
+// ── Données pays ──────────────────────────────────────────────────────────────
+// avec-ecole : renvoi vers /emplois.html?pays=xxx
+// sans-ecole : renvoi vers /emplois-slug.html
+
+const PAYS = {
+  "afrique": {
+    label: "🌍 Afrique",
+    pays: [
+      { nom: "Afrique du Sud", drapeau: "🇿🇦", slug: "afrique-du-sud", type: "ecole", filtre: "afrique du sud" },
+      { nom: "Algérie", drapeau: "🇩🇿", slug: "algerie", type: "ecole", filtre: "algérie" },
+      { nom: "Angola", drapeau: "🇦🇴", slug: "angola", type: "ecole", filtre: "angola" },
+      { nom: "Bénin", drapeau: "🇧🇯", slug: "benin", type: "ecole", filtre: "bénin" },
+      { nom: "Botswana", drapeau: "🇧🇼", slug: "botswana", type: "sans", filtre: null },
+      { nom: "Burkina Faso", drapeau: "🇧🇫", slug: null, type: "ecole", filtre: "burkina faso" },
+      { nom: "Burundi", drapeau: "🇧🇮", slug: "burundi", type: "ecole", filtre: "burundi" },
+      { nom: "Cameroun", drapeau: "🇨🇲", slug: "cameroun", type: "ecole", filtre: "cameroun" },
+      { nom: "Cap-Vert", drapeau: "🇨🇻", slug: null, type: "ecole", filtre: "cap-vert" },
+      { nom: "Comores", drapeau: "🇰🇲", slug: null, type: "ecole", filtre: "comores" },
+      { nom: "Congo-Brazzaville", drapeau: "🇨🇬", slug: "congo-brazzaville", type: "ecole", filtre: "congo-brazzaville" },
+      { nom: "Côte d'Ivoire", drapeau: "🇨🇮", slug: "cote-d-ivoire", type: "ecole", filtre: "côte d'ivoire" },
+      { nom: "Djibouti", drapeau: "🇩🇯", slug: "djibouti", type: "ecole", filtre: "djibouti" },
+      { nom: "Égypte", drapeau: "🇪🇬", slug: "egypte", type: "ecole", filtre: "égypte" },
+      { nom: "Érythrée", drapeau: "🇪🇷", slug: "erythree", type: "sans", filtre: null },
+      { nom: "Éthiopie", drapeau: "🇪🇹", slug: "ethiopie", type: "ecole", filtre: "éthiopie" },
+      { nom: "Gabon", drapeau: "🇬🇦", slug: "gabon", type: "ecole", filtre: "gabon" },
+      { nom: "Gambie", drapeau: "🇬🇲", slug: null, type: "ecole", filtre: "gambie" },
+      { nom: "Ghana", drapeau: "🇬🇭", slug: "ghana", type: "ecole", filtre: "ghana" },
+      { nom: "Guinée", drapeau: "🇬🇳", slug: "guinee", type: "ecole", filtre: "guinée" },
+      { nom: "Guinée équatoriale", drapeau: "🇬🇶", slug: "guinee-equatoriale", type: "ecole", filtre: "guinée équatoriale" },
+      { nom: "Guinée-Bissau", drapeau: "🇬🇼", slug: null, type: "ecole", filtre: "guinée-bissau" },
+      { nom: "Île Maurice", drapeau: "🇲🇺", slug: "ile-maurice", type: "ecole", filtre: "île maurice" },
+      { nom: "Kenya", drapeau: "🇰🇪", slug: "kenya", type: "ecole", filtre: "kenya" },
+      { nom: "Libéria", drapeau: "🇱🇷", slug: "liberia", type: "sans", filtre: null },
+      { nom: "Madagascar", drapeau: "🇲🇬", slug: "madagascar", type: "ecole", filtre: "madagascar" },
+      { nom: "Malawi", drapeau: "🇲🇼", slug: "malawi", type: "sans", filtre: null },
+      { nom: "Mali", drapeau: "🇲🇱", slug: "mali", type: "ecole", filtre: "mali" },
+      { nom: "Maroc", drapeau: "🇲🇦", slug: "maroc", type: "ecole", filtre: "maroc" },
+      { nom: "Mauritanie", drapeau: "🇲🇷", slug: "mauritanie", type: "ecole", filtre: "mauritanie" },
+      { nom: "Mozambique", drapeau: "🇲🇿", slug: "mozambique", type: "ecole", filtre: "mozambique" },
+      { nom: "Namibie", drapeau: "🇳🇦", slug: "namibie", type: "sans", filtre: null },
+      { nom: "Nigéria", drapeau: "🇳🇬", slug: "nigeria", type: "ecole", filtre: "nigéria" },
+      { nom: "Ouganda", drapeau: "🇺🇬", slug: "ouganda", type: "ecole", filtre: "ouganda" },
+      { nom: "RD Congo", drapeau: "🇨🇩", slug: "republique-democratique-du-congo", type: "ecole", filtre: "rdc" },
+      { nom: "Rwanda", drapeau: "🇷🇼", slug: null, type: "ecole", filtre: "rwanda" },
+      { nom: "Sénégal", drapeau: "🇸🇳", slug: "senegal", type: "ecole", filtre: "sénégal" },
+      { nom: "Seychelles", drapeau: "🇸🇨", slug: "seychelles", type: "ecole", filtre: "seychelles" },
+      { nom: "Sierra Leone", drapeau: "🇸🇱", slug: "sierra-leone", type: "sans", filtre: null },
+      { nom: "Somalie", drapeau: "🇸🇴", slug: "somalie", type: "sans", filtre: null },
+      { nom: "Soudan du Sud", drapeau: "🇸🇸", slug: "soudan-du-sud", type: "sans", filtre: null },
+      { nom: "Tanzanie", drapeau: "🇹🇿", slug: "tanzanie", type: "ecole", filtre: "tanzanie" },
+      { nom: "Tchad", drapeau: "🇹🇩", slug: "tchad", type: "ecole", filtre: "tchad" },
+      { nom: "Togo", drapeau: "🇹🇬", slug: "togo", type: "ecole", filtre: "togo" },
+      { nom: "Tunisie", drapeau: "🇹🇳", slug: "tunisie", type: "ecole", filtre: "tunisie" },
+      { nom: "Zambie", drapeau: "🇿🇲", slug: "zambie", type: "ecole", filtre: "zambie" },
+      { nom: "Zimbabwe", drapeau: "🇿🇼", slug: null, type: "ecole", filtre: "zimbabwe" },
+    ]
+  },
+  "europe": {
+    label: "🇪🇺 Europe",
+    pays: [
+      { nom: "Albanie", drapeau: "🇦🇱", slug: "albanie", type: "ecole", filtre: "albanie" },
+      { nom: "Allemagne", drapeau: "🇩🇪", slug: "allemagne", type: "ecole", filtre: "allemagne" },
+      { nom: "Andorre", drapeau: "🇦🇩", slug: null, type: "ecole", filtre: "andorre" },
+      { nom: "Arménie", drapeau: "🇦🇲", slug: "armenie", type: "ecole", filtre: "arménie" },
+      { nom: "Autriche", drapeau: "🇦🇹", slug: "autriche", type: "ecole", filtre: "autriche" },
+      { nom: "Belgique", drapeau: "🇧🇪", slug: "belgique", type: "ecole", filtre: "belgique" },
+      { nom: "Biélorussie", drapeau: "🇧🇾", slug: "bielorussie", type: "sans", filtre: null },
+      { nom: "Bosnie-Herzégovine", drapeau: "🇧🇦", slug: "bosnie-herzegovine", type: "ecole", filtre: "bosnie" },
+      { nom: "Bulgarie", drapeau: "🇧🇬", slug: "bulgarie", type: "ecole", filtre: "bulgarie" },
+      { nom: "Chypre", drapeau: "🇨🇾", slug: "chypre", type: "ecole", filtre: "chypre" },
+      { nom: "Croatie", drapeau: "🇭🇷", slug: null, type: "ecole", filtre: "croatie" },
+      { nom: "Danemark", drapeau: "🇩🇰", slug: "danemark", type: "ecole", filtre: "danemark" },
+      { nom: "Espagne", drapeau: "🇪🇸", slug: "espagne", type: "ecole", filtre: "espagne" },
+      { nom: "Estonie", drapeau: "🇪🇪", slug: "estonie", type: "sans", filtre: null },
+      { nom: "Finlande", drapeau: "🇫🇮", slug: null, type: "ecole", filtre: "finlande" },
+      { nom: "Géorgie", drapeau: "🇬🇪", slug: null, type: "ecole", filtre: "géorgie" },
+      { nom: "Grèce", drapeau: "🇬🇷", slug: null, type: "ecole", filtre: "grèce" },
+      { nom: "Hongrie", drapeau: "🇭🇺", slug: "hongrie", type: "ecole", filtre: "hongrie" },
+      { nom: "Irlande", drapeau: "🇮🇪", slug: null, type: "ecole", filtre: "irlande" },
+      { nom: "Islande", drapeau: "🇮🇸", slug: "islande", type: "sans", filtre: null },
+      { nom: "Italie", drapeau: "🇮🇹", slug: "italie", type: "ecole", filtre: "italie" },
+      { nom: "Kosovo", drapeau: "🇽🇰", slug: "kosovo", type: "ecole", filtre: "kosovo" },
+      { nom: "Lettonie", drapeau: "🇱🇻", slug: "lettonie", type: "ecole", filtre: "lettonie" },
+      { nom: "Lituanie", drapeau: "🇱🇹", slug: "lituanie", type: "ecole", filtre: "lituanie" },
+      { nom: "Luxembourg", drapeau: "🇱🇺", slug: "luxembourg", type: "ecole", filtre: "luxembourg" },
+      { nom: "Macédoine du Nord", drapeau: "🇲🇰", slug: null, type: "ecole", filtre: "macédoine" },
+      { nom: "Moldavie", drapeau: "🇲🇩", slug: "moldavie", type: "sans", filtre: null },
+      { nom: "Monaco", drapeau: "🇲🇨", slug: null, type: "ecole", filtre: "monaco" },
+      { nom: "Monténégro", drapeau: "🇲🇪", slug: "montenegro", type: "ecole", filtre: "monténégro" },
+      { nom: "Norvège", drapeau: "🇳🇴", slug: null, type: "ecole", filtre: "norvège" },
+      { nom: "Pays-Bas", drapeau: "🇳🇱", slug: "pays-bas", type: "ecole", filtre: "pays-bas" },
+      { nom: "Pologne", drapeau: "🇵🇱", slug: null, type: "ecole", filtre: "pologne" },
+      { nom: "Portugal", drapeau: "🇵🇹", slug: "portugal", type: "ecole", filtre: "portugal" },
+      { nom: "Rép. tchèque", drapeau: "🇨🇿", slug: null, type: "ecole", filtre: "tchéquie" },
+      { nom: "Roumanie", drapeau: "🇷🇴", slug: "roumanie", type: "ecole", filtre: "roumanie" },
+      { nom: "Royaume-Uni", drapeau: "🇬🇧", slug: "royaume-uni", type: "ecole", filtre: "royaume-uni" },
+      { nom: "Russie", drapeau: "🇷🇺", slug: "russie", type: "ecole", filtre: "russie" },
+      { nom: "Serbie", drapeau: "🇷🇸", slug: "serbie", type: "ecole", filtre: "serbie" },
+      { nom: "Slovaquie", drapeau: "🇸🇰", slug: "slovaquie", type: "ecole", filtre: "slovaquie" },
+      { nom: "Slovénie", drapeau: "🇸🇮", slug: null, type: "ecole", filtre: "slovénie" },
+      { nom: "Suède", drapeau: "🇸🇪", slug: null, type: "ecole", filtre: "suède" },
+      { nom: "Suisse", drapeau: "🇨🇭", slug: "suisse", type: "ecole", filtre: "suisse" },
+      { nom: "Turquie", drapeau: "🇹🇷", slug: "turquie", type: "ecole", filtre: "turquie" },
+      { nom: "Ukraine", drapeau: "🇺🇦", slug: null, type: "ecole", filtre: "ukraine" },
+    ]
+  },
+  "moyen-orient": {
+    label: "🕌 Moyen-Orient",
+    pays: [
+      { nom: "Arabie Saoudite", drapeau: "🇸🇦", slug: "arabie-saoudite", type: "ecole", filtre: "arabie saoudite" },
+      { nom: "Bahreïn", drapeau: "🇧🇭", slug: "bahrein", type: "ecole", filtre: "bahreïn" },
+      { nom: "Émirats Arabes Unis", drapeau: "🇦🇪", slug: "emirats-arabes-unis", type: "ecole", filtre: "émirats" },
+      { nom: "Irak", drapeau: "🇮🇶", slug: null, type: "ecole", filtre: "irak" },
+      { nom: "Iran", drapeau: "🇮🇷", slug: null, type: "ecole", filtre: "iran" },
+      { nom: "Jordanie", drapeau: "🇯🇴", slug: "jordanie", type: "ecole", filtre: "jordanie" },
+      { nom: "Koweït", drapeau: "🇰🇼", slug: "koweit", type: "ecole", filtre: "koweït" },
+      { nom: "Liban", drapeau: "🇱🇧", slug: "liban", type: "ecole", filtre: "liban" },
+      { nom: "Oman", drapeau: "🇴🇲", slug: null, type: "ecole", filtre: "oman" },
+      { nom: "Palestine", drapeau: "🇵🇸", slug: null, type: "ecole", filtre: "palestine" },
+      { nom: "Qatar", drapeau: "🇶🇦", slug: "qatar", type: "ecole", filtre: "qatar" },
+      { nom: "Syrie", drapeau: "🇸🇾", slug: null, type: "ecole", filtre: "syrie" },
+      { nom: "Yémen", drapeau: "🇾🇪", slug: null, type: "ecole", filtre: "yémen" },
+    ]
+  },
+  "ameriques": {
+    label: "🌎 Amériques",
+    pays: [
+      { nom: "Argentine", drapeau: "🇦🇷", slug: null, type: "ecole", filtre: "argentine" },
+      { nom: "Barbade", drapeau: "🇧🇧", slug: "barbade", type: "sans", filtre: null },
+      { nom: "Belize", drapeau: "🇧🇿", slug: "belize", type: "sans", filtre: null },
+      { nom: "Bolivie", drapeau: "🇧🇴", slug: "bolivie", type: "ecole", filtre: "bolivie" },
+      { nom: "Brésil", drapeau: "🇧🇷", slug: "bresil", type: "ecole", filtre: "brésil" },
+      { nom: "Canada", drapeau: "🇨🇦", slug: "canada", type: "ecole", filtre: "canada" },
+      { nom: "Chili", drapeau: "🇨🇱", slug: "chili", type: "ecole", filtre: "chili" },
+      { nom: "Colombie", drapeau: "🇨🇴", slug: "colombie", type: "ecole", filtre: "colombie" },
+      { nom: "Costa Rica", drapeau: "🇨🇷", slug: null, type: "ecole", filtre: "costa rica" },
+      { nom: "Cuba", drapeau: "🇨🇺", slug: null, type: "ecole", filtre: "cuba" },
+      { nom: "Équateur", drapeau: "🇪🇨", slug: "equateur", type: "ecole", filtre: "équateur" },
+      { nom: "États-Unis", drapeau: "🇺🇸", slug: "etats-unis", type: "ecole", filtre: "états-unis" },
+      { nom: "Guatemala", drapeau: "🇬🇹", slug: "guatemala", type: "ecole", filtre: "guatemala" },
+      { nom: "Guyana", drapeau: "🇬🇾", slug: "guyana", type: "sans", filtre: null },
+      { nom: "Haïti", drapeau: "🇭🇹", slug: null, type: "ecole", filtre: "haïti" },
+      { nom: "Honduras", drapeau: "🇭🇳", slug: "honduras", type: "ecole", filtre: "honduras" },
+      { nom: "Jamaïque", drapeau: "🇯🇲", slug: "jamaique", type: "sans", filtre: null },
+      { nom: "Mexique", drapeau: "🇲🇽", slug: "mexique", type: "ecole", filtre: "mexique" },
+      { nom: "Nicaragua", drapeau: "🇳🇮", slug: "nicaragua", type: "ecole", filtre: "nicaragua" },
+      { nom: "Panama", drapeau: "🇵🇦", slug: "panama", type: "ecole", filtre: "panama" },
+      { nom: "Paraguay", drapeau: "🇵🇾", slug: "paraguay", type: "ecole", filtre: "paraguay" },
+      { nom: "Pérou", drapeau: "🇵🇪", slug: "perou", type: "ecole", filtre: "pérou" },
+      { nom: "Rép. dominicaine", drapeau: "🇩🇴", slug: "rep-dominicaine", type: "ecole", filtre: "dominicaine" },
+      { nom: "Salvador", drapeau: "🇸🇻", slug: null, type: "ecole", filtre: "salvador" },
+      { nom: "Suriname", drapeau: "🇸🇷", slug: "suriname", type: "sans", filtre: null },
+      { nom: "Trinidad", drapeau: "🇹🇹", slug: "trinidad", type: "sans", filtre: null },
+      { nom: "Uruguay", drapeau: "🇺🇾", slug: null, type: "ecole", filtre: "uruguay" },
+      { nom: "Venezuela", drapeau: "🇻🇪", slug: null, type: "ecole", filtre: "venezuela" },
+    ]
+  },
+  "asie": {
+    label: "🌏 Asie",
+    pays: [
+      { nom: "Bangladesh", drapeau: "🇧🇩", slug: "bangladesh", type: "ecole", filtre: "bangladesh" },
+      { nom: "Brunei", drapeau: "🇧🇳", slug: "brunei", type: "sans", filtre: null },
+      { nom: "Cambodge", drapeau: "🇰🇭", slug: "cambodge", type: "ecole", filtre: "cambodge" },
+      { nom: "Chine", drapeau: "🇨🇳", slug: "chine", type: "ecole", filtre: "chine" },
+      { nom: "Corée du Nord", drapeau: "🇰🇵", slug: "coree-du-nord", type: "sans", filtre: null },
+      { nom: "Corée du Sud", drapeau: "🇰🇷", slug: "coree-du-sud", type: "ecole", filtre: "corée du sud" },
+      { nom: "Inde", drapeau: "🇮🇳", slug: "inde", type: "ecole", filtre: "inde" },
+      { nom: "Indonésie", drapeau: "🇮🇩", slug: "indonesie", type: "ecole", filtre: "indonésie" },
+      { nom: "Japon", drapeau: "🇯🇵", slug: "japon", type: "ecole", filtre: "japon" },
+      { nom: "Kazakhstan", drapeau: "🇰🇿", slug: null, type: "ecole", filtre: "kazakhstan" },
+      { nom: "Kirghizistan", drapeau: "🇰🇬", slug: "kirghizistan", type: "sans", filtre: null },
+      { nom: "Laos", drapeau: "🇱🇦", slug: "laos", type: "ecole", filtre: "laos" },
+      { nom: "Malaisie", drapeau: "🇲🇾", slug: "malaisie", type: "ecole", filtre: "malaisie" },
+      { nom: "Mongolie", drapeau: "🇲🇳", slug: null, type: "ecole", filtre: "mongolie" },
+      { nom: "Myanmar", drapeau: "🇲🇲", slug: "myanmar", type: "ecole", filtre: "myanmar" },
+      { nom: "Népal", drapeau: "🇳🇵", slug: "nepal", type: "ecole", filtre: "népal" },
+      { nom: "Ouzbékistan", drapeau: "🇺🇿", slug: null, type: "ecole", filtre: "ouzbékistan" },
+      { nom: "Pakistan", drapeau: "🇵🇰", slug: "pakistan", type: "sans", filtre: null },
+      { nom: "Philippines", drapeau: "🇵🇭", slug: "philippines", type: "ecole", filtre: "philippines" },
+      { nom: "Singapour", drapeau: "🇸🇬", slug: "singapour", type: "ecole", filtre: "singapour" },
+      { nom: "Sri Lanka", drapeau: "🇱🇰", slug: "sri-lanka", type: "ecole", filtre: "sri lanka" },
+      { nom: "Tadjikistan", drapeau: "🇹🇯", slug: "tadjikistan", type: "sans", filtre: null },
+      { nom: "Taiwan", drapeau: "🇹🇼", slug: "taiwan", type: "ecole", filtre: "taiwan" },
+      { nom: "Thaïlande", drapeau: "🇹🇭", slug: "thailande", type: "ecole", filtre: "thaïlande" },
+      { nom: "Timor Oriental", drapeau: "🇹🇱", slug: "timor-oriental", type: "sans", filtre: null },
+      { nom: "Turkménistan", drapeau: "🇹🇲", slug: "turkmenistan", type: "ecole", filtre: "turkménistan" },
+      { nom: "Vietnam", drapeau: "🇻🇳", slug: "vietnam", type: "ecole", filtre: "vietnam" },
+    ]
+  },
+  "oceanie": {
+    label: "🏝️ Océanie",
+    pays: [
+      { nom: "Australie", drapeau: "🇦🇺", slug: null, type: "ecole", filtre: "australie" },
+      { nom: "Brunei", drapeau: "🇧🇳", slug: "brunei", type: "sans", filtre: null },
+      { nom: "Fidji", drapeau: "🇫🇯", slug: "fidji", type: "sans", filtre: null },
+      { nom: "Nouvelle-Calédonie", drapeau: "🇳🇨", slug: null, type: "ecole", filtre: "calédonie" },
+      { nom: "Papouasie-N.-G.", drapeau: "🇵🇬", slug: "papouasie", type: "sans", filtre: null },
+      { nom: "Polynésie française", drapeau: "🇵🇫", slug: null, type: "ecole", filtre: "polynésie" },
+      { nom: "Samoa", drapeau: "🇼🇸", slug: "samoa", type: "sans", filtre: null },
+      { nom: "Tonga", drapeau: "🇹🇴", slug: "tonga", type: "sans", filtre: null },
+      { nom: "Vanuatu", drapeau: "🇻🇺", slug: "vanuatu", type: "ecole", filtre: "vanuatu" },
+    ]
+  }
+};
+
+let activeRegion = 'all';
+let offresByPays = {};
+
+// Charger les offres pour avoir les comptages
+async function loadOffres() {
+  try {
+    const [r1, r2] = await Promise.all([fetch('/emplois.json'), fetch('/emplois_mlf.json')]);
+    const [d1, d2] = await Promise.all([r1.json(), r2.json()]);
+    const all = [...(d1.offers || []), ...(d2.offers || [])];
+
+    document.getElementById('totalOffres').textContent = all.length;
+
+    all.forEach(o => {
+      const p = (o.pays || '').toLowerCase();
+      if (p) {
+        offresByPays[p] = (offresByPays[p] || 0) + 1;
+      }
+    });
+
+    render();
+  } catch {
+    render();
+  }
+}
+
+function getCount(filtre) {
+  if (!filtre) return 0;
+  let total = 0;
+  const f = filtre.toLowerCase();
+  for (const [pays, count] of Object.entries(offresByPays)) {
+    if (pays.includes(f) || f.includes(pays)) total += count;
+  }
+  return total;
+}
+
+function getUrl(p) {
+  if (p.type === 'sans') {
+    return `/emplois-${p.slug}.html`;
+  }
+  if (p.filtre) {
+    return `/emplois.html?pays=${encodeURIComponent(p.filtre)}`;
+  }
+  return `/emplois.html`;
+}
+
+function render() {
+  const query = document.getElementById('searchInput').value.toLowerCase().trim();
+  const container = document.getElementById('regions');
+  container.innerHTML = '';
+  let totalVisible = 0;
+
+  for (const [regionKey, region] of Object.entries(PAYS)) {
+    if (activeRegion !== 'all' && activeRegion !== regionKey) continue;
+
+    const paysFiltres = region.pays.filter(p => {
+      if (query && !p.nom.toLowerCase().includes(query)) return false;
+      return true;
+    });
+
+    if (paysFiltres.length === 0) continue;
+    totalVisible += paysFiltres.length;
+
+    const section = document.createElement('div');
+    section.className = 'region-section';
+    section.dataset.region = regionKey;
+
+    const title = document.createElement('div');
+    title.className = 'region-title';
+    title.textContent = region.label;
+    section.appendChild(title);
+
+    const grid = document.createElement('div');
+    grid.className = 'pays-grid';
+
+    paysFiltres.forEach(p => {
+      const count = getCount(p.filtre);
+      const url = getUrl(p);
+
+      const card = document.createElement('a');
+      card.className = `pays-card${p.type === 'sans' ? ' sans-ecole' : ''}`;
+      card.href = url;
+
+      card.innerHTML = `
+        <span class="pays-drapeau">${p.drapeau}</span>
+        <div class="pays-info">
+          <div class="pays-nom">${p.nom}</div>
+          <span class="pays-badge ${p.type === 'sans' ? 'badge-sans' : 'badge-offres'}">
+            ${p.type === 'sans' ? 'Pas d\'établissement' : 'Établissement français'}
+          </span>
+        </div>
+        ${p.type === 'ecole' && count > 0 ? `<span class="pays-count">${count}</span>` : ''}
+        ${p.type === 'sans' ? `<span class="pays-count sans">→</span>` : ''}
+      `;
+
+      grid.appendChild(card);
+    });
+
+    section.appendChild(grid);
+    container.appendChild(section);
+  }
+
+  document.getElementById('noResults').style.display = totalVisible === 0 ? 'block' : 'none';
+}
+
+function filtrer() {
+  render();
+}
+
+function filtrerRegion(el, region) {
+  activeRegion = region;
+  document.querySelectorAll('.region-pill').forEach(p => p.classList.remove('active'));
+  el.classList.add('active');
+  render();
+}
+
+loadOffres();
+</script>
+</body>
+</html>
