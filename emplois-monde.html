@@ -137,7 +137,6 @@
     <div class="legend-item"><div class="legend-dot ecole"></div> Pays avec établissement français — offres disponibles</div>
     <div class="legend-item"><div class="legend-dot sans"></div> Pas encore d'établissement — page contextuelle</div>
     <div class="legend-item"><div class="legend-dot" style="background:#fde8e8;border:1.5px solid #c02020"></div> École française fermée ou suspendue</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#fde8e8;border:1.5px solid #c02020"></div> École française fermée ou suspendue</div>
   </div>
   <div id="regions"></div>
   <div class="no-results" id="noResults" style="display:none">Aucun pays trouvé.</div>
@@ -446,7 +445,7 @@ function render() {
         <div class="pays-info">
           <div class="pays-nom">${p.nom}</div>
           <span class="pays-badge ${p.type === 'ferme' ? 'badge-ferme blink' : p.type === 'sans' ? 'badge-sans' : 'badge-offres'}">
-            ${p.type === 'ferme' ? 'École fermée' : p.type === 'sans' ? 'Pas d'établissement' : 'Établissement français'}
+            ${p.type === 'ferme' ? 'École fermée' : p.type === 'sans' ? 'Pas d&apos;établissement' : 'Établissement français'}
           </span>
         </div>
         ${p.type === 'ecole' && count > 0 ? `<span class="pays-count">${count}</span>` : ''}
