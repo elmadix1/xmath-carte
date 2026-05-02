@@ -389,12 +389,7 @@ function getCount(filtre) {
 }
 
 function getUrl(p) {
-  if (p.type === 'sans') {
-    return `/emplois-${p.slug}.html`;
-  }
-  if (p.filtre) {
-    return `/emplois.html?pays=${encodeURIComponent(p.filtre)}`;
-  }
+  if (p.slug) return `/emplois-${p.slug}.html`;
   return `/emplois.html`;
 }
 
