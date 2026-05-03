@@ -1,7 +1,51 @@
 {
-  "updated": "2026-05-03 07:24",
-  "total": 659,
+  "updated": "2026-05-03 17:53",
+  "total": 661,
   "offers": [
+    {
+      "id": 4363771,
+      "titre": "Professeur du Second Degré",
+      "etab": "",
+      "ville": "Erbil",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation musicale F/H",
+      "date": "03/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4363771-professeur-du-second-degre-erbil"
+    },
+    {
+      "id": 4363769,
+      "titre": "Professeur du Second Degré - Philosophie/ Histoire, geographie, EMC",
+      "etab": "",
+      "ville": "Erbil",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "03/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4363769-professeur-du-second-degre-philosophie-histoire-geographie-emc-erbil"
+    },
+    {
+      "id": 4363767,
+      "titre": "Professeur du Second Degré - Mathématiques/SES/NSI",
+      "etab": "",
+      "ville": "Erbil",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "03/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4363767-professeur-du-second-degre-mathematiquessesnsi-erbil"
+    },
+    {
+      "id": 4363681,
+      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "03/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4363681-professeur-du-second-degre-education-physique-et-sportive-fh-13317-riyadh"
+    },
     {
       "id": 4363609,
       "titre": "Professeur du Second Degré - SVT - F/H - KOWEIT - KOWEIT",
@@ -5193,28 +5237,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "05/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4257443-professeur-de-fle-flsco-fh-jakarta-indonesie-kota-jakarta-selatan"
-    },
-    {
-      "id": 4256813,
-      "titre": "Professeur de Lettres Modernes et Philosophie - F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "04/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4256813-professeur-de-lettres-modernes-et-philosophie-fh-lisbonne-portugal-1350-164-lisboa"
-    },
-    {
-      "id": 4254941,
-      "titre": "Professeur d'anglais - F/H - DACCA - BANGLADESH",
-      "etab": "",
-      "ville": "Dhaka",
-      "pays": "Bangladesh",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "04/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4254941-professeur-danglais-fh-dacca-bangladesh-1212-dhaka"
     },
     {
       "id": 4250757,
