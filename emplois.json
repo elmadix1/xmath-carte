@@ -1,7 +1,18 @@
 {
-  "updated": "2026-05-02 18:23",
-  "total": 662,
+  "updated": "2026-05-03 07:24",
+  "total": 659,
   "offers": [
+    {
+      "id": 4363609,
+      "titre": "Professeur du Second Degré - SVT - F/H - KOWEIT - KOWEIT",
+      "etab": "",
+      "ville": "Salmiya",
+      "pays": "Koweït",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "03/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4363609-professeur-du-second-degre-svt-fh-koweit-koweit-salmiya"
+    },
     {
       "id": 4363449,
       "titre": "Professeur de SVT H/F",
@@ -5206,39 +5217,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4254941-professeur-danglais-fh-dacca-bangladesh-1212-dhaka"
     },
     {
-      "id": 4254841,
-      "titre": "Professeur de malgache - Lycée Sadi Carnot - F/H - ANTSIRANANA - MADAGASCAR",
-      "etab": "",
-      "ville": "Antisiranana",
-      "pays": "Madagascar",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "04/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4254841-professeur-de-malgache-lycee-sadi-carnot-fh-antsiranana-madagascar-antisiranana"
-    },
-    {
-      "id": 4254837,
-      "titre": "Professeur des écoles - F/H - Lycée Sadi Carnot - ANTSIRANANA - MADAGASCAR",
-      "etab": "",
-      "ville": "Antisiranana",
-      "pays": "Madagascar",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "04/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4254837-professeur-des-ecoles-fh-lycee-sadi-carnot-antsiranana-madagascar-antisiranana"
-    },
-    {
-      "id": 4254809,
-      "titre": "Professeur des écoles - F/H - OTTAWA - CANADA",
-      "etab": "",
-      "ville": "Ottawa",
-      "pays": "Canada",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "03/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4254809-professeur-des-ecoles-fh-ottawa-canada-k1k-3l5-ottawa"
-    },
-    {
       "id": 4250757,
       "titre": "Professeur d'EPS - F/H - Lycée Voltaire - LE CAIRE - EGYPTE",
       "etab": "",
@@ -7162,17 +7140,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "10/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3561629-professeur-des-ecoles-en-allemand-zurich-suisse-8600-dubendorf"
-    },
-    {
-      "id": 3552267,
-      "titre": "Professeurs des écoles F/H - Lycée Jean-Mermoz - CURICO - CHILI",
-      "etab": "",
-      "ville": "Curicó",
-      "pays": "Chili",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "03/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3552267-professeurs-des-ecoles-fh-lycee-jean-mermoz-curico-chili-curico"
     },
     {
       "id": 3490195,
