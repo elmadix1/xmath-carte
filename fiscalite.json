@@ -1,0 +1,276 @@
+{
+  "_FICHIER": "fiscalite.json — Paramètres fiscaux et cotisations par territoire",
+  "_DERNIERE_MAJ": "Janvier 2026",
+  "_SOURCE": "Service-public.fr / URSSAF / DGFiP / CPS / CAFAT / IFRAP",
+  "_QUAND": "Mettre à jour si réforme fiscale ou changement de barème IR",
+  "_FOURNIR": "Nouveaux barèmes IR ou taux de cotisations si modification",
+
+  "_NOTE_XPF": "Taux fixe : 1€ = 119,3317 XPF (franc pacifique — taux garanti par la France)",
+  "taux_xpf_eur": 119.3317,
+
+  "cotisations_fonctionnaire_etat": {
+    "_QUOI": "Cotisations salariales des fonctionnaires de l État (Education nationale) — identiques en métropole et DOM",
+    "_SOURCE": "Service-public.fr vérifié janvier 2026",
+    "_FOURNIR": "Nouveaux taux si réforme — consulter service-public.fr/particuliers/vosdroits/F468",
+    "pension_civile": {
+      "taux": 11.10,
+      "assiette": "traitement_brut",
+      "label": "Pension civile (retraite État)",
+      "deductible_ir": true,
+      "_NOTE": "S applique au traitement indiciaire brut uniquement — pas sur les primes ni HSA"
+    },
+    "csg_deductible": {
+      "taux": 6.80,
+      "assiette_pct": 98.25,
+      "label": "CSG déductible de l IR",
+      "deductible_ir": true,
+      "_NOTE": "Assiette = brut × 98,25% (abattement frais pro 1,75%)"
+    },
+    "csg_non_deductible": {
+      "taux": 2.40,
+      "assiette_pct": 98.25,
+      "label": "CSG non déductible de l IR",
+      "deductible_ir": false
+    },
+    "crds": {
+      "taux": 0.50,
+      "assiette_pct": 98.25,
+      "label": "CRDS (remboursement dette sociale)",
+      "deductible_ir": false
+    },
+    "casa": {
+      "taux": 0.30,
+      "assiette": "traitement_brut",
+      "label": "CASA (solidarité autonomie)",
+      "deductible_ir": false
+    }
+  },
+
+  "hsa_hse": {
+    "_QUOI": "Règles fiscales et sociales des HSA et HSE pour les enseignants",
+    "_SOURCE": "Service-public.fr + SNALC + Décret 2019-133",
+    "exoneration_ir_plafond_annuel_net": 7500,
+    "exoneration_cotisations_sociales": true,
+    "coefficient_brut_vers_net": 0.93319,
+    "_NOTE_COEFFICIENT": "0,93319 = 1 - (6,80% × 98,25%) : déduction CSG déductible pour obtenir le net imposable",
+    "_NOTE_DOM": "Mêmes règles en DOM — la majoration DOM ne s applique PAS aux HSA",
+    "_NOTE_COM": "Mêmes règles en COM — le coefficient multiplicateur COM ne s applique PAS aux HSA",
+    "_NOTE_AEFE": "Mêmes règles à l étranger AEFE — fonctionnaires français soumis aux mêmes règles"
+  },
+
+  "bareme_ir_france_2026": {
+    "_QUOI": "Barème IR progressif 2026 applicable en métropole et DOM",
+    "_SOURCE": "DGFiP / impots.gouv.fr — barème revalorisation +4,8% janvier 2026",
+    "_FOURNIR": "Nouveau barème si revalorisation annuelle — publié chaque janvier au JO",
+    "tranches": [
+      { "min": 0,      "max": 11520,  "taux": 0  },
+      { "min": 11520,  "max": 29373,  "taux": 11 },
+      { "min": 29373,  "max": 83988,  "taux": 30 },
+      { "min": 83988,  "max": 180648, "taux": 41 },
+      { "min": 180648, "max": null,   "taux": 45 }
+    ],
+    "quotient_familial": {
+      "_NOTE": "Parts fiscales selon situation familiale",
+      "celibataire": 1,
+      "marie_sans_enfant": 2,
+      "marie_1_enfant": 2.5,
+      "marie_2_enfants": 3,
+      "marie_3_enfants": 4,
+      "celibataire_1_enfant": 1.5,
+      "celibataire_2_enfants": 2,
+      "celibataire_3_enfants": 3
+    }
+  },
+
+  "territoires": {
+
+    "guadeloupe": {
+      "label": "Guadeloupe",
+      "regime": "DOM",
+      "monnaie": "EUR",
+      "cotisations": "fonctionnaire_etat",
+      "ir": {
+        "type": "france_avec_reduction",
+        "reduction_pct": 30,
+        "_SOURCE": "Art. 197-I-3 CGI"
+      },
+      "mayotte_cssm": false
+    },
+
+    "martinique": {
+      "label": "Martinique",
+      "regime": "DOM",
+      "monnaie": "EUR",
+      "cotisations": "fonctionnaire_etat",
+      "ir": {
+        "type": "france_avec_reduction",
+        "reduction_pct": 30
+      }
+    },
+
+    "guyane": {
+      "label": "Guyane",
+      "regime": "DOM",
+      "monnaie": "EUR",
+      "cotisations": "fonctionnaire_etat",
+      "ir": {
+        "type": "france_avec_reduction",
+        "reduction_pct": 40,
+        "_NOTE": "Réduction IR plus élevée en Guyane — art. 197-I-3 CGI"
+      }
+    },
+
+    "reunion": {
+      "label": "La Réunion",
+      "regime": "DOM",
+      "monnaie": "EUR",
+      "cotisations": "fonctionnaire_etat",
+      "ir": {
+        "type": "france_avec_reduction",
+        "reduction_pct": 30
+      }
+    },
+
+    "mayotte": {
+      "label": "Mayotte",
+      "regime": "DOM",
+      "monnaie": "EUR",
+      "cotisations": "mayotte",
+      "cotisations_specifiques": {
+        "_NOTE": "Mayotte : CSSM remplace partiellement CSG/CRDS — taux 4,47% au 1er janvier 2026",
+        "_SOURCE": "Service des Retraites de l État — vérifié 2026",
+        "cssm": {
+          "taux": 4.47,
+          "assiette": "traitement_brut",
+          "label": "CSSM (Caisse Sécurité Sociale Mahoraise)",
+          "deductible_ir": false
+        },
+        "pension_civile": { "taux": 11.10, "assiette": "traitement_brut", "label": "Pension civile", "deductible_ir": true },
+        "csg_deductible": { "taux": 6.80, "assiette_pct": 98.25, "label": "CSG déductible", "deductible_ir": true },
+        "csg_non_deductible": { "taux": 2.40, "assiette_pct": 98.25, "label": "CSG non déductible", "deductible_ir": false },
+        "crds": { "taux": 0.50, "assiette_pct": 98.25, "label": "CRDS", "deductible_ir": false }
+      },
+      "ir": {
+        "type": "france_avec_reduction",
+        "reduction_pct": 30
+      }
+    },
+
+    "polynesie": {
+      "label": "Polynésie française",
+      "regime": "COM_PACIFIQUE",
+      "monnaie": "XPF",
+      "monnaie_label": "Franc Pacifique (XPF)",
+      "coefficient_sur_net": true,
+      "_NOTE_COEFFICIENT": "Le coefficient 1,84 ou 2,08 s applique au traitement NET après cotisations — pas au brut",
+      "cotisations_specifiques": {
+        "_SOURCE": "CPS Polynésie française — caisse-ps.pf",
+        "_FOURNIR": "Nouveaux taux si réforme CPS — site caisse-ps.pf",
+        "maladie": { "taux": 2.80, "assiette": "traitement_brut", "label": "Maladie (CPS)", "deductible_ir": false },
+        "retraite_base": { "taux": 5.10, "assiette": "traitement_brut", "label": "Retraite de base (CPS)", "deductible_ir": true },
+        "retraite_complementaire": { "taux": 4.00, "assiette": "traitement_brut", "label": "Retraite complémentaire (CPS)", "deductible_ir": true },
+        "chomage": { "taux": 1.20, "assiette": "traitement_brut", "label": "Chômage (CPS)", "deductible_ir": false }
+      },
+      "ir": {
+        "type": "local_cst",
+        "label": "CST (Contribution de Solidarité Territoriale)",
+        "_SOURCE": "Code des impôts de Polynésie française",
+        "_FOURNIR": "Nouveau barème si modification — Direction des impôts et des contributions publiques de Polynésie",
+        "tranches_xpf": [
+          { "min": 0,       "max": 900000,  "taux": 0  },
+          { "min": 900000,  "max": 1500000, "taux": 2  },
+          { "min": 1500000, "max": 3000000, "taux": 6  },
+          { "min": 3000000, "max": 5000000, "taux": 10 },
+          { "min": 5000000, "max": null,    "taux": 14 }
+        ],
+        "quotient_familial": true
+      }
+    },
+
+    "nouvelle-caledonie": {
+      "label": "Nouvelle-Calédonie",
+      "regime": "COM_PACIFIQUE",
+      "monnaie": "XPF",
+      "monnaie_label": "Franc Pacifique (XPF)",
+      "coefficient_sur_net": true,
+      "cotisations_specifiques": {
+        "_SOURCE": "CAFAT Nouvelle-Calédonie — cafat.nc",
+        "_FOURNIR": "Nouveaux taux si réforme CAFAT — site cafat.nc",
+        "maladie": { "taux": 2.60, "assiette": "traitement_brut", "label": "Maladie (CAFAT)", "deductible_ir": false },
+        "retraite_base": { "taux": 4.20, "assiette": "traitement_brut", "label": "Retraite base (CAFAT)", "deductible_ir": true },
+        "retraite_complementaire": { "taux": 3.64, "assiette": "traitement_brut", "label": "Retraite complémentaire (CRE-Ircaflex)", "deductible_ir": true },
+        "ccs": { "taux": 1.30, "assiette": "traitement_brut", "label": "CCS (Contribution Calédonienne Solidarité)", "deductible_ir": false }
+      },
+      "ir": {
+        "type": "local_icr",
+        "label": "ICR (Impôt Calédonien sur le Revenu)",
+        "_SOURCE": "Direction des impôts et contributions diverses de Nouvelle-Calédonie",
+        "_FOURNIR": "Nouveau barème si modification — dicp.gouv.nc",
+        "tranches_xpf": [
+          { "min": 0,       "max": 1500000, "taux": 0  },
+          { "min": 1500000, "max": 3000000, "taux": 5  },
+          { "min": 3000000, "max": 5000000, "taux": 10 },
+          { "min": 5000000, "max": 8000000, "taux": 15 },
+          { "min": 8000000, "max": null,    "taux": 20 }
+        ],
+        "quotient_familial": true
+      }
+    },
+
+    "wallis-futuna": {
+      "label": "Wallis-et-Futuna",
+      "regime": "COM_PACIFIQUE",
+      "monnaie": "XPF",
+      "monnaie_label": "Franc Pacifique (XPF)",
+      "coefficient_sur_net": true,
+      "cotisations_specifiques": {
+        "_NOTE": "Wallis-et-Futuna : régime spécifique — pension civile État maintenue, CSG/CRDS maintenues",
+        "pension_civile": { "taux": 11.10, "assiette": "traitement_brut", "label": "Pension civile", "deductible_ir": true },
+        "csg_deductible": { "taux": 6.80, "assiette_pct": 98.25, "label": "CSG déductible", "deductible_ir": true },
+        "csg_non_deductible": { "taux": 2.40, "assiette_pct": 98.25, "label": "CSG non déductible", "deductible_ir": false },
+        "crds": { "taux": 0.50, "assiette_pct": 98.25, "label": "CRDS", "deductible_ir": false },
+        "casa": { "taux": 0.30, "assiette": "traitement_brut", "label": "CASA", "deductible_ir": false }
+      },
+      "ir": {
+        "type": "aucun",
+        "label": "Pas d IR — autonomie fiscale",
+        "_NOTE": "Wallis-et-Futuna : pas d impôt sur le revenu local ni français"
+      }
+    },
+
+    "saint-pierre-miquelon": {
+      "label": "Saint-Pierre-et-Miquelon",
+      "regime": "COM_DOM",
+      "monnaie": "EUR",
+      "cotisations": "fonctionnaire_etat",
+      "ir": {
+        "type": "france_avec_reduction",
+        "reduction_pct": 30
+      }
+    },
+
+    "saint-barthelemy": {
+      "label": "Saint-Barthélemy",
+      "regime": "COM_DOM",
+      "monnaie": "EUR",
+      "cotisations": "fonctionnaire_etat",
+      "ir": {
+        "type": "aucun",
+        "label": "Pas d IR — autonomie fiscale totale",
+        "_NOTE": "Saint-Barthélemy : aucun impôt sur le revenu local ni français — avantage fiscal majeur"
+      }
+    },
+
+    "saint-martin": {
+      "label": "Saint-Martin",
+      "regime": "COM_DOM",
+      "monnaie": "EUR",
+      "cotisations": "fonctionnaire_etat",
+      "ir": {
+        "type": "france_sans_reduction",
+        "label": "IR français sans réduction",
+        "_NOTE": "Saint-Martin applique l IR français standard sans réduction DOM depuis 2007"
+      }
+    }
+  }
+}

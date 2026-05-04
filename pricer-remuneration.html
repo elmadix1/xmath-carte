@@ -184,20 +184,21 @@ footer a { color: var(--vert-clair); text-decoration: none; }
       En France seulement disparaît à l étranger
    ═══════════════════════════════════════════════════════════════════ */
 
-let PARAMS, GRILLES, ISVL, IGFS, IE, DOMCOM;
+let PARAMS, GRILLES, ISVL, IGFS, IE, DOMCOM, FISCAL;
 let situation = 'france';
 
 async function init() {
   try {
-    const [p, g, i, f, ie, domcom] = await Promise.all([
+    const [p, g, i, f, ie, domcom, fiscal] = await Promise.all([
       fetch('/params_remuneration.json').then(r => r.json()),
       fetch('/grilles_im.json').then(r => r.json()),
       fetch('/isvl.json').then(r => r.json()),
       fetch('/igfs.json').then(r => r.json()),
       fetch('/ie.json').then(r => r.json()),
-      fetch('/dom_com.json').then(r => r.json())
+      fetch('/dom_com.json').then(r => r.json()),
+      fetch('/fiscalite.json').then(r => r.json())
     ]);
-    PARAMS = p; GRILLES = g; ISVL = i; IGFS = f; IE = ie; DOMCOM = domcom;
+    PARAMS = p; GRILLES = g; ISVL = i; IGFS = f; IE = ie; DOMCOM = domcom; FISCAL = fiscal;
     render();
   } catch(e) {
     document.getElementById('app').innerHTML =
@@ -470,6 +471,210 @@ function render() {
 }
 
 
+
+function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel) {
+  const XPF = FISCAL.taux_xpf_eur;
+  const T = FISCAL.territoires[territoire];
+  if (!T) return null;
+
+  // Parts fiscales
+  const parts = {
+    celibataire: 1, marie_sans_enfant: 2,
+    marie_1_enfant: 2.5, marie_2_enfants: 3, marie_3_enfants: 4,
+    celibataire_1_enfant: 1.5, celibataire_2_enfants: 2, celibataire_3_enfants: 3
+  }[situation] || 1;
+
+  // Cotisations salariales
+  const cots = T.cotisations_specifiques ||
+    (T.cotisations === 'fonctionnaire_etat' ? FISCAL.cotisations_fonctionnaire_etat : null);
+  if (!cots) return null;
+
+  let totalCot = 0;
+  let csgDed = 0;
+  const lignesCot = [];
+
+  for (const [key, c] of Object.entries(cots)) {
+    if (key.startsWith('_')) continue;
+    const assiette = c.assiette_pct
+      ? brutTotal * c.assiette_pct / 100
+      : brutTotal;
+    const montant = assiette * c.taux / 100;
+    totalCot += montant;
+    if (c.deductible_ir) csgDed += montant;
+    lignesCot.push({ label: c.label, taux: c.taux, montant, deductible: c.deductible_ir });
+  }
+
+  const netAvantIR = brutTotal - totalCot;
+
+  // HSA/HSE
+  const hsaBrutAnnuel = nbHsa > 0 ? tauxHsaMensuel * 12 : 0;
+  const hsaNetAnnuel = hsaBrutAnnuel * FISCAL.hsa_hse.coefficient_brut_vers_net;
+  const hsaExonere = Math.min(hsaNetAnnuel, FISCAL.hsa_hse.exoneration_ir_plafond_annuel_net);
+  const hsaImposable = Math.max(0, hsaNetAnnuel - hsaExonere);
+
+  // Base imposable IR annuelle
+  const revenuBrutAnnuel = (brutTotal * 12) + hsaBrutAnnuel;
+  const revenuNetImposable = (revenuBrutAnnuel - (csgDed * 12)) + hsaImposable;
+  // Abattement frais professionnels 10% plafonné à 14 171€
+  const abattementFP = Math.min(revenuNetImposable * 0.10, 14171);
+  const revenuImposable = Math.max(0, revenuNetImposable - abattementFP);
+
+  let irAnnuel = 0;
+  let irDetail = '';
+
+  if (T.ir.type === 'aucun') {
+    irAnnuel = 0;
+    irDetail = T.ir.label;
+  }
+  else if (T.ir.type === 'france_avec_reduction' || T.ir.type === 'france_sans_reduction') {
+    const quotient = revenuImposable / parts;
+    let irSurQuotient = 0;
+    const tranches = FISCAL.bareme_ir_france_2026.tranches;
+    for (const t of tranches) {
+      if (quotient <= t.min) break;
+      const trancheMax = t.max || Infinity;
+      const imposable = Math.min(quotient, trancheMax) - t.min;
+      if (imposable > 0) irSurQuotient += imposable * t.taux / 100;
+    }
+    irAnnuel = irSurQuotient * parts;
+    if (T.ir.type === 'france_avec_reduction') {
+      const reduction = irAnnuel * T.ir.reduction_pct / 100;
+      irDetail = `Réduction DOM ${T.ir.reduction_pct}% : -${fmt(reduction/12)}/mois`;
+      irAnnuel = irAnnuel - reduction;
+    }
+  }
+  else if (T.ir.type === 'local_cst' || T.ir.type === 'local_icr') {
+    // Calcul en XPF
+    const revenuXPF = revenuImposable * XPF;
+    const quotientXPF = revenuXPF / parts;
+    let irSurQuotient = 0;
+    for (const t of T.ir.tranches_xpf) {
+      if (quotientXPF <= t.min) break;
+      const trancheMax = t.max || Infinity;
+      const imposable = Math.min(quotientXPF, trancheMax) - t.min;
+      if (imposable > 0) irSurQuotient += imposable * t.taux / 100;
+    }
+    irAnnuel = irSurQuotient * parts / XPF; // Reconvertir en €
+  }
+
+  const irMensuel = irAnnuel / 12;
+  const hsaNetMensuel = hsaBrutAnnuel / 12; // Brut — exonéré de cotisations
+  const netFinal = netAvantIR + hsaNetMensuel - irMensuel;
+
+  return {
+    lignesCot, totalCot, netAvantIR,
+    hsaBrutAnnuel, hsaNetAnnuel, hsaExonere, hsaImposable, hsaNetMensuel,
+    revenuImposable, parts, irAnnuel, irMensuel, irDetail,
+    netFinal, monnaie: T.monnaie, XPF,
+    irType: T.ir.type, irLabel: T.ir.label || ''
+  };
+}
+
+function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel) {
+  const r = calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel);
+  if (!r) return '';
+  const XPF = r.XPF;
+  const fmtXPF = n => Math.round(n * XPF).toLocaleString('fr-FR') + ' XPF';
+  const fmtBi = n => r.monnaie === 'XPF'
+    ? `${fmt(n)}/mois <span style="color:rgba(255,255,255,0.4);font-size:0.72rem">(${fmtXPF(n * 12)}/an)</span>`
+    : `${fmt(n)}/mois`;
+
+  return `
+    <div style="border-top:1px solid var(--gris-clair);margin-top:12px;padding-top:14px">
+      <div style="font-size:0.7rem;font-weight:700;color:#c02020;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:10px">
+        💸 Cotisations salariales
+      </div>
+      <div style="background:#0e1310;border-radius:8px;padding:12px 14px;margin-bottom:10px">
+        ${r.lignesCot.map(c => `
+          <div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.05)">
+            <span style="color:rgba(255,255,255,0.5)">${c.label} (${c.taux}%${c.deductible ? ' déductible IR' : ''})</span>
+            <span style="color:#f08080">-${fmt(c.montant)}/mois</span>
+          </div>`).join('')}
+        <div style="display:flex;justify-content:space-between;font-size:0.82rem;font-weight:700;padding:8px 0 0;border-top:1px solid rgba(255,255,255,0.1);margin-top:4px">
+          <span style="color:rgba(255,255,255,0.7)">Total cotisations</span>
+          <span style="color:#f08080">-${fmt(r.totalCot)}/mois</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:0.88rem;font-weight:700;padding:6px 0 0">
+          <span style="color:#fff">Net avant IR</span>
+          <span style="color:var(--or-clair)">${fmtBi(r.netAvantIR)}</span>
+        </div>
+      </div>
+
+      ${r.hsaBrutAnnuel > 0 ? `
+      <div style="font-size:0.7rem;font-weight:700;color:#2a5c3a;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:8px">
+        ⏱️ HSA / HSE
+      </div>
+      <div style="background:#0a1a10;border-radius:8px;padding:10px 14px;margin-bottom:10px;font-size:0.78rem">
+        <div style="display:flex;justify-content:space-between;padding:3px 0">
+          <span style="color:rgba(255,255,255,0.5)">HSA brut mensuel</span>
+          <span style="color:#7ac890">+${fmt(r.hsaNetMensuel)}/mois</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:3px 0">
+          <span style="color:rgba(255,255,255,0.5)">Exonéré cotisations sociales</span>
+          <span style="color:#7ac890">✓</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:3px 0">
+          <span style="color:rgba(255,255,255,0.5)">Net fiscal annuel (×0,933)</span>
+          <span style="color:rgba(255,255,255,0.7)">${fmt(r.hsaNetAnnuel/12)}/mois</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:3px 0">
+          <span style="color:rgba(255,255,255,0.5)">Exonéré IR (plafond 7 500€/an)</span>
+          <span style="color:#7ac890">${fmt(r.hsaExonere)} ✓</span>
+        </div>
+        ${r.hsaImposable > 0 ? `<div style="display:flex;justify-content:space-between;padding:3px 0">
+          <span style="color:#f08080">Excédent imposable</span>
+          <span style="color:#f08080">+${fmt(r.hsaImposable)}/an</span>
+        </div>` : ''}
+      </div>` : ''}
+
+      <div style="font-size:0.7rem;font-weight:700;color:var(--bleu);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:8px">
+        🧾 Impôt sur le revenu estimé
+      </div>
+      <div style="background:#0a0e1a;border-radius:8px;padding:10px 14px;margin-bottom:10px;font-size:0.78rem">
+        ${r.irType === 'aucun' ? `
+          <div style="color:#7ac890;font-weight:600">${r.irLabel} ✓</div>
+          <div style="color:rgba(255,255,255,0.4);font-size:0.72rem;margin-top:4px">Aucun impôt sur le revenu dans ce territoire</div>
+        ` : `
+          <div style="display:flex;justify-content:space-between;padding:3px 0">
+            <span style="color:rgba(255,255,255,0.5)">Revenu net imposable annuel</span>
+            <span style="color:rgba(255,255,255,0.7)">${fmt(r.revenuImposable/12)}/mois</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:3px 0">
+            <span style="color:rgba(255,255,255,0.5)">Quotient familial (${r.parts} parts)</span>
+            <span style="color:rgba(255,255,255,0.7)">${fmt(r.revenuImposable/r.parts/12)}/mois</span>
+          </div>
+          ${r.irDetail ? `<div style="color:#f0c060;font-size:0.72rem;padding:3px 0">${r.irDetail}</div>` : ''}
+          <div style="display:flex;justify-content:space-between;font-size:0.82rem;font-weight:700;padding:6px 0 0;border-top:1px solid rgba(255,255,255,0.08);margin-top:4px">
+            <span style="color:rgba(255,255,255,0.7)">IR mensuel estimé</span>
+            <span style="color:#f08080">-${fmt(r.irMensuel)}/mois</span>
+          </div>
+          ${r.monnaie === 'XPF' ? `<div style="color:rgba(255,255,255,0.3);font-size:0.7rem;margin-top:2px">soit ${fmtXPF(r.irAnnuel)}/an</div>` : ''}
+        `}
+      </div>
+
+      <div style="background:linear-gradient(135deg,#1a3a28,#0e2018);border-radius:10px;padding:14px 16px">
+        <div style="font-size:0.72rem;font-weight:700;color:#7ac890;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:8px">NET FINAL ESTIMÉ</div>
+        ${r.irType !== 'aucun' ? `
+          <div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)">
+            <span>Net avant IR</span><span>${fmt(r.netAvantIR)}/mois</span>
+          </div>
+          ${r.hsaBrutAnnuel > 0 ? `<div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)">
+            <span>HSA nettes</span><span style="color:#7ac890">+${fmt(r.hsaNetMensuel)}/mois</span>
+          </div>` : ''}
+          <div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)">
+            <span>IR estimé</span><span style="color:#f08080">-${fmt(r.irMensuel)}/mois</span>
+          </div>` : ''}
+        <div style="display:flex;justify-content:space-between;font-size:1.1rem;font-weight:700;font-family:Cormorant Garamond,serif;padding:8px 0 0;border-top:1px solid rgba(122,200,144,0.3);margin-top:6px">
+          <span style="color:#fff">Net après tout</span>
+          <span style="color:#7ac890">${fmt(r.netFinal)}/mois</span>
+        </div>
+        ${r.monnaie === 'XPF' ? `<div style="color:rgba(255,255,255,0.4);font-size:0.72rem;margin-top:4px">≈ ${fmtXPF(r.netFinal * 12)}/an</div>` : ''}
+        <div style="color:rgba(255,255,255,0.3);font-size:0.68rem;margin-top:6px;line-height:1.4">Estimation avant impôt sur le revenu final — hors suppléments familiaux, hors avantages en nature. IR calculé sur revenus d activité uniquement.</div>
+      </div>
+    </div>`;
+}
+
+
 function renderDOMCOM() {
   const im = getIM();
   const brut = im ? im * PARAMS.point_indice_mensuel : 0;
@@ -597,6 +802,7 @@ function renderDOMCOM() {
           <div style="font-size:0.82rem;color:#5a1a9a;font-weight:700">${t.conge_bonifie.jours} jours supplémentaires ${t.conge_bonifie.frequence}</div>
           <div style="font-size:0.72rem;color:#7a3ab0;margin-top:2px">+ Billet d avion pris en charge + Majoration de traitement ${t.conge_bonifie.majoration_pendant_conge_pct}% pendant la durée du congé</div>
         </div>
+        ${renderFiscal(total, k, situation_dc, nbHsa_dc, tauxHsa)}
       </div>` : `<div style="padding:16px 18px;font-size:0.85rem;color:var(--gris-moyen)">Sélectionnez votre corps et échelon ci-dessus pour voir les montants calculés.</div>`}
     </div>`;
   }
@@ -692,10 +898,20 @@ function renderDOMCOM() {
           <div style="font-size:0.82rem;color:#1a3fa0">${t.billet_avion.detail}</div>
           ${t.billet_avion.droit_bagages_kg ? `<div style="font-size:0.72rem;color:#2a5ab0;margin-top:2px">Excédent bagages : ${t.billet_avion.droit_bagages_kg} kg / personne pris en charge</div>` : ''}
         </div>` : ''}
+        ${renderFiscal(t.zones[0] ? (brut * 1.03 * t.zones[0].coefficient + isoeValCom + grenelleCom) : 0, k, situation_dc, nbHsa_dc, tauxHsa)}
       </div>` : ''}
     </div>`;
   }
 
+  const situation_dc = document.getElementById('sel-situation-dc')?.value || 'celibataire';
+  const nbHsa_dc = parseInt(document.getElementById('sel-hsa-dc')?.value || '0');
+  const confHsa = CORPS[E.corps].hsa;
+  const tauxHsaObj = confHsa ? PARAMS.hsa[confHsa] : null;
+  const tauxHsa = tauxHsaObj
+    ? (nbHsa_dc >= 1
+        ? (tauxHsaObj['1ere_hsa_annuelle'] + Math.max(0, nbHsa_dc - 1) * tauxHsaObj['autres_hsa_annuelle']) / 12
+        : 0)
+    : 0;
   const grilles = GRILLES.corps[E.corps];
   const gradeData = grilles?.[E.grade] || grilles?.echelons || {};
 
@@ -737,6 +953,31 @@ function renderDOMCOM() {
             <option value="0">Hors REP</option>
             <option value="104">REP +104€/mois (+1 248€/an)</option>
             <option value="259">REP+ +259€/mois (+3 108€/an)</option>
+          </select>
+        </div>
+      </div>
+      <div>
+          <label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Situation familiale</label>
+          <select id="sel-situation-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="renderDOMCOM()">
+            <option value="celibataire">Célibataire (1 part)</option>
+            <option value="marie_sans_enfant">Marié·e sans enfant (2 parts)</option>
+            <option value="marie_1_enfant">Marié·e + 1 enfant (2,5 parts)</option>
+            <option value="marie_2_enfants">Marié·e + 2 enfants (3 parts)</option>
+            <option value="marie_3_enfants">Marié·e + 3 enfants (4 parts)</option>
+            <option value="celibataire_1_enfant">Célibataire + 1 enfant (1,5 part)</option>
+            <option value="celibataire_2_enfants">Célibataire + 2 enfants (2 parts)</option>
+            <option value="celibataire_3_enfants">Célibataire + 3 enfants (3 parts)</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Nb HSA annuelles</label>
+          <select id="sel-hsa-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="renderDOMCOM()">
+            <option value="0">0 HSA</option>
+            <option value="1">1 HSA</option>
+            <option value="2">2 HSA</option>
+            <option value="3">3 HSA</option>
+            <option value="4">4 HSA</option>
+            <option value="5">5 HSA</option>
           </select>
         </div>
       </div>
