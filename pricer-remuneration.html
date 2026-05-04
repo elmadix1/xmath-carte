@@ -41,7 +41,7 @@ header nav a:hover { color: #fff; }
 .sit-tab.active.bleu { color: var(--bleu-clair); border-bottom-color: var(--bleu-clair); }
 
 /* LAYOUT */
-.container { max-width: 1080px; margin: 0 auto; padding: 40px 32px 80px; display: grid; grid-template-columns: 1fr 360px; gap: 36px; }
+.container { max-width: 1080px; margin: 0 auto; padding: 40px 32px 80px; display: grid; grid-template-columns: 1fr 360px; gap: 36px; } .container.full { display:block; max-width:1200px; }
 
 /* CARDS */
 .form-card { background: #fff; border: 1.5px solid var(--gris-clair); border-radius: 14px; padding: 28px; }
@@ -283,6 +283,8 @@ function setSituation(s) {
   });
   const map = { france:'', resident:'vert', expat:'or', domcom:'bleu', mlf:'rouge' };
   const cls = map[s]; document.getElementById('tab-'+s).classList.add('active'); if(cls) document.getElementById('tab-'+s).classList.add(cls);
+  const appContainer = document.querySelector('.container');
+  if(s==='domcom'||s==='mlf'){appContainer.classList.add('full');}else{appContainer.classList.remove('full');}
   render();
 }
 
@@ -988,12 +990,12 @@ function renderDOMCOM() {
     </div>
 
     <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🇫🇷 Départements d Outre-Mer (DOM) — Mutation classique permanente</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));gap:20px;margin-bottom:32px">
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-bottom:32px">
       ${Object.entries(DOMCOM.dom).map(([k, t]) => cardDOM(k, t)).join('')}
     </div>
 
     <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🏝️ Collectivités d Outre-Mer (COM) — Détachement limité</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));gap:20px;margin-bottom:24px">
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-bottom:24px">
       ${Object.entries(DOMCOM.com).map(([k, t]) => cardCOM(k, t)).join('')}
     </div>
 
