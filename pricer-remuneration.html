@@ -166,7 +166,7 @@ footer a { color: var(--vert-clair); text-decoration: none; }
       Source : Arrêté annuel JO chaque mars pour avril
       Fournir : PDF JO → envoyer à Claude
 
-   4. ISOE / ISAE / Indemnités → params_remuneration.json
+   4. ISOE (Indemnité de Suivi et d Orientation des Élèves — 2nd degré) / ISAE (Indemnité de Suivi et d Accompagnement des Élèves — 1er degré) / Indemnités → params_remuneration.json
       Source : education.gouv.fr ou bulletin de paie
       Fournir : nouveaux montants mensuels en €
 
@@ -542,7 +542,7 @@ function renderDOMCOM() {
           <span style="color:#7ac890">+ ${fmt(maj)}/mois</span>
         </div>
         ${isoeVal ? `<div style="display:flex;justify-content:space-between;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
-          <span style="color:rgba(255,255,255,0.5)">ISOE / ISAE</span>
+          <span style="color:rgba(255,255,255,0.5)">ISOE (Indemnité de Suivi et d Orientation des Élèves — 2nd degré) / ISAE (Indemnité de Suivi et d Accompagnement des Élèves — 1er degré)</span>
           <span style="color:#7ac890">+ ${fmt(isoeVal)}/mois</span>
         </div>` : ''}
         ${grenelle ? `<div style="display:flex;justify-content:space-between;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
@@ -640,7 +640,7 @@ function renderDOMCOM() {
             <span style="color:#c8b8ff">${fmt(base * z.coefficient)}/mois</span>
           </div>
           ${isoeValCom ? `<div style="display:flex;justify-content:space-between;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
-            <span style="color:rgba(255,255,255,0.5)">ISOE / ISAE</span>
+            <span style="color:rgba(255,255,255,0.5)">ISOE (Indemnité de Suivi et d Orientation des Élèves — 2nd degré) / ISAE (Indemnité de Suivi et d Accompagnement des Élèves — 1er degré)</span>
             <span style="color:#7ac890">+ ${fmt(isoeValCom)}/mois</span>
           </div>` : ''}
           ${grenelleCom ? `<div style="display:flex;justify-content:space-between;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
@@ -844,7 +844,7 @@ function calculer() {
   if (conf.isoe) {
     // CPE et Psy-EN ont des indemnités spécifiques mais attention à l étranger AEFE
     indem = PARAMS.isoe_mensuel;
-    indemLabel = 'ISOE / ISAE';
+    indemLabel = 'ISOE (Indemnité de Suivi et d Orientation des Élèves — 2nd degré) / ISAE (Indemnité de Suivi et d Accompagnement des Élèves — 1er degré)';
     if (situation !== 'france') {
       // Note : CPE et Psy-EN ne perçoivent pas leurs indemnités dans le réseau AEFE
       // On garde l ISOE pour simplifier mais on signale via alerte
