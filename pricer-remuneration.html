@@ -126,7 +126,7 @@ footer a { color: var(--vert-clair); text-decoration: none; }
 </header>
 
 <section class="hero">
-  <div class="hero-badge">Simulateur — Données 2026</div>
+  <div class="hero-badge">Simulateur Données 2026</div>
   <h1>Estimez votre rémunération</h1>
   <p>Comparez votre traitement en France et à l étranger selon votre corps, échelon et type de contrat AEFE ou MLF.</p>
 </section>
@@ -144,24 +144,24 @@ footer a { color: var(--vert-clair); text-decoration: none; }
 </div>
 
 <footer>
-  <p>© 2026 emplois-scolaires-monde.online — Simulation indicative avant impôt sur le revenu</p>
+  <p>© 2026 emplois-scolaires-monde.online Simulation indicative avant impôt sur le revenu</p>
   <p style="margin-top:6px"><a href="/legal.html">Mentions légales</a> · <a href="/emplois.html">Offres</a> · <a href="/alertes.html">Alertes</a></p>
 </footer>
 
 <script>
 /* ═══════════════════════════════════════════════════════════════════
-   MISE À JOUR ANNUELLE — CHECKLIST
+   MISE À JOUR ANNUELLE CHECKLIST
    ═══════════════════════════════════════════════════════════════════
    1. POINT D INDICE → params_remuneration.json → point_indice_mensuel
-      Source : legifrance.gouv.fr — souvent juillet
+      Source : legifrance.gouv.fr souvent juillet
       Fournir : nouvelle valeur en € et date d effet
 
    2. ISVL → isvl.json (résidents AEFE)
-      Source : Arrêté annuel JO — chaque octobre
+      Source : Arrêté annuel JO chaque octobre
       Fournir : PDF JO → envoyer à Claude
 
    3. IGFS → igfs.json (expatriés/détachés AEFE)
-      Source : Arrêté annuel JO — chaque mars pour avril
+      Source : Arrêté annuel JO chaque mars pour avril
       Fournir : PDF JO → envoyer à Claude
 
    4. ISOE / ISAE / Indemnités → params_remuneration.json
@@ -179,7 +179,7 @@ footer a { color: var(--vert-clair); text-decoration: none; }
 
    7. INDEMNITÉ DE RÉSIDENCE → params_remuneration.json
       Zone 1 = 3% du traitement / Zone 2 = 1%
-      En France seulement — disparaît à l étranger
+      En France seulement disparaît à l étranger
    ═══════════════════════════════════════════════════════════════════ */
 
 let PARAMS, GRILLES, ISVL, IGFS, IE;
@@ -223,7 +223,7 @@ const CORPS = {
   "ctssae":               { label: "Conseiller technique service social (CTSSAE)", grades: ["1er_grade","2e_grade"], isoe: false, grenelle: 'aucune', hsa: null },
   "infenes":              { label: "Infirmier(e) EN catégorie A (INFENES)", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null },
   "medecin_en":           { label: "Médecin de l Éducation nationale", grades: ["2e_classe","1re_classe","hors_classe"], isoe: false, grenelle: 'aucune', hsa: null },
-  "ia_ipr":               { label: "Inspecteur d académie — IPR (IA-IPR)", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null },
+  "ia_ipr":               { label: "Inspecteur d académie IPR (IA-IPR)", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null },
   "ien":                  { label: "Inspecteur de l EN (IEN)", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null },
   "personnel_direction":  { label: "Personnel de direction", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null },
   "atrf":                 { label: "Adjoint technique de recherche (ATRF)", grades: ["atrf","2e_classe","1re_classe"], isoe: false, grenelle: 'aucune', hsa: null },
@@ -298,12 +298,12 @@ function render() {
     </div>`,
 
     resident: `<div class="pedago-box vert">
-      <strong>🌍 Résident AEFE — Ce qui change par rapport à la France</strong>
+      <strong>🌍 Résident AEFE Ce qui change par rapport à la France</strong>
       En tant que résident AEFE, vous êtes recruté localement par un établissement à l étranger.
       <ul>
         <li>✅ Vous conservez votre traitement indiciaire français</li>
         <li>✅ Vous percevez l ISVL (montant fixe selon le pays et votre groupe G1-G8)</li>
-        <li>❌ La Prime Grenelle n est PAS versée — exclusion décidée par Bercy</li>
+        <li>❌ La Prime Grenelle n est PAS versée exclusion décidée par Bercy</li>
         <li>❌ Pas d indemnité de résidence (remplacée par l ISVL)</li>
         <li>❌ Les CPE et Psy-EN ne perçoivent pas leurs indemnités statutaires dans le réseau AEFE</li>
         <li>⚠️ Pas d ICR (indemnité de changement de résidence), pas de billet d avion</li>
@@ -312,16 +312,16 @@ function render() {
     </div>`,
 
     expat: `<div class="pedago-box or">
-      <strong>✈️ Expatrié / Détaché AEFE — Ce qui change</strong>
+      <strong>✈️ Expatrié / Détaché AEFE Ce qui change</strong>
       Vous êtes détaché par le Ministère de l Éducation nationale et envoyé à l étranger.
       <ul>
         <li>✅ Traitement indiciaire français maintenu</li>
-        <li>✅ IE/IGFS (Indemnité d'Expatriation) — montant fixe selon le pays et le groupe</li>
+        <li>✅ IE/IGFS (Indemnité d'Expatriation) montant fixe selon le pays et le groupe</li>
         <li>✅ ICR (indemnité de changement de résidence) pour vous et votre famille</li>
         <li>✅ Billet d avion aller/retour pris en charge (fréquence selon le pays)</li>
-        <li>❌ Gel indiciaire pendant la durée du contrat — votre avancement n est pas répercuté</li>
+        <li>❌ Gel indiciaire pendant la durée du contrat votre avancement n est pas répercuté</li>
         <li>❌ Pas de Prime Grenelle à l étranger</li>
-        <li>⚠️ IE non disponible pour certains pays — contactez l'AEFE ou le SNES-FSU pour le montant exact</li>
+        <li>⚠️ IE non disponible pour certains pays contactez l'AEFE ou le SNES-FSU pour le montant exact</li>
       </ul>
     </div>`
   };
@@ -363,8 +363,8 @@ function render() {
         ${situation==='resident' ? paysOptionsISVL : paysOptionsIE}
       </select>
       <div class="help">${situation==='resident'
-        ? 'Source ISVL : Arrêté du 8 octobre 2025 — JO (montant annuel fixe selon le groupe G1-G8)'
-        : 'Source : non officiel — Groupe 5 — Contactez l\'AEFE ou le SNES-FSU pour le montant exact'
+        ? 'Source ISVL : Arrêté du 8 octobre 2025 JO (montant annuel fixe selon le groupe G1-G8)'
+        : 'Source : non officiel Groupe 5 Contactez l\'AEFE ou le SNES-FSU pour le montant exact'
       }</div>
     </div>` : '';
 
@@ -430,9 +430,9 @@ function render() {
       <div class="form-group">
         <label>Zone</label>
         <select id="sel-zone" onchange="calculer()">
-          <option value="3">Zone 1 — 3% (Île-de-France et grandes villes)</option>
-          <option value="1">Zone 2 — 1% (autres communes)</option>
-          <option value="0">Zone 3 — 0% (communes rurales)</option>
+          <option value="3">Zone 1 3% (Île-de-France et grandes villes)</option>
+          <option value="1">Zone 2 1% (autres communes)</option>
+          <option value="0">Zone 3 0% (communes rurales)</option>
         </select>
         <div class="help">L indemnité de résidence est proportionnelle au traitement brut. Elle disparaît à l étranger (remplacée par ISVL ou IGFS).</div>
       </div>` : ''}
@@ -448,7 +448,7 @@ function render() {
       <div class="net-card hidden" id="net-card">
         <div class="net-label">Net estimé avant impôt</div>
         <div class="net-val" id="net-val">—</div>
-        <div class="net-note">Estimation : total brut × 79% — Hors IR, hors suppléments familiaux, hors avantages en nature</div>
+        <div class="net-note">Estimation : total brut × 79% Hors IR, hors suppléments familiaux, hors avantages en nature</div>
       </div>
       <div class="alerte" id="result-alertes"></div>
       <div class="info">
@@ -467,7 +467,7 @@ function renderMLF() {
       <div class="pedago-box rouge">
         <strong>La rémunération MLF n est pas simulable ici</strong>
         Les établissements de la Mission Laïque Française (MLF) sont des associations privées.
-        Chaque établissement négocie ses propres conditions salariales — il n y a pas de grille nationale publiée.
+        Chaque établissement négocie ses propres conditions salariales il n y a pas de grille nationale publiée.
       </div>
       <div style="margin-top:20px;font-size:0.88rem;color:var(--gris-moyen);line-height:1.7">
         <p style="font-weight:600;color:var(--gris-fonce);margin-bottom:12px">Ce que vous devez savoir sur les contrats MLF :</p>
@@ -487,7 +487,7 @@ function renderMLF() {
           <li>Consulter le site <a href="https://www.mlf.lu/recrutement" target="_blank" style="color:var(--bleu-clair)">mlf.lu/recrutement</a></li>
         </ul>
         <br>
-        <p>📊 Pour avoir un ordre d idée, utilisez le simulateur <strong>Résident AEFE</strong> ou <strong>Expatrié AEFE</strong> — cela vous donnera une base de comparaison.</p>
+        <p>📊 Pour avoir un ordre d idée, utilisez le simulateur <strong>Résident AEFE</strong> ou <strong>Expatrié AEFE</strong> cela vous donnera une base de comparaison.</p>
       </div>
     </div>`;
 }
@@ -539,7 +539,7 @@ function calculer() {
   // 3. Indemnité
   let indem = 0, indemLabel = '';
   if (conf.isoe) {
-    // CPE et Psy-EN ont des indemnités spécifiques — mais attention à l étranger AEFE
+    // CPE et Psy-EN ont des indemnités spécifiques mais attention à l étranger AEFE
     indem = PARAMS.isoe_mensuel;
     indemLabel = 'ISOE / ISAE';
     if (situation !== 'france') {
@@ -601,7 +601,7 @@ function calculer() {
       const groupe = (CORPS_GROUPE[E.corps]||(() => 'G4'))(E.grade);
       const v = paysData.villes[0];
       indemPays = Math.round((v[groupe] || 0) / 12);
-      indemPaysLabel = `ISVL ${groupe} — ${v.ville}`;
+      indemPaysLabel = `ISVL ${groupe} ${v.ville}`;
       indemPaysNote = `${fmt(v[groupe]||0)}/an`;
     }
   }
@@ -613,19 +613,19 @@ function calculer() {
       if (ieData.villes) {
         const v = ieData.villes[0];
         indemPays = Math.round(v.ie_annuel / 12);
-        indemPaysLabel = `IE — ${v.ville}`;
-        indemPaysNote = `${v.ie_annuel.toLocaleString('fr-FR')}€/an ÷ 12 — Groupe 5 — Source : non officiel`;
+        indemPaysLabel = `IE ${v.ville}`;
+        indemPaysNote = `${v.ie_annuel.toLocaleString('fr-FR')}€/an ÷ 12 Groupe 5 Source : non officiel`;
       } else {
         indemPays = Math.round(ieData.ie_annuel / 12);
-        indemPaysLabel = `IE — ${ieData.label}`;
-        indemPaysNote = `${ieData.ie_annuel.toLocaleString('fr-FR')}€/an ÷ 12 — Groupe 5 — Source : non officiel`;
+        indemPaysLabel = `IE ${ieData.label}`;
+        indemPaysNote = `${ieData.ie_annuel.toLocaleString('fr-FR')}€/an ÷ 12 Groupe 5 Source : non officiel`;
         if (ieData.ie_annuel > 125000) {
-          indemPaysNote += ' — ⚠️ Montant extrême à vérifier';
+          indemPaysNote += ' ⚠️ Montant extrême à vérifier';
         }
       }
     } else {
-      indemPaysLabel = `IE — montant non disponible`;
-      indemPaysNote = `Ce pays n'est pas dans notre base — contactez l'AEFE ou le SNES-FSU`;
+      indemPaysLabel = `IE montant non disponible`;
+      indemPaysNote = `Ce pays n'est pas dans notre base contactez l'AEFE ou le SNES-FSU`;
     }
   }
 
@@ -697,7 +697,7 @@ function calculer() {
     } else {
       lines += `
         <div class="result-line">
-          <span class="lbl">${situation==='resident'?'ISVL':'IGFS'} — pays non sélectionné</span>
+          <span class="lbl">${situation==='resident'?'ISVL':'IGFS'} pays non sélectionné</span>
           <span class="val neutre">— €</span>
         </div>`;
     }
@@ -725,7 +725,7 @@ function calculer() {
     alertes.push(`ℹ️ Taux IGFS négatif (${IGFS.taux[E.pays].taux}%) : ce pays est jugé moins cher que la France. L indemnité IGFS est nulle (plancher à 0).`);
   }
   if (situation !== 'france' && conf.grenelle !== 'aucune') {
-    alertes.push('ℹ️ La Prime Grenelle n est pas versée aux agents AEFE en poste à l étranger — exclusion décidée par Bercy malgré les demandes des syndicats.');
+    alertes.push('ℹ️ La Prime Grenelle n est pas versée aux agents AEFE en poste à l étranger exclusion décidée par Bercy malgré les demandes des syndicats.');
   }
   document.getElementById('result-alertes').innerHTML = alertes.map(a => `<div style="margin-bottom:6px">${a}</div>`).join('') || '';
   if (!alertes.length) document.getElementById('result-alertes').style.display = 'none';
