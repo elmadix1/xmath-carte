@@ -930,7 +930,7 @@ function renderDOMCOM() {
 
     <div style="background:#fff;border:1.5px solid var(--gris-clair);border-radius:12px;padding:20px;margin-bottom:24px">
       <div style="font-size:0.75rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:14px">Votre profil pour le calcul</div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;align-items:end">
         <div>
           <label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Corps</label>
           <select style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="E.corps=this.value;syncGrade()">
@@ -966,6 +966,30 @@ function renderDOMCOM() {
             <option value="marie_1_enfant">Marié·e + 1 enfant (2,5 parts)</option>
             <option value="marie_2_enfants">Marié·e + 2 enfants (3 parts)</option>
             <option value="marie_3_enfants">Marié·e + 3 enfants (4 parts)</option>
+            <option value="celibataire_1_enfant">Célibataire + 1 enfant (1,5 part)</option>
+            <option value="celibataire_2_enfants">Célibataire + 2 enfants (2 parts)</option>
+            <option value="celibataire_3_enfants">Célibataire + 3 enfants (3 parts)</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Nb HSA annuelles</label>
+          <select id="sel-hsa-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="renderDOMCOM()">
+            <option value="0">0 HSA</option>
+            <option value="1">1 HSA</option>
+            <option value="2">2 HSA</option>
+            <option value="3">3 HSA</option>
+            <option value="4">4 HSA</option>
+            <option value="5">5 HSA</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Situation familiale</label>
+          <select id="sel-situation-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="renderDOMCOM()">
+            <option value="celibataire">Célibataire (1 part)</option>
+            <option value="marie_sans_enfant">Marié sans enfant (2 parts)</option>
+            <option value="marie_1_enfant">Marié + 1 enfant (2,5 parts)</option>
+            <option value="marie_2_enfants">Marié + 2 enfants (3 parts)</option>
+            <option value="marie_3_enfants">Marié + 3 enfants (4 parts)</option>
             <option value="celibataire_1_enfant">Célibataire + 1 enfant (1,5 part)</option>
             <option value="celibataire_2_enfants">Célibataire + 2 enfants (2 parts)</option>
             <option value="celibataire_3_enfants">Célibataire + 3 enfants (3 parts)</option>
