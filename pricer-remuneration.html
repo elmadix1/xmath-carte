@@ -41,7 +41,7 @@ header nav a:hover { color: #fff; }
 .sit-tab.active.bleu { color: var(--bleu-clair); border-bottom-color: var(--bleu-clair); }
 
 /* LAYOUT */
-.container { max-width: 1080px; margin: 0 auto; padding: 40px 32px 80px; display: grid; grid-template-columns: 1fr 360px; gap: 36px; }
+.container { max-width: 1400px; margin: 0 auto; padding: 40px 32px 80px; display: grid; grid-template-columns: 1fr 360px; gap: 36px; }
 
 /* CARDS */
 .form-card { background: #fff; border: 1.5px solid var(--gris-clair); border-radius: 14px; padding: 28px; }
@@ -166,7 +166,7 @@ footer a { color: var(--vert-clair); text-decoration: none; }
       Source : Arrêté annuel JO chaque mars pour avril
       Fournir : PDF JO → envoyer à Claude
 
-   4. ISOE (Indemnité de Suivi et d Orientation des Élèves — 2nd degré) / ISAE (Indemnité de Suivi et d Accompagnement des Élèves — 1er degré) / Indemnités → params_remuneration.json
+   4. ISOE / ISAE / Indemnités → params_remuneration.json
       Source : education.gouv.fr ou bulletin de paie
       Fournir : nouveaux montants mensuels en €
 
@@ -747,7 +747,7 @@ function renderDOMCOM() {
           <span style="color:#7ac890">+ ${fmt(maj)}/mois</span>
         </div>
         ${isoeVal ? `<div style="display:flex;justify-content:space-between;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
-          <span style="color:rgba(255,255,255,0.5)">ISOE (Indemnité de Suivi et d Orientation des Élèves — 2nd degré) / ISAE (Indemnité de Suivi et d Accompagnement des Élèves — 1er degré)</span>
+          <span style="color:rgba(255,255,255,0.5)">ISOE / ISAE</span>
           <span style="color:#7ac890">+ ${fmt(isoeVal)}/mois</span>
         </div>` : ''}
         ${grenelle ? `<div style="display:flex;justify-content:space-between;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
@@ -839,14 +839,14 @@ function renderDOMCOM() {
           <div style="font-size:0.78rem;font-weight:700;color:#c8b8ff;margin-bottom:10px">Coefficient × ${z.coefficient} · ${z.label}</div>
           <div style="display:flex;justify-content:space-between;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
             <span style="color:rgba(255,255,255,0.5)">Base (brut + indem. résidence Paris ≈3%)</span>
-            <span style="color:rgba(255,255,255,0.85)">${fmt(base)}/mois</span>
+            <span style="color:rgba(255,255,255,0.85);white-space:nowrap">${fmt(base)}/mois</span>
           </div>
           <div style="display:flex;justify-content:space-between;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
             <span style="color:rgba(255,255,255,0.5)">× ${z.coefficient}</span>
             <span style="color:#c8b8ff">${fmt(base * z.coefficient)}/mois</span>
           </div>
           ${isoeValCom ? `<div style="display:flex;justify-content:space-between;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
-            <span style="color:rgba(255,255,255,0.5)">ISOE (Indemnité de Suivi et d Orientation des Élèves — 2nd degré) / ISAE (Indemnité de Suivi et d Accompagnement des Élèves — 1er degré)</span>
+            <span style="color:rgba(255,255,255,0.5)">ISOE / ISAE</span>
             <span style="color:#7ac890">+ ${fmt(isoeValCom)}/mois</span>
           </div>` : ''}
           ${grenelleCom ? `<div style="display:flex;justify-content:space-between;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
@@ -988,12 +988,12 @@ function renderDOMCOM() {
     </div>
 
     <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🇫🇷 Départements d Outre-Mer (DOM) — Mutation classique permanente</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin-bottom:32px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:20px;margin-bottom:32px">
       ${Object.entries(DOMCOM.dom).map(([k, t]) => cardDOM(k, t)).join('')}
     </div>
 
     <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🏝️ Collectivités d Outre-Mer (COM) — Détachement limité</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin-bottom:24px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:20px;margin-bottom:24px">
       ${Object.entries(DOMCOM.com).map(([k, t]) => cardCOM(k, t)).join('')}
     </div>
 
@@ -1085,7 +1085,7 @@ function calculer() {
   if (conf.isoe) {
     // CPE et Psy-EN ont des indemnités spécifiques mais attention à l étranger AEFE
     indem = PARAMS.isoe_mensuel;
-    indemLabel = 'ISOE (Indemnité de Suivi et d Orientation des Élèves — 2nd degré) / ISAE (Indemnité de Suivi et d Accompagnement des Élèves — 1er degré)';
+    indemLabel = 'ISOE / ISAE';
     if (situation !== 'france') {
       // Note : CPE et Psy-EN ne perçoivent pas leurs indemnités dans le réseau AEFE
       // On garde l ISOE pour simplifier mais on signale via alerte
