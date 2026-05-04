@@ -473,170 +473,60 @@ function render() {
 function renderDOMCOM() {
   const im = getIM();
   const brut = im ? im * PARAMS.point_indice_mensuel : 0;
-  const conf = CORPS[E.corps];
-  const isoeVal = conf.isoe ? PARAMS.isoe_mensuel : (conf.indem_aesh ? PARAMS.indem_aesh_mensuel : 0);
-  const indemRes = brut * 0.03; // zone 1 par défaut
-  const rep = parseInt(document.getElementById('sel-rep-dc')?.value || '0');
-  const repLabel = rep === 259 ? 'REP+' : rep === 104 ? 'REP' : '';
-
-  function badge(txt, bg, color) {
-    return `<span style="background:${bg};color:${color};font-size:0.7rem;font-weight:700;padding:3px 9px;border-radius:12px;white-space:nowrap">${txt}</span>`;
-  }
-
-  function ligne(label, val, color='rgba(255,255,255,0.85)', plus=false) {
-    return `<div style="display:flex;justify-content:space-between;align-items:center;font-size:0.8rem;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
-      <span style="color:rgba(255,255,255,0.55)">${label}</span>
-      <span style="color:${color};font-weight:500">${plus?'+ ':''}${val}</span>
-    </div>`;
-  }
 
   function cardDOM(k, t) {
     const maj = brut * t.majoration_pct / 100;
-    let grenelle = 0;
-    if (t.grenelle && conf.grenelle === 'titulaire' && E.grade === 'CN') {
-      grenelle = PARAMS.prime_grenelle_titulaires[`CN${E.echelon}`] || 0;
-    }
-    const total = brut + maj + isoeVal + grenelle + indemRes + rep;
+    const total = brut + maj;
     const net = total * PARAMS.taux_net_sur_brut;
-
-    // Indemnités non récurrentes
-    const isg = t.isg?.eligible ? (t.isg.montant_mois_traitement_communes_cotieres || t.isg.montant_mois_traitement || 0) * brut : 0;
-    const isgIsole = t.isg?.montant_mois_traitement_communes_isolees ? t.isg.montant_mois_traitement_communes_isolees * brut : 0;
-    const primeInstall = t.prime_installation ? t.prime_installation.montant_mois_traitement * brut : 0;
-
-    return `<div style="background:#fff;border:1.5px solid var(--gris-clair);border-radius:12px;overflow:hidden;margin-bottom:12px">
-      <div style="background:var(--noir);padding:14px 18px;display:flex;align-items:center;gap:10px">
-        <span style="font-size:1.5rem">${t.drapeau}</span>
-        <div><div style="color:#fff;font-weight:700;font-size:0.95rem">${t.label}</div>
-        <div style="color:rgba(255,255,255,0.45);font-size:0.72rem">${t.recrutement}</div></div>
-        <div style="margin-left:auto;display:flex;gap:6px;flex-wrap:wrap">
-          ${badge('+'+t.majoration_pct+'%', '#e8f0fe', '#1a3fa0')}
-          ${t.grenelle ? badge('Grenelle ✓', '#edf4ef', '#2a5c3a') : badge('Grenelle ✗', '#fde8e8', '#c02020')}
-          ${badge('IR -'+t.reduction_ir_pct+'%', '#fdf5e8', '#c8862a')}
-        </div>
+    return `<div style="background:#fff;border:1.5px solid var(--gris-clair);border-radius:12px;padding:20px;margin-bottom:12px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+        <span style="font-size:1.6rem">${t.drapeau}</span>
+        <div><div style="font-weight:700;font-size:0.95rem">${t.label}</div>
+        <div style="font-size:0.75rem;color:var(--gris-moyen)">${t.recrutement}</div></div>
+        <span style="margin-left:auto;background:var(--bleu-pale);color:var(--bleu);font-size:0.75rem;font-weight:700;padding:4px 10px;border-radius:20px">+${t.majoration_pct}%</span>
       </div>
-
-      ${brut > 0 ? `
-      <div style="background:var(--noir);padding:12px 18px 16px;border-top:1px solid rgba(255,255,255,0.06)">
-        <div style="font-size:0.72rem;color:rgba(255,255,255,0.3);margin-bottom:8px;text-transform:uppercase;letter-spacing:0.4px">Rémunération mensuelle récurrente</div>
-        ${ligne('Traitement brut (IM '+im+' × '+PARAMS.point_indice_mensuel+'€)', fmt(brut))}
-        ${ligne('Majoration DOM +'+t.majoration_pct+'% ('+t.detail_majoration+')', fmt(maj), '#7ac890', true)}
-        ${isoeVal ? ligne('ISOE / ISAE', fmt(isoeVal), 'rgba(255,255,255,0.85)', true) : ''}
-        ${grenelle ? ligne('Prime Grenelle CN'+E.echelon, fmt(grenelle), 'rgba(255,255,255,0.85)', true) : ''}
-        ${ligne('Indemnité de résidence zone 1 (3%)', fmt(indemRes), 'rgba(255,255,255,0.85)', true)}
-        ${rep ? ligne('Indemnité '+repLabel, fmt(rep)+'/mois', 'rgba(255,255,255,0.85)', true) : ''}
-        <div style="display:flex;justify-content:space-between;font-size:0.9rem;font-weight:700;padding:10px 0 0;border-top:1px solid rgba(200,134,42,0.3);margin-top:6px">
-          <span style="color:#fff">Total brut mensuel estimé</span>
-          <span style="color:var(--or-clair)">${fmt(total)}/mois</span>
-        </div>
-        <div style="display:flex;justify-content:space-between;font-size:0.82rem;font-weight:600;margin-top:6px">
-          <span style="color:#7ac890">Net estimé avant IR</span>
-          <span style="color:#7ac890">${fmt(net)}/mois</span>
-        </div>
-        <div style="font-size:0.72rem;color:rgba(255,255,255,0.3);margin-top:4px">Réduction IR ${t.reduction_ir_pct}% applicable sur l impôt calculé — non déduite ici</div>
+      ${brut > 0 ? `<div style="background:var(--noir);border-radius:8px;padding:14px 16px;margin-bottom:10px">
+        <div style="display:flex;justify-content:space-between;font-size:0.8rem;color:rgba(255,255,255,0.55);padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
+          <span>Traitement brut</span><span style="color:rgba(255,255,255,0.85)">${fmt(brut)}/mois</span></div>
+        <div style="display:flex;justify-content:space-between;font-size:0.8rem;color:rgba(255,255,255,0.55);padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
+          <span>Majoration +${t.majoration_pct}%</span><span style="color:#7ac890">+ ${fmt(maj)}/mois</span></div>
+        <div style="display:flex;justify-content:space-between;font-size:0.88rem;font-weight:700;padding:8px 0 0">
+          <span style="color:#fff">Total brut estimé</span><span style="color:var(--or-clair)">${fmt(total)}/mois</span></div>
       </div>
-
-      <div style="padding:14px 18px;border-top:1px solid var(--gris-clair)">
-        <div style="font-size:0.72rem;font-weight:700;color:var(--or);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:10px">Primes et avantages non récurrents (versés en une ou plusieurs fois)</div>
-
-        ${t.prime_installation ? `<div style="background:var(--or-pale);border-radius:8px;padding:10px 14px;margin-bottom:8px;font-size:0.8rem">
-          <div style="font-weight:700;color:#5a3008;margin-bottom:4px">Prime d installation : ${fmt(primeInstall)}</div>
-          <div style="color:#7a5020">${t.prime_installation.detail}</div>
-          <div style="color:#a07040;font-size:0.72rem;margin-top:2px">= ${t.prime_installation.montant_mois_traitement} mois × ${fmt(brut)} (traitement brut actuel)</div>
-        </div>` : ''}
-
-        ${t.isg?.eligible ? `<div style="background:#e8f8ec;border-radius:8px;padding:10px 14px;margin-bottom:8px;font-size:0.8rem">
-          <div style="font-weight:700;color:#1a5a2a;margin-bottom:4px">ISG (Indemnité de Sujétion Géographique)</div>
-          <div style="color:#2a7a3a">${t.isg.detail}</div>
-          ${isg ? `<div style="color:#1a5a2a;font-weight:600;margin-top:4px">Estimation : ${fmt(isg)} à ${fmt(isgIsole || isg)}</div>` : ''}
-          <div style="color:#4a9a5a;font-size:0.72rem;margin-top:2px">Condition : ${t.isg.condition}</div>
-        </div>` : ''}
-
-        ${t.indem_terrain_isole ? `<div style="background:#e8f0fe;border-radius:8px;padding:10px 14px;margin-bottom:8px;font-size:0.8rem">
-          <div style="font-weight:700;color:#1a3fa0;margin-bottom:4px">Indemnité terrain isolé : ${t.indem_terrain_isole.montant_mensuel}€/mois</div>
-          <div style="color:#2a5ab0">${t.indem_terrain_isole.detail}</div>
-        </div>` : ''}
-
-        <div style="background:#f8f4ff;border-radius:8px;padding:10px 14px;font-size:0.8rem">
-          <div style="font-weight:700;color:#5a1a9a;margin-bottom:4px">Congé bonifié</div>
-          <div style="color:#7a3ab0">${t.conge_bonifie.jours} jours supplémentaires ${t.conge_bonifie.frequence} + billet d avion pris en charge + majoration de traitement ${t.conge_bonifie.majoration_pendant_conge_pct}% pendant le congé</div>
-        </div>
-      </div>` : `<div style="padding:16px 18px;font-size:0.85rem;color:var(--gris-moyen)">Sélectionnez votre corps et échelon pour voir les montants calculés.</div>`}
+      <div style="background:var(--vert-pale);border-radius:8px;padding:10px 14px;font-size:0.8rem;color:var(--vert);font-weight:600;margin-bottom:10px">
+        Net estimé avant IR : ${fmt(net)}/mois</div>` : ''}
+      <div style="font-size:0.75rem;color:var(--gris-moyen)">${t.detail}</div>
+      <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">
+        ${t.avantages.map(a=>`<span style="background:var(--or-pale);color:#7a4a10;font-size:0.7rem;padding:2px 8px;border-radius:12px">${a}</span>`).join('')}
+      </div>
     </div>`;
   }
 
   function cardCOM(k, t) {
-    const base = brut * 1.03;
-    const isoeValCom = conf.isoe ? PARAMS.isoe_mensuel : 0;
-    const grenelleCom = t.grenelle && conf.grenelle === 'titulaire' && E.grade === 'CN'
-      ? (PARAMS.prime_grenelle_titulaires[`CN${E.echelon}`] || 0) : 0;
-    const indemEloig = t.indem_eloignement ? t.indem_eloignement.montant_mois_traitement * brut : 0;
-    const majConjoint = t.indem_eloignement ? indemEloig * t.indem_eloignement.majoration_conjoint_pct / 100 : 0;
-    const majEnfant = t.indem_eloignement ? indemEloig * t.indem_eloignement.majoration_enfant_pct / 100 : 0;
-    const isgCom = t.isg?.eligible ? (t.isg.montant_mois_traitement || 0) * brut : 0;
-    const primeInstallCom = t.prime_installation ? t.prime_installation.montant_mois_traitement * brut : 0;
-
-    return `<div style="background:#fff;border:1.5px solid var(--gris-clair);border-radius:12px;overflow:hidden;margin-bottom:12px">
-      <div style="background:var(--noir);padding:14px 18px;display:flex;align-items:center;gap:10px">
-        <span style="font-size:1.5rem">${t.drapeau}</span>
-        <div><div style="color:#fff;font-weight:700;font-size:0.95rem">${t.label}</div>
-        <div style="color:rgba(255,255,255,0.45);font-size:0.72rem">${t.recrutement} — Max ${t.duree_max}</div></div>
-        <div style="margin-left:auto;display:flex;gap:6px;flex-wrap:wrap">
-          ${badge('Coefficient', '#f0e8ff', '#5a1a9a')}
-          ${t.grenelle ? badge('Grenelle ✓', '#edf4ef', '#2a5c3a') : badge('Grenelle ✗', '#fde8e8', '#c02020')}
-          ${t.reduction_ir_pct ? badge('IR -'+t.reduction_ir_pct+'%', '#fdf5e8', '#c8862a') : ''}
-        </div>
+    return `<div style="background:#fff;border:1.5px solid var(--gris-clair);border-radius:12px;padding:20px;margin-bottom:12px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+        <span style="font-size:1.6rem">${t.drapeau}</span>
+        <div><div style="font-weight:700;font-size:0.95rem">${t.label}</div>
+        <div style="font-size:0.75rem;color:var(--gris-moyen)">${t.recrutement}</div></div>
+        <span style="margin-left:auto;background:#f0e8ff;color:#5a1a9a;font-size:0.75rem;font-weight:700;padding:4px 10px;border-radius:20px">Coefficient</span>
       </div>
-
-      ${brut > 0 ? t.zones.map(z => {
-        const total = base * z.coefficient + isoeValCom + grenelleCom;
+      ${t.zones.map(z => {
+        const base = brut * 1.03;
+        const total = base * z.coefficient;
         const net = total * PARAMS.taux_net_sur_brut;
-        return `<div style="padding:14px 18px;border-top:1px solid var(--gris-clair);background:#fafaff">
-          <div style="font-size:0.8rem;font-weight:700;color:#5a1a9a;margin-bottom:10px">× ${z.coefficient} — ${z.label}</div>
-          <div style="background:var(--noir);border-radius:8px;padding:12px 14px">
-            <div style="font-size:0.72rem;color:rgba(255,255,255,0.3);margin-bottom:8px;text-transform:uppercase;letter-spacing:0.4px">Mensuel récurrent</div>
-            ${ligne('Traitement brut + indem. résidence Paris (≈3%)', fmt(base))}
-            ${ligne('× coefficient '+z.coefficient, fmt(base * z.coefficient), '#c8d8ff')}
-            ${isoeValCom ? ligne('ISOE / ISAE', fmt(isoeValCom), 'rgba(255,255,255,0.85)', true) : ''}
-            ${grenelleCom ? ligne('Prime Grenelle', fmt(grenelleCom), 'rgba(255,255,255,0.85)', true) : ligne('Prime Grenelle', 'Non versée', '#f08080')}
-            <div style="display:flex;justify-content:space-between;font-size:0.9rem;font-weight:700;padding:8px 0 0;border-top:1px solid rgba(200,134,42,0.3);margin-top:6px">
-              <span style="color:#fff">Total brut mensuel</span><span style="color:var(--or-clair)">${fmt(total)}/mois</span>
-            </div>
-            <div style="display:flex;justify-content:space-between;font-size:0.82rem;font-weight:600;margin-top:6px">
-              <span style="color:#7ac890">Net estimé avant IR</span><span style="color:#7ac890">${fmt(net)}/mois</span>
-            </div>
-          </div>
-        </div>`;
-      }).join('') : `<div style="padding:16px 18px;font-size:0.85rem;color:var(--gris-moyen)">Sélectionnez votre corps et échelon.</div>`}
-
-      ${brut > 0 ? `<div style="padding:14px 18px;border-top:1px solid var(--gris-clair)">
-        <div style="font-size:0.72rem;font-weight:700;color:var(--or);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:10px">Primes et avantages non récurrents</div>
-
-        ${t.indem_eloignement ? `<div style="background:var(--or-pale);border-radius:8px;padding:10px 14px;margin-bottom:8px;font-size:0.8rem">
-          <div style="font-weight:700;color:#5a3008;margin-bottom:4px">Indemnité d éloignement : ${fmt(indemEloig)}</div>
-          <div style="color:#7a5020">${t.indem_eloignement.detail}</div>
-          <div style="color:#1a5a2a;font-weight:600;margin-top:6px">= ${t.indem_eloignement.montant_mois_traitement} mois × ${fmt(brut)}</div>
-          <div style="color:#5a3008;margin-top:6px">+ Majoration conjoint (+${t.indem_eloignement.majoration_conjoint_pct}%) : ${fmt(majConjoint)} supplémentaires</div>
-          <div style="color:#5a3008">+ Majoration par enfant à charge (+${t.indem_eloignement.majoration_enfant_pct}%) : ${fmt(majEnfant)} / enfant</div>
-        </div>` : ''}
-
-        ${t.isg?.eligible ? `<div style="background:#e8f8ec;border-radius:8px;padding:10px 14px;margin-bottom:8px;font-size:0.8rem">
-          <div style="font-weight:700;color:#1a5a2a;margin-bottom:4px">ISG : ${fmt(isgCom)}</div>
-          <div style="color:#2a7a3a">${t.isg.detail}</div>
-          <div style="color:#4a9a5a;font-size:0.72rem;margin-top:2px">Condition : ${t.isg.condition}</div>
-        </div>` : ''}
-
-        ${t.prime_installation ? `<div style="background:#e8f8ec;border-radius:8px;padding:10px 14px;margin-bottom:8px;font-size:0.8rem">
-          <div style="font-weight:700;color:#1a5a2a;margin-bottom:4px">Prime d installation : ${fmt(primeInstallCom)}</div>
-          <div style="color:#2a7a3a">${t.prime_installation.detail}</div>
-        </div>` : ''}
-
-        ${t.billet_avion ? `<div style="background:#e8f0fe;border-radius:8px;padding:10px 14px;font-size:0.8rem">
-          <div style="font-weight:700;color:#1a3fa0;margin-bottom:4px">Billet d avion</div>
-          <div style="color:#2a5ab0">${t.billet_avion.detail}</div>
-          ${t.billet_avion.droit_bagages_kg ? `<div style="color:#4a7ac0;margin-top:2px">Excédent bagages : ${t.billet_avion.droit_bagages_kg} kg/personne pris en charge</div>` : ''}
-        </div>` : ''}
-      </div>` : ''}
+        return brut > 0 ? `<div style="background:#f8f4ff;border-radius:8px;padding:12px 14px;margin-bottom:8px">
+          <div style="font-size:0.78rem;font-weight:600;color:#5a1a9a;margin-bottom:8px">x ${z.coefficient} ${z.label}</div>
+          <div style="display:flex;justify-content:space-between;font-size:0.8rem;color:var(--gris-moyen)">
+            <span>Brut + indem. résidence Paris</span><span>${fmt(base)}/mois</span></div>
+          <div style="display:flex;justify-content:space-between;font-size:0.88rem;font-weight:700;margin-top:6px">
+            <span style="color:var(--gris-fonce)">Total brut estimé</span><span style="color:#5a1a9a">${fmt(total)}/mois</span></div>
+          <div style="font-size:0.78rem;color:var(--vert);font-weight:600;margin-top:4px">Net estimé avant IR : ${fmt(net)}/mois</div>
+        </div>` : `<div style="font-size:0.78rem;color:#5a1a9a;font-weight:600">x ${z.coefficient} ${z.label}</div>`;
+      }).join('')}
+      <div style="font-size:0.75rem;color:var(--gris-moyen);margin-top:8px">Durée max : ${t.duree_max}</div>
+      <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">
+        ${t.avantages.map(a=>`<span style="background:var(--or-pale);color:#7a4a10;font-size:0.7rem;padding:2px 8px;border-radius:12px">${a}</span>`).join('')}
+      </div>
     </div>`;
   }
 
@@ -644,168 +534,47 @@ function renderDOMCOM() {
   const gradeData = grilles?.[E.grade] || grilles?.echelons || {};
 
   document.getElementById('app').innerHTML = `<div style="grid-column:1/-1">
-    <div class="pedago-box bleu" style="margin-bottom:20px">
+    <div class="pedago-box bleu" style="margin-bottom:24px">
       <strong>🏝️ DOM et COM — Rémunération majorée</strong>
-      Recrutement via le vice-rectorat local — pas via l AEFE. La Prime Grenelle est maintenue dans les DOM (mutation classique) mais PAS dans les COM du Pacifique.
+      Les fonctionnaires en service dans les DOM et COM bénéficient de majorations de traitement. Le recrutement se fait via le vice-rectorat local et non via l AEFE.
       <ul style="margin-top:8px">
-        <li><strong>DOM</strong> (Guadeloupe, Martinique, Guyane, Réunion, Mayotte) : majoration % du traitement brut, mutation classique permanente, Prime Grenelle maintenue</li>
-        <li><strong>COM Pacifique</strong> (Polynésie, Nouvelle-Calédonie, Wallis) : coefficient multiplicateur, détachement 2 ans renouvelable, Prime Grenelle non versée</li>
-        <li><strong>Autres COM</strong> (Saint-Pierre, Saint-Barthélemy, Saint-Martin) : régime proche des DOM, Prime Grenelle maintenue</li>
+        <li><strong>DOM</strong> (Guadeloupe, Martinique, Guyane, Réunion, Mayotte) : majoration % du traitement brut, mutation classique permanente</li>
+        <li><strong>COM du Pacifique</strong> (Polynésie, Nouvelle-Calédonie, Wallis-et-Futuna) : coefficient multiplicateur, détachement limité 2 ans renouvelable</li>
+        <li><strong>Autres COM</strong> (Saint-Pierre, Saint-Barthélemy, Saint-Martin) : régime proche des DOM</li>
       </ul>
     </div>
 
-    <div style="background:#fff;border:1.5px solid var(--gris-clair);border-radius:12px;padding:20px;margin-bottom:24px">
-      <div style="font-size:0.78rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:12px">Votre profil pour le calcul</div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px">
-        <div><label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Corps</label>
-          <select style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.corps=this.value;syncGrade()">
-            ${Object.entries(CORPS).map(([k,v])=>`<option value="${k}"${E.corps===k?' selected':''}>${v.label}</option>`).join('')}
-          </select></div>
-        <div><label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Grade</label>
-          <select style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.grade=this.value;syncEchelon()">
-            ${CORPS[E.corps].grades.map(g=>`<option value="${g}"${E.grade===g?' selected':''}>${GRADE_LBL[g]||g}</option>`).join('')}
-          </select></div>
-        <div><label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Échelon</label>
-          <select style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.echelon=this.value;renderDOMCOM()">
-            ${Object.keys(gradeData).map(k=>`<option value="${k}"${E.echelon===k?' selected':''}>${k}</option>`).join('')}
-          </select></div>
-        <div><label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">REP / REP+</label>
-          <select id="sel-rep-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="renderDOMCOM()">
-            <option value="0">Hors REP</option>
-            <option value="104">REP +104€/mois</option>
-            <option value="259">REP+ +259€/mois</option>
-          </select></div>
-      </div>
-      ${brut > 0 ? `<div style="margin-top:12px;font-size:0.82rem;color:var(--gris-moyen)">Traitement brut de base : <strong style="color:var(--noir)">${fmt(brut)}/mois</strong> (IM ${im} × ${PARAMS.point_indice_mensuel}€) — ISOE/ISAE : ${fmt(isoeVal)}/mois</div>` : ''}
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:24px">
+      <div><label style="font-size:0.75rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:6px">Corps</label>
+        <select style="width:100%;padding:9px 12px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.corps=this.value;syncGrade()">
+          ${Object.entries(CORPS).map(([k,v])=>`<option value="${k}"${E.corps===k?' selected':''}>${v.label}</option>`).join('')}
+        </select></div>
+      <div><label style="font-size:0.75rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:6px">Grade</label>
+        <select style="width:100%;padding:9px 12px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.grade=this.value;syncEchelon()">
+          ${CORPS[E.corps].grades.map(g=>`<option value="${g}"${E.grade===g?' selected':''}>${GRADE_LBL[g]||g}</option>`).join('')}
+        </select></div>
+      <div><label style="font-size:0.75rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:6px">Échelon</label>
+        <select style="width:100%;padding:9px 12px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.echelon=this.value;renderDOMCOM()">
+          ${Object.keys(gradeData).map(k=>`<option value="${k}"${E.echelon===k?' selected':''}>${k}</option>`).join('')}
+        </select></div>
     </div>
+    ${brut > 0 ? `<div style="font-size:0.82rem;color:var(--gris-moyen);margin-bottom:20px">Traitement brut de base : <strong style="color:var(--noir)">${fmt(brut)}/mois</strong> (IM ${im} x ${PARAMS.point_indice_mensuel}€)</div>` : ''}
 
-    <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🇫🇷 Départements d Outre-Mer (DOM) — Mutation classique permanente</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin-bottom:32px">
+    <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:16px;color:var(--noir)">🇫🇷 Départements d Outre-Mer (DOM)</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-bottom:32px">
       ${Object.entries(DOMCOM.dom).map(([k,t])=>cardDOM(k,t)).join('')}
     </div>
 
-    <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🏝️ Collectivités d Outre-Mer (COM) — Détachement limité</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin-bottom:24px">
+    <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:16px;color:var(--noir)">🏝️ Collectivités d Outre-Mer (COM)</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-bottom:24px">
       ${Object.entries(DOMCOM.com).map(([k,t])=>cardCOM(k,t)).join('')}
     </div>
 
     <div class="alerte">
-      ⚠️ Estimations indicatives avant impôt sur le revenu. Les montants des primes non récurrentes (ISG, prime d installation, indemnité d éloignement) sont calculés sur la base de votre traitement brut actuel. Contactez le vice-rectorat ou votre syndicat pour les conditions exactes.
+      ⚠️ Estimations indicatives avant impôt sur le revenu. Les taux DOM sont officiels. Pour les COM le coefficient s applique au traitement augmenté de l indemnité de résidence Paris (environ 3%). Contactez le vice-rectorat pour les conditions exactes de recrutement.
     </div>
   </div>`;
 }
-
-function renderMLF       ${t.reduction_ir_pct ? badge('IR -'+t.reduction_ir_pct+'%', '#fdf5e8', '#c8862a') : ''}
-        </div>
-      </div>
-
-      ${brut > 0 ? t.zones.map(z => {
-        const total = base * z.coefficient + isoeValCom + grenelleCom;
-        const net = total * PARAMS.taux_net_sur_brut;
-        return `<div style="padding:14px 18px;border-top:1px solid var(--gris-clair);background:#fafaff">
-          <div style="font-size:0.8rem;font-weight:700;color:#5a1a9a;margin-bottom:10px">× ${z.coefficient} — ${z.label}</div>
-          <div style="background:var(--noir);border-radius:8px;padding:12px 14px">
-            <div style="font-size:0.72rem;color:rgba(255,255,255,0.3);margin-bottom:8px;text-transform:uppercase;letter-spacing:0.4px">Mensuel récurrent</div>
-            ${ligne('Traitement brut + indem. résidence Paris (≈3%)', fmt(base))}
-            ${ligne('× coefficient '+z.coefficient, fmt(base * z.coefficient), '#c8d8ff')}
-            ${isoeValCom ? ligne('ISOE / ISAE', fmt(isoeValCom), 'rgba(255,255,255,0.85)', true) : ''}
-            ${grenelleCom ? ligne('Prime Grenelle', fmt(grenelleCom), 'rgba(255,255,255,0.85)', true) : ligne('Prime Grenelle', 'Non versée', '#f08080')}
-            <div style="display:flex;justify-content:space-between;font-size:0.9rem;font-weight:700;padding:8px 0 0;border-top:1px solid rgba(200,134,42,0.3);margin-top:6px">
-              <span style="color:#fff">Total brut mensuel</span><span style="color:var(--or-clair)">${fmt(total)}/mois</span>
-            </div>
-            <div style="display:flex;justify-content:space-between;font-size:0.82rem;font-weight:600;margin-top:6px">
-              <span style="color:#7ac890">Net estimé avant IR</span><span style="color:#7ac890">${fmt(net)}/mois</span>
-            </div>
-          </div>
-        </div>`;
-      }).join('') : `<div style="padding:16px 18px;font-size:0.85rem;color:var(--gris-moyen)">Sélectionnez votre corps et échelon.</div>`}
-
-      ${brut > 0 ? `<div style="padding:14px 18px;border-top:1px solid var(--gris-clair)">
-        <div style="font-size:0.72rem;font-weight:700;color:var(--or);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:10px">Primes et avantages non récurrents</div>
-
-        ${t.indem_eloignement ? `<div style="background:var(--or-pale);border-radius:8px;padding:10px 14px;margin-bottom:8px;font-size:0.8rem">
-          <div style="font-weight:700;color:#5a3008;margin-bottom:4px">Indemnité d éloignement : ${fmt(indemEloig)}</div>
-          <div style="color:#7a5020">${t.indem_eloignement.detail}</div>
-          <div style="color:#1a5a2a;font-weight:600;margin-top:6px">= ${t.indem_eloignement.montant_mois_traitement} mois × ${fmt(brut)}</div>
-          <div style="color:#5a3008;margin-top:6px">+ Majoration conjoint (+${t.indem_eloignement.majoration_conjoint_pct}%) : ${fmt(majConjoint)} supplémentaires</div>
-          <div style="color:#5a3008">+ Majoration par enfant à charge (+${t.indem_eloignement.majoration_enfant_pct}%) : ${fmt(majEnfant)} / enfant</div>
-        </div>` : ''}
-
-        ${t.isg?.eligible ? `<div style="background:#e8f8ec;border-radius:8px;padding:10px 14px;margin-bottom:8px;font-size:0.8rem">
-          <div style="font-weight:700;color:#1a5a2a;margin-bottom:4px">ISG : ${fmt(isgCom)}</div>
-          <div style="color:#2a7a3a">${t.isg.detail}</div>
-          <div style="color:#4a9a5a;font-size:0.72rem;margin-top:2px">Condition : ${t.isg.condition}</div>
-        </div>` : ''}
-
-        ${t.prime_installation ? `<div style="background:#e8f8ec;border-radius:8px;padding:10px 14px;margin-bottom:8px;font-size:0.8rem">
-          <div style="font-weight:700;color:#1a5a2a;margin-bottom:4px">Prime d installation : ${fmt(primeInstallCom)}</div>
-          <div style="color:#2a7a3a">${t.prime_installation.detail}</div>
-        </div>` : ''}
-
-        ${t.billet_avion ? `<div style="background:#e8f0fe;border-radius:8px;padding:10px 14px;font-size:0.8rem">
-          <div style="font-weight:700;color:#1a3fa0;margin-bottom:4px">Billet d avion</div>
-          <div style="color:#2a5ab0">${t.billet_avion.detail}</div>
-          ${t.billet_avion.droit_bagages_kg ? `<div style="color:#4a7ac0;margin-top:2px">Excédent bagages : ${t.billet_avion.droit_bagages_kg} kg/personne pris en charge</div>` : ''}
-        </div>` : ''}
-      </div>` : ''}
-    </div>`;
-  }
-
-  const grilles = GRILLES.corps[E.corps];
-  const gradeData = grilles?.[E.grade] || grilles?.echelons || {};
-
-  document.getElementById('app').innerHTML = `<div style="grid-column:1/-1">
-    <div class="pedago-box bleu" style="margin-bottom:20px">
-      <strong>🏝️ DOM et COM — Rémunération majorée</strong>
-      Recrutement via le vice-rectorat local — pas via l AEFE. La Prime Grenelle est maintenue dans les DOM (mutation classique) mais PAS dans les COM du Pacifique.
-      <ul style="margin-top:8px">
-        <li><strong>DOM</strong> (Guadeloupe, Martinique, Guyane, Réunion, Mayotte) : majoration % du traitement brut, mutation classique permanente, Prime Grenelle maintenue</li>
-        <li><strong>COM Pacifique</strong> (Polynésie, Nouvelle-Calédonie, Wallis) : coefficient multiplicateur, détachement 2 ans renouvelable, Prime Grenelle non versée</li>
-        <li><strong>Autres COM</strong> (Saint-Pierre, Saint-Barthélemy, Saint-Martin) : régime proche des DOM, Prime Grenelle maintenue</li>
-      </ul>
-    </div>
-
-    <div style="background:#fff;border:1.5px solid var(--gris-clair);border-radius:12px;padding:20px;margin-bottom:24px">
-      <div style="font-size:0.78rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:12px">Votre profil pour le calcul</div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px">
-        <div><label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Corps</label>
-          <select style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.corps=this.value;syncGrade()">
-            ${Object.entries(CORPS).map(([k,v])=>`<option value="${k}"${E.corps===k?' selected':''}>${v.label}</option>`).join('')}
-          </select></div>
-        <div><label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Grade</label>
-          <select style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.grade=this.value;syncEchelon()">
-            ${CORPS[E.corps].grades.map(g=>`<option value="${g}"${E.grade===g?' selected':''}>${GRADE_LBL[g]||g}</option>`).join('')}
-          </select></div>
-        <div><label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Échelon</label>
-          <select style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.echelon=this.value;renderDOMCOM()">
-            ${Object.keys(gradeData).map(k=>`<option value="${k}"${E.echelon===k?' selected':''}>${k}</option>`).join('')}
-          </select></div>
-        <div><label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">REP / REP+</label>
-          <select id="sel-rep-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="renderDOMCOM()">
-            <option value="0">Hors REP</option>
-            <option value="104">REP +104€/mois</option>
-            <option value="259">REP+ +259€/mois</option>
-          </select></div>
-      </div>
-      ${brut > 0 ? `<div style="margin-top:12px;font-size:0.82rem;color:var(--gris-moyen)">Traitement brut de base : <strong style="color:var(--noir)">${fmt(brut)}/mois</strong> (IM ${im} × ${PARAMS.point_indice_mensuel}€) — ISOE/ISAE : ${fmt(isoeVal)}/mois</div>` : ''}
-    </div>
-
-    <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🇫🇷 Départements d Outre-Mer (DOM) — Mutation classique permanente</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin-bottom:32px">
-      ${Object.entries(DOMCOM.dom).map(([k,t])=>cardDOM(k,t)).join('')}
-    </div>
-
-    <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🏝️ Collectivités d Outre-Mer (COM) — Détachement limité</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin-bottom:24px">
-      ${Object.entries(DOMCOM.com).map(([k,t])=>cardCOM(k,t)).join('')}
-    </div>
-
-    <div class="alerte">
-      ⚠️ Estimations indicatives avant impôt sur le revenu. Les montants des primes non récurrentes (ISG, prime d installation, indemnité d éloignement) sont calculés sur la base de votre traitement brut actuel. Contactez le vice-rectorat ou votre syndicat pour les conditions exactes.
-    </div>
-  </div>`;
-}
-
 
 function renderMLF() {
   document.getElementById('app').innerHTML = `
@@ -936,16 +705,8 @@ function calculer() {
     }
   }
 
-  // 7. REP/REP+
-  let rep = 0, repLabel = '';
-  if (situation === 'france' || situation === 'domcom') {
-    rep = parseInt(document.getElementById('sel-rep')?.value || '0');
-    if (rep === 104) repLabel = 'REP';
-    if (rep === 259) repLabel = 'REP+';
-  }
-
   // 7. Total brut France (référence)
-  const brutFrance = brut + indem + grenelle + indemRes + hsaMensuel + rep;
+  const brutFrance = brut + indem + grenelle + indemRes + hsaMensuel;
 
   // 8. Indemnité pays (ISVL ou IGFS)
   let indemPays = 0, indemPaysLabel = '', indemPaysNote = '';
@@ -1029,12 +790,6 @@ function calculer() {
     <div class="result-line">
       <span class="lbl">HSA (${hsaLabel})</span>
       <span class="val plus">+ ${fmt(hsaMensuel)}/mois</span>
-    </div>`;
-
-  if (rep) lines += `
-    <div class="result-line">
-      <span class="lbl">Indemnité ${repLabel}</span>
-      <span class="val plus">+ ${fmt(rep)}/mois</span>
     </div>`;
 
   lines += `<div class="result-subtotal">
