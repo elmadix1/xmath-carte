@@ -806,7 +806,7 @@ function syncEchelon() {
   const gd = grilles?.[E.grade] || grilles?.echelons || grilles?.CN || {};
   const keys = Object.keys(gd);
   E.echelon = keys[0] || '1';
-  render();
+  if (situation === 'domcom') { renderDOMCOM(); } else { render(); }
 }
 
 function getIM() {
