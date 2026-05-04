@@ -1,7 +1,18 @@
 {
-  "updated": "2026-05-03 17:53",
-  "total": 661,
+  "updated": "2026-05-04 07:55",
+  "total": 662,
   "offers": [
+    {
+      "id": 4363815,
+      "titre": "Professeur de chinois (mandarin) – Primaire et secondaire",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de chinois F/H",
+      "date": "04/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4363815-professeur-de-chinois-mandarin-primaire-et-secondaire-84310-koh-samui"
+    },
     {
       "id": 4363771,
       "titre": "Professeur du Second Degré",
@@ -5360,6 +5371,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4241269-professeur-des-ecoles-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
+      "id": 4236865,
+      "titre": "Assistant de direction & scolarité F/H - Lycée Louis Massignon - ABU DHABI - EAU",
+      "etab": "",
+      "ville": "Abu Dhabi",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "03/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4236865-assistant-de-direction-scolarite-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
+    },
+    {
       "id": 4235947,
       "titre": "Professeur d’Allemand (second degré) – F/H – PRAGUE – RÉPUBLIQUE TCHÈQUE",
       "etab": "",
@@ -6018,17 +6040,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "05/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4164861-professeur-de-physique-chimie-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
-      "id": 4164859,
-      "titre": "Professeur d'histoire géographie - F/H - DUBAI - EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "13/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4164859-professeur-dhistoire-geographie-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
       "id": 4163607,
