@@ -332,10 +332,15 @@ function render() {
     .map(([k,v]) => `<option value="${k}"${E.pays===k?' selected':''}>${v.label}</option>`)
     .join('');
 
-  const paysOptionsIE = Object.entries(IE.pays)
-    .sort((a,b) => a[1].label.localeCompare(b[1].label))
-    .map(([k,v]) => `<option value="${k}"${E.pays===k?' selected':''}>${v.label}</option>`)
-    .join('');
+  const ieKeys = new Set(Object.keys(IE.pays));
+  const isvlKeys = Object.keys(ISVL.pays);
+  const paysAvecIE = Object.entries(IE.pays).sort((a,b)=>a[1].label.localeCompare(b[1].label));
+  const paysSansIE = isvlKeys.filter(k=>!ieKeys.has(k)).map(k=>([k,ISVL.pays[k]])).sort((a,b)=>a[1].label.localeCompare(b[1].label));
+  const paysOptionsIE = `<optgroup label="IE disponible (estimation groupe 5)">${
+    paysAvecIE.map(([k,v])=>`<option value="${k}"${E.pays===k?' selected':''}>${v.label}</option>`).join('')
+  }</optgroup><optgroup label="IE non disponible — contacter l'AEFE">${
+    paysSansIE.map(([k,v])=>`<option value="${k}"${E.pays===k?' selected':''}>${v.label}</option>`).join('')
+  }</optgroup>`;
   const paysOptionsIGFS = Object.entries(IGFS.taux)
     .sort((a,b) => a[1].label.localeCompare(b[1].label))
     .map(([k,v]) => `<option value="${k}"${E.pays===k?' selected':''}>${v.label} (${v.taux>=0?'+':''}${v.taux}%)</option>`)
