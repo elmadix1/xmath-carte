@@ -915,7 +915,7 @@ function renderDOMCOM() {
   const grilles = GRILLES.corps[E.corps];
   const gradeData = grilles?.[E.grade] || grilles?.echelons || {};
 
-  document.getElementById('app').innerHTML = `<div style="grid-column:1/-1;max-width:1200px;margin:0 auto;width:100%">
+  document.getElementById('app').innerHTML = `<div style="grid-column:1/-1">
     <div class="pedago-box bleu" style="margin-bottom:20px">
       <strong>🏝️ DOM et COM Rémunération majorée</strong>
       Recrutement via le vice-rectorat local, pas via l AEFE. Prime Grenelle maintenue dans les DOM (mutation classique permanente) mais NON versée dans les COM du Pacifique (comme à l étranger AEFE).
@@ -988,12 +988,12 @@ function renderDOMCOM() {
     </div>
 
     <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🇫🇷 Départements d Outre-Mer (DOM) — Mutation classique permanente</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin-bottom:32px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));gap:20px;margin-bottom:32px">
       ${Object.entries(DOMCOM.dom).map(([k, t]) => cardDOM(k, t)).join('')}
     </div>
 
     <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🏝️ Collectivités d Outre-Mer (COM) — Détachement limité</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin-bottom:24px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));gap:20px;margin-bottom:24px">
       ${Object.entries(DOMCOM.com).map(([k, t]) => cardCOM(k, t)).join('')}
     </div>
 
