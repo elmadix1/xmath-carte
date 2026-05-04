@@ -182,18 +182,19 @@ footer a { color: var(--vert-clair); text-decoration: none; }
       En France seulement — disparaît à l étranger
    ═══════════════════════════════════════════════════════════════════ */
 
-let PARAMS, GRILLES, ISVL, IGFS;
+let PARAMS, GRILLES, ISVL, IGFS, IE;
 let situation = 'france';
 
 async function init() {
   try {
-    const [p, g, i, f] = await Promise.all([
+    const [p, g, i, f, ie] = await Promise.all([
       fetch('/params_remuneration.json').then(r => r.json()),
       fetch('/grilles_im.json').then(r => r.json()),
       fetch('/isvl.json').then(r => r.json()),
-      fetch('/igfs.json').then(r => r.json())
+      fetch('/igfs.json').then(r => r.json()),
+      fetch('/ie.json').then(r => r.json())
     ]);
-    PARAMS = p; GRILLES = g; ISVL = i; IGFS = f;
+    PARAMS = p; GRILLES = g; ISVL = i; IGFS = f; IE = ie;
     render();
   } catch(e) {
     document.getElementById('app').innerHTML =
@@ -315,12 +316,12 @@ function render() {
       Vous êtes détaché par le Ministère de l Éducation nationale et envoyé à l étranger.
       <ul>
         <li>✅ Traitement indiciaire français maintenu</li>
-        <li>✅ IGFS = pourcentage du traitement brut selon le pays (peut être nul ou négatif)</li>
+        <li>✅ IE/IGFS (Indemnité d'Expatriation) — montant fixe selon le pays et le groupe</li>
         <li>✅ ICR (indemnité de changement de résidence) pour vous et votre famille</li>
         <li>✅ Billet d avion aller/retour pris en charge (fréquence selon le pays)</li>
         <li>❌ Gel indiciaire pendant la durée du contrat — votre avancement n est pas répercuté</li>
         <li>❌ Pas de Prime Grenelle à l étranger</li>
-        <li>⚠️ Taux IGFS négatif : le pays est jugé moins cher que la France — l indemnité peut être nulle</li>
+        <li>⚠️ IE non disponible pour certains pays — contactez l'AEFE ou le SNES-FSU pour le montant exact</li>
       </ul>
     </div>`
   };
@@ -331,6 +332,10 @@ function render() {
     .map(([k,v]) => `<option value="${k}"${E.pays===k?' selected':''}>${v.label}</option>`)
     .join('');
 
+  const paysOptionsIE = Object.entries(IE.pays)
+    .sort((a,b) => a[1].label.localeCompare(b[1].label))
+    .map(([k,v]) => `<option value="${k}"${E.pays===k?' selected':''}>${v.label}</option>`)
+    .join('');
   const paysOptionsIGFS = Object.entries(IGFS.taux)
     .sort((a,b) => a[1].label.localeCompare(b[1].label))
     .map(([k,v]) => `<option value="${k}"${E.pays===k?' selected':''}>${v.label} (${v.taux>=0?'+':''}${v.taux}%)</option>`)
@@ -355,11 +360,11 @@ function render() {
       <label>Pays</label>
       <select onchange="E.pays=this.value;calculer()">
         <option value="">— Choisir un pays —</option>
-        ${situation==='resident' ? paysOptionsISVL : paysOptionsIGFS}
+        ${situation==='resident' ? paysOptionsISVL : paysOptionsIE}
       </select>
       <div class="help">${situation==='resident'
         ? 'Source ISVL : Arrêté du 8 octobre 2025 — JO (montant annuel fixe selon le groupe G1-G8)'
-        : 'Source IGFS : Arrêté du 9 mars 2026 — JO (taux % du traitement brut — négatif = pays moins cher que la France)'
+        : 'Source : non officiel — Groupe 5 — Contactez l\'AEFE ou le SNES-FSU pour le montant exact'
       }</div>
     </div>` : '';
 
@@ -602,21 +607,25 @@ function calculer() {
   }
 
   if (situation === 'expat' && E.pays) {
-    const paysData = IGFS.taux[E.pays];
-    if (paysData) {
-      const taux = paysData.taux;
-      if (taux > 0) {
-        indemPays = brut * taux / 100;
-        indemPaysLabel = `IGFS ${paysData.label} (+${taux}%)`;
-        indemPaysNote = `${taux}% × traitement brut`;
-      } else if (taux < 0) {
-        indemPays = 0; // Plancher à 0 — taux négatif = pas d indemnité
-        indemPaysLabel = `IGFS ${paysData.label} (${taux}%)`;
-        indemPaysNote = `Taux négatif → indemnité nulle (pays jugé moins cher que la France)`;
+    const ieData = IE?.pays?.[E.pays];
+    if (ieData) {
+      // Pays avec villes
+      if (ieData.villes) {
+        const v = ieData.villes[0];
+        indemPays = Math.round(v.ie_annuel / 12);
+        indemPaysLabel = `IE — ${v.ville}`;
+        indemPaysNote = `${v.ie_annuel.toLocaleString('fr-FR')}€/an ÷ 12 — Groupe 5 — Source : non officiel`;
       } else {
-        indemPaysLabel = `IGFS ${paysData.label} (0%)`;
-        indemPaysNote = `Taux nul → pas d indemnité IGFS dans ce pays`;
+        indemPays = Math.round(ieData.ie_annuel / 12);
+        indemPaysLabel = `IE — ${ieData.label}`;
+        indemPaysNote = `${ieData.ie_annuel.toLocaleString('fr-FR')}€/an ÷ 12 — Groupe 5 — Source : non officiel`;
+        if (ieData.ie_annuel > 125000) {
+          indemPaysNote += ' — ⚠️ Montant extrême à vérifier';
+        }
       }
+    } else {
+      indemPaysLabel = `IE — montant non disponible`;
+      indemPaysNote = `Ce pays n'est pas dans notre base — contactez l'AEFE ou le SNES-FSU`;
     }
   }
 

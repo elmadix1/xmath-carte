@@ -1,0 +1,215 @@
+{
+  "_FICHIER": "ie.json — Indemnité d Expatriation (IE) / IGFS estimations",
+  "_SOURCE": "Non officiel",
+  "_QUAND": "Mis à jour chaque trimestre par arrêté — montants réels non publiés en ligne",
+  "_FOURNIR": "Si tu obtiens les montants officiels auprès de l AEFE ou d un syndicat, remplacer les valeurs ici",
+  "_GROUPE": "Montants approximatifs — le groupe réel dépend de l indice brut (groupe 5 si IB > 650, groupe 6 si IB <= 650)",
+  "_CALCUL": "Montant annuel — diviser par 12 pour le mensuel",
+
+  "pays": {
+    "afrique-du-sud": { "label": "Afrique du Sud", "villes": [
+      { "ville": "Autres villes", "ie_annuel": 72000 },
+      { "ville": "Johannesburg, Pretoria", "ie_annuel": 72000 }
+    ]},
+    "algerie": { "label": "Algérie", "ie_annuel": 73200 },
+    "allemagne": { "label": "Allemagne", "villes": [
+      { "ville": "Berlin", "ie_annuel": 32400 },
+      { "ville": "Bonn", "ie_annuel": 28800 },
+      { "ville": "Düsseldorf", "ie_annuel": 28800 },
+      { "ville": "Francfort", "ie_annuel": 31200 },
+      { "ville": "Fribourg", "ie_annuel": 32400 },
+      { "ville": "Hambourg", "ie_annuel": 30000 },
+      { "ville": "Heidelberg", "ie_annuel": 27600 },
+      { "ville": "Munich", "ie_annuel": 32400 },
+      { "ville": "Sarrebruck", "ie_annuel": 26400 },
+      { "ville": "Stuttgart", "ie_annuel": 27600 }
+    ]},
+    "angola": { "label": "Angola", "ie_annuel": 186000 },
+    "arabie-saoudite": { "label": "Arabie Saoudite", "ie_annuel": 84000 },
+    "argentine": { "label": "Argentine", "ie_annuel": 51600 },
+    "australie": { "label": "Australie", "ie_annuel": 75600 },
+    "autriche": { "label": "Autriche", "ie_annuel": 52800 },
+    "bangladesh": { "label": "Bangladesh", "ie_annuel": 78000 },
+    "belgique": { "label": "Belgique", "villes": [
+      { "ville": "Anvers", "ie_annuel": 26400 },
+      { "ville": "Bruxelles", "ie_annuel": 27600 }
+    ]},
+    "benin": { "label": "Bénin", "ie_annuel": 62400 },
+    "bolivie": { "label": "Bolivie", "ie_annuel": 62400 },
+    "bresil": { "label": "Brésil", "villes": [
+      { "ville": "Brasilia", "ie_annuel": 72000 },
+      { "ville": "Rio de Janeiro", "ie_annuel": 72000 },
+      { "ville": "São Paulo", "ie_annuel": 72000 }
+    ]},
+    "bulgarie": { "label": "Bulgarie", "ie_annuel": 49200 },
+    "burkina-faso": { "label": "Burkina Faso", "ie_annuel": 64800 },
+    "cambodge": { "label": "Cambodge", "ie_annuel": 63600 },
+    "cameroun": { "label": "Cameroun", "villes": [
+      { "ville": "Douala", "ie_annuel": 67200 },
+      { "ville": "Yaoundé", "ie_annuel": 66000 }
+    ]},
+    "canada": { "label": "Canada", "villes": [
+      { "ville": "Montréal", "ie_annuel": 30000 },
+      { "ville": "Ottawa", "ie_annuel": 30000 },
+      { "ville": "Québec", "ie_annuel": 27600 },
+      { "ville": "Toronto", "ie_annuel": 38400 }
+    ]},
+    "chili": { "label": "Chili", "ie_annuel": 62400 },
+    "chine": { "label": "Chine", "villes": [
+      { "ville": "Pékin", "ie_annuel": 88800 },
+      { "ville": "Shanghai", "ie_annuel": 88800 }
+    ]},
+    "chypre": { "label": "Chypre", "ie_annuel": 48000 },
+    "colombie": { "label": "Colombie", "ie_annuel": 72000 },
+    "comores": { "label": "Comores", "ie_annuel": 86400 },
+    "congo-brazzaville": { "label": "Congo-Brazzaville", "villes": [
+      { "ville": "Brazzaville", "ie_annuel": 76800 },
+      { "ville": "Pointe-Noire", "ie_annuel": 103200 }
+    ]},
+    "coree-du-sud": { "label": "Corée du Sud", "ie_annuel": 88800 },
+    "costa-rica": { "label": "Costa Rica", "ie_annuel": 61200 },
+    "croatie": { "label": "Croatie", "ie_annuel": 51600 },
+    "cuba": { "label": "Cuba", "ie_annuel": 67200 },
+    "danemark": { "label": "Danemark", "ie_annuel": 57600 },
+    "djibouti": { "label": "Djibouti", "ie_annuel": 67200 },
+    "egypte": { "label": "Égypte", "ie_annuel": 66000 },
+    "emirats-arabes-unis": { "label": "Émirats Arabes Unis", "villes": [
+      { "ville": "Abu Dhabi", "ie_annuel": 80400 },
+      { "ville": "Autres villes", "ie_annuel": 79200 }
+    ]},
+    "equateur": { "label": "Équateur", "ie_annuel": 62400 },
+    "espagne": { "label": "Espagne", "villes": [
+      { "ville": "Alicante", "ie_annuel": 26400 },
+      { "ville": "Barcelone", "ie_annuel": 30000 },
+      { "ville": "Bilbao", "ie_annuel": 27600 },
+      { "ville": "Ibiza", "ie_annuel": 28800 },
+      { "ville": "Madrid", "ie_annuel": 27600 },
+      { "ville": "Malaga", "ie_annuel": 26400 },
+      { "ville": "Valence", "ie_annuel": 26400 },
+      { "ville": "Villanueva", "ie_annuel": 26400 }
+    ]},
+    "ethiopie": { "label": "Éthiopie", "ie_annuel": 66000 },
+    "finlande": { "label": "Finlande", "ie_annuel": 40800 },
+    "gabon": { "label": "Gabon", "villes": [
+      { "ville": "Libreville", "ie_annuel": 68400 },
+      { "ville": "Port-Gentil", "ie_annuel": 68400 }
+    ]},
+    "gambie": { "label": "Gambie", "ie_annuel": 51600 },
+    "georgie": { "label": "Géorgie", "ie_annuel": 78000 },
+    "ghana": { "label": "Ghana", "ie_annuel": 74400 },
+    "grece": { "label": "Grèce", "ie_annuel": 49200 },
+    "guatemala": { "label": "Guatemala", "ie_annuel": 72000 },
+    "guinee": { "label": "Guinée", "ie_annuel": 87600 },
+    "guinee-equatoriale": { "label": "Guinée Équatoriale", "ie_annuel": 151200 },
+    "haiti": { "label": "Haïti", "ie_annuel": 138000 },
+    "honduras": { "label": "Honduras", "ie_annuel": 72000 },
+    "hongrie": { "label": "Hongrie", "ie_annuel": 49200 },
+    "inde": { "label": "Inde", "villes": [
+      { "ville": "Mumbai", "ie_annuel": 76800 },
+      { "ville": "New Delhi", "ie_annuel": 73200 },
+      { "ville": "Pondichéry", "ie_annuel": 72000 }
+    ]},
+    "indonesie": { "label": "Indonésie", "ie_annuel": 78000 },
+    "iran": { "label": "Iran", "ie_annuel": 162000 },
+    "irlande": { "label": "Irlande", "ie_annuel": 43200 },
+    "israel": { "label": "Israël", "villes": [
+      { "ville": "Israël", "ie_annuel": 75600 },
+      { "ville": "Jérusalem", "ie_annuel": 76800 }
+    ]},
+    "italie": { "label": "Italie", "villes": [
+      { "ville": "Milan", "ie_annuel": 33600 },
+      { "ville": "Naples", "ie_annuel": 27600 },
+      { "ville": "Rome", "ie_annuel": 32400 },
+      { "ville": "Turin", "ie_annuel": 27600 }
+    ]},
+    "japon": { "label": "Japon", "villes": [
+      { "ville": "Tokyo", "ie_annuel": 102000 },
+      { "ville": "Autres villes", "ie_annuel": 98400 }
+    ]},
+    "jordanie": { "label": "Jordanie", "ie_annuel": 64800 },
+    "kenya": { "label": "Kenya", "ie_annuel": 54000 },
+    "laos": { "label": "Laos", "ie_annuel": 72000 },
+    "liban": { "label": "Liban", "villes": [
+      { "ville": "Beyrouth", "ie_annuel": 75600 },
+      { "ville": "Jounieh", "ie_annuel": 74400 },
+      { "ville": "Tripoli", "ie_annuel": 74400 }
+    ]},
+    "lituanie": { "label": "Lituanie", "ie_annuel": 50400 },
+    "madagascar": { "label": "Madagascar", "ie_annuel": 72000 },
+    "malaisie": { "label": "Malaisie", "ie_annuel": 50400 },
+    "mali": { "label": "Mali", "ie_annuel": 74400 },
+    "maroc": { "label": "Maroc", "villes": [
+      { "ville": "Fès, Meknès", "ie_annuel": 48000 },
+      { "ville": "Marrakech, Casablanca", "ie_annuel": 49200 },
+      { "ville": "Rabat, Kénitra, Tanger", "ie_annuel": 49200 }
+    ]},
+    "ile-maurice": { "label": "Île Maurice", "ie_annuel": 60000 },
+    "mauritanie": { "label": "Mauritanie", "ie_annuel": 72000 },
+    "mexique": { "label": "Mexique", "ie_annuel": 64800 },
+    "mozambique": { "label": "Mozambique", "ie_annuel": 64800 },
+    "nepal": { "label": "Népal", "ie_annuel": 66000 },
+    "nicaragua": { "label": "Nicaragua", "ie_annuel": 52800 },
+    "niger": { "label": "Niger", "ie_annuel": 98400 },
+    "nigeria": { "label": "Nigéria", "villes": [
+      { "ville": "Abuja", "ie_annuel": 181200 },
+      { "ville": "Lagos", "ie_annuel": 181200 }
+    ]},
+    "norvege": { "label": "Norvège", "ie_annuel": 60000 },
+    "oman": { "label": "Oman", "ie_annuel": 66000 },
+    "ouganda": { "label": "Ouganda", "ie_annuel": 55200 },
+    "panama": { "label": "Panama", "ie_annuel": 55200 },
+    "paraguay": { "label": "Paraguay", "ie_annuel": 61200 },
+    "pays-bas": { "label": "Pays-Bas", "villes": [
+      { "ville": "Amsterdam", "ie_annuel": 45600 },
+      { "ville": "La Haye", "ie_annuel": 36000 }
+    ]},
+    "perou": { "label": "Pérou", "ie_annuel": 61200 },
+    "philippines": { "label": "Philippines", "ie_annuel": 66000 },
+    "pologne": { "label": "Pologne", "ie_annuel": 50400 },
+    "portugal": { "label": "Portugal", "villes": [
+      { "ville": "Lisbonne", "ie_annuel": 28800 },
+      { "ville": "Porto", "ie_annuel": 27600 }
+    ]},
+    "qatar": { "label": "Qatar", "ie_annuel": 79200 },
+    "republique-centrafricaine": { "label": "Rép. Centrafricaine", "ie_annuel": 109200 },
+    "republique-democratique-du-congo": { "label": "RD Congo", "ie_annuel": 121200 },
+    "rep-dominicaine": { "label": "Rép. Dominicaine", "ie_annuel": 60000 },
+    "rep-tcheque": { "label": "Rép. Tchèque", "ie_annuel": 49200 },
+    "roumanie": { "label": "Roumanie", "ie_annuel": 49200 },
+    "royaume-uni": { "label": "Royaume-Uni", "ie_annuel": 60000 },
+    "russie": { "label": "Russie", "ie_annuel": 87600 },
+    "salvador": { "label": "Salvador", "ie_annuel": 72000 },
+    "senegal": { "label": "Sénégal", "ie_annuel": 66000 },
+    "serbie": { "label": "Serbie", "ie_annuel": 61200 },
+    "seychelles": { "label": "Seychelles", "ie_annuel": 52800 },
+    "singapour": { "label": "Singapour", "ie_annuel": 81600 },
+    "slovaquie": { "label": "Slovaquie", "ie_annuel": 51600 },
+    "slovenie": { "label": "Slovénie", "ie_annuel": 28800 },
+    "soudan": { "label": "Soudan", "ie_annuel": 96000 },
+    "sri-lanka": { "label": "Sri Lanka", "ie_annuel": 66000 },
+    "suede": { "label": "Suède", "ie_annuel": 55200 },
+    "suisse": { "label": "Suisse", "villes": [
+      { "ville": "Berne", "ie_annuel": 68400 },
+      { "ville": "Zurich", "ie_annuel": 70800 }
+    ]},
+    "tanzanie": { "label": "Tanzanie", "ie_annuel": 55200 },
+    "tchad": { "label": "Tchad", "ie_annuel": 114000 },
+    "thailande": { "label": "Thaïlande", "ie_annuel": 66000 },
+    "togo": { "label": "Togo", "ie_annuel": 64800 },
+    "tunisie": { "label": "Tunisie", "ie_annuel": 50400 },
+    "turquie": { "label": "Turquie", "villes": [
+      { "ville": "Ankara", "ie_annuel": 48000 },
+      { "ville": "Istanbul", "ie_annuel": 49200 }
+    ]},
+    "ukraine": { "label": "Ukraine", "ie_annuel": 75600 },
+    "uruguay": { "label": "Uruguay", "ie_annuel": 66000 },
+    "vanuatu": { "label": "Vanuatu", "ie_annuel": 66000 },
+    "venezuela": { "label": "Venezuela", "ie_annuel": 106800 },
+    "vietnam": { "label": "Vietnam", "villes": [
+      { "ville": "Hanoï", "ie_annuel": 62400 },
+      { "ville": "Hô Chi Minh-Ville", "ie_annuel": 62400 }
+    ]},
+    "zambie": { "label": "Zambie", "ie_annuel": 55200 },
+    "zimbabwe": { "label": "Zimbabwe", "ie_annuel": 67200 }
+  }
+}
