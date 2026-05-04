@@ -277,7 +277,7 @@ function setSituation(s) {
     tab.classList.remove('active','vert','or','rouge');
   });
   const map = { france:'', resident:'vert', expat:'or', mlf:'rouge' };
-  document.getElementById('tab-'+s).classList.add('active', map[s]);
+  const cls = map[s]; document.getElementById('tab-'+s).classList.add('active'); if(cls) document.getElementById('tab-'+s).classList.add(cls);
   render();
 }
 
