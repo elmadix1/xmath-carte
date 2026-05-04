@@ -1,0 +1,118 @@
+{
+  "_FICHIER": "params_remuneration.json — Paramètres de rémunération AEFE",
+  "_DERNIERE_MAJ": "Janvier 2026",
+  "_RESPONSABLE_MAJ": "À mettre à jour chaque année ou lors de réformes",
+
+  "_SECTION_POINT_INDICE": "══════════════════════════════════════════════════════",
+  "_POINT_INDICE_QUOI": "Valeur mensuelle du point d'indice de la fonction publique",
+  "_POINT_INDICE_QUAND": "Mis à jour par décret gouvernemental — pas de calendrier fixe, souvent juillet",
+  "_POINT_INDICE_SOURCE": "Décret n°85-1148 du 24 octobre 1985 modifié — publié au Journal officiel",
+  "_POINT_INDICE_COMMENT": "Chercher sur legifrance.gouv.fr ou fonction-publique.gouv.fr — rubrique valeur du point d indice",
+  "_POINT_INDICE_FOURNIR": "La nouvelle valeur mensuelle en euros (ex: 4.92278) et la date d entrée en vigueur",
+  "point_indice_mensuel": 4.92278,
+  "point_indice_annuel": 59.0734,
+  "point_indice_date_effet": "2023-07-01",
+  "point_indice_gel": true,
+
+  "_SECTION_INDEMNITES": "══════════════════════════════════════════════════════",
+
+  "_ISOE_QUOI": "Indemnité de Suivi et d Orientation des Élèves — versée aux enseignants du 2nd degré titulaires",
+  "_ISOE_QUAND": "Peut être revalorisée lors de négociations salariales — souvent en même temps que les grilles",
+  "_ISOE_SOURCE": "Décret n°93-55 du 15 janvier 1993 modifié — publié au JO",
+  "_ISOE_FOURNIR": "Nouveau montant mensuel en euros — visible sur bulletins de salaire ou education.gouv.fr",
+  "isoe_mensuel": 212.50,
+
+  "_ISAE_QUOI": "Indemnité de Suivi et d Accompagnement des Élèves — versée aux professeurs des écoles titulaires",
+  "_ISAE_QUAND": "Même calendrier que l ISOE",
+  "_ISAE_SOURCE": "Décret n°93-55 du 15 janvier 1993 modifié — publié au JO",
+  "_ISAE_FOURNIR": "Nouveau montant mensuel en euros",
+  "isae_mensuel": 212.50,
+
+  "_INDEM_CPE_QUOI": "Indemnité forfaitaire des Conseillers Principaux d Éducation titulaires",
+  "_INDEM_CPE_QUAND": "Révisée lors des réformes indemnitaires — peu fréquent",
+  "_INDEM_CPE_SOURCE": "Décret spécifique aux CPE — publié au JO",
+  "_INDEM_CPE_FOURNIR": "Nouveau montant mensuel en euros",
+  "indem_cpe_mensuel": 228.66,
+
+  "_INDEM_PSY_EN_QUOI": "Indemnité de fonctions des Psychologues de l Éducation Nationale titulaires",
+  "_INDEM_PSY_EN_QUAND": "Révisée lors des réformes indemnitaires — peu fréquent",
+  "_INDEM_PSY_EN_SOURCE": "Décret spécifique aux Psy-EN — publié au JO",
+  "_INDEM_PSY_EN_FOURNIR": "Nouveau montant mensuel en euros",
+  "indem_psy_en_mensuel": 278.18,
+
+  "_INDEM_AESH_QUOI": "Indemnité de fonctions des AESH (Accompagnants des Élèves en Situation de Handicap)",
+  "_INDEM_AESH_QUAND": "Révisée lors des réformes AESH — peu fréquent",
+  "_INDEM_AESH_SOURCE": "Décret spécifique aux AESH — publié au JO",
+  "_INDEM_AESH_FOURNIR": "Nouveau montant mensuel en euros",
+  "indem_aesh_mensuel": 127.42,
+
+  "_SECTION_GRENELLE": "══════════════════════════════════════════════════════",
+  "_GRENELLE_QUOI": "Prime Grenelle — prime d attractivité dégressive selon l échelon pour enseignants CPE Psy-EN titulaires et contractuels",
+  "_GRENELLE_QUAND": "Peut être révisée lors de réformes salariales — peu fréquent depuis 2021",
+  "_GRENELLE_SOURCE": "Arrêté du 18 janvier 2021 modifié — publié au JO",
+  "_GRENELLE_FOURNIR": "Tableau complet échelon vers montant — screenshot SNALC snalc.fr/tableaux-traitements/ ou PDF JO à envoyer à Claude",
+  "_GRENELLE_NOTE": "Disparaît à partir de la Hors Classe pour les titulaires. Pour contractuels basé sur IM et non échelon",
+
+  "prime_grenelle_titulaires": {
+    "_NOTE": "Clé = numéro échelon classe normale CN1 à CN9. Au-delà du CN9 prime = 0",
+    "CN1": 177.50,
+    "CN2": 248.33,
+    "CN3": 280.83,
+    "CN4": 265.00,
+    "CN5": 240.00,
+    "CN6": 208.33,
+    "CN7": 125.00,
+    "CN8": 33.33,
+    "CN9": 33.33
+  },
+
+  "prime_grenelle_contractuels": {
+    "_NOTE": "Clé = indice majoré IM — tranche IM vers montant Grenelle mensuel",
+    "_FOURNIR": "Tableau IM vers Prime Grenelle depuis SNALC ou JO",
+    "367": 125.00,
+    "388": 116.66,
+    "410": 108.33,
+    "431": 100.00,
+    "453": 91.66,
+    "475": 91.66,
+    "498": 91.66,
+    "523": 58.33,
+    "548": 58.33,
+    "573": 58.33,
+    "598": 58.33,
+    "623": 58.33,
+    "650": 58.33,
+    "680": 58.33,
+    "710": 58.33,
+    "741": 58.33,
+    "783": 58.33,
+    "821": 58.33,
+    "916": 58.33
+  },
+
+  "_SECTION_HSA": "══════════════════════════════════════════════════════",
+  "_HSA_QUOI": "Heures Supplémentaires Annuelles HSA et Effectives HSE — taux bruts par corps",
+  "_HSA_QUAND": "Révisés lors de réformes — peu fréquent",
+  "_HSA_SOURCE": "Arrêtés spécifiques publiés au JO — également disponibles sur snalc.fr",
+  "_HSA_FOURNIR": "Tableau corps vers taux HSA 1re heure autres heures HSE depuis SNALC ou JO — envoyer screenshot ou PDF à Claude",
+
+  "hsa": {
+    "certifie_cn":      { "ors": 18, "1ere_hsa_annuelle": 1462.75, "autres_hsa_annuelle": 1218.96, "hse_heure": 42.32 },
+    "certifie_hc_ce":   { "ors": 18, "1ere_hsa_annuelle": 1609.02, "autres_hsa_annuelle": 1340.85, "hse_heure": 46.56 },
+    "peps_cn":          { "ors": 20, "1ere_hsa_annuelle": 1316.47, "autres_hsa_annuelle": 1097.06, "hse_heure": 38.09 },
+    "peps_hc_ce":       { "ors": 20, "1ere_hsa_annuelle": 1448.12, "autres_hsa_annuelle": 1206.77, "hse_heure": 41.90 },
+    "agrege_cn":        { "ors": 15, "1ere_hsa_annuelle": 2110.28, "autres_hsa_annuelle": 1758.57, "hse_heure": 61.06 },
+    "agrege_hc_ce":     { "ors": 15, "1ere_hsa_annuelle": 2321.31, "autres_hsa_annuelle": 1934.43, "hse_heure": 67.17 },
+    "contractuel_18h":  { "ors": 18, "1ere_hsa_annuelle": 1386.40, "autres_hsa_annuelle": 1155.33, "hse_heure": 40.12 },
+    "contractuel_20h":  { "ors": 20, "1ere_hsa_annuelle": 1247.76, "autres_hsa_annuelle": 1039.80, "hse_heure": 36.10 }
+  },
+
+  "_SECTION_COTISATIONS": "══════════════════════════════════════════════════════",
+  "_COTISATIONS_QUOI": "Taux de cotisations salariales pour passer du brut au net",
+  "_COTISATIONS_QUAND": "Peut changer lors de réformes des retraites ou sécurité sociale",
+  "_COTISATIONS_SOURCE": "Fiche de paie ou circulaires DGFIP",
+  "_COTISATIONS_FOURNIR": "Nouveau taux global si modification — vérifier sur une fiche de paie récente",
+  "_COTISATIONS_NOTE": "Le taux net/brut varie légèrement selon les corps — 0.79 est une approximation moyenne valable pour l estimation",
+  "taux_net_sur_brut": 0.79,
+  "taux_cotisations_salariales_approximatif": 0.21
+}

@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulateur de rémunération AEFE 2026 | Postes Réseau Français</title>
+<meta name="description" content="Calculez votre rémunération estimée dans un établissement français en France ou à l étranger. France, résident AEFE, expatrié détaché, local MLF.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --or: #c8862a; --or-pale: #fdf5e8; --or-clair: #f0c060;
+  --vert: #2a5c3a; --vert-clair: #4a8a5a; --vert-pale: #edf4ef;
+  --bleu: #1a3fa0; --bleu-pale: #e8f0fe; --bleu-clair: #4169E1;
+  --rouge: #c02020; --rouge-pale: #fde8e8;
+  --noir: #111510; --gris-fonce: #2a2e28; --gris-moyen: #5a6055;
+  --gris-clair: #e4e8e0; --blanc: #fafcf8;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: var(--blanc); color: var(--gris-fonce); }
+
+header { background: var(--noir); padding: 18px 40px; display: flex; align-items: center; border-bottom: 2px solid var(--or); }
+.logo { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; text-decoration: none; }
+header nav { margin-left: auto; display: flex; gap: 14px; align-items: center; }
+header nav a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 0.82rem; font-weight: 500; }
+header nav a:hover { color: #fff; }
+
+.hero { background: var(--noir); padding: 48px 40px; }
+.hero-badge { display: inline-block; background: rgba(200,134,42,0.2); border: 1px solid rgba(200,134,42,0.4); color: var(--or-clair); font-size: 0.75rem; font-weight: 600; padding: 4px 12px; border-radius: 20px; margin-bottom: 14px; }
+.hero h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.8rem,4vw,2.6rem); color: #fff; margin-bottom: 10px; }
+.hero p { color: rgba(255,255,255,0.6); font-size: 0.9rem; max-width: 560px; line-height: 1.6; }
+
+/* SITUATION TABS */
+.situation-bar { background: #fff; border-bottom: 2px solid var(--gris-clair); padding: 0 40px; display: flex; gap: 0; overflow-x: auto; }
+.sit-tab { padding: 16px 24px; font-size: 0.85rem; font-weight: 600; cursor: pointer; border-bottom: 3px solid transparent; color: var(--gris-moyen); white-space: nowrap; transition: all 0.15s; margin-bottom: -2px; }
+.sit-tab:hover { color: var(--gris-fonce); }
+.sit-tab.active { color: var(--bleu-clair); border-bottom-color: var(--bleu-clair); }
+.sit-tab.active.vert { color: var(--vert); border-bottom-color: var(--vert); }
+.sit-tab.active.or { color: var(--or); border-bottom-color: var(--or); }
+.sit-tab.active.rouge { color: var(--rouge); border-bottom-color: var(--rouge); }
+
+/* LAYOUT */
+.container { max-width: 1080px; margin: 0 auto; padding: 40px 32px 80px; display: grid; grid-template-columns: 1fr 360px; gap: 36px; }
+
+/* CARDS */
+.form-card { background: #fff; border: 1.5px solid var(--gris-clair); border-radius: 14px; padding: 28px; }
+.form-card h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--noir); margin-bottom: 20px; }
+
+/* PÉDAGOGIE */
+.pedago-box { border-radius: 10px; padding: 16px 18px; margin-bottom: 20px; font-size: 0.83rem; line-height: 1.6; }
+.pedago-box.bleu { background: var(--bleu-pale); border-left: 3px solid var(--bleu-clair); color: #1a2a6a; }
+.pedago-box.vert { background: var(--vert-pale); border-left: 3px solid var(--vert); color: #1a3a28; }
+.pedago-box.or { background: var(--or-pale); border-left: 3px solid var(--or); color: #5a3008; }
+.pedago-box.rouge { background: var(--rouge-pale); border-left: 3px solid var(--rouge); color: #7a1010; }
+.pedago-box strong { display: block; font-size: 0.88rem; margin-bottom: 4px; }
+.pedago-box ul { margin-left: 16px; margin-top: 6px; }
+.pedago-box ul li { margin-bottom: 3px; }
+
+/* FORM */
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; font-size: 0.78rem; font-weight: 700; color: var(--gris-moyen); text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 6px; }
+.form-group .help { font-size: 0.75rem; color: var(--gris-moyen); margin-top: 4px; font-style: italic; }
+select, input[type=number] { width: 100%; padding: 9px 12px; border: 1.5px solid var(--gris-clair); border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 0.88rem; color: var(--gris-fonce); background: #fff; outline: none; transition: border-color 0.2s; }
+select:focus, input[type=number]:focus { border-color: var(--bleu-clair); }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.sep { height: 1px; background: var(--gris-clair); margin: 20px 0; }
+.sec-label { font-size: 0.75rem; font-weight: 700; color: var(--or); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 14px; }
+
+/* RESULT */
+.result-card { position: sticky; top: 20px; }
+.result-box { background: var(--noir); border-radius: 14px; padding: 24px; margin-bottom: 14px; }
+.result-title { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: rgba(255,255,255,0.5); margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; }
+.result-badge { font-size: 0.68rem; font-weight: 700; padding: 3px 8px; border-radius: 12px; }
+.result-line { display: flex; justify-content: space-between; align-items: flex-start; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 0.82rem; gap: 8px; }
+.result-line:last-child { border-bottom: none; }
+.result-line .lbl { color: rgba(255,255,255,0.5); flex: 1; }
+.result-line .val { color: rgba(255,255,255,0.85); font-weight: 500; text-align: right; white-space: nowrap; }
+.result-line .val.plus { color: #7ac890; }
+.result-line .val.minus { color: #f08080; }
+.result-line .val.neutre { color: rgba(255,255,255,0.4); }
+.result-subtotal { background: rgba(255,255,255,0.05); border-radius: 6px; padding: 8px 12px; margin: 8px 0; display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 600; }
+.result-subtotal .lbl { color: rgba(255,255,255,0.7); }
+.result-subtotal .val { color: var(--or-clair); }
+.result-total { margin-top: 14px; padding-top: 14px; border-top: 1.5px solid rgba(200,134,42,0.35); display: flex; justify-content: space-between; align-items: center; }
+.result-total .lbl { color: #fff; font-weight: 700; font-size: 0.95rem; }
+.result-total .val { color: var(--or-clair); font-weight: 700; font-size: 1.4rem; font-family: 'Cormorant Garamond', serif; }
+
+.net-card { background: var(--vert-pale); border: 1.5px solid #b8d4be; border-radius: 12px; padding: 18px 20px; margin-bottom: 14px; }
+.net-label { font-size: 0.75rem; font-weight: 700; color: var(--vert); text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 6px; }
+.net-val { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 700; color: var(--vert); }
+.net-note { font-size: 0.72rem; color: var(--gris-moyen); margin-top: 4px; line-height: 1.4; }
+
+.alerte { background: var(--or-pale); border: 1px solid #e8d0a0; border-left: 3px solid var(--or); border-radius: 8px; padding: 12px 14px; font-size: 0.78rem; color: #7a4a10; line-height: 1.5; margin-bottom: 12px; }
+.info { background: var(--bleu-pale); border-radius: 8px; padding: 12px 14px; font-size: 0.76rem; color: #1a2a6a; line-height: 1.5; }
+
+.hidden { display: none !important; }
+.placeholder { color: rgba(255,255,255,0.35); font-size: 0.85rem; text-align: center; padding: 20px 0; }
+
+footer { background: var(--noir); color: #6a7065; text-align: center; padding: 20px; font-size: 0.76rem; }
+footer a { color: var(--vert-clair); text-decoration: none; }
+
+@media(max-width:900px) {
+  .container { grid-template-columns: 1fr; }
+  .result-card { position: static; }
+  header { padding: 14px 20px; }
+  .hero { padding: 36px 20px; }
+  .container { padding: 24px 16px 60px; }
+  .form-row { grid-template-columns: 1fr; }
+  .situation-bar { padding: 0 16px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="logo">
+    <span style="color:#4169E1">Postes</span>
+    <span style="color:#fff"> Réseau </span>
+    <span style="color:#ED2939">Français</span>
+  </a>
+  <nav>
+    <a href="/emplois-monde.html">🌍 Pays</a>
+    <a href="/emplois.html">💼 Offres</a>
+    <a href="/alertes.html" style="color:var(--or-clair);border:1px solid rgba(200,134,42,0.5);padding:4px 12px;border-radius:20px;">🔔 Alertes</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">Simulateur — Données 2026</div>
+  <h1>Estimez votre rémunération</h1>
+  <p>Comparez votre traitement en France et à l étranger selon votre corps, échelon et type de contrat AEFE ou MLF.</p>
+</section>
+
+<!-- ONGLETS SITUATION -->
+<div class="situation-bar">
+  <div class="sit-tab active" onclick="setSituation('france')" id="tab-france">🇫🇷 En France</div>
+  <div class="sit-tab" onclick="setSituation('resident')" id="tab-resident">🌍 Résident AEFE</div>
+  <div class="sit-tab" onclick="setSituation('expat')" id="tab-expat">✈️ Expatrié / Détaché AEFE</div>
+  <div class="sit-tab" onclick="setSituation('mlf')" id="tab-mlf">🏫 Local / MLF</div>
+</div>
+
+<div class="container" id="app">
+  <div style="padding:40px;text-align:center;color:var(--gris-moyen)">Chargement des données...</div>
+</div>
+
+<footer>
+  <p>© 2026 emplois-scolaires-monde.online — Simulation indicative avant impôt sur le revenu</p>
+  <p style="margin-top:6px"><a href="/legal.html">Mentions légales</a> · <a href="/emplois.html">Offres</a> · <a href="/alertes.html">Alertes</a></p>
+</footer>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════════
+   MISE À JOUR ANNUELLE — CHECKLIST
+   ═══════════════════════════════════════════════════════════════════
+   1. POINT D INDICE → params_remuneration.json → point_indice_mensuel
+      Source : legifrance.gouv.fr — souvent juillet
+      Fournir : nouvelle valeur en € et date d effet
+
+   2. ISVL → isvl.json (résidents AEFE)
+      Source : Arrêté annuel JO — chaque octobre
+      Fournir : PDF JO → envoyer à Claude
+
+   3. IGFS → igfs.json (expatriés/détachés AEFE)
+      Source : Arrêté annuel JO — chaque mars pour avril
+      Fournir : PDF JO → envoyer à Claude
+
+   4. ISOE / ISAE / Indemnités → params_remuneration.json
+      Source : education.gouv.fr ou bulletin de paie
+      Fournir : nouveaux montants mensuels en €
+
+   5. PRIME GRENELLE → params_remuneration.json
+      NOTE : PAS versée aux agents AEFE à l étranger
+      Seulement en France et MLF France
+      Fournir : tableau SNALC si modification
+
+   6. GRILLES IM → grilles_im.json
+      Source : SNALC snalc.fr/tableaux-traitements/
+      Fournir : screenshots ou PDF si réforme
+
+   7. INDEMNITÉ DE RÉSIDENCE → params_remuneration.json
+      Zone 1 = 3% du traitement / Zone 2 = 1%
+      En France seulement — disparaît à l étranger
+   ═══════════════════════════════════════════════════════════════════ */
+
+let PARAMS, GRILLES, ISVL, IGFS;
+let situation = 'france';
+
+async function init() {
+  try {
+    const [p, g, i, f] = await Promise.all([
+      fetch('/params_remuneration.json').then(r => r.json()),
+      fetch('/grilles_im.json').then(r => r.json()),
+      fetch('/isvl.json').then(r => r.json()),
+      fetch('/igfs.json').then(r => r.json())
+    ]);
+    PARAMS = p; GRILLES = g; ISVL = i; IGFS = f;
+    render();
+  } catch(e) {
+    document.getElementById('app').innerHTML =
+      `<div style="padding:40px;color:#c02020;text-align:center">
+        <strong>Erreur de chargement.</strong><br>
+        <small>Vérifiez que params_remuneration.json, grilles_im.json, isvl.json et igfs.json sont dans le même dossier.<br>${e.message}</small>
+      </div>`;
+  }
+}
+
+/* ══════════════════════════════════════════════════
+   CONFIGURATION CORPS
+   ══════════════════════════════════════════════════ */
+const CORPS = {
+  "certifie":             { label: "Certifié / CPE / PE / P.EPS / PLP", grades: ["CN","HC","CE"], isoe: true, grenelle: 'titulaire', hsa: 'certifie_cn' },
+  "biadmissible":         { label: "Certifié ex-biadmissible", grades: ["CN"], isoe: true, grenelle: 'titulaire', echelon_min: 3, hsa: 'certifie_cn' },
+  "agree":                { label: "Professeur agrégé", grades: ["CN","HC","CE"], isoe: true, grenelle: 'titulaire', hsa: 'agrege_cn' },
+  "chaire_superieure":    { label: "Professeur de chaire supérieure", grades: ["echelons"], isoe: true, grenelle: 'aucune', hsa: null },
+  "contractuel_enseignant":{ label: "Contractuel enseignant / CPE / Psy-EN 1re cat.", grades: ["echelons"], isoe: true, grenelle: 'contractuel', hsa: 'contractuel_18h' },
+  "aesh":                 { label: "AESH", grades: ["echelons"], isoe: false, indem_aesh: true, grenelle: 'aucune', quotite: true, hsa: null },
+  "aed":                  { label: "AED", grades: ["echelons"], isoe: false, grenelle: 'aucune', hsa: null },
+  "adjoint_administratif":{ label: "Adjoint administratif (ADJAENES)", grades: ["CN","principal_2e","principal_1re"], isoe: false, grenelle: 'aucune', hsa: null },
+  "saenes":               { label: "Secrétaire d administration (SAENES)", grades: ["CN","CS","CE"], isoe: false, grenelle: 'aucune', hsa: null },
+  "attache_administration":{ label: "Attaché d administration / Directeur de service", grades: ["attache","attache_principal","directeur_service","hors_classe"], isoe: false, grenelle: 'aucune', hsa: null },
+  "assae":                { label: "Assistant de service social (ASSAE)", grades: ["1er_grade","2e_grade"], isoe: false, grenelle: 'aucune', hsa: null },
+  "ctssae":               { label: "Conseiller technique service social (CTSSAE)", grades: ["1er_grade","2e_grade"], isoe: false, grenelle: 'aucune', hsa: null },
+  "infenes":              { label: "Infirmier(e) EN catégorie A (INFENES)", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null },
+  "medecin_en":           { label: "Médecin de l Éducation nationale", grades: ["2e_classe","1re_classe","hors_classe"], isoe: false, grenelle: 'aucune', hsa: null },
+  "ia_ipr":               { label: "Inspecteur d académie — IPR (IA-IPR)", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null },
+  "ien":                  { label: "Inspecteur de l EN (IEN)", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null },
+  "personnel_direction":  { label: "Personnel de direction", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null },
+  "atrf":                 { label: "Adjoint technique de recherche (ATRF)", grades: ["atrf","2e_classe","1re_classe"], isoe: false, grenelle: 'aucune', hsa: null },
+  "trf":                  { label: "Technicien de recherche (TRF)", grades: ["CN","CS","CE"], isoe: false, grenelle: 'aucune', hsa: null },
+  "assistant_ingenieur":  { label: "Assistant ingénieur (AI)", grades: ["echelons"], isoe: false, grenelle: 'aucune', hsa: null },
+  "ige":                  { label: "Ingénieur d études (IGE)", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null },
+  "igr":                  { label: "Ingénieur de recherche (IGR)", grades: ["CN","HC"], isoe: false, grenelle: 'aucune', hsa: null }
+};
+
+const GRADE_LBL = {
+  CN:"Classe normale", HC:"Hors classe", CE:"Classe exceptionnelle",
+  echelons:"Échelons", principal_2e:"Principal 2e cl.", principal_1re:"Principal 1re cl.",
+  CS:"Classe supérieure", attache:"Attaché", attache_principal:"Attaché principal",
+  directeur_service:"Directeur de service", hors_classe:"Hors classe",
+  "1er_grade":"1er grade", "2e_grade":"2e grade",
+  "1re_classe":"1re classe", "2e_classe":"2e classe",
+  atrf:"ATRF base"
+};
+
+// Correspondance corps → groupe ISVL
+const CORPS_GROUPE = {
+  "certifie":              g => g==='HC'||g==='CE' ? 'G2' : 'G3',
+  "biadmissible":          () => 'G3',
+  "agree":                 g => g==='HC'||g==='CE' ? 'G1' : 'G2',
+  "chaire_superieure":     () => 'G1',
+  "contractuel_enseignant":() => 'G5',
+  "aesh":                  () => 'G6',
+  "aed":                   () => 'G7',
+  "adjoint_administratif": () => 'G8',
+  "saenes":                () => 'G6',
+  "attache_administration":g => g==='hors_classe' ? 'G2' : 'G5',
+  "assae":                 () => 'G5',
+  "ctssae":                () => 'G4',
+  "infenes":               () => 'G5',
+  "medecin_en":            g => g==='hors_classe' ? 'G1' : 'G2',
+  "ia_ipr":                () => 'G1',
+  "ien":                   () => 'G1',
+  "personnel_direction":   g => g==='HC' ? 'G1' : 'G2',
+  "atrf":                  () => 'G8',
+  "trf":                   () => 'G7',
+  "assistant_ingenieur":   () => 'G5',
+  "ige":                   () => 'G4',
+  "igr":                   () => 'G3'
+};
+
+let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0 };
+
+function setSituation(s) {
+  situation = s;
+  ['france','resident','expat','mlf'].forEach(t => {
+    const tab = document.getElementById('tab-'+t);
+    tab.classList.remove('active','vert','or','rouge');
+  });
+  const map = { france:'', resident:'vert', expat:'or', mlf:'rouge' };
+  document.getElementById('tab-'+s).classList.add('active', map[s]);
+  render();
+}
+
+function render() {
+  if (situation === 'mlf') { renderMLF(); return; }
+  const app = document.getElementById('app');
+
+  // Textes pédagogiques par situation
+  const pedago = {
+    france: `<div class="pedago-box bleu">
+      <strong>🇫🇷 Rémunération en France</strong>
+      Votre salaire comprend le traitement indiciaire (IM × point d indice), l ISOE ou ISAE selon le niveau d enseignement, la Prime Grenelle (dégressive pour les échelons 1 à 9 de la classe normale), et l indemnité de résidence (3% du brut en zone 1, 1% en zone 2 selon la ville).
+      <ul>
+        <li>La Prime Grenelle est versée en France et disparaît à l étranger pour les agents AEFE</li>
+        <li>L indemnité de résidence est remplacée à l étranger par l ISVL ou l IGFS</li>
+      </ul>
+    </div>`,
+
+    resident: `<div class="pedago-box vert">
+      <strong>🌍 Résident AEFE — Ce qui change par rapport à la France</strong>
+      En tant que résident AEFE, vous êtes recruté localement par un établissement à l étranger.
+      <ul>
+        <li>✅ Vous conservez votre traitement indiciaire français</li>
+        <li>✅ Vous percevez l ISVL (montant fixe selon le pays et votre groupe G1-G8)</li>
+        <li>❌ La Prime Grenelle n est PAS versée — exclusion décidée par Bercy</li>
+        <li>❌ Pas d indemnité de résidence (remplacée par l ISVL)</li>
+        <li>❌ Les CPE et Psy-EN ne perçoivent pas leurs indemnités statutaires dans le réseau AEFE</li>
+        <li>⚠️ Pas d ICR (indemnité de changement de résidence), pas de billet d avion</li>
+      </ul>
+      Source : SNES-FSU / AEFE
+    </div>`,
+
+    expat: `<div class="pedago-box or">
+      <strong>✈️ Expatrié / Détaché AEFE — Ce qui change</strong>
+      Vous êtes détaché par le Ministère de l Éducation nationale et envoyé à l étranger.
+      <ul>
+        <li>✅ Traitement indiciaire français maintenu</li>
+        <li>✅ IGFS = pourcentage du traitement brut selon le pays (peut être nul ou négatif)</li>
+        <li>✅ ICR (indemnité de changement de résidence) pour vous et votre famille</li>
+        <li>✅ Billet d avion aller/retour pris en charge (fréquence selon le pays)</li>
+        <li>❌ Gel indiciaire pendant la durée du contrat — votre avancement n est pas répercuté</li>
+        <li>❌ Pas de Prime Grenelle à l étranger</li>
+        <li>⚠️ Taux IGFS négatif : le pays est jugé moins cher que la France — l indemnité peut être nulle</li>
+      </ul>
+    </div>`
+  };
+
+  // Pays
+  const paysOptionsISVL = Object.entries(ISVL.pays)
+    .sort((a,b) => a[1].label.localeCompare(b[1].label))
+    .map(([k,v]) => `<option value="${k}"${E.pays===k?' selected':''}>${v.label}</option>`)
+    .join('');
+
+  const paysOptionsIGFS = Object.entries(IGFS.taux)
+    .sort((a,b) => a[1].label.localeCompare(b[1].label))
+    .map(([k,v]) => `<option value="${k}"${E.pays===k?' selected':''}>${v.label} (${v.taux>=0?'+':''}${v.taux}%)</option>`)
+    .join('');
+
+  const corpConf = CORPS[E.corps];
+  const gradeOptions = (corpConf.grades||[]).map(g =>
+    `<option value="${g}"${E.grade===g?' selected':''}>${GRADE_LBL[g]||g}</option>`
+  ).join('');
+
+  const grilles = GRILLES.corps[E.corps];
+  const gradeData = grilles?.[E.grade] || grilles?.echelons || grilles?.CN || {};
+  const echelonOptions = Object.keys(gradeData).map(k =>
+    `<option value="${k}"${E.echelon===k?' selected':''}>${k}</option>`
+  ).join('');
+
+  const showPays = situation !== 'france';
+  const paysSection = showPays ? `
+    <div class="sep"></div>
+    <div class="sec-label">Pays d affectation</div>
+    <div class="form-group">
+      <label>Pays</label>
+      <select onchange="E.pays=this.value;calculer()">
+        <option value="">— Choisir un pays —</option>
+        ${situation==='resident' ? paysOptionsISVL : paysOptionsIGFS}
+      </select>
+      <div class="help">${situation==='resident'
+        ? 'Source ISVL : Arrêté du 8 octobre 2025 — JO (montant annuel fixe selon le groupe G1-G8)'
+        : 'Source IGFS : Arrêté du 9 mars 2026 — JO (taux % du traitement brut — négatif = pays moins cher que la France)'
+      }</div>
+    </div>` : '';
+
+  const hsaSection = corpConf.hsa ? `
+    <div class="sep"></div>
+    <div class="sec-label">Heures supplémentaires (optionnel)</div>
+    <div class="form-group">
+      <label>Nombre de HSA annuelles</label>
+      <input type="number" min="0" max="10" value="${E.hsa}" onchange="E.hsa=parseInt(this.value)||0;calculer()">
+      <div class="help">1re HSA : taux majoré. Suivantes : taux standard. Voir tableau HSA complet dans l Excel.</div>
+    </div>` : '';
+
+  const quotiteSection = corpConf.quotite ? `
+    <div class="form-group">
+      <label>Quotité de travail</label>
+      <select onchange="E.quotite=parseInt(this.value);calculer()">
+        <option value="100"${E.quotite===100?' selected':''}>100%</option>
+        <option value="77"${E.quotite===77?' selected':''}>77%</option>
+        <option value="62"${E.quotite===62?' selected':''}>62%</option>
+      </select>
+      <div class="help">Le traitement brut et l indemnité AESH sont proratisés selon la quotité.</div>
+    </div>` : '';
+
+  app.innerHTML = `
+    <div class="form-card">
+      <h2>Votre profil</h2>
+      ${pedago[situation]||''}
+
+      <div class="sec-label">Corps et grade</div>
+      <div class="form-group">
+        <label>Corps</label>
+        <select onchange="E.corps=this.value;syncGrade()">
+          ${Object.entries(CORPS).map(([k,v])=>`<option value="${k}"${E.corps===k?' selected':''}>${v.label}</option>`).join('')}
+        </select>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Grade</label>
+          <select onchange="E.grade=this.value;syncEchelon()">${gradeOptions}</select>
+        </div>
+        <div class="form-group">
+          <label>Échelon</label>
+          <select onchange="E.echelon=this.value;calculer()">${echelonOptions}</select>
+        </div>
+      </div>
+      ${quotiteSection}
+
+      ${paysSection}
+      ${hsaSection}
+
+      ${situation==='expat' ? `
+      <div class="sep"></div>
+      <div class="pedago-box or" style="font-size:0.78rem">
+        <strong>⚙️ Gel indiciaire pour les expatriés</strong>
+        Votre échelon est figé à la date de votre départ pendant toute la durée du contrat.
+        Vous continuez à cotiser pour la retraite à votre échelon réel,
+        mais vous n êtes pas payé sur votre nouvel échelon avant le renouvellement du contrat.
+      </div>` : ''}
+
+      ${situation==='france' ? `
+      <div class="sep"></div>
+      <div class="sec-label">Indemnité de résidence</div>
+      <div class="form-group">
+        <label>Zone</label>
+        <select id="sel-zone" onchange="calculer()">
+          <option value="3">Zone 1 — 3% (Île-de-France et grandes villes)</option>
+          <option value="1">Zone 2 — 1% (autres communes)</option>
+          <option value="0">Zone 3 — 0% (communes rurales)</option>
+        </select>
+        <div class="help">L indemnité de résidence est proportionnelle au traitement brut. Elle disparaît à l étranger (remplacée par ISVL ou IGFS).</div>
+      </div>` : ''}
+    </div>
+
+    <div class="result-card" id="result-card">
+      <div class="result-box" id="result-box">
+        <div class="result-title">
+          Simulation <span class="result-badge" id="result-badge"></span>
+        </div>
+        <div id="result-lines"><div class="placeholder">Sélectionnez votre profil...</div></div>
+      </div>
+      <div class="net-card hidden" id="net-card">
+        <div class="net-label">Net estimé avant impôt</div>
+        <div class="net-val" id="net-val">—</div>
+        <div class="net-note">Estimation : total brut × 79% — Hors IR, hors suppléments familiaux, hors avantages en nature</div>
+      </div>
+      <div class="alerte" id="result-alertes"></div>
+      <div class="info">
+        📅 Données au 1er janvier 2026. Point d indice : ${PARAMS?.point_indice_mensuel}€/mois.
+        ISVL : arrêté oct. 2025. IGFS : arrêté mars 2026 (en vigueur avril 2026).
+      </div>
+    </div>`;
+
+  calculer();
+}
+
+function renderMLF() {
+  document.getElementById('app').innerHTML = `
+    <div class="form-card" style="grid-column:1/-1;max-width:700px;margin:0 auto">
+      <h2>🏫 Contrat local / MLF</h2>
+      <div class="pedago-box rouge">
+        <strong>La rémunération MLF n est pas simulable ici</strong>
+        Les établissements de la Mission Laïque Française (MLF) sont des associations privées.
+        Chaque établissement négocie ses propres conditions salariales — il n y a pas de grille nationale publiée.
+      </div>
+      <div style="margin-top:20px;font-size:0.88rem;color:var(--gris-moyen);line-height:1.7">
+        <p style="font-weight:600;color:var(--gris-fonce);margin-bottom:12px">Ce que vous devez savoir sur les contrats MLF :</p>
+        <p>✅ <strong>Référence indicative :</strong> Les établissements MLF s alignent souvent sur les grilles de l Éducation nationale française, mais sans obligation. La rémunération peut être supérieure ou inférieure selon l établissement et le pays.</p>
+        <br>
+        <p>✅ <strong>Avantages variables :</strong> Certains établissements MLF proposent logement, transport, scolarité des enfants ou prime d installation. Ces avantages compensent parfois un traitement inférieur.</p>
+        <br>
+        <p>✅ <strong>Pas de Prime Grenelle :</strong> La prime Grenelle est spécifique à l Éducation nationale française et n est pas versée dans les établissements MLF.</p>
+        <br>
+        <p>✅ <strong>Pas d ISVL ni d IGFS :</strong> Ces indemnités sont propres au réseau AEFE. Les établissements MLF définissent leurs propres indemnités de vie locale.</p>
+        <br>
+        <p>⚠️ <strong>Comment s informer :</strong></p>
+        <ul style="margin-left:20px;margin-top:8px">
+          <li>Contacter directement l établissement pour obtenir la grille salariale</li>
+          <li>Consulter les forums d enseignants expatriés (Expat.com, groupes Facebook AEFE/MLF)</li>
+          <li>Demander à voir un contrat type avant de postuler</li>
+          <li>Consulter le site <a href="https://www.mlf.lu/recrutement" target="_blank" style="color:var(--bleu-clair)">mlf.lu/recrutement</a></li>
+        </ul>
+        <br>
+        <p>📊 Pour avoir un ordre d idée, utilisez le simulateur <strong>Résident AEFE</strong> ou <strong>Expatrié AEFE</strong> — cela vous donnera une base de comparaison.</p>
+      </div>
+    </div>`;
+}
+
+function syncGrade() {
+  const conf = CORPS[E.corps];
+  E.grade = conf.grades[0];
+  syncEchelon();
+}
+
+function syncEchelon() {
+  const grilles = GRILLES.corps[E.corps];
+  const gd = grilles?.[E.grade] || grilles?.echelons || grilles?.CN || {};
+  const keys = Object.keys(gd);
+  E.echelon = keys[0] || '1';
+  render();
+}
+
+function getIM() {
+  const grilles = GRILLES.corps[E.corps];
+  if (!grilles) return null;
+  const gd = grilles[E.grade] || grilles.echelons;
+  if (!gd) return null;
+  const ed = gd[E.echelon];
+  if (!ed) return null;
+  return typeof ed === 'object' ? ed.im : ed;
+}
+
+function fmt(n) {
+  return new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(n);
+}
+function fmtD(n) {
+  return new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:2}).format(n);
+}
+
+function calculer() {
+  const im = getIM();
+  if (!im) return;
+
+  const conf = CORPS[E.corps];
+  const pt = PARAMS.point_indice_mensuel;
+
+  // 1. Traitement brut de base
+  let brut = im * pt;
+
+  // 2. Quotité AESH
+  if (conf.quotite && E.quotite !== 100) brut = brut * E.quotite / 100;
+
+  // 3. Indemnité
+  let indem = 0, indemLabel = '';
+  if (conf.isoe) {
+    // CPE et Psy-EN ont des indemnités spécifiques — mais attention à l étranger AEFE
+    indem = PARAMS.isoe_mensuel;
+    indemLabel = 'ISOE / ISAE';
+    if (situation !== 'france') {
+      // Note : CPE et Psy-EN ne perçoivent pas leurs indemnités dans le réseau AEFE
+      // On garde l ISOE pour simplifier mais on signale via alerte
+    }
+  }
+  if (conf.indem_aesh) {
+    let a = PARAMS.indem_aesh_mensuel;
+    if (conf.quotite && E.quotite !== 100) a = a * E.quotite / 100;
+    indem = a;
+    indemLabel = 'Indemnité AESH';
+  }
+
+  // 4. Prime Grenelle (France uniquement + avertissement)
+  let grenelle = 0, grenelleLabel = '';
+  const grenelleDisponible = situation === 'france'; // PAS versée à l étranger
+  if (grenelleDisponible) {
+    if (conf.grenelle === 'titulaire' && E.grade === 'CN') {
+      const g = PARAMS.prime_grenelle_titulaires[`CN${E.echelon}`];
+      if (g) { grenelle = g; grenelleLabel = `Prime Grenelle (CN${E.echelon})`; }
+    }
+    if (conf.grenelle === 'contractuel') {
+      const seuils = Object.keys(PARAMS.prime_grenelle_contractuels)
+        .filter(k=>!k.startsWith('_')).map(Number).sort((a,b)=>a-b);
+      for (const s of seuils) { if (im <= s) { grenelle = PARAMS.prime_grenelle_contractuels[String(s)] || 0; break; } }
+      if (grenelle) grenelleLabel = 'Prime Grenelle (contractuel)';
+    }
+  }
+
+  // 5. Indemnité de résidence (France uniquement)
+  let indemRes = 0, indemResLabel = '';
+  if (situation === 'france') {
+    const zone = parseInt(document.getElementById('sel-zone')?.value || '3');
+    indemRes = brut * zone / 100;
+    indemResLabel = `Indem. résidence zone ${zone===3?'1':zone===1?'2':'3'} (${zone}%)`;
+  }
+
+  // 6. HSA
+  let hsaMensuel = 0, hsaLabel = '';
+  if (conf.hsa && E.hsa > 0) {
+    const h = PARAMS.hsa[conf.hsa];
+    if (h) {
+      let annuel = h['1ere_hsa_annuelle'] + (E.hsa-1) * h['autres_hsa_annuelle'];
+      hsaMensuel = annuel / 12;
+      hsaLabel = `${E.hsa} HSA`;
+    }
+  }
+
+  // 7. Total brut France (référence)
+  const brutFrance = brut + indem + grenelle + indemRes + hsaMensuel;
+
+  // 8. Indemnité pays (ISVL ou IGFS)
+  let indemPays = 0, indemPaysLabel = '', indemPaysNote = '';
+
+  if (situation === 'resident' && E.pays) {
+    const paysData = ISVL.pays[E.pays];
+    if (paysData && paysData.villes?.length > 0) {
+      const groupe = (CORPS_GROUPE[E.corps]||(() => 'G4'))(E.grade);
+      const v = paysData.villes[0];
+      indemPays = Math.round((v[groupe] || 0) / 12);
+      indemPaysLabel = `ISVL ${groupe} — ${v.ville}`;
+      indemPaysNote = `${fmt(v[groupe]||0)}/an`;
+    }
+  }
+
+  if (situation === 'expat' && E.pays) {
+    const paysData = IGFS.taux[E.pays];
+    if (paysData) {
+      const taux = paysData.taux;
+      if (taux > 0) {
+        indemPays = brut * taux / 100;
+        indemPaysLabel = `IGFS ${paysData.label} (+${taux}%)`;
+        indemPaysNote = `${taux}% × traitement brut`;
+      } else if (taux < 0) {
+        indemPays = 0; // Plancher à 0 — taux négatif = pas d indemnité
+        indemPaysLabel = `IGFS ${paysData.label} (${taux}%)`;
+        indemPaysNote = `Taux négatif → indemnité nulle (pays jugé moins cher que la France)`;
+      } else {
+        indemPaysLabel = `IGFS ${paysData.label} (0%)`;
+        indemPaysNote = `Taux nul → pas d indemnité IGFS dans ce pays`;
+      }
+    }
+  }
+
+  // 9. Total brut final
+  const brutTotal = brutFrance + indemPays - indemRes; // On retire l indem de résidence qui disparaît à l étranger
+  const brutEtranger = situation === 'france' ? brutFrance : (brut + indem + hsaMensuel + indemPays);
+  const netEstime = brutEtranger * PARAMS.taux_net_sur_brut;
+
+  // AFFICHAGE
+  const badgeColors = { france:'background:#4169E1;color:#fff', resident:'background:#2a5c3a;color:#fff', expat:'background:#c8862a;color:#111', mlf:'background:#c02020;color:#fff' };
+  const badgeLabels = { france:'France', resident:'Résident', expat:'Expatrié', mlf:'MLF' };
+  document.getElementById('result-badge').style.cssText = badgeColors[situation];
+  document.getElementById('result-badge').textContent = badgeLabels[situation];
+
+  let lines = `
+    <div class="result-line">
+      <span class="lbl">IM ${im} × ${pt}€</span>
+      <span class="val">${fmt(brut)}/mois</span>
+    </div>`;
+
+  if (indem) lines += `
+    <div class="result-line">
+      <span class="lbl">${indemLabel}</span>
+      <span class="val plus">+ ${fmt(indem)}/mois</span>
+    </div>`;
+
+  if (grenelle && grenelleDisponible) lines += `
+    <div class="result-line">
+      <span class="lbl">${grenelleLabel}</span>
+      <span class="val plus">+ ${fmt(grenelle)}/mois</span>
+    </div>`;
+
+  if (!grenelleDisponible && conf.grenelle !== 'aucune') lines += `
+    <div class="result-line">
+      <span class="lbl">Prime Grenelle</span>
+      <span class="val minus">Non versée à l étranger</span>
+    </div>`;
+
+  if (indemRes) lines += `
+    <div class="result-line">
+      <span class="lbl">${indemResLabel}</span>
+      <span class="val plus">+ ${fmtD(indemRes)}/mois</span>
+    </div>`;
+
+  if (hsaMensuel) lines += `
+    <div class="result-line">
+      <span class="lbl">HSA (${hsaLabel})</span>
+      <span class="val plus">+ ${fmt(hsaMensuel)}/mois</span>
+    </div>`;
+
+  lines += `<div class="result-subtotal">
+    <span class="lbl">Total brut ${situation==='france'?'en France':'base France'}</span>
+    <span class="val">${fmt(situation==='france'?brutFrance:brut+indem+hsaMensuel)}/mois</span>
+  </div>`;
+
+  if (situation !== 'france') {
+    if (E.pays && indemPaysLabel) {
+      lines += `
+        <div class="result-line">
+          <span class="lbl">${indemPaysLabel}</span>
+          <span class="val ${indemPays>0?'plus':'neutre'}">
+            ${indemPays>0?'+ '+fmt(indemPays)+'/mois':indemPays===0?'0 €':'Non applicable'}
+          </span>
+        </div>`;
+      if (indemPaysNote) lines += `
+        <div class="result-line" style="font-size:0.72rem;opacity:0.6">
+          <span class="lbl">${indemPaysNote}</span><span class="val"></span>
+        </div>`;
+    } else {
+      lines += `
+        <div class="result-line">
+          <span class="lbl">${situation==='resident'?'ISVL':'IGFS'} — pays non sélectionné</span>
+          <span class="val neutre">— €</span>
+        </div>`;
+    }
+  }
+
+  const totalFinal = situation==='france' ? brutFrance : (brut+indem+hsaMensuel+indemPays);
+  lines += `<div class="result-total">
+    <span class="lbl">Total brut estimé</span>
+    <span class="val">${fmt(totalFinal)}/mois</span>
+  </div>`;
+
+  document.getElementById('result-lines').innerHTML = lines;
+  document.getElementById('net-card').classList.remove('hidden');
+  document.getElementById('net-val').textContent = fmt(netEstime) + '/mois';
+
+  // ALERTES PÉDAGOGIQUES
+  let alertes = [];
+  if (situation === 'resident' && (E.corps === 'contractuel_enseignant')) {
+    alertes.push('⚠️ Les CPE et Psy-EN dans le réseau AEFE ne perçoivent pas leurs indemnités statutaires malgré les demandes répétées des syndicats.');
+  }
+  if (situation === 'expat') {
+    alertes.push('⚠️ Gel indiciaire : votre avancement d échelon n est pas répercuté sur votre salaire pendant le contrat. Il est pris en compte au renouvellement.');
+  }
+  if (situation === 'expat' && E.pays && IGFS.taux[E.pays]?.taux < 0) {
+    alertes.push(`ℹ️ Taux IGFS négatif (${IGFS.taux[E.pays].taux}%) : ce pays est jugé moins cher que la France. L indemnité IGFS est nulle (plancher à 0).`);
+  }
+  if (situation !== 'france' && conf.grenelle !== 'aucune') {
+    alertes.push('ℹ️ La Prime Grenelle n est pas versée aux agents AEFE en poste à l étranger — exclusion décidée par Bercy malgré les demandes des syndicats.');
+  }
+  document.getElementById('result-alertes').innerHTML = alertes.map(a => `<div style="margin-bottom:6px">${a}</div>`).join('') || '';
+  if (!alertes.length) document.getElementById('result-alertes').style.display = 'none';
+  else document.getElementById('result-alertes').style.display = 'block';
+}
+
+init();
+</script>
+</body>
+</html>
