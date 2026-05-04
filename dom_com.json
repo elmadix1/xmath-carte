@@ -1,0 +1,141 @@
+{
+  "_FICHIER": "dom_com.json — Majorations de traitement DOM et coefficients COM",
+  "_DERNIERE_MAJ": "Janvier 2026",
+  "_SOURCE": "Loi n°50-407 du 3 avril 1950 / Décret n°96-1026 du 26 novembre 1996",
+  "_QUAND": "Stable — change uniquement par loi ou décret",
+  "_FOURNIR": "En cas de réforme envoyer le nouveau texte à Claude",
+
+  "_NOTE_DOM": "Pour les DOM : majoration = traitement brut × taux. Mutation classique via permutations nationales.",
+  "_NOTE_COM": "Pour les COM du Pacifique : coefficient appliqué au (traitement brut + indemnité résidence Paris). Détachement limité dans le temps.",
+  "_NOTE_RECRUTEMENT": "Dans les DOM/COM le recrutement passe par le vice-rectorat local et non par l AEFE.",
+
+  "dom": {
+    "guadeloupe": {
+      "label": "Guadeloupe",
+      "drapeau": "🇬🇵",
+      "type": "DOM",
+      "majoration_pct": 40,
+      "detail": "25% majoration + 15% complément temporaire",
+      "source": "Loi 50-407 + Décret 57-87",
+      "recrutement": "Vice-rectorat de Guadeloupe",
+      "avantages": ["Congé bonifié 31 jours tous les 3 ans", "Prise en charge billet avion", "Réduction IR 30%"]
+    },
+    "martinique": {
+      "label": "Martinique",
+      "drapeau": "🇲🇶",
+      "type": "DOM",
+      "majoration_pct": 40,
+      "detail": "25% majoration + 15% complément temporaire",
+      "source": "Loi 50-407 + Décret 57-87",
+      "recrutement": "Vice-rectorat de Martinique",
+      "avantages": ["Congé bonifié 31 jours tous les 3 ans", "Prise en charge billet avion", "Réduction IR 30%"]
+    },
+    "guyane": {
+      "label": "Guyane",
+      "drapeau": "🇬🇫",
+      "type": "DOM",
+      "majoration_pct": 40,
+      "detail": "25% majoration + 15% complément temporaire",
+      "source": "Loi 50-407 + Décret 57-87",
+      "recrutement": "Vice-rectorat de Guyane",
+      "avantages": ["Congé bonifié 31 jours tous les 3 ans", "Prise en charge billet avion", "Réduction IR 40%", "IPSI : 16 mois de traitement après 4 ans de service"]
+    },
+    "reunion": {
+      "label": "La Réunion",
+      "drapeau": "🇷🇪",
+      "type": "DOM",
+      "majoration_pct": 53,
+      "detail": "25% majoration + 28% complément (environ 53% total selon sources)",
+      "source": "Loi 50-407 + Décret 57-333",
+      "recrutement": "Vice-rectorat de La Réunion",
+      "avantages": ["Congé bonifié 31 jours tous les 3 ans", "Prise en charge billet avion", "Réduction IR 30%"]
+    },
+    "mayotte": {
+      "label": "Mayotte",
+      "drapeau": "🇾🇹",
+      "type": "DOM",
+      "majoration_pct": 40,
+      "detail": "25% majoration + 15% complément temporaire",
+      "source": "Décret 2013-964",
+      "recrutement": "Vice-rectorat de Mayotte",
+      "avantages": ["Congé bonifié", "Prise en charge billet avion", "Réduction IR 30%"]
+    }
+  },
+
+  "com": {
+    "polynesie": {
+      "label": "Polynésie française",
+      "drapeau": "🇵🇫",
+      "type": "COM",
+      "zones": [
+        { "label": "Îles du Vent et Îles Sous-le-Vent (Tahiti, Moorea, Raiatea)", "coefficient": 1.84 },
+        { "label": "Autres subdivisions (Tuamotu, Marquises, Australes, Gambier)", "coefficient": 2.08 }
+      ],
+      "source": "Arrêté du 12 février 1981 + Décret 96-1026",
+      "recrutement": "Vice-rectorat de Polynésie française",
+      "duree_max": "2 ans renouvelable une fois",
+      "avantages": ["Indemnité d éloignement au départ et au retour", "Prise en charge billet avion à 80%", "Droit à bagages excédentaires"]
+    },
+    "nouvelle-caledonie": {
+      "label": "Nouvelle-Calédonie",
+      "drapeau": "🇳🇨",
+      "type": "COM",
+      "zones": [
+        { "label": "Nouméa, Mont-Dore, Dumbéa, Païta", "coefficient": 1.73 },
+        { "label": "Autres communes", "coefficient": 1.94 }
+      ],
+      "source": "Arrêté du 12 février 1981 + Décret 96-1026",
+      "recrutement": "Vice-rectorat de Nouvelle-Calédonie",
+      "duree_max": "2 ans renouvelable une fois",
+      "avantages": ["Indemnité d éloignement au départ et au retour", "Prise en charge billet avion à 80%", "Droit à bagages excédentaires"]
+    },
+    "wallis-futuna": {
+      "label": "Wallis-et-Futuna",
+      "drapeau": "🇼🇫",
+      "type": "COM",
+      "zones": [
+        { "label": "Wallis-et-Futuna", "coefficient": 1.94 }
+      ],
+      "source": "Décret 96-1026",
+      "recrutement": "Vice-rectorat de Wallis-et-Futuna",
+      "duree_max": "2 ans renouvelable une fois",
+      "avantages": ["Indemnité d éloignement 9 mois de traitement", "Prise en charge billet avion à 80%"]
+    },
+    "saint-pierre-miquelon": {
+      "label": "Saint-Pierre-et-Miquelon",
+      "drapeau": "🇵🇲",
+      "type": "COM",
+      "zones": [
+        { "label": "Saint-Pierre-et-Miquelon", "coefficient": 1.40 }
+      ],
+      "source": "Décret 78-293",
+      "recrutement": "Direction des services de l Education nationale",
+      "duree_max": "Non limité",
+      "avantages": ["Majoration de traitement 40%", "Congé bonifié", "Prise en charge billet avion"]
+    },
+    "saint-barthelemy": {
+      "label": "Saint-Barthélemy",
+      "drapeau": "🇧🇱",
+      "type": "COM",
+      "zones": [
+        { "label": "Saint-Barthélemy", "coefficient": 1.40 }
+      ],
+      "source": "Loi 50-407 modifiée",
+      "recrutement": "Académie de Guadeloupe",
+      "duree_max": "Non limité",
+      "avantages": ["Majoration de traitement 40%", "Pas de TVA locale"]
+    },
+    "saint-martin": {
+      "label": "Saint-Martin",
+      "drapeau": "🇲🇫",
+      "type": "COM",
+      "zones": [
+        { "label": "Saint-Martin", "coefficient": 1.40 }
+      ],
+      "source": "Loi 50-407 modifiée",
+      "recrutement": "Académie de Guadeloupe",
+      "duree_max": "Non limité",
+      "avantages": ["Majoration de traitement 40%", "IPSI après 4 ans de service"]
+    }
+  }
+}

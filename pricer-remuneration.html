@@ -38,6 +38,7 @@ header nav a:hover { color: #fff; }
 .sit-tab.active.vert { color: var(--vert); border-bottom-color: var(--vert); }
 .sit-tab.active.or { color: var(--or); border-bottom-color: var(--or); }
 .sit-tab.active.rouge { color: var(--rouge); border-bottom-color: var(--rouge); }
+.sit-tab.active.bleu { color: var(--bleu-clair); border-bottom-color: var(--bleu-clair); }
 
 /* LAYOUT */
 .container { max-width: 1080px; margin: 0 auto; padding: 40px 32px 80px; display: grid; grid-template-columns: 1fr 360px; gap: 36px; }
@@ -136,6 +137,7 @@ footer a { color: var(--vert-clair); text-decoration: none; }
   <div class="sit-tab active" onclick="setSituation('france')" id="tab-france">🇫🇷 En France</div>
   <div class="sit-tab" onclick="setSituation('resident')" id="tab-resident">🌍 Résident AEFE</div>
   <div class="sit-tab" onclick="setSituation('expat')" id="tab-expat">✈️ Expatrié / Détaché AEFE</div>
+  <div class="sit-tab" onclick="setSituation('domcom')" id="tab-domcom">🏝️ DOM / COM</div>
   <div class="sit-tab" onclick="setSituation('mlf')" id="tab-mlf">🏫 Local / MLF</div>
 </div>
 
@@ -182,19 +184,20 @@ footer a { color: var(--vert-clair); text-decoration: none; }
       En France seulement disparaît à l étranger
    ═══════════════════════════════════════════════════════════════════ */
 
-let PARAMS, GRILLES, ISVL, IGFS, IE;
+let PARAMS, GRILLES, ISVL, IGFS, IE, DOMCOM;
 let situation = 'france';
 
 async function init() {
   try {
-    const [p, g, i, f, ie] = await Promise.all([
+    const [p, g, i, f, ie, domcom] = await Promise.all([
       fetch('/params_remuneration.json').then(r => r.json()),
       fetch('/grilles_im.json').then(r => r.json()),
       fetch('/isvl.json').then(r => r.json()),
       fetch('/igfs.json').then(r => r.json()),
-      fetch('/ie.json').then(r => r.json())
+      fetch('/ie.json').then(r => r.json()),
+      fetch('/dom_com.json').then(r => r.json())
     ]);
-    PARAMS = p; GRILLES = g; ISVL = i; IGFS = f; IE = ie;
+    PARAMS = p; GRILLES = g; ISVL = i; IGFS = f; IE = ie; DOMCOM = domcom;
     render();
   } catch(e) {
     document.getElementById('app').innerHTML =
@@ -273,17 +276,18 @@ let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlV
 
 function setSituation(s) {
   situation = s;
-  ['france','resident','expat','mlf'].forEach(t => {
+  ['france','resident','expat','domcom','mlf'].forEach(t => {
     const tab = document.getElementById('tab-'+t);
     tab.classList.remove('active','vert','or','rouge');
   });
-  const map = { france:'', resident:'vert', expat:'or', mlf:'rouge' };
+  const map = { france:'', resident:'vert', expat:'or', domcom:'bleu', mlf:'rouge' };
   const cls = map[s]; document.getElementById('tab-'+s).classList.add('active'); if(cls) document.getElementById('tab-'+s).classList.add(cls);
   render();
 }
 
 function render() {
   if (situation === 'mlf') { renderMLF(); return; }
+  if (situation === 'domcom') { renderDOMCOM(); return; }
   const app = document.getElementById('app');
 
   // Textes pédagogiques par situation
@@ -463,6 +467,113 @@ function render() {
     </div>`;
 
   calculer();
+}
+
+
+function renderDOMCOM() {
+  const im = getIM();
+  const brut = im ? im * PARAMS.point_indice_mensuel : 0;
+
+  function cardDOM(k, t) {
+    const maj = brut * t.majoration_pct / 100;
+    const total = brut + maj;
+    const net = total * PARAMS.taux_net_sur_brut;
+    return `<div style="background:#fff;border:1.5px solid var(--gris-clair);border-radius:12px;padding:20px;margin-bottom:12px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+        <span style="font-size:1.6rem">${t.drapeau}</span>
+        <div><div style="font-weight:700;font-size:0.95rem">${t.label}</div>
+        <div style="font-size:0.75rem;color:var(--gris-moyen)">${t.recrutement}</div></div>
+        <span style="margin-left:auto;background:var(--bleu-pale);color:var(--bleu);font-size:0.75rem;font-weight:700;padding:4px 10px;border-radius:20px">+${t.majoration_pct}%</span>
+      </div>
+      ${brut > 0 ? `<div style="background:var(--noir);border-radius:8px;padding:14px 16px;margin-bottom:10px">
+        <div style="display:flex;justify-content:space-between;font-size:0.8rem;color:rgba(255,255,255,0.55);padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
+          <span>Traitement brut</span><span style="color:rgba(255,255,255,0.85)">${fmt(brut)}/mois</span></div>
+        <div style="display:flex;justify-content:space-between;font-size:0.8rem;color:rgba(255,255,255,0.55);padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
+          <span>Majoration +${t.majoration_pct}%</span><span style="color:#7ac890">+ ${fmt(maj)}/mois</span></div>
+        <div style="display:flex;justify-content:space-between;font-size:0.88rem;font-weight:700;padding:8px 0 0">
+          <span style="color:#fff">Total brut estimé</span><span style="color:var(--or-clair)">${fmt(total)}/mois</span></div>
+      </div>
+      <div style="background:var(--vert-pale);border-radius:8px;padding:10px 14px;font-size:0.8rem;color:var(--vert);font-weight:600;margin-bottom:10px">
+        Net estimé avant IR : ${fmt(net)}/mois</div>` : ''}
+      <div style="font-size:0.75rem;color:var(--gris-moyen)">${t.detail}</div>
+      <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">
+        ${t.avantages.map(a=>`<span style="background:var(--or-pale);color:#7a4a10;font-size:0.7rem;padding:2px 8px;border-radius:12px">${a}</span>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  function cardCOM(k, t) {
+    return `<div style="background:#fff;border:1.5px solid var(--gris-clair);border-radius:12px;padding:20px;margin-bottom:12px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+        <span style="font-size:1.6rem">${t.drapeau}</span>
+        <div><div style="font-weight:700;font-size:0.95rem">${t.label}</div>
+        <div style="font-size:0.75rem;color:var(--gris-moyen)">${t.recrutement}</div></div>
+        <span style="margin-left:auto;background:#f0e8ff;color:#5a1a9a;font-size:0.75rem;font-weight:700;padding:4px 10px;border-radius:20px">Coefficient</span>
+      </div>
+      ${t.zones.map(z => {
+        const base = brut * 1.03;
+        const total = base * z.coefficient;
+        const net = total * PARAMS.taux_net_sur_brut;
+        return brut > 0 ? `<div style="background:#f8f4ff;border-radius:8px;padding:12px 14px;margin-bottom:8px">
+          <div style="font-size:0.78rem;font-weight:600;color:#5a1a9a;margin-bottom:8px">x ${z.coefficient} ${z.label}</div>
+          <div style="display:flex;justify-content:space-between;font-size:0.8rem;color:var(--gris-moyen)">
+            <span>Brut + indem. résidence Paris</span><span>${fmt(base)}/mois</span></div>
+          <div style="display:flex;justify-content:space-between;font-size:0.88rem;font-weight:700;margin-top:6px">
+            <span style="color:var(--gris-fonce)">Total brut estimé</span><span style="color:#5a1a9a">${fmt(total)}/mois</span></div>
+          <div style="font-size:0.78rem;color:var(--vert);font-weight:600;margin-top:4px">Net estimé avant IR : ${fmt(net)}/mois</div>
+        </div>` : `<div style="font-size:0.78rem;color:#5a1a9a;font-weight:600">x ${z.coefficient} ${z.label}</div>`;
+      }).join('')}
+      <div style="font-size:0.75rem;color:var(--gris-moyen);margin-top:8px">Durée max : ${t.duree_max}</div>
+      <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">
+        ${t.avantages.map(a=>`<span style="background:var(--or-pale);color:#7a4a10;font-size:0.7rem;padding:2px 8px;border-radius:12px">${a}</span>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  const grilles = GRILLES.corps[E.corps];
+  const gradeData = grilles?.[E.grade] || grilles?.echelons || {};
+
+  document.getElementById('app').innerHTML = `<div style="grid-column:1/-1">
+    <div class="pedago-box bleu" style="margin-bottom:24px">
+      <strong>🏝️ DOM et COM — Rémunération majorée</strong>
+      Les fonctionnaires en service dans les DOM et COM bénéficient de majorations de traitement. Le recrutement se fait via le vice-rectorat local et non via l AEFE.
+      <ul style="margin-top:8px">
+        <li><strong>DOM</strong> (Guadeloupe, Martinique, Guyane, Réunion, Mayotte) : majoration % du traitement brut, mutation classique permanente</li>
+        <li><strong>COM du Pacifique</strong> (Polynésie, Nouvelle-Calédonie, Wallis-et-Futuna) : coefficient multiplicateur, détachement limité 2 ans renouvelable</li>
+        <li><strong>Autres COM</strong> (Saint-Pierre, Saint-Barthélemy, Saint-Martin) : régime proche des DOM</li>
+      </ul>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:24px">
+      <div><label style="font-size:0.75rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:6px">Corps</label>
+        <select style="width:100%;padding:9px 12px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.corps=this.value;syncGrade()">
+          ${Object.entries(CORPS).map(([k,v])=>`<option value="${k}"${E.corps===k?' selected':''}>${v.label}</option>`).join('')}
+        </select></div>
+      <div><label style="font-size:0.75rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:6px">Grade</label>
+        <select style="width:100%;padding:9px 12px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.grade=this.value;syncEchelon()">
+          ${CORPS[E.corps].grades.map(g=>`<option value="${g}"${E.grade===g?' selected':''}>${GRADE_LBL[g]||g}</option>`).join('')}
+        </select></div>
+      <div><label style="font-size:0.75rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:6px">Échelon</label>
+        <select style="width:100%;padding:9px 12px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.82rem" onchange="E.echelon=this.value;renderDOMCOM()">
+          ${Object.keys(gradeData).map(k=>`<option value="${k}"${E.echelon===k?' selected':''}>${k}</option>`).join('')}
+        </select></div>
+    </div>
+    ${brut > 0 ? `<div style="font-size:0.82rem;color:var(--gris-moyen);margin-bottom:20px">Traitement brut de base : <strong style="color:var(--noir)">${fmt(brut)}/mois</strong> (IM ${im} x ${PARAMS.point_indice_mensuel}€)</div>` : ''}
+
+    <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:16px;color:var(--noir)">🇫🇷 Départements d Outre-Mer (DOM)</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-bottom:32px">
+      ${Object.entries(DOMCOM.dom).map(([k,t])=>cardDOM(k,t)).join('')}
+    </div>
+
+    <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:16px;color:var(--noir)">🏝️ Collectivités d Outre-Mer (COM)</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-bottom:24px">
+      ${Object.entries(DOMCOM.com).map(([k,t])=>cardCOM(k,t)).join('')}
+    </div>
+
+    <div class="alerte">
+      ⚠️ Estimations indicatives avant impôt sur le revenu. Les taux DOM sont officiels. Pour les COM le coefficient s applique au traitement augmenté de l indemnité de résidence Paris (environ 3%). Contactez le vice-rectorat pour les conditions exactes de recrutement.
+    </div>
+  </div>`;
 }
 
 function renderMLF() {
