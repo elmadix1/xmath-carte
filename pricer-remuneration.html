@@ -588,7 +588,7 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
   };
 }
 
-function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse, tauxHseUnit) {
+function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse, tauxHseUnit, primesNonRec) {
   const r = calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse || 0, tauxHseUnit || 0);
   if (!r) return '';
   const XPF = r.XPF;
@@ -714,7 +714,49 @@ function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, n
         ${r.monnaie === 'XPF' ? `<div style="color:rgba(255,255,255,0.4);font-size:0.72rem;margin-top:4px">≈ ${fmtXPF(r.netFinal * 12)}/an</div>` : ''}
         <div style="color:rgba(255,255,255,0.3);font-size:0.68rem;margin-top:6px;line-height:1.4">Estimation avant impôt sur le revenu final — hors suppléments familiaux, hors avantages en nature. IR calculé sur revenus d activité uniquement.</div>
       </div>
-    </div>`;
+
+      ${primesNonRec && primesNonRec.length > 0 ? (() => {
+        const duree = 4; // ans
+        const totalPrimes = primesNonRec.reduce((s, p) => s + p.montant, 0);
+        const primesLissees = totalPrimes / (duree * 12);
+        const revenuMoyen = r.netFinal + primesLissees;
+        return \`<div style="background:#111;border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:16px;margin-top:12px">
+          <div style="font-size:0.7rem;font-weight:700;color:#c8b8ff;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:12px">📊 Récapitulatif financier complet</div>
+
+          <div style="font-size:0.72rem;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:0.3px;margin-bottom:6px">Mensuel récurrent (net après IR)</div>
+          <div style="display:flex;justify-content:space-between;font-size:0.9rem;font-weight:700;margin-bottom:12px">
+            <span style="color:#fff">Net après tout</span>
+            <span style="color:#7ac890">\${fmt(r.netFinal)}/mois</span>
+          </div>
+
+          <div style="font-size:0.72rem;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:0.3px;margin-bottom:6px">Primes non récurrentes (exonérées IR)</div>
+          \${primesNonRec.map(p => \`<div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:3px 0;border-bottom:1px solid rgba(255,255,255,0.05)">
+            <span style="color:rgba(255,255,255,0.5)">\${p.label} <span style="color:rgba(255,255,255,0.25);font-size:0.68rem">(\${p.duree})</span></span>
+            <span style="color:#f0c060">\${fmt(p.montant)} total → +\${fmt(p.montant/(duree*12))}/mois lissé</span>
+          </div>\`).join('')}
+          <div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:4px 0;border-top:1px solid rgba(255,255,255,0.1);margin-top:4px">
+            <span style="color:rgba(255,255,255,0.5)">Total primes lissées sur \${duree} ans</span>
+            <span style="color:#f0c060">+\${fmt(primesLissees)}/mois</span>
+          </div>
+
+          <div style="border-top:1px solid rgba(200,134,42,0.3);margin-top:10px;padding-top:10px">
+            <div style="font-size:0.72rem;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:0.3px;margin-bottom:6px">Revenu moyen sur \${duree} ans (primes incluses)</div>
+            <div style="display:flex;justify-content:space-between;font-size:1rem;font-weight:700;font-family:Cormorant Garamond,serif">
+              <span style="color:#fff">Revenu moyen mensuel</span>
+              <span style="color:var(--or-clair)">\${fmt(revenuMoyen)}/mois</span>
+            </div>
+          </div>
+
+          <div style="border-top:1px solid rgba(255,255,255,0.08);margin-top:10px;padding-top:10px">
+            <div style="font-size:0.72rem;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:0.3px;margin-bottom:6px">Après \${duree} ans (primes épuisées)</div>
+            <div style="display:flex;justify-content:space-between;font-size:0.88rem;font-weight:700">
+              <span style="color:rgba(255,255,255,0.7)">Net mensuel récurrent uniquement</span>
+              <span style="color:#7ac890">\${fmt(r.netFinal)}/mois</span>
+            </div>
+          </div>
+        </div>\`;
+      })() : ''}
+    </div>\`;
 }
 
 
@@ -845,7 +887,11 @@ function renderDOMCOM() {
           <div style="font-size:0.82rem;color:#5a1a9a;font-weight:700">${t.conge_bonifie.jours} jours supplémentaires ${t.conge_bonifie.frequence}</div>
           <div style="font-size:0.72rem;color:#7a3ab0;margin-top:2px">+ Billet d avion pris en charge + Majoration de traitement ${t.conge_bonifie.majoration_pendant_conge_pct}% pendant la durée du congé</div>
         </div>
-        ${renderFiscal(total, k, situation_dc, nbHsa_dc, tauxHsa, nbHse_dc, tauxHseUnitaireDC)}
+        ${renderFiscal(total, k, situation_dc, nbHsa_dc, tauxHsa, nbHse_dc, tauxHseUnitaireDC, [
+          ...(t.prime_installation ? [{label: 'Prime d installation', montant: t.prime_installation.montant_mois_traitement * brut, duree: t.prime_installation.detail}] : []),
+          ...(t.isg?.eligible ? [{label: 'ISG', montant: (t.isg.montant_mois_traitement_communes_cotieres || t.isg.montant_mois_traitement || 0) * brut, duree: t.isg.detail}] : []),
+          ...(t.conge_bonifie ? [{label: 'Congé bonifié (billet avion)', montant: brut * 0.5, duree: 'tous les 3 ans — estimation billet'}] : [])
+        ])}
       </div>` : `<div style="padding:16px 18px;font-size:0.85rem;color:var(--gris-moyen)">Sélectionnez votre corps et échelon ci-dessus pour voir les montants calculés.</div>`}
     </div>`;
   }
@@ -941,7 +987,11 @@ function renderDOMCOM() {
           <div style="font-size:0.82rem;color:#1a3fa0">${t.billet_avion.detail}</div>
           ${t.billet_avion.droit_bagages_kg ? `<div style="font-size:0.72rem;color:#2a5ab0;margin-top:2px">Excédent bagages : ${t.billet_avion.droit_bagages_kg} kg / personne pris en charge</div>` : ''}
         </div>` : ''}
-        ${renderFiscal(t.zones[0] ? (brut * 1.03 * t.zones[0].coefficient + isoeValCom + grenelleCom) : 0, k, situation_dc, nbHsa_dc, tauxHsa, nbHse_dc, tauxHseUnitaireDC)}
+        ${renderFiscal(t.zones[0] ? (brut * 1.03 * t.zones[0].coefficient + isoeValCom + grenelleCom) : 0, k, situation_dc, nbHsa_dc, tauxHsa, nbHse_dc, tauxHseUnitaireDC, [
+          ...(t.indem_eloignement ? [{label: 'Indemnité d éloignement', montant: t.indem_eloignement.montant_mois_traitement * brut, duree: t.indem_eloignement.detail}] : []),
+          ...(t.isg?.eligible ? [{label: 'ISG', montant: (t.isg.montant_mois_traitement || 0) * brut, duree: t.isg.detail}] : []),
+          ...(t.prime_installation ? [{label: 'Prime d installation', montant: t.prime_installation.montant_mois_traitement * brut, duree: t.prime_installation.detail}] : [])
+        ])}
       </div>` : ''}
     </div>`;
   }
