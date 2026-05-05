@@ -273,7 +273,7 @@ const CORPS_GROUPE = {
   "igr":                   () => 'G3'
 };
 
-let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0, situation_dc:'celibataire', nbHsa_dc:0, nbHse_dc:0, rep_dc:0, rep_fr:0, primes_fr:[] };
+let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0, situation_dc:'celibataire', nbHsa_dc:0, nbHse_dc:0, rep_dc:0, rep_fr:0, primes_fr:[], situation_fr:'celibataire' };
 
 function setSituation(s) {
   situation = s;
@@ -449,6 +449,22 @@ function render() {
         <div class="help">L indemnité de résidence est proportionnelle au traitement brut. Elle disparaît à l étranger (remplacée par ISVL ou IGFS).</div>
       </div>
       <div class="sep"></div>
+      <div class="sec-label">Situation familiale (pour le calcul de l IR)</div>
+      <div class="form-group">
+        <label>Situation</label>
+        <select id="sel-situation-fr" onchange="E.situation_fr=this.value;calculer()">
+          <option value="celibataire"${E.situation_fr==='celibataire'?' selected':''}>Célibataire (1 part)</option>
+          <option value="marie_sans_enfant"${E.situation_fr==='marie_sans_enfant'?' selected':''}>Marié·e sans enfant (2 parts)</option>
+          <option value="marie_1_enfant"${E.situation_fr==='marie_1_enfant'?' selected':''}>Marié·e + 1 enfant (2,5 parts)</option>
+          <option value="marie_2_enfants"${E.situation_fr==='marie_2_enfants'?' selected':''}>Marié·e + 2 enfants (3 parts)</option>
+          <option value="marie_3_enfants"${E.situation_fr==='marie_3_enfants'?' selected':''}>Marié·e + 3 enfants (4 parts)</option>
+          <option value="celibataire_1_enfant"${E.situation_fr==='celibataire_1_enfant'?' selected':''}>Célibataire + 1 enfant (1,5 part)</option>
+          <option value="celibataire_2_enfants"${E.situation_fr==='celibataire_2_enfants'?' selected':''}>Célibataire + 2 enfants (2 parts)</option>
+          <option value="celibataire_3_enfants"${E.situation_fr==='celibataire_3_enfants'?' selected':''}>Célibataire + 3 enfants (3 parts)</option>
+        </select>
+        <div class="help">Le quotient familial divise votre revenu imposable par le nombre de parts pour calculer l IR. Plus vous avez de parts, moins vous payez d impôt.</div>
+      </div>
+      <div class="sep"></div>
       <div class="sec-label">Missions et fonctions (optionnel)</div>
       <div class="form-group">
         <div class="help" style="margin-bottom:8px">Cochez les missions exercées pour les ajouter au calcul. Montants bruts annuels 2026.</div>
@@ -469,6 +485,7 @@ function render() {
         <div class="net-note">Estimation : total brut × 79% Hors IR, hors suppléments familiaux, hors avantages en nature</div>
       </div>
       <div class="alerte" id="result-alertes"></div>
+      <div id="fiscal-france-section"></div>
       <div class="info">
         📅 Données au 1er janvier 2026. Point d indice : ${PARAMS?.point_indice_mensuel}€/mois.
         ISVL : arrêté oct. 2025. IGFS : arrêté mars 2026 (en vigueur avril 2026).
@@ -1209,6 +1226,137 @@ function fmtD(n) {
   return new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:2}).format(n);
 }
 
+function calcFiscalFrance(brutTotal, situation, nbHsa, tauxHsaMensuel) {
+  const parts = {
+    celibataire:1, marie_sans_enfant:2, marie_1_enfant:2.5,
+    marie_2_enfants:3, marie_3_enfants:4, celibataire_1_enfant:1.5,
+    celibataire_2_enfants:2, celibataire_3_enfants:3
+  }[situation] || 1;
+
+  const partLabel = {
+    celibataire:'1 part — célibataire sans enfant',
+    marie_sans_enfant:'2 parts — couple sans enfant (chaque conjoint compte pour 1 part)',
+    marie_1_enfant:'2,5 parts — couple + 1 enfant (les 2 premiers enfants valent 0,5 part chacun)',
+    marie_2_enfants:'3 parts — couple + 2 enfants',
+    marie_3_enfants:'4 parts — couple + 3 enfants (le 3e enfant vaut 1 part entière)',
+    celibataire_1_enfant:'1,5 part — parent isolé + 1 enfant',
+    celibataire_2_enfants:'2 parts — parent isolé + 2 enfants',
+    celibataire_3_enfants:'3 parts — parent isolé + 3 enfants'
+  }[situation] || '';
+
+  // Cotisations fonctionnaire
+  const cots = FISCAL.cotisations_fonctionnaire_etat;
+  let totalCot = 0, csgDed = 0;
+  const lignesCot = [];
+  for (const [key, c] of Object.entries(cots)) {
+    if (key.startsWith('_')) continue;
+    const assiette = c.assiette_pct ? brutTotal * c.assiette_pct / 100 : brutTotal;
+    const montant = assiette * c.taux / 100;
+    totalCot += montant;
+    if (c.deductible_ir) csgDed += montant;
+    lignesCot.push({label:c.label, taux:c.taux, montant, deductible:c.deductible_ir});
+  }
+  const netAvantIR = brutTotal - totalCot;
+
+  // HSA
+  const hsaBrutAnnuel = nbHsa > 0 ? tauxHsaMensuel * 12 : 0;
+  const hsaNetAnnuel = hsaBrutAnnuel * FISCAL.hsa_hse.coefficient_brut_vers_net;
+  const hsaExonere = Math.min(hsaNetAnnuel, 7500);
+  const hsaImposable = Math.max(0, hsaNetAnnuel - hsaExonere);
+
+  // Base imposable
+  const revenuBrutAnnuel = (brutTotal * 12) + hsaBrutAnnuel;
+  const revenuNetImposable = (revenuBrutAnnuel - (csgDed * 12)) + hsaImposable;
+  const abattementFP = Math.min(revenuNetImposable * 0.10, 14171);
+  const revenuImposable = Math.max(0, revenuNetImposable - abattementFP);
+  const quotient = revenuImposable / parts;
+
+  // IR progressif
+  let irSurQuotient = 0;
+  const tranchesDetail = [];
+  for (const t of FISCAL.bareme_ir_france_2026.tranches) {
+    if (quotient <= t.min) {
+      tranchesDetail.push({...t, imposable:0, impot:0});
+      continue;
+    }
+    const trancheMax = t.max || Infinity;
+    const imposable = Math.min(quotient, trancheMax) - t.min;
+    const impot = imposable > 0 ? imposable * t.taux / 100 : 0;
+    irSurQuotient += impot;
+    tranchesDetail.push({...t, imposable, impot});
+  }
+  const irAnnuel = irSurQuotient * parts;
+  const irMensuel = irAnnuel / 12;
+  const netFinal = netAvantIR + (hsaBrutAnnuel/12) - irMensuel;
+
+  let html = '<div style="margin-top:12px">';
+
+  // Section cotisations
+  html += '<div style="font-size:0.7rem;font-weight:700;color:#c02020;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:8px">💸 Cotisations salariales</div>';
+  html += '<div style="background:#0e1310;border-radius:8px;padding:12px 14px;margin-bottom:10px">';
+  lignesCot.forEach(c => {
+    html += '<div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.05)">'
+      + '<span style="color:rgba(255,255,255,0.5)">' + c.label + ' (' + c.taux + '%' + (c.deductible ? ' déductible IR' : '') + ')</span>'
+      + '<span style="color:#f08080">-' + fmt(c.montant) + '/mois</span></div>';
+  });
+  html += '<div style="display:flex;justify-content:space-between;font-size:0.82rem;font-weight:700;padding:8px 0 0;border-top:1px solid rgba(255,255,255,0.1);margin-top:4px">'
+    + '<span style="color:rgba(255,255,255,0.7)">Total cotisations</span>'
+    + '<span style="color:#f08080">-' + fmt(totalCot) + '/mois</span></div>';
+  html += '<div style="display:flex;justify-content:space-between;font-size:0.88rem;font-weight:700;padding:6px 0 0">'
+    + '<span style="color:#fff">Net avant IR</span>'
+    + '<span style="color:var(--or-clair)">' + fmt(netAvantIR) + '/mois</span></div>';
+  html += '</div>';
+
+  // Section IR avec pédagogie quotient familial
+  html += '<div style="font-size:0.7rem;font-weight:700;color:var(--bleu);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:8px">🧾 Impôt sur le revenu — Barème progressif 2026</div>';
+  html += '<div style="background:#0a0e1a;border-radius:8px;padding:12px 14px;margin-bottom:10px;font-size:0.78rem">';
+  html += '<div style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid rgba(255,255,255,0.06)">'
+    + '<span style="color:rgba(255,255,255,0.5)">Revenu net imposable annuel</span>'
+    + '<span style="color:rgba(255,255,255,0.7)">' + fmt(revenuImposable) + '/an</span></div>';
+
+  // Explication pédagogique du quotient familial
+  html += '<div style="background:rgba(65,105,225,0.1);border-left:2px solid var(--bleu-clair);border-radius:0 6px 6px 0;padding:8px 10px;margin:8px 0">';
+  html += '<div style="font-size:0.72rem;font-weight:700;color:var(--bleu-clair);margin-bottom:4px">📐 Comment fonctionne le quotient familial ?</div>';
+  html += '<div style="font-size:0.72rem;color:rgba(255,255,255,0.5);line-height:1.5">';
+  html += 'L IR est calculé sur votre revenu <strong style="color:rgba(255,255,255,0.7)">divisé par ' + parts + ' part' + (parts > 1 ? 's' : '') + '</strong> (' + partLabel + ').<br>';
+  html += 'On calcule l impôt sur ce quotient, puis on <strong style="color:rgba(255,255,255,0.7)">multiplie par ' + parts + '</strong> pour obtenir l IR final.<br>';
+  html += '<strong style="color:#7ac890">Effet concret :</strong> plus de parts = quotient plus bas = tranche inférieure atteinte = moins d IR.';
+  html += '</div></div>';
+
+  html += '<div style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid rgba(255,255,255,0.06)">'
+    + '<span style="color:rgba(255,255,255,0.5)">÷ ' + parts + ' parts = quotient soumis au barème</span>'
+    + '<span style="color:rgba(255,255,255,0.7)">' + fmt(quotient) + '/an/part</span></div>';
+  html += '<div style="font-size:0.7rem;color:rgba(255,255,255,0.3);margin:6px 0 4px;text-transform:uppercase;letter-spacing:0.4px">Barème progressif par tranche</div>';
+
+  tranchesDetail.forEach(t => {
+    const color = t.imposable > 0 ? 'rgba(255,255,255,0.55)' : 'rgba(255,255,255,0.2)';
+    const valColor = t.impot > 0 ? '#f0a060' : 'rgba(255,255,255,0.2)';
+    const label = t.taux === 0 ? '→ exonéré (sous le seuil d imposition)' : t.imposable > 0 ? '→ ' + fmt(t.imposable) + '/part imposable' : '→ non atteinte';
+    html += '<div style="display:flex;justify-content:space-between;padding:2px 0;font-size:0.75rem">'
+      + '<span style="color:' + color + '">Tranche ' + t.taux + '% : ' + fmt(t.min) + ' à ' + (t.max ? fmt(t.max) : '∞') + ' ' + label + '</span>'
+      + '<span style="color:' + valColor + '">' + (t.impot > 0 ? fmt(t.impot * parts) + '/an' : '0€') + '</span></div>';
+  });
+
+  html += '<div style="display:flex;justify-content:space-between;font-size:0.88rem;font-weight:700;padding:6px 0 0;border-top:1px solid rgba(255,255,255,0.12);margin-top:4px">'
+    + '<span style="color:rgba(255,255,255,0.8)">IR mensuel estimé</span>'
+    + '<span style="color:#f08080">' + (irMensuel > 0 ? '-' + fmt(irMensuel) : '0€') + '/mois</span></div>';
+  html += '</div>';
+
+  // Net final
+  html += '<div style="background:linear-gradient(135deg,#1a3a28,#0e2018);border-radius:10px;padding:14px 16px">';
+  html += '<div style="font-size:0.72rem;font-weight:700;color:#7ac890;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:8px">NET FINAL ESTIMÉ</div>';
+  html += '<div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)"><span>Net avant IR</span><span>' + fmt(netAvantIR) + '/mois</span></div>';
+  if (hsaBrutAnnuel > 0) {
+    html += '<div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)"><span>HSA/HSE nettes</span><span style="color:#7ac890">+' + fmt(hsaBrutAnnuel/12) + '/mois</span></div>';
+  }
+  html += '<div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)"><span>IR estimé</span><span style="color:#f08080">-' + fmt(irMensuel) + '/mois</span></div>';
+  html += '<div style="display:flex;justify-content:space-between;font-size:1.1rem;font-weight:700;font-family:Cormorant Garamond,serif;padding:8px 0 0;border-top:1px solid rgba(122,200,144,0.3);margin-top:6px">'
+    + '<span style="color:#fff">Net après tout</span><span style="color:#7ac890">' + fmt(netFinal) + '/mois</span></div>';
+  html += '<div style="color:rgba(255,255,255,0.3);font-size:0.68rem;margin-top:6px;line-height:1.4">Estimation avant IR définitif — hors suppléments familiaux, hors avantages en nature. IR calculé sur revenus d activité uniquement.</div>';
+  html += '</div></div>';
+  return html;
+}
+
 function calculer() {
   const im = getIM();
   if (!im) return;
@@ -1428,6 +1576,20 @@ function calculer() {
   document.getElementById('result-alertes').innerHTML = alertes.map(a => `<div style="margin-bottom:6px">${a}</div>`).join('') || '';
   if (!alertes.length) document.getElementById('result-alertes').style.display = 'none';
   else document.getElementById('result-alertes').style.display = 'block';
+
+  // Simulateur fiscal France
+  const fiscalSection = document.getElementById('fiscal-france-section');
+  if (fiscalSection && situation === 'france') {
+    const rFiscal = calcFiscal(brutFrance, 'guadeloupe', E.situation_fr, E.hsa > 0 ? 1 : 0, hsaMensuel, 0, 0);
+    // On réutilise guadeloupe comme proxy France métropole (mêmes cotisations, IR sans réduction DOM)
+    if (rFiscal) {
+      // Recalculer sans réduction DOM
+      const rFrance = calcFiscalFrance(brutFrance, E.situation_fr, E.hsa, hsaMensuel);
+      fiscalSection.innerHTML = rFrance;
+    }
+  } else if (fiscalSection) {
+    fiscalSection.innerHTML = '';
+  }
 }
 
 init();
