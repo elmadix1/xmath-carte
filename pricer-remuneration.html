@@ -653,7 +653,7 @@ function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, n
             <span style="color:rgba(255,255,255,0.7)">${fmt(r.revenuImposable/12)}/mois</span>
           </div>
           <div style="display:flex;justify-content:space-between;padding:3px 0">
-            <span style="color:rgba(255,255,255,0.5)">Quotient familial (${r.parts} parts)</span>
+            <span style="color:rgba(255,255,255,0.5)">÷ ${r.parts} parts → quotient : ${fmt(r.revenuImposable/r.parts)}/an soumis au barème</span>
             <span style="color:rgba(255,255,255,0.7)">${fmt(r.revenuImposable/r.parts/12)}/mois</span>
           </div>
           ${r.irDetail ? `<div style="color:#f0c060;font-size:0.72rem;padding:3px 0">${r.irDetail}</div>` : ''}
