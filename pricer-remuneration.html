@@ -536,17 +536,24 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
     const quotient = revenuImposable / parts;
     let irSurQuotient = 0;
     const tranches = FISCAL.bareme_ir_france_2026.tranches;
+    const tranchesDetail = [];
     for (const t of tranches) {
-      if (quotient <= t.min) break;
+      if (quotient <= t.min) {
+        tranchesDetail.push({ min: t.min, max: t.max, taux: t.taux, imposable: 0, impot: 0 });
+        continue;
+      }
       const trancheMax = t.max || Infinity;
       const imposable = Math.min(quotient, trancheMax) - t.min;
-      if (imposable > 0) irSurQuotient += imposable * t.taux / 100;
+      const impot = imposable > 0 ? imposable * t.taux / 100 : 0;
+      irSurQuotient += impot;
+      tranchesDetail.push({ min: t.min, max: t.max, taux: t.taux, imposable, impot });
     }
     irAnnuel = irSurQuotient * parts;
+    let reductionDOM = 0;
     if (T.ir.type === 'france_avec_reduction') {
-      const reduction = irAnnuel * T.ir.reduction_pct / 100;
-      irDetail = `Réduction DOM ${T.ir.reduction_pct}% : -${fmt(reduction/12)}/mois`;
-      irAnnuel = irAnnuel - reduction;
+      reductionDOM = irAnnuel * T.ir.reduction_pct / 100;
+      irDetail = `Réduction DOM ${T.ir.reduction_pct}% : -${fmt(reductionDOM/12)}/mois`;
+      irAnnuel = irAnnuel - reductionDOM;
     }
   }
   else if (T.ir.type === 'local_cst' || T.ir.type === 'local_icr') {
@@ -568,12 +575,15 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
   const netFinal = netAvantIR + hsaNetMensuel - irMensuel;
 
   const hsaPurNetMensuel = hsaPurBrutAnnuel / 12;
+  const tranchesDetailFinal = typeof tranchesDetail !== 'undefined' ? tranchesDetail : [];
+  const reductionDOMFinal = typeof reductionDOM !== 'undefined' ? reductionDOM : 0;
   const hseNetMensuel = hseBrutAnnuel / 12;
   return {
     lignesCot, totalCot, netAvantIR,
     hsaBrutAnnuel, hsaNetAnnuel, hsaExonere, hsaImposable, hsaNetMensuel,
     hsaPurNetMensuel, hseNetMensuel, hsePurBrutAnnuel: hseBrutAnnuel,
     revenuImposable, parts, irAnnuel, irMensuel, irDetail,
+    tranchesDetail: tranchesDetailFinal, reductionDOM: reductionDOMFinal,
     netFinal, monnaie: T.monnaie, XPF,
     irType: T.ir.type, irLabel: T.ir.label || ''
   };
@@ -648,18 +658,36 @@ function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, n
           <div style="color:#7ac890;font-weight:600">${r.irLabel} ✓</div>
           <div style="color:rgba(255,255,255,0.4);font-size:0.72rem;margin-top:4px">Aucun impôt sur le revenu dans ce territoire</div>
         ` : `
-          <div style="display:flex;justify-content:space-between;padding:3px 0">
-            <span style="color:rgba(255,255,255,0.5)">Revenu net imposable annuel</span>
-            <span style="color:rgba(255,255,255,0.7)">${fmt(r.revenuImposable/12)}/mois</span>
+          <div style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
+            <span style="color:rgba(255,255,255,0.5)">Revenu net imposable</span>
+            <span style="color:rgba(255,255,255,0.7)">${fmt(r.revenuImposable)}/an</span>
           </div>
-          <div style="display:flex;justify-content:space-between;padding:3px 0">
-            <span style="color:rgba(255,255,255,0.5)">÷ ${r.parts} parts → quotient : ${fmt(r.revenuImposable/r.parts)}/an soumis au barème</span>
-            <span style="color:rgba(255,255,255,0.7)">${fmt(r.revenuImposable/r.parts/12)}/mois</span>
+          <div style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid rgba(255,255,255,0.06)">
+            <span style="color:rgba(255,255,255,0.5)">÷ ${r.parts} parts fiscales = quotient</span>
+            <span style="color:rgba(255,255,255,0.7)">${fmt(r.revenuImposable/r.parts)}/an/part</span>
           </div>
-          ${r.irDetail ? `<div style="color:#f0c060;font-size:0.72rem;padding:3px 0">${r.irDetail}</div>` : ''}
-          <div style="display:flex;justify-content:space-between;font-size:0.82rem;font-weight:700;padding:6px 0 0;border-top:1px solid rgba(255,255,255,0.08);margin-top:4px">
-            <span style="color:rgba(255,255,255,0.7)">IR mensuel estimé</span>
-            <span style="color:#f08080">-${fmt(r.irMensuel)}/mois</span>
+          <div style="font-size:0.7rem;color:rgba(255,255,255,0.3);margin:6px 0 4px;text-transform:uppercase;letter-spacing:0.4px">Barème progressif par tranche</div>
+          ${r.tranchesDetail.map(t => `
+          <div style="display:flex;justify-content:space-between;padding:2px 0;font-size:0.75rem">
+            <span style="color:${t.imposable > 0 ? 'rgba(255,255,255,0.55)' : 'rgba(255,255,255,0.2)'}">
+              Tranche ${t.taux}% : ${fmt(t.min)} à ${t.max ? fmt(t.max) : '∞'}
+              ${t.imposable > 0 ? ` → ${fmt(t.imposable)}/part imposable` : ' → non atteinte'}
+            </span>
+            <span style="color:${t.impot > 0 ? '#f0a060' : 'rgba(255,255,255,0.2)'}">
+              ${t.impot > 0 ? fmt(t.impot * r.parts) + '/an' : '0€'}
+            </span>
+          </div>`).join('')}
+          <div style="display:flex;justify-content:space-between;padding:4px 0;border-top:1px solid rgba(255,255,255,0.08);margin-top:4px;font-size:0.78rem">
+            <span style="color:rgba(255,255,255,0.5)">IR brut (avant réduction)</span>
+            <span style="color:rgba(255,255,255,0.6)">${fmt((r.irAnnuel + r.reductionDOM)/12)}/mois</span>
+          </div>
+          ${r.reductionDOM > 0 ? `<div style="display:flex;justify-content:space-between;padding:2px 0;font-size:0.78rem">
+            <span style="color:#f0c060">Réduction DOM ${r.irDetail.match(/\d+%/)?.[0] || ''}</span>
+            <span style="color:#f0c060">-${fmt(r.reductionDOM/12)}/mois</span>
+          </div>` : ''}
+          <div style="display:flex;justify-content:space-between;font-size:0.88rem;font-weight:700;padding:6px 0 0;border-top:1px solid rgba(255,255,255,0.12);margin-top:4px">
+            <span style="color:rgba(255,255,255,0.8)">IR mensuel estimé</span>
+            <span style="color:#f08080">${r.irMensuel > 0 ? '-' + fmt(r.irMensuel) : '0€'}/mois</span>
           </div>
           ${r.monnaie === 'XPF' ? `<div style="color:rgba(255,255,255,0.3);font-size:0.7rem;margin-top:2px">soit ${fmtXPF(r.irAnnuel)}/an</div>` : ''}
         `}
