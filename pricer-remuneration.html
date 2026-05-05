@@ -982,6 +982,7 @@ function renderDOMCOM() {
             <option value="5">5 HSA</option>
           </select>
         </div>
+      ${brut > 0 ? `<div style="margin-top:12px;font-size:0.82rem;color:var(--gris-moyen)">Traitement brut de base : <strong style="color:var(--noir)">${fmt(brut)}/mois</strong> (IM ${im} × ${PARAMS.point_indice_mensuel}€)
         ${isoeVal ? ` · ISOE/ISAE : <strong style="color:var(--noir)">${fmt(isoeVal)}/mois</strong>` : ''}
       </div>` : ''}
     </div>
