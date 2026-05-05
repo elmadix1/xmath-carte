@@ -699,7 +699,7 @@ function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, n
           <div style="display:flex;justify-content:space-between;padding:2px 0;font-size:0.75rem">
             <span style="color:${t.imposable > 0 ? 'rgba(255,255,255,0.55)' : 'rgba(255,255,255,0.2)'}">
               Tranche ${t.taux}% : ${fmt(t.min)} à ${t.max ? fmt(t.max) : '∞'}
-              ${t.imposable > 0 ? ` → ${fmt(t.imposable)}/part imposable` : ' → non atteinte'}
+              ${t.taux === 0 ? ' → exonéré' : t.imposable > 0 ? ` → ${fmt(t.imposable)}/part imposable` : ' → non atteinte'}
             </span>
             <span style="color:${t.impot > 0 ? '#f0a060' : 'rgba(255,255,255,0.2)'}">
               ${t.impot > 0 ? fmt(t.impot * r.parts) + '/an' : '0€'}
