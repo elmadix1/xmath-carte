@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-04 18:22",
-  "total": 649,
+  "updated": "2026-05-05 07:23",
+  "total": 634,
   "offers": [
     {
       "id": 4365513,
@@ -1609,28 +1609,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4337617-professeur-lettres-modernes-fh-etablissement-liberte-bamako-mali-bamako"
     },
     {
-      "id": 4337183,
-      "titre": "ASEM - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Aide maternelle F/H",
-      "date": "17/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4337183-asem-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4337133,
-      "titre": "Assistant d’Education - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "17/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4337133-assistant-d-education-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
       "id": 4334959,
       "titre": "Professeur du Second Degré - Musique - F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
@@ -1904,116 +1882,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "15/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4332531-professeur-des-ecoles-en-maternelle-fh-lycee-franco-libanais-dubai-eau-dubai"
-    },
-    {
-      "id": 4332017,
-      "titre": "Référent du Pôle EBEP - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4332017-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331925,
-      "titre": "Enseignant FLSco - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331925-enseignant-flsco-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331837,
-      "titre": "Professeurs des écoles - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331837-professeurs-des-ecoles-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331817,
-      "titre": "Professeurs des écoles remplaçants -Lycée Guebre-Mariam- ADDIS-ABEBA- ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331817-professeurs-des-ecoles-remplacants-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331697,
-      "titre": "Professeur Lettres/ H-G - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331697-professeur-lettres-h-g-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331647,
-      "titre": "Professeur d'H-G - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331647-professeur-dh-g-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331631,
-      "titre": "Professeurs de Lettres modernes - F/H -Lycée Guebre-Mariam-ADDIS-ABEBA- ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331631-professeurs-de-lettres-modernes-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331579,
-      "titre": "Professeur de Mathématiques - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331579-professeur-de-mathematiques-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331567,
-      "titre": "Professeur de SVT - collège/lycée - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331567-professeur-de-svt-collegelycee-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331503,
-      "titre": "Professeur d'EPS - collège/lycée - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331503-professeur-deps-collegelycee-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4331493,
@@ -4777,28 +4645,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4270945-conseiller-principal-deducation-fh-lfi-victor-hugo-djerba-tunisie-4180-houmt-souk"
     },
     {
-      "id": 4269531,
-      "titre": "Adjoint d'Éducation au service restauration - F/H - MADRID - ESPAGNE",
-      "etab": "",
-      "ville": "Madrid",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "11/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4269531-adjoint-deducation-au-service-restauration-fh-madrid-espagne-28043-madrid"
-    },
-    {
-      "id": 4269499,
-      "titre": "Adjoint d'Éducation au secondaire - F/H - MADRID - ESPAGNE",
-      "etab": "",
-      "ville": "Madrid",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "11/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4269499-adjoint-deducation-au-secondaire-fh-madrid-espagne-28043-madrid"
-    },
-    {
       "id": 4269107,
       "titre": "Professeur du Second Degré - Lettres Modernes - F/H - LE CAIRE - ÉGYPTE",
       "etab": "",
@@ -4885,17 +4731,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "10/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4266163-professeur-des-ecoles-rentree-2026-fh-sofia-bulgarie-1700-%D1%81%D0%BE%D1%84%D0%B8%D1%8F"
-    },
-    {
-      "id": 4266023,
-      "titre": "Assistant d'éducation - F/H - PHNOM PENH - CAMBODGE",
-      "etab": "",
-      "ville": "Phnom Penh",
-      "pays": "Cambodge",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4266023-assistant-deducation-fh-phnom-penh-cambodge-phnom-penh"
     },
     {
       "id": 4264539,
@@ -5411,7 +5246,7 @@
       "pays": "Philippines",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "",
+      "date": "09/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4218125-professeur-des-ecoles-fh-manille-philippines-paranaque"
     },
     {
