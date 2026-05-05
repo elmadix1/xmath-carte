@@ -1156,17 +1156,28 @@ function renderMLF() {
 }
 
 function renderMissionsFrance() {
+  const IR_TAG = ' — Imposable IR (prélèvement à la source)';
+  const IR_EXO = ' — Exonéré IR';
   const missions = [
-    {id:'pp',          label:'Professeur principal',              montant:134, detail:'+1 609€/an — selon niveau collège/lycée'},
-    {id:'pacte1',      label:'Pacte enseignant (1 mission)',       montant:104, detail:'+1 250€/an par mission volontaire'},
-    {id:'pacte2',      label:'Pacte enseignant (2 missions)',      montant:208, detail:'+2 500€/an'},
-    {id:'pacte3',      label:'Pacte enseignant (3 missions)',      montant:312, detail:'+3 750€/an'},
-    {id:'tuteur',      label:'Tuteur de stagiaire',                montant:104, detail:'+1 250€/an'},
-    {id:'cpge',        label:'CPGE',                               montant:93,  detail:'+1 118€/an (4h min. devant même groupe)'},
-    {id:'plethorique', label:'Effectifs pléthoriques >35 élèves', montant:104, detail:'+1 250€/an (6h min.)'},
-    {id:'voiepro',     label:'Voie pro 1ère/Term/CAP',             montant:33,  detail:'+400€/an (PLP/PEPS, 6h min.)'},
-    {id:'cappei',      label:'CAPPEI (éducation inclusive)',        montant:70,  detail:'+844€/an (dispositif ULIS/RASED)'},
-    {id:'informatique',label:'Prime équipement informatique',      montant:15,  detail:'+176€/an — versée automatiquement'},
+    {id:'pp',          label:'Professeur principal',                    montant:134, detail:'+1 609€/an · Part modulable ISOE · Décret 93-55 modifié' + IR_TAG},
+    {id:'prof_referent',label:'Professeur référent de groupe',          montant:109, detail:'+1 308€/an · Part modulable ISOE · Décret 93-55 modifié' + IR_TAG},
+    {id:'pacte1',      label:'Pacte enseignant (1 mission)',             montant:104, detail:'+1 250€/an · Part fonctionnelle ISOE · Décret 2023-777' + IR_TAG},
+    {id:'pacte2',      label:'Pacte enseignant (2 missions)',            montant:208, detail:'+2 500€/an · Décret 2023-777' + IR_TAG},
+    {id:'pacte3',      label:'Pacte enseignant (3 missions)',            montant:312, detail:'+3 750€/an · Décret 2023-777' + IR_TAG},
+    {id:'tuteur',      label:'Tuteur stagiaire concours',                montant:104, detail:'+1 250€/an · Arrêté du 12/12/2008' + IR_TAG},
+    {id:'tuteur_m1',   label:'Tuteur SOPA — M1 (par étudiant)',          montant:13,  detail:'+150€/étudiant · Stage observation M1 · Arrêté MEN 2013' + IR_TAG},
+    {id:'tuteur_m2',   label:'Tuteur SOPA — M2 (par étudiant)',          montant:25,  detail:'+300€/étudiant · Stage pratique M2 · Arrêté MEN 2013' + IR_TAG},
+    {id:'tuteur_meef', label:'Tuteur MEEF alternant (par alternant)',    montant:67,  detail:'+800€/alternant · Master MEEF · Arrêté MEN 2020' + IR_TAG},
+    {id:'cpge',        label:'CPGE',                                     montant:93,  detail:'+1 118€/an · 4h min. devant même groupe · Décret 93-55' + IR_TAG},
+    {id:'plethorique', label:'Effectifs pléthoriques (>35 élèves)',      montant:104, detail:'+1 250€/an · 6h min. hebdo · Décret 93-55 art.5' + IR_TAG},
+    {id:'voiepro',     label:'Voie pro 1ère/Term/CAP (ISS)',             montant:33,  detail:'+400€/an · PLP/PEPS · 6h min. hebdo · Décret 93-55' + IR_TAG},
+    {id:'segpa',       label:'SEGPA / EREA / ULIS collège-lycée',        montant:147, detail:'+1 765€/an · PE uniquement · Décret 89-826 modifié · Art. L351-1 code éducation' + IR_TAG},
+    {id:'penitentiaire',label:'Enseignement en milieu pénitentiaire',    montant:344, detail:'+4 130€/an · Arrêté MENH2319367A du 28/07/2023' + IR_TAG},
+    {id:'cappei',      label:'CAPPEI (éducation inclusive)',              montant:70,  detail:'+844€/an · ULIS/RASED · Décret 2017-169 · 1er degré uniquement' + IR_TAG},
+    {id:'documentaliste',label:'ISP Professeur documentaliste',          montant:213, detail:'+2 550€/an · Indemnité de sujétion particulière · Arrêté du 24/08/1994 modifié' + IR_TAG},
+    {id:'ddfpt',       label:'DDFPT (directeur délégué formations pro)', montant:690, detail:'+8 280€/an minimum · NBI incluse · Selon effectifs · Décret 93-55' + IR_TAG},
+    {id:'informatique',label:'Prime équipement informatique',            montant:15,  detail:'+176€/an · Versée automatiquement · Décret 2020-1524 du 05/12/2020' + IR_TAG},
+    {id:'hsa',         label:'HSA (exonération IR jusqu à 7 500€/an)',   montant:0,   detail:'Exonérées de cotisations sociales ET d IR jusqu à 7 500€ nets/an · Au-delà : imposable PAS · Décret 2010-997' + IR_EXO + ' (dans la limite)'},
   ];
   return missions.map(p => {
     const checked = E.primes_fr.includes(p.id) ? 'checked' : '';
@@ -1425,7 +1436,7 @@ function calculer() {
 
   // 7. Primes missions France
   const primesMissionsTotal = E.primes_fr.reduce((s, id) => {
-    const map = {pp:134,pacte1:104,pacte2:208,pacte3:312,tuteur:104,cpge:93,plethorique:104,voiepro:33,cappei:70,informatique:15};
+    const map = {pp:134,prof_referent:109,pacte1:104,pacte2:208,pacte3:312,tuteur:104,tuteur_m1:13,tuteur_m2:25,tuteur_meef:67,cpge:93,plethorique:104,voiepro:33,segpa:147,penitentiaire:344,cappei:70,documentaliste:213,ddfpt:690,informatique:15,hsa:0};
     return s + (map[id] || 0);
   }, 0);
 
