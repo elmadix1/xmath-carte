@@ -273,7 +273,7 @@ const CORPS_GROUPE = {
   "igr":                   () => 'G3'
 };
 
-let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0 };
+let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0, situation_dc:'celibataire', nbHsa_dc:0, rep_dc:0 };
 
 function setSituation(s) {
   situation = s;
@@ -683,7 +683,7 @@ function renderDOMCOM() {
   const conf = CORPS[E.corps];
   const isoeVal = conf.isoe ? PARAMS.isoe_mensuel : (conf.indem_aesh ? PARAMS.indem_aesh_mensuel : 0);
   const indemResBase = brut * 0.03;
-  const repVal = parseInt(document.getElementById('sel-rep-dc')?.value || '0');
+  const repVal = E.rep_dc;
   const repLabel = repVal === 259 ? 'REP+' : repVal === 104 ? 'REP' : '';
 
   function grenelleMensuel() {
@@ -905,8 +905,9 @@ function renderDOMCOM() {
     </div>`;
   }
 
-  const situation_dc = document.getElementById('sel-situation-dc')?.value || 'celibataire';
-  const nbHsa_dc = parseInt(document.getElementById('sel-hsa-dc')?.value || '0');
+  const situation_dc = E.situation_dc;
+  const nbHsa_dc = E.nbHsa_dc;
+  const rep_dc = E.rep_dc;
   const confHsa = CORPS[E.corps].hsa;
   const tauxHsaObj = confHsa ? PARAMS.hsa[confHsa] : null;
   const tauxHsa = tauxHsaObj
@@ -951,16 +952,16 @@ function renderDOMCOM() {
         </div>
         <div>
           <label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">REP / REP+</label>
-          <select id="sel-rep-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="renderDOMCOM()">
-            <option value="0">Hors REP</option>
-            <option value="104">REP +104€/mois (+1 248€/an)</option>
-            <option value="259">REP+ +259€/mois (+3 108€/an)</option>
+          <select id="sel-rep-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="E.rep_dc=parseInt(this.value);renderDOMCOM()">
+            <option value="0"${E.rep_dc===0?" selected":""}>Hors REP</option>
+            <option value="104"${E.rep_dc===104?" selected":""}>REP +104€/mois (+1 248€/an)</option>
+            <option value="259"${E.rep_dc===259?" selected":""}>REP+ +259€/mois (+3 108€/an)</option>
           </select>
         </div>
       </div>
       <div>
           <label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Situation familiale</label>
-          <select id="sel-situation-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="renderDOMCOM()">
+          <select id="sel-situation-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="E.situation_dc=this.value;renderDOMCOM()">
             <option value="celibataire">Célibataire (1 part)</option>
             <option value="marie_sans_enfant">Marié·e sans enfant (2 parts)</option>
             <option value="marie_1_enfant">Marié·e + 1 enfant (2,5 parts)</option>
@@ -973,13 +974,13 @@ function renderDOMCOM() {
         </div>
         <div>
           <label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Nb HSA annuelles</label>
-          <select id="sel-hsa-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="renderDOMCOM()">
-            <option value="0">0 HSA</option>
-            <option value="1">1 HSA</option>
-            <option value="2">2 HSA</option>
-            <option value="3">3 HSA</option>
-            <option value="4">4 HSA</option>
-            <option value="5">5 HSA</option>
+          <select id="sel-hsa-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="E.nbHsa_dc=parseInt(this.value);renderDOMCOM()">
+            <option value="0"${E.nbHsa_dc===0?" selected":""}>0 HSA</option>
+            <option value="1"${E.nbHsa_dc===1?" selected":""}>1 HSA</option>
+            <option value="2"${E.nbHsa_dc===2?" selected":""}>2 HSA</option>
+            <option value="3"${E.nbHsa_dc===3?" selected":""}>3 HSA</option>
+            <option value="4"${E.nbHsa_dc===4?" selected":""}>4 HSA</option>
+            <option value="5"${E.nbHsa_dc===5?" selected":""}>5 HSA</option>
           </select>
         </div>
       ${brut > 0 ? `<div style="margin-top:12px;font-size:0.82rem;color:var(--gris-moyen)">Traitement brut de base : <strong style="color:var(--noir)">${fmt(brut)}/mois</strong> (IM ${im} × ${PARAMS.point_indice_mensuel}€)
