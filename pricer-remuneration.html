@@ -1331,7 +1331,7 @@ function calcFiscalFrance(brutTotal, situation, nbHsa, tauxHsaMensuel) {
   tranchesDetail.forEach(t => {
     const color = t.imposable > 0 ? 'rgba(255,255,255,0.55)' : 'rgba(255,255,255,0.2)';
     const valColor = t.impot > 0 ? '#f0a060' : 'rgba(255,255,255,0.2)';
-    const label = t.taux === 0 ? '→ exonéré (sous le seuil d imposition)' : t.imposable > 0 ? '→ ' + fmt(t.imposable) + '/part imposable' : '→ non atteinte';
+    const label = t.taux === 0 ? (t.imposable > 0 ? '→ ' + fmt(t.imposable) + '/part (taux 0%)' : '→ quotient sous le seuil (' + fmt(t.max) + ') — non imposable') : t.imposable > 0 ? '→ ' + fmt(t.imposable) + '/part imposable' : '→ non atteinte';
     html += '<div style="display:flex;justify-content:space-between;padding:2px 0;font-size:0.75rem">'
       + '<span style="color:' + color + '">Tranche ' + t.taux + '% : ' + fmt(t.min) + ' à ' + (t.max ? fmt(t.max) : '∞') + ' ' + label + '</span>'
       + '<span style="color:' + valColor + '">' + (t.impot > 0 ? fmt(t.impot * parts) + '/an' : '0€') + '</span></div>';
