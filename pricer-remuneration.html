@@ -273,7 +273,7 @@ const CORPS_GROUPE = {
   "igr":                   () => 'G3'
 };
 
-let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0, situation_dc:'celibataire', nbHsa_dc:0, rep_dc:0 };
+let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0, situation_dc:'celibataire', nbHsa_dc:0, nbHse_dc:0, rep_dc:0 };
 
 function setSituation(s) {
   situation = s;
@@ -474,7 +474,7 @@ function render() {
 
 
 
-function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel) {
+function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse) {
   const XPF = FISCAL.taux_xpf_eur;
   const T = FISCAL.territoires[territoire];
   if (!T) return null;
@@ -509,7 +509,10 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel) {
   const netAvantIR = brutTotal - totalCot;
 
   // HSA/HSE
-  const hsaBrutAnnuel = nbHsa > 0 ? tauxHsaMensuel * 12 : 0;
+  // HSE : 1/36 du taux HSA × 1,25
+  const tauxHseUnitaire = tauxHsaMensuel > 0 ? (tauxHsaMensuel * 12 / 36) * 1.25 : 0;
+  const hseBrutAnnuel = tauxHseUnitaire > 0 ? tauxHseUnitaire * (nbHse || 0) : 0;
+  const hsaBrutAnnuel = (nbHsa > 0 ? tauxHsaMensuel * 12 : 0) + hseBrutAnnuel;
   const hsaNetAnnuel = hsaBrutAnnuel * FISCAL.hsa_hse.coefficient_brut_vers_net;
   const hsaExonere = Math.min(hsaNetAnnuel, FISCAL.hsa_hse.exoneration_ir_plafond_annuel_net);
   const hsaImposable = Math.max(0, hsaNetAnnuel - hsaExonere);
@@ -572,8 +575,8 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel) {
   };
 }
 
-function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel) {
-  const r = calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel);
+function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse) {
+  const r = calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse || 0);
   if (!r) return '';
   const XPF = r.XPF;
   const fmtXPF = n => Math.round(n * XPF).toLocaleString('fr-FR') + ' XPF';
@@ -804,7 +807,7 @@ function renderDOMCOM() {
           <div style="font-size:0.82rem;color:#5a1a9a;font-weight:700">${t.conge_bonifie.jours} jours supplémentaires ${t.conge_bonifie.frequence}</div>
           <div style="font-size:0.72rem;color:#7a3ab0;margin-top:2px">+ Billet d avion pris en charge + Majoration de traitement ${t.conge_bonifie.majoration_pendant_conge_pct}% pendant la durée du congé</div>
         </div>
-        ${renderFiscal(total, k, situation_dc, nbHsa_dc, tauxHsa)}
+        ${renderFiscal(total, k, situation_dc, nbHsa_dc, tauxHsa, nbHse_dc)}
       </div>` : `<div style="padding:16px 18px;font-size:0.85rem;color:var(--gris-moyen)">Sélectionnez votre corps et échelon ci-dessus pour voir les montants calculés.</div>`}
     </div>`;
   }
@@ -900,13 +903,14 @@ function renderDOMCOM() {
           <div style="font-size:0.82rem;color:#1a3fa0">${t.billet_avion.detail}</div>
           ${t.billet_avion.droit_bagages_kg ? `<div style="font-size:0.72rem;color:#2a5ab0;margin-top:2px">Excédent bagages : ${t.billet_avion.droit_bagages_kg} kg / personne pris en charge</div>` : ''}
         </div>` : ''}
-        ${renderFiscal(t.zones[0] ? (brut * 1.03 * t.zones[0].coefficient + isoeValCom + grenelleCom) : 0, k, situation_dc, nbHsa_dc, tauxHsa)}
+        ${renderFiscal(t.zones[0] ? (brut * 1.03 * t.zones[0].coefficient + isoeValCom + grenelleCom) : 0, k, situation_dc, nbHsa_dc, tauxHsa, nbHse_dc)}
       </div>` : ''}
     </div>`;
   }
 
   const situation_dc = E.situation_dc;
   const nbHsa_dc = E.nbHsa_dc;
+  const nbHse_dc = E.nbHse_dc;
   const rep_dc = E.rep_dc;
   const confHsa = CORPS[E.corps].hsa;
   const tauxHsaObj = confHsa ? PARAMS.hsa[confHsa] : null;
@@ -981,6 +985,16 @@ function renderDOMCOM() {
             <option value="3"${E.nbHsa_dc===3?" selected":""}>3 HSA</option>
             <option value="4"${E.nbHsa_dc===4?" selected":""}>4 HSA</option>
             <option value="5"${E.nbHsa_dc===5?" selected":""}>5 HSA</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">Nb HSE annuelles (estimation)</label>
+          <select id="sel-hse-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="E.nbHse_dc=parseInt(this.value);renderDOMCOM()">
+            <option value="0"${E.nbHse_dc===0?" selected":""}>0 HSE</option>
+            <option value="5"${E.nbHse_dc===5?" selected":""}>~5 HSE/an (occasionnel)</option>
+            <option value="15"${E.nbHse_dc===15?" selected":""}>~15 HSE/an (moyen)</option>
+            <option value="30"${E.nbHse_dc===30?" selected":""}>~30 HSE/an (actif)</option>
+            <option value="50"${E.nbHse_dc===50?" selected":""}>~50 HSE/an (très actif)</option>
           </select>
         </div>
       ${brut > 0 ? `<div style="margin-top:12px;font-size:0.82rem;color:var(--gris-moyen)">Traitement brut de base : <strong style="color:var(--noir)">${fmt(brut)}/mois</strong> (IM ${im} × ${PARAMS.point_indice_mensuel}€)
