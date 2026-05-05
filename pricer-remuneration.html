@@ -273,7 +273,7 @@ const CORPS_GROUPE = {
   "igr":                   () => 'G3'
 };
 
-let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0, situation_dc:'celibataire', nbHsa_dc:0, nbHse_dc:0, rep_dc:0, rep_fr:0 };
+let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0, situation_dc:'celibataire', nbHsa_dc:0, nbHse_dc:0, rep_dc:0, rep_fr:0, primes_fr:[] };
 
 function setSituation(s) {
   situation = s;
@@ -447,6 +447,30 @@ function render() {
           <option value="0">Zone 3 0% (communes rurales)</option>
         </select>
         <div class="help">L indemnité de résidence est proportionnelle au traitement brut. Elle disparaît à l étranger (remplacée par ISVL ou IGFS).</div>
+      </div>
+      <div class="sep"></div>
+      <div class="sec-label">Missions et fonctions (optionnel)</div>
+      <div class="form-group">
+        <div class="help" style="margin-bottom:8px">Cochez les missions exercées pour les ajouter au calcul. Montants bruts annuels 2026.</div>
+        ${[
+          {id:'pp', label:'Professeur principal', montant: 134, detail: '+1 609€/an — selon niveau collège/lycée'},
+          {id:'pacte1', label:'Pacte enseignant (1 mission)', montant: 104, detail: '+1 250€/an par mission volontaire'},
+          {id:'pacte2', label:'Pacte enseignant (2 missions)', montant: 208, detail: '+2 500€/an'},
+          {id:'pacte3', label:'Pacte enseignant (3 missions)', montant: 312, detail: '+3 750€/an'},
+          {id:'tuteur', label:'Tuteur de stagiaire', montant: 104, detail: '+1 250€/an'},
+          {id:'cpge', label:'CPGE', montant: 93, detail: '+1 118€/an (4h min. devant même groupe)'},
+          {id:'plethorique', label:'Effectifs pléthoriques >35 élèves', montant: 104, detail: '+1 250€/an (6h min.)'},
+          {id:'voiepro', label:'Voie pro 1ère/Term/CAP', montant: 33, detail: '+400€/an (PLP/PEPS, 6h min.)'},
+          {id:'cappei', label:'CAPPEI (éducation inclusive)', montant: 70, detail: '+844€/an (dispositif ULIS/RASED)'},
+          {id:'informatique', label:'Prime équipement informatique', montant: 15, detail: '+176€/an — versée automatiquement'},
+        ].map(p => \`<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:8px;padding:8px;background:#f8f8f4;border-radius:6px;cursor:pointer" onclick="togglePrimeFr('\${p.id}',\${p.montant})">
+          <input type="checkbox" id="cb-\${p.id}" style="margin-top:2px;cursor:pointer" \${E.primes_fr.includes(p.id)?'checked':''}>
+          <div>
+            <div style="font-size:0.82rem;font-weight:600;color:var(--gris-fonce)">\${p.label}</div>
+            <div style="font-size:0.72rem;color:var(--gris-moyen)">\${p.detail}</div>
+          </div>
+          <span style="margin-left:auto;font-size:0.8rem;font-weight:700;color:var(--vert);white-space:nowrap">+\${p.montant}€/mois</span>
+        </div>\`).join('')}
       </div>` : ''}
     </div>
 
@@ -1132,6 +1156,20 @@ function renderMLF() {
     </div>`;
 }
 
+function togglePrimeFr(id, montant) {
+  const cb = document.getElementById('cb-' + id);
+  if (!cb) return;
+  // Toggle
+  if (E.primes_fr.includes(id)) {
+    E.primes_fr = E.primes_fr.filter(x => x !== id);
+    cb.checked = false;
+  } else {
+    E.primes_fr.push(id);
+    cb.checked = true;
+  }
+  calculer();
+}
+
 function syncGrade() {
   const conf = CORPS[E.corps];
   E.grade = conf.grades[0];
@@ -1229,8 +1267,14 @@ function calculer() {
     }
   }
 
+  // 7. Primes missions France
+  const primesMissionsTotal = E.primes_fr.reduce((s, id) => {
+    const map = {pp:134,pacte1:104,pacte2:208,pacte3:312,tuteur:104,cpge:93,plethorique:104,voiepro:33,cappei:70,informatique:15};
+    return s + (map[id] || 0);
+  }, 0);
+
   // 7. Total brut France (référence)
-  const brutFrance = brut + indem + grenelle + indemRes + hsaMensuel;
+  const brutFrance = brut + indem + grenelle + indemRes + hsaMensuel + primesMissionsTotal;
 
   // 8. Indemnité pays (ISVL ou IGFS)
   let indemPays = 0, indemPaysLabel = '', indemPaysNote = '';
@@ -1314,6 +1358,12 @@ function calculer() {
     <div class="result-line">
       <span class="lbl">HSA (${hsaLabel})</span>
       <span class="val plus">+ ${fmt(hsaMensuel)}/mois</span>
+    </div>`;
+
+  if (primesMissionsTotal > 0) lines += `
+    <div class="result-line">
+      <span class="lbl">Missions et fonctions (${E.primes_fr.length} sélectionnée${E.primes_fr.length>1?'s':''})</span>
+      <span class="val plus">+ ${fmt(primesMissionsTotal)}/mois</span>
     </div>`;
 
   lines += `<div class="result-subtotal">
