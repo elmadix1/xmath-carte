@@ -1156,6 +1156,32 @@ function renderMLF() {
     </div>`;
 }
 
+function renderMissionsFrance() {
+  const missions = [
+    {id:'pp',          label:'Professeur principal',              montant:134, detail:'+1 609€/an — selon niveau collège/lycée'},
+    {id:'pacte1',      label:'Pacte enseignant (1 mission)',       montant:104, detail:'+1 250€/an par mission volontaire'},
+    {id:'pacte2',      label:'Pacte enseignant (2 missions)',      montant:208, detail:'+2 500€/an'},
+    {id:'pacte3',      label:'Pacte enseignant (3 missions)',      montant:312, detail:'+3 750€/an'},
+    {id:'tuteur',      label:'Tuteur de stagiaire',                montant:104, detail:'+1 250€/an'},
+    {id:'cpge',        label:'CPGE',                               montant:93,  detail:'+1 118€/an (4h min. devant même groupe)'},
+    {id:'plethorique', label:'Effectifs pléthoriques >35 élèves', montant:104, detail:'+1 250€/an (6h min.)'},
+    {id:'voiepro',     label:'Voie pro 1ère/Term/CAP',             montant:33,  detail:'+400€/an (PLP/PEPS, 6h min.)'},
+    {id:'cappei',      label:'CAPPEI (éducation inclusive)',        montant:70,  detail:'+844€/an (dispositif ULIS/RASED)'},
+    {id:'informatique',label:'Prime équipement informatique',      montant:15,  detail:'+176€/an — versée automatiquement'},
+  ];
+  return missions.map(p => {
+    const checked = E.primes_fr.includes(p.id) ? 'checked' : '';
+    return '<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:8px;padding:8px;background:#f8f8f4;border-radius:6px;cursor:pointer" onclick="togglePrimeFr(\'' + p.id + '\',' + p.montant + ')">'
+      + '<input type="checkbox" id="cb-' + p.id + '" style="margin-top:2px;cursor:pointer" ' + checked + '>'
+      + '<div>'
+      + '<div style="font-size:0.82rem;font-weight:600;color:var(--gris-fonce)">' + p.label + '</div>'
+      + '<div style="font-size:0.72rem;color:var(--gris-moyen)">' + p.detail + '</div>'
+      + '</div>'
+      + '<span style="margin-left:auto;font-size:0.8rem;font-weight:700;color:var(--vert);white-space:nowrap">+' + p.montant + '€/mois</span>'
+      + '</div>';
+  }).join('');
+}
+
 function togglePrimeFr(id, montant) {
   const cb = document.getElementById('cb-' + id);
   if (!cb) return;
