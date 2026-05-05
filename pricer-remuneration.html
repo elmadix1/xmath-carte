@@ -273,7 +273,7 @@ const CORPS_GROUPE = {
   "igr":                   () => 'G3'
 };
 
-let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0, situation_dc:'celibataire', nbHsa_dc:0, nbHse_dc:0, rep_dc:0 };
+let E = { corps:'certifie', grade:'CN', echelon:'1', quotite:100, pays:'', isvlVille:0, hsa:0, situation_dc:'celibataire', nbHsa_dc:0, nbHse_dc:0, rep_dc:0, rep_fr:0 };
 
 function setSituation(s) {
   situation = s;
@@ -1039,8 +1039,8 @@ function renderDOMCOM() {
           <label style="font-size:0.72rem;font-weight:700;color:var(--gris-moyen);text-transform:uppercase;display:block;margin-bottom:4px">REP / REP+</label>
           <select id="sel-rep-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="E.rep_dc=parseInt(this.value);renderDOMCOM()">
             <option value="0"${E.rep_dc===0?" selected":""}>Hors REP</option>
-            <option value="104"${E.rep_dc===104?" selected":""}>REP +104€/mois (+1 248€/an)</option>
-            <option value="259"${E.rep_dc===259?" selected":""}>REP+ +259€/mois (+3 108€/an)</option>
+            <option value="144"${E.rep_dc===144?" selected":""}>REP +144€/mois (+1 734€/an)</option>
+            <option value="426"${E.rep_dc===426?" selected":""}>REP+ +426€/mois (+5 114€/an)</option>
           </select>
         </div>
       </div>
