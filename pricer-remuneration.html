@@ -964,12 +964,12 @@ function renderDOMCOM() {
           <select id="sel-situation-dc" style="width:100%;padding:8px 10px;border:1.5px solid var(--gris-clair);border-radius:8px;font-size:0.8rem" onchange="E.situation_dc=this.value;renderDOMCOM()">
             <option value="celibataire">Célibataire (1 part)</option>
             <option value="marie_sans_enfant">Marié·e sans enfant (2 parts)</option>
-            <option value="marie_1_enfant">Marié·e + 1 enfant (2,5 parts)</option>
-            <option value="marie_2_enfants">Marié·e + 2 enfants (3 parts)</option>
-            <option value="marie_3_enfants">Marié·e + 3 enfants (4 parts)</option>
-            <option value="celibataire_1_enfant">Célibataire + 1 enfant (1,5 part)</option>
-            <option value="celibataire_2_enfants">Célibataire + 2 enfants (2 parts)</option>
-            <option value="celibataire_3_enfants">Célibataire + 3 enfants (3 parts)</option>
+            <option value="marie_1_enfant"${E.situation_dc==="marie_1_enfant"?" selected":""}>Marié·e + 1 enfant (2,5 parts)</option>
+            <option value="marie_2_enfants"${E.situation_dc==="marie_2_enfants"?" selected":""}>Marié·e + 2 enfants (3 parts)</option>
+            <option value="marie_3_enfants"${E.situation_dc==="marie_3_enfants"?" selected":""}>Marié·e + 3 enfants (4 parts)</option>
+            <option value="celibataire_1_enfant"${E.situation_dc==="celibataire_1_enfant"?" selected":""}>Célibataire + 1 enfant (1,5 part)</option>
+            <option value="celibataire_2_enfants"${E.situation_dc==="celibataire_2_enfants"?" selected":""}>Célibataire + 2 enfants (2 parts)</option>
+            <option value="celibataire_3_enfants"${E.situation_dc==="celibataire_3_enfants"?" selected":""}>Célibataire + 3 enfants (3 parts)</option>
           </select>
         </div>
         <div>
