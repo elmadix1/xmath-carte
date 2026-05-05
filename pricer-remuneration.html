@@ -820,14 +820,14 @@ function renderDOMCOM() {
         <div style="font-size:0.7rem;font-weight:700;color:var(--or);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:12px">Primes et avantages non récurrents</div>
 
         ${t.prime_installation ? `<div style="background:var(--or-pale);border-left:3px solid var(--or);border-radius:0 8px 8px 0;padding:10px 14px;margin-bottom:8px">
-          <div style="font-weight:700;color:#5a3008;font-size:0.82rem;margin-bottom:4px">Prime d installation</div>
+          <div style="font-weight:700;color:#5a3008;font-size:0.82rem;margin-bottom:2px">Prime d installation <span style="background:#1a3a28;color:#7ac890;font-size:0.68rem;padding:1px 6px;border-radius:8px;margin-left:4px">Exonérée IR — art. 81 CGI</span></div>
           <div style="font-size:0.82rem;color:#5a3008;font-weight:700">${fmt(primeInstall)} au total</div>
           <div style="font-size:0.75rem;color:#7a5020;margin-top:2px">${t.prime_installation.montant_mois_traitement} mois × ${fmt(brut)} = ${fmt(primeInstall)}</div>
           <div style="font-size:0.72rem;color:#9a7040;margin-top:2px">${t.prime_installation.detail}</div>
         </div>` : ''}
 
         ${t.isg?.eligible ? `<div style="background:#e8f8ec;border-left:3px solid var(--vert);border-radius:0 8px 8px 0;padding:10px 14px;margin-bottom:8px">
-          <div style="font-weight:700;color:#1a5a2a;font-size:0.82rem;margin-bottom:4px">ISG (Indemnité de Sujétion Géographique)</div>
+          <div style="font-weight:700;color:#1a5a2a;font-size:0.82rem;margin-bottom:2px">ISG (Indemnité de Sujétion Géographique) <span style="background:#1a3a28;color:#7ac890;font-size:0.68rem;padding:1px 6px;border-radius:8px;margin-left:4px">Exonérée IR — indemnité de sujétion</span></div>
           ${isgMontant ? `<div style="font-size:0.82rem;color:#1a5a2a;font-weight:700">${fmt(isgMontant)}${isgIsoleMontant && isgIsoleMontant !== isgMontant ? ' à ' + fmt(isgIsoleMontant) : ''}</div>
           <div style="font-size:0.75rem;color:#2a7a3a;margin-top:2px">${isgMois} mois × ${fmt(brut)} = ${fmt(isgMontant)}${isgIsoleMois ? ' / ' + isgIsoleMois + ' mois (communes isolées) = ' + fmt(isgIsoleMontant) : ''}</div>` : ''}
           <div style="font-size:0.72rem;color:#4a9a5a;margin-top:2px">${t.isg.detail}</div>
@@ -841,7 +841,7 @@ function renderDOMCOM() {
         </div>` : ''}
 
         <div style="background:#f8f4ff;border-left:3px solid #8a3ab0;border-radius:0 8px 8px 0;padding:10px 14px">
-          <div style="font-weight:700;color:#5a1a9a;font-size:0.82rem;margin-bottom:4px">Congé bonifié</div>
+          <div style="font-weight:700;color:#5a1a9a;font-size:0.82rem;margin-bottom:2px">Congé bonifié <span style="background:#1a3a28;color:#7ac890;font-size:0.68rem;padding:1px 6px;border-radius:8px;margin-left:4px">Exonéré IR — prise en charge transport</span></div>
           <div style="font-size:0.82rem;color:#5a1a9a;font-weight:700">${t.conge_bonifie.jours} jours supplémentaires ${t.conge_bonifie.frequence}</div>
           <div style="font-size:0.72rem;color:#7a3ab0;margin-top:2px">+ Billet d avion pris en charge + Majoration de traitement ${t.conge_bonifie.majoration_pendant_conge_pct}% pendant la durée du congé</div>
         </div>
@@ -914,7 +914,7 @@ function renderDOMCOM() {
         <div style="font-size:0.7rem;font-weight:700;color:var(--or);text-transform:uppercase;letter-spacing:0.4px;margin-bottom:12px">Primes et avantages non récurrents</div>
 
         ${t.indem_eloignement ? `<div style="background:var(--or-pale);border-left:3px solid var(--or);border-radius:0 8px 8px 0;padding:10px 14px;margin-bottom:8px">
-          <div style="font-weight:700;color:#5a3008;font-size:0.82rem;margin-bottom:4px">Indemnité d éloignement</div>
+          <div style="font-weight:700;color:#5a3008;font-size:0.82rem;margin-bottom:2px">Indemnité d éloignement <span style="background:#1a3a28;color:#7ac890;font-size:0.68rem;padding:1px 6px;border-radius:8px;margin-left:4px">Exonérée IR — indemnité d éloignement</span></div>
           <div style="font-size:0.82rem;color:#5a3008;font-weight:700">${fmt(indemEloigMontant)} au total</div>
           <div style="font-size:0.75rem;color:#7a5020;margin-top:2px">${t.indem_eloignement.montant_mois_traitement} mois × ${fmt(brut)} = ${fmt(indemEloigMontant)}</div>
           <div style="font-size:0.72rem;color:#9a7040;margin-top:4px">${t.indem_eloignement.detail}</div>
@@ -924,7 +924,7 @@ function renderDOMCOM() {
         </div>` : ''}
 
         ${t.isg?.eligible ? `<div style="background:#e8f8ec;border-left:3px solid var(--vert);border-radius:0 8px 8px 0;padding:10px 14px;margin-bottom:8px">
-          <div style="font-weight:700;color:#1a5a2a;font-size:0.82rem;margin-bottom:4px">ISG (Indemnité de Sujétion Géographique)</div>
+          <div style="font-weight:700;color:#1a5a2a;font-size:0.82rem;margin-bottom:2px">ISG (Indemnité de Sujétion Géographique) <span style="background:#1a3a28;color:#7ac890;font-size:0.68rem;padding:1px 6px;border-radius:8px;margin-left:4px">Exonérée IR — indemnité de sujétion</span></div>
           <div style="font-size:0.82rem;color:#1a5a2a;font-weight:700">${fmt(isgComMontant)}</div>
           <div style="font-size:0.72rem;color:#4a9a5a;margin-top:2px">${t.isg.detail}</div>
           <div style="font-size:0.72rem;color:#6aaa7a">Condition : ${t.isg.condition}</div>
@@ -937,7 +937,7 @@ function renderDOMCOM() {
         </div>` : ''}
 
         ${t.billet_avion ? `<div style="background:#e8f0fe;border-left:3px solid var(--bleu-clair);border-radius:0 8px 8px 0;padding:10px 14px">
-          <div style="font-weight:700;color:#1a3fa0;font-size:0.82rem;margin-bottom:4px">Billet d avion</div>
+          <div style="font-weight:700;color:#1a3fa0;font-size:0.82rem;margin-bottom:2px">Billet d avion <span style="background:#1a3a28;color:#7ac890;font-size:0.68rem;padding:1px 6px;border-radius:8px;margin-left:4px">Exonéré IR — remboursement de frais</span></div>
           <div style="font-size:0.82rem;color:#1a3fa0">${t.billet_avion.detail}</div>
           ${t.billet_avion.droit_bagages_kg ? `<div style="font-size:0.72rem;color:#2a5ab0;margin-top:2px">Excédent bagages : ${t.billet_avion.droit_bagages_kg} kg / personne pris en charge</div>` : ''}
         </div>` : ''}
