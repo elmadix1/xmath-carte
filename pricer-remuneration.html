@@ -474,7 +474,7 @@ function render() {
 
 
 
-function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse) {
+function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse, tauxHseUnit) {
   const XPF = FISCAL.taux_xpf_eur;
   const T = FISCAL.territoires[territoire];
   if (!T) return null;
@@ -511,12 +511,8 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
   // HSA/HSE
   // HSA annuelles
   const hsaPurBrutAnnuel = nbHsa > 0 ? tauxHsaMensuel * 12 : 0;
-  // HSE : 1/36 du taux HSA × 1,25 — calculé indépendamment même si nbHsa=0
-  // On utilise le taux "autres HSA" comme base pour le taux HSE
-  const tauxHseUnitaire = tauxHsaMensuel > 0
-    ? (tauxHsaMensuel * 12 / 36) * 1.25
-    : 0;
-  const hseBrutAnnuel = tauxHseUnitaire > 0 ? tauxHseUnitaire * (nbHse || 0) : 0;
+  // HSE : taux unitaire passé en paramètre — indépendant du nb HSA
+  const hseBrutAnnuel = (tauxHseUnit || 0) * (nbHse || 0);
   const hsaBrutAnnuel = hsaPurBrutAnnuel + hseBrutAnnuel;
   const hsaNetAnnuel = hsaBrutAnnuel * FISCAL.hsa_hse.coefficient_brut_vers_net;
   const hsaExonere = Math.min(hsaNetAnnuel, FISCAL.hsa_hse.exoneration_ir_plafond_annuel_net);
@@ -580,8 +576,8 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
   };
 }
 
-function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse) {
-  const r = calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse || 0);
+function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse, tauxHseUnit) {
+  const r = calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbHse || 0, tauxHseUnit || 0);
   if (!r) return '';
   const XPF = r.XPF;
   const fmtXPF = n => Math.round(n * XPF).toLocaleString('fr-FR') + ' XPF';
@@ -812,7 +808,7 @@ function renderDOMCOM() {
           <div style="font-size:0.82rem;color:#5a1a9a;font-weight:700">${t.conge_bonifie.jours} jours supplémentaires ${t.conge_bonifie.frequence}</div>
           <div style="font-size:0.72rem;color:#7a3ab0;margin-top:2px">+ Billet d avion pris en charge + Majoration de traitement ${t.conge_bonifie.majoration_pendant_conge_pct}% pendant la durée du congé</div>
         </div>
-        ${renderFiscal(total, k, situation_dc, nbHsa_dc, tauxHsa, nbHse_dc)}
+        ${renderFiscal(total, k, situation_dc, nbHsa_dc, tauxHsa, nbHse_dc, tauxHseUnitaireDC)}
       </div>` : `<div style="padding:16px 18px;font-size:0.85rem;color:var(--gris-moyen)">Sélectionnez votre corps et échelon ci-dessus pour voir les montants calculés.</div>`}
     </div>`;
   }
@@ -908,7 +904,7 @@ function renderDOMCOM() {
           <div style="font-size:0.82rem;color:#1a3fa0">${t.billet_avion.detail}</div>
           ${t.billet_avion.droit_bagages_kg ? `<div style="font-size:0.72rem;color:#2a5ab0;margin-top:2px">Excédent bagages : ${t.billet_avion.droit_bagages_kg} kg / personne pris en charge</div>` : ''}
         </div>` : ''}
-        ${renderFiscal(t.zones[0] ? (brut * 1.03 * t.zones[0].coefficient + isoeValCom + grenelleCom) : 0, k, situation_dc, nbHsa_dc, tauxHsa, nbHse_dc)}
+        ${renderFiscal(t.zones[0] ? (brut * 1.03 * t.zones[0].coefficient + isoeValCom + grenelleCom) : 0, k, situation_dc, nbHsa_dc, tauxHsa, nbHse_dc, tauxHseUnitaireDC)}
       </div>` : ''}
     </div>`;
   }
@@ -923,6 +919,10 @@ function renderDOMCOM() {
     ? (nbHsa_dc >= 1
         ? (tauxHsaObj['1ere_hsa_annuelle'] + Math.max(0, nbHsa_dc - 1) * tauxHsaObj['autres_hsa_annuelle']) / 12
         : 0)
+    : 0;
+  // Taux HSE unitaire — indépendant du nb HSA
+  const tauxHseUnitaireDC = tauxHsaObj
+    ? (tauxHsaObj['autres_hsa_annuelle'] / 36) * 1.25
     : 0;
   const grilles = GRILLES.corps[E.corps];
   const gradeData = grilles?.[E.grade] || grilles?.echelons || {};
