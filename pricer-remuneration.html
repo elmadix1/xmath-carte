@@ -509,10 +509,15 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
   const netAvantIR = brutTotal - totalCot;
 
   // HSA/HSE
-  // HSE : 1/36 du taux HSA × 1,25
-  const tauxHseUnitaire = tauxHsaMensuel > 0 ? (tauxHsaMensuel * 12 / 36) * 1.25 : 0;
+  // HSA annuelles
+  const hsaPurBrutAnnuel = nbHsa > 0 ? tauxHsaMensuel * 12 : 0;
+  // HSE : 1/36 du taux HSA × 1,25 — calculé indépendamment même si nbHsa=0
+  // On utilise le taux "autres HSA" comme base pour le taux HSE
+  const tauxHseUnitaire = tauxHsaMensuel > 0
+    ? (tauxHsaMensuel * 12 / 36) * 1.25
+    : 0;
   const hseBrutAnnuel = tauxHseUnitaire > 0 ? tauxHseUnitaire * (nbHse || 0) : 0;
-  const hsaBrutAnnuel = (nbHsa > 0 ? tauxHsaMensuel * 12 : 0) + hseBrutAnnuel;
+  const hsaBrutAnnuel = hsaPurBrutAnnuel + hseBrutAnnuel;
   const hsaNetAnnuel = hsaBrutAnnuel * FISCAL.hsa_hse.coefficient_brut_vers_net;
   const hsaExonere = Math.min(hsaNetAnnuel, FISCAL.hsa_hse.exoneration_ir_plafond_annuel_net);
   const hsaImposable = Math.max(0, hsaNetAnnuel - hsaExonere);
@@ -605,7 +610,7 @@ function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, n
         </div>
       </div>
 
-      ${r.hsaBrutAnnuel > 0 ? `
+      ${(r.hsaBrutAnnuel > 0 || nbHse > 0) ? `
       <div style="font-size:0.7rem;font-weight:700;color:#2a5c3a;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:8px">
         ⏱️ HSA / HSE
       </div>
