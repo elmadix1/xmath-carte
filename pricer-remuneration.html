@@ -527,6 +527,8 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
 
   let irAnnuel = 0;
   let irDetail = '';
+  let tranchesDetail = [];
+  let reductionDOM = 0;
 
   if (T.ir.type === 'aucun') {
     irAnnuel = 0;
@@ -536,7 +538,6 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
     const quotient = revenuImposable / parts;
     let irSurQuotient = 0;
     const tranches = FISCAL.bareme_ir_france_2026.tranches;
-    const tranchesDetail = [];
     for (const t of tranches) {
       if (quotient <= t.min) {
         tranchesDetail.push({ min: t.min, max: t.max, taux: t.taux, imposable: 0, impot: 0 });
@@ -549,7 +550,6 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
       tranchesDetail.push({ min: t.min, max: t.max, taux: t.taux, imposable, impot });
     }
     irAnnuel = irSurQuotient * parts;
-    let reductionDOM = 0;
     if (T.ir.type === 'france_avec_reduction') {
       reductionDOM = irAnnuel * T.ir.reduction_pct / 100;
       irDetail = `Réduction DOM ${T.ir.reduction_pct}% : -${fmt(reductionDOM/12)}/mois`;
@@ -575,15 +575,14 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
   const netFinal = netAvantIR + hsaNetMensuel - irMensuel;
 
   const hsaPurNetMensuel = hsaPurBrutAnnuel / 12;
-  const tranchesDetailFinal = typeof tranchesDetail !== 'undefined' ? tranchesDetail : [];
-  const reductionDOMFinal = typeof reductionDOM !== 'undefined' ? reductionDOM : 0;
+
   const hseNetMensuel = hseBrutAnnuel / 12;
   return {
     lignesCot, totalCot, netAvantIR,
     hsaBrutAnnuel, hsaNetAnnuel, hsaExonere, hsaImposable, hsaNetMensuel,
     hsaPurNetMensuel, hseNetMensuel, hsePurBrutAnnuel: hseBrutAnnuel,
     revenuImposable, parts, irAnnuel, irMensuel, irDetail,
-    tranchesDetail: tranchesDetailFinal, reductionDOM: reductionDOMFinal,
+    tranchesDetail, reductionDOM,
     netFinal, monnaie: T.monnaie, XPF,
     irType: T.ir.type, irLabel: T.ir.label || ''
   };
