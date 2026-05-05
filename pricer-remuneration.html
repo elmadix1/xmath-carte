@@ -463,14 +463,14 @@ function render() {
           {id:'voiepro', label:'Voie pro 1ère/Term/CAP', montant: 33, detail: '+400€/an (PLP/PEPS, 6h min.)'},
           {id:'cappei', label:'CAPPEI (éducation inclusive)', montant: 70, detail: '+844€/an (dispositif ULIS/RASED)'},
           {id:'informatique', label:'Prime équipement informatique', montant: 15, detail: '+176€/an — versée automatiquement'},
-        ].map(p => \`<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:8px;padding:8px;background:#f8f8f4;border-radius:6px;cursor:pointer" onclick="togglePrimeFr('\${p.id}',\${p.montant})">
+        ].map(p => `<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:8px;padding:8px;background:#f8f8f4;border-radius:6px;cursor:pointer" onclick="togglePrimeFr('\${p.id}',\${p.montant})">
           <input type="checkbox" id="cb-\${p.id}" style="margin-top:2px;cursor:pointer" \${E.primes_fr.includes(p.id)?'checked':''}>
           <div>
             <div style="font-size:0.82rem;font-weight:600;color:var(--gris-fonce)">\${p.label}</div>
             <div style="font-size:0.72rem;color:var(--gris-moyen)">\${p.detail}</div>
           </div>
           <span style="margin-left:auto;font-size:0.8rem;font-weight:700;color:var(--vert);white-space:nowrap">+\${p.montant}€/mois</span>
-        </div>\`).join('')}
+        </div>`).join('')}
       </div>` : ''}
     </div>
 
