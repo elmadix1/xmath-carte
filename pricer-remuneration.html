@@ -567,9 +567,12 @@ function calcFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, nbH
   const hsaNetMensuel = hsaBrutAnnuel / 12; // Brut — exonéré de cotisations
   const netFinal = netAvantIR + hsaNetMensuel - irMensuel;
 
+  const hsaPurNetMensuel = hsaPurBrutAnnuel / 12;
+  const hseNetMensuel = hseBrutAnnuel / 12;
   return {
     lignesCot, totalCot, netAvantIR,
     hsaBrutAnnuel, hsaNetAnnuel, hsaExonere, hsaImposable, hsaNetMensuel,
+    hsaPurNetMensuel, hseNetMensuel, hsePurBrutAnnuel: hseBrutAnnuel,
     revenuImposable, parts, irAnnuel, irMensuel, irDetail,
     netFinal, monnaie: T.monnaie, XPF,
     irType: T.ir.type, irLabel: T.ir.label || ''
@@ -611,10 +614,14 @@ function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, n
         ⏱️ HSA / HSE
       </div>
       <div style="background:#0a1a10;border-radius:8px;padding:10px 14px;margin-bottom:10px;font-size:0.78rem">
-        <div style="display:flex;justify-content:space-between;padding:3px 0">
+        ${r.hsaPurNetMensuel > 0 ? `<div style="display:flex;justify-content:space-between;padding:3px 0">
           <span style="color:rgba(255,255,255,0.5)">HSA brut mensuel</span>
-          <span style="color:#7ac890">+${fmt(r.hsaNetMensuel)}/mois</span>
-        </div>
+          <span style="color:#7ac890">+${fmt(r.hsaPurNetMensuel)}/mois</span>
+        </div>` : ''}
+        ${r.hseNetMensuel > 0 ? `<div style="display:flex;justify-content:space-between;padding:3px 0">
+          <span style="color:rgba(255,255,255,0.5)">HSE brut mensuel (~${Math.round(r.hsePurBrutAnnuel / (tauxHseUnit || 1))} HSE × ${fmt(tauxHseUnit || 0)})</span>
+          <span style="color:#7ac890">+${fmt(r.hseNetMensuel)}/mois</span>
+        </div>` : ''}
         <div style="display:flex;justify-content:space-between;padding:3px 0">
           <span style="color:rgba(255,255,255,0.5)">Exonéré cotisations sociales</span>
           <span style="color:#7ac890">✓</span>
@@ -664,8 +671,11 @@ function renderFiscal(brutTotal, territoire, situation, nbHsa, tauxHsaMensuel, n
           <div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)">
             <span>Net avant IR</span><span>${fmt(r.netAvantIR)}/mois</span>
           </div>
-          ${r.hsaBrutAnnuel > 0 ? `<div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)">
-            <span>HSA nettes</span><span style="color:#7ac890">+${fmt(r.hsaNetMensuel)}/mois</span>
+          ${r.hsaPurNetMensuel > 0 ? `<div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)">
+            <span>HSA nettes</span><span style="color:#7ac890">+${fmt(r.hsaPurNetMensuel)}/mois</span>
+          </div>` : ''}
+          ${r.hseNetMensuel > 0 ? `<div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)">
+            <span>HSE nettes</span><span style="color:#7ac890">+${fmt(r.hseNetMensuel)}/mois</span>
           </div>` : ''}
           <div style="display:flex;justify-content:space-between;font-size:0.78rem;padding:2px 0;color:rgba(255,255,255,0.5)">
             <span>IR estimé</span><span style="color:#f08080">-${fmt(r.irMensuel)}/mois</span>
