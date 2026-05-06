@@ -1104,6 +1104,27 @@ function renderDOMCOM() {
       ${brut > 0 ? `<div style="margin-top:12px;font-size:0.82rem;color:var(--gris-moyen)">Traitement brut de base : <strong style="color:var(--noir)">${fmt(brut)}/mois</strong> (IM ${im} × ${PARAMS.point_indice_mensuel}€)
         ${isoeVal ? ` · ISOE/ISAE : <strong style="color:var(--noir)">${fmt(isoeVal)}/mois</strong>` : ''}
       </div>` : ''}
+      ${tauxHseUnitaireDC > 0 ? `<div style="margin-top:10px;background:#0a1a10;border-radius:8px;padding:10px 14px;font-size:0.78rem">
+        <div style="font-size:0.7rem;font-weight:700;color:#7ac890;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:8px">⏱️ Taux HSE par territoire</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px">
+          <div>
+            <div style="color:rgba(255,255,255,0.4);font-size:0.68rem;margin-bottom:2px">Métropole / DOM</div>
+            <div style="color:#7ac890;font-weight:700">${fmt(tauxHseUnitaireDC)}/h</div>
+            <div style="color:rgba(255,255,255,0.3);font-size:0.68rem">Exonéré cotisations</div>
+          </div>
+          <div>
+            <div style="color:rgba(255,255,255,0.4);font-size:0.68rem;margin-bottom:2px">Polynésie (CPS 13,1%)</div>
+            <div style="color:#f0c060;font-weight:700">${fmt(tauxHseUnitaireDC * (1 - 0.131))}/h</div>
+            <div style="color:rgba(255,255,255,0.3);font-size:0.68rem">Après cotisations CPS</div>
+          </div>
+          <div>
+            <div style="color:rgba(255,255,255,0.4);font-size:0.68rem;margin-bottom:2px">Nouvelle-Calédonie (CAFAT 11,7%)</div>
+            <div style="color:#f0c060;font-weight:700">${fmt(tauxHseUnitaireDC * (1 - 0.117))}/h</div>
+            <div style="color:rgba(255,255,255,0.3);font-size:0.68rem">Après cotisations CAFAT</div>
+          </div>
+        </div>
+        <div style="color:rgba(255,255,255,0.25);font-size:0.68rem;margin-top:6px">HSE = 1/36 du taux annuel HSA × 1,25 — Formule identique partout (Décret 50-1253). Cotisations locales CPS/CAFAT prélevées en COM Pacifique contrairement à la métropole où les HSA/HSE sont exonérées de cotisations sociales.</div>
+      </div>` : ''}
     </div>
 
     <h3 style="font-family:Cormorant Garamond,serif;font-size:1.3rem;margin-bottom:14px;color:var(--noir)">🇫🇷 Départements d Outre-Mer (DOM) — Mutation classique permanente</h3>
