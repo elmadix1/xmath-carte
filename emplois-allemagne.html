@@ -242,12 +242,8 @@
   <div class="cta-alerte">
     <h2>🔔 Recevez les offres en Allemagne</h2>
     <p>Soyez alerté dès qu'un nouveau poste est publié dans les établissements français en Allemagne. Gratuit, sans engagement.</p>
-    <div class="cta-form">
-      <input type="email" id="email-alerte" placeholder="votre@email.fr">
-      <button onclick="inscrireAlerte()">Recevoir les alertes</button>
-    </div>
+    <a href="/alertes.html" style="display:inline-block;background:var(--vert);color:#fff;padding:14px 32px;border-radius:8px;font-size:1rem;font-weight:700;text-decoration:none;margin-top:8px;">🔔 S'inscrire aux alertes →</a>
     <p class="cta-note">Envoi uniquement quand de nouvelles offres apparaissent. Désabonnement en 1 clic.</p>
-    <div id="alerte-msg" style="margin-top:12px;font-size:0.85rem;color:#7ac890;display:none"></div>
   </div>
 
 </div>
@@ -295,33 +291,6 @@ async function chargerOffres() {
     `).join('');
   } catch(e) {
     document.getElementById('offres-list').innerHTML = '<div style="color:var(--gris-moyen);font-style:italic">Erreur de chargement des offres.</div>';
-  }
-}
-
-// Inscription alerte
-async function inscrireAlerte() {
-  const email = document.getElementById('email-alerte').value;
-  if (!email || !email.includes('@')) { alert('Email invalide'); return; }
-  const msg = document.getElementById('alerte-msg');
-  try {
-    const r = await fetch('https://emplois-scolaires-monde-production.up.railway.app/subscribe', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({email, tags: ['allemagne']})
-    });
-    if (r.ok) {
-      msg.textContent = '✓ Inscription confirmée ! Vous recevrez les prochaines offres en Allemagne.';
-      msg.style.display = 'block';
-      document.getElementById('email-alerte').value = '';
-    } else {
-      msg.textContent = 'Erreur — réessayez ou contactez-nous.';
-      msg.style.color = '#f08080';
-      msg.style.display = 'block';
-    }
-  } catch(e) {
-    msg.textContent = 'Erreur de connexion. Réessayez.';
-    msg.style.color = '#f08080';
-    msg.style.display = 'block';
   }
 }
 
