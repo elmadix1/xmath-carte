@@ -1397,22 +1397,41 @@ function calcFiscalFrance(brutTotal, situation, nbHsa, tauxHsaMensuel) {
 function badgeFiscalPays(pays) {
   if (!FISCALPAYS) return '';
   const fp = FISCALPAYS.pays[pays];
-  if (!fp) return '';
-  const regime = FISCALPAYS.regimes[fp.regime];
-  const couleur = regime?.couleur || '#888';
-  let html = '<div style="background:#0e1310;border-radius:8px;padding:10px 14px;margin:8px 0;font-size:0.78rem">';
-  html += '<div style="font-size:0.7rem;font-weight:700;color:#c8b8ff;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:6px">🧾 Régime fiscal — ' + fp.label + '</div>';
-  html += '<div style="display:inline-block;background:' + couleur + '22;border:1px solid ' + couleur + ';color:' + couleur + ';font-size:0.72rem;font-weight:700;padding:2px 8px;border-radius:12px;margin-bottom:6px">' + (regime?.label || fp.regime) + '</div>';
-  html += '<div style="color:rgba(255,255,255,0.5);font-size:0.72rem;line-height:1.5;margin-bottom:4px">' + fp.note + '</div>';
-  if (fp.convention_france) {
-    html += '<div style="color:rgba(255,255,255,0.3);font-size:0.68rem">Convention fiscale : ' + (fp.convention_date || 'oui') + '</div>';
-  } else {
-    html += '<div style="color:#f08080;font-size:0.68rem">⚠️ Pas de convention fiscale avec la France</div>';
+  let html = '<div style="background:#0e1310;border-radius:8px;padding:12px 14px;margin:8px 0;font-size:0.78rem">';
+  html += '<div style="font-size:0.7rem;font-weight:700;color:#c8b8ff;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:8px">🧾 Situation fiscale à l étranger</div>';
+
+  // Message principal honnête
+  html += '<div style="background:rgba(240,192,96,0.1);border-left:3px solid #f0c060;border-radius:0 6px 6px 0;padding:10px 12px;margin-bottom:10px">';
+  html += '<div style="color:#f0c060;font-weight:700;font-size:0.78rem;margin-bottom:4px">⚠️ Situation variable selon votre statut exact</div>';
+  html += '<div style="color:rgba(255,255,255,0.6);font-size:0.72rem;line-height:1.6">';
+  html += 'La fiscalité des agents AEFE à l étranger est complexe et dépend de votre contrat, de votre statut (résident ou expatrié) et du pays d affectation. ';
+  html += 'Il n existe pas de règle générale — certains agents paient l IR français, d autres sont exonérés selon leur statut exact.<br>';
+  html += '<strong style="color:#f0c060">Ce que vous devez faire :</strong>';
+  html += '</div>';
+  html += '<ul style="color:rgba(255,255,255,0.5);font-size:0.72rem;margin:6px 0 0 14px;line-height:1.7">';
+  html += '<li>Contacter le <strong style="color:rgba(255,255,255,0.7)">poste diplomatique</strong> ou votre chef d établissement dès confirmation du poste</li>';
+  html += '<li>Consulter <strong style="color:rgba(255,255,255,0.7)">impots.gouv.fr</strong> → section conventions fiscales par pays</li>';
+  html += '<li>Demander à l <strong style="color:rgba(255,255,255,0.7)">AEFE</strong> votre statut fiscal exact (passeport de service ? visa diplomatique ?)</li>';
+  html += '<li>Si vous avez un <strong style="color:#7ac890">passeport de service</strong> : probablement exonéré d IR (statut "diplomate de fait")</li>';
+  html += '</ul>';
+  html += '</div>';
+
+  // Infos pays si disponibles
+  if (fp) {
+    html += '<div style="font-size:0.72rem;color:rgba(255,255,255,0.4);line-height:1.6">';
+    if (fp.ir_local === false) {
+      html += '✓ <strong style="color:#7ac890">' + fp.label + '</strong> : pas d IR personnel local — si vous payez des impôts, ce sera en France<br>';
+    } else {
+      html += '⚠️ <strong style="color:#f0c060">' + fp.label + '</strong> : IR local existe (jusqu à ' + (fp.taux_max_local || '?') + '%) — convention fiscale avec la France : ' + (fp.convention_france ? '✓ oui' : '✗ non') + '<br>';
+    }
+    if (fp.convention_france && fp.convention_date) {
+      html += '📄 ' + fp.convention_date + '<br>';
+    }
+    html += '<br>🔵 ISVL et IE : toujours exonérées d IR (art. 81 CGI) quel que soit votre statut fiscal';
+    html += '</div>';
   }
-  if (fp.ir_local === false) {
-    html += '<div style="color:#7ac890;font-size:0.68rem;margin-top:4px">✓ Pas d IR local — ISVL/IE exonérées d IR (art. 81 CGI) — IR français standard</div>';
-  }
-  html += '<div style="color:rgba(255,255,255,0.25);font-size:0.65rem;margin-top:6px">Source : impots.gouv.fr · Vérifier avec le poste diplomatique pour votre situation personnelle</div>';
+
+  html += '<div style="color:rgba(255,255,255,0.2);font-size:0.65rem;margin-top:8px;border-top:1px solid rgba(255,255,255,0.05);padding-top:6px">Source : Sénat français — Question écrite n°14277 (2014) · impots.gouv.fr · AEFE. Les montants affichés dans ce simulateur ne tiennent pas compte de votre IR personnel car celui-ci est trop variable pour être estimé sans connaître votre statut exact.</div>';
   html += '</div>';
   return html;
 }
