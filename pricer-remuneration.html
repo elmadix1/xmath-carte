@@ -184,21 +184,22 @@ footer a { color: var(--vert-clair); text-decoration: none; }
       En France seulement disparaît à l étranger
    ═══════════════════════════════════════════════════════════════════ */
 
-let PARAMS, GRILLES, ISVL, IGFS, IE, DOMCOM, FISCAL;
+let PARAMS, GRILLES, ISVL, IGFS, IE, DOMCOM, FISCAL, FISCALPAYS;
 let situation = 'france';
 
 async function init() {
   try {
-    const [p, g, i, f, ie, domcom, fiscal] = await Promise.all([
+    const [p, g, i, f, ie, domcom, fiscal, fiscalpays] = await Promise.all([
       fetch('/params_remuneration.json').then(r => r.json()),
       fetch('/grilles_im.json').then(r => r.json()),
       fetch('/isvl.json').then(r => r.json()),
       fetch('/igfs.json').then(r => r.json()),
       fetch('/ie.json').then(r => r.json()),
       fetch('/dom_com.json').then(r => r.json()),
-      fetch('/fiscalite.json').then(r => r.json())
+      fetch('/fiscalite.json').then(r => r.json()),
+      fetch('/fiscalite_pays.json').then(r => r.json())
     ]);
-    PARAMS = p; GRILLES = g; ISVL = i; IGFS = f; IE = ie; DOMCOM = domcom; FISCAL = fiscal;
+    PARAMS = p; GRILLES = g; ISVL = i; IGFS = f; IE = ie; DOMCOM = domcom; FISCAL = fiscal; FISCALPAYS = fiscalpays;
     render();
   } catch(e) {
     document.getElementById('app').innerHTML =
@@ -1576,6 +1577,22 @@ function calculer() {
         <div class="result-line" style="font-size:0.72rem;opacity:0.6">
           <span class="lbl">${indemPaysNote}</span><span class="val"></span>
         </div>`;
+
+      // Badge fiscal pays
+      if (FISCALPAYS && E.pays) {
+        const fp = FISCALPAYS.pays[E.pays];
+        if (fp) {
+          const regime = FISCALPAYS.regimes[fp.regime];
+          lines += `<div style="background:#0e1310;border-radius:8px;padding:10px 14px;margin:8px 0;font-size:0.78rem">
+            <div style="font-size:0.7rem;font-weight:700;color:#c8b8ff;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:6px">🧾 Régime fiscal — ${fp.label}</div>
+            <div style="display:inline-block;background:${regime?.couleur || '#888'}22;border:1px solid ${regime?.couleur || '#888'};color:${regime?.couleur || '#888'};font-size:0.72rem;font-weight:700;padding:2px 8px;border-radius:12px;margin-bottom:6px">${regime?.label || fp.regime}</div>
+            <div style="color:rgba(255,255,255,0.5);font-size:0.72rem;line-height:1.5;margin-bottom:4px">${fp.note}</div>
+            ${fp.convention_france ? \`<div style="color:rgba(255,255,255,0.3);font-size:0.68rem">Convention fiscale : ${fp.convention_date || 'oui'}</div>\` : '<div style="color:#f08080;font-size:0.68rem">⚠️ Pas de convention fiscale avec la France</div>'}
+            ${fp.ir_local && fp.ir_local === false ? \`<div style="color:#7ac890;font-size:0.68rem;margin-top:4px">✓ Pas d IR local — ISVL/IE exonérées d IR (art. 81 CGI) — IR français standard</div>\` : ''}
+            <div style="color:rgba(255,255,255,0.25);font-size:0.65rem;margin-top:6px">Source : impots.gouv.fr · Vérifier avec le poste diplomatique pour votre situation personnelle</div>
+          </div>\`;
+        }
+      }
     } else {
       lines += `
         <div class="result-line">
