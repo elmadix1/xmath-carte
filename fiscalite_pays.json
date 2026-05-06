@@ -1,9 +1,9 @@
 {
-  "_FICHIER": "fiscalite_pays.json — Régime fiscal par pays pour les agents AEFE",
+  "_FICHIER": "fiscalite_pays.json - Régime fiscal par pays pour les agents AEFE",
   "_DERNIERE_MAJ": "Mai 2026",
   "_SOURCE": "Conventions fiscales France / impots.gouv.fr / AEFE / SNES-FSU",
   "_NOTE_GENERALE": "Règle de base (art. 4 B CGI) : les agents AEFE restent fiscalement domiciliés en France s ils ne sont pas soumis à un impôt personnel sur l ensemble de leurs revenus dans le pays d exercice. Dans ce cas : IR français standard, ISVL et IE exonérées d IR (art. 81 CGI).",
-  "_FOURNIR": "En cas de changement de convention fiscale ou de réforme fiscale locale — vérifier sur impots.gouv.fr/les-conventions-internationales",
+  "_FOURNIR": "En cas de changement de convention fiscale ou de réforme fiscale locale - vérifier sur impots.gouv.fr/les-conventions-internationales",
   "regimes": {
     "france_uniquement": {
       "label": "Imposé en France uniquement",
@@ -11,7 +11,7 @@
       "explication": "Le pays d exercice n impose pas les revenus personnels. L agent reste fiscalement domicilié en France et paie l IR français standard. ISVL et IE sont exonérées d IR (art. 81 CGI)."
     },
     "local_exonere_france": {
-      "label": "Imposé localement — exonéré en France",
+      "label": "Imposé localement - exonéré en France",
       "couleur": "#f0c060",
       "explication": "Le pays d exercice impose les revenus. La convention fiscale France-pays attribue le droit d imposer au pays d exercice. L agent est exonéré d IR en France sur ses revenus d activité (mais doit quand même déclarer). ISVL et IE restent exonérées."
     },
@@ -32,7 +32,7 @@
       "regime": "france_uniquement",
       "ir_local": false,
       "convention_france": true,
-      "convention_date": "18 février 1982 — reconduite jusqu au 31 décembre 2029",
+      "convention_date": "18 février 1982 - reconduite jusqu au 31 décembre 2029",
       "note": "Aucun IR personnel en Arabie Saoudite. Convention fiscale France-Arabie Saoudite en vigueur. Agent imposé en France selon le barème standard."
     },
     "emirats-arabes-unis": {
@@ -87,7 +87,7 @@
       "taux_max_local": 47,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Espagne du 10 octobre 1995",
-      "note": "IR espagnol progressif (jusqu à 47%). Convention franco-espagnole : clause agent public — fonctionnaires français imposables en France. Vérifier avec le consulat."
+      "note": "IR espagnol progressif (jusqu à 47%). Convention franco-espagnole : clause agent public - fonctionnaires français imposables en France. Vérifier avec le consulat."
     },
     "italie": {
       "label": "Italie",
@@ -96,7 +96,7 @@
       "taux_max_local": 43,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Italie du 5 octobre 1989",
-      "note": "IR italien progressif (jusqu à 43%). Convention franco-italienne : clause agent public — fonctionnaires français imposables en France."
+      "note": "IR italien progressif (jusqu à 43%). Convention franco-italienne : clause agent public - fonctionnaires français imposables en France."
     },
     "belgique": {
       "label": "Belgique",
@@ -105,7 +105,7 @@
       "taux_max_local": 50,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Belgique du 10 mars 1964 modifiée",
-      "note": "IR belge progressif (jusqu à 50%). Convention franco-belge : clause agent public — fonctionnaires français imposables en France."
+      "note": "IR belge progressif (jusqu à 50%). Convention franco-belge : clause agent public - fonctionnaires français imposables en France."
     },
     "maroc": {
       "label": "Maroc",
@@ -203,7 +203,7 @@
       "taux_max_local": 55,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Japon du 3 mars 1995",
-      "note": "IR japonais progressif (jusqu à 55% national + préfectoral). Convention franco-japonaise : clause agent public — fonctionnaires français peuvent rester imposables en France. Vérifier impérativement avec le poste diplomatique."
+      "note": "IR japonais progressif (jusqu à 55% national + préfectoral). Convention franco-japonaise : clause agent public - fonctionnaires français peuvent rester imposables en France. Vérifier impérativement avec le poste diplomatique."
     },
     "chine": {
       "label": "Chine",
@@ -307,7 +307,7 @@
       "taux_max_local": 22,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Singapour du 9 septembre 2009",
-      "note": "IR singapourien progressif (jusqu à 22%) — relativement faible. Convention franco-singapourienne en vigueur. Contacter le poste diplomatique."
+      "note": "IR singapourien progressif (jusqu à 22%) - relativement faible. Convention franco-singapourienne en vigueur. Contacter le poste diplomatique."
     },
     "suisse": {
       "label": "Suisse",
@@ -316,7 +316,7 @@
       "taux_max_local": 40,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Suisse du 9 septembre 1966 modifiée",
-      "note": "IR suisse fédéral + cantonal (taux variable selon canton — jusqu à 40%). Convention franco-suisse en vigueur. Clause agent public : fonctionnaires français généralement imposables en France. Vérifier avec le consulat."
+      "note": "IR suisse fédéral + cantonal (taux variable selon canton - jusqu à 40%). Convention franco-suisse en vigueur. Clause agent public : fonctionnaires français généralement imposables en France. Vérifier avec le consulat."
     },
     "russie": {
       "label": "Russie",
@@ -370,7 +370,7 @@
       "taux_max_local": 15,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Maurice du 11 décembre 1980",
-      "note": "IR mauricien flat tax 15% — relativement faible. Convention franco-mauricienne en vigueur. Contacter le poste diplomatique."
+      "note": "IR mauricien flat tax 15% - relativement faible. Convention franco-mauricienne en vigueur. Contacter le poste diplomatique."
     },
     "jordanie": {
       "label": "Jordanie",
@@ -405,7 +405,7 @@
       "taux_max_local": 10,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Roumanie du 27 septembre 1974",
-      "note": "IR roumain flat tax 10% — très faible. Convention franco-roumaine en vigueur. Contacter le poste diplomatique."
+      "note": "IR roumain flat tax 10% - très faible. Convention franco-roumaine en vigueur. Contacter le poste diplomatique."
     },
     "portugal": {
       "label": "Portugal",
@@ -649,7 +649,7 @@
       "taux_max_local": 15,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Hongrie du 28 avril 1980",
-      "note": "IR hongrois (15% flat — très faible). Convention franco-hongroise en vigueur. Contacter le poste diplomatique."
+      "note": "IR hongrois (15% flat - très faible). Convention franco-hongroise en vigueur. Contacter le poste diplomatique."
     },
     "indonesie": {
       "label": "Indonésie",
@@ -715,7 +715,7 @@
       "regime": "france_uniquement",
       "ir_local": false,
       "convention_france": false,
-      "note": "Libye : IR personnel très limité ou inexistant pour les salariés. Agent généralement imposé en France. Situation politique complexe — contacter impérativement le poste diplomatique."
+      "note": "Libye : IR personnel très limité ou inexistant pour les salariés. Agent généralement imposé en France. Situation politique complexe - contacter impérativement le poste diplomatique."
     },
     "luxembourg": {
       "label": "Luxembourg",
@@ -724,7 +724,7 @@
       "taux_max_local": 45,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Luxembourg du 20 mars 2018 (en vigueur depuis 2024)",
-      "note": "IR luxembourgeois progressif (jusqu à 45%). Nouvelle convention franco-luxembourgeoise en vigueur depuis 2024 — revenus luxembourgeois imposés au Luxembourg uniquement. Contacter le poste diplomatique."
+      "note": "IR luxembourgeois progressif (jusqu à 45%). Nouvelle convention franco-luxembourgeoise en vigueur depuis 2024 - revenus luxembourgeois imposés au Luxembourg uniquement. Contacter le poste diplomatique."
     },
     "macedoine": {
       "label": "Macédoine du Nord",
@@ -947,7 +947,7 @@
       "taux_max_local": 60,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Tchad du 31 octobre 1967",
-      "note": "IR tchadien (jusqu à 60% — taux très élevé). Convention franco-tchadienne en vigueur. Situation politique complexe. Contacter le poste diplomatique."
+      "note": "IR tchadien (jusqu à 60% - taux très élevé). Convention franco-tchadienne en vigueur. Situation politique complexe. Contacter le poste diplomatique."
     },
     "togo": {
       "label": "Togo",
@@ -989,7 +989,7 @@
       "ir_local": true,
       "taux_max_local": 15,
       "convention_france": false,
-      "note": "IR yéménite (15% flat). Pas de convention fiscale avec la France. Situation de conflit — contacter impérativement le poste diplomatique."
+      "note": "IR yéménite (15% flat). Pas de convention fiscale avec la France. Situation de conflit - contacter impérativement le poste diplomatique."
     },
     "zambie": {
       "label": "Zambie",
@@ -1023,7 +1023,7 @@
       "taux_max_local": 56,
       "convention_france": true,
       "convention_date": "Convention fiscale France-Danemark du 8 février 1957",
-      "note": "IR danois progressif (jusqu à 56% — parmi les plus élevés du monde). Convention franco-danoise en vigueur. Contacter le poste diplomatique."
+      "note": "IR danois progressif (jusqu à 56% - parmi les plus élevés du monde). Convention franco-danoise en vigueur. Contacter le poste diplomatique."
     },
     "suede": {
       "label": "Suède",
