@@ -379,7 +379,7 @@ function render() {
         ? 'Source ISVL : Arrêté du 8 octobre 2025 JO (montant annuel fixe selon le groupe G1-G8)'
         : 'Source : non officiel Groupe 5 Contactez l\'AEFE ou le SNES-FSU pour le montant exact'
       }</div>
-      ${E.pays ? `<a href="/emplois-${E.pays}.html" target="_blank" style="display:inline-flex;align-items:center;gap:6px;margin-top:8px;background:#1a3a28;color:#7ac890;font-size:0.78rem;font-weight:600;padding:6px 12px;border-radius:20px;text-decoration:none;border:1px solid #2a5c3a;">🔗 Voir les offres dans ce pays →</a>` : ''}
+      <div id="lien-pays-pricer"></div>
     </div>` : '';
 
   const hsaSection = corpConf.hsa ? `
@@ -1661,6 +1661,16 @@ function calculer() {
   document.getElementById('result-alertes').innerHTML = alertes.map(a => `<div style="margin-bottom:6px">${a}</div>`).join('') || '';
   if (!alertes.length) document.getElementById('result-alertes').style.display = 'none';
   else document.getElementById('result-alertes').style.display = 'block';
+
+  // Lien page pays dynamique
+  const lienPays = document.getElementById('lien-pays-pricer');
+  if (lienPays) {
+    if (E.pays && situation !== 'france') {
+      lienPays.innerHTML = `<a href="/emplois-${E.pays}.html" target="_blank" style="display:inline-flex;align-items:center;gap:6px;margin-top:8px;background:#1a3a28;color:#7ac890;font-size:0.78rem;font-weight:600;padding:6px 12px;border-radius:20px;text-decoration:none;border:1px solid #2a5c3a;">🔗 Voir les offres disponibles dans ce pays →</a>`;
+    } else {
+      lienPays.innerHTML = '';
+    }
+  }
 
   // Simulateur fiscal France
   const fiscalSection = document.getElementById('fiscal-france-section');
