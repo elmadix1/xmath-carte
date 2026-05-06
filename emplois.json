@@ -1,28 +1,105 @@
 {
-  "updated": "2026-05-06 07:50",
-  "total": 621,
+  "updated": "2026-05-06 18:21",
+  "total": 628,
   "offers": [
     {
+      "id": 4371019,
+      "titre": "CIVA - Professeur d'EPS - F/H - ABIDJAN - CÔTE D'IVOIRE",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4371019-civa-professeur-deps-fh-abidjan-cote-divoire-bp-157-abidjan"
+    },
+    {
+      "id": 4370869,
+      "titre": "Professeur du Second Degré d'histoire géographie - F/H - MEDELLIN - COLOMBIE",
+      "etab": "",
+      "ville": "Envigado",
+      "pays": "Colombie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4370869-professeur-du-second-degre-dhistoire-geographie-fh-medellin-colombie-055427-envigado"
+    },
+    {
+      "id": 4370379,
+      "titre": "Assistant d'Éducation F/H - Lycée Louis Massignon - ABU DHABI - EAU",
+      "etab": "",
+      "ville": "Abu Dhabi",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4370379-assistant-deducation-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
+    },
+    {
+      "id": 4370233,
+      "titre": "Professeur du Second Degré - SVT - F/H - MONASTIR - TUNISIE",
+      "etab": "",
+      "ville": "Monastir",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4370233-professeur-du-second-degre-svt-fh-monastir-tunisie-monastir"
+    },
+    {
+      "id": 4369983,
+      "titre": "Conseiller Principal d’Éducation (CPE) - F/H - TANGER - MAROC",
+      "etab": "",
+      "ville": "Tangier",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4369983-conseiller-principal-d-education-cpe-fh-tanger-maroc-tangier"
+    },
+    {
+      "id": 4369931,
+      "titre": "Conseiller Principal d’Éducation (CPE) - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4369931-conseiller-principal-d-education-cpe-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4369769,
+      "titre": "Surveillant | Playground Supervisor - vacations - F/H - LONDRES - ROYAUME-UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat temporaire",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4369769-surveillant-playground-supervisor-vacations-fh-londres-royaume-uni-greater-london"
+    },
+    {
       "id": 4369331,
-      "titre": "Professeur de Philosophie/Lettres modernes, Lycée Voltaire - Le Caire - EGYPTE",
+      "titre": "Professeur de Philosophie/Lettres modernes - F/H - LE CAIRE - EGYPTE",
       "etab": "",
       "ville": "Cairo",
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de philosophie F/H",
       "date": "06/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4369331-professeur-de-philosophielettres-modernes-lycee-voltaire-le-caire-egypte-cairo"
+      "url": "https://talents.aefe.fr/fr/annonce/4369331-professeur-de-philosophielettres-modernes-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4369191,
-      "titre": "Conseiller Principal d'Éducation F/H",
+      "titre": "Conseiller Principal d'Éducation - F/H - DUBAI - EMIRATS ARABES UNIS",
       "etab": "",
       "ville": "Dubai",
-      "pays": "",
+      "pays": "Émirats Arabes Unis",
       "contrat": "Contrat permanent",
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "06/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4369191-conseiller-principal-deducation-fh-dubai"
+      "url": "https://talents.aefe.fr/fr/annonce/4369191-conseiller-principal-deducation-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
       "id": 4369189,
@@ -122,17 +199,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "04/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4365157-professeur-danglais-titulaire-fh-medellin-colombie-055427-envigado"
-    },
-    {
-      "id": 4364685,
-      "titre": "Assistant(e) d'Éducation F/H",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "06/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4364685-assistante-deducation-fh-golbas%C4%B1"
     },
     {
       "id": 4363815,
@@ -5207,7 +5273,7 @@
     },
     {
       "id": 4215495,
-      "titre": "Principal adjoint F/H - MEDELLIN - COLOMBIE",
+      "titre": "Principal adjoint - F/H - MEDELLIN - COLOMBIE",
       "etab": "",
       "ville": "Envigado",
       "pays": "Colombie",
@@ -5218,7 +5284,7 @@
     },
     {
       "id": 4215479,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - MEDELLIN - COLOMBIE",
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - MEDELLIN - COLOMBIE",
       "etab": "",
       "ville": "Envigado",
       "pays": "Colombie",
@@ -5490,6 +5556,17 @@
       "discipline": "Proviseur adjoint F/H",
       "date": "27/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4188629-head-of-british-section-fh-londres-royaume-uni-greater-london"
+    },
+    {
+      "id": 4182527,
+      "titre": "Professeur du Second Degré - Histoire-Géo et SES - F/H - PATTAYA - THAÏLANDE",
+      "etab": "",
+      "ville": "Pattaya City",
+      "pays": "Thaïlande",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4182527-professeur-du-second-degre-histoire-geo-et-ses-fh-pattaya-thailande-20150-pattaya-city"
     },
     {
       "id": 4182379,

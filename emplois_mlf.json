@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-06 07:50",
-  "total": 251,
+  "updated": "2026-05-06 18:21",
+  "total": 255,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3390,6 +3390,62 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3709_offre-emploi-professeur-dhistoire-geographie.html"
+    },
+    {
+      "id": 3720,
+      "titre": "Gestionnaire",
+      "etab": "",
+      "ville": "Gran Canaria",
+      "pays": "Espagne",
+      "contrat": "",
+      "discipline": "",
+      "date": "06/05/2026",
+      "date_limite": "18/05/2026",
+      "date_prise": "24/08/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3720_offre-emploi-gestionnaire.html"
+    },
+    {
+      "id": 3721,
+      "titre": "Gestionnaire",
+      "etab": "",
+      "ville": "Saragosse",
+      "pays": "Espagne",
+      "contrat": "",
+      "discipline": "",
+      "date": "06/05/2026",
+      "date_limite": "18/05/2026",
+      "date_prise": "24/08/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3721_offre-emploi-gestionnaire.html"
+    },
+    {
+      "id": 3722,
+      "titre": "Professeur Lettres et Histoire géographie",
+      "etab": "",
+      "ville": "Pekanbaru",
+      "pays": "Indonésie",
+      "contrat": "",
+      "discipline": "",
+      "date": "06/05/2026",
+      "date_limite": "24/05/2026",
+      "date_prise": "24/08/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3722_offre-emploi-professeur-lettres-et-histoire-geographie.html"
+    },
+    {
+      "id": 3723,
+      "titre": "Professeurs de Mathématiques - Sciences",
+      "etab": "",
+      "ville": "Pekanbaru",
+      "pays": "Indonésie",
+      "contrat": "",
+      "discipline": "",
+      "date": "06/05/2026",
+      "date_limite": "24/05/2026",
+      "date_prise": "24/08/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3723_offre-emploi-professeurs-de-mathematiques-sciences.html"
     },
     {
       "id": 3535,
