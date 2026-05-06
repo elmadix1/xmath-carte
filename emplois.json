@@ -1,7 +1,40 @@
 {
-  "updated": "2026-05-05 18:18",
-  "total": 624,
+  "updated": "2026-05-06 07:50",
+  "total": 621,
   "offers": [
+    {
+      "id": 4369331,
+      "titre": "Professeur de Philosophie/Lettres modernes, Lycée Voltaire - Le Caire - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4369331-professeur-de-philosophielettres-modernes-lycee-voltaire-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4369191,
+      "titre": "Conseiller Principal d'Éducation F/H",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4369191-conseiller-principal-deducation-fh-dubai"
+    },
+    {
+      "id": 4369189,
+      "titre": "Professeur Anglais (second degré) - F/H - DUBAI – EMIRATS ARABES UNIS",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4369189-professeur-anglais-second-degre-fh-dubai-emirats-arabes-unis-dubai"
+    },
     {
       "id": 4368567,
       "titre": "Recrutement interne - ATSEM - F/H - LONDRES - ROYAUME UNI",
@@ -89,6 +122,17 @@
       "discipline": "Professeur du second degré F/H",
       "date": "04/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4365157-professeur-danglais-titulaire-fh-medellin-colombie-055427-envigado"
+    },
+    {
+      "id": 4364685,
+      "titre": "Assistant(e) d'Éducation F/H",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4364685-assistante-deducation-fh-golbas%C4%B1"
     },
     {
       "id": 4363815,
@@ -2731,17 +2775,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4318913-professeur-du-second-degre-lettres-fh-manille-philippines-paranaque"
     },
     {
-      "id": 4318837,
-      "titre": "Professeur de Lettres - F/H - Lycée Louis Massignon - ABU DHABI - EAU",
-      "etab": "",
-      "ville": "Abu Dhabi",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "08/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4318837-professeur-de-lettres-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
-    },
-    {
       "id": 4318807,
       "titre": "Professeur de SVT - F/H - ORAN - ALGERIE",
       "etab": "",
@@ -3719,17 +3752,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "25/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4294691-enseignant-du-second-degre-lettres-fh-kuala-lumpur-malaisie-kuala-lumpur"
-    },
-    {
-      "id": 4294689,
-      "titre": "Enseignant du Second Degré - Allemand - F/H - KUALA LUMPUR - MALAISIE",
-      "etab": "",
-      "ville": "Kuala Lumpur",
-      "pays": "Malaisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’allemand F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4294689-enseignant-du-second-degre-allemand-fh-kuala-lumpur-malaisie-kuala-lumpur"
     },
     {
       "id": 4294675,
@@ -4821,83 +4843,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4263309-professeur-du-second-degre-anglais-fh-lfa-alexandrie-egypte-alexandria"
     },
     {
-      "id": 4262757,
-      "titre": "Professeur des écoles - F/H - HOUSTON - TEXAS - ETATS UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "06/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4262757-professeur-des-ecoles-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
-      "id": 4262755,
-      "titre": "Professeur des écoles - F/H - HOUSTON - TEXAS - ETATS UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "06/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4262755-professeur-des-ecoles-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
-      "id": 4262751,
-      "titre": "Professeur - Lettres Modernes - F/H - HOUSTON - TEXAS - ETATS UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "06/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4262751-professeur-lettres-modernes-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
-      "id": 4262749,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - HOUSTON - TEXAS - ETATS UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "06/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4262749-professeur-du-second-degre-mathematiques-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
-      "id": 4262745,
-      "titre": "Professeur du Second Degré - SVT - F/H - HOUSTON - TEXAS - ETATS UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "06/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4262745-professeur-du-second-degre-svt-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
-      "id": 4262741,
-      "titre": "Professeur de physique et de chimie - F/H - HOUSTON - TEXAS - ETATS UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "06/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4262741-professeur-de-physique-et-de-chimie-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
-      "id": 4262735,
-      "titre": "Professeur d'Histoire Géographie - F/H - HOUSTON - TEXAS - ETATS UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "06/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4262735-professeur-dhistoire-geographie-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
       "id": 4259761,
       "titre": "Professeur du Second Degré - SVT & SPC - F/H - TIRANA - ALBANIE",
       "etab": "",
@@ -5028,6 +4973,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "20/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4241269-professeur-des-ecoles-fh-dubai-emirats-arabes-unis-dubai"
+    },
+    {
+      "id": 4238417,
+      "titre": "Professeur du Second Degré - SVT - F/H - MEDELLIN - COLOMBIE",
+      "etab": "",
+      "ville": "Envigado",
+      "pays": "Colombie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "05/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4238417-professeur-du-second-degre-svt-fh-medellin-colombie-055427-envigado"
     },
     {
       "id": 4238157,
@@ -5248,6 +5204,28 @@
       "discipline": "Directeur du primaire F/H",
       "date": "21/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4215627-directeur-du-primaire-fh-battambang-cambdoge-krong-battambang"
+    },
+    {
+      "id": 4215495,
+      "titre": "Principal adjoint F/H - MEDELLIN - COLOMBIE",
+      "etab": "",
+      "ville": "Envigado",
+      "pays": "Colombie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Principal adjoint F/H",
+      "date": "05/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4215495-principal-adjoint-fh-medellin-colombie-055427-envigado"
+    },
+    {
+      "id": 4215479,
+      "titre": "Professeur du Second Degré - Mathématiques F/H - MEDELLIN - COLOMBIE",
+      "etab": "",
+      "ville": "Envigado",
+      "pays": "Colombie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "05/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4215479-professeur-du-second-degre-mathematiques-fh-medellin-colombie-055427-envigado"
     },
     {
       "id": 4214659,
@@ -5710,17 +5688,6 @@
       "discipline": "Principal adjoint F/H",
       "date": "07/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4154577-directeur-adjoint-en-charge-de-lecole-maternelle-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4154369,
-      "titre": "Enseignant en Mathématiques Rentrée 2026/2027 - F/H - KUALA LUMPUR - MALAISIE",
-      "etab": "",
-      "ville": "Kuala Lumpur",
-      "pays": "Malaisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "13/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4154369-enseignant-en-mathematiques-rentree-20262027-fh-kuala-lumpur-malaisie-kuala-lumpur"
     },
     {
       "id": 4153087,
