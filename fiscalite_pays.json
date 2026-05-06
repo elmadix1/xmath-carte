@@ -161,15 +161,6 @@
       "convention_date": "Convention fiscale France-Gabon du 21 avril 1966",
       "note": "IR gabonais progressif. Convention franco-gabonaise en vigueur. Contacter le poste diplomatique."
     },
-    "cote-d-ivoire": {
-      "label": "Côte d Ivoire",
-      "regime": "complexe",
-      "ir_local": true,
-      "taux_max_local": 36,
-      "convention_france": true,
-      "convention_date": "Convention fiscale France-Côte d Ivoire du 6 avril 1966",
-      "note": "IR ivoirien progressif. Convention franco-ivoirienne en vigueur. Contacter le poste diplomatique."
-    },
     "madagascar": {
       "label": "Madagascar",
       "regime": "complexe",
@@ -354,15 +345,6 @@
       "convention_date": "Convention fiscale France-Vietnam du 10 février 1993",
       "note": "IR vietnamien progressif (jusqu à 35%). Convention franco-vietnamienne en vigueur. Contacter le poste diplomatique."
     },
-    "thaïlande": {
-      "label": "Thaïlande",
-      "regime": "complexe",
-      "ir_local": true,
-      "taux_max_local": 35,
-      "convention_france": true,
-      "convention_date": "Convention fiscale France-Thaïlande du 27 décembre 1974",
-      "note": "IR thaïlandais progressif (jusqu à 35%). Convention franco-thaïlandaise en vigueur. Contacter le poste diplomatique."
-    },
     "ile-maurice": {
       "label": "Île Maurice",
       "regime": "local_exonere_france",
@@ -535,15 +517,6 @@
       "convention_france": true,
       "convention_date": "Convention fiscale France-Chili du 7 juin 2004",
       "note": "IR chilien progressif (jusqu à 40%). Convention franco-chilienne en vigueur. Contacter le poste diplomatique."
-    },
-    "congo": {
-      "label": "Congo (Brazzaville)",
-      "regime": "complexe",
-      "ir_local": true,
-      "taux_max_local": 50,
-      "convention_france": true,
-      "convention_date": "Convention fiscale France-Congo du 27 novembre 1987",
-      "note": "IR congolais (jusqu à 50%). Convention franco-congolaise en vigueur. Contacter le poste diplomatique."
     },
     "costa-rica": {
       "label": "Costa Rica",
@@ -763,7 +736,7 @@
       "note": "IR mauritanien (jusqu à 33%). Convention franco-mauritanienne en vigueur. Contacter le poste diplomatique."
     },
     "myanmar": {
-      "label": "Myanmar (Birmanie)",
+      "label": "Myanmar",
       "regime": "double_possible",
       "ir_local": true,
       "taux_max_local": 25,
@@ -862,23 +835,6 @@
       "convention_france": true,
       "convention_date": "Convention fiscale France-Philippines du 9 janvier 1976",
       "note": "IR philippin progressif (jusqu à 35%). Convention franco-philippine en vigueur. Contacter le poste diplomatique."
-    },
-    "republique-dominicaine": {
-      "label": "République dominicaine",
-      "regime": "double_possible",
-      "ir_local": true,
-      "taux_max_local": 25,
-      "convention_france": false,
-      "note": "IR dominicain (jusqu à 25%). Pas de convention fiscale avec la France. Contacter le poste diplomatique."
-    },
-    "republique-tcheque": {
-      "label": "République tchèque",
-      "regime": "local_exonere_france",
-      "ir_local": true,
-      "taux_max_local": 23,
-      "convention_france": true,
-      "convention_date": "Convention fiscale France-République tchèque du 28 juin 2003",
-      "note": "IR tchèque (15% et 23%). Convention franco-tchèque en vigueur. Contacter le poste diplomatique."
     },
     "rwanda": {
       "label": "Rwanda",
@@ -1052,22 +1008,6 @@
       "convention_date": "Convention fiscale France-Pays-Bas du 16 mars 1973",
       "note": "IR néerlandais progressif (jusqu à 49,5%). Convention franco-néerlandaise en vigueur. Contacter le poste diplomatique."
     },
-    "republique-democratique-congo": {
-      "label": "RD Congo",
-      "regime": "complexe",
-      "ir_local": true,
-      "taux_max_local": 40,
-      "convention_france": false,
-      "note": "IR congolais (RDC, jusqu à 40%). Pas de convention fiscale avec la France. Contacter le poste diplomatique."
-    },
-    "myanmar-birmanie": {
-      "label": "Myanmar",
-      "regime": "double_possible",
-      "ir_local": true,
-      "taux_max_local": 25,
-      "convention_france": false,
-      "note": "IR birman (jusqu à 25%). Pas de convention fiscale avec la France. Situation politique complexe. Contacter le poste diplomatique."
-    },
     "taiwan": {
       "label": "Taïwan",
       "regime": "double_possible",
@@ -1084,6 +1024,147 @@
       "convention_france": true,
       "convention_date": "Convention fiscale France-Hong Kong du 21 octobre 2010",
       "note": "IR hongkongais très faible (standard rate 15% ou barème progressif max 17%). Convention franco-hongkongaise en vigueur. Contacter le poste diplomatique."
+    },
+    "rep-tcheque": {
+      "label": "République tchèque",
+      "regime": "local_exonere_france",
+      "ir_local": true,
+      "taux_max_local": 23,
+      "convention_france": true,
+      "convention_date": "Convention fiscale France-République tchèque du 28 juin 2003",
+      "note": "IR tchèque (15% et 23%). Convention franco-tchèque en vigueur. Contacter le poste diplomatique."
+    },
+    "rep-dominicaine": {
+      "label": "République dominicaine",
+      "regime": "double_possible",
+      "ir_local": true,
+      "taux_max_local": 25,
+      "convention_france": false,
+      "note": "IR dominicain (jusqu à 25%). Pas de convention fiscale avec la France. Contacter le poste diplomatique."
+    },
+    "republique-democratique-du-congo": {
+      "label": "RD Congo",
+      "regime": "complexe",
+      "ir_local": true,
+      "taux_max_local": 40,
+      "convention_france": false,
+      "note": "IR congolais (RDC, jusqu à 40%). Pas de convention fiscale avec la France. Contacter le poste diplomatique."
+    },
+    "thailande": {
+      "label": "Thaïlande",
+      "regime": "complexe",
+      "ir_local": true,
+      "taux_max_local": 35,
+      "convention_france": true,
+      "convention_date": "Convention fiscale France-Thaïlande du 27 décembre 1974",
+      "note": "IR thaïlandais progressif (jusqu à 35%). Convention franco-thaïlandaise en vigueur. Contacter le poste diplomatique."
+    },
+    "cote-ivoire": {
+      "label": "Côte d Ivoire",
+      "regime": "complexe",
+      "ir_local": true,
+      "taux_max_local": 36,
+      "convention_france": true,
+      "convention_date": "Convention fiscale France-Côte d Ivoire du 6 avril 1966",
+      "note": "IR ivoirien progressif. Convention franco-ivoirienne en vigueur. Contacter le poste diplomatique."
+    },
+    "congo-brazzaville": {
+      "label": "Congo (Brazzaville)",
+      "regime": "complexe",
+      "ir_local": true,
+      "taux_max_local": 50,
+      "convention_france": true,
+      "convention_date": "Convention fiscale France-Congo du 27 novembre 1987",
+      "note": "IR congolais (jusqu à 50%). Convention franco-congolaise en vigueur. Contacter le poste diplomatique."
+    },
+    "bulgarie": {
+      "label": "Bulgarie",
+      "regime": "local_exonere_france",
+      "ir_local": true,
+      "taux_max_local": 10,
+      "convention_france": true,
+      "convention_date": "Convention fiscale France-Bulgarie du 14 mars 1988",
+      "note": "IR bulgare (10% flat - tres faible). Convention franco-bulgare en vigueur. Contacter le poste diplomatique."
+    },
+    "chypre": {
+      "label": "Chypre",
+      "regime": "local_exonere_france",
+      "ir_local": true,
+      "taux_max_local": 35,
+      "convention_france": true,
+      "convention_date": "Convention fiscale France-Chypre du 18 juin 1981",
+      "note": "IR chypriote progressif (jusqu a 35%). Convention franco-chypriote en vigueur. Contacter le poste diplomatique."
+    },
+    "comores": {
+      "label": "Comores",
+      "regime": "double_possible",
+      "ir_local": true,
+      "taux_max_local": 30,
+      "convention_france": false,
+      "note": "IR comorien (jusqu a 30%). Pas de convention fiscale avec la France. Contacter le poste diplomatique."
+    },
+    "finlande": {
+      "label": "Finlande",
+      "regime": "local_exonere_france",
+      "ir_local": true,
+      "taux_max_local": 56,
+      "convention_france": true,
+      "convention_date": "Convention fiscale France-Finlande du 11 septembre 1970",
+      "note": "IR finlandais progressif (jusqu a 56% - parmi les plus eleves). Convention franco-finlandaise en vigueur. Contacter le poste diplomatique."
+    },
+    "gambie": {
+      "label": "Gambie",
+      "regime": "double_possible",
+      "ir_local": true,
+      "taux_max_local": 35,
+      "convention_france": false,
+      "note": "IR gambien (jusqu a 35%). Pas de convention fiscale avec la France. Contacter le poste diplomatique."
+    },
+    "guinee-equatoriale": {
+      "label": "Guinee Equatoriale",
+      "regime": "double_possible",
+      "ir_local": true,
+      "taux_max_local": 35,
+      "convention_france": false,
+      "note": "IR equato-guineen (jusqu a 35%). Pas de convention fiscale avec la France. Contacter le poste diplomatique."
+    },
+    "mozambique": {
+      "label": "Mozambique",
+      "regime": "double_possible",
+      "ir_local": true,
+      "taux_max_local": 32,
+      "convention_france": false,
+      "note": "IR mozambicain (jusqu a 32%). Pas de convention fiscale avec la France. Contacter le poste diplomatique."
+    },
+    "salvador": {
+      "label": "Salvador",
+      "regime": "double_possible",
+      "ir_local": true,
+      "taux_max_local": 30,
+      "convention_france": false,
+      "note": "IR salvadorien (jusqu a 30%). Pas de convention fiscale avec la France. Contacter le poste diplomatique."
+    },
+    "seychelles": {
+      "label": "Seychelles",
+      "regime": "france_uniquement",
+      "ir_local": false,
+      "convention_france": false,
+      "note": "Seychelles : pas d IR personnel. Agent generalement impose en France. Pas de convention fiscale. Contacter le poste diplomatique."
+    },
+    "soudan": {
+      "label": "Soudan",
+      "regime": "double_possible",
+      "ir_local": true,
+      "taux_max_local": 20,
+      "convention_france": false,
+      "note": "IR soudanais (jusqu a 20%). Pas de convention fiscale avec la France. Situation politique complexe. Contacter le poste diplomatique."
+    },
+    "vanuatu": {
+      "label": "Vanuatu",
+      "regime": "france_uniquement",
+      "ir_local": false,
+      "convention_france": false,
+      "note": "Vanuatu : pas d IR personnel. Agent generalement impose en France. Pas de convention fiscale. Contacter le poste diplomatique."
     }
   }
 }
