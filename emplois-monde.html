@@ -159,6 +159,12 @@
 </footer>
 
 <script>
+// ── Compliance filter ─────────────────────────────────────────────────────────
+// Mettre à false pour réactiver l'affichage des pays restreints
+const COMPLIANCE_MODE = true;
+const RESTRICTED_COUNTRIES = ["Cuba", "Iran", "Corée du Nord", "Syrie"];
+// ─────────────────────────────────────────────────────────────────────────────
+
 // ── Données pays ──────────────────────────────────────────────────────────────
 // avec-ecole : renvoi vers /emplois.html?pays=xxx
 // sans-ecole : renvoi vers /emplois-slug.html
@@ -434,6 +440,7 @@ function render() {
     if (activeRegion !== 'all' && activeRegion !== regionKey) continue;
 
     const paysFiltres = region.pays.filter(p => {
+      if (COMPLIANCE_MODE && RESTRICTED_COUNTRIES.includes(p.nom)) return false;
       if (query && !p.nom.toLowerCase().includes(query)) return false;
       return true;
     });
