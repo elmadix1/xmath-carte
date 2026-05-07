@@ -1,7 +1,62 @@
 {
-  "updated": "2026-05-06 18:21",
-  "total": 628,
+  "updated": "2026-05-07 07:50",
+  "total": 630,
   "offers": [
+    {
+      "id": 4371659,
+      "titre": "PROFESSEUR DES ECOLES ANGLOPHONE - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "07/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4371659-professeur-des-ecoles-anglophone-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4371609,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "07/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4371609-professeur-du-second-degre-dhistoire-geographie-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4371523,
+      "titre": "ASSISTANT(E)S MATERNEL(LE)S À MI-TEMPS - Lycee de LUSAKA - ZAMBIE",
+      "etab": "",
+      "ville": "Lusaka",
+      "pays": "Zambie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Aide maternelle F/H",
+      "date": "07/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4371523-assistantes-maternelles-a-mi-temps-lycee-de-lusaka-zambie-lusaka"
+    },
+    {
+      "id": 4371483,
+      "titre": "Professeur des écoles CP ou CM1 ou CM2- F/H - LOS ANGELES - ETATS UNIS",
+      "etab": "",
+      "ville": "Los Angeles",
+      "pays": "États-Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "07/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4371483-professeur-des-ecoles-cp-ou-cm1-ou-cm2-fh-los-angeles-etats-unis-90034-los-angeles"
+    },
+    {
+      "id": 4371321,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Rio de Janeiro",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "06/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4371321-professeur-des-ecoles-fh-rio-de-janeiro"
+    },
     {
       "id": 4371019,
       "titre": "CIVA - Professeur d'EPS - F/H - ABIDJAN - CÔTE D'IVOIRE",
@@ -2115,17 +2170,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4331235-technicien-de-laboratoire-fh-rabat-maroc-rabat"
     },
     {
-      "id": 4331161,
-      "titre": "PROFESSEUR DES ECOLES - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331161-professeur-des-ecoles-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4330675,
       "titre": "Surveillant - site Incek - F/H - ANKARA - TURQUIE",
       "etab": "",
@@ -3809,17 +3853,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4295747-chargee-de-communication-et-de-developpement-fh-pondichery-inde-puducherry"
     },
     {
-      "id": 4294691,
-      "titre": "Enseignant du Second degré - Lettres - F/H - KUALA LUMPUR - MALAISIE",
-      "etab": "",
-      "ville": "Kuala Lumpur",
-      "pays": "Malaisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4294691-enseignant-du-second-degre-lettres-fh-kuala-lumpur-malaisie-kuala-lumpur"
-    },
-    {
       "id": 4294675,
       "titre": "Professeur de SES / Histoire-Géographie - F/H - LISBONNE - PORTUGAL",
       "etab": "",
@@ -5327,17 +5360,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4212001-professeur-du-second-degre-histoire-geographie-emc-fh-tunis-tunisie-1002-tunis"
     },
     {
-      "id": 4207709,
-      "titre": "Professeur des écoles - F/H - BATTAMBANG - CAMBODGE",
-      "etab": "",
-      "ville": "Krong Battambang",
-      "pays": "Cambodge",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "28/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4207709-professeur-des-ecoles-fh-battambang-cambodge-krong-battambang"
-    },
-    {
       "id": 4206455,
       "titre": "Professeur des Ecoles Mi-temps - Lycée Denis Diderot - F/H - NAIROBI - KENYA",
       "etab": "",
@@ -5994,7 +6016,7 @@
       "pays": "Chine",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de mathématiques F/H",
-      "date": "28/04/2026",
+      "date": "07/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4132659-professeur-du-second-degre-mathematiques-fh-shanghai-chine-shanghai"
     },
     {
