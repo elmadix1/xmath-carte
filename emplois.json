@@ -1,7 +1,18 @@
 {
-  "updated": "2026-05-07 18:29",
-  "total": 638,
+  "updated": "2026-05-08 06:38",
+  "total": 631,
   "offers": [
+    {
+      "id": 4374309,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H - BILBAO - ESPAGNE",
+      "etab": "",
+      "ville": "Zamudio",
+      "pays": "Espagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "08/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4374309-professeur-du-second-degre-physique-chimie-fh-bilbao-espagne-48170-zamudio"
+    },
     {
       "id": 4374073,
       "titre": "Professeur du Second Degré - Lettres Modernes F/H",
@@ -538,7 +549,7 @@
       "pays": "Allemagne",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de lettres classiques F/H",
-      "date": "",
+      "date": "28/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4357105-professeur-du-second-degre-lettres-classiques-fh-dusseldorf-allemagne-40237-dusseldorf"
     },
     {
@@ -2731,17 +2742,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4325021-professeur-des-ecoles-remplacant-fh-vina-del-mar-chili-vina-del-mar"
     },
     {
-      "id": 4324651,
-      "titre": "Assistant Pédagogique - Lycée des Mascareignes - F/H - MOKA - ILE MAURICE",
-      "etab": "",
-      "ville": "Moka",
-      "pays": "Île Maurice",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "10/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4324651-assistant-pedagogique-lycee-des-mascareignes-fh-moka-ile-maurice-moka"
-    },
-    {
       "id": 4324137,
       "titre": "Professeur des écoles– intervention en 6ème (sciences) - F/H - PRISTINA - KOSOVO",
       "etab": "",
@@ -4883,63 +4883,8 @@
       "pays": "Thaïlande",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "09/03/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4263343-professeur-de-svt-college-lycee-fh-koh-samui-thailande-84310-koh-samui"
-    },
-    {
-      "id": 4263331,
-      "titre": "Enseignant spécialisé primaire - F/H - Susceptible d'être vacant - SINGAPOUR",
-      "etab": "",
-      "ville": "Singapore",
-      "pays": "Singapour",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "09/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4263331-enseignant-specialise-primaire-fh-susceptible-detre-vacant-singapour-singapore"
-    },
-    {
-      "id": 4263315,
-      "titre": "Professeur du Second Degré - SVT - F/H - LFA (ALEXANDRIE - ÉGYPTE)",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "08/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4263315-professeur-du-second-degre-svt-fh-lfa-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4263313,
-      "titre": "Conseiller Principal d'Éducation - F/H - LFA (ALEXANDRIE - EGYPTE)",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "08/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4263313-conseiller-principal-deducation-fh-lfa-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4263311,
-      "titre": "Professeur du Second Degré - EPS - F/H - LFA (ALEXANDRIE - ÉGYPTE)",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "08/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4263311-professeur-du-second-degre-eps-fh-lfa-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4263309,
-      "titre": "Professeur du Second Degré - ANGLAIS - F/H - LFA (ALEXANDRIE - ÉGYPTE)",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "08/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4263309-professeur-du-second-degre-anglais-fh-lfa-alexandrie-egypte-alexandria"
     },
     {
       "id": 4259761,
@@ -5490,28 +5435,6 @@
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "29/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4199903-professeur-de-technologie-robotique-programmation-fh-koh-samui-thailande-84310-koh-samui"
-    },
-    {
-      "id": 4196989,
-      "titre": "Professeur de Maths -F/H - PHNOM PENH - CAMBODGE - LYCEE FRANCAIS RENE DESCARTES",
-      "etab": "",
-      "ville": "Phnom Penh",
-      "pays": "Cambodge",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4196989-professeur-de-maths-fh-phnom-penh-cambodge-lycee-francais-rene-descartes-phnom-penh"
-    },
-    {
-      "id": 4196985,
-      "titre": "Professeur de SPC - F/H - PHNOM PENH - CAMBODGE - LYCEE FRANCAIS RENE DESCARTES",
-      "etab": "",
-      "ville": "Phnom Penh",
-      "pays": "Cambodge",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4196985-professeur-de-spc-fh-phnom-penh-cambodge-lycee-francais-rene-descartes-phnom-penh"
     },
     {
       "id": 4196803,
