@@ -1,7 +1,40 @@
 {
-  "updated": "2026-05-09 07:14",
-  "total": 637,
+  "updated": "2026-05-09 17:54",
+  "total": 631,
   "offers": [
+    {
+      "id": 4375067,
+      "titre": "Enseignant(e) bilingue anglais - Business & Economics – programme IBDP",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "09/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4375067-enseignante-bilingue-anglais-business-economics-programme-ibdp-1350-164-lisboa"
+    },
+    {
+      "id": 4375059,
+      "titre": "Enseignant(e) spécialisé(e) – CAPPEI / CAPA-SH option E",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "09/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4375059-enseignante-specialisee-cappei-capa-sh-option-e-1350-164-lisboa"
+    },
+    {
+      "id": 4375051,
+      "titre": "Enseignant(e) bilingue anglais, titulaire du CAFIPEMF",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "09/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4375051-enseignante-bilingue-anglais-titulaire-du-cafipemf-1350-164-lisboa"
+    },
     {
       "id": 4374885,
       "titre": "Responsable de la communication - Lycée Français International de Panama",
@@ -4931,39 +4964,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4268337-professeur-de-lettres-modernes-fh-santa-cruz-de-la-sierra-bolivie-santa-cruz-de-la-sierra"
     },
     {
-      "id": 4267717,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - BRUXELLES - BELGIQUE",
-      "etab": "",
-      "ville": "Uccle",
-      "pays": "Belgique",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4267717-professeur-du-second-degre-mathematiques-fh-bruxelles-belgique-1180-uccle"
-    },
-    {
-      "id": 4266433,
-      "titre": "Professeur d'espagnol dans le secondaire - F/H - DELHI - INDE",
-      "etab": "",
-      "ville": "New Delhi",
-      "pays": "Inde",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’espagnol F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4266433-professeur-despagnol-dans-le-secondaire-fh-delhi-inde-110011-new-delhi"
-    },
-    {
-      "id": 4266163,
-      "titre": "Professeur des écoles - Rentrée 2026 - F/H - SOFIA - BULGARIE",
-      "etab": "",
-      "ville": "София",
-      "pays": "Bulgarie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4266163-professeur-des-ecoles-rentree-2026-fh-sofia-bulgarie-1700-%D1%81%D0%BE%D1%84%D0%B8%D1%8F"
-    },
-    {
       "id": 4264335,
       "titre": "Professeur d'Anglais du Second Degré - F/H - POINTE-NOIRE - REPUBLIQUE DU CONGO",
       "etab": "",
@@ -6317,39 +6317,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4112139-professeur-des-ecoles-fh-ecoles-al-jabr-tanger-maroc-tangier"
     },
     {
-      "id": 4112137,
-      "titre": "Professeur de lettres - Groupe Scolaire Jacques Chirac - F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4112137-professeur-de-lettres-groupe-scolaire-jacques-chirac-fh-rabat-maroc-rabat"
-    },
-    {
-      "id": 4112081,
-      "titre": "Professeur de Physique Chimie F/H - Groupe Scolaire Jacques Chirac - RABAT-MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4112081-professeur-de-physique-chimie-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
-    },
-    {
-      "id": 4112073,
-      "titre": "Professeur de mathématiques F/H - Groupe Scolaire Jacques Chirac -RABAT-MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4112073-professeur-de-mathematiques-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
-    },
-    {
       "id": 4109191,
       "titre": "Professeur du Second Degré Philosophie - F/H - ABIDJAN - CÔTE D'IVOIRE",
       "etab": "",
@@ -6691,17 +6658,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/3985767-professeur-des-ecoles-fh-nairobi-kenya-nairobi"
     },
     {
-      "id": 3980205,
-      "titre": "Professeur d'allemand langue étrangère et langue seconde - F/H - ZÜRICH - SUISSE",
-      "etab": "",
-      "ville": "Dübendorf",
-      "pays": "Suisse",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3980205-professeur-dallemand-langue-etrangere-et-langue-seconde-fh-zurich-suisse-8600-dubendorf"
-    },
-    {
       "id": 3951593,
       "titre": "Infirmier Puériculteur - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -6744,17 +6700,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "31/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3927339-professeur-du-second-degre-mathematiques-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 3835737,
-      "titre": "Technicien de laboratoire - F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Technicien de laboratoire F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3835737-technicien-de-laboratoire-fh-rabat-maroc-rabat"
     },
     {
       "id": 3799657,
@@ -6854,17 +6799,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "11/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3630115-professeur-du-second-degre-physique-chimie-bamako-mali-bamako"
-    },
-    {
-      "id": 3561629,
-      "titre": "Professeur des Ecoles en allemand - ZURICH - SUISSE",
-      "etab": "",
-      "ville": "Dübendorf",
-      "pays": "Suisse",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3561629-professeur-des-ecoles-en-allemand-zurich-suisse-8600-dubendorf"
     },
     {
       "id": 3529645,
