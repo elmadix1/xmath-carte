@@ -1,7 +1,18 @@
 {
-  "updated": "2026-05-08 18:15",
-  "total": 639,
+  "updated": "2026-05-09 07:14",
+  "total": 637,
   "offers": [
+    {
+      "id": 4374885,
+      "titre": "Responsable de la communication - Lycée Français International de Panama",
+      "etab": "",
+      "ville": "Provincia de Panamá Oeste",
+      "pays": "Panama",
+      "contrat": "Contrat permanent",
+      "discipline": "Chargé de communication F/H",
+      "date": "08/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4374885-responsable-de-la-communication-lycee-francais-international-de-panama-arraijan"
+    },
     {
       "id": 4374857,
       "titre": "Poste Susceptible d etre vacant Professeur du Second Degré - Philosophie F/H",
@@ -6361,28 +6372,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4108363-professeur-de-lettres-modernes-fh-abidjan-cote-divoire-abidjan"
     },
     {
-      "id": 4100799,
-      "titre": "Professeur du Second Degré - SVT - F/H - TAIPEI - TAIWAN",
-      "etab": "",
-      "ville": "Taipei City",
-      "pays": "Taiwan",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4100799-professeur-du-second-degre-svt-fh-taipei-taiwan-taipei-city"
-    },
-    {
-      "id": 4100793,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - TAIPEI - TAIWAN",
-      "etab": "",
-      "ville": "Taipei City",
-      "pays": "Taiwan",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4100793-professeur-du-second-degre-mathematiques-fh-taipei-taiwan-taipei-city"
-    },
-    {
       "id": 4098191,
       "titre": "Professeur des écoles - F/H - VICTORIA - SEYCHELLES",
       "etab": "",
@@ -6634,17 +6623,6 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "24/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 4040723,
-      "titre": "Professeur du Second Degré - Physique Chimie - F/H - TAIPEI - TAIWAN",
-      "etab": "",
-      "ville": "Taipei City",
-      "pays": "Taiwan",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4040723-professeur-du-second-degre-physique-chimie-fh-taipei-taiwan-taipei-city"
     },
     {
       "id": 4035559,
