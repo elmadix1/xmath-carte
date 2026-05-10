@@ -153,9 +153,9 @@
   try {
     const [r1, r2] = await Promise.all([
       fetch('/emplois.json').then(r=>r.json()).catch(()=>({offers:[]})),
-      fetch('/emplois_mlf.json').then(r=>r.json()).catch(()=>({offres:[]}))
+      fetch("/emplois_mlf.json").then(r=>r.json()).catch(()=>({offers:[]})))
     ]);
-    const nb = (r1.offers||[]).length + (r2.offres||[]).length;
+    const nb = (r1.offers||[]).length + (r2.offers||[]).length;
     document.getElementById('chiffre-offres').textContent = nb > 0 ? nb : '—';
   } catch(e) { document.getElementById('chiffre-offres').textContent = '—'; }
   document.getElementById('chiffre-actifs').textContent = '597';
