@@ -149,7 +149,7 @@
   </div>
 </div>
 <script>
-(async function(){
+document.addEventListener("DOMContentLoaded", async function(){
   try {
     const [r1, r2] = await Promise.all([
       fetch('/emplois.json').then(r=>r.json()).catch(()=>({offers:[]})),
@@ -160,7 +160,7 @@
   } catch(e) { document.getElementById('chiffre-offres').textContent = '—'; }
   document.getElementById('chiffre-actifs').textContent = '597';
   document.getElementById('chiffre-fermes').textContent = '5';
-})();
+});
 </script>
 
 <div class="search-bar">
