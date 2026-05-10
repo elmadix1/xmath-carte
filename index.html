@@ -217,7 +217,9 @@ function showPays(name,p){
   document.getElementById('p-sujet').textContent=p.sujet+' · '+p.date;
   const bac=BAC_ZONES[p.zone]||{sujet:'—',date:'—',pack:'—'};
   document.getElementById('p-bac-sujet').textContent=bac.sujet+' · '+bac.date;
-  document.getElementById('p-pack').textContent=p.pack+(bac.pack!==p.pack?' · '+bac.pack:'');
+  const PAYS_NO_PACK=["Cuba","Iran","Syria","Syrie","North Korea","Corée du Nord"];
+  const packEl=document.getElementById('p-pack');
+  if(PAYS_NO_PACK.includes(p.nom)){packEl.closest('.row').style.display='none';}else{packEl.closest('.row').style.display='';packEl.textContent=p.pack+(bac.pack!==p.pack?' · '+bac.pack:'');}
 }
 
 const NOM_AEFE={
@@ -265,7 +267,7 @@ const SPECIFICITES={
 };
 
 function getLink(e,p){
-  const PAYS_BLOQUES_LK=["Cuba","Iran","North Korea","Corée du Nord"];
+  const PAYS_BLOQUES_LK=["Cuba","Iran","Syria","Syrie","North Korea","Corée du Nord"];
   if(!e.w && PAYS_BLOQUES_LK.includes(p.nom)) return {url:"#",label:"",isSite:false,hidden:true};
   if(e.w) return {url:e.w,label:'↗ Site officiel',isSite:true};
   const nomAefe=NOM_AEFE[p.nom]||p.nom;
@@ -335,7 +337,7 @@ function showEtab(e,p){
   bb.innerHTML=e.brevet?'<span style="background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500;margin-right:6px">📋 Prépare au Brevet (DNB)</span>':'<span style="background:#f1f5f9;color:#94a3b8;padding:2px 8px;border-radius:4px;font-size:11px;margin-right:6px">Pas de Brevet</span>';
   bbac.innerHTML=e.bac?'<span style="background:#dcfce7;color:#166534;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500">🎓 Prépare au Baccalauréat</span>':'<span style="background:#f1f5f9;color:#94a3b8;padding:2px 8px;border-radius:4px;font-size:11px">Pas de Bac</span>';
   const link=document.getElementById('ed-aefe-link');
-  const PAYS_NO_AEFE=["Cuba","Iran","North Korea","Corée du Nord"];
+  const PAYS_NO_AEFE=["Cuba","Iran","Syria","Syrie","North Korea","Corée du Nord"];
   if(PAYS_NO_AEFE.some(b=>lk.url.toLowerCase().includes(b.toLowerCase()))){link.style.display="none";}else{link.style.display="";link.href=lk.url;}
   link.textContent=lk.isSite?'→ Voir le site officiel':'→ Voir sur aefe.gouv.fr';
   link.style.color=lk.isSite?'#1d4ed8':'#0891b2';
@@ -466,7 +468,7 @@ function afficherPastillesMonde(data){
 }
 
 async function showEmplois(p){
-  const PAYS_BLOQUES=["Cuba","Iran","North Korea","Corée du Nord","Haïti"];
+  const PAYS_BLOQUES=["Cuba","Iran","Syria","Syrie","North Korea","Corée du Nord","Haïti"];
   if(PAYS_BLOQUES.includes(p.nom)||PAYS_BLOQUES.some(function(b){return (p.nom||"").toLowerCase()===b.toLowerCase();})){document.getElementById("emplois-panel").style.display="none";return;}
 
   const panel=document.getElementById('emplois-panel');
