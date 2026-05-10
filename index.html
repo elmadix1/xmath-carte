@@ -463,7 +463,7 @@ function afficherPastillesMonde(data){
 }
 
 async function showEmplois(p){
-  const PAYS_BLOQUES=["Cuba","Iran","Syria","North Korea"];
+  const PAYS_BLOQUES=["Cuba","Iran","Syria","Syrie","North Korea","Corée du Nord","Haïti"];
   if(PAYS_BLOQUES.includes(p.nom)||PAYS_BLOQUES.some(function(b){return (p.nom||"").toLowerCase()===b.toLowerCase();})){document.getElementById("emplois-panel").style.display="none";return;}
 
   const panel=document.getElementById('emplois-panel');
