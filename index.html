@@ -119,7 +119,7 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
       <div class="row"><div class="lbl">Centre de session</div><div class="val" id="p-centre"></div></div>
       <div class="row"><div class="lbl">📋 Brevet — sujet & date</div><div class="val" id="p-sujet"></div></div>
       <div class="row"><div class="lbl">🎓 Bac — sujet & date</div><div class="val" id="p-bac-sujet"></div></div>
-      <div class="row"><div class="lbl">Ressources xmath</div><div class="val blue" id="p-pack"></div></div>
+      
     </div>
   </div>
   <div class="panel" id="emplois-panel" style="display:none">
@@ -150,7 +150,7 @@ h3{font-size:16px;font-weight:600;color:#0f172a;margin-bottom:3px}
         <div class="row"><div class="lbl">Nom</div><div class="val" id="ed-nom"></div></div>
         <div class="row"><div class="lbl">Ville · Pays</div><div class="val" id="ed-ville"></div></div>
         <div class="row"><div class="lbl">Session</div><div class="val" id="ed-centre"></div></div>
-        <div class="row"><div class="lbl">Ressources xmath</div><div class="val blue" id="ed-pack"></div></div>
+        
         <div class="row">
           <div class="lbl">Brevet / Bac</div>
           <div class="val" style="font-size:12px">
@@ -206,6 +206,8 @@ let currentScale=1;
 let renderDots=function(){};
 
 function showPays(name,p){
+  const PAYS_BLOQUES_EP=["Cuba","Iran","Syria","Syrie","North Korea","Corée du Nord"];
+  if(PAYS_BLOQUES_EP.includes(name)||PAYS_BLOQUES_EP.includes(p.nom)){document.getElementById("ep").style.display="none";document.getElementById("bottom-panels").classList.remove("visible","with-emplois");return;}
   const z=ZB[p.zone]||{bg:"#f1f5f9",c:"#64748b"};
   document.getElementById('pp').style.display='';
   const b=document.getElementById('p-badge');
@@ -746,7 +748,7 @@ var zoom=window.zoom.scaleExtent([0.8,120]).on('zoom',function(e){
       document.querySelectorAll('#pp .lbl')[3].textContent='Centre de session';
       document.querySelectorAll('#pp .lbl')[4].textContent='📋 Brevet — sujet & date';
       document.querySelectorAll('#pp .lbl')[5].textContent='🎓 Bac — sujet & date';
-      document.querySelectorAll('#pp .lbl')[6].textContent='Ressources xmath';
+      
       document.querySelectorAll('#pp .row')[5].style.display='';
       document.querySelectorAll('#pp .row')[6].style.display='';
       // Afficher niveau sécurité
