@@ -265,7 +265,7 @@ const SPECIFICITES={
 };
 
 function getLink(e,p){
-  const PAYS_BLOQUES_LK=["Cuba","Iran","Syria","Syrie","North Korea","Corée du Nord"];
+  const PAYS_BLOQUES_LK=["Cuba","Iran","North Korea","Corée du Nord"];
   if(!e.w && PAYS_BLOQUES_LK.includes(p.nom)) return {url:"#",label:"",isSite:false,hidden:true};
   if(e.w) return {url:e.w,label:'↗ Site officiel',isSite:true};
   const nomAefe=NOM_AEFE[p.nom]||p.nom;
@@ -466,7 +466,7 @@ function afficherPastillesMonde(data){
 }
 
 async function showEmplois(p){
-  const PAYS_BLOQUES=["Cuba","Iran","Syria","Syrie","North Korea","Corée du Nord","Haïti"];
+  const PAYS_BLOQUES=["Cuba","Iran","North Korea","Corée du Nord","Haïti"];
   if(PAYS_BLOQUES.includes(p.nom)||PAYS_BLOQUES.some(function(b){return (p.nom||"").toLowerCase()===b.toLowerCase();})){document.getElementById("emplois-panel").style.display="none";return;}
 
   const panel=document.getElementById('emplois-panel');
