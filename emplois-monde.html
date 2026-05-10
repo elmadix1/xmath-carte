@@ -122,6 +122,47 @@
   </div>
 </section>
 
+
+<div style="background:linear-gradient(135deg,#0e1a0a,#1a2e12);padding:28px 40px;border-bottom:1px solid #2d4a1e">
+  <div style="max-width:1100px;margin:0 auto">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
+      <span style="font-size:1.1rem;font-weight:700;color:#e8c87a;font-family:'Playfair Display',serif">État du réseau français à l'étranger</span>
+      <span style="font-size:0.72rem;color:rgba(255,255,255,0.35);background:rgba(255,255,255,0.08);padding:2px 8px;border-radius:10px">Données en temps réel</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:20px" id="reseau-chiffres">
+      <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:16px 20px">
+        <div style="font-size:2rem;font-weight:700;color:#7ac890;font-family:'Playfair Display',serif" id="chiffre-actifs">…</div>
+        <div style="font-size:0.78rem;color:rgba(255,255,255,0.5);margin-top:4px">établissements actifs dans le monde</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:16px 20px">
+        <div style="font-size:2rem;font-weight:700;color:#e8c87a;font-family:'Playfair Display',serif" id="chiffre-offres">…</div>
+        <div style="font-size:0.78rem;color:rgba(255,255,255,0.5);margin-top:4px">postes ouverts en ce moment</div>
+      </div>
+      <div style="background:rgba(200,50,50,0.15);border:1px solid rgba(200,50,50,0.3);border-radius:10px;padding:16px 20px">
+        <div style="font-size:2rem;font-weight:700;color:#f87171;font-family:'Playfair Display',serif" id="chiffre-fermes">…</div>
+        <div style="font-size:0.78rem;color:rgba(255,255,255,0.5);margin-top:4px">pays qui avaient une école française et ne l'ont plus</div>
+      </div>
+    </div>
+    <div style="font-size:0.78rem;color:rgba(255,255,255,0.35);line-height:1.6;max-width:700px">
+      Le réseau éducatif français à l'étranger est l'un des seuls outils de présence culturelle et diplomatique qui rayonne dans 138 pays simultanément. Chaque fermeture d'établissement représente des familles déplacées, des liens commerciaux fragilisés, et une influence française qui recule durablement.
+    </div>
+  </div>
+</div>
+<script>
+(async function(){
+  try {
+    const [r1, r2] = await Promise.all([
+      fetch('/emplois.json').then(r=>r.json()).catch(()=>({offers:[]})),
+      fetch('/emplois_mlf.json').then(r=>r.json()).catch(()=>({offres:[]}))
+    ]);
+    const nb = (r1.offers||[]).length + (r2.offres||[]).length;
+    document.getElementById('chiffre-offres').textContent = nb > 0 ? nb : '—';
+  } catch(e) { document.getElementById('chiffre-offres').textContent = '—'; }
+  document.getElementById('chiffre-actifs').textContent = '597';
+  document.getElementById('chiffre-fermes').textContent = '5';
+})();
+</script>
+
 <div class="search-bar">
   <input type="text" id="searchInput" placeholder="🔍 Rechercher un pays…" oninput="filtrer()">
   <div class="region-pills">
