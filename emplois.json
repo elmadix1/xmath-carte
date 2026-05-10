@@ -1,7 +1,18 @@
 {
-  "updated": "2026-05-09 17:54",
-  "total": 631,
+  "updated": "2026-05-10 07:33",
+  "total": 627,
   "offers": [
+    {
+      "id": 4375277,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Doha",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "10/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4375277-professeur-des-ecoles-fh-doha"
+    },
     {
       "id": 4375067,
       "titre": "Enseignant(e) bilingue anglais - Business & Economics – programme IBDP",
@@ -1090,17 +1101,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "27/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4353285-professeur-du-second-degre-mathematiques-fh-koweit-koweit-salmiya"
-    },
-    {
-      "id": 4353253,
-      "titre": "Professeur du Second Degré d'Histoire Géographie - F/H - KOWEIT",
-      "etab": "",
-      "ville": "Salmiya",
-      "pays": "Koweït",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "27/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4353253-professeur-du-second-degre-dhistoire-geographie-fh-koweit-salmiya"
     },
     {
       "id": 4353219,
@@ -4918,50 +4918,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "11/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4269107-professeur-du-second-degre-lettres-modernes-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4268461,
-      "titre": "Professeur du Second Degré - EPS - F/H - N'DJAMENA - TCHAD",
-      "etab": "",
-      "ville": "N'Djamena",
-      "pays": "Tchad",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "11/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4268461-professeur-du-second-degre-eps-fh-ndjamena-tchad-ndjamena"
-    },
-    {
-      "id": 4268455,
-      "titre": "Professeur du Second Degré d'histoire géographie - F/H - N'DJAMENA - TCHAD",
-      "etab": "",
-      "ville": "N'Djamena",
-      "pays": "Tchad",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "11/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4268455-professeur-du-second-degre-dhistoire-geographie-fh-ndjamena-tchad-ndjamena"
-    },
-    {
-      "id": 4268453,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - N'DJAMENA - TCHAD",
-      "etab": "",
-      "ville": "N'Djamena",
-      "pays": "Tchad",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "11/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4268453-professeur-du-second-degre-lettres-modernes-fh-ndjamena-tchad-ndjamena"
-    },
-    {
-      "id": 4268337,
-      "titre": "Professeur de Lettres Modernes - F/H - SANTA CRUZ DE LA SIERRA - BOLIVIE",
-      "etab": "",
-      "ville": "Santa Cruz de la Sierra",
-      "pays": "Bolivie",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "10/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4268337-professeur-de-lettres-modernes-fh-santa-cruz-de-la-sierra-bolivie-santa-cruz-de-la-sierra"
     },
     {
       "id": 4264335,
