@@ -265,6 +265,8 @@ const SPECIFICITES={
 };
 
 function getLink(e,p){
+  const PAYS_BLOQUES_LK=["Cuba","Iran","Syria","Syrie","North Korea","Corée du Nord"];
+  if(!e.w && PAYS_BLOQUES_LK.includes(p.nom)) return {url:"#",label:"",isSite:false,hidden:true};
   if(e.w) return {url:e.w,label:'↗ Site officiel',isSite:true};
   const nomAefe=NOM_AEFE[p.nom]||p.nom;
   return {url:'https://aefe.gouv.fr/fr/etablissements?field_pays_target_id='+encodeURIComponent(nomAefe),label:'↗ AEFE — '+p.nom,isSite:false};
@@ -305,7 +307,7 @@ function showElist(p){
     const lk=getLink(e,p);
     const bTags=(e.brevet?'<span style="background:#dbeafe;color:#1e40af;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:4px">DNB</span>':'')+(e.bac?'<span style="background:#dcfce7;color:#166534;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:2px">BAC</span>':'');
     const d=document.createElement('div');d.className='ei';
-    d.innerHTML='<div class="ei-name">'+e.n+' <span class="es" style="background:'+sc.bg+';color:'+sc.c+'">'+e.s+'</span>'+bTags+'</div><div class="ei-ville"><span>'+(e.v||'—')+'</span><a class="ei-aefe" href="'+lk.url+'" target="_blank" onclick="event.stopPropagation()">'+lk.label+'</a></div>';
+    d.innerHTML='<div class="ei-name">'+e.n+' <span class="es" style="background:'+sc.bg+';color:'+sc.c+'">'+e.s+'</span>'+bTags+'</div><div class="ei-ville"><span>'+(e.v||'—')+'</span>'+(lk.hidden?'':'<a class="ei-aefe" href="'+lk.url+'" target="_blank" onclick="event.stopPropagation()">'+lk.label+'</a>')+'</div>';
     d.onclick=()=>showEtab(e,p);
     ul.appendChild(d);
   });
@@ -333,7 +335,8 @@ function showEtab(e,p){
   bb.innerHTML=e.brevet?'<span style="background:#dbeafe;color:#1e40af;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500;margin-right:6px">📋 Prépare au Brevet (DNB)</span>':'<span style="background:#f1f5f9;color:#94a3b8;padding:2px 8px;border-radius:4px;font-size:11px;margin-right:6px">Pas de Brevet</span>';
   bbac.innerHTML=e.bac?'<span style="background:#dcfce7;color:#166534;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500">🎓 Prépare au Baccalauréat</span>':'<span style="background:#f1f5f9;color:#94a3b8;padding:2px 8px;border-radius:4px;font-size:11px">Pas de Bac</span>';
   const link=document.getElementById('ed-aefe-link');
-  link.href=lk.url;
+  const PAYS_NO_AEFE=["Cuba","Iran","Syria","Syrie","North Korea","Corée du Nord"];
+  if(PAYS_NO_AEFE.some(b=>lk.url.toLowerCase().includes(b.toLowerCase()))){link.style.display="none";}else{link.style.display="";link.href=lk.url;}
   link.textContent=lk.isSite?'→ Voir le site officiel':'→ Voir sur aefe.gouv.fr';
   link.style.color=lk.isSite?'#1d4ed8':'#0891b2';
   const fp=document.getElementById('bottom-panels');
