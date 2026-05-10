@@ -198,7 +198,6 @@ const PAYS_FERMES={
   "Mali":         "Établissements fragilisés depuis le coup d'État (2021) et le retrait français (2022)",
   "Niger":        "Lycée français de Niamey — activité suspendue suite au coup d'État (juillet 2023)",
   "Libya":        "Aucun établissement depuis 2011 (guerre civile)",
-  "Syria":        "Aucun établissement depuis 2012 (guerre civile)",
   "Yemen":        "Aucun établissement depuis 2015 (conflit)",
   "Myanmar":      "Établissements sous pression depuis le coup d'État militaire (2021)",
 };
@@ -209,7 +208,6 @@ const ETABS_FERMES={
   "Mali":[{n:"Établissement Liberté",v:"Bamako",s:"Conv",sf:"Activité très réduite · Relations diplomatiques rompues en 2022",aefe:"https://aefe.gouv.fr/fr/etablissements/etablissement-liberte",fond:"Fondé en 1962 · Accueillait 1 359 élèves"}],
   "Niger":[{n:"Lycée La Fontaine",v:"Niamey",s:"EGD",sf:"Mis en sommeil · Enseignement à distance depuis sept. 2023",aefe:"https://aefe.gouv.fr/fr/etablissements/lycee-la-fontaine",fond:"Accueillait plusieurs centaines d'élèves"}],
   "Libya":[{n:"Lycée français de Tripoli",v:"Tripoli",s:"Conv",sf:"Fermé définitivement depuis 2012–2013",aefe:"",fond:"Fondé en 1956"}],
-  "Syria":[{n:"Lycée Charles-de-Gaulle",v:"Damas",s:"Conv",sf:"Convention suspendue fin 2011 · Ambassade fermée mars 2012",aefe:"",fond:"Inauguré en 2008 · Accueillait 900 élèves"}],
   "Yemen":[{n:"École française de Sanaa",v:"Sanaa",s:"Part",sf:"Fermée depuis 2015 · Guerre civile",aefe:"",fond:"Fermée lors du début du conflit en 2015"}],
   "Myanmar":[{n:"Lycée français international de Rangoun — Joseph-Kessel",v:"Rangoun",s:"Conv",sf:"Sous forte pression depuis le coup d'État du 1er février 2021",aefe:"https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-rangoun-joseph-kessel",fond:"Fondé en 1997 · Nommé en hommage à Joseph Kessel"}],
 };
