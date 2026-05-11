@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-11 08:31",
-  "total": 255,
+  "updated": "2026-05-11 19:03",
+  "total": 256,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3390,6 +3390,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3709_offre-emploi-professeur-dhistoire-geographie.html"
+    },
+    {
+      "id": 3724,
+      "titre": "Directeur/Directrice des admissions et des inscriptions",
+      "etab": "",
+      "ville": "Bethesda, MD",
+      "pays": "États-Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "08/05/2026",
+      "date_limite": "15/05/2026",
+      "date_prise": "01/07/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3724_offre-emploi-directeurdirectrice-des-admissions-et-des-inscriptions.html"
     },
     {
       "id": 3720,
