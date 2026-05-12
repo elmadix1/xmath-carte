@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-12 07:49",
-  "total": 256,
+  "updated": "2026-05-12 19:03",
+  "total": 257,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3460,6 +3460,20 @@
       "date_prise": "24/08/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3723_offre-emploi-professeurs-de-mathematiques-sciences.html"
+    },
+    {
+      "id": 3725,
+      "titre": "Professeur de français (Lettres classiques) - Poste susceptible d’être vacant",
+      "etab": "",
+      "ville": "Londres",
+      "pays": "Royaume-Uni",
+      "contrat": "",
+      "discipline": "",
+      "date": "12/05/2026",
+      "date_limite": "25/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3725_offre-emploi-professeur-de-francais-lettres-classiques-poste-susceptible-detre-vacant.html"
     },
     {
       "id": 3535,
