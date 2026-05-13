@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-13 07:48",
-  "total": 257,
+  "updated": "2026-05-13 19:04",
+  "total": 258,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3572,6 +3572,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3642_offre-emploi-professeure-premier-degre.html"
+    },
+    {
+      "id": 3726,
+      "titre": "Professeur de philosophie",
+      "etab": "",
+      "ville": "Saragosse",
+      "pays": "Espagne",
+      "contrat": "",
+      "discipline": "",
+      "date": "13/05/2026",
+      "date_limite": "30/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3726_offre-emploi-professeur-de-philosophie.html"
     },
     {
       "id": 3701,
