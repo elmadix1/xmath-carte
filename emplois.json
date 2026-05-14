@@ -1,7 +1,29 @@
 {
-  "updated": "2026-05-13 19:03",
-  "total": 613,
+  "updated": "2026-05-14 07:49",
+  "total": 595,
   "offers": [
+    {
+      "id": 4383367,
+      "titre": "Professeur-e de philosophie",
+      "etab": "",
+      "ville": "Busaiteen",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383367-professeur-e-de-philosophie-busaiteen"
+    },
+    {
+      "id": 4383225,
+      "titre": "Secrétaire de direction - F/H - SANTIAGO - CHILI",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "Chili",
+      "contrat": "Contrat temporaire",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "13/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383225-secretaire-de-direction-fh-santiago-chili-7630599-santiago"
+    },
     {
       "id": 4382819,
       "titre": "Professeur du Second Degré - Lettres Modernes - F/H - DJERBA - TUNISIE",
@@ -828,6 +850,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4366767-documentaliste-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
     },
     {
+      "id": 4366505,
+      "titre": "Professeur d'Arabe Maternelle - F/H - Lycée Louis Massignon - ABU DHABI - EAU",
+      "etab": "",
+      "ville": "Abu Dhabi",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’arabe F/H",
+      "date": "05/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4366505-professeur-darabe-maternelle-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
+    },
+    {
       "id": 4365513,
       "titre": "Directeur du primaire - F/H - SAINT PETERSBOURG - RUSSIE",
       "etab": "",
@@ -848,17 +881,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "04/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4365157-professeur-danglais-titulaire-fh-medellin-colombie-055427-envigado"
-    },
-    {
-      "id": 4364685,
-      "titre": "Assistant d'Éducation - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "08/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4364685-assistant-deducation-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4363815,
@@ -2533,28 +2555,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4332531-professeur-des-ecoles-en-maternelle-fh-lycee-franco-libanais-dubai-eau-dubai"
     },
     {
-      "id": 4331493,
-      "titre": "Professeur de Mathématiques - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331493-professeur-de-mathematiques-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4331489,
-      "titre": "Professeur de Physique Chimie - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331489-professeur-de-physique-chimie-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
       "id": 4331377,
       "titre": "Professeur du Second Degré - Mathématiques F/H - QUITO - EQUATEUR",
       "etab": "",
@@ -2632,50 +2632,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4331235-technicien-de-laboratoire-fh-rabat-maroc-rabat"
     },
     {
-      "id": 4330675,
-      "titre": "Surveillant - site Incek - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330675-surveillant-site-incek-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4330647,
-      "titre": "Responsable de garderie - site Ayranci - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330647-responsable-de-garderie-site-ayranci-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4330587,
-      "titre": "Assistant de garderie - site Ayranci - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Aide maternelle F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330587-assistant-de-garderie-site-ayranci-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4330293,
-      "titre": "Professeur de Lettres Modernes - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330293-professeur-de-lettres-modernes-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
       "id": 4330255,
       "titre": "Professeur d'allemand remplacement second degré - F/H - LA HAYE - PAYS-BAS",
       "etab": "",
@@ -2685,28 +2641,6 @@
       "discipline": "Professeur d’allemand F/H",
       "date": "14/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4330255-professeur-dallemand-remplacement-second-degre-fh-la-haye-pays-bas-2584-aa-den-haag"
-    },
-    {
-      "id": 4330229,
-      "titre": "Professeur des écoles remplaçant (poste au Primaire) - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330229-professeur-des-ecoles-remplacant-poste-au-primaire-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4330211,
-      "titre": "Professeur des écoles (poste en maternelle) - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330211-professeur-des-ecoles-poste-en-maternelle-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4330067,
@@ -3501,39 +3435,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4312547-professeur-du-second-degre-dhistoire-geographie-fh-djerba-tunisie-4180-houmt-souk"
     },
     {
-      "id": 4312417,
-      "titre": "Professeur d’H-G - F/H - Lycée Français Charles de Gaulle - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "03/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4312417-professeur-d-h-g-fh-lycee-francais-charles-de-gaulle-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4312405,
-      "titre": "Professeur d’H-G - F/H - Lycée Français Charles de Gaulle - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "03/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4312405-professeur-d-h-g-fh-lycee-francais-charles-de-gaulle-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4312395,
-      "titre": "Professeur d’Histoire Géographie Option BFI Américain - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "03/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4312395-professeur-d-histoire-geographie-option-bfi-americain-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
       "id": 4312369,
       "titre": "Professeur des écoles - F/H - HANOI - VIETNAM",
       "etab": "",
@@ -3653,83 +3554,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "01/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4308081-professeur-de-physique-chimie-fh-lycee-victor-hugo-francfort-allemagne-60488-frankfurt-am-main"
-    },
-    {
-      "id": 4307919,
-      "titre": "Enseignante documentaliste (1er et 2nd degré) - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307919-enseignante-documentaliste-1er-et-2nd-degre-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4307837,
-      "titre": "Professeur de Physique Chimie - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307837-professeur-de-physique-chimie-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4307779,
-      "titre": "Professeur d’Anglais - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307779-professeur-d-anglais-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4307733,
-      "titre": "Professeur d’EPS - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307733-professeur-d-eps-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4307697,
-      "titre": "Professeur du Second Degré - Arts Plastiques - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’arts plastiques F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307697-professeur-du-second-degre-arts-plastiques-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4307629,
-      "titre": "Professeur d’Allemand & FLSCO - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307629-professeur-d-allemand-flsco-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
-      "id": 4307545,
-      "titre": "Professeur des écoles TPS ou TPS-PS - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307545-professeur-des-ecoles-tps-ou-tps-ps-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4307491,
@@ -4654,17 +4478,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "16/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4277355-professeur-des-ecoles-fh-lome-togo-lome"
-    },
-    {
-      "id": 4276521,
-      "titre": "ASEM à mi-temps suceptible d'être vacant - F/H - MARRAKECH - MAROC",
-      "etab": "",
-      "ville": "Marrakesh",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Aide maternelle F/H",
-      "date": "15/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4276521-asem-a-mi-temps-suceptible-detre-vacant-fh-marrakech-maroc-marrakesh"
     },
     {
       "id": 4272765,
@@ -5602,17 +5415,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4158773-responsable-aquatique-fh-shanghai-chine-shanghai"
     },
     {
-      "id": 4154577,
-      "titre": "Directeur adjoint en charge de l'école maternelle - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Principal adjoint F/H",
-      "date": "07/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4154577-directeur-adjoint-en-charge-de-lecole-maternelle-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4152761,
       "titre": "Professeur des écoles - F/H - COTONOU - BENIN",
       "etab": "",
@@ -5732,17 +5534,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "03/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4138151-professeur-danglais-primaire-homeroom-teacher-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4138141,
-      "titre": "Proviseur adjoint - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Proviseur adjoint F/H",
-      "date": "07/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4138141-proviseur-adjoint-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4136519,
@@ -6381,6 +6172,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "21/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4064715-professeur-des-ecoles-fh-bucarest-roumanie-015016-bucuresti"
+    },
+    {
+      "id": 4060145,
+      "titre": "Assistant d'Éducation F/H - TOKYO - JAPON",
+      "etab": "",
+      "ville": "Tokyo",
+      "pays": "Japon",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4060145-assistant-deducation-fh-tokyo-japon-tokyo"
     },
     {
       "id": 4058143,
