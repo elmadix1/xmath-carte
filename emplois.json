@@ -1,7 +1,172 @@
 {
-  "updated": "2026-05-14 07:49",
-  "total": 595,
+  "updated": "2026-05-14 18:59",
+  "total": 605,
   "offers": [
+    {
+      "id": 4384279,
+      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H- TUNIS-TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4384279-professeur-du-second-degre-education-physique-et-sportive-fh-tunis-tunisie-2037-tunis"
+    },
+    {
+      "id": 4384269,
+      "titre": "Professeur du Second Degré - Sciences Economiques et Sociales F/H -TUNIS-TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4384269-professeur-du-second-degre-sciences-economiques-et-sociales-fh-tunis-tunisie-2037-tunis"
+    },
+    {
+      "id": 4384257,
+      "titre": "Professeur du Second Degré - Technologie/SNT - F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de technologie F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4384257-professeur-du-second-degre-technologiesnt-fh-tunis-tunisie-1053-tunis"
+    },
+    {
+      "id": 4384151,
+      "titre": "Référent/e école inclusive -Lycée Francais International d'Accra - ACCRA- GHANA",
+      "etab": "",
+      "ville": "Accra",
+      "pays": "Ghana",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4384151-referente-ecole-inclusive-lycee-francais-international-daccra-accra-ghana-accra"
+    },
+    {
+      "id": 4384019,
+      "titre": "Professeur d'Espagnol F/H - GSU La Fontaine de Fès - Maroc",
+      "etab": "",
+      "ville": "Fes",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4384019-professeur-despagnol-fh-gsu-la-fontaine-de-fes-maroc-fes"
+    },
+    {
+      "id": 4383933,
+      "titre": "Professeur d'EPS F/H - Lycée Paul VALERY Meknès - Maroc",
+      "etab": "",
+      "ville": "Meknes",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383933-professeur-deps-fh-lycee-paul-valery-meknes-maroc-meknes"
+    },
+    {
+      "id": 4383897,
+      "titre": "SURVEILLANT - F/H - LONDRES - ROYAUME-UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat permanent",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383897-surveillant-fh-londres-royaume-uni-greater-london"
+    },
+    {
+      "id": 4383673,
+      "titre": "Surveillant(e) 1er degré - Lycée Stendhal - MILAN",
+      "etab": "",
+      "ville": "Milano",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383673-surveillante-1er-degre-lycee-stendhal-milan-20148-milano"
+    },
+    {
+      "id": 4383643,
+      "titre": "AED Personnel de vie scolaire - Lycée Stendhal - MILAN",
+      "etab": "",
+      "ville": "Milano",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383643-aed-personnel-de-vie-scolaire-lycee-stendhal-milan-20148-milano"
+    },
+    {
+      "id": 4383633,
+      "titre": "Enseignants suppléants qualifiés du 1er degré - F/H - LONDRES - ROYAUME UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383633-enseignants-suppleants-qualifies-du-1er-degre-fh-londres-royaume-uni-greater-london"
+    },
+    {
+      "id": 4383611,
+      "titre": "Professeur des Écoles",
+      "etab": "",
+      "ville": "England",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383611-professeur-des-ecoles-greater-london"
+    },
+    {
+      "id": 4383561,
+      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383561-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
+    },
+    {
+      "id": 4383549,
+      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383549-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
+    },
+    {
+      "id": 4383481,
+      "titre": "Professeur d'anglais/littérature anglaise F/H-Lycée des Mascareignes-Ile Maurice",
+      "etab": "",
+      "ville": "Moka",
+      "pays": "Île Maurice",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383481-professeur-danglaislitterature-anglaise-fh-lycee-des-mascareignes-ile-maurice-moka"
+    },
+    {
+      "id": 4383401,
+      "titre": "Agent d’accueil & gestion des absences élèves (F/H) - Louis Massignon-Abu Dhabi",
+      "etab": "",
+      "ville": "Abu Dhabi",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383401-agent-d-accueil-gestion-des-absences-eleves-fh-louis-massignon-abu-dhabi-abu-dhabi"
+    },
     {
       "id": 4383367,
       "titre": "Professeur-e de philosophie",
@@ -718,6 +883,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4370233-professeur-du-second-degre-svt-fh-monastir-tunisie-monastir"
     },
     {
+      "id": 4369983,
+      "titre": "Conseiller Principal d’Éducation (CPE) - F/H - TANGER - MAROC",
+      "etab": "",
+      "ville": "Tangier",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "14/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4369983-conseiller-principal-d-education-cpe-fh-tanger-maroc-tangier"
+    },
+    {
       "id": 4369931,
       "titre": "Conseiller Principal d’Éducation (CPE) - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -936,17 +1112,6 @@
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "03/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4363681-professeur-du-second-degre-eps-fh-riyad-arabie-saoudite-13317-riyadh"
-    },
-    {
-      "id": 4363609,
-      "titre": "Professeur du Second Degré - SVT - F/H - KOWEIT - KOWEIT",
-      "etab": "",
-      "ville": "Salmiya",
-      "pays": "Koweït",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "03/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4363609-professeur-du-second-degre-svt-fh-koweit-koweit-salmiya"
     },
     {
       "id": 4363449,
@@ -1299,17 +1464,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "27/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4353845-professeur-dhistoire-geographie-hggsp-fh-sfax-tunisie-3062-sfax"
-    },
-    {
-      "id": 4353835,
-      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "27/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4353835-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
     },
     {
       "id": 4353521,
@@ -2907,17 +3061,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4326601-ouvrier-polyvalent-fh-egd-ecole-georges-sand-nabeul-tunisie-nabeul-"
     },
     {
-      "id": 4326291,
-      "titre": "Assistant d’Education - F/H - Lycée des Mascareignes - MOKA - ILE MAURICE",
-      "etab": "",
-      "ville": "Moka",
-      "pays": "Île Maurice",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "13/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4326291-assistant-d-education-fh-lycee-des-mascareignes-moka-ile-maurice-moka"
-    },
-    {
       "id": 4326235,
       "titre": "Chargé de communication - F/H - DUBAI - EMIRATS ARABES UNIS",
       "etab": "",
@@ -3655,17 +3798,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4304547-professeur-de-mathematiques-fh-poste-vacant-sao-paulo-bresil-sao-paulo"
     },
     {
-      "id": 4304541,
-      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "30/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4304541-professeur-de-physique-chimie-fh-sfax-tunisie-3062-sfax"
-    },
-    {
       "id": 4303493,
       "titre": "Professeur d'Histoire-Géographie - F/H - LISBONNE - PORTUGAL",
       "etab": "",
@@ -4192,17 +4324,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "19/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4286063-professeur-du-second-degre-svt-fh-tunis-tunisie-1053-tunis"
-    },
-    {
-      "id": 4286039,
-      "titre": "Professeur du Second Degré - Technologie/SNT - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de technologie F/H",
-      "date": "19/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4286039-professeur-du-second-degre-technologiesnt-fh-tunis-tunisie-1053-tunis"
     },
     {
       "id": 4285711,
@@ -4973,17 +5094,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "06/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4214659-professeur-du-second-degre-mathematiques-fh-anvers-belgique-2018-antwerpen"
-    },
-    {
-      "id": 4212965,
-      "titre": "Professeur du Second Degré - Physique Chimie - F/H - KOWEIT",
-      "etab": "",
-      "ville": "Salmiya",
-      "pays": "Koweït",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "27/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4212965-professeur-du-second-degre-physique-chimie-fh-koweit-salmiya"
     },
     {
       "id": 4212001,

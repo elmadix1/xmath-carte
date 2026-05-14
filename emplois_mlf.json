@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-14 07:49",
-  "total": 258,
+  "updated": "2026-05-14 18:59",
+  "total": 259,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3572,6 +3572,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3642_offre-emploi-professeure-premier-degre.html"
+    },
+    {
+      "id": 3727,
+      "titre": "Professeur (e) de philosophie",
+      "etab": "",
+      "ville": "Muharraq",
+      "pays": "Bahreïn",
+      "contrat": "",
+      "discipline": "",
+      "date": "14/05/2026",
+      "date_limite": "15/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3727_offre-emploi-professeur-e-de-philosophie.html"
     },
     {
       "id": 3726,
