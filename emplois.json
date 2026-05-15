@@ -1,7 +1,29 @@
 {
-  "updated": "2026-05-14 18:59",
-  "total": 605,
+  "updated": "2026-05-15 08:35",
+  "total": 606,
   "offers": [
+    {
+      "id": 4384823,
+      "titre": "Surveillant - F/H - Tanger - MAROC",
+      "etab": "",
+      "ville": "Tangier",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "15/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4384823-surveillant-fh-tanger-maroc-tangier"
+    },
+    {
+      "id": 4384625,
+      "titre": "Psychologue – PRIO en contrat local",
+      "etab": "",
+      "ville": "Bei Jing Shi",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Psychologue scolaire F/H",
+      "date": "15/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4384625-psychologue-prio-en-contrat-local-bei-jing-shi"
+    },
     {
       "id": 4384279,
       "titre": "Professeur du Second Degré - Education Physique et Sportive F/H- TUNIS-TUNISIE",
@@ -1728,17 +1750,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "24/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4350327-professeur-du-second-degre-en-anglais-fh-brazzaville-congo-brazzaville"
-    },
-    {
-      "id": 4350149,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - SERBIE - BELGRADE",
-      "etab": "",
-      "ville": "Београд",
-      "pays": "Serbie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "24/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4350149-professeur-du-second-degre-lettres-modernes-fh-serbie-belgrade-%D0%B1%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4"
     },
     {
       "id": 4350127,

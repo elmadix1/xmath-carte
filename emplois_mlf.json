@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14 18:59",
+  "updated": "2026-05-15 08:35",
   "total": 259,
   "source": "MLF Monde",
   "offers": [
@@ -3238,20 +3238,6 @@
       "url": "https://recrutement.mlfmonde.org/3710_offre-emploi-professeur-de-lettres-modernes-et-theatre-pour-la-rentree-202627.html"
     },
     {
-      "id": 3707,
-      "titre": "ENSEIGNANT.E RÉFÉRENT.E ÉCOLE INCLUSIVE (EREI)",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "30/03/2026",
-      "date_limite": "03/05/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3707_offre-emploi-enseignante-referente-ecole-inclusive-erei.html"
-    },
-    {
       "id": 3718,
       "titre": "Professeur(e) de Mathématiques – Secondaire",
       "etab": "",
@@ -3488,6 +3474,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3535_offre-emploi-professeure-de-lettres-a-casablanca.html"
+    },
+    {
+      "id": 3707,
+      "titre": "ENSEIGNANT.E RÉFÉRENT.E ÉCOLE INCLUSIVE (EREI)",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "30/03/2026",
+      "date_limite": "30/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3707_offre-emploi-enseignante-referente-ecole-inclusive-erei.html"
     },
     {
       "id": 3713,
