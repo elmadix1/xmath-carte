@@ -1,17 +1,39 @@
 {
-  "updated": "2026-05-15 08:35",
-  "total": 606,
+  "updated": "2026-05-15 18:27",
+  "total": 601,
   "offers": [
     {
-      "id": 4384823,
-      "titre": "Surveillant - F/H - Tanger - MAROC",
+      "id": 4386689,
+      "titre": "Professeur des écoles - F/H - NOUAKCHOTT - MAURITANIE",
       "etab": "",
-      "ville": "Tangier",
-      "pays": "Maroc",
+      "ville": "Mauritania",
+      "pays": "Mauritanie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4386689-professeur-des-ecoles-fh-nouakchott-mauritanie-mauritania"
+    },
+    {
+      "id": 4386167,
+      "titre": "Assistant.e pédagogique / Animateur.rice périscolaire",
+      "etab": "",
+      "ville": "Rīga",
+      "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Assistant d'éducation F/H",
       "date": "15/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4384823-surveillant-fh-tanger-maroc-tangier"
+      "url": "https://talents.aefe.fr/fr/annonce/4386167-assistant-e-pedagogique-animateur-rice-periscolaire-1005-riga"
+    },
+    {
+      "id": 4385281,
+      "titre": "Recrutement interne - Professeur anglais Primaire - F/H - LONDRES - ROYAUME-UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "15/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4385281-recrutement-interne-professeur-anglais-primaire-fh-londres-royaume-uni-greater-london"
     },
     {
       "id": 4384625,
@@ -2896,17 +2918,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4328947-professeur-du-second-degre-mathematiques-fh-santiago-chili-7630599-santiago"
     },
     {
-      "id": 4328665,
-      "titre": "Professeur du Second Degré ANGLAIS - F/H - NOUAKCHOTT - MAURITANIE",
-      "etab": "",
-      "ville": "Mauritania",
-      "pays": "Mauritanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "13/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4328665-professeur-du-second-degre-anglais-fh-nouakchott-mauritanie-mauritania"
-    },
-    {
       "id": 4328651,
       "titre": "Proviseur - F/H - Lycée Les Méharées - NOUAKCHOTT - MAURITANIE",
       "etab": "",
@@ -4359,17 +4370,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4285423-professeur-de-mathematiques-et-physique-chimie-nador-maroc-nador"
     },
     {
-      "id": 4285231,
-      "titre": "Professeur du Second Degré d'histoire géographie - F/H - PRAIA - CAP-VERT",
-      "etab": "",
-      "ville": "Praia",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "19/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4285231-professeur-du-second-degre-dhistoire-geographie-fh-praia-cap-vert-praia"
-    },
-    {
       "id": 4284955,
       "titre": "Professeur des écoles - F/H - PRAIA - CAP-VERT",
       "etab": "",
@@ -4546,70 +4546,15 @@
       "url": "https://talents.aefe.fr/fr/annonce/4278967-professeur-du-second-degre-espagnol-fh-lfa-alexandrie-egypte-alexandria"
     },
     {
-      "id": 4278815,
-      "titre": "Professeur des écoles - F/H - STUTTGART - ALLEMAGNE",
+      "id": 4276521,
+      "titre": "ASEM à mi-temps suceptible d'être vacant - F/H - MARRAKECH - MAROC",
       "etab": "",
-      "ville": "Stuttgart",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "16/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4278815-professeur-des-ecoles-fh-stuttgart-allemagne-70619-stuttgart"
-    },
-    {
-      "id": 4278201,
-      "titre": "Professeur des écoles - F/H - SHARJAH - EMIRATS ARABES UNIS (SV)",
-      "etab": "",
-      "ville": "Sharjah",
-      "pays": "Émirats Arabes Unis",
+      "ville": "Marrakesh",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "16/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4278201-professeur-des-ecoles-fh-sharjah-emirats-arabes-unis-sv-sharjah"
-    },
-    {
-      "id": 4277955,
-      "titre": "Professeur du Second Degré d'histoire géographie - F/H - LAGOS - NIGERIA",
-      "etab": "",
-      "ville": "Lagos",
-      "pays": "Nigéria",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "16/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4277955-professeur-du-second-degre-dhistoire-geographie-fh-lagos-nigeria-106104-lagos"
-    },
-    {
-      "id": 4277759,
-      "titre": "Professeur.e des écoles ABIDJAN - COTE D'IVOIRE ecole internationale J Verne",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "16/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4277759-professeur-e-des-ecoles-abidjan-cote-divoire-ecole-internationale-j-verne-abidjan"
-    },
-    {
-      "id": 4277377,
-      "titre": "Professeur Primaire Anglophone - F/H - LOMÉ - TOGO",
-      "etab": "",
-      "ville": "Lomé",
-      "pays": "Togo",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "16/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4277377-professeur-primaire-anglophone-fh-lome-togo-lome"
-    },
-    {
-      "id": 4277355,
-      "titre": "Professeur des ecoles - F/H - LOMÉ - TOGO",
-      "etab": "",
-      "ville": "Lomé",
-      "pays": "Togo",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "16/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4277355-professeur-des-ecoles-fh-lome-togo-lome"
+      "discipline": "Aide maternelle F/H",
+      "date": "15/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4276521-asem-a-mi-temps-suceptible-detre-vacant-fh-marrakech-maroc-marrakesh"
     },
     {
       "id": 4272765,
@@ -5435,17 +5380,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "31/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4169659-professeur-du-second-degre-fh-allemand-amman-jordanie-amman"
-    },
-    {
-      "id": 4169085,
-      "titre": "Enseignant SES - F/H - VAUBAN - LUXEMBOURG",
-      "etab": "",
-      "ville": "Luxembourg",
-      "pays": "Luxembourg",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "16/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4169085-enseignant-ses-fh-vauban-luxembourg-luxembourg"
     },
     {
       "id": 4166067,
@@ -6524,6 +6458,17 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "03/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3658985-professeur-du-second-degre-svt-fh-florence-italie-50123-firenze"
+    },
+    {
+      "id": 3654573,
+      "titre": "Professeur des écoles F/H - TULEAR - MADAGASCAR",
+      "etab": "",
+      "ville": "Tuléar",
+      "pays": "Madagascar",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3654573-professeur-des-ecoles-fh-tulear-madagascar-tulear"
     },
     {
       "id": 3529645,
