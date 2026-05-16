@@ -1,7 +1,51 @@
 {
-  "updated": "2026-05-16 07:19",
-  "total": 583,
+  "updated": "2026-05-16 17:59",
+  "total": 574,
   "offers": [
+    {
+      "id": 4388045,
+      "titre": "Professeur de Sciences au collège",
+      "etab": "",
+      "ville": "Скопје",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "16/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4388045-professeur-de-sciences-au-college-1000-%D1%81%D0%BA%D0%BE%D0%BF%D1%98%D0%B5"
+    },
+    {
+      "id": 4388017,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Parañaque",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "16/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4388017-professeur-du-second-degre-mathematiques-fh-paranaque"
+    },
+    {
+      "id": 4387847,
+      "titre": "Professeur F/H - Sciences pour le Secondaire - IGCSE - ANVERS - BELGIQUE",
+      "etab": "",
+      "ville": "Antwerpen",
+      "pays": "Belgique",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "16/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4387847-professeur-fh-sciences-pour-le-secondaire-igcse-anvers-belgique-2018-antwerpen"
+    },
+    {
+      "id": 4387753,
+      "titre": "Professeur du Second Degré - ANGLAIS - LFA (ALEXANDRIE - ÉGYPTE)",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "16/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4387753-professeur-du-second-degre-anglais-lfa-alexandrie-egypte-alexandria"
+    },
     {
       "id": 4386689,
       "titre": "Professeur des écoles - F/H - NOUAKCHOTT - MAURITANIE",
@@ -1741,39 +1785,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4350573-professeur-du-second-degre-lettres-modernes-fh-dakar-senegal-dakar"
     },
     {
-      "id": 4350355,
-      "titre": "Professeur du Second Degré en MATHEMATIQUES - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "24/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4350355-professeur-du-second-degre-en-mathematiques-fh-brazzaville-congo-brazzaville"
-    },
-    {
-      "id": 4350327,
-      "titre": "Professeur du Second Degré en ANGLAIS - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "24/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4350327-professeur-du-second-degre-en-anglais-fh-brazzaville-congo-brazzaville"
-    },
-    {
-      "id": 4350127,
-      "titre": "Professeur d'anglais primaire \"Native Speaker\" - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4350127-professeur-danglais-primaire-native-speaker-fh-brazzaville-congo-brazzaville"
-    },
-    {
       "id": 4349889,
       "titre": "Professeur de Physique Chimie - F/H - LAS TERRENAS - REPUBLIQUE DOMINICAINE",
       "etab": "",
@@ -1849,83 +1860,6 @@
       "discipline": "Sécrétaire / assistant F/H",
       "date": "23/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4349387-coordonateur-transport-scolaire-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
-    },
-    {
-      "id": 4349377,
-      "titre": "Professeur des écoles - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "23/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349377-professeur-des-ecoles-fh-brazzaville-congo-brazzaville"
-    },
-    {
-      "id": 4349279,
-      "titre": "Professeur du Second Degré en HISTOIRE-GEOGRAPHIE - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "23/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349279-professeur-du-second-degre-en-histoire-geographie-fh-brazzaville-congo-brazzaville"
-    },
-    {
-      "id": 4349271,
-      "titre": "Professeur du Second Degré en HISTOIRE-GEOGRAPHIE - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "23/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349271-professeur-du-second-degre-en-histoire-geographie-fh-brazzaville-congo-brazzaville"
-    },
-    {
-      "id": 4349251,
-      "titre": "Professeur du Second Degré en SVT - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "23/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349251-professeur-du-second-degre-en-svt-fh-brazzaville-congo-brazzaville"
-    },
-    {
-      "id": 4349237,
-      "titre": "Professeur du Second Degré en DOCUMENTATION - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "23/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349237-professeur-du-second-degre-en-documentation-fh-brazzaville-congo-brazzaville"
-    },
-    {
-      "id": 4349183,
-      "titre": "Professeur du Second Degré en Philosophie - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "23/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349183-professeur-du-second-degre-en-philosophie-fh-brazzaville-congo-brazzaville"
-    },
-    {
-      "id": 4349145,
-      "titre": "Professeur du Second Degré en ESPAGNOL - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "23/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349145-professeur-du-second-degre-en-espagnol-fh-brazzaville-congo-brazzaville"
     },
     {
       "id": 4348969,
@@ -4018,6 +3952,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4292733-professeur-des-ecoles-fh-ndjamena-tchad-ndjamena"
     },
     {
+      "id": 4292361,
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - PANAMA",
+      "etab": "",
+      "ville": "Panamá Oeste Province",
+      "pays": "Panama",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "16/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4292361-professeur-du-second-degre-mathematiques-fh-panama-arraijan-district"
+    },
+    {
       "id": 4292331,
       "titre": "Coordinateur Péda. et Educ. - Cours Sainte Marie de Hann - F/H - DAKAR - SENEGAL",
       "etab": "",
@@ -4271,17 +4216,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4281635-professeur-histoire-geographie-fh-kinshasa-republique-democratique-du-congo-kinshasa"
     },
     {
-      "id": 4280955,
-      "titre": "Professeur des écoles - F/H - CUERNAVACA - MEXIQUE",
-      "etab": "",
-      "ville": "Cuernavaca",
-      "pays": "Mexique",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "17/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4280955-professeur-des-ecoles-fh-cuernavaca-mexique-62227-cuernavaca"
-    },
-    {
       "id": 4280385,
       "titre": "Professeur du Second Degré EPS - F/H - DUBAI - EMIRATS ARABES UNIS",
       "etab": "",
@@ -4291,39 +4225,6 @@
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "28/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4280385-professeur-du-second-degre-eps-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
-      "id": 4280279,
-      "titre": "Professeur d'Histoire géographie - F/H - DUBAI - EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "17/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4280279-professeur-dhistoire-geographie-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
-      "id": 4280247,
-      "titre": "Professeur du second degré - Mathématiques - F/H - DUBAI - EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "17/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4280247-professeur-du-second-degre-mathematiques-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
-      "id": 4279235,
-      "titre": "Professeur des écoles - F/H - SHENZHEN - CHINE",
-      "etab": "",
-      "ville": "Shenzhen",
-      "pays": "Chine",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "17/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4279235-professeur-des-ecoles-fh-shenzhen-chine-shenzhen"
     },
     {
       "id": 4279069,
@@ -4478,17 +4379,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "24/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4250385-professeur-des-ecoles-fh-tirana-albanie-lunder-1"
-    },
-    {
-      "id": 4249035,
-      "titre": "Professeur Lettres - F/H - PODGORICA - MONTENEGRO",
-      "etab": "",
-      "ville": "Podgorica",
-      "pays": "Monténégro",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "17/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4249035-professeur-lettres-fh-podgorica-montenegro-podgorica"
     },
     {
       "id": 4245953,
@@ -5105,6 +4995,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "23/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4182367-professeur-des-ecoles-fh-cali-yumbo-colombie-760042-cali"
+    },
+    {
+      "id": 4180763,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H - AMSTERDAM - PAYS-BAS",
+      "etab": "",
+      "ville": "Amsterdam",
+      "pays": "Pays-Bas",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "16/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4180763-professeur-du-second-degre-dhistoire-geographie-fh-amsterdam-pays-bas-1075-sw-amsterdam"
     },
     {
       "id": 4180107,
