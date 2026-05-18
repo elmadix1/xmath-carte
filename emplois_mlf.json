@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-18 08:51",
-  "total": 259,
+  "updated": "2026-05-18 18:36",
+  "total": 260,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3322,20 +3322,6 @@
       "url": "https://recrutement.mlfmonde.org/3539_offre-emploi-professeure-dhistoiregeographie-a-casablanca.html"
     },
     {
-      "id": 3596,
-      "titre": "Professeur des écoles",
-      "etab": "",
-      "ville": "Lubumbashi",
-      "pays": "République Démocratique du Congo",
-      "contrat": "",
-      "discipline": "",
-      "date": "06/11/2025",
-      "date_limite": "15/05/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3596_offre-emploi-professeur-des-ecoles.html"
-    },
-    {
       "id": 3599,
       "titre": "Professeur de lettres",
       "etab": "",
@@ -3572,6 +3558,34 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3642_offre-emploi-professeure-premier-degre.html"
+    },
+    {
+      "id": 3596,
+      "titre": "Professeur des écoles, poste en surnuméraire",
+      "etab": "",
+      "ville": "Lubumbashi",
+      "pays": "République Démocratique du Congo",
+      "contrat": "",
+      "discipline": "",
+      "date": "06/11/2025",
+      "date_limite": "05/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3596_offre-emploi-professeur-des-ecoles-poste-en-surnumeraire.html"
+    },
+    {
+      "id": 3728,
+      "titre": "Professeur des écoles",
+      "etab": "",
+      "ville": "Lubumbashi",
+      "pays": "République Démocratique du Congo",
+      "contrat": "",
+      "discipline": "",
+      "date": "18/05/2026",
+      "date_limite": "05/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3728_offre-emploi-professeur-des-ecoles.html"
     },
     {
       "id": 3727,
