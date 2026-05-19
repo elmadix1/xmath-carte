@@ -1,7 +1,62 @@
 {
-  "updated": "2026-05-18 18:36",
-  "total": 553,
+  "updated": "2026-05-19 08:30",
+  "total": 554,
   "offers": [
+    {
+      "id": 4391267,
+      "titre": "Professeur Histoire Géographie- F/H -KINSHASA -REPUBLIQUE DÉMOCRATIQUE DU CONGO",
+      "etab": "",
+      "ville": "Kinshasa",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "19/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4391267-professeur-histoire-geographie-fh-kinshasa-republique-democratique-du-congo-kinshasa"
+    },
+    {
+      "id": 4390927,
+      "titre": "Professeur du Second Degré - Sciences Physiques",
+      "etab": "",
+      "ville": "Maroubra",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "19/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4390927-professeur-du-second-degre-sciences-physiques-2035-maroubra"
+    },
+    {
+      "id": 4390911,
+      "titre": "Psychologue Scolaire H/F - HO-CHI-MINH-VILLE - VIETNAM",
+      "etab": "",
+      "ville": "Hồ Chí Minh",
+      "pays": "Vietnam",
+      "contrat": "Contrat temporaire",
+      "discipline": "Psychologue scolaire F/H",
+      "date": "19/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4390911-psychologue-scolaire-hf-ho-chi-minh-ville-vietnam-ho-chi-minh"
+    },
+    {
+      "id": 4390909,
+      "titre": "Enseignant (e) spécialisé (e) -primaire collège - F/H - VANCOUVER - CANADA",
+      "etab": "",
+      "ville": "North Vancouver",
+      "pays": "Canada",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "18/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4390909-enseignant-e-specialise-e-primaire-college-fh-vancouver-canada-v7k-2e6-north-vancouver"
+    },
+    {
+      "id": 4390905,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Portland",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "18/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4390905-professeur-des-ecoles-fh-97229-portland"
+    },
     {
       "id": 4390741,
       "titre": "Professeur du Second Degré - Physique Chimie F/H",
@@ -3446,50 +3501,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4307491-agent-technique-service-ecole-maternelle-experimentee-fh-pondichery-inde-puducherry"
     },
     {
-      "id": 4307455,
-      "titre": "Professeur de Sciences (SVT/Phys./Chimie/Techno) - F/H - RANGOUN - BIRMANIE",
-      "etab": "",
-      "ville": "Yangon",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307455-professeur-de-sciences-svtphys-chimietechno-fh-rangoun-birmanie-yangon"
-    },
-    {
-      "id": 4307453,
-      "titre": "Professeur du Second Degré -Français -F/H -RANGOUN (YANGON) -BIRMANIE (MYANMAR)",
-      "etab": "",
-      "ville": "Yangon",
-      "pays": "Myanmar",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307453-professeur-du-second-degre-francais-fh-rangoun-yangon-birmanie-myanmar-yangon"
-    },
-    {
-      "id": 4307451,
-      "titre": "Professeur du Second Degré d'H-G - F/H - RANGOUN (YANGON) - BIRMANIE (MYANMAR)",
-      "etab": "",
-      "ville": "Yangon",
-      "pays": "Myanmar",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307451-professeur-du-second-degre-dh-g-fh-rangoun-yangon-birmanie-myanmar-yangon"
-    },
-    {
-      "id": 4307449,
-      "titre": "Conseiller Principal d'Éducation - F/H - RANGOUN (YANGON) - BIRMANIE (MYANMAR)",
-      "etab": "",
-      "ville": "Yangon",
-      "pays": "Myanmar",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "01/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4307449-conseiller-principal-deducation-fh-rangoun-yangon-birmanie-myanmar-yangon"
-    },
-    {
       "id": 4306393,
       "titre": "Directeur du primaire - F/H - Bilingue Français / Anglais - CASABLANCA - MAROC",
       "etab": "",
@@ -3809,17 +3820,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4294675-professeur-de-ses-histoire-geographie-fh-lisbonne-portugal-1350-164-lisboa"
     },
     {
-      "id": 4294607,
-      "titre": "Enseignant (e) spécialisé (e) -Orthopédagogue - F/H - VANCOUVER - CANADA",
-      "etab": "",
-      "ville": "North Vancouver",
-      "pays": "Canada",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4294607-enseignant-e-specialise-e-orthopedagogue-fh-vancouver-canada-v7k-2e6-north-vancouver"
-    },
-    {
       "id": 4294487,
       "titre": "Professeur des écoles - F/H - LAGOS - NIGERIA",
       "etab": "",
@@ -4007,17 +4007,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4287449-professeur-des-ecoles-fh-pondichery-inde-605001-rajbhavan"
     },
     {
-      "id": 4286699,
-      "titre": "Professeur des écoles - F/H - Ecole LES PRUNELLES - NOUAKCHOTT - MAURITANIE",
-      "etab": "",
-      "ville": "Nouakchott",
-      "pays": "Mauritanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "19/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4286699-professeur-des-ecoles-fh-ecole-les-prunelles-nouakchott-mauritanie-nouakchott"
-    },
-    {
       "id": 4284955,
       "titre": "Professeur des écoles - F/H - PRAIA - CAP-VERT",
       "etab": "",
@@ -4027,6 +4016,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "07/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4284955-professeur-des-ecoles-fh-praia-cap-vert-praia"
+    },
+    {
+      "id": 4281635,
+      "titre": "Professeur Histoire Géographie- F/H -KINSHASA -REPUBLIQUE DÉMOCRATIQUE DU CONGO",
+      "etab": "",
+      "ville": "Kinshasa",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "19/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4281635-professeur-histoire-geographie-fh-kinshasa-republique-democratique-du-congo-kinshasa"
     },
     {
       "id": 4280385,
@@ -5369,6 +5369,17 @@
       "discipline": "Professeur du second degré F/H",
       "date": "23/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4125441-enseignant-specialise-fh-lycee-jules-verne-johannesburg-afrique-du-sud-2057-sandton"
+    },
+    {
+      "id": 4121277,
+      "titre": "Professeur des écoles - F/H - CONCEPTION - CHILI",
+      "etab": "",
+      "ville": "Concepción",
+      "pays": "Chili",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "18/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4121277-professeur-des-ecoles-fh-conception-chili-4030000-concepcion"
     },
     {
       "id": 4118153,
