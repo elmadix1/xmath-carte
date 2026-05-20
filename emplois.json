@@ -1,7 +1,194 @@
 {
-  "updated": "2026-05-20 08:29",
-  "total": 548,
+  "updated": "2026-05-20 19:28",
+  "total": 558,
   "offers": [
+    {
+      "id": 4396003,
+      "titre": "Professeur(e) Documentaliste F/H - RIO DE JANEIRO - BRESIL",
+      "etab": "",
+      "ville": "Rio de Janeiro",
+      "pays": "Brésil",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4396003-professeure-documentaliste-fh-rio-de-janeiro-bresil-rio-de-janeiro"
+    },
+    {
+      "id": 4395329,
+      "titre": "Professeur du Second Degré",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4395329-professeur-du-second-degre-cairo"
+    },
+    {
+      "id": 4395105,
+      "titre": "Portugal - Lisbonne Responsable des activités extrascolaires du 1er degré - 50%",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "Portugal",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4395105-portugal-lisbonne-responsable-des-activites-extrascolaires-du-1er-degre-50-1070-103-lisboa"
+    },
+    {
+      "id": 4395059,
+      "titre": "Portugal - Lisbonne - Responsable des activités périscolaires du 1er degré - 75%",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "Portugal",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4395059-portugal-lisbonne-responsable-des-activites-periscolaires-du-1er-degre-75-1070-103-lisboa"
+    },
+    {
+      "id": 4394833,
+      "titre": "Professeur Sciences de la Vie et de la Terre - F/H - KENYA - NAIROBI - LFIDD",
+      "etab": "",
+      "ville": "Nairobi",
+      "pays": "Kenya",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394833-professeur-sciences-de-la-vie-et-de-la-terre-fh-kenya-nairobi-lfidd-nairobi"
+    },
+    {
+      "id": 4394809,
+      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "etab": "",
+      "ville": "Amsterdam",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394809-professeur-du-second-degre-education-physique-et-sportive-fh-1075-sw-amsterdam"
+    },
+    {
+      "id": 4394807,
+      "titre": "Portugal - Lisbonne - Surveillants 1er degré - temps partiel",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "Portugal",
+      "contrat": "Contrat temporaire",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394807-portugal-lisbonne-surveillants-1er-degre-temps-partiel-1070-103-lisboa"
+    },
+    {
+      "id": 4394745,
+      "titre": "Portugal - Lisbonne - Technicien informatique - Temps partiel",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "Portugal",
+      "contrat": "Contrat permanent",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394745-portugal-lisbonne-technicien-informatique-temps-partiel-1070-103-lisboa"
+    },
+    {
+      "id": 4394707,
+      "titre": "Portugal - Lisbonne - Assistant d'Éducation - temps partiel",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "Portugal",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394707-portugal-lisbonne-assistant-deducation-temps-partiel-1070-103-lisboa"
+    },
+    {
+      "id": 4394695,
+      "titre": "Portugal - Lisbonne - Assistant d'Éducation - 100%",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "Portugal",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394695-portugal-lisbonne-assistant-deducation-100-1070-103-lisboa"
+    },
+    {
+      "id": 4394527,
+      "titre": "Professeur d'Histoire Géo - F/H - Lycée Descartes-Rabat-Maroc Rentrée 2026/2027",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394527-professeur-dhistoire-geo-fh-lycee-descartes-rabat-maroc-rentree-20262027-rabat"
+    },
+    {
+      "id": 4394499,
+      "titre": "Professeur(e) d’Espagnol - EGD - Lycée Français Charles de Gaulle Ankara",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394499-professeure-d-espagnol-egd-lycee-francais-charles-de-gaulle-ankara-golbas%C4%B1"
+    },
+    {
+      "id": 4394475,
+      "titre": "Professeur de Mathématiques- F/H - Lycée Descartes-Rabat-Maroc Rentrée 2026/2027",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394475-professeur-de-mathematiques-fh-lycee-descartes-rabat-maroc-rentree-20262027-rabat"
+    },
+    {
+      "id": 4394461,
+      "titre": "Enseignant d'arabe F/H du 1er degré - Ecole Georges Brassens- EGD-Tunis",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394461-enseignant-darabe-fh-du-1er-degre-ecole-georges-brassens-egd-tunis-1082-tunis"
+    },
+    {
+      "id": 4394395,
+      "titre": "Professeur des écoles (maternelle) - F/H - LONDRES - ROYAUME-UNI (2026/2027)",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394395-professeur-des-ecoles-maternelle-fh-londres-royaume-uni-20262027-greater-london"
+    },
+    {
+      "id": 4394271,
+      "titre": "Conseiller principal d'éducation F/H-Lycée Descartes-Rabat-Maroc Rentrée 2026/27",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394271-conseiller-principal-deducation-fh-lycee-descartes-rabat-maroc-rentree-202627-rabat"
+    },
+    {
+      "id": 4394183,
+      "titre": "Assistant d'Éducation - Kinshasa",
+      "etab": "",
+      "ville": "Kinshasa",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4394183-assistant-deducation-kinshasa-kinshasa"
+    },
     {
       "id": 4393511,
       "titre": "Poste sucseptible d etre vacant Professeur secondaire Education musicale",
@@ -213,47 +400,47 @@
     },
     {
       "id": 4388045,
-      "titre": "Professeur de Sciences au collège",
+      "titre": "Professeur de Sciences au collège - F/H - SKOPJE - MACEDOINE DU NORD",
       "etab": "",
       "ville": "Skopje",
-      "pays": "",
+      "pays": "Macédoine du Nord",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de physique chimie F/H",
       "date": "16/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4388045-professeur-de-sciences-au-college-1000-skopje"
+      "url": "https://talents.aefe.fr/fr/annonce/4388045-professeur-de-sciences-au-college-fh-skopje-macedoine-du-nord-1000-skopje"
     },
     {
       "id": 4388017,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - MANILLE - PHILIPPINES",
       "etab": "",
       "ville": "Parañaque",
-      "pays": "",
+      "pays": "Philippines",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "16/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4388017-professeur-du-second-degre-mathematiques-fh-paranaque"
+      "url": "https://talents.aefe.fr/fr/annonce/4388017-professeur-du-second-degre-mathematiques-fh-manille-philippines-paranaque"
     },
     {
       "id": 4387847,
-      "titre": "Professeur F/H - Sciences pour le Secondaire - IGCSE - ANVERS - BELGIQUE",
+      "titre": "Professeur Sciences pour le Secondaire - F/H - IGCSE - ANVERS - BELGIQUE",
       "etab": "",
       "ville": "Antwerpen",
       "pays": "Belgique",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de physique chimie F/H",
       "date": "16/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4387847-professeur-fh-sciences-pour-le-secondaire-igcse-anvers-belgique-2018-antwerpen"
+      "url": "https://talents.aefe.fr/fr/annonce/4387847-professeur-sciences-pour-le-secondaire-fh-igcse-anvers-belgique-2018-antwerpen"
     },
     {
       "id": 4387753,
-      "titre": "Professeur du Second Degré - ANGLAIS - LFA (ALEXANDRIE - ÉGYPTE)",
+      "titre": "Professeur du Second Degré ANGLAIS - ALEXANDRIE - ÉGYPTE",
       "etab": "",
       "ville": "Alexandria",
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’anglais F/H",
       "date": "16/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4387753-professeur-du-second-degre-anglais-lfa-alexandrie-egypte-alexandria"
+      "url": "https://talents.aefe.fr/fr/annonce/4387753-professeur-du-second-degre-anglais-alexandrie-egypte-alexandria"
     },
     {
       "id": 4386689,
@@ -268,14 +455,14 @@
     },
     {
       "id": 4386167,
-      "titre": "Assistant.e pédagogique / Animateur.rice périscolaire",
+      "titre": "Assistant pédagogique / Animateur périscolaire - F/H - RIGA - LETTONIE",
       "etab": "",
       "ville": "Rīga",
-      "pays": "",
+      "pays": "Lettonie",
       "contrat": "Contrat temporaire",
       "discipline": "Assistant d'éducation F/H",
       "date": "15/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4386167-assistant-e-pedagogique-animateur-rice-periscolaire-1005-riga"
+      "url": "https://talents.aefe.fr/fr/annonce/4386167-assistant-pedagogique-animateur-periscolaire-fh-riga-lettonie-1005-riga"
     },
     {
       "id": 4385281,
@@ -290,18 +477,18 @@
     },
     {
       "id": 4384625,
-      "titre": "Psychologue – PRIO en contrat local",
+      "titre": "Psychologue - F/H - PRIO en contrat local - PEKIN - CHINE",
       "etab": "",
       "ville": "Bei Jing Shi",
-      "pays": "",
+      "pays": "Chine",
       "contrat": "Contrat temporaire",
       "discipline": "Psychologue scolaire F/H",
       "date": "15/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4384625-psychologue-prio-en-contrat-local-bei-jing-shi"
+      "url": "https://talents.aefe.fr/fr/annonce/4384625-psychologue-fh-prio-en-contrat-local-pekin-chine-bei-jing-shi"
     },
     {
       "id": 4384279,
-      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H- TUNIS-TUNISIE",
+      "titre": "Professeur du Second Degré Education Physique et Sportive - F/H- TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
@@ -312,7 +499,7 @@
     },
     {
       "id": 4384269,
-      "titre": "Professeur du Second Degré - Sciences Economiques et Sociales F/H -TUNIS-TUNISIE",
+      "titre": "Professeur du Second Degré Sciences Economiques et Sociales - F/H -TUNIS-TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
@@ -334,14 +521,14 @@
     },
     {
       "id": 4384151,
-      "titre": "Référent/e école inclusive -Lycée Francais International d'Accra - ACCRA- GHANA",
+      "titre": "Référent école inclusive - F/H - ACCRA - GHANA",
       "etab": "",
       "ville": "Accra",
       "pays": "Ghana",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4384151-referente-ecole-inclusive-lycee-francais-international-daccra-accra-ghana-accra"
+      "url": "https://talents.aefe.fr/fr/annonce/4384151-referent-ecole-inclusive-fh-accra-ghana-accra"
     },
     {
       "id": 4384019,
@@ -351,18 +538,18 @@
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d’espagnol F/H",
-      "date": "14/05/2026",
+      "date": "20/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4384019-professeur-despagnol-fh-gsu-la-fontaine-de-fes-maroc-fes"
     },
     {
       "id": 4383933,
-      "titre": "Professeur d'EPS F/H - Lycée Paul VALERY Meknès - Maroc",
+      "titre": "Professeur d'EPS (F/H) - Lycée Paul VALERY - MEKNES - MAROC",
       "etab": "",
       "ville": "Meknes",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "14/05/2026",
+      "date": "20/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4383933-professeur-deps-fh-lycee-paul-valery-meknes-maroc-meknes"
     },
     {
@@ -378,25 +565,25 @@
     },
     {
       "id": 4383673,
-      "titre": "Surveillant(e) 1er degré - Lycée Stendhal - MILAN",
+      "titre": "Surveillant 1er degré - F/H - Lycée Stendhal - MILAN - ITALIE",
       "etab": "",
       "ville": "Milano",
-      "pays": "",
+      "pays": "Italie",
       "contrat": "Contrat permanent",
       "discipline": "Agent du périscolaire F/H",
       "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383673-surveillante-1er-degre-lycee-stendhal-milan-20148-milano"
+      "url": "https://talents.aefe.fr/fr/annonce/4383673-surveillant-1er-degre-fh-lycee-stendhal-milan-italie-20148-milano"
     },
     {
       "id": 4383643,
-      "titre": "AED Personnel de vie scolaire - Lycée Stendhal - MILAN",
+      "titre": "AED Personnel de vie scolaire - F/H - Lycée Stendhal - MILAN - ITALIE",
       "etab": "",
       "ville": "Milano",
-      "pays": "",
+      "pays": "Italie",
       "contrat": "Contrat permanent",
       "discipline": "Assistant d'éducation F/H",
       "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383643-aed-personnel-de-vie-scolaire-lycee-stendhal-milan-20148-milano"
+      "url": "https://talents.aefe.fr/fr/annonce/4383643-aed-personnel-de-vie-scolaire-fh-lycee-stendhal-milan-italie-20148-milano"
     },
     {
       "id": 4383633,
@@ -411,14 +598,14 @@
     },
     {
       "id": 4383611,
-      "titre": "Professeur des Écoles",
+      "titre": "Professeur des Écoles - F/H - LONDRES - ROYAUME-UNI",
       "etab": "",
       "ville": "England",
-      "pays": "",
+      "pays": "Royaume-Uni",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383611-professeur-des-ecoles-greater-london"
+      "url": "https://talents.aefe.fr/fr/annonce/4383611-professeur-des-ecoles-fh-londres-royaume-uni-greater-london"
     },
     {
       "id": 4383561,
@@ -444,36 +631,36 @@
     },
     {
       "id": 4383481,
-      "titre": "Professeur d'anglais/littérature anglaise F/H-Lycée des Mascareignes-Ile Maurice",
+      "titre": "Professeur d'anglais/littérature anglaise - F/H - MOKA - ILE MAURICE",
       "etab": "",
       "ville": "Moka",
       "pays": "Île Maurice",
       "contrat": "Contrat permanent",
       "discipline": "Professeur du second degré F/H",
-      "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383481-professeur-danglaislitterature-anglaise-fh-lycee-des-mascareignes-ile-maurice-moka"
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4383481-professeur-danglaislitterature-anglaise-fh-moka-ile-maurice-moka"
     },
     {
       "id": 4383401,
-      "titre": "Agent d’accueil & gestion des absences élèves (F/H) - Louis Massignon-Abu Dhabi",
+      "titre": "Agent d’accueil & gestion des absences élèves - F/H - ABU DHABI - EAU",
       "etab": "",
       "ville": "Abu Dhabi",
       "pays": "Émirats Arabes Unis",
       "contrat": "Contrat permanent",
       "discipline": "Sécrétaire / assistant F/H",
       "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383401-agent-d-accueil-gestion-des-absences-eleves-fh-louis-massignon-abu-dhabi-abu-dhabi"
+      "url": "https://talents.aefe.fr/fr/annonce/4383401-agent-d-accueil-gestion-des-absences-eleves-fh-abu-dhabi-eau-abu-dhabi"
     },
     {
       "id": 4383367,
-      "titre": "Professeur-e de philosophie",
+      "titre": "Professeur de philosophie - F/H - BUSAITEEN - BAHREIN",
       "etab": "",
       "ville": "Busaiteen",
-      "pays": "",
+      "pays": "Bahreïn",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de philosophie F/H",
       "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383367-professeur-e-de-philosophie-busaiteen"
+      "url": "https://talents.aefe.fr/fr/annonce/4383367-professeur-de-philosophie-fh-busaiteen-bahrein-busaiteen"
     },
     {
       "id": 4383225,
@@ -1917,17 +2104,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4350573-professeur-du-second-degre-lettres-modernes-fh-dakar-senegal-dakar"
     },
     {
-      "id": 4349889,
-      "titre": "Professeur de Physique Chimie - F/H - LAS TERRENAS - REPUBLIQUE DOMINICAINE",
-      "etab": "",
-      "ville": "Las Terrenas",
-      "pays": "Rép. dominicaine",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "24/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349889-professeur-de-physique-chimie-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
-    },
-    {
       "id": 4349823,
       "titre": "English Teacher for Middle and High school - F/H - PEKIN - CHINE",
       "etab": "",
@@ -3050,17 +3226,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4324137-professeur-des-ecoles-intervention-en-6eme-sciences-fh-pristina-kosovo-pristina"
     },
     {
-      "id": 4323971,
-      "titre": "Intervenant Section Sportive Scolaire Basket Ball - F/H - SALY - SENEGAL",
-      "etab": "",
-      "ville": "Saly",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "10/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4323971-intervenant-section-sportive-scolaire-basket-ball-fh-saly-senegal-saly"
-    },
-    {
       "id": 4322645,
       "titre": "PROFESSEUR D'EDUCATION MUSICALE - F/H - BAMAKO - MALI",
       "etab": "",
@@ -3941,28 +4106,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4290467-professeur-du-second-degre-anglais-fh-lycee-montaigne-cotonou-benin-cotonou"
     },
     {
-      "id": 4289359,
-      "titre": "Professeur Documentaliste - F/H - BRATISLAVA - SLOVAQUIE",
-      "etab": "",
-      "ville": "Bratislava",
-      "pays": "Slovaquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "21/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4289359-professeur-documentaliste-fh-bratislava-slovaquie-851-01-bratislava"
-    },
-    {
-      "id": 4288169,
-      "titre": "Professeur du Second Degré",
-      "etab": "",
-      "ville": "Cundinamarca",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "13/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4288169-professeur-du-second-degre-la-calera"
-    },
-    {
       "id": 4284955,
       "titre": "Professeur des écoles - F/H - PRAIA - CAP-VERT",
       "etab": "",
@@ -4093,6 +4236,17 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "11/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4263343-professeur-de-svt-college-lycee-fh-koh-samui-thailande-84310-koh-samui"
+    },
+    {
+      "id": 4260645,
+      "titre": "Professeur d'anglais - F/H - COTONOU - BENIN",
+      "etab": "",
+      "ville": "Cotonou",
+      "pays": "Bénin",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "20/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4260645-professeur-danglais-fh-cotonou-benin-9087-cotonou"
     },
     {
       "id": 4259761,
@@ -4568,17 +4722,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4202573-professeur-d-espagnol-college-lycee-fh-koh-samui-thailande-84310-koh-samui"
     },
     {
-      "id": 4202523,
-      "titre": "Conseiller Principal d'Éducation F/H - DUBAI - EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "19/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4202523-conseiller-principal-deducation-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
       "id": 4202371,
       "titre": "ASSISTANT DE DIRECTION - F/H - ASUNCION - PARAGUAY",
       "etab": "",
@@ -4756,7 +4899,7 @@
     },
     {
       "id": 4180763,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H - AMSTERDAM - PAYS-BAS",
+      "titre": "Professeur du Second Degré d'histoire géographie - F/H - AMSTERDAM - PAYS-BAS",
       "etab": "",
       "ville": "Amsterdam",
       "pays": "Pays-Bas",
@@ -4938,7 +5081,7 @@
       "pays": "Bénin",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
-      "date": "11/05/2026",
+      "date": "20/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4151931-professeur-de-snt-fh-cotonou-benin-9087-cotonou"
     },
     {
@@ -5006,17 +5149,6 @@
       "discipline": "Professeur de philosophie F/H",
       "date": "11/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4143823-professeur-de-philosophie-fh-cotonou-benin-9087-cotonou"
-    },
-    {
-      "id": 4142975,
-      "titre": "Professeur des écoles - Rentrée 2026/2027 - F/H - COTONOU - BENIN",
-      "etab": "",
-      "ville": "Cotonou",
-      "pays": "Bénin",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "17/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4142975-professeur-des-ecoles-rentree-20262027-fh-cotonou-benin-9087-cotonou"
     },
     {
       "id": 4140099,
@@ -5349,17 +5481,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4118153-professeur-physique-chimie-fh-susceptible-detre-vacant-le-cap-afrique-du-sud-8005-cape-town"
     },
     {
-      "id": 4112449,
-      "titre": "Professeur MATHS - F/H - LYCEE LAS TERRENAS - REPUBLIQUE DOMINICAINE",
-      "etab": "",
-      "ville": "Las Terrenas",
-      "pays": "Rép. dominicaine",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "17/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4112449-professeur-maths-fh-lycee-las-terrenas-republique-dominicaine-32000-las-terrenas"
-    },
-    {
       "id": 4112253,
       "titre": "Professeur d'arabe - F/H - Groupe Scolaire Jacques Chirac - RABAT - MAROC",
       "etab": "",
@@ -5446,17 +5567,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "06/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4093331-enseignant-specialise-fh-washington-d-c-bethesda-etats-unis-20814-bethesda"
-    },
-    {
-      "id": 4093183,
-      "titre": "AIDE-LABORATOIRE - F/H - Lycée français Jacques-Prévert - SALY - SENEGAL",
-      "etab": "",
-      "ville": "Saly",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Aide de laboratoire F/H",
-      "date": "13/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4093183-aide-laboratoire-fh-lycee-francais-jacques-prevert-saly-senegal-saly"
     },
     {
       "id": 4089901,
@@ -5647,7 +5757,7 @@
     },
     {
       "id": 4060145,
-      "titre": "Assistant d'Éducation F/H - TOKYO - JAPON",
+      "titre": "Assistant d'Éducation - F/H - TOKYO - JAPON",
       "etab": "",
       "ville": "Tokyo",
       "pays": "Japon",
@@ -5878,7 +5988,7 @@
     },
     {
       "id": 3654573,
-      "titre": "Professeur des écoles F/H - TULEAR - MADAGASCAR",
+      "titre": "Professeur des écoles - F/H - TULEAR - MADAGASCAR",
       "etab": "",
       "ville": "Tuléar",
       "pays": "Madagascar",
