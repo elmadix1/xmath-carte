@@ -1,7 +1,18 @@
 {
-  "updated": "2026-05-20 19:28",
-  "total": 558,
+  "updated": "2026-05-21 08:37",
+  "total": 550,
   "offers": [
+    {
+      "id": 4396351,
+      "titre": "Professeur du Second Degré_Espagnol (F/H) - LLM_Abu Dhabi_Emirats arabes unis",
+      "etab": "",
+      "ville": "Abu Dhabi",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "21/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4396351-professeur-du-second-degre-espagnol-fh-llm-abu-dhabi-emirats-arabes-unis-abu-dhabi"
+    },
     {
       "id": 4396003,
       "titre": "Professeur(e) Documentaliste F/H - RIO DE JANEIRO - BRESIL",
@@ -15,14 +26,14 @@
     },
     {
       "id": 4395329,
-      "titre": "Professeur du Second Degré",
+      "titre": "Professeur du Second Degré - ALLEMAND",
       "etab": "",
       "ville": "Cairo",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "20/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4395329-professeur-du-second-degre-cairo"
+      "url": "https://talents.aefe.fr/fr/annonce/4395329-professeur-du-second-degre-allemand-cairo"
     },
     {
       "id": 4395105,
@@ -290,25 +301,25 @@
     },
     {
       "id": 4390905,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles - F/H - PORTLAND - ETATS-UNIS",
       "etab": "",
       "ville": "Portland",
-      "pays": "",
+      "pays": "États-Unis",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "18/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4390905-professeur-des-ecoles-fh-97229-portland"
+      "url": "https://talents.aefe.fr/fr/annonce/4390905-professeur-des-ecoles-fh-portland-etats-unis-97229-portland"
     },
     {
       "id": 4390741,
-      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "titre": "Professeur du Second Degré - Physique Chimie - F/H - LA PAZ - BOLIVIE",
       "etab": "",
       "ville": "La Paz",
-      "pays": "",
+      "pays": "Bolivie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de physique chimie F/H",
       "date": "18/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4390741-professeur-du-second-degre-physique-chimie-fh-la-paz"
+      "url": "https://talents.aefe.fr/fr/annonce/4390741-professeur-du-second-degre-physique-chimie-fh-la-paz-bolivie-la-paz"
     },
     {
       "id": 4390375,
@@ -378,7 +389,7 @@
     },
     {
       "id": 4389405,
-      "titre": "Professeur du Second Degré - Espagnol F/H - EGD- Lycée PMF- Tunis - Tunisie",
+      "titre": "Professeur du Second Degré - Espagnol - F/H - EGD - Lycée PMF - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
@@ -389,14 +400,14 @@
     },
     {
       "id": 4389025,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles - F/H - SKOPJE - MACEDOINE DU NORD",
       "etab": "",
       "ville": "Skopje",
-      "pays": "",
+      "pays": "Macédoine du Nord",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "18/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4389025-professeur-des-ecoles-fh-1000-skopje"
+      "url": "https://talents.aefe.fr/fr/annonce/4389025-professeur-des-ecoles-fh-skopje-macedoine-du-nord-1000-skopje"
     },
     {
       "id": 4388045,
@@ -771,17 +782,6 @@
       "discipline": "Professeur de lettres classiques F/H",
       "date": "12/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4379313-professeur-de-francais-lettres-classiques-fh-londres-royaume-uni-greater-london"
-    },
-    {
-      "id": 4378919,
-      "titre": "Professeur du Second Degré d'histoire géographie - F/H - VALLADOLID - ESPAGNE",
-      "etab": "",
-      "ville": "Laguna de Duero",
-      "pays": "Espagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "12/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4378919-professeur-du-second-degre-dhistoire-geographie-fh-valladolid-espagne-47140-laguna-de-duero"
     },
     {
       "id": 4378707,
@@ -1851,17 +1851,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4354517-professeur-du-second-degre-ses-fh-jerusalem-95141-jerusalem"
     },
     {
-      "id": 4354013,
-      "titre": "ENSEIGNANT 2ND DEGRE LETTRES MODERNES - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "27/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4354013-enseignant-2nd-degre-lettres-modernes-fh-le-caire-egypte-cairo"
-    },
-    {
       "id": 4354003,
       "titre": "ENSEIGNANT 2ND DEGRE - NSI - F/H - LYCEE FRANCAIS DU CAIRE - LE CAIRE - EGYPTE",
       "etab": "",
@@ -2291,28 +2280,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4346469-professeur-des-ecoles-fh-temps-partiel-le-caire-egypte-cairo"
     },
     {
-      "id": 4346357,
-      "titre": "PROFESSEUR DES ECOLES - F/H - EGD - ECOLE JEAN GIONO - BIZERTE - TUNISIE",
-      "etab": "",
-      "ville": "Bizerte",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "22/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4346357-professeur-des-ecoles-fh-egd-ecole-jean-giono-bizerte-tunisie-bizerte"
-    },
-    {
-      "id": 4346337,
-      "titre": "PROFESSEUR DES ECOLES F/H - CDD - EGD - ECOLE PAUL VERLAINE - LA MARSA - TUNISIE",
-      "etab": "",
-      "ville": "La Marsa",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "22/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4346337-professeur-des-ecoles-fh-cdd-egd-ecole-paul-verlaine-la-marsa-tunisie-2078-la-marsa"
-    },
-    {
       "id": 4346323,
       "titre": "Professeur de SVT - F/H - BUJUMBURA - BURUNDI",
       "etab": "",
@@ -2322,39 +2289,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "22/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4346323-professeur-de-svt-fh-bujumbura-burundi-bujumbura"
-    },
-    {
-      "id": 4346221,
-      "titre": "PE MATERNELLE - F/H - EGD - ECOLE PAUL VERLAINE - LA MARSA - TUNISIE",
-      "etab": "",
-      "ville": "La Marsa",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "22/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4346221-pe-maternelle-fh-egd-ecole-paul-verlaine-la-marsa-tunisie-2078-la-marsa"
-    },
-    {
-      "id": 4346199,
-      "titre": "PE ELEMENTAIRE - EGD - ECOLE PAUL VERLAINE - LA MARSA - TUNISIE",
-      "etab": "",
-      "ville": "La Marsa",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "22/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4346199-pe-elementaire-egd-ecole-paul-verlaine-la-marsa-tunisie-2078-la-marsa"
-    },
-    {
-      "id": 4345649,
-      "titre": "ENSEIGNANT 2ND DEGRE H-G - F/H - LYCEE FRANCAIS DU CAIRE - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "22/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4345649-enseignant-2nd-degre-h-g-fh-lycee-francais-du-caire-le-caire-egypte-cairo"
     },
     {
       "id": 4345631,
@@ -2971,17 +2905,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "13/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4328349-professeur-du-second-degre-allemand-fh-douala-cameroun-douala"
-    },
-    {
-      "id": 4328263,
-      "titre": "Professeur du Second Degré - Anglais - F/H - DOUALA - CAMEROUN",
-      "etab": "",
-      "ville": "Douala",
-      "pays": "Cameroun",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "13/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4328263-professeur-du-second-degre-anglais-fh-douala-cameroun-douala"
     },
     {
       "id": 4328159,
@@ -5213,7 +5136,7 @@
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
-      "date": "18/05/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4136303-professeur-de-lettres-modernes-fh-casablanca-maroc-province-de-tinghir"
     },
     {
@@ -5457,17 +5380,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "23/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4125441-enseignant-specialise-fh-lycee-jules-verne-johannesburg-afrique-du-sud-2057-sandton"
-    },
-    {
-      "id": 4121277,
-      "titre": "Professeur des écoles - F/H - CONCEPTION - CHILI",
-      "etab": "",
-      "ville": "Concepción",
-      "pays": "Chili",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "18/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4121277-professeur-des-ecoles-fh-conception-chili-4030000-concepcion"
     },
     {
       "id": 4118153,
@@ -5911,7 +5823,7 @@
     },
     {
       "id": 3791793,
-      "titre": "Assistant d'Éducation F/H - NICOSIE - CHYPRE",
+      "titre": "Assistant d'Éducation - F/H - NICOSIE - CHYPRE",
       "etab": "",
       "ville": "Aglantzia",
       "pays": "Chypre",
