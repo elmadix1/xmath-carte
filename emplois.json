@@ -1,10 +1,21 @@
 {
-  "updated": "2026-05-23 07:35",
-  "total": 547,
+  "updated": "2026-05-23 18:03",
+  "total": 537,
   "offers": [
     {
+      "id": 4403887,
+      "titre": "Professeur Documentaliste & Lettres Modernes F/H - TIRANA - ALBANIE",
+      "etab": "",
+      "ville": "Lundër 1",
+      "pays": "Albanie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "23/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4403887-professeur-documentaliste-lettres-modernes-fh-tirana-albanie-lunder-1"
+    },
+    {
       "id": 4402669,
-      "titre": "Responsable des Ressources Humaines F/H - Lycée Victor Hugo - Marrakech - MAROC",
+      "titre": "Responsable des Ressources Humaines- F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
       "etab": "",
       "ville": "Marrakesh",
       "pays": "Maroc",
@@ -15,36 +26,36 @@
     },
     {
       "id": 4402643,
-      "titre": "Agent de service polyvalent - F/H - Lycée Victor Hugo de Marrakech - MAROC",
+      "titre": "Agent de service polyvalent - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
       "etab": "",
       "ville": "Marrakesh",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Chargé de maintenance et d’entretien F/H",
       "date": "22/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4402643-agent-de-service-polyvalent-fh-lycee-victor-hugo-de-marrakech-maroc-marrakesh"
+      "url": "https://talents.aefe.fr/fr/annonce/4402643-agent-de-service-polyvalent-fh-lycee-victor-hugo-marrakech-maroc-marrakesh"
     },
     {
       "id": 4402561,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - LAGOS - NIGERIA",
       "etab": "",
       "ville": "Lagos",
-      "pays": "",
+      "pays": "Nigéria",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de mathématiques F/H",
       "date": "22/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4402561-professeur-du-second-degre-mathematiques-fh-106104-lagos"
+      "url": "https://talents.aefe.fr/fr/annonce/4402561-professeur-du-second-degre-mathematiques-fh-lagos-nigeria-106104-lagos"
     },
     {
       "id": 4402329,
-      "titre": "Surveillant | Playground Supervisor - F/H - ROYAUME UNI - LONDRES",
+      "titre": "Surveillant | Playground Supervisor - F/H - LONDRES - ROYAUME-UNI",
       "etab": "",
       "ville": "England",
       "pays": "Royaume-Uni",
       "contrat": "Contrat temporaire",
       "discipline": "Agent du périscolaire F/H",
       "date": "22/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4402329-surveillant-playground-supervisor-fh-royaume-uni-londres-greater-london"
+      "url": "https://talents.aefe.fr/fr/annonce/4402329-surveillant-playground-supervisor-fh-londres-royaume-uni-greater-london"
     },
     {
       "id": 4400941,
@@ -3974,83 +3985,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4294675-professeur-de-ses-histoire-geographie-fh-lisbonne-portugal-1350-164-lisboa"
     },
     {
-      "id": 4294487,
-      "titre": "Professeur des écoles - F/H - LAGOS - NIGERIA",
-      "etab": "",
-      "ville": "Lagos",
-      "pays": "Nigéria",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4294487-professeur-des-ecoles-fh-lagos-nigeria-106104-lagos"
-    },
-    {
-      "id": 4294383,
-      "titre": "Conseiller d’orientation - F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4294383-conseiller-d-orientation-fh-rabat-maroc-rabat"
-    },
-    {
-      "id": 4294369,
-      "titre": "Conseiller Principal d'Éducation - F/H - CUENCA - EQUATEUR",
-      "etab": "",
-      "ville": "Cuenca",
-      "pays": "Équateur",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4294369-conseiller-principal-deducation-fh-cuenca-equateur-cuenca"
-    },
-    {
-      "id": 4293819,
-      "titre": "Professeur de Lettres - F/H - DJIBOUTI",
-      "etab": "",
-      "ville": "Djibouti",
-      "pays": "Djibouti",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4293819-professeur-de-lettres-fh-djibouti-djibouti"
-    },
-    {
-      "id": 4293553,
-      "titre": "Assistant Documentaliste Dynamique et Organisé - F/H - PONDICHERY - INDE",
-      "etab": "",
-      "ville": "Puducherry",
-      "pays": "Inde",
-      "contrat": "Contrat permanent",
-      "discipline": "Chargé du centre de documentation F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4293553-assistant-documentaliste-dynamique-et-organise-fh-pondichery-inde-puducherry"
-    },
-    {
-      "id": 4292745,
-      "titre": "Directeur du primaire - F/H - NADOR - MAROC",
-      "etab": "",
-      "ville": "Nador",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Directeur du primaire F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4292745-directeur-du-primaire-fh-nador-maroc-nador"
-    },
-    {
-      "id": 4292733,
-      "titre": "Professeur des écoles - F/H - N'DJAMENA - TCHAD",
-      "etab": "",
-      "ville": "N'Djamena",
-      "pays": "Tchad",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4292733-professeur-des-ecoles-fh-ndjamena-tchad-ndjamena"
-    },
-    {
       "id": 4292361,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - PANAMA",
       "etab": "",
@@ -4720,50 +4654,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "13/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4199303-professeur-des-ecoles-fh-south-freeport-maine-etats-unis-04032-freeport"
-    },
-    {
-      "id": 4196803,
-      "titre": "Professeur du Second Degré d'histoire géographie - F/H - BRATISLAVA - SLOVAQUIE",
-      "etab": "",
-      "ville": "Bratislava",
-      "pays": "Slovaquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4196803-professeur-du-second-degre-dhistoire-geographie-fh-bratislava-slovaquie-851-01-bratislava"
-    },
-    {
-      "id": 4196795,
-      "titre": "Professeur du Second Degré EPS - F/H - BRATISLAVA - SLOVAQUIE",
-      "etab": "",
-      "ville": "Bratislava",
-      "pays": "Slovaquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4196795-professeur-du-second-degre-eps-fh-bratislava-slovaquie-851-01-bratislava"
-    },
-    {
-      "id": 4196789,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - BRATISLAVA - SLOVAQUIE",
-      "etab": "",
-      "ville": "Bratislava",
-      "pays": "Slovaquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4196789-professeur-du-second-degre-lettres-modernes-fh-bratislava-slovaquie-851-01-bratislava"
-    },
-    {
-      "id": 4196771,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - BRATISLAVA - SLOVAQUIE",
-      "etab": "",
-      "ville": "Bratislava",
-      "pays": "Slovaquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "24/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4196771-professeur-du-second-degre-mathematiques-fh-bratislava-slovaquie-851-01-bratislava"
     },
     {
       "id": 4196309,
