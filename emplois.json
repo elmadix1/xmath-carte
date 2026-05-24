@@ -1,10 +1,32 @@
 {
-  "updated": "2026-05-24 07:54",
-  "total": 536,
+  "updated": "2026-05-24 18:03",
+  "total": 529,
   "offers": [
     {
+      "id": 4404849,
+      "titre": "Professeur du Second Degré - SVT - F/H - LFA - ALEXANDRIE - EGYPTE",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "24/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4404849-professeur-du-second-degre-svt-fh-lfa-alexandrie-egypte-alexandria"
+    },
+    {
+      "id": 4404839,
+      "titre": "Professeur du Second Degré - ANGLAIS - F/H - LFA - ALEXANDRIE - ÉGYPTE",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "24/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4404839-professeur-du-second-degre-anglais-fh-lfa-alexandrie-egypte-alexandria"
+    },
+    {
       "id": 4403887,
-      "titre": "Professeur Documentaliste & Lettres Modernes F/H - TIRANA - ALBANIE",
+      "titre": "Professeur Documentaliste & Lettres Modernes - F/H - TIRANA - ALBANIE",
       "etab": "",
       "ville": "Lundër 1",
       "pays": "Albanie",
@@ -1213,17 +1235,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4374585-professeur-danglais-fh-etablissement-liberte-bamako-mali-bamako"
     },
     {
-      "id": 4374579,
-      "titre": "Professeur de Turc/Anglais - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de turc F/H",
-      "date": "08/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4374579-professeur-de-turcanglais-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
       "id": 4374577,
       "titre": "Professeur de physique-chimie- F/H - Lycée Léon l'Africain - CASABLANCA - MAROC",
       "etab": "",
@@ -1235,17 +1246,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4374577-professeur-de-physique-chimie-fh-lycee-leon-lafricain-casablanca-maroc-casablanca"
     },
     {
-      "id": 4374575,
-      "titre": "Professeur d’Anglais 1er degré - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "08/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4374575-professeur-d-anglais-1er-degre-fh-ankara-turquie-golbas%C4%B1"
-    },
-    {
       "id": 4374567,
       "titre": "PROFESSEUR DE MATHEMATIQUES - F/H - ETABLISSEMENT LIBERTE - BAMAKO - MALI",
       "etab": "",
@@ -1255,17 +1255,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "08/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4374567-professeur-de-mathematiques-fh-etablissement-liberte-bamako-mali-bamako"
-    },
-    {
-      "id": 4374561,
-      "titre": "Professeur des écoles élémentaire - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "08/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4374561-professeur-des-ecoles-elementaire-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4374553,
@@ -1376,17 +1365,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "07/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4372747-professeur-des-ecoles-coordonnateur-de-lemile-en-anglais-fh-madrid-espagne-28043-madrid"
-    },
-    {
-      "id": 4372241,
-      "titre": "Directeur du primaire - F/H - IBIZA - ESPAGNE",
-      "etab": "",
-      "ville": "Sant Jordi de ses Salines",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Directeur du primaire F/H",
-      "date": "07/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4372241-directeur-du-primaire-fh-ibiza-espagne-07817-sant-jordi-de-ses-salines"
     },
     {
       "id": 4372185,
@@ -1508,17 +1486,6 @@
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "06/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4369931-conseiller-principal-d-education-cpe-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4369923,
-      "titre": "Professeur de Sciences Economiques et Sociales - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "08/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4369923-professeur-de-sciences-economiques-et-sociales-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4369331,
@@ -3930,39 +3897,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4297915-professeur-du-second-degre-lettres-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
-      "id": 4296649,
-      "titre": "Personnel de direction - F/H - HOUSTON - TEXAS - ETATS-UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Proviseur adjoint F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4296649-personnel-de-direction-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
-      "id": 4295801,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - PRAIA - CAP-VERT",
-      "etab": "",
-      "ville": "Praia",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4295801-professeur-du-second-degre-mathematiques-fh-praia-cap-vert-praia"
-    },
-    {
-      "id": 4295747,
-      "titre": "Chargée de Communication et de développement - F/H - PONDICHÉRY - INDE",
-      "etab": "",
-      "ville": "Puducherry",
-      "pays": "Inde",
-      "contrat": "Contrat permanent",
-      "discipline": "Chargé de communication F/H",
-      "date": "25/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4295747-chargee-de-communication-et-de-developpement-fh-pondichery-inde-puducherry"
-    },
-    {
       "id": 4294691,
       "titre": "Enseignant du Second degré - Lettres - F/H - KUALA LUMPUR - MALAISIE",
       "etab": "",
@@ -3983,6 +3917,28 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "16/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4292361-professeur-du-second-degre-mathematiques-fh-panama-arraijan-district"
+    },
+    {
+      "id": 4285711,
+      "titre": "Professeur de Français/Histoire Géographie - F/H - NADOR - MAROC",
+      "etab": "",
+      "ville": "Nador",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "24/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4285711-professeur-de-francaishistoire-geographie-fh-nador-maroc-nador"
+    },
+    {
+      "id": 4285423,
+      "titre": "Professeur de Mathématiques et Physique-Chimie - F/H - NADOR - MAROC",
+      "etab": "",
+      "ville": "Nador",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "24/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4285423-professeur-de-mathematiques-et-physique-chimie-fh-nador-maroc-nador"
     },
     {
       "id": 4284955,
@@ -5668,17 +5624,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/3791793-assistant-deducation-fh-nicosie-chypre-aglantzia"
     },
     {
-      "id": 3761987,
-      "titre": "Professeur d'anglais F/H - IBIZA - ESPAGNE pour la rentrée 2026",
-      "etab": "",
-      "ville": "Sant Jordi de ses Salines",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "07/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3761987-professeur-danglais-fh-ibiza-espagne-pour-la-rentree-2026-07817-sant-jordi-de-ses-salines"
-    },
-    {
       "id": 3725161,
       "titre": "Professeur du 2nd Degré - SES - F/H - SEOUL - COREE DU SUD",
       "etab": "",
@@ -5708,7 +5653,7 @@
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de physique chimie F/H",
-      "date": "30/03/2026",
+      "date": "24/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3702775-rentree-2026-professeur-physiques-chimie-fh-le-caire-egypte-cairo"
     },
     {
@@ -5719,7 +5664,7 @@
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "professeur de lettres modernes F/H",
-      "date": "30/03/2026",
+      "date": "24/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3690873-rentree-2026-professeur-de-lettres-fh-lycee-voltaire-le-caire-egypte-cairo"
     },
     {
@@ -5864,28 +5809,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "15/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3403337-professeur-dallemand-fh-lfi-mhamed-driss-sousse-tunisie-4023-sousse"
-    },
-    {
-      "id": 3391395,
-      "titre": "Professeure des écoles (susceptible d'être vacant) - IBIZA (ESPAGNE)",
-      "etab": "",
-      "ville": "Sant Jordi de ses Salines",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3391395-professeure-des-ecoles-susceptible-detre-vacant-ibiza-espagne-07817-sant-jordi-de-ses-salines"
-    },
-    {
-      "id": 3388751,
-      "titre": "Professeur des écoles - F/H - Remplacement congé maternité - IBIZA - ESPAGNE",
-      "etab": "",
-      "ville": "Sant Jordi de ses Salines",
-      "pays": "Espagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3388751-professeur-des-ecoles-fh-remplacement-conge-maternite-ibiza-espagne-07817-sant-jordi-de-ses-salines"
     },
     {
       "id": 3363779,
