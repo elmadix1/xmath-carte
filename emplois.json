@@ -1,7 +1,29 @@
 {
-  "updated": "2026-05-24 18:03",
-  "total": 529,
+  "updated": "2026-05-25 09:00",
+  "total": 527,
   "offers": [
+    {
+      "id": 4406223,
+      "titre": "Professeur des écoles F/H - BANGKOK- THAILANDE",
+      "etab": "",
+      "ville": "Bangkok",
+      "pays": "Thaïlande",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4406223-professeur-des-ecoles-fh-bangkok-thailande-10310-bangkok"
+    },
+    {
+      "id": 4406205,
+      "titre": "Susceptible d'etre vacant - Professeur SNT - Kuala Lumpur",
+      "etab": "",
+      "ville": "Kuala Lumpur",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
+      "date": "25/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4406205-susceptible-detre-vacant-professeur-snt-kuala-lumpur-kuala-lumpur"
+    },
     {
       "id": 4404849,
       "titre": "Professeur du Second Degré - SVT - F/H - LFA - ALEXANDRIE - EGYPTE",
@@ -1356,17 +1378,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4373237-professeur-du-second-degre-snt-fh-monastir-tunisie-monastir"
     },
     {
-      "id": 4372747,
-      "titre": "PROFESSEUR DES ECOLES COORDONNATEUR DE L'EMILE EN ANGLAIS-F/H - MADRID - ESPAGNE",
-      "etab": "",
-      "ville": "Madrid",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4372747-professeur-des-ecoles-coordonnateur-de-lemile-en-anglais-fh-madrid-espagne-28043-madrid"
-    },
-    {
       "id": 4372185,
       "titre": "Secrétaire - F/H - BERLIN - ALLEMAGNE",
       "etab": "",
@@ -1376,17 +1387,6 @@
       "discipline": "Sécrétaire / assistant F/H",
       "date": "07/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4372185-secretaire-fh-berlin-allemagne-10785-berlin"
-    },
-    {
-      "id": 4372085,
-      "titre": "Professeur Physique chimie - EGD - F/H – LA MARSA - TUNISIE",
-      "etab": "",
-      "ville": "La Marsa",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "07/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4372085-professeur-physique-chimie-egd-fh-la-marsa-tunisie-2078-la-marsa"
     },
     {
       "id": 4371659,
@@ -1825,7 +1825,7 @@
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de physique chimie F/H",
-      "date": "28/04/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4357035-professeur-de-sciences-physiques-fh-rabat-maroc-rabat"
     },
     {
@@ -2584,7 +2584,7 @@
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Proviseur F/H",
-      "date": "17/04/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4339199-proviseur-fh-lycee-leon-lafricain-de-rabat-rabat-maroc-rabat"
     },
     {
@@ -4128,17 +4128,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4250385-professeur-des-ecoles-fh-tirana-albanie-lunder-1"
     },
     {
-      "id": 4245953,
-      "titre": "Professeur des écoles - F/H - PORT-VILA - VANUATU",
-      "etab": "",
-      "ville": "Port-Vila",
-      "pays": "Vanuatu",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "27/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4245953-professeur-des-ecoles-fh-port-vila-vanuatu-port-vila"
-    },
-    {
       "id": 4243357,
       "titre": "Professeur du Second Degré - Lettres classiques - F/H - DAKAR - SENEGAL",
       "etab": "",
@@ -4632,17 +4621,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "17/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4190241-professeur-des-ecoles-fh-ecole-arthur-rimbaud-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
-      "id": 4182527,
-      "titre": "Professeur du Second Degré - Histoire-Géo et SES - F/H - PATTAYA - THAÏLANDE",
-      "etab": "",
-      "ville": "Pattaya City",
-      "pays": "Thaïlande",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "06/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4182527-professeur-du-second-degre-histoire-geo-et-ses-fh-pattaya-thailande-20150-pattaya-city"
     },
     {
       "id": 4180763,
