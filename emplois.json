@@ -1,7 +1,84 @@
 {
-  "updated": "2026-05-25 09:00",
-  "total": 527,
+  "updated": "2026-05-25 18:30",
+  "total": 525,
   "offers": [
+    {
+      "id": 4407321,
+      "titre": "Professeur du Second Degré - Physique Chimie et SVT F/H - STOCKHOLM - SUÈDE",
+      "etab": "",
+      "ville": "Stockholms län",
+      "pays": "Suède",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "25/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4407321-professeur-du-second-degre-physique-chimie-et-svt-fh-stockholm-suede-stockholms-lan"
+    },
+    {
+      "id": 4407269,
+      "titre": "Professeur du Second Degré - Mathématiques F/H - STOCKHOLM - SUÈDE",
+      "etab": "",
+      "ville": "Stockholms län",
+      "pays": "Suède",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "25/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4407269-professeur-du-second-degre-mathematiques-fh-stockholm-suede-stockholms-lan"
+    },
+    {
+      "id": 4407225,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Abuja",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "25/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4407225-professeur-du-second-degre-lettres-modernes-fh-abuja"
+    },
+    {
+      "id": 4406785,
+      "titre": "PROFESSEUR DE MATHS POUR LE LYCEE LEON L'AFRICAIN DE RABAT F/H - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "25/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4406785-professeur-de-maths-pour-le-lycee-leon-lafricain-de-rabat-fh-rabat-maroc-rabat"
+    },
+    {
+      "id": 4406677,
+      "titre": "PROFESSEUR D'ARABE - F/H - LYCEE LEON L'AFRICAIN DE RABAT - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’arabe F/H",
+      "date": "25/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4406677-professeur-darabe-fh-lycee-leon-lafricain-de-rabat-rabat-maroc-rabat"
+    },
+    {
+      "id": 4406665,
+      "titre": "PROFESSEUR DES ECOLES POUR LE LYCEE LEON L'AFRICAIN DE RABAT H/F - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4406665-professeur-des-ecoles-pour-le-lycee-leon-lafricain-de-rabat-hf-rabat-maroc-rabat"
+    },
+    {
+      "id": 4406659,
+      "titre": "PROFESSEUR DE PHILOSOPHIE - F/H - LYCEE LEON L'AFRICAIN - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "25/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4406659-professeur-de-philosophie-fh-lycee-leon-lafricain-rabat-maroc-rabat"
+    },
     {
       "id": 4406223,
       "titre": "Professeur des écoles F/H - BANGKOK- THAILANDE",
@@ -1818,17 +1895,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4357047-professeur-sciences-de-lingenieur-fh-tunis-tunisie-1053-tunis"
     },
     {
-      "id": 4357035,
-      "titre": "PROFESSEUR DE SCIENCES PHYSIQUES - F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "",
-      "url": "https://talents.aefe.fr/fr/annonce/4357035-professeur-de-sciences-physiques-fh-rabat-maroc-rabat"
-    },
-    {
       "id": 4357031,
       "titre": "PROFESSEUR D'HISTOIRE-GEO - F/H - LYCEE LEON L'AFRICAIN DE RABAT- RABAT - MAROC",
       "etab": "",
@@ -2575,17 +2641,6 @@
       "discipline": "Infirmier scolaire F/H",
       "date": "19/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4339775-infirmier-scolaire-fh-abidjan-cote-divoire-abidjan"
-    },
-    {
-      "id": 4339199,
-      "titre": "PROVISEUR - F/H - Lycée Léon l'Africain de Rabat - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Proviseur F/H",
-      "date": "",
-      "url": "https://talents.aefe.fr/fr/annonce/4339199-proviseur-fh-lycee-leon-lafricain-de-rabat-rabat-maroc-rabat"
     },
     {
       "id": 4338895,
@@ -3567,17 +3622,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4310185-professeur-de-physique-chimie-fh-hong-kong-chine-hong-kong-island"
     },
     {
-      "id": 4310001,
-      "titre": "Professeur des écoles - F/H - Lycée français international de Panama - PANAMA",
-      "etab": "",
-      "ville": "Panamá Oeste Province",
-      "pays": "Panama",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "04/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4310001-professeur-des-ecoles-fh-lycee-francais-international-de-panama-panama-arraijan-district"
-    },
-    {
       "id": 4309989,
       "titre": "Professeur des écoles - F/H - CALGARY - CANADA",
       "etab": "",
@@ -3809,17 +3853,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4299485-professeur-du-second-degre-mathematiques-fh-sharjah-emirats-arabes-unis-sharjah"
     },
     {
-      "id": 4298733,
-      "titre": "Enseignant de Chimie - F/H - BRATISLAVA - SLOVAQUIE",
-      "etab": "",
-      "ville": "Bratislava",
-      "pays": "Slovaquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "26/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4298733-enseignant-de-chimie-fh-bratislava-slovaquie-851-01-bratislava"
-    },
-    {
       "id": 4298341,
       "titre": "Gestionnaire Formation - F/H - CDI 40h - VAUBAN - LUXEMBOURG",
       "etab": "",
@@ -3840,61 +3873,6 @@
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "19/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4298221-conseiller-principal-deducation-fh-munich-allemagne-81373-munchen"
-    },
-    {
-      "id": 4297995,
-      "titre": "Proviseur Adjoint - F/H - Lycée Français d'Alexandrie - ALEXANDRIE - EGYPTE",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Proviseur adjoint F/H",
-      "date": "26/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4297995-proviseur-adjoint-fh-lycee-francais-dalexandrie-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4297963,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - LOME - TOGO",
-      "etab": "",
-      "ville": "Lomé",
-      "pays": "Togo",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "26/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4297963-professeur-du-second-degre-lettres-modernes-fh-lome-togo-lome"
-    },
-    {
-      "id": 4297955,
-      "titre": "Assistant d'Éducation - F/H - DÜSSELDORF - ALLEMAGNE",
-      "etab": "",
-      "ville": "Düsseldorf",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "26/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4297955-assistant-deducation-fh-dusseldorf-allemagne-40237-dusseldorf"
-    },
-    {
-      "id": 4297929,
-      "titre": "Professeur des écoles - F/H - LYCEE FRANCAIS DE LOME - LOME - TOGO",
-      "etab": "",
-      "ville": "Lomé",
-      "pays": "Togo",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "26/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4297929-professeur-des-ecoles-fh-lycee-francais-de-lome-lome-togo-lome"
-    },
-    {
-      "id": 4297915,
-      "titre": "Professeur du second degré - Lettres - F/H - DUBAI - EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "26/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4297915-professeur-du-second-degre-lettres-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
       "id": 4294691,
@@ -5415,6 +5393,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4066961-professeur-de-lettres-modernes-fh-casablanca-maroc-casablanca"
     },
     {
+      "id": 4066805,
+      "titre": "Professeur de sciences de la vie et de la terre F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "25/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4066805-professeur-de-sciences-de-la-vie-et-de-la-terre-fh-casablanca-maroc-casablanca"
+    },
+    {
       "id": 4064715,
       "titre": "Professeur des écoles - F/H – BUCAREST - ROUMANIE",
       "etab": "",
@@ -5644,17 +5633,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "24/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3690873-rentree-2026-professeur-de-lettres-fh-lycee-voltaire-le-caire-egypte-cairo"
-    },
-    {
-      "id": 3658985,
-      "titre": "Professeur du Second Degré - SVT - F/H - FLORENCE - ITALIE",
-      "etab": "",
-      "ville": "Firenze",
-      "pays": "Italie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "03/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3658985-professeur-du-second-degre-svt-fh-florence-italie-50123-firenze"
     },
     {
       "id": 3654573,
