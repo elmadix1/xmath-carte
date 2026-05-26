@@ -1,10 +1,32 @@
 {
-  "updated": "2026-05-25 18:30",
-  "total": 525,
+  "updated": "2026-05-26 08:36",
+  "total": 523,
   "offers": [
     {
+      "id": 4409069,
+      "titre": "Professeur du Second Degré - Lettres F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "26/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4409069-professeur-du-second-degre-lettres-fh-lfa-alexandrie-egypte-alexandria"
+    },
+    {
+      "id": 4409021,
+      "titre": "Documentaliste – Responsable de la BCD",
+      "etab": "",
+      "ville": "Tamarin",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "26/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4409021-documentaliste-responsable-de-la-bcd-tamarin"
+    },
+    {
       "id": 4407321,
-      "titre": "Professeur du Second Degré - Physique Chimie et SVT F/H - STOCKHOLM - SUÈDE",
+      "titre": "Professeur du Second Degré - Physique Chimie et SVT - F/H - STOCKHOLM - SUÈDE",
       "etab": "",
       "ville": "Stockholms län",
       "pays": "Suède",
@@ -15,7 +37,7 @@
     },
     {
       "id": 4407269,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - STOCKHOLM - SUÈDE",
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - STOCKHOLM - SUÈDE",
       "etab": "",
       "ville": "Stockholms län",
       "pays": "Suède",
@@ -26,25 +48,25 @@
     },
     {
       "id": 4407225,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - ABUJA - NIGERIA",
       "etab": "",
       "ville": "Abuja",
-      "pays": "",
+      "pays": "Nigéria",
       "contrat": "Contrat temporaire",
       "discipline": "professeur de lettres modernes F/H",
       "date": "25/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4407225-professeur-du-second-degre-lettres-modernes-fh-abuja"
+      "url": "https://talents.aefe.fr/fr/annonce/4407225-professeur-du-second-degre-lettres-modernes-fh-abuja-nigeria-abuja"
     },
     {
       "id": 4406785,
-      "titre": "PROFESSEUR DE MATHS POUR LE LYCEE LEON L'AFRICAIN DE RABAT F/H - RABAT - MAROC",
+      "titre": "PROFESSEUR DE MATHS POUR LE LYCEE LEON L'AFRICAIN - F/H - RABAT - MAROC",
       "etab": "",
       "ville": "Rabat",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de mathématiques F/H",
       "date": "25/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4406785-professeur-de-maths-pour-le-lycee-leon-lafricain-de-rabat-fh-rabat-maroc-rabat"
+      "url": "https://talents.aefe.fr/fr/annonce/4406785-professeur-de-maths-pour-le-lycee-leon-lafricain-fh-rabat-maroc-rabat"
     },
     {
       "id": 4406677,
@@ -59,14 +81,14 @@
     },
     {
       "id": 4406665,
-      "titre": "PROFESSEUR DES ECOLES POUR LE LYCEE LEON L'AFRICAIN DE RABAT H/F - RABAT - MAROC",
+      "titre": "PROFESSEUR DES ECOLES POUR LE LYCEE LEON L'AFRICAIN - H/F - RABAT - MAROC",
       "etab": "",
       "ville": "Rabat",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "25/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4406665-professeur-des-ecoles-pour-le-lycee-leon-lafricain-de-rabat-hf-rabat-maroc-rabat"
+      "url": "https://talents.aefe.fr/fr/annonce/4406665-professeur-des-ecoles-pour-le-lycee-leon-lafricain-hf-rabat-maroc-rabat"
     },
     {
       "id": 4406659,
@@ -92,36 +114,36 @@
     },
     {
       "id": 4406205,
-      "titre": "Susceptible d'etre vacant - Professeur SNT - Kuala Lumpur",
+      "titre": "Susceptible d'etre vacant - Professeur SNT - F/H - KUALA LUMPUR - MALAISIE",
       "etab": "",
       "ville": "Kuala Lumpur",
-      "pays": "",
+      "pays": "Malaisie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "25/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4406205-susceptible-detre-vacant-professeur-snt-kuala-lumpur-kuala-lumpur"
+      "url": "https://talents.aefe.fr/fr/annonce/4406205-susceptible-detre-vacant-professeur-snt-fh-kuala-lumpur-malaisie-kuala-lumpur"
     },
     {
       "id": 4404849,
-      "titre": "Professeur du Second Degré - SVT - F/H - LFA - ALEXANDRIE - EGYPTE",
+      "titre": "Professeur du Second Degré - SVT - F/H - ALEXANDRIE - EGYPTE",
       "etab": "",
       "ville": "Alexandria",
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "24/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4404849-professeur-du-second-degre-svt-fh-lfa-alexandrie-egypte-alexandria"
+      "url": "https://talents.aefe.fr/fr/annonce/4404849-professeur-du-second-degre-svt-fh-alexandrie-egypte-alexandria"
     },
     {
       "id": 4404839,
-      "titre": "Professeur du Second Degré - ANGLAIS - F/H - LFA - ALEXANDRIE - ÉGYPTE",
+      "titre": "Professeur du Second Degré - ANGLAIS - F/H - ALEXANDRIE - ÉGYPTE",
       "etab": "",
       "ville": "Alexandria",
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’anglais F/H",
       "date": "24/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4404839-professeur-du-second-degre-anglais-fh-lfa-alexandrie-egypte-alexandria"
+      "url": "https://talents.aefe.fr/fr/annonce/4404839-professeur-du-second-degre-anglais-fh-alexandrie-egypte-alexandria"
     },
     {
       "id": 4403887,
@@ -1158,17 +1180,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4375771-professeur-du-second-degre-dhistoire-geographie-fh-la-marsa-tunisie-2046-la-marsa"
     },
     {
-      "id": 4375617,
-      "titre": "Assistant de direction et de vie scolaire - F/H - CHALONG - THAÏLANDE",
-      "etab": "",
-      "ville": "Chalong",
-      "pays": "Thaïlande",
-      "contrat": "Contrat temporaire",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "11/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4375617-assistant-de-direction-et-de-vie-scolaire-fh-chalong-thailande-83130-chalong"
-    },
-    {
       "id": 4375545,
       "titre": "Professeur du Second Degré - Maths - F/H - VILLANUEVA DE LA CAÑADA - ESPAGNE",
       "etab": "",
@@ -1378,17 +1389,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4374483-professeur-du-second-degre-espagnol-fh-ndjamena-tchad-ndjamena"
     },
     {
-      "id": 4374477,
-      "titre": "Responsable administratif - F/H - DAR ES SALAAM - TANZANIE",
-      "etab": "",
-      "ville": "Dar es Salaam",
-      "pays": "Tanzanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "08/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4374477-responsable-administratif-fh-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
       "id": 4374467,
       "titre": "Responsable Pédagogique Programme Français - F/H - COURS LUMIÈRE - LOMÉ - TOGO",
       "etab": "",
@@ -1398,17 +1398,6 @@
       "discipline": "Principal F/H",
       "date": "08/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4374467-responsable-pedagogique-programme-francais-fh-cours-lumiere-lome-togo-lome"
-    },
-    {
-      "id": 4374445,
-      "titre": "Responsable des Ressources Humaines - F/H - DAR ES SALAAM - TANZANIE",
-      "etab": "",
-      "ville": "Dar es Salaam",
-      "pays": "Tanzanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Responsable des ressources humaines F/H",
-      "date": "08/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4374445-responsable-des-ressources-humaines-fh-dar-es-salaam-tanzanie-dar-es-salaam"
     },
     {
       "id": 4374309,
@@ -2522,17 +2511,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4343447-professeur-des-ecoles-fh-lycee-francais-du-caire-le-caire-egypte-cairo"
     },
     {
-      "id": 4343361,
-      "titre": "ASSISTANT DU PROVISEUR - F/H - International French School (IFS) - SINGAPOUR",
-      "etab": "",
-      "ville": "Singapore",
-      "pays": "Singapour",
-      "contrat": "Contrat permanent",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "24/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4343361-assistant-du-proviseur-fh-international-french-school-ifs-singapour-singapore"
-    },
-    {
       "id": 4343323,
       "titre": "ENSEIGNANT 2ND DEGRE SES - Lycée Français du Caire - LE CAIRE - EGYPTE",
       "etab": "",
@@ -3499,17 +3477,6 @@
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "07/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4315509-cpe-fh-kuala-lumpur-malaisie-kuala-lumpur"
-    },
-    {
-      "id": 4315507,
-      "titre": "Professeur des écoles - Maternelle - F/H - RANGOUN (YANGON) - BIRMANIE (MYANMAR)",
-      "etab": "",
-      "ville": "Yangon",
-      "pays": "Myanmar",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4315507-professeur-des-ecoles-maternelle-fh-rangoun-yangon-birmanie-myanmar-yangon"
     },
     {
       "id": 4315407,
@@ -4590,6 +4557,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4196183-assistant-deducation-fh-casablanca-maroc-casablanca"
     },
     {
+      "id": 4190533,
+      "titre": "Professeur du Second Degré - SES F/H - DAR ES SALAAM - TANZANIE",
+      "etab": "",
+      "ville": "Dar es Salaam",
+      "pays": "Tanzanie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "26/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4190533-professeur-du-second-degre-ses-fh-dar-es-salaam-tanzanie-dar-es-salaam"
+    },
+    {
       "id": 4190241,
       "titre": "Professeur des écoles - F/H - Ecole Arthur RIMBAUD - DAR ES SALAAM - TANZANIE",
       "etab": "",
@@ -5394,7 +5372,7 @@
     },
     {
       "id": 4066805,
-      "titre": "Professeur de sciences de la vie et de la terre F/H - CASABLANCA - MAROC",
+      "titre": "Professeur de sciences de la vie et de la terre - F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
@@ -5614,7 +5592,7 @@
     },
     {
       "id": 3702775,
-      "titre": "Rentrée 2026: Professeur Physiques-Chimie - F/H - LE CAIRE - EGYPTE",
+      "titre": "Rentrée 2026 : Professeur Physiques-Chimie - F/H - LE CAIRE - EGYPTE",
       "etab": "",
       "ville": "Cairo",
       "pays": "Égypte",
