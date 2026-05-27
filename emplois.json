@@ -1,7 +1,40 @@
 {
-  "updated": "2026-05-27 08:44",
-  "total": 518,
+  "updated": "2026-05-27 19:28",
+  "total": 520,
   "offers": [
+    {
+      "id": 4415245,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Houmt Souk",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "27/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4415245-professeur-du-second-degre-mathematiques-fh-4180-houmt-souk"
+    },
+    {
+      "id": 4415229,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "27/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4415229-professeur-des-ecoles-fh-abidjan"
+    },
+    {
+      "id": 4414847,
+      "titre": "Professeur SVT DNL Anglais - CDD - F/H - LISBONNE - PORTUGAL",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "Portugal",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "27/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4414847-professeur-svt-dnl-anglais-cdd-fh-lisbonne-portugal-1070-103-lisboa"
+    },
     {
       "id": 4413301,
       "titre": "Professeur d'E.P.S. - F/H - LONDRES - ROYAUME UNI",
@@ -37,25 +70,25 @@
     },
     {
       "id": 4412397,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - PANAMA",
       "etab": "",
       "ville": "Provincia de Panamá Oeste",
-      "pays": "",
+      "pays": "Panama",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4412397-professeur-du-second-degre-lettres-modernes-fh-arraijan"
+      "url": "https://talents.aefe.fr/fr/annonce/4412397-professeur-du-second-degre-lettres-modernes-fh-panama-arraijan"
     },
     {
       "id": 4412317,
-      "titre": "Professeur du Second Degré - Anglais F/H",
+      "titre": "Professeur du Second Degré - Anglais - F/H - PEREIRA - COLOMBIE",
       "etab": "",
       "ville": "Pereira",
-      "pays": "",
+      "pays": "Colombie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4412317-professeur-du-second-degre-anglais-fh-pereira"
+      "url": "https://talents.aefe.fr/fr/annonce/4412317-professeur-du-second-degre-anglais-fh-pereira-colombie-pereira"
     },
     {
       "id": 4412135,
@@ -81,7 +114,7 @@
     },
     {
       "id": 4411639,
-      "titre": "Infirmier Scolaire F/H - VARSOVIE - POLOGNE",
+      "titre": "Infirmier Scolaire - F/H - VARSOVIE - POLOGNE",
       "etab": "",
       "ville": "Warszawa",
       "pays": "Pologne",
@@ -114,36 +147,36 @@
     },
     {
       "id": 4410505,
-      "titre": "Professeur(e) de Physique Chimie F/H - Lycée Victor Hugo de Marrakech - MAROC",
+      "titre": "Professeur de Physique Chimie - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
       "etab": "",
       "ville": "Marrakesh",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de physique chimie F/H",
       "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4410505-professeure-de-physique-chimie-fh-lycee-victor-hugo-de-marrakech-maroc-marrakesh"
+      "url": "https://talents.aefe.fr/fr/annonce/4410505-professeur-de-physique-chimie-fh-lycee-victor-hugo-marrakech-maroc-marrakesh"
     },
     {
       "id": 4409683,
-      "titre": "Proviseur H/F",
+      "titre": "Proviseur - H/F - LE CAIRE - EGYPTE",
       "etab": "",
       "ville": "Cairo",
-      "pays": "",
+      "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Proviseur F/H",
       "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4409683-proviseur-hf-cairo"
+      "url": "https://talents.aefe.fr/fr/annonce/4409683-proviseur-hf-le-caire-egypte-cairo"
     },
     {
       "id": 4409069,
-      "titre": "Professeur du Second Degré - Lettres F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "titre": "Professeur du Second Degré - Lettres - F/H - ALEXANDRIE - EGYPTE",
       "etab": "",
       "ville": "Alexandria",
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "professeur de lettres modernes F/H",
       "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4409069-professeur-du-second-degre-lettres-fh-lfa-alexandrie-egypte-alexandria"
+      "url": "https://talents.aefe.fr/fr/annonce/4409069-professeur-du-second-degre-lettres-fh-alexandrie-egypte-alexandria"
     },
     {
       "id": 4409021,
@@ -1299,17 +1332,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "11/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4375771-professeur-du-second-degre-dhistoire-geographie-fh-la-marsa-tunisie-2046-la-marsa"
-    },
-    {
-      "id": 4375545,
-      "titre": "Professeur du Second Degré - Maths - F/H - VILLANUEVA DE LA CAÑADA - ESPAGNE",
-      "etab": "",
-      "ville": "Villanueva de la Cañada",
-      "pays": "Espagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "11/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4375545-professeur-du-second-degre-maths-fh-villanueva-de-la-canada-espagne-28691-villanueva-de-la-canada"
     },
     {
       "id": 4375525,
@@ -3820,6 +3842,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4294691-enseignant-du-second-degre-lettres-fh-kuala-lumpur-malaisie-kuala-lumpur"
     },
     {
+      "id": 4294675,
+      "titre": "Professeur de SES / Histoire-Géographie - F/H - LISBONNE - PORTUGAL",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "Portugal",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "27/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4294675-professeur-de-ses-histoire-geographie-fh-lisbonne-portugal-1350-164-lisboa"
+    },
+    {
       "id": 4292361,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - PANAMA",
       "etab": "",
@@ -3832,7 +3865,7 @@
     },
     {
       "id": 4290823,
-      "titre": "Gestionnaire des recettes et des voyages scolaires F/H - BRUXELLES - BELGIQUE",
+      "titre": "Gestionnaire des recettes et des voyages scolaires - F/H - BRUXELLES - BELGIQUE",
       "etab": "",
       "ville": "Uccle",
       "pays": "Belgique",
@@ -4184,7 +4217,7 @@
     },
     {
       "id": 4228811,
-      "titre": "Professeur d'allemand primaire - F/H -Lycée Victor Hugo- FRANCFORT - ALLEMAGNE",
+      "titre": "Professeur d'allemand primaire - F/H - Lycée Victor Hugo - FRANCFORT - ALLEMAGNE",
       "etab": "",
       "ville": "Frankfurt am Main",
       "pays": "Allemagne",
@@ -5378,7 +5411,7 @@
       "pays": "Allemagne",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "04/04/2026",
+      "date": "27/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4035559-professeur-des-ecoles-fh-hambourg-allemagne-22529-hamburg"
     },
     {
@@ -5589,17 +5622,6 @@
       "discipline": "Professeur de lettres classiques F/H",
       "date": "22/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3529155-professeur-du-second-degre-lettres-classiques-fh-dubai-emirats-arabes-uni-dubai"
-    },
-    {
-      "id": 3490195,
-      "titre": "Éducateur / ASEM - F/H - HAMBOURG - ALLEMAGNE",
-      "etab": "",
-      "ville": "Hamburg",
-      "pays": "Allemagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Aide maternelle F/H",
-      "date": "28/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3490195-educateur-asem-fh-hambourg-allemagne-22529-hamburg"
     },
     {
       "id": 3487641,
