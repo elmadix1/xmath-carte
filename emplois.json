@@ -1,7 +1,62 @@
 {
-  "updated": "2026-05-26 19:20",
-  "total": 514,
+  "updated": "2026-05-27 08:44",
+  "total": 518,
   "offers": [
+    {
+      "id": 4413301,
+      "titre": "Professeur d'E.P.S. - F/H - LONDRES - ROYAUME UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "27/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4413301-professeur-de-p-s-fh-londres-royaume-uni-greater-london"
+    },
+    {
+      "id": 4412941,
+      "titre": "Professeur-e de français à Tbilissi (Géorgie)",
+      "etab": "",
+      "ville": "თბილისი",
+      "pays": "Géorgie",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "27/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4412941-professeur-e-de-francais-a-tbilissi-georgie-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
+    },
+    {
+      "id": 4412641,
+      "titre": "Professeur des écoles F/H, 2 postes susceptibles d'être vacants. Vientiane, LAOS",
+      "etab": "",
+      "ville": "Vientiane",
+      "pays": "Laos",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "27/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4412641-professeur-des-ecoles-fh-2-postes-susceptibles-detre-vacants-vientiane-laos-vientiane"
+    },
+    {
+      "id": 4412397,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Provincia de Panamá Oeste",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "26/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4412397-professeur-du-second-degre-lettres-modernes-fh-arraijan"
+    },
+    {
+      "id": 4412317,
+      "titre": "Professeur du Second Degré - Anglais F/H",
+      "etab": "",
+      "ville": "Pereira",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "26/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4412317-professeur-du-second-degre-anglais-fh-pereira"
+    },
     {
       "id": 4412135,
       "titre": "Professeur.e de SVT",
@@ -92,14 +147,14 @@
     },
     {
       "id": 4409021,
-      "titre": "Documentaliste – Responsable de la BCD",
+      "titre": "Documentaliste - Responsable de la BCD – F/H – TAMARIN - ILE MAURICE",
       "etab": "",
       "ville": "Tamarin",
-      "pays": "",
+      "pays": "Île Maurice",
       "contrat": "Contrat permanent",
       "discipline": "Professeur documentaliste F/H",
       "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4409021-documentaliste-responsable-de-la-bcd-tamarin"
+      "url": "https://talents.aefe.fr/fr/annonce/4409021-documentaliste-responsable-de-la-bcd-fh-tamarin-ile-maurice-tamarin"
     },
     {
       "id": 4407321,
@@ -345,14 +400,14 @@
     },
     {
       "id": 4398851,
-      "titre": "Campagne de Recrutement 2026-2027, Primaire",
+      "titre": "Professeur des écoles - Primaire - F/H - JERSEY CITY - ETATS-UNIS",
       "etab": "",
       "ville": "Jersey City",
-      "pays": "",
+      "pays": "États-Unis",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "21/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4398851-campagne-de-recrutement-2026-2027-primaire-07302-jersey-city"
+      "url": "https://talents.aefe.fr/fr/annonce/4398851-professeur-des-ecoles-primaire-fh-jersey-city-etats-unis-07302-jersey-city"
     },
     {
       "id": 4398105,
@@ -4293,17 +4348,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4215647-professeur-du-2nd-degre-mathematiquesnsi-fh-manille-philippines-paranaque"
     },
     {
-      "id": 4215627,
-      "titre": "Directeur du primaire - F/H - BATTAMBANG - CAMBDOGE",
-      "etab": "",
-      "ville": "Krong Battambang",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Directeur du primaire F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4215627-directeur-du-primaire-fh-battambang-cambdoge-krong-battambang"
-    },
-    {
       "id": 4215495,
       "titre": "Principal adjoint - F/H - MEDELLIN - COLOMBIE",
       "etab": "",
@@ -4459,7 +4503,7 @@
     },
     {
       "id": 4190533,
-      "titre": "Professeur du Second Degré - SES F/H - DAR ES SALAAM - TANZANIE",
+      "titre": "Professeur du Second Degré SES - F/H - DAR ES SALAAM - TANZANIE",
       "etab": "",
       "ville": "Dar es Salaam",
       "pays": "Tanzanie",
