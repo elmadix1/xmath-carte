@@ -1,7 +1,40 @@
 {
-  "updated": "2026-05-28 08:46",
-  "total": 518,
+  "updated": "2026-05-28 19:41",
+  "total": 517,
   "offers": [
+    {
+      "id": 4417605,
+      "titre": "Poste vacant de professeur(e ) de Sciences de la Vie et de la Terre (SVT)",
+      "etab": "",
+      "ville": "Tegucigalpa",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "28/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4417605-poste-vacant-de-professeure-de-sciences-de-la-vie-et-de-la-terre-svt-tegucigalpa"
+    },
+    {
+      "id": 4417545,
+      "titre": "Enseignant Professeur des écoles F/H- MONTREAL CANADA",
+      "etab": "",
+      "ville": "Montréal",
+      "pays": "Canada",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "28/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4417545-enseignant-professeur-des-ecoles-fh-montreal-canada-h3w-1w3-montreal"
+    },
+    {
+      "id": 4416691,
+      "titre": "Professeur des écoles F/H - EIFDM de Sulaymaniyah",
+      "etab": "",
+      "ville": "Sulaymaniyah",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "28/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4416691-professeur-des-ecoles-fh-eifdm-de-sulaymaniyah-sulaymaniyah"
+    },
     {
       "id": 4415541,
       "titre": "Professeur du Second Degré - Physique Chimie F/H",
@@ -2753,17 +2786,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4339839-professeur-du-2nd-degre-physique-chimie-fh-dubai-eau-dubai"
     },
     {
-      "id": 4339775,
-      "titre": "Infirmier Scolaire - F/H - ABIDJAN - CÔTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat permanent",
-      "discipline": "Infirmier scolaire F/H",
-      "date": "19/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4339775-infirmier-scolaire-fh-abidjan-cote-divoire-abidjan"
-    },
-    {
       "id": 4337739,
       "titre": "Professeur du Second Degré d'histoire géographie - F/H - TANGER - MAROC",
       "etab": "",
@@ -2883,17 +2905,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "16/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4333789-professeur-du-second-degre-lettres-modernes-fh-asuncion-paraguay-asuncion"
-    },
-    {
-      "id": 4333753,
-      "titre": "Poste vacant de professeur de SES - F/H - TEGUCIGALPA - HONDURAS",
-      "etab": "",
-      "ville": "Tegucigalpa",
-      "pays": "Honduras",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "15/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4333753-poste-vacant-de-professeur-de-ses-fh-tegucigalpa-honduras-tegucigalpa"
     },
     {
       "id": 4333647,
@@ -3796,28 +3807,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "30/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4302197-remplacement-conge-maternite-professeur-des-ecoles-fh-hong-kong-chine-new-territories"
-    },
-    {
-      "id": 4302167,
-      "titre": "Enseigner la Physique Chimie - F/H - SAN FRANCISCO - CALIFORNIE - ETATS-UNIS",
-      "etab": "",
-      "ville": "San Francisco",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "29/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4302167-enseigner-la-physique-chimie-fh-san-francisco-californie-etats-unis-94102-san-francisco"
-    },
-    {
-      "id": 4302111,
-      "titre": "Poste de Professeur des écoles - F/H - LA PAZ - BOLIVIE",
-      "etab": "",
-      "ville": "La Paz",
-      "pays": "Bolivie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "29/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4302111-poste-de-professeur-des-ecoles-fh-la-paz-bolivie-la-paz"
     },
     {
       "id": 4298341,
