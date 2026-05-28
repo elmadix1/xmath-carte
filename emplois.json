@@ -1,28 +1,72 @@
 {
-  "updated": "2026-05-27 19:28",
-  "total": 520,
+  "updated": "2026-05-28 08:46",
+  "total": 518,
   "offers": [
     {
+      "id": 4415541,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "etab": "",
+      "ville": "Villanueva de la Cañada",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "28/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4415541-professeur-du-second-degre-physique-chimie-fh-28691-villanueva-de-la-canada"
+    },
+    {
+      "id": 4415431,
+      "titre": "Professeur (e) des écoles TACHKENT - OUZBEKISTAN",
+      "etab": "",
+      "ville": "Tachkent",
+      "pays": "Ouzbékistan",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "28/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4415431-professeur-e-des-ecoles-tachkent-ouzbekistan-tachkent"
+    },
+    {
+      "id": 4415417,
+      "titre": "Professeur d’EPS H/F, Lycée français Anatole France, Erevan, Arménie",
+      "etab": "",
+      "ville": "Երևան",
+      "pays": "Arménie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "28/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4415417-professeur-d-eps-hf-lycee-francais-anatole-france-erevan-armenie-0051-%D5%A5%D6%80%D5%A5%D6%82%D5%A1%D5%B6"
+    },
+    {
+      "id": 4415383,
+      "titre": "Professeur de Lettres Modernes - F/H - LAS TERRENAS - REPUBLIQUE DOMINICAINE",
+      "etab": "",
+      "ville": "Las Terrenas",
+      "pays": "Rép. dominicaine",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "27/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4415383-professeur-de-lettres-modernes-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
+    },
+    {
       "id": 4415245,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - HOUMT SOUK - TUNISIE",
       "etab": "",
       "ville": "Houmt Souk",
-      "pays": "",
+      "pays": "Tunisie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "27/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4415245-professeur-du-second-degre-mathematiques-fh-4180-houmt-souk"
+      "url": "https://talents.aefe.fr/fr/annonce/4415245-professeur-du-second-degre-mathematiques-fh-houmt-souk-tunisie-4180-houmt-souk"
     },
     {
       "id": 4415229,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles - F/H - ABIDJAN - COTE D'IVOIRE",
       "etab": "",
       "ville": "Abidjan",
-      "pays": "",
+      "pays": "Côte d'Ivoire",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "27/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4415229-professeur-des-ecoles-fh-abidjan"
+      "url": "https://talents.aefe.fr/fr/annonce/4415229-professeur-des-ecoles-fh-abidjan-cote-divoire-abidjan"
     },
     {
       "id": 4414847,
@@ -48,18 +92,18 @@
     },
     {
       "id": 4412941,
-      "titre": "Professeur-e de français à Tbilissi (Géorgie)",
+      "titre": "Professeur de LETTRES - F/H - TLILIBISSI - GEORGIE",
       "etab": "",
       "ville": "თბილისი",
       "pays": "Géorgie",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "27/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4412941-professeur-e-de-francais-a-tbilissi-georgie-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
+      "url": "https://talents.aefe.fr/fr/annonce/4412941-professeur-de-lettres-fh-tlilibissi-georgie-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
     },
     {
       "id": 4412641,
-      "titre": "Professeur des écoles F/H, 2 postes susceptibles d'être vacants. Vientiane, LAOS",
+      "titre": "Professeur des écoles F/H, 2 postes susceptibles d'être vacants. VIENTIANE, LAOS",
       "etab": "",
       "ville": "Vientiane",
       "pays": "Laos",
@@ -78,17 +122,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "26/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4412397-professeur-du-second-degre-lettres-modernes-fh-panama-arraijan"
-    },
-    {
-      "id": 4412317,
-      "titre": "Professeur du Second Degré - Anglais - F/H - PEREIRA - COLOMBIE",
-      "etab": "",
-      "ville": "Pereira",
-      "pays": "Colombie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4412317-professeur-du-second-degre-anglais-fh-pereira-colombie-pereira"
     },
     {
       "id": 4412135,
@@ -1123,17 +1156,6 @@
       "discipline": "Professeur de philosophie F/H",
       "date": "14/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4383367-professeur-de-philosophie-fh-busaiteen-bahrein-busaiteen"
-    },
-    {
-      "id": 4383225,
-      "titre": "Secrétaire de direction - F/H - SANTIAGO - CHILI",
-      "etab": "",
-      "ville": "Santiago",
-      "pays": "Chili",
-      "contrat": "Contrat temporaire",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "13/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383225-secretaire-de-direction-fh-santiago-chili-7630599-santiago"
     },
     {
       "id": 4382819,
@@ -2566,17 +2588,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4345631-enseignant-2nd-degre-maths-fh-lycee-francais-du-caire-le-caire-egypte-cairo"
     },
     {
-      "id": 4345127,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - SANTIAGO - CHILI",
-      "etab": "",
-      "ville": "Santiago",
-      "pays": "Chili",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4345127-professeur-du-second-degre-lettres-modernes-fh-santiago-chili-7630599-santiago"
-    },
-    {
       "id": 4345113,
       "titre": "Prof. du Second Degré - SVT - F/H - SANTIAGO - CHILI",
       "etab": "",
@@ -3831,17 +3842,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4298221-conseiller-principal-deducation-fh-munich-allemagne-81373-munchen"
     },
     {
-      "id": 4294691,
-      "titre": "Enseignant du Second degré - Lettres - F/H - KUALA LUMPUR - MALAISIE",
-      "etab": "",
-      "ville": "Kuala Lumpur",
-      "pays": "Malaisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "12/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4294691-enseignant-du-second-degre-lettres-fh-kuala-lumpur-malaisie-kuala-lumpur"
-    },
-    {
       "id": 4294675,
       "titre": "Professeur de SES / Histoire-Géographie - F/H - LISBONNE - PORTUGAL",
       "etab": "",
@@ -4458,17 +4458,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4203629-professeur-de-mathematiques-fh-londres-royaume-uni-greater-london"
     },
     {
-      "id": 4202573,
-      "titre": "Professeur d’Espagnol – Collège / Lycée - F/H - KOH SAMUI - THAILANDE",
-      "etab": "",
-      "ville": "Koh Samui",
-      "pays": "Thaïlande",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’espagnol F/H",
-      "date": "29/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4202573-professeur-d-espagnol-college-lycee-fh-koh-samui-thailande-84310-koh-samui"
-    },
-    {
       "id": 4202371,
       "titre": "ASSISTANT DE DIRECTION - F/H - ASUNCION - PARAGUAY",
       "etab": "",
@@ -4478,17 +4467,6 @@
       "discipline": "Sécrétaire / assistant F/H",
       "date": "04/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4202371-assistant-de-direction-fh-asuncion-paraguay-asuncion"
-    },
-    {
-      "id": 4199905,
-      "titre": "Professeur d’Espagnol Primaire(français & Cambridge)- F/H - KOH SAMUI- THAILANDE",
-      "etab": "",
-      "ville": "Koh Samui",
-      "pays": "Thaïlande",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’espagnol F/H",
-      "date": "29/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4199905-professeur-d-espagnol-primairefrancais-cambridge-fh-koh-samui-thailande-84310-koh-samui"
     },
     {
       "id": 4199903,
