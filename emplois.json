@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-28 19:41",
-  "total": 517,
+  "updated": "2026-05-29 08:46",
+  "total": 514,
   "offers": [
     {
       "id": 4417605,
@@ -331,17 +331,6 @@
       "discipline": "Professeur de philosophie F/H",
       "date": "25/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4406659-professeur-de-philosophie-fh-lycee-leon-lafricain-rabat-maroc-rabat"
-    },
-    {
-      "id": 4406223,
-      "titre": "Professeur des écoles - F/H - BANGKOK - THAILANDE",
-      "etab": "",
-      "ville": "Bangkok",
-      "pays": "Thaïlande",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "25/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4406223-professeur-des-ecoles-fh-bangkok-thailande-10310-bangkok"
     },
     {
       "id": 4406205,
@@ -3028,17 +3017,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4329915-assistant-du-directeur-en-charge-de-la-vie-scolaire-fh-casablanca-maroc-20250-casablanca"
     },
     {
-      "id": 4329799,
-      "titre": "Professeur PHILOSOPHIE LETTRES - F/H - KENYA - NAIROBI - LFIDD",
-      "etab": "",
-      "ville": "Nairobi",
-      "pays": "Kenya",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de philosophie F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4329799-professeur-philosophie-lettres-fh-kenya-nairobi-lfidd-nairobi"
-    },
-    {
       "id": 4329641,
       "titre": "Professeur TECHNOLOGIE MATHEMATIQUES - F/H - KENYA - NAIROBI - LFIDD",
       "etab": "",
@@ -3796,17 +3774,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "30/03/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4303493-professeur-dhistoire-geographie-fh-lisbonne-portugal-1350-164-lisboa"
-    },
-    {
-      "id": 4302197,
-      "titre": "Remplacement congé maternité - Professeur des écoles - F/H - HONG KONG - CHINE",
-      "etab": "",
-      "ville": "New Territories",
-      "pays": "Chine",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "30/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4302197-remplacement-conge-maternite-professeur-des-ecoles-fh-hong-kong-chine-new-territories"
     },
     {
       "id": 4298341,
@@ -4641,7 +4608,7 @@
       "pays": "Mozambique",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "30/03/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4163607-professeur-des-ecoles-fh-lfige-maputo-mozambique-maputo"
     },
     {
