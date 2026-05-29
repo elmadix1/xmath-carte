@@ -1,17 +1,72 @@
 {
-  "updated": "2026-05-29 08:46",
-  "total": 514,
+  "updated": "2026-05-29 19:37",
+  "total": 513,
   "offers": [
     {
+      "id": 4420481,
+      "titre": "Professeur des écoles F/H ETATS UNIS / CHICAGO / Lycée Français de Chicago 2026",
+      "etab": "",
+      "ville": "Chicago",
+      "pays": "États-Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "29/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4420481-professeur-des-ecoles-fh-etats-unis-chicago-lycee-francais-de-chicago-2026-60640-chicago"
+    },
+    {
+      "id": 4420459,
+      "titre": "Caissier/ Caissière (F/H) - DAKAR / Lycée Jean MERMOZ",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "29/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4420459-caissier-caissiere-fh-dakar-lycee-jean-mermoz-dakar"
+    },
+    {
+      "id": 4420427,
+      "titre": "Chargé(e) événementiel, partenariat et valorisation F/H- DAKAR/Lycée Jean MERMOZ",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Chargé de partenariats",
+      "date": "29/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4420427-chargee-evenementiel-partenariat-et-valorisation-fh-dakarlycee-jean-mermoz-dakar"
+    },
+    {
+      "id": 4420359,
+      "titre": "Professeur du Second Degré",
+      "etab": "",
+      "ville": "Lagos",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "29/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4420359-professeur-du-second-degre-106104-lagos"
+    },
+    {
+      "id": 4419575,
+      "titre": "Professeur d'Anglais- F/H - LFI M'HAMED DRISS - SOUSSE - TUNISIE",
+      "etab": "",
+      "ville": "Sousse",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "29/05/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4419575-professeur-danglais-fh-lfi-mhamed-driss-sousse-tunisie-4023-sousse"
+    },
+    {
       "id": 4417605,
-      "titre": "Poste vacant de professeur(e ) de Sciences de la Vie et de la Terre (SVT)",
+      "titre": "Poste vacant de professeur de SVT - F/H - TEGUCIGALPA - HONDURAS",
       "etab": "",
       "ville": "Tegucigalpa",
-      "pays": "",
+      "pays": "Honduras",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "28/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4417605-poste-vacant-de-professeure-de-sciences-de-la-vie-et-de-la-terre-svt-tegucigalpa"
+      "url": "https://talents.aefe.fr/fr/annonce/4417605-poste-vacant-de-professeur-de-svt-fh-tegucigalpa-honduras-tegucigalpa"
     },
     {
       "id": 4417545,
@@ -1277,17 +1332,6 @@
       "discipline": "Professeur de lettres classiques F/H",
       "date": "12/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4379313-professeur-de-francais-lettres-classiques-fh-londres-royaume-uni-greater-london"
-    },
-    {
-      "id": 4378707,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - SALY - SÉNÉGAL",
-      "etab": "",
-      "ville": "Saly",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "12/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4378707-professeur-du-second-degre-mathematiques-fh-saly-senegal-saly"
     },
     {
       "id": 4378491,
@@ -2632,17 +2676,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4344901-directrice-de-crechematernelle-ecole-al-massalik-casablanca-maroc-casablanca"
     },
     {
-      "id": 4344543,
-      "titre": "Professeur LettresModernes,Langage&Littérature- F/H - NEW YORK CITY - ETATS-UNIS",
-      "etab": "",
-      "ville": "New York",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4344543-professeur-lettresmoderneslangagelitterature-fh-new-york-city-etats-unis-10017-new-york"
-    },
-    {
       "id": 4343621,
       "titre": "Professeur d'anglais au primaire - F/H - MANILLE - PHILIPPINES",
       "etab": "",
@@ -3754,28 +3787,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4304999-professeur-du-second-degre-physique-chimie-fh-bujumbura-burundi-bujumbura"
     },
     {
-      "id": 4304547,
-      "titre": "Professeur de Mathématiques - F/H - Poste vacant - SAO PAULO - BRESIL",
-      "etab": "",
-      "ville": "São Paulo",
-      "pays": "Brésil",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "30/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4304547-professeur-de-mathematiques-fh-poste-vacant-sao-paulo-bresil-sao-paulo"
-    },
-    {
-      "id": 4303493,
-      "titre": "Professeur d'Histoire-Géographie - F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "30/03/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4303493-professeur-dhistoire-geographie-fh-lisbonne-portugal-1350-164-lisboa"
-    },
-    {
       "id": 4298341,
       "titre": "Gestionnaire Formation - F/H - CDI 40h - VAUBAN - LUXEMBOURG",
       "etab": "",
@@ -4366,7 +4377,7 @@
       "pays": "Belgique",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de mathématiques F/H",
-      "date": "06/04/2026",
+      "date": "29/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4214659-professeur-du-second-degre-mathematiques-fh-anvers-belgique-2018-antwerpen"
     },
     {
@@ -4599,28 +4610,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "05/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4164861-professeur-de-physique-chimie-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
-      "id": 4163607,
-      "titre": "Professeur des écoles - F/H - LFIGE - MAPUTO - MOZAMBIQUE",
-      "etab": "",
-      "ville": "Maputo",
-      "pays": "Mozambique",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "",
-      "url": "https://talents.aefe.fr/fr/annonce/4163607-professeur-des-ecoles-fh-lfige-maputo-mozambique-maputo"
-    },
-    {
-      "id": 4161539,
-      "titre": "Professeur du Second Degré - Physique Chimie - F/H - COTONOU - BENIN",
-      "etab": "",
-      "ville": "Cotonou",
-      "pays": "Bénin",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "02/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4161539-professeur-du-second-degre-physique-chimie-fh-cotonou-benin-cotonou"
     },
     {
       "id": 4161473,
