@@ -3,6 +3,7 @@ import json
 import stripe
 import requests
 from flask import Flask, request, jsonify, redirect
+from newsletter import register_newsletter_routes
 from datetime import datetime
 
 app = Flask(__name__)
@@ -296,6 +297,8 @@ def desabonnement():
 @app.route('/')
 def index():
     return 'OK', 200
+    
+register_newsletter_routes(app)
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
