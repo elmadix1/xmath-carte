@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-31 18:04",
+  "updated": "2026-06-01 10:22",
   "total": 257,
   "source": "MLF Monde",
   "offers": [
@@ -3252,20 +3252,6 @@
       "url": "https://recrutement.mlfmonde.org/3539_offre-emploi-professeure-dhistoiregeographie-a-casablanca.html"
     },
     {
-      "id": 3599,
-      "titre": "Professeur de lettres",
-      "etab": "",
-      "ville": "Lubumbashi",
-      "pays": "République Démocratique du Congo",
-      "contrat": "",
-      "discipline": "",
-      "date": "06/11/2025",
-      "date_limite": "15/05/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3599_offre-emploi-professeur-de-lettres.html"
-    },
-    {
       "id": 3704,
       "titre": "Chef de Projet Parcours Avenir ( CPPA)",
       "etab": "",
@@ -3502,6 +3488,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3596_offre-emploi-professeur-des-ecoles-poste-en-surnumeraire.html"
+    },
+    {
+      "id": 3599,
+      "titre": "Professeur de lettres",
+      "etab": "",
+      "ville": "Lubumbashi",
+      "pays": "République Démocratique du Congo",
+      "contrat": "",
+      "discipline": "",
+      "date": "06/11/2025",
+      "date_limite": "05/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3599_offre-emploi-professeur-de-lettres.html"
     },
     {
       "id": 3685,
