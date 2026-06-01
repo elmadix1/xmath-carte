@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-01 10:22",
-  "total": 257,
+  "updated": "2026-06-01 21:00",
+  "total": 258,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3140,20 +3140,6 @@
       "url": "https://recrutement.mlfmonde.org/3671_offre-emploi-enseignante-de-philosophie.html"
     },
     {
-      "id": 3673,
-      "titre": "Professeur(e) d'Anglais - Primaire",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "08/01/2026",
-      "date_limite": "30/04/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3673_offre-emploi-professeure-danglais-primaire.html"
-    },
-    {
       "id": 3705,
       "titre": "Professeur documentaliste",
       "etab": "",
@@ -3250,20 +3236,6 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3539_offre-emploi-professeure-dhistoiregeographie-a-casablanca.html"
-    },
-    {
-      "id": 3704,
-      "titre": "Chef de Projet Parcours Avenir ( CPPA)",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "24/03/2026",
-      "date_limite": "15/05/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3704_offre-emploi-chef-de-projet-parcours-avenir-cppa.html"
     },
     {
       "id": 3709,
@@ -3406,20 +3378,6 @@
       "url": "https://recrutement.mlfmonde.org/3713_offre-emploi-enseignante-maitre-ressources-en-ecole-primaire.html"
     },
     {
-      "id": 3476,
-      "titre": "Enseignant - SVT",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "22/09/2025",
-      "date_limite": "31/05/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3476_offre-emploi-enseignant-svt.html"
-    },
-    {
       "id": 3550,
       "titre": "Professeur en physique chimie",
       "etab": "",
@@ -3546,6 +3504,20 @@
       "url": "https://recrutement.mlfmonde.org/3728_offre-emploi-professeur-des-ecoles.html"
     },
     {
+      "id": 3673,
+      "titre": "Professeur(e) d'Anglais - Primaire",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "08/01/2026",
+      "date_limite": "15/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3673_offre-emploi-professeure-danglais-primaire.html"
+    },
+    {
       "id": 3727,
       "titre": "Professeur (e) de philosophie",
       "etab": "",
@@ -3558,6 +3530,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3727_offre-emploi-professeur-e-de-philosophie.html"
+    },
+    {
+      "id": 3730,
+      "titre": "Chef(fe) de Bassin",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "01/06/2026",
+      "date_limite": "30/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3730_offre-emploi-cheffe-de-bassin.html"
     },
     {
       "id": 3726,
@@ -3586,6 +3572,34 @@
       "date_prise": "19/08/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3701_offre-emploi-professeure-de-lettres-modernes-au-college-et-lycee.html"
+    },
+    {
+      "id": 3476,
+      "titre": "Enseignant - SVT",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "22/09/2025",
+      "date_limite": "15/07/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3476_offre-emploi-enseignant-svt.html"
+    },
+    {
+      "id": 3704,
+      "titre": "Chef de Projet Parcours Avenir ( CPPA)",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "24/03/2026",
+      "date_limite": "15/07/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3704_offre-emploi-chef-de-projet-parcours-avenir-cppa.html"
     },
     {
       "id": 3690,
