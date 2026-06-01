@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guide Enseigner à l'Étranger 2026 – PDF complet</title>
+  <meta name="description" content="Le guide complet pour enseigner dans le réseau AEFE et MLF : estimations de salaires, 38 destinations comparées, candidature et installation. PDF de 50 pages.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --vert-fonce: #1a2e12;
+      --vert: #5a8a3c;
+      --vert-clair: #eef4e9;
+      --or: #c8862a;
+      --gris-fonce: #1a1f16;
+      --gris: #4a5240;
+      --blanc: #fafcf8;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--blanc);
+      color: var(--gris-fonce);
+    }
+
+    /* NAV */
+    nav {
+      background: var(--vert-fonce);
+      padding: 14px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav a { text-decoration: none; }
+    .nav-logo { font-family: 'DM Sans', sans-serif; font-size: 1rem; font-weight: 700; }
+    .nav-logo span:nth-child(1) { color: #4169E1; }
+    .nav-logo span:nth-child(2) { color: #fff; }
+    .nav-logo span:nth-child(3) { color: #ED2939; }
+    nav .nav-link {
+      color: rgba(255,255,255,0.6);
+      font-size: 0.85rem;
+      text-decoration: none;
+    }
+    nav .nav-link:hover { color: #fff; }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(135deg, var(--vert-fonce) 0%, #2d4a1e 100%);
+      padding: 60px 40px;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(200,134,42,0.2);
+      color: var(--or);
+      border: 1px solid var(--or);
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    .hero h1 span { color: var(--or); }
+    .hero-sub {
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.7);
+      max-width: 560px;
+      margin: 0 auto 32px;
+      line-height: 1.6;
+    }
+    .hero-price {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .hero-price span {
+      font-size: 1.2rem;
+      color: rgba(255,255,255,0.5);
+      font-weight: 400;
+    }
+    .hero-price-note {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.4);
+      margin-bottom: 24px;
+    }
+    .btn-acheter {
+      display: inline-block;
+      background: var(--or);
+      color: #fff;
+      border: none;
+      padding: 16px 40px;
+      border-radius: 10px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+      text-decoration: none;
+    }
+    .btn-acheter:hover { background: #e09a35; transform: translateY(-1px); }
+    .btn-acheter:active { transform: translateY(0); }
+    .hero-guarantee {
+      margin-top: 14px;
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.4);
+    }
+
+    /* STATS */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      background: var(--vert-clair);
+      border-bottom: 1px solid #d8e8cc;
+    }
+    .stat {
+      flex: 1;
+      max-width: 200px;
+      text-align: center;
+      padding: 20px 12px;
+      border-right: 1px solid #d8e8cc;
+    }
+    .stat:last-child { border-right: none; }
+    .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      color: var(--vert);
+      font-weight: 700;
+    }
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--gris);
+      margin-top: 2px;
+    }
+
+    /* CONTENU */
+    .section { max-width: 860px; margin: 0 auto; padding: 60px 24px; }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.7rem;
+      color: var(--vert-fonce);
+      margin-bottom: 8px;
+    }
+    .section-rule {
+      width: 48px;
+      height: 3px;
+      background: var(--or);
+      margin-bottom: 28px;
+    }
+
+    /* SOMMAIRE */
+    .sommaire-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+    .sommaire-item {
+      background: var(--vert-clair);
+      border-left: 4px solid var(--vert);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 16px;
+    }
+    .sommaire-item-num {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--or);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+    .sommaire-item-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--vert-fonce);
+      margin-bottom: 4px;
+    }
+    .sommaire-item-desc {
+      font-size: 0.78rem;
+      color: var(--gris);
+      line-height: 1.4;
+    }
+
+    /* POUR QUI */
+    .pourqui-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .pourqui-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 16px;
+      background: #fff;
+      border: 1px solid #e0e8d8;
+      border-radius: 8px;
+    }
+    .pourqui-icon {
+      font-size: 1.2rem;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .pourqui-text { font-size: 0.9rem; color: var(--gris-fonce); line-height: 1.5; }
+
+    /* EXTRAIT */
+    .extrait-box {
+      background: var(--vert-fonce);
+      border-radius: 12px;
+      padding: 28px 32px;
+      color: #fff;
+    }
+    .extrait-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--or);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 16px;
+    }
+    .extrait-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    .extrait-table th {
+      background: rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.7);
+      padding: 8px 12px;
+      text-align: left;
+      font-weight: 500;
+    }
+    .extrait-table td {
+      padding: 8px 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      color: rgba(255,255,255,0.85);
+    }
+    .extrait-table tr:last-child td { border-bottom: none; }
+    .solde-vert { color: #7ac890; font-weight: 700; }
+    .solde-or { color: var(--or); font-weight: 700; }
+    .extrait-note {
+      margin-top: 12px;
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.3);
+      font-style: italic;
+    }
+
+    /* CTA BAS */
+    .cta-bas {
+      background: linear-gradient(135deg, var(--vert-fonce), #2d4a1e);
+      padding: 60px 24px;
+      text-align: center;
+    }
+    .cta-bas h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+    .cta-bas p {
+      color: rgba(255,255,255,0.6);
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cta-bas .price-big {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .cta-bas .price-note {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: 24px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--vert-fonce);
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    footer p { font-size: 0.75rem; color: rgba(255,255,255,0.35); }
+    footer a { color: rgba(255,255,255,0.4); text-decoration: none; font-size: 0.75rem; }
+    footer a:hover { color: #fff; }
+
+    @media(max-width: 600px) {
+      nav { padding: 12px 16px; }
+      .hero { padding: 40px 16px; }
+      .stats { flex-wrap: wrap; }
+      .stat { min-width: 45%; }
+      .extrait-box { padding: 20px 16px; }
+      .extrait-table { font-size: 0.78rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/emplois-monde.html" class="nav-logo">
+    <span>Postes</span><span> Réseau </span><span>Français</span>
+  </a>
+  <a href="/emplois-monde.html" class="nav-link">← Retour aux offres</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">PDF · 50 pages</div>
+  <h1>Enseigner à l'Étranger<br><span>2026</span></h1>
+  <p class="hero-sub">
+    Le guide complet pour préparer et réussir votre départ dans le réseau AEFE et MLF.
+    Estimations de salaires, 38 destinations comparées, candidature et installation.
+  </p>
+  <div class="hero-price">19 <span>EUR</span></div>
+  <div class="hero-price-note">Paiement sécurisé · Téléchargement immédiat</div>
+  <button class="btn-acheter" onclick="openCheckout()">Obtenir le guide →</button>
+  <div class="hero-guarantee">Livraison par email instantanée après paiement</div>
+</div>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stat">
+    <div class="stat-num">50</div>
+    <div class="stat-label">pages</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">38</div>
+    <div class="stat-label">destinations</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">5</div>
+    <div class="stat-label">témoignages</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">6</div>
+    <div class="stat-label">parties</div>
+  </div>
+</div>
+
+<!-- SOMMAIRE -->
+<div class="section">
+  <div class="section-title">Ce que contient le guide</div>
+  <div class="section-rule"></div>
+  <div class="sommaire-grid">
+    <div class="sommaire-item">
+      <div class="sommaire-item-num">Partie 1</div>
+      <div class="sommaire-item-title">Comprendre le réseau AEFE</div>
+      <div class="sommaire-item-desc">Les 4 statuts, qui recrute, AGIRH, MLF, droits sociaux.</div>
+    </div>
+    <div class="sommaire-item">
+      <div class="sommaire-item-num">Partie 2</div>
+      <div class="sommaire-item-title">Ce que vous allez vraiment gagner</div>
+      <div class="sommaire-item-desc">Traitement de base, ISVL, 3 profils chiffrés, fiscalité, retraite.</div>
+    </div>
+    <div class="sommaire-item">
+      <div class="sommaire-item-num">Partie 3</div>
+      <div class="sommaire-item-title">38 destinations comparées</div>
+      <div class="sommaire-item-desc">Tableau de solde disponible par pays + fiches régionales.</div>
+    </div>
+    <div class="sommaire-item">
+      <div class="sommaire-item-num">Partie 4</div>
+      <div class="sommaire-item-title">Candidater</div>
+      <div class="sommaire-item-desc">Calendrier annuel, dossier, entretien, circuits parallèles.</div>
+    </div>
+    <div class="sommaire-item">
+      <div class="sommaire-item-num">Partie 5</div>
+      <div class="sommaire-item-title">S'installer à l'étranger</div>
+      <div class="sommaire-item-desc">Administratif, banque, logement, santé, retour en France.</div>
+    </div>
+    <div class="sommaire-item">
+      <div class="sommaire-item-num">Partie 6 + Annexes</div>
+      <div class="sommaire-item-title">Témoignages et outils pratiques</div>
+      <div class="sommaire-item-desc">5 parcours réels, modèle de lettre, glossaire, checklist départ.</div>
+    </div>
+  </div>
+</div>
+
+<!-- EXTRAIT TABLEAU -->
+<div style="background:#f5f8f3;padding:60px 24px;">
+  <div style="max-width:860px;margin:0 auto;">
+    <div class="section-title">Aperçu : solde disponible par destination</div>
+    <div class="section-rule"></div>
+    <div class="extrait-box">
+      <div class="extrait-label">Extrait du tableau comparatif (certifié CN échelon 6, célibataire)</div>
+      <table class="extrait-table">
+        <thead>
+          <tr>
+            <th>Destination</th>
+            <th>Groupe ISVL</th>
+            <th>ISVL est.</th>
+            <th>Solde dispo. est.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Émirats Arabes Unis</td><td>G6</td><td>~2 550 EUR/mois</td><td class="solde-vert">~2 370 EUR/mois</td></tr>
+          <tr><td>Maroc</td><td>G3</td><td>~1 333 EUR/mois</td><td class="solde-vert">~2 253 EUR/mois</td></tr>
+          <tr><td>Vietnam</td><td>G2</td><td>~1 000 EUR/mois</td><td class="solde-or">~1 920 EUR/mois</td></tr>
+          <tr><td>Madagascar</td><td>G1</td><td>~710 EUR/mois</td><td class="solde-or">~1 830 EUR/mois</td></tr>
+          <tr><td>Japon (Tokyo)</td><td>G5</td><td>~2 000 EUR/mois</td><td>~1 320 EUR/mois</td></tr>
+          <tr><td>USA (New York)</td><td>G5</td><td>~2 000 EUR/mois</td><td style="color:#f87171;font-weight:700;">~620 EUR/mois</td></tr>
+        </tbody>
+      </table>
+      <div class="extrait-note">
+        Estimations basées sur arrêtés JO 2024-2025. Solde = traitement net France + ISVL nette estimée - budget vie estimé.
+        Le guide complet contient les 38 destinations avec fiches détaillées.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- POUR QUI -->
+<div class="section">
+  <div class="section-title">Ce guide est fait pour vous si...</div>
+  <div class="section-rule"></div>
+  <div class="pourqui-list">
+    <div class="pourqui-item">
+      <div class="pourqui-icon">🎓</div>
+      <div class="pourqui-text">Vous êtes enseignant titulaire et vous envisagez un premier poste à l'étranger sans savoir par où commencer.</div>
+    </div>
+    <div class="pourqui-item">
+      <div class="pourqui-icon">💰</div>
+      <div class="pourqui-text">Vous voulez comprendre concrètement ce que vous allez gagner selon votre corps, votre échelon et votre destination, avant de prendre une décision.</div>
+    </div>
+    <div class="pourqui-item">
+      <div class="pourqui-icon">🗺️</div>
+      <div class="pourqui-text">Vous hésitez entre plusieurs destinations et vous voulez comparer objectivement le pouvoir d'achat réel dans chaque pays.</div>
+    </div>
+    <div class="pourqui-item">
+      <div class="pourqui-icon">📋</div>
+      <div class="pourqui-text">Vous voulez préparer votre dossier AGIRH sérieusement et éviter les erreurs qui coûtent un poste.</div>
+    </div>
+    <div class="pourqui-item">
+      <div class="pourqui-icon">✈️</div>
+      <div class="pourqui-text">Vous avez un poste confirmé et vous devez organiser votre départ : administratif, logement, banque, santé.</div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA BAS -->
+<div class="cta-bas">
+  <h2>Prêt à franchir le pas ?</h2>
+  <p>Téléchargez le guide et préparez votre candidature avec toutes les informations dont vous avez besoin.</p>
+  <div class="price-big">19 EUR</div>
+  <div class="price-note">PDF · Téléchargement immédiat · Livraison par email</div>
+  <button class="btn-acheter" onclick="openCheckout()">Obtenir le guide maintenant →</button>
+  <div style="margin-top:12px;font-size:0.78rem;color:rgba(255,255,255,0.3);">
+    Paiement sécurisé par Paddle · CB, Apple Pay, Google Pay
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Postes Réseau Français · emplois-scolaires-monde.online</p>
+  <div style="display:flex;gap:20px;">
+    <a href="/emplois-monde.html">Offres d'emploi</a>
+    <a href="/alertes.html">Alertes temps réel</a>
+  </div>
+</footer>
+
+<script>
+  // Initialisation Paddle
+  Paddle.Initialize({
+    token: 'live_44fee5a5a94bb12672040eed226'
+  });
+
+  function openCheckout() {
+    Paddle.Checkout.open({
+      items: [{
+        priceId: 'pri_01kt1enw0gaa1aadkvvvxa69xj',
+        quantity: 1
+      }]
+    });
+  }
+</script>
+
+</body>
+</html>
