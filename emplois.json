@@ -1,7 +1,29 @@
 {
-  "updated": "2026-06-03 15:16",
-  "total": 468,
+  "updated": "2026-06-03 20:22",
+  "total": 470,
   "offers": [
+    {
+      "id": 4429433,
+      "titre": "Professeur du Second Degré - Mathématiques F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "03/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4429433-professeur-du-second-degre-mathematiques-fh-lfa-alexandrie-egypte-alexandria"
+    },
+    {
+      "id": 4429311,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "etab": "",
+      "ville": "Houmt Souk",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "03/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4429311-professeur-du-second-degre-physique-chimie-fh-4180-houmt-souk"
+    },
     {
       "id": 4428947,
       "titre": "Professeur du Second Degré - Lettres Modernes F/H",
@@ -4157,7 +4179,7 @@
       "pays": "États-Unis",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "07/04/2026",
+      "date": "03/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4148915-professeur-des-ecoles-fh-portland-oregon-etats-unis-97239-portland"
     },
     {
