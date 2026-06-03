@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-03 09:22",
-  "total": 259,
+  "updated": "2026-06-03 15:16",
+  "total": 260,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3530,6 +3530,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3727_offre-emploi-professeur-e-de-philosophie.html"
+    },
+    {
+      "id": 3729,
+      "titre": "Professeur d'EPS",
+      "etab": "",
+      "ville": "Lubumbashi",
+      "pays": "République Démocratique du Congo",
+      "contrat": "",
+      "discipline": "",
+      "date": "01/06/2026",
+      "date_limite": "19/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3729_offre-emploi-professeur-deps.html"
     },
     {
       "id": 3730,
