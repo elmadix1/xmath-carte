@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-02 20:12",
-  "total": 258,
+  "updated": "2026-06-03 09:22",
+  "total": 259,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3558,6 +3558,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3726_offre-emploi-professeur-de-philosophie.html"
+    },
+    {
+      "id": 3731,
+      "titre": "Professeur des écoles",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "01/06/2026",
+      "date_limite": "30/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3731_offre-emploi-professeur-des-ecoles.html"
     },
     {
       "id": 3701,
