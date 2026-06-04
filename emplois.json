@@ -1,7 +1,117 @@
 {
-  "updated": "2026-06-04 08:51",
-  "total": 465,
+  "updated": "2026-06-04 19:27",
+  "total": 473,
   "offers": [
+    {
+      "id": 4431841,
+      "titre": "Professeur(e) de Sciences Physiques et Chimiques (SPC) – Nabeul",
+      "etab": "",
+      "ville": "Nabeul",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4431841-professeure-de-sciences-physiques-et-chimiques-spc-nabeul-8000-nabeul-"
+    },
+    {
+      "id": 4431831,
+      "titre": "Professeur(e) de Mathématiques (Système Français) – Nabeul",
+      "etab": "",
+      "ville": "Nabeul",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4431831-professeure-de-mathematiques-systeme-francais-nabeul-8000-nabeul-"
+    },
+    {
+      "id": 4431795,
+      "titre": "DERNIERE MINUTE - Professeur des Ecoles - BERKELEY F/H - CALIFORNIE - ETATS-UNIS",
+      "etab": "",
+      "ville": "Berkeley",
+      "pays": "États-Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4431795-derniere-minute-professeur-des-ecoles-berkeley-fh-californie-etats-unis-94710-berkeley"
+    },
+    {
+      "id": 4431379,
+      "titre": "Professeur du Second Degré - SVT F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4431379-professeur-du-second-degre-svt-fh-lfa-alexandrie-egypte-alexandria"
+    },
+    {
+      "id": 4430749,
+      "titre": "Professeur des écoles (Français) F/H - LONDRES - ROYAUME-UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4430749-professeur-des-ecoles-francais-fh-londres-royaume-uni-greater-london"
+    },
+    {
+      "id": 4430493,
+      "titre": "Professeur du Second Degré ESPAGNOL à temps complet",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4430493-professeur-du-second-degre-espagnol-a-temps-complet-dakar"
+    },
+    {
+      "id": 4430489,
+      "titre": "Professeur d'espagnol F/H -Temps plein- 2026/2027- Lycée Descartes -RABAT-MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4430489-professeur-despagnol-fh-temps-plein-20262027-lycee-descartes-rabat-maroc-rabat"
+    },
+    {
+      "id": 4430391,
+      "titre": "Professeur du Second Degré d'Histoire Géographie - F/H - KOWEIT",
+      "etab": "",
+      "ville": "Salmiya",
+      "pays": "Koweït",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4430391-professeur-du-second-degre-dhistoire-geographie-fh-koweit-salmiya"
+    },
+    {
+      "id": 4430311,
+      "titre": "Professeur Documentaliste F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4430311-professeur-documentaliste-fh-lfa-alexandrie-egypte-alexandria"
+    },
+    {
+      "id": 4430283,
+      "titre": "Assistant documentaliste H/F au C.D.I au lycée Descartes - Rabat - Maroc",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Chargé du centre de documentation F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4430283-assistant-documentaliste-hf-au-c-d-i-au-lycee-descartes-rabat-maroc-rabat"
+    },
     {
       "id": 4429831,
       "titre": "Assistant d'Éducation F/H - TBILISSI - GEORGIE",
@@ -353,17 +463,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "27/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4415229-professeur-des-ecoles-fh-abidjan-cote-divoire-abidjan"
-    },
-    {
-      "id": 4414847,
-      "titre": "Professeur SVT DNL Anglais - CDD - F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "27/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4414847-professeur-svt-dnl-anglais-cdd-fh-lisbonne-portugal-1070-103-lisboa"
     },
     {
       "id": 4413301,
@@ -804,17 +903,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "20/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4394395-professeur-des-ecoles-maternelle-fh-londres-royaume-uni-20262027-greater-london"
-    },
-    {
-      "id": 4394271,
-      "titre": "Conseiller principal d'éducation F/H-Lycée Descartes-Rentrée 2026/27-RABAT-MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat temporaire",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "20/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4394271-conseiller-principal-deducation-fh-lycee-descartes-rentree-202627-rabat-maroc-rabat"
     },
     {
       "id": 4393511,
@@ -2104,6 +2192,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4354003-enseignant-2nd-degre-nsi-fh-lycee-francais-du-caire-le-caire-egypte-cairo"
     },
     {
+      "id": 4353845,
+      "titre": "Professeur d'Histoire Géographie - HGGSP - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "27/04/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4353845-professeur-dhistoire-geographie-hggsp-fh-sfax-tunisie-3062-sfax"
+    },
+    {
       "id": 4353373,
       "titre": "Professeur de langue arabe - F/H - ELPG - LA MARSA - TUNISIE",
       "etab": "",
@@ -3281,17 +3380,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4315149-professeur-de-francais-langue-de-scolarisationflsco-fh-colombo-sri-lanka-00500-colombo"
     },
     {
-      "id": 4314973,
-      "titre": "CHEF D'ETABLISSEMENT - RENTREE 2026-2027 - F/H - BAMAKO - MALI",
-      "etab": "",
-      "ville": "Bamako",
-      "pays": "Mali",
-      "contrat": "Contrat temporaire",
-      "discipline": "Principal F/H",
-      "date": "04/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4314973-chef-detablissement-rentree-2026-2027-fh-bamako-mali-bamako"
-    },
-    {
       "id": 4309817,
       "titre": "Conseiller Principal d'Éducation - F/H - LA PAZ - BOLIVIE",
       "etab": "",
@@ -3323,6 +3411,17 @@
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "19/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4298221-conseiller-principal-deducation-fh-munich-allemagne-81373-munchen"
+    },
+    {
+      "id": 4297963,
+      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - LOME - TOGO",
+      "etab": "",
+      "ville": "Lomé",
+      "pays": "Togo",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "04/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4297963-professeur-du-second-degre-lettres-modernes-fh-lome-togo-lome"
     },
     {
       "id": 4295801,
@@ -4194,17 +4293,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4136475-professeur-de-mathematiques-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4135945,
-      "titre": "Professeur d'Histoire et géographie - F/H - Rentrée 2026-2027 - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "",
-      "url": "https://talents.aefe.fr/fr/annonce/4135945-professeur-dhistoire-et-geographie-fh-rentree-2026-2027-rabat-maroc-rabat"
-    },
-    {
       "id": 4135919,
       "titre": "Professeur de lettres modernes - F/H - Rentrée 2026-2027 - RABAT - MAROC",
       "etab": "",
@@ -4212,7 +4300,7 @@
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
-      "date": "13/05/2026",
+      "date": "04/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4135919-professeur-de-lettres-modernes-fh-rentree-2026-2027-rabat-maroc-rabat"
     },
     {

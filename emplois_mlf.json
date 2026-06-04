@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-04 08:51",
-  "total": 260,
+  "updated": "2026-06-04 19:27",
+  "total": 261,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3544,6 +3544,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3729_offre-emploi-professeur-deps.html"
+    },
+    {
+      "id": 3732,
+      "titre": "Professeur d'Anglais",
+      "etab": "",
+      "ville": "Varna",
+      "pays": "Bulgarie",
+      "contrat": "",
+      "discipline": "",
+      "date": "04/06/2026",
+      "date_limite": "21/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3732_offre-emploi-professeur-danglais.html"
     },
     {
       "id": 3730,
