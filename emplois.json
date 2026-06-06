@@ -1,7 +1,62 @@
 {
-  "updated": "2026-06-05 19:03",
-  "total": 465,
+  "updated": "2026-06-06 07:50",
+  "total": 470,
   "offers": [
+    {
+      "id": 4434729,
+      "titre": "Professeur d'histoire - géographie / HGGSP",
+      "etab": "",
+      "ville": "Nabeul",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "05/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4434729-professeur-dhistoire-geographie-hggsp-8000-nabeul-"
+    },
+    {
+      "id": 4434727,
+      "titre": "Professeur du Second Degré",
+      "etab": "",
+      "ville": "Montréal",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "05/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4434727-professeur-du-second-degre-h3w-1w3-montreal"
+    },
+    {
+      "id": 4434711,
+      "titre": "Professeur du Second Degré",
+      "etab": "",
+      "ville": "Montréal",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’italien F/H",
+      "date": "05/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4434711-professeur-du-second-degre-h3w-1w3-montreal"
+    },
+    {
+      "id": 4434707,
+      "titre": "Professeur du Second Degré",
+      "etab": "",
+      "ville": "Montréal",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "05/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4434707-professeur-du-second-degre-h3w-1w3-montreal"
+    },
+    {
+      "id": 4434691,
+      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "etab": "",
+      "ville": "Montréal",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "05/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4434691-professeur-du-second-degre-education-physique-et-sportive-fh-h3w-1w3-montreal"
+    },
     {
       "id": 4434569,
       "titre": "Professeur du Second Degré en HISTOIRE-GEOGRAPHIE - F/H - BRAZZAVILLE - CONGO",
@@ -2709,6 +2764,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4333647-psychopedagogue-fh-santiago-chili-7630599-santiago"
     },
     {
+      "id": 4333615,
+      "titre": "Secrétaire de direction - F/H - SANTIAGO - CHILI",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "Chili",
+      "contrat": "Contrat permanent",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "05/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4333615-secretaire-de-direction-fh-santiago-chili-7630599-santiago"
+    },
+    {
       "id": 4333583,
       "titre": "Professeur du Second Degré d'histoire géographie - F/H - DAMAS - SYRIE",
       "etab": "",
@@ -3312,17 +3378,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "07/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4316101-professeur-du-second-degre-svt-fh-djerba-tunisie-4180-houmt-souk"
-    },
-    {
-      "id": 4315509,
-      "titre": "CPE - F/H - KUALA LUMPUR - MALAISIE",
-      "etab": "",
-      "ville": "Kuala Lumpur",
-      "pays": "Malaisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "07/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4315509-cpe-fh-kuala-lumpur-malaisie-kuala-lumpur"
     },
     {
       "id": 4309817,
