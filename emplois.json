@@ -1,7 +1,29 @@
 {
-  "updated": "2026-06-06 07:50",
-  "total": 470,
+  "updated": "2026-06-06 18:09",
+  "total": 467,
   "offers": [
+    {
+      "id": 4435005,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Envigado",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "06/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4435005-professeur-du-second-degre-lettres-modernes-fh-055427-envigado"
+    },
+    {
+      "id": 4434919,
+      "titre": "Professeur du Second Degré - Mathématiques/SNT - F/H - TIRANA - ALBANIE",
+      "etab": "",
+      "ville": "Lundër 1",
+      "pays": "Albanie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "06/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4434919-professeur-du-second-degre-mathematiquessnt-fh-tirana-albanie-lunder-1"
+    },
     {
       "id": 4434729,
       "titre": "Professeur d'histoire - géographie / HGGSP",
@@ -65,7 +87,7 @@
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur du second degré F/H",
-      "date": "05/06/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4434569-professeur-du-second-degre-en-histoire-geographie-fh-brazzaville-congo-brazzaville"
     },
     {
@@ -3347,17 +3369,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4316973-professeur-du-second-degre-mathematiques-fh-tirana-albanie-lunder-1"
     },
     {
-      "id": 4316851,
-      "titre": "Professeur(e) des écoles-F/H - Lycée Français International d'Accra-ACCRA-GHANA",
-      "etab": "",
-      "ville": "Accra",
-      "pays": "Ghana",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4316851-professeure-des-ecoles-fh-lycee-francais-international-daccra-accra-ghana-accra"
-    },
-    {
       "id": 4316557,
       "titre": "Professeur de SES - F/H - Lycée Voltaire - LE CAIRE - EGYPTE",
       "etab": "",
@@ -3367,17 +3378,6 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "31/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4316557-professeur-de-ses-fh-lycee-voltaire-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4316101,
-      "titre": "Professeur du Second Degré - SVT - F/H - DJERBA - TUNISIE",
-      "etab": "",
-      "ville": "Houmt Souk",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "07/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4316101-professeur-du-second-degre-svt-fh-djerba-tunisie-4180-houmt-souk"
     },
     {
       "id": 4309817,
@@ -4007,17 +4007,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4212001-professeur-du-second-degre-histoire-geographie-emc-fh-tunis-tunisie-1002-tunis"
     },
     {
-      "id": 4206229,
-      "titre": "Conseiller principal d’éducation - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "07/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4206229-conseiller-principal-d-education-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4205315,
       "titre": "Professeur d'Allemand - F/H - CARTHAGE - TUNISIE",
       "etab": "",
@@ -4258,17 +4247,6 @@
       "discipline": "Professeur de lettres classiques F/H",
       "date": "10/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140099-professeur-de-lettresfrancais-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4136475,
-      "titre": "Professeur de Mathématiques - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "07/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4136475-professeur-de-mathematiques-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4135919,
@@ -4753,17 +4731,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "14/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4068011-professeur-du-second-degre-physique-chimie-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4068009,
-      "titre": "Professeur du Second Degré Mathématiques - F/H - ABIDJAN - CÔTE D'IVOIRE (2 PSV)",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "07/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4068009-professeur-du-second-degre-mathematiques-fh-abidjan-cote-divoire-2-psv-abidjan"
     },
     {
       "id": 4068001,
