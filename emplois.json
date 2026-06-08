@@ -1,7 +1,73 @@
 {
-  "updated": "2026-06-08 09:26",
-  "total": 437,
+  "updated": "2026-06-08 19:23",
+  "total": 423,
   "offers": [
+    {
+      "id": 4437349,
+      "titre": "Professeur.e des écoles à mi-temps - VIENNE - AUTRICHE",
+      "etab": "",
+      "ville": "Wien",
+      "pays": "Autriche",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4437349-professeur-e-des-ecoles-a-mi-temps-vienne-autriche-1090-wien"
+    },
+    {
+      "id": 4436827,
+      "titre": "Professeur d'Anglais - F/H - Ecole internationale de Sfax - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4436827-professeur-danglais-fh-ecole-internationale-de-sfax-sfax-tunisie-sfax"
+    },
+    {
+      "id": 4436807,
+      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4436807-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
+    },
+    {
+      "id": 4436673,
+      "titre": "Student Counsellor - F/H - LONDRES - ROYAUME UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat permanent",
+      "discipline": "Psychologue scolaire F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4436673-student-counsellor-fh-londres-royaume-uni-greater-london"
+    },
+    {
+      "id": 4436421,
+      "titre": "Cleaning Operations Manager - F/H - LONDRES - ROYAUME UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat permanent",
+      "discipline": "Chargé de maintenance et d’entretien F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4436421-cleaning-operations-manager-fh-londres-royaume-uni-greater-london"
+    },
+    {
+      "id": 4436397,
+      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4436397-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
+    },
     {
       "id": 4436065,
       "titre": "Professeur du Second Degré d'histoire géographie F/H",
@@ -729,17 +795,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4411639-infirmier-scolaire-fh-varsovie-pologne-03-916-warszawa"
     },
     {
-      "id": 4410505,
-      "titre": "Professeur de Physique Chimie - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
-      "etab": "",
-      "ville": "Marrakesh",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4410505-professeur-de-physique-chimie-fh-lycee-victor-hugo-marrakech-maroc-marrakesh"
-    },
-    {
       "id": 4409683,
       "titre": "Proviseur - H/F - LE CAIRE - EGYPTE",
       "etab": "",
@@ -934,7 +989,7 @@
       "pays": "Kazakhstan",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "22/05/2026",
+      "date": "08/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4400265-professeur-des-ecoles-fh-astana-kazakhstan-astana"
     },
     {
@@ -1090,17 +1145,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "19/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4391733-enseignant-de-mathematiques-cdd-fh-hambourg-allemagne-22767-hamburg"
-    },
-    {
-      "id": 4391623,
-      "titre": "Professeur des écoles - F/H - GSU La Fontaine - FES - MAROC",
-      "etab": "",
-      "ville": "Fes",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "19/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4391623-professeur-des-ecoles-fh-gsu-la-fontaine-fes-maroc-fes"
     },
     {
       "id": 4390927,
@@ -1279,28 +1323,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4384257-professeur-du-second-degre-technologiesnt-fh-tunis-tunisie-1053-tunis"
     },
     {
-      "id": 4384019,
-      "titre": "Professeur d'Espagnol - F/H - GSU La Fontaine - FES - MAROC",
-      "etab": "",
-      "ville": "Fes",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’espagnol F/H",
-      "date": "20/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4384019-professeur-despagnol-fh-gsu-la-fontaine-fes-maroc-fes"
-    },
-    {
-      "id": 4383933,
-      "titre": "Professeur d'EPS - F/H - Lycée Paul VALERY - MEKNES - MAROC",
-      "etab": "",
-      "ville": "Meknes",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "20/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383933-professeur-deps-fh-lycee-paul-valery-meknes-maroc-meknes"
-    },
-    {
       "id": 4383897,
       "titre": "SURVEILLANT - F/H - LONDRES - ROYAUME-UNI",
       "etab": "",
@@ -1354,28 +1376,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "14/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4383611-professeur-des-ecoles-fh-londres-royaume-uni-greater-london"
-    },
-    {
-      "id": 4383561,
-      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383561-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
-    },
-    {
-      "id": 4383549,
-      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383549-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
     },
     {
       "id": 4383367,
@@ -1728,17 +1728,6 @@
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "07/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4373237-professeur-du-second-degre-snt-fh-monastir-tunisie-monastir"
-    },
-    {
-      "id": 4372185,
-      "titre": "Secrétaire - F/H - BERLIN - ALLEMAGNE",
-      "etab": "",
-      "ville": "Berlin",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "07/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4372185-secretaire-fh-berlin-allemagne-10785-berlin"
     },
     {
       "id": 4371659,
@@ -2168,17 +2157,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "27/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4354973-professeur-des-ecoles-fh-lisbonne-portugal-1350-164-lisboa"
-    },
-    {
-      "id": 4354917,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - TEGUCIGALPA - HONDURAS",
-      "etab": "",
-      "ville": "Tegucigalpa",
-      "pays": "Honduras",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "27/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4354917-professeur-du-second-degre-lettres-modernes-fh-tegucigalpa-honduras-tegucigalpa"
     },
     {
       "id": 4354561,
@@ -3028,50 +3006,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4324137-professeur-des-ecoles-intervention-en-6eme-sciences-fh-pristina-kosovo-pristina"
     },
     {
-      "id": 4321777,
-      "titre": "Professeur d'Histoire-Géographie SI américaine - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4321777-professeur-dhistoire-geographie-si-americaine-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4321699,
-      "titre": "Enseignant d'anglais non titulaire - F/H - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4321699-enseignant-danglais-non-titulaire-fh-dakar-senegal-dakar"
-    },
-    {
-      "id": 4321689,
-      "titre": "Professeur des écoles origramme français (non titulaire) - F/H - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4321689-professeur-des-ecoles-origramme-francais-non-titulaire-fh-dakar-senegal-dakar"
-    },
-    {
-      "id": 4321525,
-      "titre": "Professeur 2nd degré - Physique-Chimie/Technologie - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4321525-professeur-2nd-degre-physique-chimietechnologie-fh-manille-philippines-paranaque"
-    },
-    {
       "id": 4316973,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - TIRANA - ALBANIE",
       "etab": "",
@@ -3600,83 +3534,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4220181-professeur-de-svt-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4218125,
-      "titre": "Professeur des écoles F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4218125-professeur-des-ecoles-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4218063,
-      "titre": "Professeur 2nd degré - EPS - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4218063-professeur-2nd-degre-eps-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4216513,
-      "titre": "Professeur 2nd degré - Mathématiques/Technologie - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4216513-professeur-2nd-degre-mathematiquestechnologie-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4216473,
-      "titre": "Professeur du 2nd degré - Anglais américain - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais américain F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4216473-professeur-du-2nd-degre-anglais-americain-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4216329,
-      "titre": "Professeur du 2nd degré - Histoire-Géographie - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4216329-professeur-du-2nd-degre-histoire-geographie-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4216297,
-      "titre": "Professeur du 2nd degré - SES - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4216297-professeur-du-2nd-degre-ses-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4215647,
-      "titre": "Professeur du 2nd degré - Mathématiques/NSI - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4215647-professeur-du-2nd-degre-mathematiquesnsi-fh-manille-philippines-paranaque"
-    },
-    {
       "id": 4215495,
       "titre": "Principal adjoint - F/H - MEDELLIN - COLOMBIE",
       "etab": "",
@@ -3851,17 +3708,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "16/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4180763-professeur-du-second-degre-dhistoire-geographie-fh-amsterdam-pays-bas-1075-sw-amsterdam"
-    },
-    {
-      "id": 4174615,
-      "titre": "Professeur du Second Degré Lettres Modernes 2026/2028 - F/H- PEREIRA - COLOMBIE",
-      "etab": "",
-      "ville": "Risaralda",
-      "pays": "Colombie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "19/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4174615-professeur-du-second-degre-lettres-modernes-20262028-fh-pereira-colombie-pereira"
     },
     {
       "id": 4161473,
@@ -4311,7 +4157,7 @@
       "pays": "Seychelles",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "09/04/2026",
+      "date": "08/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4098191-professeur-des-ecoles-fh-victoria-seychelles-seychelles"
     },
     {
