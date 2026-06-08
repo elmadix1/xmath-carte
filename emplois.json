@@ -1,7 +1,62 @@
 {
-  "updated": "2026-06-07 18:07",
-  "total": 446,
+  "updated": "2026-06-08 09:26",
+  "total": 437,
   "offers": [
+    {
+      "id": 4436065,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Taipei City",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4436065-professeur-du-second-degre-dhistoire-geographie-fh-taipei-city"
+    },
+    {
+      "id": 4435783,
+      "titre": "Surveillant(e) 2nd degré - F/H - Lycée Victor Hugo - Marrakech - MAROC",
+      "etab": "",
+      "ville": "Marrakesh",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4435783-surveillante-2nd-degre-fh-lycee-victor-hugo-marrakech-maroc-marrakesh"
+    },
+    {
+      "id": 4435593,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4435593-professeur-du-second-degre-lettres-modernes-fh-3000-sfax"
+    },
+    {
+      "id": 4435579,
+      "titre": "Professeur du Second Degré - Sciences Economiques et Sociales F/H",
+      "etab": "",
+      "ville": "Sandton",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4435579-professeur-du-second-degre-sciences-economiques-et-sociales-fh-2057-sandton"
+    },
+    {
+      "id": 4435273,
+      "titre": "Professeur des écoles F/H - LFKL - RENTREE 2026-2027 - KUALA LUMPUR- MALAISIE",
+      "etab": "",
+      "ville": "Kuala Lumpur",
+      "pays": "Malaisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4435273-professeur-des-ecoles-fh-lfkl-rentree-2026-2027-kuala-lumpur-malaisie-kuala-lumpur"
+    },
     {
       "id": 4435121,
       "titre": "enseignant/e en anglais",
@@ -674,17 +729,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4411639-infirmier-scolaire-fh-varsovie-pologne-03-916-warszawa"
     },
     {
-      "id": 4411571,
-      "titre": "Recrutement interne - Assistant pédagogique - F/H - LONDRES - ROYAUME UNI",
-      "etab": "",
-      "ville": "England",
-      "pays": "Royaume-Uni",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4411571-recrutement-interne-assistant-pedagogique-fh-londres-royaume-uni-greater-london"
-    },
-    {
       "id": 4410505,
       "titre": "Professeur de Physique Chimie - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
       "etab": "",
@@ -916,17 +960,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4399289-secretaire-general-adjoint-sga-fh-munich-allemagne-81373-munchen"
     },
     {
-      "id": 4399133,
-      "titre": "Professeur de Lettres (susceptible d'être vacant) - F/H - LONDRES - ROYAUME UNI",
-      "etab": "",
-      "ville": "England",
-      "pays": "Royaume-Uni",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "22/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4399133-professeur-de-lettres-susceptible-detre-vacant-fh-londres-royaume-uni-greater-london"
-    },
-    {
       "id": 4398985,
       "titre": "Professeur du Second Degré d'histoire géographie - F/H - ALEXANDRIE - EGYPTE",
       "etab": "",
@@ -982,17 +1015,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4396923-professeur-du-second-degre-lettres-fh-stockholm-suede-stockholms-lan"
     },
     {
-      "id": 4396351,
-      "titre": "Professeur du Second Degré Espagnol - F/H - LLM - ABU DHABI- EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Abu Dhabi",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4396351-professeur-du-second-degre-espagnol-fh-llm-abu-dhabi-emirats-arabes-unis-abu-dhabi"
-    },
-    {
       "id": 4396003,
       "titre": "Professeur Documentaliste - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1046,17 +1068,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "20/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4394395-professeur-des-ecoles-maternelle-fh-londres-royaume-uni-20262027-greater-london"
-    },
-    {
-      "id": 4393231,
-      "titre": "Chauffeur de bus - F/H - EGD - Lycée Gustave Flaubert – LA MARSA - TUNISIE",
-      "etab": "",
-      "ville": "La Marsa",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "19/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4393231-chauffeur-de-bus-fh-egd-lycee-gustave-flaubert-la-marsa-tunisie-2078-la-marsa"
     },
     {
       "id": 4392775,
@@ -1235,17 +1246,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4386689-professeur-des-ecoles-fh-nouakchott-mauritanie-mauritania"
     },
     {
-      "id": 4386167,
-      "titre": "Assistant pédagogique / Animateur périscolaire - F/H - RIGA - LETTONIE",
-      "etab": "",
-      "ville": "Rīga",
-      "pays": "Lettonie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "15/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4386167-assistant-pedagogique-animateur-periscolaire-fh-riga-lettonie-1005-riga"
-    },
-    {
       "id": 4384279,
       "titre": "Professeur du Second Degré Education Physique et Sportive - F/H- TUNIS - TUNISIE",
       "etab": "",
@@ -1376,17 +1376,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "14/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4383549-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
-    },
-    {
-      "id": 4383401,
-      "titre": "Agent d’accueil & gestion des absences élèves - F/H - ABU DHABI - EAU",
-      "etab": "",
-      "ville": "Abu Dhabi",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4383401-agent-d-accueil-gestion-des-absences-eleves-fh-abu-dhabi-eau-abu-dhabi"
     },
     {
       "id": 4383367,
@@ -1807,17 +1796,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4370869-professeur-du-second-degre-dhistoire-geographie-fh-medellin-colombie-055427-envigado"
     },
     {
-      "id": 4370379,
-      "titre": "Assistant d'Éducation - F/H - Lycée Louis Massignon - ABU DHABI - EAU",
-      "etab": "",
-      "ville": "Abu Dhabi",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "06/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4370379-assistant-deducation-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
-    },
-    {
       "id": 4370233,
       "titre": "Professeur du Second Degré - SVT - F/H - MONASTIR - TUNISIE",
       "etab": "",
@@ -1915,28 +1893,6 @@
       "discipline": "Professeur de philosophie F/H",
       "date": "05/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4366925-professeur-de-philosophie-fh-casablanca-maroc-20250-casablanca"
-    },
-    {
-      "id": 4366767,
-      "titre": "Documentaliste - F/H - Lycée Louis Massignon - ABU DHABI - EAU",
-      "etab": "",
-      "ville": "Abu Dhabi",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Chargé du centre de documentation F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4366767-documentaliste-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
-    },
-    {
-      "id": 4366505,
-      "titre": "Professeur d'Arabe Maternelle - F/H - Lycée Louis Massignon - ABU DHABI - EAU",
-      "etab": "",
-      "ville": "Abu Dhabi",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’arabe F/H",
-      "date": "05/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4366505-professeur-darabe-maternelle-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
     },
     {
       "id": 4365513,
@@ -2456,17 +2412,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4349505-professeur-fh-du-second-degre-histoire-geo-ses-tirana-albanie-lunder-1"
     },
     {
-      "id": 4349387,
-      "titre": "Coordonateur transport scolaire - F/H - Lycée Louis Massignon - ABU DHABI - EAU",
-      "etab": "",
-      "ville": "Abu Dhabi",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "23/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349387-coordonateur-transport-scolaire-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
-    },
-    {
       "id": 4348969,
       "titre": "ASSISTANT DE CLASSE MATERNELLE - F/H - LONDRES - ROYAUME-UNI",
       "etab": "",
@@ -2509,17 +2454,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "23/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4348641-professeur-dallemand-du-second-degre-fh-munich-allemagne-81373-munchen"
-    },
-    {
-      "id": 4347441,
-      "titre": "Comptable - F/H - Ecole franco-chypriote - NICOSIE - CHYPRE",
-      "etab": "",
-      "ville": "Αγλαντζιά",
-      "pays": "Chypre",
-      "contrat": "Contrat permanent",
-      "discipline": "Comptable F/H",
-      "date": "23/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4347441-comptable-fh-ecole-franco-chypriote-nicosie-chypre-2121-%CE%B1%CE%B3%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%B9%CE%B1"
     },
     {
       "id": 4347431,
@@ -2962,17 +2896,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4327477-professeur-des-ecoles-fh-saint-domingue-republique-dominicaine-santo-domingo"
     },
     {
-      "id": 4327175,
-      "titre": "Professeur des écoles - F/H - Lycée de Lusaka - LUSAKA - ZAMBIE SUSCEPTIBLE",
-      "etab": "",
-      "ville": "Lusaka",
-      "pays": "Zambie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "13/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4327175-professeur-des-ecoles-fh-lycee-de-lusaka-lusaka-zambie-susceptible-lusaka"
-    },
-    {
       "id": 4326235,
       "titre": "Chargé de communication - F/H - DUBAI - EMIRATS ARABES UNIS",
       "etab": "",
@@ -2985,7 +2908,7 @@
     },
     {
       "id": 4326171,
-      "titre": "Professeur des écoles - F/H - ROME -ITALIE",
+      "titre": "Professeur des écoles - F/H - ROME - ITALIE",
       "etab": "",
       "ville": "Roma",
       "pays": "Italie",
@@ -3147,28 +3070,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "09/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4321525-professeur-2nd-degre-physique-chimietechnologie-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4320497,
-      "titre": "Professeur du Second Degré - Physique Chimie - F/H - MANAGUA - NICARAGUA",
-      "etab": "",
-      "ville": "Managua",
-      "pays": "Nicaragua",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "09/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4320497-professeur-du-second-degre-physique-chimie-fh-managua-nicaragua-managua"
-    },
-    {
-      "id": 4320489,
-      "titre": "Professeur du Second Degré- EPS - F/H - SAN FRANCISCO - CALIFORNIE - ETATS UNIS",
-      "etab": "",
-      "ville": "San Francisco",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "08/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4320489-professeur-du-second-degre-eps-fh-san-francisco-californie-etats-unis-94122-san-francisco"
     },
     {
       "id": 4316973,
@@ -4014,7 +3915,7 @@
       "pays": "Bénin",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
-      "date": "05/06/2026",
+      "date": "08/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4151917-professeur-de-lettres-modernes-fh-cotonou-benin-9087-cotonou"
     },
     {
@@ -4036,7 +3937,7 @@
       "pays": "Bénin",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "05/06/2026",
+      "date": "08/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4142975-professeur-des-ecoles-rentree-20262027-fh-cotonou-benin-9087-cotonou"
     },
     {
@@ -4093,17 +3994,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "02/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4132683-professeur-du-second-degre-anglais-fh-shanghai-chine-shanghai"
-    },
-    {
-      "id": 4132659,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - SHANGHAI - CHINE",
-      "etab": "",
-      "ville": "Shanghai",
-      "pays": "Chine",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "07/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4132659-professeur-du-second-degre-mathematiques-fh-shanghai-chine-shanghai"
     },
     {
       "id": 4129467,
@@ -4599,6 +4489,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "21/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4064715-professeur-des-ecoles-fh-bucarest-roumanie-015016-bucuresti"
+    },
+    {
+      "id": 4061877,
+      "titre": "Assistant d'Éducation - F/H - LIMASSOL - CHYPRE - 01/09/2026",
+      "etab": "",
+      "ville": "Aglantzia",
+      "pays": "Chypre",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4061877-assistant-deducation-fh-limassol-chypre-01092026-aglantzia"
     },
     {
       "id": 4041779,
