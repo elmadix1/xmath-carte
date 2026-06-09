@@ -1,7 +1,29 @@
 {
-  "updated": "2026-06-08 19:23",
-  "total": 423,
+  "updated": "2026-06-09 08:33",
+  "total": 425,
   "offers": [
+    {
+      "id": 4438407,
+      "titre": "Professeur d'Anglais Primaire et Secondaire H/F",
+      "etab": "",
+      "ville": "Kyoto",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "09/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4438407-professeur-danglais-primaire-et-secondaire-hf-kyoto"
+    },
+    {
+      "id": 4438279,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "08/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4438279-professeur-du-second-degre-mathematiques-fh-alexandria"
+    },
     {
       "id": 4437349,
       "titre": "Professeur.e des écoles à mi-temps - VIENNE - AUTRICHE",
@@ -169,36 +191,36 @@
     },
     {
       "id": 4434727,
-      "titre": "Professeur du Second Degré",
+      "titre": "Professeur du Second Degré d'histoire - géographie - F/H - Montréal",
       "etab": "",
       "ville": "Montréal",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4434727-professeur-du-second-degre-h3w-1w3-montreal"
+      "url": "https://talents.aefe.fr/fr/annonce/4434727-professeur-du-second-degre-dhistoire-geographie-fh-montreal-h3w-1w3-montreal"
     },
     {
       "id": 4434711,
-      "titre": "Professeur du Second Degré",
+      "titre": "Professeur du Second Degré - Italien - F/H - Montréal",
       "etab": "",
       "ville": "Montréal",
-      "pays": "",
+      "pays": "Italie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’italien F/H",
       "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4434711-professeur-du-second-degre-h3w-1w3-montreal"
+      "url": "https://talents.aefe.fr/fr/annonce/4434711-professeur-du-second-degre-italien-fh-montreal-h3w-1w3-montreal"
     },
     {
       "id": 4434707,
-      "titre": "Professeur du Second Degré",
+      "titre": "Professeur du Second Degré - anglais - F/H - Montréal",
       "etab": "",
       "ville": "Montréal",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’anglais F/H",
       "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4434707-professeur-du-second-degre-h3w-1w3-montreal"
+      "url": "https://talents.aefe.fr/fr/annonce/4434707-professeur-du-second-degre-anglais-fh-montreal-h3w-1w3-montreal"
     },
     {
       "id": 4434691,
@@ -1156,17 +1178,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "19/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4390927-professeur-du-second-degre-sciences-physiques-fh-sydney-australie-2035-maroubra"
-    },
-    {
-      "id": 4390909,
-      "titre": "Enseignant spécialisé -primaire collège - F/H - VANCOUVER - CANADA",
-      "etab": "",
-      "ville": "North Vancouver",
-      "pays": "Canada",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "18/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4390909-enseignant-specialise-primaire-college-fh-vancouver-canada-v7k-2e6-north-vancouver"
     },
     {
       "id": 4390905,
@@ -3160,17 +3171,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4280385-professeur-du-second-degre-eps-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
-      "id": 4279069,
-      "titre": "Responsable administratif - F/H - KATMANDOU - NÉPAL",
-      "etab": "",
-      "ville": "Katmandou",
-      "pays": "Népal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Directeur Administratif et Financier F/H",
-      "date": "12/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4279069-responsable-administratif-fh-katmandou-nepal-44600-katmandou"
-    },
-    {
       "id": 4279055,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - TOKYO - JAPON",
       "etab": "",
@@ -3213,6 +3213,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "13/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4271039-professeur-des-ecoles-fh-bogota-colombie-la-calera"
+    },
+    {
+      "id": 4266163,
+      "titre": "Professeur des écoles - Rentrée 2026 - F/H - SOFIA - BULGARIE",
+      "etab": "",
+      "ville": "София",
+      "pays": "Bulgarie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "09/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4266163-professeur-des-ecoles-rentree-2026-fh-sofia-bulgarie-1700-%D1%81%D0%BE%D1%84%D0%B8%D1%8F"
     },
     {
       "id": 4264335,
@@ -3708,6 +3719,17 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "16/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4180763-professeur-du-second-degre-dhistoire-geographie-fh-amsterdam-pays-bas-1075-sw-amsterdam"
+    },
+    {
+      "id": 4166067,
+      "titre": "Enseignant d'élémentaire en allemand - F/H - Mi-temps - BRUXELLES - BELGIQUE",
+      "etab": "",
+      "ville": "Uccle",
+      "pays": "Belgique",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’allemand F/H",
+      "date": "09/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4166067-enseignant-delementaire-en-allemand-fh-mi-temps-bruxelles-belgique-1180-uccle"
     },
     {
       "id": 4161473,
