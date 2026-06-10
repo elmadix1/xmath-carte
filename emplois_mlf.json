@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10 08:50",
+  "updated": "2026-06-10 19:36",
   "total": 262,
   "source": "MLF Monde",
   "offers": [
@@ -3476,20 +3476,6 @@
       "url": "https://recrutement.mlfmonde.org/3685_offre-emploi-professeur-des-ecoles-cycles-1-tpsps.html"
     },
     {
-      "id": 3708,
-      "titre": "Expert pédagogie et développement professionnel du second degré",
-      "etab": "",
-      "ville": "Paris",
-      "pays": "France",
-      "contrat": "",
-      "discipline": "",
-      "date": "31/03/2026",
-      "date_limite": "05/06/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3708_offre-emploi-expert-pedagogie-et-developpement-professionnel-du-second-degre.html"
-    },
-    {
       "id": 3728,
       "titre": "Professeur des écoles",
       "etab": "",
@@ -3544,6 +3530,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3729_offre-emploi-professeur-deps.html"
+    },
+    {
+      "id": 3708,
+      "titre": "Expert pédagogie et développement professionnel du second degré",
+      "etab": "",
+      "ville": "Paris",
+      "pays": "France",
+      "contrat": "",
+      "discipline": "",
+      "date": "31/03/2026",
+      "date_limite": "20/06/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3708_offre-emploi-expert-pedagogie-et-developpement-professionnel-du-second-degre.html"
     },
     {
       "id": 3732,
