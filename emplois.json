@@ -1,7 +1,62 @@
 {
-  "updated": "2026-06-09 19:15",
-  "total": 412,
+  "updated": "2026-06-10 08:50",
+  "total": 413,
   "offers": [
+    {
+      "id": 4441239,
+      "titre": "Professeur Documentaliste (CDI)",
+      "etab": "",
+      "ville": "Nabeul",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "10/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4441239-professeur-documentaliste-cdi-8000-nabeul-"
+    },
+    {
+      "id": 4441047,
+      "titre": "Assistants d'Education - F/H - LONDRES - ROYAUME UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "10/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4441047-assistants-deducation-fh-londres-royaume-uni-greater-london"
+    },
+    {
+      "id": 4440901,
+      "titre": "Professeur FLSco (Français Langue de Scolarisation) Primaire Thaïlande",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "Thaïlande",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "10/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4440901-professeur-flsco-francais-langue-de-scolarisation-primaire-thailande-84310-koh-samui"
+    },
+    {
+      "id": 4440899,
+      "titre": "Professeur des écoles F/H - Windfield International School KOH SAMUI - THAILANDE",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "Thaïlande",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "10/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4440899-professeur-des-ecoles-fh-windfield-international-school-koh-samui-thailande-84310-koh-samui"
+    },
+    {
+      "id": 4440885,
+      "titre": "Enseignant(e) spécialisé(e) - Primaire | San Francisco |",
+      "etab": "",
+      "ville": "San Francisco",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "09/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4440885-enseignante-specialisee-primaire-san-francisco-94122-san-francisco"
+    },
     {
       "id": 4439505,
       "titre": "Professeur du Second Degré - Sciences Numériques et Technologie F/H",
@@ -2665,28 +2720,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4329503-professeur-physique-chimie-fh-kenya-nairobi-lfidd-nairobi"
     },
     {
-      "id": 4329001,
-      "titre": "Psychologue Scolaire en Primaire - F/H - SINGAPOUR",
-      "etab": "",
-      "ville": "Singapore",
-      "pays": "Singapour",
-      "contrat": "Contrat permanent",
-      "discipline": "Psychologue scolaire F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4329001-psychologue-scolaire-en-primaire-fh-singapour-singapore"
-    },
-    {
-      "id": 4328995,
-      "titre": "Psychologue Scolaire du secondaire - F/H - SINGAPOUR",
-      "etab": "",
-      "ville": "Singapore",
-      "pays": "Singapour",
-      "contrat": "Contrat permanent",
-      "discipline": "Psychologue scolaire F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4328995-psychologue-scolaire-du-secondaire-fh-singapour-singapore"
-    },
-    {
       "id": 4328947,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - SANTIAGO - CHILI",
       "etab": "",
@@ -2905,28 +2938,6 @@
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "12/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4326097-professeur-du-second-degre-eps-fh-ecole-al-jabr-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4325709,
-      "titre": "Professeur du Second Degré - Philosophie - F/H - MANAGUA - NICARAGUA",
-      "etab": "",
-      "ville": "Managua",
-      "pays": "Nicaragua",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de philosophie F/H",
-      "date": "10/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4325709-professeur-du-second-degre-philosophie-fh-managua-nicaragua-managua"
-    },
-    {
-      "id": 4325693,
-      "titre": "Professeur du Second Degré - Arts Plastiques - F/H - MANAGUA - NICARAGUA",
-      "etab": "",
-      "ville": "Managua",
-      "pays": "Nicaragua",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’arts plastiques F/H",
-      "date": "10/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4325693-professeur-du-second-degre-arts-plastiques-fh-managua-nicaragua-managua"
     },
     {
       "id": 4316973,
