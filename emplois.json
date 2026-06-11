@@ -1,7 +1,18 @@
 {
-  "updated": "2026-06-10 19:36",
-  "total": 412,
+  "updated": "2026-06-11 09:15",
+  "total": 405,
   "offers": [
+    {
+      "id": 4443243,
+      "titre": "Professeur SES secondaire - F/H - CHICAGO - ETATS-UNIS",
+      "etab": "",
+      "ville": "Chicago",
+      "pays": "États-Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "10/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4443243-professeur-ses-secondaire-fh-chicago-etats-unis-60640-chicago"
+    },
     {
       "id": 4443201,
       "titre": "Professeur du Second Degré - Lettres Modernes F/H",
@@ -243,17 +254,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "08/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4436065-professeur-du-second-degre-dhistoire-geographie-fh-taiwan-taipei-city"
-    },
-    {
-      "id": 4435783,
-      "titre": "Surveillant F/H 2nd degré - Lycée Victor Hugo - MARRAKECH - MAROC",
-      "etab": "",
-      "ville": "Marrakesh",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "08/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4435783-surveillant-fh-2nd-degre-lycee-victor-hugo-marrakech-maroc-marrakesh"
     },
     {
       "id": 4435593,
@@ -639,17 +639,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "02/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4427317-professeur-du-second-degre-histoire-geographie-fh-los-angeles-etats-unis-90034-los-angeles"
-    },
-    {
-      "id": 4426273,
-      "titre": "Professeur de Mathématiques - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
-      "etab": "",
-      "ville": "Marrakesh",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "02/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4426273-professeur-de-mathematiques-fh-lycee-victor-hugo-marrakech-maroc-marrakesh"
     },
     {
       "id": 4425665,
@@ -1079,17 +1068,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "22/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4402561-professeur-du-second-degre-mathematiques-fh-lagos-nigeria-106104-lagos"
-    },
-    {
-      "id": 4402329,
-      "titre": "Surveillant | Playground Supervisor - F/H - LONDRES - ROYAUME-UNI",
-      "etab": "",
-      "ville": "England",
-      "pays": "Royaume-Uni",
-      "contrat": "Contrat temporaire",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "22/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4402329-surveillant-playground-supervisor-fh-londres-royaume-uni-greater-london"
     },
     {
       "id": 4400941,
@@ -2885,50 +2863,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4326167-professeur-des-ecoles-primaire-cp-titulaire-fh-medellin-colombie-055427-envigado"
     },
     {
-      "id": 4326113,
-      "titre": "Professeur d’Anglais - F/H - Native speaker or native alike - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "12/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4326113-professeur-d-anglais-fh-native-speaker-or-native-alike-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4326105,
-      "titre": "Professeur de Lettres Modernes - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "12/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4326105-professeur-de-lettres-modernes-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4326101,
-      "titre": "Professeur Second Degré d'histoire géographie - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "12/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4326101-professeur-second-degre-dhistoire-geographie-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4326097,
-      "titre": "Professeur du Second Degré - EPS - F/H - Ecole Al Jabr - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "12/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4326097-professeur-du-second-degre-eps-fh-ecole-al-jabr-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4316973,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - TIRANA - ALBANIE",
       "etab": "",
@@ -2936,7 +2870,7 @@
       "pays": "Albanie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de mathématiques F/H",
-      "date": "30/05/2026",
+      "date": "10/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4316973-professeur-du-second-degre-mathematiques-fh-tirana-albanie-lunder-1"
     },
     {
@@ -3081,17 +3015,6 @@
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "28/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4280385-professeur-du-second-degre-eps-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
-      "id": 4273261,
-      "titre": "Professeur SES secondaire - F/H - CHICAGO - ETATS-UNIS",
-      "etab": "",
-      "ville": "Chicago",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "19/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4273261-professeur-ses-secondaire-fh-chicago-etats-unis-60640-chicago"
     },
     {
       "id": 4272765,
@@ -3640,7 +3563,7 @@
       "pays": "Bénin",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
-      "date": "08/06/2026",
+      "date": "11/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4151917-professeur-de-lettres-modernes-fh-cotonou-benin-9087-cotonou"
     },
     {
