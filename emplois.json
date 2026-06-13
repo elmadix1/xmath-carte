@@ -1,7 +1,18 @@
 {
-  "updated": "2026-06-13 08:23",
-  "total": 388,
+  "updated": "2026-06-13 18:09",
+  "total": 377,
   "offers": [
+    {
+      "id": 4448243,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Erbil",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "13/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4448243-professeur-des-ecoles-fh-erbil"
+    },
     {
       "id": 4447987,
       "titre": "Professeur des écoles (double niveau GS/CP) - F/H - TIRANA - ALBANIE",
@@ -2621,72 +2632,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4332017-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
-      "id": 4331267,
-      "titre": "Professeur du Second Degré - PHYSIQUE/CHIMIE - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331267-professeur-du-second-degre-physiquechimie-fh-tunis-tunisie-1053-tunis"
-    },
-    {
-      "id": 4331257,
-      "titre": "Professeur des écoles - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331257-professeur-des-ecoles-fh-tunis-tunisie-1053-tunis"
-    },
-    {
-      "id": 4331235,
-      "titre": "TECHNICIEN DE LABORATOIRE - F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Aide de laboratoire F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331235-technicien-de-laboratoire-fh-rabat-maroc-rabat"
-    },
-    {
-      "id": 4330067,
-      "titre": "Professeur du Second Degré - Economie et Gestion - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4330067-professeur-du-second-degre-economie-et-gestion-fh-casablanca-maroc-20250-casablanca"
-    },
-    {
-      "id": 4329915,
-      "titre": "Assistant du directeur en charge de la vie scolaire - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4329915-assistant-du-directeur-en-charge-de-la-vie-scolaire-fh-casablanca-maroc-20250-casablanca"
-    },
-    {
-      "id": 4329641,
-      "titre": "Professeur TECHNOLOGIE MATHEMATIQUES - F/H - KENYA - NAIROBI - LFIDD",
-      "etab": "",
-      "ville": "Nairobi",
-      "pays": "Kenya",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de technologie F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4329641-professeur-technologie-mathematiques-fh-kenya-nairobi-lfidd-nairobi"
-    },
-    {
       "id": 4328159,
       "titre": "Professeur du Second Degré - EPS - F/H - DOUALA - CAMEROUN",
       "etab": "",
@@ -3182,17 +3127,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4221995-professeur-danglais-college-et-lycee-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4220181,
-      "titre": "PROFESSEUR DE SVT - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4220181-professeur-de-svt-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4217801,
       "titre": "Professeur 2nd degré SNT - F/H - PORTO - PORTUGAL",
       "etab": "",
@@ -3259,17 +3193,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4205315-professeur-dallemand-fh-carthage-tunisie-carthage"
     },
     {
-      "id": 4203629,
-      "titre": "Professeur de Mathématiques - F/H – LONDRES - ROYAUME-UNI",
-      "etab": "",
-      "ville": "England",
-      "pays": "Royaume-Uni",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4203629-professeur-de-mathematiques-fh-londres-royaume-uni-greater-london"
-    },
-    {
       "id": 4201951,
       "titre": "Professeur d'anglais 1er degré - F/H - SALY - SÉNÉGAL",
       "etab": "",
@@ -3334,17 +3257,6 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "26/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4190533-professeur-du-second-degre-ses-fh-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
-      "id": 4190241,
-      "titre": "Professeur des écoles - F/H - Ecole Arthur RIMBAUD - DAR ES SALAAM - TANZANIE",
-      "etab": "",
-      "ville": "Dar es Salaam",
-      "pays": "Tanzanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "17/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4190241-professeur-des-ecoles-fh-ecole-arthur-rimbaud-dar-es-salaam-tanzanie-dar-es-salaam"
     },
     {
       "id": 4182367,
@@ -3919,28 +3831,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4068021-professeur-du-second-degre-svt-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4068011,
-      "titre": "Professeur du Second Degré - Physique Chimie - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4068011-professeur-du-second-degre-physique-chimie-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4068001,
-      "titre": "Professeur du Second Degré - Philosophie - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de philosophie F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4068001-professeur-du-second-degre-philosophie-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4067979,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -3950,17 +3840,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "12/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4067979-professeur-du-second-degre-mathematiques-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4067969,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "14/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4067969-professeur-du-second-degre-lettres-modernes-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4066961,
