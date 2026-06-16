@@ -1,7 +1,62 @@
 {
-  "updated": "2026-06-16 10:08",
-  "total": 350,
+  "updated": "2026-06-16 20:15",
+  "total": 351,
   "offers": [
+    {
+      "id": 4453231,
+      "titre": "Professeur du Second Degré F/H- Éducation Physique et Sportive-NICOSIE - CHYPRE",
+      "etab": "",
+      "ville": "Aglantzia",
+      "pays": "Chypre",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "16/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4453231-professeur-du-second-degre-fh-education-physique-et-sportive-nicosie-chypre-aglantzia"
+    },
+    {
+      "id": 4452593,
+      "titre": "Professeur Documentaliste F/H",
+      "etab": "",
+      "ville": "Envigado",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "16/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4452593-professeur-documentaliste-fh-055427-envigado"
+    },
+    {
+      "id": 4452559,
+      "titre": "Poste d'enseignant en cycle2 (F/H) - PODGORICA - MONTENEGRO",
+      "etab": "",
+      "ville": "Подгорица",
+      "pays": "Monténégro",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4452559-poste-denseignant-en-cycle2-fh-podgorica-montenegro-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%80%D0%B8%D1%86%D0%B0"
+    },
+    {
+      "id": 4451927,
+      "titre": "Professeur de mathématiques - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "16/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4451927-professeur-de-mathematiques-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4451909,
+      "titre": "PROFESSEUR D'HISTOIRE-GEO - F/H - LYCEE LEON L'AFRICAIN DE RABAT- RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "16/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4451909-professeur-dhistoire-geo-fh-lycee-leon-lafricain-de-rabat-rabat-maroc-rabat"
+    },
     {
       "id": 4451567,
       "titre": "Professeur du Second Degré - TECHNOLOGIE - LFA (ALEXANDRIE-EGYPTE)",
@@ -771,17 +826,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "03/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4427551-professeur-du-second-degre-mathssciences-fh-sharjah-emirats-arabes-unis-sharjah"
-    },
-    {
-      "id": 4427317,
-      "titre": "Professeur du Second Degré Histoire-Géographie - F/H - LOS ANGELES – ETATS UNIS",
-      "etab": "",
-      "ville": "Los Angeles",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "02/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4427317-professeur-du-second-degre-histoire-geographie-fh-los-angeles-etats-unis-90034-los-angeles"
     },
     {
       "id": 4425665,
@@ -1719,17 +1763,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4374595-professeur-des-ecoles-fh-ecole-simone-de-beauvoir-sfax-tunisie-3000-sfax"
     },
     {
-      "id": 4374577,
-      "titre": "Professeur de physique-chimie- F/H - Lycée Léon l'Africain - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "08/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4374577-professeur-de-physique-chimie-fh-lycee-leon-lafricain-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4374553,
       "titre": "Enseignant de littérature anglaise niveau lycée - F/H - BEYROUTH - LIBAN",
       "etab": "",
@@ -2104,17 +2137,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4357015-professeur-dhistoire-et-geographie-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4357007,
-      "titre": "Professeur de SVT - F/H - Lycée Léon l'Africain - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "28/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4357007-professeur-de-svt-fh-lycee-leon-lafricain-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4356283,
       "titre": "Professeur de Lettres / Histoire-Géographie - F/H - SEVILLE - ESPAGNE",
       "etab": "",
@@ -2467,6 +2489,28 @@
       "url": "https://talents.aefe.fr/fr/annonce/4332017-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
+      "id": 4328947,
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - SANTIAGO - CHILI",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "Chili",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "16/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4328947-professeur-du-second-degre-mathematiques-fh-santiago-chili-7630599-santiago"
+    },
+    {
+      "id": 4328637,
+      "titre": "Professeur du Second Degré - Physique Chimie - F/H - SANTIAGO - CHILI",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "Chili",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "16/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4328637-professeur-du-second-degre-physique-chimie-fh-santiago-chili-7630599-santiago"
+    },
+    {
       "id": 4328159,
       "titre": "Professeur du Second Degré - EPS - F/H - DOUALA - CAMEROUN",
       "etab": "",
@@ -2608,6 +2652,17 @@
       "discipline": "Professeur du second degré F/H",
       "date": "16/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4294383-conseiller-d-orientation-fh-rabat-maroc-rabat"
+    },
+    {
+      "id": 4292813,
+      "titre": "Assistant de direction - F/H - NADOR - MAROC",
+      "etab": "",
+      "ville": "Nador",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Sécrétaire / assistant F/H",
+      "date": "16/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4292813-assistant-de-direction-fh-nador-maroc-nador"
     },
     {
       "id": 4292361,
@@ -3149,28 +3204,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4151931-professeur-de-snt-fh-cotonou-benin-9087-cotonou"
     },
     {
-      "id": 4151923,
-      "titre": "Professeur d'histoire géographie - F/H - COTONOU - BENIN",
-      "etab": "",
-      "ville": "Cotonou",
-      "pays": "Bénin",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "17/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4151923-professeur-dhistoire-geographie-fh-cotonou-benin-9087-cotonou"
-    },
-    {
-      "id": 4151921,
-      "titre": "Professeur de mathématiques - F/H - COTONOU - BENIN",
-      "etab": "",
-      "ville": "Cotonou",
-      "pays": "Bénin",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "17/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4151921-professeur-de-mathematiques-fh-cotonou-benin-9087-cotonou"
-    },
-    {
       "id": 4151917,
       "titre": "Professeur de lettres modernes - F/H - COTONOU - BENIN",
       "etab": "",
@@ -3545,17 +3578,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4076587-professeur-deducation-physique-et-sportive-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4076527,
-      "titre": "Professeur d'Arabe (Collège-Lycée) - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’arabe F/H",
-      "date": "17/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4076527-professeur-darabe-college-lycee-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4076429,
       "titre": "Professeur de mathématiques - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -3620,17 +3642,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "21/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4064715-professeur-des-ecoles-fh-bucarest-roumanie-015016-bucuresti"
-    },
-    {
-      "id": 4061877,
-      "titre": "Assistant d'Éducation - F/H - LIMASSOL - CHYPRE",
-      "etab": "",
-      "ville": "Aglantzia",
-      "pays": "Chypre",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "08/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4061877-assistant-deducation-fh-limassol-chypre-aglantzia"
     },
     {
       "id": 4041779,
@@ -3721,17 +3732,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/3951593-infirmier-puericulteur-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 3951581,
-      "titre": "Professeur des écoles - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "17/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3951581-professeur-des-ecoles-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 3945267,
       "titre": "Administrateur système et réseaux - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -3807,6 +3807,17 @@
       "discipline": "Professeur de lettres classiques F/H",
       "date": "22/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3529155-professeur-du-second-degre-lettres-classiques-fh-dubai-emirats-arabes-uni-dubai"
+    },
+    {
+      "id": 3526265,
+      "titre": "Directeur (trice) faisant fct de Chef (e) d'établissement-OUZBEKISTAN/Tachkent",
+      "etab": "",
+      "ville": "Tachkent",
+      "pays": "Ouzbékistan",
+      "contrat": "Contrat temporaire",
+      "discipline": "Directeur du primaire F/H",
+      "date": "16/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3526265-directeur-trice-faisant-fct-de-chef-e-detablissement-ouzbekistantachkent-tachkent"
     },
     {
       "id": 3487641,
