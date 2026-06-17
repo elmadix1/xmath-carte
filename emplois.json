@@ -1,7 +1,29 @@
 {
-  "updated": "2026-06-16 20:15",
-  "total": 351,
+  "updated": "2026-06-17 09:32",
+  "total": 352,
   "offers": [
+    {
+      "id": 4453673,
+      "titre": "CPE - F/H - KUALA LUMPUR - MALAISIE",
+      "etab": "",
+      "ville": "Kuala Lumpur",
+      "pays": "Malaisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "17/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4453673-cpe-fh-kuala-lumpur-malaisie-kuala-lumpur"
+    },
+    {
+      "id": 4453477,
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - DAKAR - SENEGAL",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "Sénégal",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "17/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4453477-professeur-du-second-degre-mathematiques-fh-dakar-senegal-dakar"
+    },
     {
       "id": 4453231,
       "titre": "Professeur du Second Degré F/H- Éducation Physique et Sportive-NICOSIE - CHYPRE",
@@ -2443,17 +2465,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "20/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4342269-professeur-du-second-degre-lettres-modernes-fh-yaounde-cameroun-yaounde"
-    },
-    {
-      "id": 4341709,
-      "titre": "Professeur de Français en maternelle - F/H - Sept 2026 - PHNOM PENH - CAMBODGE",
-      "etab": "",
-      "ville": "Phnom Penh",
-      "pays": "Cambodge",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "20/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4341709-professeur-de-francais-en-maternelle-fh-sept-2026-phnom-penh-cambodge-phnom-penh"
     },
     {
       "id": 4339839,
