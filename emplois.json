@@ -1,7 +1,51 @@
 {
-  "updated": "2026-06-17 09:32",
-  "total": 352,
+  "updated": "2026-06-17 19:26",
+  "total": 354,
   "offers": [
+    {
+      "id": 4455459,
+      "titre": "Professeur du Second Degré - Lettres Modernes avec certification CAV (F/H)",
+      "etab": "",
+      "ville": "Ottawa",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "17/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4455459-professeur-du-second-degre-lettres-modernes-avec-certification-cav-fh-k1g-4a7-ottawa"
+    },
+    {
+      "id": 4454625,
+      "titre": "Professeur Documentaliste F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "17/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4454625-professeur-documentaliste-fh-lfa-alexandrie-egypte-alexandria"
+    },
+    {
+      "id": 4454287,
+      "titre": "Le Lycée français international de Bissau recrute son Chef d'établissement",
+      "etab": "",
+      "ville": "Bissau",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Proviseur F/H",
+      "date": "17/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4454287-le-lycee-francais-international-de-bissau-recrute-son-chef-detablissement-bissau"
+    },
+    {
+      "id": 4454133,
+      "titre": "PROFESSEUR de HG ou SES - F/H - VARNA - BULGARIE",
+      "etab": "",
+      "ville": "Варна",
+      "pays": "Bulgarie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "17/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4454133-professeur-de-hg-ou-ses-fh-varna-bulgarie-%D0%B2%D0%B0%D1%80%D0%BD%D0%B0"
+    },
     {
       "id": 4453673,
       "titre": "CPE - F/H - KUALA LUMPUR - MALAISIE",
@@ -48,14 +92,14 @@
     },
     {
       "id": 4452559,
-      "titre": "Poste d'enseignant en cycle2 (F/H) - PODGORICA - MONTENEGRO",
+      "titre": "Poste d'enseignant en cycle 2 F/H - PODGORICA - MONTENEGRO",
       "etab": "",
       "ville": "Подгорица",
       "pays": "Monténégro",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "16/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4452559-poste-denseignant-en-cycle2-fh-podgorica-montenegro-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%80%D0%B8%D1%86%D0%B0"
+      "url": "https://talents.aefe.fr/fr/annonce/4452559-poste-denseignant-en-cycle-2-fh-podgorica-montenegro-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%80%D0%B8%D1%86%D0%B0"
     },
     {
       "id": 4451927,
@@ -81,25 +125,25 @@
     },
     {
       "id": 4451567,
-      "titre": "Professeur du Second Degré - TECHNOLOGIE - LFA (ALEXANDRIE-EGYPTE)",
+      "titre": "Professeur du Second Degré F/H - TECHNOLOGIE - ALEXANDRIE - EGYPTE",
       "etab": "",
       "ville": "Alexandria",
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "16/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4451567-professeur-du-second-degre-technologie-lfa-alexandrie-egypte-alexandria"
+      "url": "https://talents.aefe.fr/fr/annonce/4451567-professeur-du-second-degre-fh-technologie-alexandrie-egypte-alexandria"
     },
     {
       "id": 4451559,
-      "titre": "Professeur du Second Degré - ESPAGNOL - LFA (ALEXANDRIE-EGYPTE)",
+      "titre": "Professeur du Second Degré F/H - ESPAGNOL - ALEXANDRIE - EGYPTE",
       "etab": "",
       "ville": "Alexandria",
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’espagnol F/H",
       "date": "16/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4451559-professeur-du-second-degre-espagnol-lfa-alexandrie-egypte-alexandria"
+      "url": "https://talents.aefe.fr/fr/annonce/4451559-professeur-du-second-degre-fh-espagnol-alexandrie-egypte-alexandria"
     },
     {
       "id": 4451021,
@@ -762,17 +806,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4430391-professeur-du-second-degre-dhistoire-geographie-fh-koweit-salmiya"
     },
     {
-      "id": 4430311,
-      "titre": "Professeur Documentaliste F/H - ALEXANDRIE - EGYPTE",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "04/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4430311-professeur-documentaliste-fh-alexandrie-egypte-alexandria"
-    },
-    {
       "id": 4429831,
       "titre": "Assistant d'Éducation F/H - TBILISSI - GEORGIE",
       "etab": "",
@@ -1035,17 +1068,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "27/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4415245-professeur-du-second-degre-mathematiques-fh-houmt-souk-tunisie-4180-houmt-souk"
-    },
-    {
-      "id": 4415229,
-      "titre": "Professeur des écoles - F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "27/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4415229-professeur-des-ecoles-fh-abidjan-cote-divoire-abidjan"
     },
     {
       "id": 4413301,
@@ -2610,17 +2632,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4298221-conseiller-principal-deducation-fh-munich-allemagne-81373-munchen"
     },
     {
-      "id": 4297963,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - LOME - TOGO",
-      "etab": "",
-      "ville": "Lomé",
-      "pays": "Togo",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "04/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4297963-professeur-du-second-degre-lettres-modernes-fh-lome-togo-lome"
-    },
-    {
       "id": 4297955,
       "titre": "Assistant d'Éducation - F/H - DÜSSELDORF - ALLEMAGNE",
       "etab": "",
@@ -3182,6 +3193,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4182367-professeur-des-ecoles-fh-cali-yumbo-colombie-760042-cali"
     },
     {
+      "id": 4180107,
+      "titre": "Professeur des écoles - F/H - CUENCA - EQUATEUR",
+      "etab": "",
+      "ville": "Cuenca",
+      "pays": "Équateur",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "17/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4180107-professeur-des-ecoles-fh-cuenca-equateur-cuenca"
+    },
+    {
       "id": 4166067,
       "titre": "Enseignant d'élémentaire en allemand - F/H - Mi-temps - BRUXELLES - BELGIQUE",
       "etab": "",
@@ -3244,7 +3266,7 @@
       "pays": "Bénin",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "15/06/2026",
+      "date": "17/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4142975-professeur-des-ecoles-fh-rentree-20262027-cotonou-benin-9087-cotonou"
     },
     {
