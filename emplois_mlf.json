@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-18 09:16",
-  "total": 262,
+  "updated": "2026-06-18 19:27",
+  "total": 260,
   "source": "MLF Monde",
   "offers": [
     {
@@ -1026,20 +1026,6 @@
       "url": "https://recrutement.mlfmonde.org/3558_offre-emploi-enseignante-dhistoire-geographie-emc.html"
     },
     {
-      "id": 3603,
-      "titre": "Proviseur (e) - Chef (fe) d'établissement",
-      "etab": "",
-      "ville": "Le Caire",
-      "pays": "Égypte",
-      "contrat": "",
-      "discipline": "",
-      "date": "07/11/2025",
-      "date_limite": "18/01/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3603_offre-emploi-proviseur-e-chef-fe-detablissement.html"
-    },
-    {
       "id": 3644,
       "titre": "Professeur(e) de Mathématiques / Middle School Mathematics Teacher",
       "etab": "",
@@ -1122,20 +1108,6 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3559_offre-emploi-conseiller-consillere-pedagogique-1er-degre.html"
-    },
-    {
-      "id": 3560,
-      "titre": "CPE faisant fonction de proviseur adjoint - Lycée international Balzac du Caire",
-      "etab": "",
-      "ville": "Le Caire",
-      "pays": "Égypte",
-      "contrat": "",
-      "discipline": "",
-      "date": "19/10/2025",
-      "date_limite": "31/01/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3560_offre-emploi-cpe-faisant-fonction-de-proviseur-adjoint-lycee-international-balzac-du-caire.html"
     },
     {
       "id": 3600,
