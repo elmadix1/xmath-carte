@@ -1,7 +1,40 @@
 {
-  "updated": "2026-06-19 09:31",
-  "total": 361,
+  "updated": "2026-06-19 18:55",
+  "total": 358,
   "offers": [
+    {
+      "id": 4459147,
+      "titre": "Professeur du Second Degré - PHYSIQUE/CHIMIE - F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "19/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4459147-professeur-du-second-degre-physiquechimie-fh-tunis-tunisie-1053-tunis"
+    },
+    {
+      "id": 4458985,
+      "titre": "Professeur/e d'anglais au Second Degré - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "19/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4458985-professeure-danglais-au-second-degre-fh-munich-allemagne-81373-munchen"
+    },
+    {
+      "id": 4458849,
+      "titre": "Assistant d'Éducation - F/H - Lycée Louis Massignon - ABU DHABI - EAU",
+      "etab": "",
+      "ville": "Abu Dhabi",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "19/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4458849-assistant-deducation-fh-lycee-louis-massignon-abu-dhabi-eau-abu-dhabi"
+    },
     {
       "id": 4458419,
       "titre": "Professeur du Second Degré en Lettres Modernes - F/H - KOWEIT - KOWEIT",
@@ -839,17 +872,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4434691-professeur-du-second-degre-eps-fh-montreal-canada-h3w-1w3-montreal"
     },
     {
-      "id": 4434569,
-      "titre": "Professeur du Second Degré en HISTOIRE-GEOGRAPHIE - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4434569-professeur-du-second-degre-en-histoire-geographie-fh-brazzaville-congo-brazzaville"
-    },
-    {
       "id": 4434521,
       "titre": "Professeur du Second Degré - Lettres Modernes - F/H - SALY - SENEGAL",
       "etab": "",
@@ -982,17 +1004,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4429311-professeur-du-second-degre-physique-chimie-fh-houmt-souk-tunisie-4180-houmt-souk"
     },
     {
-      "id": 4428479,
-      "titre": "Professeur des écoles - F/H - CONAKRY - GUINEE",
-      "etab": "",
-      "ville": "Conakry",
-      "pays": "Guinée",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "03/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4428479-professeur-des-ecoles-fh-conakry-guinee-conakry"
-    },
-    {
       "id": 4427555,
       "titre": "Professeur du Second Degré - Lettres - F/H - SHARJAH - EMIRATS ARABES UNIS",
       "etab": "",
@@ -1013,17 +1024,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "03/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4427551-professeur-du-second-degre-mathssciences-fh-sharjah-emirats-arabes-unis-sharjah"
-    },
-    {
-      "id": 4425665,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - CONAKRY - GUINEE",
-      "etab": "",
-      "ville": "Conakry",
-      "pays": "Guinée",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "02/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4425665-professeur-du-second-degre-lettres-modernes-fh-conakry-guinee-conakry"
     },
     {
       "id": 4424217,
@@ -2478,17 +2478,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4351407-educateur-en-creche-fh-ecole-internationale-de-carthage-tunis-tunisie-le-kram"
     },
     {
-      "id": 4350149,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - SERBIE - BELGRADE",
-      "etab": "",
-      "ville": "Београд",
-      "pays": "Serbie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4350149-professeur-du-second-degre-lettres-modernes-fh-serbie-belgrade-%D0%B1%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4"
-    },
-    {
       "id": 4349505,
       "titre": "Professeur F/H du Second Degré - Histoire-Géo / SES - TIRANA - ALBANIE",
       "etab": "",
@@ -2588,17 +2577,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4342483-professeur-du-second-degre-svt-fh-tiabaya-perou-tiabaya"
     },
     {
-      "id": 4342269,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - YAOUNDE - CAMEROUN",
-      "etab": "",
-      "ville": "Yaoundé",
-      "pays": "Cameroun",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "20/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4342269-professeur-du-second-degre-lettres-modernes-fh-yaounde-cameroun-yaounde"
-    },
-    {
       "id": 4333615,
       "titre": "Secrétaire de direction - F/H - SANTIAGO - CHILI",
       "etab": "",
@@ -2641,17 +2619,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "16/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4328637-professeur-du-second-degre-physique-chimie-fh-santiago-chili-7630599-santiago"
-    },
-    {
-      "id": 4328159,
-      "titre": "Professeur du Second Degré - EPS - F/H - DOUALA - CAMEROUN",
-      "etab": "",
-      "ville": "Douala",
-      "pays": "Cameroun",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "20/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4328159-professeur-du-second-degre-eps-fh-douala-cameroun-douala"
     },
     {
       "id": 4326171,
@@ -3017,17 +2984,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4243351-professeur-du-second-degre-anglais-fh-dakar-senegal-dakar"
     },
     {
-      "id": 4241269,
-      "titre": "Professeur des écoles - F/H - DUBAI - ÉMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "20/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4241269-professeur-des-ecoles-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
       "id": 4238417,
       "titre": "Professeur du Second Degré - SVT - F/H - MEDELLIN - COLOMBIE",
       "etab": "",
@@ -3347,15 +3303,15 @@
       "url": "https://talents.aefe.fr/fr/annonce/4161473-professeur-du-second-degre-fh-ses-washington-d-c-bethesda-etats-unis-20814-bethesda"
     },
     {
-      "id": 4151931,
-      "titre": "Professeur de SNT - F/H - COTONOU - BENIN",
+      "id": 4151923,
+      "titre": "Professeur d'histoire géographie - F/H - COTONOU - BENIN",
       "etab": "",
       "ville": "Cotonou",
       "pays": "Bénin",
       "contrat": "Contrat permanent",
-      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
-      "date": "20/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4151931-professeur-de-snt-fh-cotonou-benin-9087-cotonou"
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "19/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4151923-professeur-dhistoire-geographie-fh-cotonou-benin-9087-cotonou"
     },
     {
       "id": 4151917,
@@ -3961,6 +3917,17 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "28/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3486771-professeur-du-second-degre-mathematiques-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
+    },
+    {
+      "id": 3485571,
+      "titre": "Conseiller Principal d'Éducation (F/H) - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "19/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3485571-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 3363779,
