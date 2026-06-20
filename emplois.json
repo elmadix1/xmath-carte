@@ -1,7 +1,29 @@
 {
-  "updated": "2026-06-20 08:23",
-  "total": 355,
+  "updated": "2026-06-20 18:11",
+  "total": 342,
   "offers": [
+    {
+      "id": 4460505,
+      "titre": "Professeur du Second Degré - Mathématiques - F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "20/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4460505-professeur-du-second-degre-mathematiques-fh-tunis-tunisie-1053-tunis"
+    },
+    {
+      "id": 4460503,
+      "titre": "Professeur Sciences de l'Ingénieur - F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de technologie F/H",
+      "date": "20/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4460503-professeur-sciences-de-lingenieur-fh-tunis-tunisie-1053-tunis"
+    },
     {
       "id": 4460375,
       "titre": "Professeur(e) des écoles-F/H - Lycée Français International d'Accra-ACCRA-GHANA",
@@ -1180,17 +1202,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4416691-professeur-des-ecoles-fh-sulaymaniyah-irak-kurdistan-sulaymaniyah"
     },
     {
-      "id": 4415431,
-      "titre": "Professeur des écoles - F/H - TACHKENT - OUZBEKISTAN",
-      "etab": "",
-      "ville": "Tachkent",
-      "pays": "Ouzbékistan",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "28/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4415431-professeur-des-ecoles-fh-tachkent-ouzbekistan-tachkent"
-    },
-    {
       "id": 4415417,
       "titre": "Professeur d’EPS - H/F - Lycée français Anatole France - EREVAN - ARMENIE",
       "etab": "",
@@ -1629,28 +1640,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "15/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4386689-professeur-des-ecoles-fh-nouakchott-mauritanie-mauritania"
-    },
-    {
-      "id": 4384279,
-      "titre": "Professeur du Second Degré Education Physique et Sportive - F/H- TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4384279-professeur-du-second-degre-education-physique-et-sportive-fh-tunis-tunisie-2037-tunis"
-    },
-    {
-      "id": 4384269,
-      "titre": "Professeur du Second Degré Sciences Economiques et Sociales - F/H -TUNIS-TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4384269-professeur-du-second-degre-sciences-economiques-et-sociales-fh-tunis-tunisie-2037-tunis"
     },
     {
       "id": 4384257,
@@ -2291,28 +2280,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4357105-professeur-du-second-degre-lettres-classiques-fh-dusseldorf-allemagne-40237-dusseldorf"
     },
     {
-      "id": 4357053,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "28/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4357053-professeur-du-second-degre-mathematiques-fh-tunis-tunisie-1053-tunis"
-    },
-    {
-      "id": 4357047,
-      "titre": "Professeur Sciences de l'Ingénieur - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de technologie F/H",
-      "date": "28/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4357047-professeur-sciences-de-lingenieur-fh-tunis-tunisie-1053-tunis"
-    },
-    {
       "id": 4357015,
       "titre": "Professeur d'histoire et géographie - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -2564,28 +2531,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "21/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4345113-prof-du-second-degre-svt-fh-santiago-chili-7630599-santiago"
-    },
-    {
-      "id": 4344901,
-      "titre": "Directrice de crèche/maternelle - Ecole Al Massalik - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Directeur du primaire F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4344901-directrice-de-crechematernelle-ecole-al-massalik-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4343621,
-      "titre": "Professeur d'anglais au primaire - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4343621-professeur-danglais-au-primaire-fh-manille-philippines-paranaque"
     },
     {
       "id": 4342483,
@@ -3039,17 +2984,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4238157-professeur-d-anglais-primaire-et-secondaire-fh-abidjan-cote-divoire-abidjan"
     },
     {
-      "id": 4233163,
-      "titre": "Professeur d'Arabe (maternelle - élémentaire) - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’arabe F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4233163-professeur-darabe-maternelle-elementaire-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4230797,
       "titre": "Professeur du Second Degré - SES - F/H - LUSAKA - ZAMBIE",
       "etab": "",
@@ -3059,28 +2993,6 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "24/04/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4230797-professeur-du-second-degre-ses-fh-lusaka-zambie-lusaka"
-    },
-    {
-      "id": 4227079,
-      "titre": "CPE faisant fonction d'adjoint - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4227079-cpe-faisant-fonction-dadjoint-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4227055,
-      "titre": "Proviseur Adjoint - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Proviseur adjoint F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4227055-proviseur-adjoint-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4223903,
@@ -3611,17 +3523,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4093297-professeur-des-ecoles-fh-washington-d-c-besthesda-etats-unis-20814-bethesda"
     },
     {
-      "id": 4083445,
-      "titre": "Professeur d'éducation musicale - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation musicale F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4083445-professeur-deducation-musicale-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4076721,
       "titre": "Professeur des écoles - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -3631,39 +3532,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "07/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4076721-professeur-des-ecoles-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4076705,
-      "titre": "Conseiller Principal d'Éducation - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4076705-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4076679,
-      "titre": "Professeur d'espagnol - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’espagnol F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4076679-professeur-despagnol-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4076587,
-      "titre": "Professeur d'éducation physique et sportive - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4076587-professeur-deducation-physique-et-sportive-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4076429,
@@ -3774,17 +3642,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "18/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4012103-professeur-des-ecoles-fh-mumbai-inde-400013-mumbai"
-    },
-    {
-      "id": 3951593,
-      "titre": "Infirmier Puériculteur - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Infirmier scolaire F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3951593-infirmier-puericulteur-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 3945267,
