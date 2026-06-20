@@ -1,7 +1,40 @@
 {
-  "updated": "2026-06-19 18:55",
-  "total": 358,
+  "updated": "2026-06-20 08:23",
+  "total": 355,
   "offers": [
+    {
+      "id": 4460375,
+      "titre": "Professeur(e) des écoles-F/H - Lycée Français International d'Accra-ACCRA-GHANA",
+      "etab": "",
+      "ville": "Accra",
+      "pays": "Ghana",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "20/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4460375-professeure-des-ecoles-fh-lycee-francais-international-daccra-accra-ghana-accra"
+    },
+    {
+      "id": 4460359,
+      "titre": "ASEM - F/H - NICOSIE - CHYPRE - 01.09.2026",
+      "etab": "",
+      "ville": "Nicosia",
+      "pays": "Chypre",
+      "contrat": "Contrat permanent",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "20/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4460359-asem-fh-nicosie-chypre-01-09-2026-nicosia"
+    },
+    {
+      "id": 4460357,
+      "titre": "Principal de collège – Directeur de campus",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Proviseur adjoint F/H",
+      "date": "20/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4460357-principal-de-college-directeur-de-campus-dubai"
+    },
     {
       "id": 4459147,
       "titre": "Professeur du Second Degré - PHYSIQUE/CHIMIE - F/H - TUNIS - TUNISIE",
@@ -2555,17 +2588,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4343621-professeur-danglais-au-primaire-fh-manille-philippines-paranaque"
     },
     {
-      "id": 4342865,
-      "titre": "Professeur d'éducation musicale (10h collège et 8h pri) - F/H - MALAGA - ESPAGNE",
-      "etab": "",
-      "ville": "Málaga",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation musicale F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4342865-professeur-deducation-musicale-10h-college-et-8h-pri-fh-malaga-espagne-29018-malaga"
-    },
-    {
       "id": 4342483,
       "titre": "Professeur du Second Degré - SVT - F/H - TIABAYA - PEROU",
       "etab": "",
@@ -3369,17 +3391,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4135919-professeur-de-lettres-modernes-fh-rentree-2026-2027-rabat-maroc-rabat"
     },
     {
-      "id": 4135887,
-      "titre": "Professeur d’histoire-géographie - F/H - BUCAREST - ROUMANIE",
-      "etab": "",
-      "ville": "București",
-      "pays": "Roumanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4135887-professeur-d-histoire-geographie-fh-bucarest-roumanie-015016-bucuresti"
-    },
-    {
       "id": 4134861,
       "titre": "Professeur documentaliste - F/H - TUNIS - TUNISIE",
       "etab": "",
@@ -3710,17 +3721,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4066805-professeur-de-sciences-de-la-vie-et-de-la-terre-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4064715,
-      "titre": "Professeur des écoles - F/H – BUCAREST - ROUMANIE",
-      "etab": "",
-      "ville": "București",
-      "pays": "Roumanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4064715-professeur-des-ecoles-fh-bucarest-roumanie-015016-bucuresti"
-    },
-    {
       "id": 4041779,
       "titre": "Surveillant des études (temps partiel) - F/H - MUNICH - ALLEMAGNE",
       "etab": "",
@@ -3776,17 +3776,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4012103-professeur-des-ecoles-fh-mumbai-inde-400013-mumbai"
     },
     {
-      "id": 4007705,
-      "titre": "Professeur Mathématiques - F/H - BUCAREST - ROUMANIE",
-      "etab": "",
-      "ville": "București",
-      "pays": "Roumanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4007705-professeur-mathematiques-fh-bucarest-roumanie-015016-bucuresti"
-    },
-    {
       "id": 3951593,
       "titre": "Infirmier Puériculteur - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -3807,17 +3796,6 @@
       "discipline": "Chargé de maintenance et d’entretien F/H",
       "date": "22/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3945267-administrateur-systeme-et-reseaux-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 3791793,
-      "titre": "Assistant d'Éducation - F/H - NICOSIE - CHYPRE",
-      "etab": "",
-      "ville": "Aglantzia",
-      "pays": "Chypre",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "18/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3791793-assistant-deducation-fh-nicosie-chypre-aglantzia"
     },
     {
       "id": 3702775,
@@ -3928,17 +3906,6 @@
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "19/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3485571-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 3363779,
-      "titre": "AMERICAN LITERATURE LANGUAGE TEACHER - F/H - BUCAREST - ROUMANIE",
-      "etab": "",
-      "ville": "București",
-      "pays": "Roumanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’anglais américain F/H",
-      "date": "21/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3363779-american-literature-language-teacher-fh-bucarest-roumanie-015016-bucuresti"
     }
   ]
 }
