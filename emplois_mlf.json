@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-22 10:39",
-  "total": 260,
+  "updated": "2026-06-22 20:11",
+  "total": 261,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3600,6 +3600,20 @@
       "date_prise": "19/08/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3701_offre-emploi-professeure-de-lettres-modernes-au-college-et-lycee.html"
+    },
+    {
+      "id": 3735,
+      "titre": "Ingénieur(e) Pédagogique",
+      "etab": "",
+      "ville": "Paris",
+      "pays": "France",
+      "contrat": "",
+      "discipline": "",
+      "date": "22/06/2026",
+      "date_limite": "02/07/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3735_offre-emploi-ingenieure-pedagogique.html"
     },
     {
       "id": 3476,
