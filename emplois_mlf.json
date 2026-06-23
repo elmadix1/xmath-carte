@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-23 08:30",
-  "total": 261,
+  "updated": "2026-06-23 19:11",
+  "total": 262,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3656,6 +3656,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3690_offre-emploi-professeure-de-lettres.html"
+    },
+    {
+      "id": 3737,
+      "titre": "Prosseur(e) des écoles Ben Guerir. Poste susceptible d'être vacant rentrée sept 2026",
+      "etab": "",
+      "ville": "Marrakech",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/06/2026",
+      "date_limite": "31/08/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3737_offre-emploi-prosseure-des-ecoles-ben-guerir-poste-susceptible-detre-vacant-rentree-sept-2026.html"
     }
   ]
 }
