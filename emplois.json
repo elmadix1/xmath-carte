@@ -1,7 +1,29 @@
 {
-  "updated": "2026-06-22 20:11",
-  "total": 338,
+  "updated": "2026-06-23 08:30",
+  "total": 339,
   "offers": [
+    {
+      "id": 4463015,
+      "titre": "Géorgie - Tbilissi - Professeur des écoles F/H",
+      "etab": "",
+      "ville": "თბილისი",
+      "pays": "Géorgie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4463015-georgie-tbilissi-professeur-des-ecoles-fh-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
+    },
+    {
+      "id": 4463005,
+      "titre": "Professeur(e) des écoles spécialisé(e)",
+      "etab": "",
+      "ville": "New Delhi",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4463005-professeure-des-ecoles-specialisee-110011-new-delhi"
+    },
     {
       "id": 4462379,
       "titre": "Directeur du primaire F/H",
@@ -463,17 +485,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "16/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4451927-professeur-de-mathematiques-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4451909,
-      "titre": "PROFESSEUR D'HISTOIRE-GEO - F/H - LYCEE LEON L'AFRICAIN DE RABAT- RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "16/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4451909-professeur-dhistoire-geo-fh-lycee-leon-lafricain-de-rabat-rabat-maroc-rabat"
     },
     {
       "id": 4451567,
@@ -1389,17 +1400,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4406665-professeur-des-ecoles-pour-le-lycee-leon-lafricain-hf-rabat-maroc-rabat"
     },
     {
-      "id": 4406659,
-      "titre": "PROFESSEUR DE PHILOSOPHIE - F/H - LYCEE LEON L'AFRICAIN - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de philosophie F/H",
-      "date": "25/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4406659-professeur-de-philosophie-fh-lycee-leon-lafricain-rabat-maroc-rabat"
-    },
-    {
       "id": 4403887,
       "titre": "Professeur Documentaliste & Lettres Modernes - F/H - TIRANA - ALBANIE",
       "etab": "",
@@ -2269,17 +2269,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4357105-professeur-du-second-degre-lettres-classiques-fh-dusseldorf-allemagne-40237-dusseldorf"
     },
     {
-      "id": 4357015,
-      "titre": "Professeur d'histoire et géographie - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "28/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4357015-professeur-dhistoire-et-geographie-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4356283,
       "titre": "Professeur de Lettres / Histoire-Géographie - F/H - SEVILLE - ESPAGNE",
       "etab": "",
@@ -2511,6 +2500,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4332017-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
+      "id": 4331837,
+      "titre": "Professeurs des écoles - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331837-professeurs-des-ecoles-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
       "id": 4328947,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - SANTIAGO - CHILI",
       "etab": "",
@@ -2575,6 +2575,17 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "31/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4316557-professeur-de-ses-fh-lycee-voltaire-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4310001,
+      "titre": "Professeur des écoles - F/H - Lycée français international de Panama - PANAMA",
+      "etab": "",
+      "ville": "Panamá Oeste Province",
+      "pays": "Panama",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4310001-professeur-des-ecoles-fh-lycee-francais-international-de-panama-panama-arraijan-district"
     },
     {
       "id": 4309817,
@@ -2936,7 +2947,7 @@
       "pays": "Zambie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "24/04/2026",
+      "date": "23/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4230797-professeur-du-second-degre-ses-fh-lusaka-zambie-lusaka"
     },
     {
