@@ -1,7 +1,29 @@
 {
-  "updated": "2026-06-24 08:23",
-  "total": 327,
+  "updated": "2026-06-24 18:52",
+  "total": 326,
   "offers": [
+    {
+      "id": 4467135,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "24/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4467135-professeur-du-second-degre-lettres-modernes-fh-alexandria"
+    },
+    {
+      "id": 4465767,
+      "titre": "Surveillants - mi-temps H/F - Pôle AEFE RABAT - KENITRA - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "24/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4465767-surveillants-mi-temps-hf-pole-aefe-rabat-kenitra-maroc-rabat"
+    },
     {
       "id": 4465195,
       "titre": "CPE F/H – SHARJAH - EMIRATS ARABES UNIS",
@@ -971,17 +993,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4435273-professeur-des-ecoles-fh-lfkl-rentree-2026-2027-kuala-lumpur-malaisie-kuala-lumpur"
     },
     {
-      "id": 4435121,
-      "titre": "Professeur du second degré en SVT F/H - CUENCA - EQUATEUR",
-      "etab": "",
-      "ville": "Cuenca",
-      "pays": "Équateur",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "06/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4435121-professeur-du-second-degre-en-svt-fh-cuenca-equateur-cuenca"
-    },
-    {
       "id": 4435005,
       "titre": "Professeur du Second Degré - Lettres Modernes - F/H - ENVIGADO - COLOMBIE",
       "etab": "",
@@ -1433,17 +1444,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4400941-professeur-du-second-degre-mathematiques-fh-pristina-kosovo-pristina"
     },
     {
-      "id": 4400265,
-      "titre": "Professeur des écoles - F/H - ASTANA - KAZAKHSTAN",
-      "etab": "",
-      "ville": "Astana",
-      "pays": "Kazakhstan",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "08/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4400265-professeur-des-ecoles-fh-astana-kazakhstan-astana"
-    },
-    {
       "id": 4400051,
       "titre": "Professeur des écoles - F/H - CDD 1 an - VAUBAN - LUXEMBOURG",
       "etab": "",
@@ -1508,17 +1508,6 @@
       "discipline": "Professeur documentaliste F/H",
       "date": "20/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4396003-professeur-documentaliste-fh-rio-de-janeiro-bresil-rio-de-janeiro"
-    },
-    {
-      "id": 4395329,
-      "titre": "Professeur du Second Degré ALLEMAND - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "20/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4395329-professeur-du-second-degre-allemand-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4394833,
@@ -2346,17 +2335,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4352565-directeur-du-primaire-fh-tanambao-marivorahona"
     },
     {
-      "id": 4352317,
-      "titre": "Directeur du primaire - F/H - TANAMBAO MARIVORAHONA - MADAGASCAR",
-      "etab": "",
-      "ville": "Tanambao Marivorahona",
-      "pays": "Madagascar",
-      "contrat": "Contrat temporaire",
-      "discipline": "Directeur du primaire F/H",
-      "date": "25/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4352317-directeur-du-primaire-fh-tanambao-marivorahona-madagascar-tanambao-marivorahona"
-    },
-    {
       "id": 4349505,
       "titre": "Professeur F/H du Second Degré - Histoire-Géo / SES - TIRANA - ALBANIE",
       "etab": "",
@@ -2817,6 +2795,17 @@
       "discipline": "Professeur du second degré F/H",
       "date": "05/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4238157-professeur-d-anglais-primaire-et-secondaire-fh-abidjan-cote-divoire-abidjan"
+    },
+    {
+      "id": 4230967,
+      "titre": "Professeur d'ANGLAIS 1er degré - F/H - ABIDJAN - CÔTE D'IVOIRE",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais britannique F/H",
+      "date": "24/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4230967-professeur-danglais-1er-degre-fh-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
       "id": 4230797,
