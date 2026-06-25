@@ -1,7 +1,84 @@
 {
-  "updated": "2026-06-25 08:24",
-  "total": 325,
+  "updated": "2026-06-25 19:08",
+  "total": 332,
   "offers": [
+    {
+      "id": 4469225,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Envigado",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "25/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4469225-professeur-du-second-degre-lettres-modernes-fh-055427-envigado"
+    },
+    {
+      "id": 4469165,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Sant Pere de Ribes",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4469165-professeur-des-ecoles-fh-08810-sant-pere-de-ribes"
+    },
+    {
+      "id": 4468433,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Envigado",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "25/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4468433-professeur-du-second-degre-dhistoire-geographie-fh-055427-envigado"
+    },
+    {
+      "id": 4467827,
+      "titre": "Conseiller d'orientation (Personnel ressource pour l'orientation) F/H",
+      "etab": "",
+      "ville": "Cotonou",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Chargé du centre de documentation F/H",
+      "date": "25/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4467827-conseiller-dorientation-personnel-ressource-pour-lorientation-fh-cotonou"
+    },
+    {
+      "id": 4467811,
+      "titre": "Professeur du Second Degré - Lettres modernes - F/H - DAKAR - SENEGAL",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "Sénégal",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "25/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4467811-professeur-du-second-degre-lettres-modernes-fh-dakar-senegal-dakar"
+    },
+    {
+      "id": 4467755,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Amman",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "25/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4467755-professeur-du-second-degre-lettres-modernes-fh-amman"
+    },
+    {
+      "id": 4467747,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Amman",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4467747-professeur-des-ecoles-fh-amman"
+    },
     {
       "id": 4467283,
       "titre": "Professeur des écoles - approche bilingue F/H - LISBONNE - PORTUGAL",
@@ -37,7 +114,7 @@
     },
     {
       "id": 4465195,
-      "titre": "CPE F/H – SHARJAH - EMIRATS ARABES UNIS",
+      "titre": "CPE - F/H – SHARJAH - EMIRATS ARABES UNIS",
       "etab": "",
       "ville": "Sharjah",
       "pays": "Émirats Arabes Unis",
@@ -48,14 +125,14 @@
     },
     {
       "id": 4464569,
-      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H - KINSHASA - RDC",
       "etab": "",
       "ville": "Kinshasa",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "23/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4464569-professeur-du-second-degre-education-physique-et-sportive-fh-kinshasa"
+      "url": "https://talents.aefe.fr/fr/annonce/4464569-professeur-du-second-degre-education-physique-et-sportive-fh-kinshasa-rdc-kinshasa"
     },
     {
       "id": 4464363,
@@ -70,25 +147,25 @@
     },
     {
       "id": 4464087,
-      "titre": "Enseignant du 1er degré remplaçant F/H - Ecole Robert Desnos - Tunis",
+      "titre": "Enseignant du 1er degré remplaçant F/H - Ecole Robert Desnos - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
-      "pays": "",
+      "pays": "Tunisie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "23/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4464087-enseignant-du-1er-degre-remplacant-fh-ecole-robert-desnos-tunis-1082-tunis"
+      "url": "https://talents.aefe.fr/fr/annonce/4464087-enseignant-du-1er-degre-remplacant-fh-ecole-robert-desnos-tunis-tunisie-1082-tunis"
     },
     {
       "id": 4463999,
-      "titre": "Directeur pédagogique - F/H - Chine-Hong Kong- Lou Pichoun",
+      "titre": "Directeur pédagogique - F/H - HONG KONG - CHINE",
       "etab": "",
       "ville": "New Territories",
       "pays": "Chine",
       "contrat": "Contrat permanent",
       "discipline": "Directeur du primaire F/H",
       "date": "23/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4463999-directeur-pedagogique-fh-chine-hong-kong-lou-pichoun-new-territories"
+      "url": "https://talents.aefe.fr/fr/annonce/4463999-directeur-pedagogique-fh-hong-kong-chine-new-territories"
     },
     {
       "id": 4463927,
@@ -114,36 +191,36 @@
     },
     {
       "id": 4463015,
-      "titre": "Géorgie - Tbilissi - Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - TBILISSI - GEORGIE",
       "etab": "",
       "ville": "თბილისი",
       "pays": "Géorgie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "23/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4463015-georgie-tbilissi-professeur-des-ecoles-fh-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
+      "url": "https://talents.aefe.fr/fr/annonce/4463015-professeur-des-ecoles-fh-tbilissi-georgie-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
     },
     {
       "id": 4463005,
-      "titre": "Professeur(e) des écoles spécialisé(e)",
+      "titre": "Professeur des écoles spécialisé F/H - NEW DELHI - INDE",
       "etab": "",
       "ville": "New Delhi",
-      "pays": "",
+      "pays": "Inde",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "23/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4463005-professeure-des-ecoles-specialisee-110011-new-delhi"
+      "url": "https://talents.aefe.fr/fr/annonce/4463005-professeur-des-ecoles-specialise-fh-new-delhi-inde-110011-new-delhi"
     },
     {
       "id": 4462379,
-      "titre": "Directeur du primaire F/H",
+      "titre": "Directeur du primaire F/H - ABIDJAN - COTE D'IVOIRE",
       "etab": "",
       "ville": "Abidjan",
-      "pays": "",
+      "pays": "Côte d'Ivoire",
       "contrat": "Contrat temporaire",
       "discipline": "Directeur du primaire F/H",
       "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4462379-directeur-du-primaire-fh-abidjan"
+      "url": "https://talents.aefe.fr/fr/annonce/4462379-directeur-du-primaire-fh-abidjan-cote-divoire-abidjan"
     },
     {
       "id": 4462073,
@@ -1510,17 +1587,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4394833-professeur-sciences-de-la-vie-et-de-la-terre-fh-kenya-nairobi-nairobi"
     },
     {
-      "id": 4394809,
-      "titre": "Professeur du Second Degré - EPS - F/H - AMSTERDAM - PAYS-BAS",
-      "etab": "",
-      "ville": "Amsterdam",
-      "pays": "Pays-Bas",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "20/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4394809-professeur-du-second-degre-eps-fh-amsterdam-pays-bas-1075-sw-amsterdam"
-    },
-    {
       "id": 4394395,
       "titre": "Professeur des écoles (maternelle) - F/H - LONDRES - ROYAUME-UNI (2026/2027)",
       "etab": "",
@@ -2302,17 +2368,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4353311-professeur-du-second-degre-en-lettres-modernes-fh-koweit-koweit-salmiya"
     },
     {
-      "id": 4352565,
-      "titre": "Directeur du primaire F/H",
-      "etab": "",
-      "ville": "Tanambao Marivorahona",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Directeur du primaire F/H",
-      "date": "26/04/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4352565-directeur-du-primaire-fh-tanambao-marivorahona"
-    },
-    {
       "id": 4349505,
       "titre": "Professeur F/H du Second Degré - Histoire-Géo / SES - TIRANA - ALBANIE",
       "etab": "",
@@ -2468,7 +2523,7 @@
     },
     {
       "id": 4308635,
-      "titre": "Professeurs du second degré F/H -Mathématiques - LFI SOUSSE - TUNISIE",
+      "titre": "Professeurs du second degré F/H - Mathématiques - LFI SOUSSE - TUNISIE",
       "etab": "",
       "ville": "Sousse",
       "pays": "Tunisie",
@@ -2742,6 +2797,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4250385-professeur-des-ecoles-fh-tirana-albanie-lunder-1"
     },
     {
+      "id": 4241269,
+      "titre": "Professeure des écoles - F/H - DUBAI - ÉMIRATS ARABES UNIS",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4241269-professeure-des-ecoles-fh-dubai-emirats-arabes-unis-dubai"
+    },
+    {
       "id": 4238417,
       "titre": "Professeur du Second Degré - SVT - F/H - MEDELLIN - COLOMBIE",
       "etab": "",
@@ -2993,6 +3059,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "02/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4182367-professeur-des-ecoles-fh-cali-yumbo-colombie-760042-cali"
+    },
+    {
+      "id": 4180763,
+      "titre": "Professeur du Second Degré d'histoire géographie DNL- F/H - AMSTERDAM - PAYS-BAS",
+      "etab": "",
+      "ville": "Amsterdam",
+      "pays": "Pays-Bas",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "25/06/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4180763-professeur-du-second-degre-dhistoire-geographie-dnl-fh-amsterdam-pays-bas-1075-sw-amsterdam"
     },
     {
       "id": 4180107,
