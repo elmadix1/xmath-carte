@@ -1,7 +1,29 @@
 {
-  "updated": "2026-06-30 18:57",
-  "total": 311,
+  "updated": "2026-07-01 08:51",
+  "total": 307,
   "offers": [
+    {
+      "id": 4476817,
+      "titre": "Psychologue scolaire - LFIGE - MOZAMBIQUE",
+      "etab": "",
+      "ville": "Maputo",
+      "pays": "Mozambique",
+      "contrat": "Contrat permanent",
+      "discipline": "Psychologue scolaire F/H",
+      "date": "01/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4476817-psychologue-scolaire-lfige-mozambique-maputo"
+    },
+    {
+      "id": 4476775,
+      "titre": "Directeur du primaire F/H",
+      "etab": "",
+      "ville": "Mauritania",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Directeur du primaire F/H",
+      "date": "01/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4476775-directeur-du-primaire-fh-mauritania"
+    },
     {
       "id": 4476535,
       "titre": "Professeur du Second Degré - Lettres Modernes F/H - LFA (ALEXANDRIE-EGYPTE)",
@@ -45,17 +67,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "30/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4476385-professeur-des-ecoles-titulaire-remplacant-polyvalent-%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9-%D8%A7%D9%84%D8%A7%D8%AB%D8%B1%D9%8A-%D8%A8%D9%82%D8%B1%D8%B7%D8%A7%D8%AC"
-    },
-    {
-      "id": 4475955,
-      "titre": "Rejoignez le Lycée Français International Gustave Eiffel de Maputo-Mozambique",
-      "etab": "",
-      "ville": "Maputo",
-      "pays": "Mozambique",
-      "contrat": "Contrat permanent",
-      "discipline": "Psychologue scolaire F/H",
-      "date": "30/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4475955-rejoignez-le-lycee-francais-international-gustave-eiffel-de-maputo-mozambique-maputo"
     },
     {
       "id": 4475381,
@@ -234,17 +245,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4469333-professeur-deco-gestion-fh-port-vila-vanuatu-port-vila"
     },
     {
-      "id": 4469331,
-      "titre": "Professeur HISTOIRE-GEOGRAPHIE - F/H - PORT-VILA - VANUATU",
-      "etab": "",
-      "ville": "Port-Vila",
-      "pays": "Vanuatu",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "26/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4469331-professeur-histoire-geographie-fh-port-vila-vanuatu-port-vila"
-    },
-    {
       "id": 4469329,
       "titre": "Professeur des écoles F/H - PORT-VILA - VANUATU",
       "etab": "",
@@ -285,7 +285,7 @@
       "pays": "Colombie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'histoire géographie F/H",
-      "date": "",
+      "date": "25/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4468433-professeur-du-second-degre-dhistoire-geographie-fh-envigado-colombie-055427-envigado"
     },
     {
@@ -817,17 +817,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4450135-professeur-des-ecoles-fh-anglais-montreal-canada-h3w-1w3-montreal"
     },
     {
-      "id": 4449381,
-      "titre": "Professeur d'allemand F/H - HAMBOURG - ALLEMAGNE",
-      "etab": "",
-      "ville": "Hamburg",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "15/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4449381-professeur-dallemand-fh-hambourg-allemagne-22529-hamburg"
-    },
-    {
       "id": 4449199,
       "titre": "Professeur des écoles F/H - SAINT PETERSBOURG - RUSSIE",
       "etab": "",
@@ -947,17 +936,6 @@
       "discipline": "Chargé de communication F/H",
       "date": "11/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4444349-responsable-of-brand-content-community-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4443931,
-      "titre": "SENCO - F/H - LONDRES - ROYAUME UNI",
-      "etab": "",
-      "ville": "England",
-      "pays": "Royaume-Uni",
-      "contrat": "Contrat permanent",
-      "discipline": "Assisant de service social F/H",
-      "date": "11/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4443931-senco-fh-londres-royaume-uni-greater-london"
     },
     {
       "id": 4443243,
@@ -1101,17 +1079,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "08/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4436827-professeur-danglais-fh-ecole-internationale-de-sfax-sfax-tunisie-sfax"
-    },
-    {
-      "id": 4436673,
-      "titre": "Student Counsellor - F/H - LONDRES - ROYAUME UNI",
-      "etab": "",
-      "ville": "England",
-      "pays": "Royaume-Uni",
-      "contrat": "Contrat permanent",
-      "discipline": "Psychologue scolaire F/H",
-      "date": "10/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4436673-student-counsellor-fh-londres-royaume-uni-greater-london"
     },
     {
       "id": 4435593,
@@ -1277,17 +1244,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "04/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4429709-professeur-danglais-fh-college-varna-bulgarie-%D0%B2%D0%B0%D1%80%D0%BD%D0%B0"
-    },
-    {
-      "id": 4429593,
-      "titre": "Professeur des écoles F/H – Cycle 2 (CP-CE1-CE2) – BANGKOK - THAILANDE",
-      "etab": "",
-      "ville": "Bangkok",
-      "pays": "Thaïlande",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "04/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4429593-professeur-des-ecoles-fh-cycle-2-cp-ce1-ce2-bangkok-thailande-10120-bangkok"
     },
     {
       "id": 4429311,
@@ -1935,7 +1891,7 @@
       "pays": "Qatar",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "",
+      "date": "10/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4375277-professeur-des-ecoles-fh-lycee-francais-bonaparte-doha-qatar-doha"
     },
     {
@@ -1957,7 +1913,7 @@
       "pays": "Portugal",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "",
+      "date": "09/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4375051-enseignant-bilingue-anglais-titulaire-du-cafipemf-fh-lisbonne-portugal-1350-164-lisboa"
     },
     {
@@ -2599,17 +2555,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4260797-intervenant-periscolaire-activites-en-anglais-fh-budapest-hongrie-1029-budapest"
     },
     {
-      "id": 4260645,
-      "titre": "Professeur d'anglais - F/H - COTONOU - BENIN",
-      "etab": "",
-      "ville": "Cotonou",
-      "pays": "Bénin",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "20/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4260645-professeur-danglais-fh-cotonou-benin-9087-cotonou"
-    },
-    {
       "id": 4258505,
       "titre": "Professeur de Sciences Numériques et Technologie - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -2804,7 +2749,7 @@
       "pays": "Tunisie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’allemand F/H",
-      "date": "",
+      "date": "01/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4205315-professeur-dallemand-fh-carthage-tunisie-carthage"
     },
     {
@@ -2881,7 +2826,7 @@
       "pays": "Pays-Bas",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'histoire géographie F/H",
-      "date": "",
+      "date": "25/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4180763-professeur-du-second-degre-dhistoire-geographie-dnl-fh-amsterdam-pays-bas-1075-sw-amsterdam"
     },
     {
@@ -2980,7 +2925,7 @@
       "pays": "Tunisie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur documentaliste F/H",
-      "date": "",
+      "date": "01/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4134861-professeur-documentaliste-fh-tunis-tunisie-le-kram"
     },
     {
@@ -3301,6 +3246,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "18/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4012103-professeur-des-ecoles-fh-mumbai-inde-400013-mumbai"
+    },
+    {
+      "id": 3985767,
+      "titre": "Professeur des écoles - F/H - NAIROBI – KENYA",
+      "etab": "",
+      "ville": "Nairobi",
+      "pays": "Kenya",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "01/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3985767-professeur-des-ecoles-fh-nairobi-kenya-nairobi"
     },
     {
       "id": 3945267,

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30 18:57",
+  "updated": "2026-07-01 08:51",
   "total": 262,
   "source": "MLF Monde",
   "offers": [
@@ -2776,20 +2776,6 @@
       "url": "https://recrutement.mlfmonde.org/3670_offre-emploi-professeure-despagnol.html"
     },
     {
-      "id": 3693,
-      "titre": "Professeur des Écoles",
-      "etab": "",
-      "ville": "Kirkland",
-      "pays": "États-Unis",
-      "contrat": "",
-      "discipline": "",
-      "date": "23/02/2026",
-      "date_limite": "01/04/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3693_offre-emploi-professeur-des-ecoles.html"
-    },
-    {
       "id": 3686,
       "titre": "Directeur premier degré",
       "etab": "",
@@ -3124,6 +3110,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3705_offre-emploi-professeur-documentaliste.html"
+    },
+    {
+      "id": 3693,
+      "titre": "Professeur des Écoles",
+      "etab": "",
+      "ville": "Kirkland",
+      "pays": "États-Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/02/2026",
+      "date_limite": "01/05/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3693_offre-emploi-professeur-des-ecoles.html"
     },
     {
       "id": 3718,
