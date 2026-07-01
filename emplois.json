@@ -1,7 +1,29 @@
 {
-  "updated": "2026-07-01 08:51",
-  "total": 307,
+  "updated": "2026-07-01 19:01",
+  "total": 309,
   "offers": [
+    {
+      "id": 4478649,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Houmt Souk",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "01/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4478649-professeur-du-second-degre-lettres-modernes-fh-4180-houmt-souk"
+    },
+    {
+      "id": 4478269,
+      "titre": "Coordinateur des activités extra scolaires",
+      "etab": "",
+      "ville": "Dar es Salaam",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "01/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4478269-coordinateur-des-activites-extra-scolaires-dar-es-salaam"
+    },
     {
       "id": 4476817,
       "titre": "Psychologue scolaire - LFIGE - MOZAMBIQUE",
@@ -166,17 +188,6 @@
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "29/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4473093-professeur-du-second-degre-eps-fh-conakry-guinee-conakry"
-    },
-    {
-      "id": 4472629,
-      "titre": "ENSEIGNANT DE SVT - F/H - VILNIUS - LITUANIE",
-      "etab": "",
-      "ville": "Vilnius",
-      "pays": "Lituanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "29/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4472629-enseignant-de-svt-fh-vilnius-lituanie-10317-vilnius"
     },
     {
       "id": 4472097,
@@ -1576,17 +1587,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4396003-professeur-documentaliste-fh-rio-de-janeiro-bresil-rio-de-janeiro"
     },
     {
-      "id": 4394833,
-      "titre": "Professeur Sciences de la Vie et de la Terre - F/H - KENYA - NAIROBI",
-      "etab": "",
-      "ville": "Nairobi",
-      "pays": "Kenya",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "20/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4394833-professeur-sciences-de-la-vie-et-de-la-terre-fh-kenya-nairobi-nairobi"
-    },
-    {
       "id": 4394395,
       "titre": "Professeur des écoles (maternelle) - F/H - LONDRES - ROYAUME-UNI (2026/2027)",
       "etab": "",
@@ -1728,17 +1728,6 @@
       "discipline": "Professeur de philosophie F/H",
       "date": "14/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4383367-professeur-de-philosophie-fh-busaiteen-bahrein-busaiteen"
-    },
-    {
-      "id": 4382819,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - DJERBA - TUNISIE",
-      "etab": "",
-      "ville": "Houmt Souk",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "13/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4382819-professeur-du-second-degre-lettres-modernes-fh-djerba-tunisie-4180-houmt-souk"
     },
     {
       "id": 4382505,
@@ -2146,17 +2135,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "25/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4363449-professeur-de-svt-fh-abidjan-cote-divoire-bp-157-abidjan"
-    },
-    {
-      "id": 4363439,
-      "titre": "Professeur de Lettres Modernes ou Classiques - F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "02/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4363439-professeur-de-lettres-modernes-ou-classiques-fh-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
       "id": 4363191,
@@ -2918,6 +2896,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4135919-professeur-de-lettres-modernes-fh-rentree-2026-2027-rabat-maroc-rabat"
     },
     {
+      "id": 4135887,
+      "titre": "Professeur d’histoire-géographie - F/H - BUCAREST - ROUMANIE",
+      "etab": "",
+      "ville": "București",
+      "pays": "Roumanie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "01/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4135887-professeur-d-histoire-geographie-fh-bucarest-roumanie-015016-bucuresti"
+    },
+    {
       "id": 4134861,
       "titre": "Professeur documentaliste - F/H - TUNIS - TUNISIE",
       "etab": "",
@@ -3248,6 +3237,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4012103-professeur-des-ecoles-fh-mumbai-inde-400013-mumbai"
     },
     {
+      "id": 4007705,
+      "titre": "Professeur Mathématiques - F/H - BUCAREST - ROUMANIE",
+      "etab": "",
+      "ville": "București",
+      "pays": "Roumanie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "01/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4007705-professeur-mathematiques-fh-bucarest-roumanie-015016-bucuresti"
+    },
+    {
       "id": 3985767,
       "titre": "Professeur des écoles - F/H - NAIROBI – KENYA",
       "etab": "",
@@ -3290,6 +3290,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "22/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3799639-educateurerzieher-personnel-parlant-allemand-fh-munich-allemagne-81539-munchen"
+    },
+    {
+      "id": 3791793,
+      "titre": "Assistant d'Éducation - F/H - NICOSIE - CHYPRE",
+      "etab": "",
+      "ville": "Aglantzia",
+      "pays": "Chypre",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "01/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3791793-assistant-deducation-fh-nicosie-chypre-aglantzia"
     },
     {
       "id": 3741735,
@@ -3378,6 +3389,17 @@
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "19/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3485571-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 3363779,
+      "titre": "AMERICAN LITERATURE LANGUAGE TEACHER - F/H - BUCAREST - ROUMANIE",
+      "etab": "",
+      "ville": "București",
+      "pays": "Roumanie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais américain F/H",
+      "date": "01/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3363779-american-literature-language-teacher-fh-bucarest-roumanie-015016-bucuresti"
     }
   ]
 }

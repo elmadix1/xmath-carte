@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-01 08:51",
-  "total": 262,
+  "updated": "2026-07-01 19:01",
+  "total": 264,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3112,20 +3112,6 @@
       "url": "https://recrutement.mlfmonde.org/3705_offre-emploi-professeur-documentaliste.html"
     },
     {
-      "id": 3693,
-      "titre": "Professeur des Écoles",
-      "etab": "",
-      "ville": "Kirkland",
-      "pays": "États-Unis",
-      "contrat": "",
-      "discipline": "",
-      "date": "23/02/2026",
-      "date_limite": "01/05/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3693_offre-emploi-professeur-des-ecoles.html"
-    },
-    {
       "id": 3718,
       "titre": "Professeur(e) de Mathématiques – Secondaire",
       "etab": "",
@@ -3642,6 +3628,48 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3704_offre-emploi-chef-de-projet-parcours-avenir-cppa.html"
+    },
+    {
+      "id": 3740,
+      "titre": "Professeur(e) des écoles",
+      "etab": "",
+      "ville": "Muharraq",
+      "pays": "Bahreïn",
+      "contrat": "",
+      "discipline": "",
+      "date": "01/07/2026",
+      "date_limite": "15/07/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3740_offre-emploi-professeure-des-ecoles.html"
+    },
+    {
+      "id": 3693,
+      "titre": "Professeur des Écoles",
+      "etab": "",
+      "ville": "Kirkland",
+      "pays": "États-Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/02/2026",
+      "date_limite": "01/08/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3693_offre-emploi-professeur-des-ecoles.html"
+    },
+    {
+      "id": 3739,
+      "titre": "Professeur(e) de philosophie & lettres",
+      "etab": "",
+      "ville": "Muharraq",
+      "pays": "Bahreïn",
+      "contrat": "",
+      "discipline": "",
+      "date": "01/07/2026",
+      "date_limite": "02/08/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3739_offre-emploi-professeure-de-philosophie-lettres.html"
     },
     {
       "id": 3690,
