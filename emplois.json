@@ -1,7 +1,84 @@
 {
-  "updated": "2026-07-01 19:01",
-  "total": 309,
+  "updated": "2026-07-02 08:14",
+  "total": 313,
   "offers": [
+    {
+      "id": 4478749,
+      "titre": "Professeur(e) d'arabe – Premier degré",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’arabe F/H",
+      "date": "02/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4478749-professeure-darabe-premier-degre-13317-riyadh"
+    },
+    {
+      "id": 4478747,
+      "titre": "Professeur(e) d'anglais – Premier degré",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "02/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4478747-professeure-danglais-premier-degre-13317-riyadh"
+    },
+    {
+      "id": 4478745,
+      "titre": "Professeur(e) des écoles F/H",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "02/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4478745-professeure-des-ecoles-fh-13317-riyadh"
+    },
+    {
+      "id": 4478741,
+      "titre": "Chargé(e) des moyens généraux",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Gestionnaire matériel F/H",
+      "date": "02/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4478741-chargee-des-moyens-generaux-13317-riyadh"
+    },
+    {
+      "id": 4478739,
+      "titre": "Référent(e) Marmothèque - F/H",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "02/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4478739-referente-marmotheque-fh-13317-riyadh"
+    },
+    {
+      "id": 4478735,
+      "titre": "Professeur du Second Degré - Musique F/H",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation musicale F/H",
+      "date": "02/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4478735-professeur-du-second-degre-musique-fh-13317-riyadh"
+    },
+    {
+      "id": 4478711,
+      "titre": "Professeur de Lettres & Histoire-Géographie - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "01/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4478711-professeur-de-lettres-histoire-geographie-fh-casablanca-maroc-casablanca"
+    },
     {
       "id": 4478649,
       "titre": "Professeur du Second Degré - Lettres Modernes F/H",
@@ -136,14 +213,14 @@
     },
     {
       "id": 4474511,
-      "titre": "Conseiller Principal d'Éducation F/H",
+      "titre": "Conseiller Principal d'Éducation - F/H - SINGAPORE",
       "etab": "",
       "ville": "Singapore",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "30/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4474511-conseiller-principal-deducation-fh-singapore"
+      "url": "https://talents.aefe.fr/fr/annonce/4474511-conseiller-principal-deducation-fh-singapore-singapore"
     },
     {
       "id": 4474041,
@@ -1301,17 +1378,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4427317-professeur-du-second-degre-histoire-geographie-fh-los-angeles-etats-unis-90034-los-angeles"
     },
     {
-      "id": 4424215,
-      "titre": "Professeur du Second Degré - SES/HGGSP - F/H – LOS ANGELES – ETATS UNIS",
-      "etab": "",
-      "ville": "Los Angeles",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "02/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4424215-professeur-du-second-degre-seshggsp-fh-los-angeles-etats-unis-90034-los-angeles"
-    },
-    {
       "id": 4420985,
       "titre": "Professeur F/H d’Histoire-Géographie / HGGSP – KOH SAMUI – THAILAND",
       "etab": "",
@@ -2027,17 +2093,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4370233-professeur-du-second-degre-svt-fh-monastir-tunisie-monastir"
     },
     {
-      "id": 4369983,
-      "titre": "Conseiller Principal d’Éducation (CPE) - F/H - TANGER - MAROC",
-      "etab": "",
-      "ville": "Tangier",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "14/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4369983-conseiller-principal-d-education-cpe-fh-tanger-maroc-tangier"
-    },
-    {
       "id": 4369931,
       "titre": "Conseiller Principal d’Éducation (CPE) - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -2322,17 +2377,6 @@
       "discipline": "Assistant ressources humaines F/H",
       "date": "18/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4298341-gestionnaire-formation-fh-cdi-40h-vauban-luxembourg-luxembourg"
-    },
-    {
-      "id": 4298221,
-      "titre": "Conseiller Principal d'Éducation - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "19/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4298221-conseiller-principal-deducation-fh-munich-allemagne-81373-munchen"
     },
     {
       "id": 4297955,
