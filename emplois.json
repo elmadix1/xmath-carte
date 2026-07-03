@@ -1,7 +1,18 @@
 {
-  "updated": "2026-07-02 18:28",
-  "total": 313,
+  "updated": "2026-07-03 08:02",
+  "total": 310,
   "offers": [
+    {
+      "id": 4480911,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Düsseldorf",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "03/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4480911-professeur-du-second-degre-dhistoire-geographie-fh-40237-dusseldorf"
+    },
     {
       "id": 4480659,
       "titre": "Psychologue scolaire F/H -Lycée Francais International d'Accra-ACCRA- GHANA",
@@ -81,14 +92,14 @@
     },
     {
       "id": 4479511,
-      "titre": "Infirmier Scolaire F/H",
+      "titre": "Infirmier Scolaire - F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat permanent",
       "discipline": "Infirmier scolaire F/H",
       "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4479511-infirmier-scolaire-fh-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4479511-infirmier-scolaire-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4479315,
@@ -103,80 +114,80 @@
     },
     {
       "id": 4479121,
-      "titre": "Professeur des écoles F/H sur un poste vacant à HANOI VIETNAM",
+      "titre": "Professeur des écoles - F/H - HANOI - VIETNAM",
       "etab": "",
       "ville": "Hà Nội",
       "pays": "Vietnam",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4479121-professeur-des-ecoles-fh-sur-un-poste-vacant-a-hanoi-vietnam-bo-%C4%91e"
+      "url": "https://talents.aefe.fr/fr/annonce/4479121-professeur-des-ecoles-fh-hanoi-vietnam-bo-%C4%91e"
     },
     {
       "id": 4478749,
-      "titre": "Professeur(e) d'arabe – Premier degré",
+      "titre": "Professeur d'arabe - Premier degré - F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’arabe F/H",
       "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4478749-professeure-darabe-premier-degre-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4478749-professeur-darabe-premier-degre-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4478747,
-      "titre": "Professeur(e) d'anglais – Premier degré",
+      "titre": "Professeur d'anglais – Premier degré - F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’anglais F/H",
       "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4478747-professeure-danglais-premier-degre-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4478747-professeur-danglais-premier-degre-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4478745,
-      "titre": "Professeur(e) des écoles F/H",
+      "titre": "Professeur des écoles F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4478745-professeure-des-ecoles-fh-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4478745-professeur-des-ecoles-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4478741,
-      "titre": "Chargé(e) des moyens généraux",
+      "titre": "Chargé(e) des moyens généraux - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat permanent",
       "discipline": "Gestionnaire matériel F/H",
       "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4478741-chargee-des-moyens-generaux-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4478741-chargee-des-moyens-generaux-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4478739,
-      "titre": "Référent(e) Marmothèque - F/H",
+      "titre": "Référent(e) Marmothèque - F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat permanent",
       "discipline": "Professeur documentaliste F/H",
       "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4478739-referente-marmotheque-fh-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4478739-referente-marmotheque-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4478735,
-      "titre": "Professeur du Second Degré - Musique F/H",
+      "titre": "Professeur du Second Degré - Musique - F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'éducation musicale F/H",
       "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4478735-professeur-du-second-degre-musique-fh-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4478735-professeur-du-second-degre-musique-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4478711,
@@ -683,28 +694,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "22/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4460889-professeur-des-ecoles-fh-mercer-island-etats-unis-98040-mercer-island"
-    },
-    {
-      "id": 4460811,
-      "titre": "Professeur d'H-G, EMC, SES, DNL - F/H - KRONG SIEM REAP - CAMBODGE",
-      "etab": "",
-      "ville": "Krong Siem Reap",
-      "pays": "Cambodge",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4460811-professeur-dh-g-emc-ses-dnl-fh-krong-siem-reap-cambodge-krong-siem-reap"
-    },
-    {
-      "id": 4460751,
-      "titre": "Professeur du Second Degré - ARTS PLASTIQUES - F/H - ISTANBUL - TURQUIE",
-      "etab": "",
-      "ville": "İstanbul",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’arts plastiques F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4460751-professeur-du-second-degre-arts-plastiques-fh-istanbul-turquie-sar%C4%B1yer"
     },
     {
       "id": 4460727,
@@ -1675,17 +1664,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4396003-professeur-documentaliste-fh-rio-de-janeiro-bresil-rio-de-janeiro"
     },
     {
-      "id": 4394395,
-      "titre": "Professeur des écoles (maternelle) - F/H - LONDRES - ROYAUME-UNI (2026/2027)",
-      "etab": "",
-      "ville": "England",
-      "pays": "Royaume-Uni",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "20/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4394395-professeur-des-ecoles-maternelle-fh-londres-royaume-uni-20262027-greater-london"
-    },
-    {
       "id": 4392775,
       "titre": "Conseiller Principal d'Éducation - F/H - TUNIS - TUNISIE",
       "etab": "",
@@ -1781,7 +1759,7 @@
       "pays": "Italie",
       "contrat": "Contrat permanent",
       "discipline": "Agent du périscolaire F/H",
-      "date": "14/05/2026",
+      "date": "03/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4383673-surveillant-1er-degre-pause-meridienne-fh-lycee-stendhal-milan-italie-20148-milano"
     },
     {
@@ -1803,7 +1781,7 @@
       "pays": "Royaume-Uni",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "14/05/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4383611-professeur-des-ecoles-fh-londres-royaume-uni-greater-london"
     },
     {
@@ -1838,17 +1816,6 @@
       "discipline": "Assistant d'éducation F/H",
       "date": "13/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4381209-assistant-deducation-fh-lycee-francais-jean-renoir-munich-allemagne-81373-munchen"
-    },
-    {
-      "id": 4381029,
-      "titre": "Professeur des écoles- F/H - Ecole française de Siem Reap - SIEM REAP - CAMBODGE",
-      "etab": "",
-      "ville": "Krong Siem Reap",
-      "pays": "Cambodge",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "13/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4381029-professeur-des-ecoles-fh-ecole-francaise-de-siem-reap-siem-reap-cambodge-krong-siem-reap"
     },
     {
       "id": 4380981,
@@ -2157,17 +2124,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "04/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4365157-professeur-danglais-titulaire-fh-medellin-colombie-055427-envigado"
-    },
-    {
-      "id": 4363815,
-      "titre": "Professeur de chinois (mandarin) 1er et 2nd degré - F/H - KOH SAMUI - THAILAND",
-      "etab": "",
-      "ville": "Koh Samui",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de chinois F/H",
-      "date": "04/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4363815-professeur-de-chinois-mandarin-1er-et-2nd-degre-fh-koh-samui-thailand-84310-koh-samui"
     },
     {
       "id": 4363449,
@@ -2850,6 +2806,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "17/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4180107-professeur-des-ecoles-fh-cuenca-equateur-cuenca"
+    },
+    {
+      "id": 4174609,
+      "titre": "Professeur SVT 2026/2028 - F/H - PEREIRA - COLOMBIE",
+      "etab": "",
+      "ville": "Risaralda",
+      "pays": "Colombie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "02/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4174609-professeur-svt-20262028-fh-pereira-colombie-pereira"
     },
     {
       "id": 4166067,

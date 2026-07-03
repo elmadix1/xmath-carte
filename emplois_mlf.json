@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-02 18:28",
-  "total": 264,
+  "updated": "2026-07-03 08:02",
+  "total": 265,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3600,6 +3600,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3735_offre-emploi-ingenieure-pedagogique.html"
+    },
+    {
+      "id": 3738,
+      "titre": "Professeur anglais primaire secondaire site de Ben Guerir",
+      "etab": "",
+      "ville": "Marrakech",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/06/2026",
+      "date_limite": "14/07/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3738_offre-emploi-professeur-anglais-primaire-secondaire-site-de-ben-guerir.html"
     },
     {
       "id": 3476,
