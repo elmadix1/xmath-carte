@@ -1,7 +1,18 @@
 {
-  "updated": "2026-07-04 07:44",
-  "total": 295,
+  "updated": "2026-07-04 18:03",
+  "total": 293,
   "offers": [
+    {
+      "id": 4483691,
+      "titre": "Professeur des écoles F/H - Tbilissi - Géorgie",
+      "etab": "",
+      "ville": "თბილისი",
+      "pays": "Géorgie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "04/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4483691-professeur-des-ecoles-fh-tbilissi-georgie-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
+    },
     {
       "id": 4483383,
       "titre": "Professeur d'Education Physique et Sportive - Brazzaville - République du Congo",
@@ -476,17 +487,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4470767-conseiller-principal-deducation-hf-vauban-luxembourg-luxembourg"
     },
     {
-      "id": 4469591,
-      "titre": "Professeur des écoles - F/H - VILNIUS - LITUANIE",
-      "etab": "",
-      "ville": "Vilnius",
-      "pays": "Lituanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "26/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4469591-professeur-des-ecoles-fh-vilnius-lituanie-10317-vilnius"
-    },
-    {
       "id": 4469333,
       "titre": "Professeur d'ECO-GESTION - F/H - PORT-VILA - VANUATU",
       "etab": "",
@@ -650,17 +650,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "23/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4463927-professeur-du-second-degre-physique-chimie-fh-abidjan"
-    },
-    {
-      "id": 4463015,
-      "titre": "Professeur des écoles F/H - TBILISSI - GEORGIE",
-      "etab": "",
-      "ville": "თბილისი",
-      "pays": "Géorgie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "23/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4463015-professeur-des-ecoles-fh-tbilissi-georgie-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
     },
     {
       "id": 4463005,
@@ -2034,7 +2023,7 @@
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de philosophie F/H",
-      "date": "06/05/2026",
+      "date": "04/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4369331-professeur-de-philosophielettres-modernes-fh-le-caire-egypte-cairo"
     },
     {
@@ -2498,17 +2487,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "13/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4238371-professeur-des-ecoles-anglophone-homeroom-teacher-fh-rabat-maroc-rabat"
-    },
-    {
-      "id": 4238157,
-      "titre": "Professeur d’Anglais (Primaire et Secondaire) - F/H - ABIDJAN - CÔTE d'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "05/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4238157-professeur-d-anglais-primaire-et-secondaire-fh-abidjan-cote-divoire-abidjan"
     },
     {
       "id": 4230967,
