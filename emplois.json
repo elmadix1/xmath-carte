@@ -1,18 +1,7 @@
 {
-  "updated": "2026-07-05 18:02",
-  "total": 286,
+  "updated": "2026-07-06 09:01",
+  "total": 278,
   "offers": [
-    {
-      "id": 4483691,
-      "titre": "Professeur des écoles F/H - Tbilissi - Géorgie",
-      "etab": "",
-      "ville": "თბილისი",
-      "pays": "Géorgie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "04/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4483691-professeur-des-ecoles-fh-tbilissi-georgie-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
-    },
     {
       "id": 4483383,
       "titre": "Professeur d'Education Physique et Sportive - Brazzaville - République du Congo",
@@ -147,14 +136,14 @@
     },
     {
       "id": 4479653,
-      "titre": "Professeur-e de français à Tbilissi (Géorgie)",
+      "titre": "Professeur-e de lettres modernes à Tbilissi (Géorgie)",
       "etab": "",
       "ville": "თბილისი",
       "pays": "Géorgie",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4479653-professeur-e-de-francais-a-tbilissi-georgie-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
+      "url": "https://talents.aefe.fr/fr/annonce/4479653-professeur-e-de-lettres-modernes-a-tbilissi-georgie-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98"
     },
     {
       "id": 4479511,
@@ -177,17 +166,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "02/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4479315-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
-    },
-    {
-      "id": 4479121,
-      "titre": "Professeur des écoles - F/H - HANOI - VIETNAM",
-      "etab": "",
-      "ville": "Hà Nội",
-      "pays": "Vietnam",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4479121-professeur-des-ecoles-fh-hanoi-vietnam-bo-%C4%91e"
     },
     {
       "id": 4478749,
@@ -1455,17 +1433,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4420359-professeur-du-second-degre-espagnol-fh-lagos-nigeria-106104-lagos"
     },
     {
-      "id": 4419575,
-      "titre": "Professeur d'Anglais- F/H - LFI M'HAMED DRISS - SOUSSE - TUNISIE",
-      "etab": "",
-      "ville": "Sousse",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "29/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4419575-professeur-danglais-fh-lfi-mhamed-driss-sousse-tunisie-4023-sousse"
-    },
-    {
       "id": 4417605,
       "titre": "Poste vacant de professeur de SVT - F/H - TEGUCIGALPA - HONDURAS",
       "etab": "",
@@ -1961,28 +1928,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4373237-professeur-du-second-degre-snt-fh-monastir-tunisie-monastir"
     },
     {
-      "id": 4371659,
-      "titre": "PROFESSEUR DES ECOLES ANGLOPHONE - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4371659-professeur-des-ecoles-anglophone-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4371609,
-      "titre": "Professeur du Second Degré d'histoire géographie - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "07/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4371609-professeur-du-second-degre-dhistoire-geographie-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4369331,
       "titre": "Professeur de Philosophie/Lettres modernes - F/H - LE CAIRE - EGYPTE",
       "etab": "",
@@ -2168,17 +2113,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "22/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4310001-professeur-des-ecoles-fh-lycee-francais-international-de-panama-panama-arraijan-district"
-    },
-    {
-      "id": 4308635,
-      "titre": "Professeurs du second degré F/H - Mathématiques - LFI SOUSSE - TUNISIE",
-      "etab": "",
-      "ville": "Sousse",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "23/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4308635-professeurs-du-second-degre-fh-mathematiques-lfi-sousse-tunisie-4023-sousse"
     },
     {
       "id": 4298341,
@@ -2599,17 +2533,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4196183-assistant-deducation-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4190533,
-      "titre": "Professeur du Second Degré SES - F/H - DAR ES SALAAM - TANZANIE",
-      "etab": "",
-      "ville": "Dar es Salaam",
-      "pays": "Tanzanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4190533-professeur-du-second-degre-ses-fh-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
       "id": 4190241,
       "titre": "Professeur des écoles - F/H - Ecole Arthur RIMBAUD - DAR ES SALAAM - TANZANIE",
       "etab": "",
@@ -2751,17 +2674,6 @@
       "discipline": "Professeur documentaliste F/H",
       "date": "01/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4134861-professeur-documentaliste-fh-tunis-tunisie-le-kram"
-    },
-    {
-      "id": 4129467,
-      "titre": "Professeur d'histoire-géo pour la SIB - F/H - CDI - VAUBAN - LUXEMBOURG",
-      "etab": "",
-      "ville": "Luxembourg",
-      "pays": "Luxembourg",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "15/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4129467-professeur-dhistoire-geo-pour-la-sib-fh-cdi-vauban-luxembourg-luxembourg"
     },
     {
       "id": 4121901,
