@@ -1,7 +1,18 @@
 {
-  "updated": "2026-07-06 18:56",
-  "total": 273,
+  "updated": "2026-07-07 08:22",
+  "total": 272,
   "offers": [
+    {
+      "id": 4486875,
+      "titre": "Professeur du Second Degré - Philosophie F/H - Tunis - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "",
+      "discipline": "",
+      "date": "07/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4486875-professeur-du-second-degre-philosophie-fh-tunis-tunisie-1002-tunis"
+    },
     {
       "id": 4486281,
       "titre": "Professeur du Second Degré en ESPAGNOL - F/H - BRAZZAVILLE - CONGO",
@@ -540,17 +551,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "27/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4471715-professeur-du-second-degre-svt-fh-madrid-espagne-28002-madrid"
-    },
-    {
-      "id": 4470793,
-      "titre": "Professeur en langue arabe F/H - EGD - ECOLE PHILIPPE SEGUIN - SOUSSE - TUNISIE",
-      "etab": "",
-      "ville": "Sousse",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’arabe F/H",
-      "date": "26/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4470793-professeur-en-langue-arabe-fh-egd-ecole-philippe-seguin-sousse-tunisie-sousse"
     },
     {
       "id": 4470767,
@@ -1510,6 +1510,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4416691-professeur-des-ecoles-fh-sulaymaniyah-irak-kurdistan-sulaymaniyah"
     },
     {
+      "id": 4415431,
+      "titre": "Professeur des écoles - F/H - TACHKENT - OUZBEKISTAN",
+      "etab": "",
+      "ville": "Tachkent",
+      "pays": "Ouzbékistan",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "07/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4415431-professeur-des-ecoles-fh-tachkent-ouzbekistan-tachkent"
+    },
+    {
       "id": 4415417,
       "titre": "Professeur d’EPS - H/F - Lycée français Anatole France - EREVAN - ARMENIE",
       "etab": "",
@@ -2280,39 +2291,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4263343-professeur-de-svt-college-lycee-fh-koh-samui-thailande-84310-koh-samui"
     },
     {
-      "id": 4262749,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - HOUSTON - TEXAS - ETATS UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "11/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4262749-professeur-du-second-degre-mathematiques-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
-      "id": 4262745,
-      "titre": "Professeur du Second Degré - SVT - F/H - HOUSTON - TEXAS - ETATS UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "11/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4262745-professeur-du-second-degre-svt-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
-      "id": 4262741,
-      "titre": "Professeur de physique et de chimie - F/H - HOUSTON - TEXAS - ETATS UNIS",
-      "etab": "",
-      "ville": "Houston",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "11/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4262741-professeur-de-physique-et-de-chimie-fh-houston-texas-etats-unis-77084-houston"
-    },
-    {
       "id": 4261171,
       "titre": "Professeur du Second Degré Lettres Modernes F/H - TUNIS - TUNISIE",
       "etab": "",
@@ -2333,6 +2311,17 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "29/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4260797-intervenant-periscolaire-activites-en-anglais-fh-budapest-hongrie-1029-budapest"
+    },
+    {
+      "id": 4259761,
+      "titre": "Professeur du Second Degré - SVT & SPC - F/H - TIRANA - ALBANIE",
+      "etab": "",
+      "ville": "Lundër 1",
+      "pays": "Albanie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "07/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4259761-professeur-du-second-degre-svt-spc-fh-tirana-albanie-lunder-1"
     },
     {
       "id": 4250385,
