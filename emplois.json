@@ -1,7 +1,51 @@
 {
-  "updated": "2026-07-08 18:18",
-  "total": 266,
+  "updated": "2026-07-09 08:28",
+  "total": 270,
   "offers": [
+    {
+      "id": 4491153,
+      "titre": "Psychologue scolaire -F/H- LFI Hong Kong",
+      "etab": "",
+      "ville": "Hong Kong Island",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Psychologue scolaire F/H",
+      "date": "09/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4491153-psychologue-scolaire-fh-lfi-hong-kong-hong-kong-island"
+    },
+    {
+      "id": 4491089,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Bissau",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "08/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4491089-professeur-du-second-degre-lettres-modernes-fh-bissau"
+    },
+    {
+      "id": 4491087,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "etab": "",
+      "ville": "Bissau",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "08/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4491087-professeur-du-second-degre-physique-chimie-fh-bissau"
+    },
+    {
+      "id": 4491085,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Bissau",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "08/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4491085-professeur-du-second-degre-mathematiques-fh-bissau"
+    },
     {
       "id": 4490435,
       "titre": "Accompagnant d'élèves en situation de Handicap (AESH) - RIO DE JANEIRO - BRESIL",
@@ -1587,17 +1631,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4415431-professeur-des-ecoles-fh-tachkent-ouzbekistan-tachkent"
     },
     {
-      "id": 4415417,
-      "titre": "Professeur d’EPS - H/F - Lycée français Anatole France - EREVAN - ARMENIE",
-      "etab": "",
-      "ville": "Երևան",
-      "pays": "Arménie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "28/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4415417-professeur-d-eps-hf-lycee-francais-anatole-france-erevan-armenie-0051-%D5%A5%D6%80%D5%A5%D6%82%D5%A1%D5%B6"
-    },
-    {
       "id": 4415245,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - HOUMT SOUK - TUNISIE",
       "etab": "",
@@ -2247,6 +2280,28 @@
       "url": "https://talents.aefe.fr/fr/annonce/4271039-professeur-des-ecoles-fh-bogota-colombie-la-calera"
     },
     {
+      "id": 4263389,
+      "titre": "Professeur de Lettres et possible complément Philosophie -F/H - EREVAN - ARMENIE",
+      "etab": "",
+      "ville": "Երևան",
+      "pays": "Arménie",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "09/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4263389-professeur-de-lettres-et-possible-complement-philosophie-fh-erevan-armenie-0051-%D5%A5%D6%80%D5%A5%D6%82%D5%A1%D5%B6"
+    },
+    {
+      "id": 4263379,
+      "titre": "Professeur d’HG, HGGSP, possible complément en Philosophie- F/H- EREVAN- ARMENIE",
+      "etab": "",
+      "ville": "Երևան",
+      "pays": "Arménie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "09/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4263379-professeur-d-hg-hggsp-possible-complement-en-philosophie-fh-erevan-armenie-0051-%D5%A5%D6%80%D5%A5%D6%82%D5%A1%D5%B6"
+    },
+    {
       "id": 4263343,
       "titre": "PROFESSEUR DE SVT – COLLÈGE / LYCÉE - F/H - KOH SAMUI - THAILANDE",
       "etab": "",
@@ -2564,17 +2619,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "03/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4148915-professeur-des-ecoles-fh-portland-oregon-etats-unis-97239-portland"
-    },
-    {
-      "id": 4142975,
-      "titre": "Professeur des écoles - F/H - Rentrée 2026/2027 - COTONOU - BENIN",
-      "etab": "",
-      "ville": "Cotonou",
-      "pays": "Bénin",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "29/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4142975-professeur-des-ecoles-fh-rentree-20262027-cotonou-benin-9087-cotonou"
     },
     {
       "id": 4140099,
