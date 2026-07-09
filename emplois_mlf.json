@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09 08:28",
+  "updated": "2026-07-09 18:51",
   "total": 265,
   "source": "MLF Monde",
   "offers": [
@@ -1682,20 +1682,6 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3495_offre-emploi-professeur-des-ecoles.html"
-    },
-    {
-      "id": 3496,
-      "titre": "Conseiller principal d'éducation",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "29/09/2025",
-      "date_limite": "28/02/2026",
-      "date_prise": "01/09/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3496_offre-emploi-conseiller-principal-deducation.html"
     },
     {
       "id": 3497,
@@ -3656,6 +3642,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3740_offre-emploi-professeure-des-ecoles.html"
+    },
+    {
+      "id": 3496,
+      "titre": "Conseiller principal d'éducation - Senior",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "29/09/2025",
+      "date_limite": "31/07/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3496_offre-emploi-conseiller-principal-deducation-senior.html"
     },
     {
       "id": 3693,
