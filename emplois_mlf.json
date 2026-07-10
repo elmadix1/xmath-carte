@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10 08:21",
-  "total": 265,
+  "updated": "2026-07-10 18:23",
+  "total": 266,
   "source": "MLF Monde",
   "offers": [
     {
@@ -3642,6 +3642,20 @@
       "date_prise": "01/09/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3740_offre-emploi-professeure-des-ecoles.html"
+    },
+    {
+      "id": 3741,
+      "titre": "Professeur des écoles",
+      "etab": "",
+      "ville": "Port Harcourt",
+      "pays": "Nigéria",
+      "contrat": "",
+      "discipline": "",
+      "date": "10/07/2026",
+      "date_limite": "26/07/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3741_offre-emploi-professeur-des-ecoles.html"
     },
     {
       "id": 3496,
