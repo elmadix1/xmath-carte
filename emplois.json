@@ -1,7 +1,62 @@
 {
-  "updated": "2026-07-11 07:12",
-  "total": 273,
+  "updated": "2026-07-11 17:54",
+  "total": 278,
   "offers": [
+    {
+      "id": 4496007,
+      "titre": "Faisant-fonction de proviseur-adjoint",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Proviseur adjoint F/H",
+      "date": "11/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4496007-faisant-fonction-de-proviseur-adjoint-rabat"
+    },
+    {
+      "id": 4496005,
+      "titre": "Professeur d'anglais (F/H) - Louis Massignon - Abu Dhabi - Emirats arabes unis",
+      "etab": "",
+      "ville": "Abu Dhabi",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "11/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4496005-professeur-danglais-fh-louis-massignon-abu-dhabi-emirats-arabes-unis-abu-dhabi"
+    },
+    {
+      "id": 4495999,
+      "titre": "PROFESSEUR DE MATHS POUR LE LYCEE LEON L'AFRICAIN DE RABAT F/H - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "11/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4495999-professeur-de-maths-pour-le-lycee-leon-lafricain-de-rabat-fh-rabat-maroc-rabat"
+    },
+    {
+      "id": 4495933,
+      "titre": "Professeur du Second Degré",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "11/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4495933-professeur-du-second-degre-dakar"
+    },
+    {
+      "id": 4495931,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "11/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4495931-professeur-du-second-degre-dhistoire-geographie-fh-dakar"
+    },
     {
       "id": 4495497,
       "titre": "Surveillant(e) d'école - F/H - Bissau - Guinée Bissau",
@@ -1697,17 +1752,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4407225-professeur-du-second-degre-lettres-modernes-fh-abuja-nigeria-abuja"
     },
     {
-      "id": 4406677,
-      "titre": "PROFESSEUR D'ARABE - F/H - LYCEE LEON L'AFRICAIN DE RABAT - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’arabe F/H",
-      "date": "25/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4406677-professeur-darabe-fh-lycee-leon-lafricain-de-rabat-rabat-maroc-rabat"
-    },
-    {
       "id": 4406665,
       "titre": "PROFESSEUR DES ECOLES POUR LE LYCEE LEON L'AFRICAIN - H/F - RABAT - MAROC",
       "etab": "",
@@ -1915,17 +1959,6 @@
       "discipline": "Assistant d'éducation F/H",
       "date": "13/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4381209-assistant-deducation-fh-lycee-francais-jean-renoir-munich-allemagne-81373-munchen"
-    },
-    {
-      "id": 4378491,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - MONASTIR - TUNISIE",
-      "etab": "",
-      "ville": "Monastir",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "12/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4378491-professeur-du-second-degre-mathematiques-fh-monastir-tunisie-monastir"
     },
     {
       "id": 4371659,
@@ -2544,17 +2577,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4166067-enseignant-delementaire-en-allemand-fh-mi-temps-bruxelles-belgique-1180-uccle"
     },
     {
-      "id": 4161473,
-      "titre": "Professeur du Second Degré - F/H - SES - WASHINGTON D.C. (BETHESDA) - ETATS UNIS",
-      "etab": "",
-      "ville": "Bethesda",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "12/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4161473-professeur-du-second-degre-fh-ses-washington-d-c-bethesda-etats-unis-20814-bethesda"
-    },
-    {
       "id": 4151923,
       "titre": "Professeur d'histoire géographie - F/H - COTONOU - BENIN",
       "etab": "",
@@ -2586,6 +2608,28 @@
       "discipline": "Professeur des écoles F/H",
       "date": "03/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4148915-professeur-des-ecoles-fh-portland-oregon-etats-unis-97239-portland"
+    },
+    {
+      "id": 4140113,
+      "titre": "Professeur Mathématiques - F/H - lycée international Balzac - LE CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "11/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4140113-professeur-mathematiques-fh-lycee-international-balzac-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4140109,
+      "titre": "Professeur - SVT - F/H - LYCEE BALZAC - LE CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "11/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-svt-fh-lycee-balzac-le-caire-egypte-cairo"
     },
     {
       "id": 4140099,
@@ -2641,6 +2685,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "15/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4121901-professeur-des-ecoles-fh-riga-lettonie-1005-riga"
+    },
+    {
+      "id": 4102357,
+      "titre": "Professeur des écoles - F/H - Le CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "11/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4100799,
