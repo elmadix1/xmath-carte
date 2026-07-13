@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13 08:16",
+  "updated": "2026-07-13 18:32",
   "total": 266,
   "source": "MLF Monde",
   "offers": [
@@ -2650,20 +2650,6 @@
       "url": "https://recrutement.mlfmonde.org/3702_offre-emploi-responsable-du-site-de-ben-guerir.html"
     },
     {
-      "id": 3689,
-      "titre": "Conseiller principal d'éducation",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "27/01/2026",
-      "date_limite": "30/03/2026",
-      "date_prise": "26/08/2026",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3689_offre-emploi-conseiller-principal-deducation.html"
-    },
-    {
       "id": 3657,
       "titre": "Poste de professeur(e) d’histoire et géographie",
       "etab": "",
@@ -3667,9 +3653,23 @@
       "discipline": "",
       "date": "29/09/2025",
       "date_limite": "31/07/2026",
-      "date_prise": "01/09/2026",
+      "date_prise": "26/08/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3496_offre-emploi-conseiller-principal-deducation-senior.html"
+    },
+    {
+      "id": 3689,
+      "titre": "Conseiller principal d'éducation-Sénior",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "27/01/2026",
+      "date_limite": "31/07/2026",
+      "date_prise": "26/08/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3689_offre-emploi-conseiller-principal-deducationsenior.html"
     },
     {
       "id": 3693,
