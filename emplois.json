@@ -1,7 +1,40 @@
 {
-  "updated": "2026-07-15 07:14",
-  "total": 262,
+  "updated": "2026-07-15 18:05",
+  "total": 263,
   "offers": [
+    {
+      "id": 4499715,
+      "titre": "Communications Officer / Chargé de Communication F/H - FREDERIKSBERG - DANEMARK",
+      "etab": "",
+      "ville": "Frederiksberg",
+      "pays": "Danemark",
+      "contrat": "Contrat permanent",
+      "discipline": "Chargé de communication F/H",
+      "date": "15/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4499715-communications-officer-charge-de-communication-fh-frederiksberg-danemark-1958-frederiksberg"
+    },
+    {
+      "id": 4499173,
+      "titre": "Enseignant(e) spécialisé(e) et coordinateur(trice) - LISBONNE - PORTUGAL",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "Portugal",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4499173-enseignante-specialisee-et-coordinateurtrice-lisbonne-portugal-1350-164-lisboa"
+    },
+    {
+      "id": 4498951,
+      "titre": "Professeur remplaçant de SVT F/H Lycée franco-libanais DUBAI EAU",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "15/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4498951-professeur-remplacant-de-svt-fh-lycee-franco-libanais-dubai-eau-dubai"
+    },
     {
       "id": 4498163,
       "titre": "Conseiller principal d’éducation - F/H - CASABLANCA - MAROC",
@@ -1268,17 +1301,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4451021-professeur-du-second-degre-lettres-modernes-fh-san-jose-pinula-guatemala-san-jose-pinula"
     },
     {
-      "id": 4450837,
-      "titre": "Éducateur périscolaire / After-school Pædagog - F/H - FREDERIKSBERG - DANEMARK",
-      "etab": "",
-      "ville": "Frederiksberg",
-      "pays": "Danemark",
-      "contrat": "Contrat permanent",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "15/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4450837-educateur-periscolaire-after-school-p%C3%A6dagog-fh-frederiksberg-danemark-1958-frederiksberg"
-    },
-    {
       "id": 4450135,
       "titre": "Professeur des écoles F/H - Anglais - MONTREAL - CANADA",
       "etab": "",
@@ -1840,17 +1862,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4389575-professeur-du-second-degre-mathematiques-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
-      "id": 4388017,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "16/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4388017-professeur-du-second-degre-mathematiques-fh-manille-philippines-paranaque"
-    },
-    {
       "id": 4383673,
       "titre": "Surveillant 1er degré pause méridienne - F/H - Lycée Stendhal - MILAN - ITALIE",
       "etab": "",
@@ -1926,6 +1937,17 @@
       "discipline": "Sécrétaire / assistant F/H",
       "date": "22/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4356171-assistant-de-gestion-comptable-fh-munich-allemagne-81539-munchen"
+    },
+    {
+      "id": 4349505,
+      "titre": "Professeur F/H du Second Degré - Histoire-Géo / SES - TIRANA - ALBANIE",
+      "etab": "",
+      "ville": "Lundër 1",
+      "pays": "Albanie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "15/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4349505-professeur-fh-du-second-degre-histoire-geo-ses-tirana-albanie-lunder-1"
     },
     {
       "id": 4344901,
@@ -2025,17 +2047,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "16/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4328637-professeur-du-second-degre-physique-chimie-fh-santiago-chili-7630599-santiago"
-    },
-    {
-      "id": 4326171,
-      "titre": "Professeur des écoles - F/H - ROME - ITALIE",
-      "etab": "",
-      "ville": "Roma",
-      "pays": "Italie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "04/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4326171-professeur-des-ecoles-fh-rome-italie-00187-roma"
     },
     {
       "id": 4320497,
