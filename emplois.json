@@ -1,10 +1,21 @@
 {
-  "updated": "2026-07-16 07:23",
-  "total": 262,
+  "updated": "2026-07-16 18:05",
+  "total": 251,
   "offers": [
     {
+      "id": 4501667,
+      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4501667-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
+    },
+    {
       "id": 4499715,
-      "titre": "Communications Officer / Chargé de Communication F/H - FREDERIKSBERG - DANEMARK",
+      "titre": "Communications Officer - Chargé de Communication F/H - FREDERIKSBERG - DANEMARK",
       "etab": "",
       "ville": "Frederiksberg",
       "pays": "Danemark",
@@ -15,25 +26,25 @@
     },
     {
       "id": 4499173,
-      "titre": "Enseignant(e) spécialisé(e) et coordinateur(trice) - LISBONNE - PORTUGAL",
+      "titre": "Enseignant spécialisé et coordinateur F/H - LISBONNE - PORTUGAL",
       "etab": "",
       "ville": "Lisboa",
       "pays": "Portugal",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "15/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4499173-enseignante-specialisee-et-coordinateurtrice-lisbonne-portugal-1350-164-lisboa"
+      "url": "https://talents.aefe.fr/fr/annonce/4499173-enseignant-specialise-et-coordinateur-fh-lisbonne-portugal-1350-164-lisboa"
     },
     {
       "id": 4498951,
-      "titre": "Professeur remplaçant de SVT F/H Lycée franco-libanais DUBAI EAU",
+      "titre": "Professeur remplaçant de SVT F/H - Lycée franco-libanais - DUBAI - E.A.U.",
       "etab": "",
       "ville": "Dubai",
       "pays": "Émirats Arabes Unis",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "15/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4498951-professeur-remplacant-de-svt-fh-lycee-franco-libanais-dubai-eau-dubai"
+      "url": "https://talents.aefe.fr/fr/annonce/4498951-professeur-remplacant-de-svt-fh-lycee-franco-libanais-dubai-e-a-u-dubai"
     },
     {
       "id": 4498163,
@@ -694,17 +705,6 @@
       "discipline": "Infirmier scolaire F/H",
       "date": "02/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4479511-infirmier-scolaire-fh-riyad-arabie-saoudite-13317-riyadh"
-    },
-    {
-      "id": 4479315,
-      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4479315-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
     },
     {
       "id": 4478749,
@@ -1929,14 +1929,14 @@
     },
     {
       "id": 4349505,
-      "titre": "Professeur F/H du Second Degré - Histoire-Géo / SES - TIRANA - ALBANIE",
+      "titre": "Professeur F/H du Second Degré - Histoire-Géo et SES - TIRANA - ALBANIE",
       "etab": "",
       "ville": "Lundër 1",
       "pays": "Albanie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "15/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349505-professeur-fh-du-second-degre-histoire-geo-ses-tirana-albanie-lunder-1"
+      "url": "https://talents.aefe.fr/fr/annonce/4349505-professeur-fh-du-second-degre-histoire-geo-et-ses-tirana-albanie-lunder-1"
     },
     {
       "id": 4344901,
@@ -1957,7 +1957,7 @@
       "pays": "Pérou",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "12/06/2026",
+      "date": "16/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4342483-professeur-du-second-degre-svt-fh-tiabaya-perou-tiabaya"
     },
     {
@@ -2104,17 +2104,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4295801-professeur-du-second-degre-mathematiques-fh-praia-cap-vert-praia"
     },
     {
-      "id": 4294383,
-      "titre": "Conseiller d’orientation - F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "09/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4294383-conseiller-d-orientation-fh-rabat-maroc-rabat"
-    },
-    {
       "id": 4292813,
       "titre": "Assistant de direction - F/H - NADOR - MAROC",
       "etab": "",
@@ -2212,17 +2201,6 @@
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "10/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4258505-professeur-de-sciences-numeriques-et-technologie-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4250385,
-      "titre": "Professeur des écoles - F/H - TIRANA - ALBANIE",
-      "etab": "",
-      "ville": "Lundër 1",
-      "pays": "Albanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "02/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4250385-professeur-des-ecoles-fh-tirana-albanie-lunder-1"
     },
     {
       "id": 4241269,
@@ -2489,17 +2467,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140099-professeur-de-lettresfrancais-fh-le-caire-egypte-cairo"
     },
     {
-      "id": 4135919,
-      "titre": "Professeur de lettres modernes - F/H - Rentrée 2026-2027 - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "09/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4135919-professeur-de-lettres-modernes-fh-rentree-2026-2027-rabat-maroc-rabat"
-    },
-    {
       "id": 4135887,
       "titre": "Professeur d’histoire-géographie - F/H - BUCAREST - ROUMANIE",
       "etab": "",
@@ -2575,61 +2542,6 @@
       "discipline": "Professeur d'éducation musicale F/H",
       "date": "29/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4083445-professeur-deducation-musicale-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4076721,
-      "titre": "Professeur des écoles - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "09/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4076721-professeur-des-ecoles-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4076705,
-      "titre": "Conseiller Principal d'Éducation - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "10/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4076705-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4076679,
-      "titre": "Professeur d'espagnol - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’espagnol F/H",
-      "date": "10/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4076679-professeur-despagnol-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4076587,
-      "titre": "Professeur d'éducation physique et sportive - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "10/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4076587-professeur-deducation-physique-et-sportive-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4076429,
-      "titre": "Professeur de mathématiques - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "10/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4076429-professeur-de-mathematiques-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4068021,
@@ -2753,28 +2665,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/3985767-professeur-des-ecoles-fh-nairobi-kenya-nairobi"
     },
     {
-      "id": 3951593,
-      "titre": "Infirmier Puériculteur - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Infirmier scolaire F/H",
-      "date": "10/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3951593-infirmier-puericulteur-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 3951581,
-      "titre": "Professeur des écoles - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "10/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3951581-professeur-des-ecoles-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 3945267,
       "titre": "Administrateur système et réseaux - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -2850,17 +2740,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "07/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3506689-professeur-d-anglais-13h-fh-rentree-2025-sofia-bulgarie-1700-sofia"
-    },
-    {
-      "id": 3487641,
-      "titre": "Professeur de physique chimie - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "09/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3487641-professeur-de-physique-chimie-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 3486827,
