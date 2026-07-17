@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17 07:16",
+  "updated": "2026-07-17 18:03",
   "total": 250,
   "offers": [
     {
@@ -1829,28 +1829,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4390905-professeur-des-ecoles-fh-portland-etats-unis-97229-portland"
     },
     {
-      "id": 4390741,
-      "titre": "Professeur du Second Degré - Physique Chimie - F/H - LA PAZ - BOLIVIE",
-      "etab": "",
-      "ville": "La Paz",
-      "pays": "Bolivie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "18/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4390741-professeur-du-second-degre-physique-chimie-fh-la-paz-bolivie-la-paz"
-    },
-    {
-      "id": 4389575,
-      "titre": "Professeur du second degré - Mathématiques - F/H - DUBAI - EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "18/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4389575-professeur-du-second-degre-mathematiques-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
       "id": 4383673,
       "titre": "Surveillant 1er degré pause méridienne - F/H - Lycée Stendhal - MILAN - ITALIE",
       "etab": "",
@@ -2487,6 +2465,28 @@
       "discipline": "Professeur des écoles F/H",
       "date": "15/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4121901-professeur-des-ecoles-fh-riga-lettonie-1005-riga"
+    },
+    {
+      "id": 4112253,
+      "titre": "Professeur d'arabe - F/H - Groupe Scolaire Jacques Chirac - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’arabe F/H",
+      "date": "17/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4112253-professeur-darabe-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
+    },
+    {
+      "id": 4112205,
+      "titre": "Professeur d'espagnol F/H -Groupe Scolaire Jacques Chirac-RABAT-MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "17/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4112205-professeur-despagnol-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
     },
     {
       "id": 4098191,
