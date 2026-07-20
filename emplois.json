@@ -1,7 +1,62 @@
 {
-  "updated": "2026-07-20 07:58",
-  "total": 242,
+  "updated": "2026-07-20 18:54",
+  "total": 241,
   "offers": [
+    {
+      "id": 4507195,
+      "titre": "Infirmier Scolaire F/H",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Infirmier scolaire F/H",
+      "date": "20/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4507195-infirmier-scolaire-fh-rabat"
+    },
+    {
+      "id": 4507185,
+      "titre": "Assistant(e) RH",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant ressources humaines F/H",
+      "date": "20/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4507185-assistante-rh-rabat"
+    },
+    {
+      "id": 4507179,
+      "titre": "Technicien(ne) de laboratoire_Groupe Scolaire Jacques Chirac_Rabat",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Technicien de laboratoire F/H",
+      "date": "20/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4507179-technicienne-de-laboratoire-groupe-scolaire-jacques-chirac-rabat-rabat"
+    },
+    {
+      "id": 4506705,
+      "titre": "Directeur du primaire F/H - Ecole Les Lutins-BAMAKO",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Directeur du primaire F/H",
+      "date": "20/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4506705-directeur-du-primaire-fh-ecole-les-lutins-bamako-bamako"
+    },
+    {
+      "id": 4506531,
+      "titre": "Recrutement de 4 enseignant(e)s F/H - Ecole Les Lutins - BAMAKO - MALI",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "Mali",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "20/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4506531-recrutement-de-4-enseignantes-fh-ecole-les-lutins-bamako-mali-bamako"
+    },
     {
       "id": 4501667,
       "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
@@ -408,28 +463,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "08/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4489867-professeur-histoire-geographieeducation-morale-et-civique-fh-bamako-mali-bamako"
-    },
-    {
-      "id": 4489003,
-      "titre": "Professeur de Technologie au collège F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de technologie F/H",
-      "date": "07/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4489003-professeur-de-technologie-au-college-fh-abidjan-cote-divoire-bp-157-abidjan"
-    },
-    {
-      "id": 4488997,
-      "titre": "PE titulaire ou enseignant local école élémentaire F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "CDD terme fixe",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4488997-pe-titulaire-ou-enseignant-local-ecole-elementaire-fh-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
       "id": 4488585,
@@ -1752,28 +1785,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4399289-secretaire-general-adjoint-sga-fh-munich-allemagne-81373-munchen"
     },
     {
-      "id": 4398851,
-      "titre": "Professeur des écoles - Primaire - F/H - JERSEY CITY - ETATS-UNIS",
-      "etab": "",
-      "ville": "Jersey City",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "21/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4398851-professeur-des-ecoles-primaire-fh-jersey-city-etats-unis-07302-jersey-city"
-    },
-    {
-      "id": 4397749,
-      "titre": "Professeur de mathématiques lycée - F/H - BIZERTE - TUNISIE",
-      "etab": "",
-      "ville": "Bizerte",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "21/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4397749-professeur-de-mathematiques-lycee-fh-bizerte-tunisie-7000-bizerte"
-    },
-    {
       "id": 4383673,
       "titre": "Surveillant 1er degré pause méridienne - F/H - Lycée Stendhal - MILAN - ITALIE",
       "etab": "",
@@ -1805,17 +1816,6 @@
       "discipline": "Professeur de philosophie F/H",
       "date": "04/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4369331-professeur-de-philosophielettres-modernes-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4363449,
-      "titre": "Professeur de SVT - F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "25/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4363449-professeur-de-svt-fh-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
       "id": 4363191,
@@ -2016,6 +2016,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4295801-professeur-du-second-degre-mathematiques-fh-praia-cap-vert-praia"
     },
     {
+      "id": 4294383,
+      "titre": "Conseiller d’orientation - F/H - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "20/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4294383-conseiller-d-orientation-fh-rabat-maroc-rabat"
+    },
+    {
       "id": 4292813,
       "titre": "Assistant de direction - F/H - NADOR - MAROC",
       "etab": "",
@@ -2137,17 +2148,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4233163-professeur-darabe-maternelle-elementaire-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4230967,
-      "titre": "Professeur d'ANGLAIS 1er degré - F/H - ABIDJAN - CÔTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais britannique F/H",
-      "date": "24/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4230967-professeur-danglais-1er-degre-fh-abidjan-cote-divoire-bp-157-abidjan"
-    },
-    {
       "id": 4230797,
       "titre": "Professeur du Second Degré - SES - F/H - LUSAKA - ZAMBIE",
       "etab": "",
@@ -2258,17 +2258,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4199903-professeur-de-technologie-robotique-programmation-fh-koh-samui-thailande-84310-koh-samui"
     },
     {
-      "id": 4196803,
-      "titre": "Professeur du Second Degré d'histoire géographie - F/H - BRATISLAVA - SLOVAQUIE",
-      "etab": "",
-      "ville": "Bratislava",
-      "pays": "Slovaquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "03/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4196803-professeur-du-second-degre-dhistoire-geographie-fh-bratislava-slovaquie-851-01-bratislava"
-    },
-    {
       "id": 4196309,
       "titre": "Professeur d'anglais (maternelle et élémentaire) - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -2302,17 +2291,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4174609-professeur-svt-20262028-fh-pereira-colombie-pereira"
     },
     {
-      "id": 4151923,
-      "titre": "Professeur d'histoire géographie - F/H - COTONOU - BENIN",
-      "etab": "",
-      "ville": "Cotonou",
-      "pays": "Bénin",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "14/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4151923-professeur-dhistoire-geographie-fh-cotonou-benin-9087-cotonou"
-    },
-    {
       "id": 4151917,
       "titre": "Professeur de lettres modernes - F/H - COTONOU - BENIN",
       "etab": "",
@@ -2320,7 +2298,7 @@
       "pays": "Bénin",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
-      "date": "12/06/2026",
+      "date": "20/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4151917-professeur-de-lettres-modernes-fh-cotonou-benin-9087-cotonou"
     },
     {
@@ -2366,6 +2344,17 @@
       "discipline": "Professeur de lettres classiques F/H",
       "date": "03/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140099-professeur-de-lettresfrancais-fh-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4135919,
+      "titre": "Professeur de lettres modernes - F/H - Rentrée 2026-2027 - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "20/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4135919-professeur-de-lettres-modernes-fh-rentree-2026-2027-rabat-maroc-rabat"
     },
     {
       "id": 4135887,
