@@ -1,7 +1,29 @@
 {
-  "updated": "2026-07-20 18:54",
-  "total": 241,
+  "updated": "2026-07-21 07:33",
+  "total": 243,
   "offers": [
+    {
+      "id": 4508539,
+      "titre": "Enseignant-e d'anglais en maternelle",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "20/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4508539-enseignant-e-danglais-en-maternelle-dakar"
+    },
+    {
+      "id": 4508537,
+      "titre": "Enseignant-e non titulaire (programme français)",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "20/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4508537-enseignant-e-non-titulaire-programme-francais-dakar"
+    },
     {
       "id": 4507195,
       "titre": "Infirmier Scolaire F/H",
