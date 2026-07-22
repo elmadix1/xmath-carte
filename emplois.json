@@ -1,39 +1,39 @@
 {
-  "updated": "2026-07-22 07:35",
-  "total": 250,
+  "updated": "2026-07-22 18:09",
+  "total": 251,
   "offers": [
     {
+      "id": 4511237,
+      "titre": "Responsable des ressources humaines F/H - LONDRES - ROYAUME UNI",
+      "etab": "",
+      "ville": "England",
+      "pays": "Royaume-Uni",
+      "contrat": "Contrat permanent",
+      "discipline": "Responsable des ressources humaines F/H",
+      "date": "22/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4511237-responsable-des-ressources-humaines-fh-londres-royaume-uni-greater-london"
+    },
+    {
       "id": 4510871,
-      "titre": "Professeur Lettres Modernes & HG - F/H - TIRANA - ALBANIE",
+      "titre": "Professeur Lettres Modernes et Histoire Géographie - F/H - TIRANA - ALBANIE",
       "etab": "",
       "ville": "Lundër 1",
       "pays": "Albanie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "21/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4510871-professeur-lettres-modernes-hg-fh-tirana-albanie-lunder-1"
+      "url": "https://talents.aefe.fr/fr/annonce/4510871-professeur-lettres-modernes-et-histoire-geographie-fh-tirana-albanie-lunder-1"
     },
     {
       "id": 4510323,
-      "titre": "Un(e) professeur(e) des écoles remplaçant(e)- Casablanca Maroc",
+      "titre": "Un professeur des écoles remplaçant F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "21/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4510323-une-professeure-des-ecoles-remplacante-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4510197,
-      "titre": "English teacher H/F",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "21/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4510197-english-teacher-hf-dubai"
+      "url": "https://talents.aefe.fr/fr/annonce/4510323-un-professeur-des-ecoles-remplacant-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4509361,
@@ -100,6 +100,28 @@
       "discipline": "Technicien de laboratoire F/H",
       "date": "20/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4507179-technicien-de-laboratoire-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
+    },
+    {
+      "id": 4506705,
+      "titre": "Directeur du primaire F/H - Ecole Les Lutins - BAMAKO - MALI",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "Mali",
+      "contrat": "CDD terme fixe",
+      "discipline": "Directeur du primaire F/H",
+      "date": "22/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4506705-directeur-du-primaire-fh-ecole-les-lutins-bamako-mali-bamako"
+    },
+    {
+      "id": 4506531,
+      "titre": "Recrutement de 4 enseignants F/H - Ecole Les Lutins - BAMAKO - MALI",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "Mali",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4506531-recrutement-de-4-enseignants-fh-ecole-les-lutins-bamako-mali-bamako"
     },
     {
       "id": 4501667,
@@ -1807,17 +1829,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4369331-professeur-de-philosophielettres-modernes-fh-le-caire-egypte-cairo"
     },
     {
-      "id": 4363191,
-      "titre": "Professeur des écoles - GS - F/H - TIRANA - ALBANIE",
-      "etab": "",
-      "ville": "Lundër 1",
-      "pays": "Albanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "21/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4363191-professeur-des-ecoles-gs-fh-tirana-albanie-lunder-1"
-    },
-    {
       "id": 4356171,
       "titre": "Assistant de gestion comptable - F/H - MUNICH - ALLEMAGNE",
       "etab": "",
@@ -2291,17 +2302,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4196183-assistant-deducation-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4182379,
-      "titre": "Professeur du Second Degré d'histoire géographie - F/H - CALI (YUMBO) - COLOMBIE",
-      "etab": "",
-      "ville": "Cali",
-      "pays": "Colombie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "21/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4182379-professeur-du-second-degre-dhistoire-geographie-fh-cali-yumbo-colombie-760042-cali"
-    },
-    {
       "id": 4180107,
       "titre": "Professeur des écoles - F/H - CUENCA - EQUATEUR",
       "etab": "",
@@ -2443,6 +2443,17 @@
       "discipline": "Professeur d’espagnol F/H",
       "date": "17/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4112205-professeur-despagnol-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
+    },
+    {
+      "id": 4112137,
+      "titre": "Professeur de Lettres - F/H - Groupe Scolaire Jacques Chirac - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "22/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4112137-professeur-de-lettres-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
     },
     {
       "id": 4102357,
