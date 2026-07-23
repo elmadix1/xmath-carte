@@ -1,7 +1,40 @@
 {
-  "updated": "2026-07-23 07:32",
-  "total": 252,
+  "updated": "2026-07-23 18:12",
+  "total": 235,
   "offers": [
+    {
+      "id": 4514561,
+      "titre": "Professeur des écoles - F/H - CALGARY - CANADA",
+      "etab": "",
+      "ville": "Calgary",
+      "pays": "Canada",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4514561-professeur-des-ecoles-fh-calgary-canada-t2t-6g2-calgary"
+    },
+    {
+      "id": 4513925,
+      "titre": "Directeur du primaire F/H Amsterdam (remplacement congé maternité)",
+      "etab": "",
+      "ville": "Amsterdam",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Directeur du primaire F/H",
+      "date": "23/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4513925-directeur-du-primaire-fh-amsterdam-remplacement-conge-maternite-1077-me-amsterdam"
+    },
+    {
+      "id": 4513471,
+      "titre": "Offre d'emploi - Professeur(e) de musique",
+      "etab": "",
+      "ville": "Tel Aviv-Yafo",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation musicale F/H",
+      "date": "23/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4513471-offre-demploi-professeure-de-musique-tel-aviv-yafo"
+    },
     {
       "id": 4512991,
       "titre": "Professeur des écoles F/H",
@@ -531,17 +564,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4489867-professeur-histoire-geographieeducation-morale-et-civique-fh-bamako-mali-bamako"
     },
     {
-      "id": 4488585,
-      "titre": "Professeur Documentaliste F/H - MADRID - ESPAGNE",
-      "etab": "",
-      "ville": "Madrid",
-      "pays": "Espagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "07/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4488585-professeur-documentaliste-fh-madrid-espagne-28016-madrid"
-    },
-    {
       "id": 4488361,
       "titre": "Enseignants suppléants qualifiés du 1er degré - F/H - LONDRES - ROYAUME UNI",
       "etab": "",
@@ -1004,28 +1026,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4473997-professeur-des-ecoles-fh-conakry"
     },
     {
-      "id": 4472097,
-      "titre": "Enseignant documentaliste - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "29/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4472097-enseignant-documentaliste-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4470767,
-      "titre": "Conseiller Principal d'Education (H/F) - VAUBAN - LUXEMBOURG",
-      "etab": "",
-      "ville": "Luxembourg",
-      "pays": "Luxembourg",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "26/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4470767-conseiller-principal-deducation-hf-vauban-luxembourg-luxembourg"
-    },
-    {
       "id": 4469333,
       "titre": "Professeur d'ECO-GESTION - F/H - PORT-VILA - VANUATU",
       "etab": "",
@@ -1090,17 +1090,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "25/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4467755-professeur-du-second-degre-lettres-modernes-fh-amman-jordanie-amman"
-    },
-    {
-      "id": 4467747,
-      "titre": "Professeur des écoles F/H -",
-      "etab": "",
-      "ville": "Amman",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "25/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4467747-professeur-des-ecoles-fh-amman"
     },
     {
       "id": 4467283,
@@ -1398,28 +1387,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "15/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4449199-professeur-des-ecoles-fh-saint-petersbourg-russie-191180-%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
-    },
-    {
-      "id": 4448593,
-      "titre": "Assistant d'Éducation - F/H - KUALA LUMPUR - MALAISIE",
-      "etab": "",
-      "ville": "Kuala Lumpur",
-      "pays": "Malaisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "15/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4448593-assistant-deducation-fh-kuala-lumpur-malaisie-kuala-lumpur"
-    },
-    {
-      "id": 4448243,
-      "titre": "Professeur des écoles - F/H - ERBIL - IRAK",
-      "etab": "",
-      "ville": "Erbil",
-      "pays": "Irak",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "13/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4448243-professeur-des-ecoles-fh-erbil-irak-erbil"
     },
     {
       "id": 4447987,
@@ -1730,17 +1697,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4416691-professeur-des-ecoles-fh-sulaymaniyah-irak-kurdistan-sulaymaniyah"
     },
     {
-      "id": 4415431,
-      "titre": "Professeur des écoles - F/H - TACHKENT - OUZBEKISTAN",
-      "etab": "",
-      "ville": "Tachkent",
-      "pays": "Ouzbékistan",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4415431-professeur-des-ecoles-fh-tachkent-ouzbekistan-tachkent"
-    },
-    {
       "id": 4415245,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - HOUMT SOUK - TUNISIE",
       "etab": "",
@@ -1884,17 +1840,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4342483-professeur-du-second-degre-svt-fh-tiabaya-perou-tiabaya"
     },
     {
-      "id": 4332559,
-      "titre": "Professeur des écoles en Élémentaire - F/H - Lycée franco-libanais - DUBAI - EAU",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "25/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4332559-professeur-des-ecoles-en-elementaire-fh-lycee-franco-libanais-dubai-eau-dubai"
-    },
-    {
       "id": 4332017,
       "titre": "Référent du Pôle EBEP - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
       "etab": "",
@@ -1926,6 +1871,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "23/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4331837-professeurs-des-ecoles-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331647,
+      "titre": "Professeur d'H-G - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "23/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331647-professeur-dh-g-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4331631,
@@ -2071,17 +2027,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4289615-responsable-creche-maternelle-fh-tunis-tunisie-tunis"
     },
     {
-      "id": 4285423,
-      "titre": "Professeur de Mathématiques et Physique-Chimie - F/H - NADOR - MAROC",
-      "etab": "",
-      "ville": "Nador",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "24/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4285423-professeur-de-mathematiques-et-physique-chimie-fh-nador-maroc-nador"
-    },
-    {
       "id": 4263389,
       "titre": "Professeur de Lettres et possible complément Philosophie -F/H - EREVAN - ARMENIE",
       "etab": "",
@@ -2135,17 +2080,6 @@
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "10/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4258505-professeur-de-sciences-numeriques-et-technologie-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4250385,
-      "titre": "Professeur des écoles - F/H - TIRANA - ALBANIE",
-      "etab": "",
-      "ville": "Lundër 1",
-      "pays": "Albanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "21/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4250385-professeur-des-ecoles-fh-tirana-albanie-lunder-1"
     },
     {
       "id": 4241269,
@@ -2225,17 +2159,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4221995-professeur-danglais-college-et-lycee-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4216473,
-      "titre": "Professeur du 2nd degré - Anglais américain - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais américain F/H",
-      "date": "18/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4216473-professeur-du-2nd-degre-anglais-americain-fh-manille-philippines-paranaque"
-    },
-    {
       "id": 4216329,
       "titre": "Professeur du 2nd degré - Histoire-Géographie - F/H - MANILLE - PHILIPPINES",
       "etab": "",
@@ -2245,28 +2168,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "18/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4216329-professeur-du-2nd-degre-histoire-geographie-fh-manille-philippines-paranaque"
-    },
-    {
-      "id": 4212531,
-      "titre": "Professeur des écoles - F/H - KIRKLAND - SEATTLE - ETATS UNIS",
-      "etab": "",
-      "ville": "Kirkland",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "18/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4212531-professeur-des-ecoles-fh-kirkland-seattle-etats-unis-98034-kirkland"
-    },
-    {
-      "id": 4212001,
-      "titre": "Professeur du Second Degré – Histoire Géographie EMC - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4212001-professeur-du-second-degre-histoire-geographie-emc-fh-tunis-tunisie-1002-tunis"
     },
     {
       "id": 4205315,
@@ -2313,15 +2214,15 @@
       "url": "https://talents.aefe.fr/fr/annonce/4196183-assistant-deducation-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4180107,
-      "titre": "Professeur des écoles - F/H - CUENCA - EQUATEUR",
+      "id": 4182379,
+      "titre": "Professeur du Second Degré d'histoire géographie - F/H - CALI (YUMBO) - COLOMBIE",
       "etab": "",
-      "ville": "Cuenca",
-      "pays": "Équateur",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "17/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4180107-professeur-des-ecoles-fh-cuenca-equateur-cuenca"
+      "ville": "Cali",
+      "pays": "Colombie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "23/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4182379-professeur-du-second-degre-dhistoire-geographie-fh-cali-yumbo-colombie-760042-cali"
     },
     {
       "id": 4174609,
@@ -2423,17 +2324,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4134861-professeur-documentaliste-fh-tunis-tunisie-le-kram"
     },
     {
-      "id": 4121901,
-      "titre": "Professeur des écoles F/H - RIGA - LETTONIE",
-      "etab": "",
-      "ville": "Rīga",
-      "pays": "Lettonie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4121901-professeur-des-ecoles-fh-riga-lettonie-1005-riga"
-    },
-    {
       "id": 4112253,
       "titre": "Professeur d'arabe - F/H - Groupe Scolaire Jacques Chirac - RABAT - MAROC",
       "etab": "",
@@ -2476,28 +2366,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "21/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4098191,
-      "titre": "Professeur des écoles - F/H - VICTORIA - SEYCHELLES",
-      "etab": "",
-      "ville": "Seychelles",
-      "pays": "Seychelles",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "08/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4098191-professeur-des-ecoles-fh-victoria-seychelles-seychelles"
-    },
-    {
-      "id": 4093297,
-      "titre": "Professeur des écoles - F/H - WASHINGTON D.C. (BESTHESDA) - ETATS UNIS",
-      "etab": "",
-      "ville": "Bethesda",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4093297-professeur-des-ecoles-fh-washington-d-c-besthesda-etats-unis-20814-bethesda"
     },
     {
       "id": 4089901,
@@ -2599,17 +2467,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4066805-professeur-de-sciences-de-la-vie-et-de-la-terre-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4064715,
-      "titre": "Professeur des écoles - F/H – BUCAREST - ROUMANIE",
-      "etab": "",
-      "ville": "București",
-      "pays": "Roumanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "13/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4064715-professeur-des-ecoles-fh-bucarest-roumanie-015016-bucuresti"
-    },
-    {
       "id": 4038259,
       "titre": "Technicien de la laboratoire - F/H - AIN ZAGHOUAN - TUNISIE",
       "etab": "",
@@ -2619,28 +2476,6 @@
       "discipline": "Technicien de laboratoire F/H",
       "date": "01/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4038259-technicien-de-la-laboratoire-fh-ain-zaghouan-tunisie-le-kram"
-    },
-    {
-      "id": 4035559,
-      "titre": "Professeur des écoles - F/H - HAMBOURG - ALLEMAGNE",
-      "etab": "",
-      "ville": "Hamburg",
-      "pays": "Allemagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "27/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4035559-professeur-des-ecoles-fh-hambourg-allemagne-22529-hamburg"
-    },
-    {
-      "id": 4012103,
-      "titre": "Professeur des écoles - F/H - MUMBAI - INDE",
-      "etab": "",
-      "ville": "Mumbai",
-      "pays": "Inde",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "18/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4012103-professeur-des-ecoles-fh-mumbai-inde-400013-mumbai"
     },
     {
       "id": 3985767,
@@ -2707,28 +2542,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "22/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3799639-educateurerzieher-personnel-parlant-allemand-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 3702775,
-      "titre": "Rentrée 2026 : Professeur Physiques-Chimie - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "24/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3702775-rentree-2026-professeur-physiques-chimie-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 3690873,
-      "titre": "Rentrée 2026: Professeur de Lettres - F/H - Lycée Voltaire - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "24/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3690873-rentree-2026-professeur-de-lettres-fh-lycee-voltaire-le-caire-egypte-cairo"
     },
     {
       "id": 3506689,
