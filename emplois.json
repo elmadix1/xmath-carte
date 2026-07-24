@@ -1,7 +1,40 @@
 {
-  "updated": "2026-07-23 18:12",
+  "updated": "2026-07-24 07:30",
   "total": 235,
   "offers": [
+    {
+      "id": 4515291,
+      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
+      "etab": "",
+      "ville": "Singapore",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "24/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4515291-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-singapore"
+    },
+    {
+      "id": 4515079,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Zakia",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4515079-professeur-des-ecoles-fh-76269-zakia"
+    },
+    {
+      "id": 4515063,
+      "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
+      "etab": "",
+      "ville": "Rio de Janeiro",
+      "pays": "Brésil",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4515063-professeur-des-ecoles-fh-rio-de-janeiro-bresil-rio-de-janeiro"
+    },
     {
       "id": 4514561,
       "titre": "Professeur des écoles - F/H - CALGARY - CANADA",
@@ -465,17 +498,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4491153-psychologue-scolaire-fh-hong-kong-hong-kong-island"
     },
     {
-      "id": 4490435,
-      "titre": "Accompagnant d'élèves en situation de Handicap F/H - RIO DE JANEIRO - BRESIL",
-      "etab": "",
-      "ville": "Rio de Janeiro",
-      "pays": "Brésil",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "08/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4490435-accompagnant-deleves-en-situation-de-handicap-fh-rio-de-janeiro-bresil-rio-de-janeiro"
-    },
-    {
       "id": 4490377,
       "titre": "Professeur du Second Degré d'Anglais F/H - BAMAKO - MALI",
       "etab": "",
@@ -738,17 +760,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "03/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4481895-professeur-du-second-degre-en-anglais-fh-brazzaville-congo-brazzaville"
-    },
-    {
-      "id": 4480911,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H - DUSSELDORF - ALLEMAGNE",
-      "etab": "",
-      "ville": "Düsseldorf",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "03/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4480911-professeur-du-second-degre-dhistoire-geographie-fh-dusseldorf-allemagne-40237-dusseldorf"
     },
     {
       "id": 4480659,
@@ -1948,17 +1959,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "10/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4308081-professeur-de-physique-chimie-fh-lycee-victor-hugo-francfort-allemagne-60488-frankfurt-am-main"
-    },
-    {
-      "id": 4297955,
-      "titre": "Assistant d'Éducation - F/H - DÜSSELDORF - ALLEMAGNE",
-      "etab": "",
-      "ville": "Düsseldorf",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4297955-assistant-deducation-fh-dusseldorf-allemagne-40237-dusseldorf"
     },
     {
       "id": 4296649,
