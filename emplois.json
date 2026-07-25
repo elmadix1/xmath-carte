@@ -1,7 +1,18 @@
 {
-  "updated": "2026-07-25 07:15",
+  "updated": "2026-07-25 17:57",
   "total": 234,
   "offers": [
+    {
+      "id": 4517469,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Amman",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4517469-professeur-des-ecoles-fh-amman"
+    },
     {
       "id": 4516517,
       "titre": "Remplacement 1 mois Professeur du Second Degré - Espagnol - F/H - DAKAR",
@@ -1981,17 +1992,6 @@
       "discipline": "Sécrétaire / assistant F/H",
       "date": "16/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4292813-assistant-de-direction-fh-nador-maroc-nador"
-    },
-    {
-      "id": 4290823,
-      "titre": "Gestionnaire des recettes et des voyages scolaires - F/H - BRUXELLES - BELGIQUE",
-      "etab": "",
-      "ville": "Uccle",
-      "pays": "Belgique",
-      "contrat": "Contrat permanent",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "26/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4290823-gestionnaire-des-recettes-et-des-voyages-scolaires-fh-bruxelles-belgique-1180-uccle"
     },
     {
       "id": 4289615,
