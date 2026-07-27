@@ -1,7 +1,29 @@
 {
-  "updated": "2026-07-27 08:29",
+  "updated": "2026-07-27 18:24",
   "total": 233,
   "offers": [
+    {
+      "id": 4520001,
+      "titre": "Prodesseurs des écoles poste en maternelle petite section",
+      "etab": "",
+      "ville": "New Delhi",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "27/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4520001-prodesseurs-des-ecoles-poste-en-maternelle-petite-section-110011-new-delhi"
+    },
+    {
+      "id": 4518453,
+      "titre": "Coordinateur(trice) d'élèves à besoins éducatifs particuliers (EBEP)",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Assisant de service social F/H",
+      "date": "27/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4518453-coordinateurtrice-deleves-a-besoins-educatifs-particuliers-ebep-dubai"
+    },
     {
       "id": 4517987,
       "titre": "Professeur du Second Degré - Mathématiques F/H",
@@ -15,47 +37,47 @@
     },
     {
       "id": 4517469,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - AMMAN - JORDANIE",
       "etab": "",
       "ville": "Amman",
-      "pays": "",
+      "pays": "Jordanie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "25/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4517469-professeur-des-ecoles-fh-amman"
+      "url": "https://talents.aefe.fr/fr/annonce/4517469-professeur-des-ecoles-fh-amman-jordanie-amman"
     },
     {
       "id": 4516517,
-      "titre": "Remplacement 1 mois Professeur du Second Degré - Espagnol - F/H - DAKAR",
+      "titre": "Professeur du Second Degré - Espagnol - F/H - Remplacement - DAKAR - SENEGAL",
       "etab": "",
       "ville": "Dakar",
-      "pays": "",
+      "pays": "Sénégal",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’espagnol F/H",
       "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4516517-remplacement-1-mois-professeur-du-second-degre-espagnol-fh-dakar-dakar"
+      "url": "https://talents.aefe.fr/fr/annonce/4516517-professeur-du-second-degre-espagnol-fh-remplacement-dakar-senegal-dakar"
     },
     {
       "id": 4516087,
-      "titre": "Le Cours Sévigné recherche un/une enseignant(e) d'espagnol",
+      "titre": "Enseignant d'espagnol F/H - ABIDJAN - COTE D'IVOIRE",
       "etab": "",
       "ville": "Abidjan",
-      "pays": "",
+      "pays": "Côte d'Ivoire",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’espagnol F/H",
       "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4516087-le-cours-sevigne-recherche-unune-enseignante-despagnol-abidjan"
+      "url": "https://talents.aefe.fr/fr/annonce/4516087-enseignant-despagnol-fh-abidjan-cote-divoire-abidjan"
     },
     {
       "id": 4515769,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "titre": "Professeur du Second Degré - Mathématiques F/H - SANT PERE DE RIBES - ESPAGNE",
       "etab": "",
       "ville": "Sant Pere de Ribes",
-      "pays": "",
+      "pays": "Espagne",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4515769-professeur-du-second-degre-mathematiques-fh-08810-sant-pere-de-ribes"
+      "url": "https://talents.aefe.fr/fr/annonce/4515769-professeur-du-second-degre-mathematiques-fh-sant-pere-de-ribes-espagne-08810-sant-pere-de-ribes"
     },
     {
       "id": 4515717,
@@ -70,14 +92,14 @@
     },
     {
       "id": 4515291,
-      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
+      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre - F/H - SINGAPORE",
       "etab": "",
       "ville": "Singapore",
       "pays": "",
       "contrat": "CDD terme fixe",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4515291-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-singapore"
+      "url": "https://talents.aefe.fr/fr/annonce/4515291-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-singapore-singapore"
     },
     {
       "id": 4515079,
@@ -1191,17 +1213,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4463927-professeur-du-second-degre-physique-chimie-fh-abidjan"
     },
     {
-      "id": 4463005,
-      "titre": "Professeur des écoles spécialisé F/H - NEW DELHI - INDE",
-      "etab": "",
-      "ville": "New Delhi",
-      "pays": "Inde",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "23/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4463005-professeur-des-ecoles-specialise-fh-new-delhi-inde-110011-new-delhi"
-    },
-    {
       "id": 4462379,
       "titre": "Directeur du primaire F/H - ABIDJAN - COTE D'IVOIRE",
       "etab": "",
@@ -1728,17 +1739,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "29/05/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4420359-professeur-du-second-degre-espagnol-fh-lagos-nigeria-106104-lagos"
-    },
-    {
-      "id": 4416691,
-      "titre": "Professeur des écoles - F/H - SULAYMANIYAH - IRAK (KURDISTAN)",
-      "etab": "",
-      "ville": "Sulaymaniyah",
-      "pays": "Irak",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "28/05/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4416691-professeur-des-ecoles-fh-sulaymaniyah-irak-kurdistan-sulaymaniyah"
     },
     {
       "id": 4383673,
