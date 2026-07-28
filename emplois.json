@@ -1,7 +1,18 @@
 {
-  "updated": "2026-07-28 07:38",
-  "total": 233,
+  "updated": "2026-07-28 18:12",
+  "total": 235,
   "offers": [
+    {
+      "id": 4521515,
+      "titre": "Professeur du Second Degré - Physique Chimie - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "28/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4521515-professeur-du-second-degre-physique-chimie-fh-ankara-turquie-golbas%C4%B1"
+    },
     {
       "id": 4520001,
       "titre": "Prodesseurs des écoles poste en maternelle petite section F/H - NEW DELHI - INDE",
@@ -837,6 +848,17 @@
       "discipline": "Professeur du second degré F/H",
       "date": "03/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4481895-professeur-du-second-degre-en-anglais-fh-brazzaville-congo-brazzaville"
+    },
+    {
+      "id": 4481549,
+      "titre": "Professeur des écoles H/F - Ecole française - BOA VISTA - CAP VERT",
+      "etab": "",
+      "ville": "Sal Rei",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "28/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4481549-professeur-des-ecoles-hf-ecole-francaise-boa-vista-cap-vert-sal-rei"
     },
     {
       "id": 4480659,
