@@ -1,7 +1,18 @@
 {
-  "updated": "2026-07-29 07:42",
+  "updated": "2026-07-29 18:06",
   "total": 234,
   "offers": [
+    {
+      "id": 4523875,
+      "titre": "Professeur de Français Langue Etrangère FLE - F/H - PHUKET - THAILANDE",
+      "etab": "",
+      "ville": "Chalong",
+      "pays": "Thaïlande",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de français langue étrangère F/H",
+      "date": "29/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4523875-professeur-de-francais-langue-etrangere-fle-fh-phuket-thailande-83130-chalong"
+    },
     {
       "id": 4521515,
       "titre": "Professeur du Second Degré - Physique Chimie - F/H - ANKARA - TURQUIE",
@@ -1783,17 +1794,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "07/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4371659-professeur-des-ecoles-anglophone-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4369983,
-      "titre": "Conseiller Principal d’Éducation (CPE) - F/H - TANGER - MAROC",
-      "etab": "",
-      "ville": "Tangier",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4369983-conseiller-principal-d-education-cpe-fh-tanger-maroc-tangier"
     },
     {
       "id": 4369331,
