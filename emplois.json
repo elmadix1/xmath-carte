@@ -1,7 +1,40 @@
 {
-  "updated": "2026-07-30 18:15",
-  "total": 229,
+  "updated": "2026-07-31 07:50",
+  "total": 231,
   "offers": [
+    {
+      "id": 4526903,
+      "titre": "Professeur du Second Degré - Sciences Numériques et Technologie F/H",
+      "etab": "",
+      "ville": "Tegucigalpa",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
+      "date": "31/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4526903-professeur-du-second-degre-sciences-numeriques-et-technologie-fh-tegucigalpa"
+    },
+    {
+      "id": 4526901,
+      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - TEGUCIGALPA - HONDURAS",
+      "etab": "",
+      "ville": "Tegucigalpa",
+      "pays": "Honduras",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "31/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4526901-professeur-du-second-degre-lettres-modernes-fh-tegucigalpa-honduras-tegucigalpa"
+    },
+    {
+      "id": 4526867,
+      "titre": "Professeur du second degré en Lettres",
+      "etab": "",
+      "ville": "Viña del Mar",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "30/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4526867-professeur-du-second-degre-en-lettres-vina-del-mar"
+    },
     {
       "id": 4523875,
       "titre": "Professeur de Français Langue Etrangère FLE - F/H - PHUKET - THAILANDE",
@@ -1719,26 +1752,15 @@
       "url": "https://talents.aefe.fr/fr/annonce/4429311-professeur-du-second-degre-physique-chimie-fh-houmt-souk-tunisie-4180-houmt-souk"
     },
     {
-      "id": 4420985,
-      "titre": "Professeur F/H d’Histoire-Géographie / HGGSP – KOH SAMUI – THAILAND",
+      "id": 4415383,
+      "titre": "Professeur de Lettres Modernes - F/H - LAS TERRENAS - REPUBLIQUE DOMINICAINE",
       "etab": "",
-      "ville": "Koh Samui",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "01/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4420985-professeur-fh-d-histoire-geographie-hggsp-koh-samui-thailand-84310-koh-samui"
-    },
-    {
-      "id": 4420983,
-      "titre": "Formateur - F/H - TAMARIN - ILE MAURICE",
-      "etab": "",
-      "ville": "Tamarin",
-      "pays": "Île Maurice",
+      "ville": "Las Terrenas",
+      "pays": "Rép. dominicaine",
       "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "01/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4420983-formateur-fh-tamarin-ile-maurice-tamarin"
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "31/07/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4415383-professeur-de-lettres-modernes-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
     },
     {
       "id": 4383673,
