@@ -1,7 +1,18 @@
 {
-  "updated": "2026-08-05 07:38",
-  "total": 234,
+  "updated": "2026-08-05 18:20",
+  "total": 225,
   "offers": [
+    {
+      "id": 4534125,
+      "titre": "Primary School English teacher M/F - Lycée Vincent van Gogh- LA HAYE PAYS-BAS",
+      "etab": "",
+      "ville": "Den Haag",
+      "pays": "Pays-Bas",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "05/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4534125-primary-school-english-teacher-mf-lycee-vincent-van-gogh-la-haye-pays-bas-2584-aa-den-haag"
+    },
     {
       "id": 4532977,
       "titre": "Professeur des écoles F/H maternelle Ankara Turquie",
@@ -199,17 +210,6 @@
       "discipline": "Professeur d’espagnol F/H",
       "date": "24/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4516087-enseignant-despagnol-fh-abidjan-cote-divoire-abidjan"
-    },
-    {
-      "id": 4515769,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - SANT PERE DE RIBES - ESPAGNE",
-      "etab": "",
-      "ville": "Sant Pere de Ribes",
-      "pays": "Espagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4515769-professeur-du-second-degre-mathematiques-fh-sant-pere-de-ribes-espagne-08810-sant-pere-de-ribes"
     },
     {
       "id": 4515717,
@@ -683,17 +683,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "09/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4492729-professeur-dhistoire-geo-fh-pole-aefe-rabat-maroc-rabat"
-    },
-    {
-      "id": 4491847,
-      "titre": "PROFESSEUR DE LETTRES MODERNES OU CLASSIQUES - F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "09/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4491847-professeur-de-lettres-modernes-ou-classiques-fh-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
       "id": 4491153,
@@ -1407,7 +1396,7 @@
       "pays": "Mongolie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur du second degré F/H",
-      "date": "",
+      "date": "22/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4460723-professeur-du-second-degre-fh-oulan-bator-mongolie-ulaanbaatar"
     },
     {
@@ -1583,7 +1572,7 @@
       "pays": "Albanie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "13/06/2026",
+      "date": "05/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4447987-professeur-des-ecoles-double-niveau-gscp-fh-tirana-albanie-lunder-1"
     },
     {
@@ -1717,83 +1706,6 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "08/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4435579-professeur-du-second-degre-ses-fh-sandton-afrique-du-sud-2057-sandton"
-    },
-    {
-      "id": 4435005,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - ENVIGADO - COLOMBIE",
-      "etab": "",
-      "ville": "Envigado",
-      "pays": "Colombie",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "06/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4435005-professeur-du-second-degre-lettres-modernes-fh-envigado-colombie-055427-envigado"
-    },
-    {
-      "id": 4434727,
-      "titre": "Professeur du Second Degré d'histoire - géographie - F/H - MONTREAL - CANADA",
-      "etab": "",
-      "ville": "Montréal",
-      "pays": "Canada",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4434727-professeur-du-second-degre-dhistoire-geographie-fh-montreal-canada-h3w-1w3-montreal"
-    },
-    {
-      "id": 4434711,
-      "titre": "Professeur du Second Degré - Italien - F/H - MONTREAL - CANADA",
-      "etab": "",
-      "ville": "Montréal",
-      "pays": "Italie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’italien F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4434711-professeur-du-second-degre-italien-fh-montreal-canada-h3w-1w3-montreal"
-    },
-    {
-      "id": 4434707,
-      "titre": "Professeur du Second Degré - Anglais - F/H - MONTREAL - CANADA",
-      "etab": "",
-      "ville": "Montréal",
-      "pays": "Canada",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4434707-professeur-du-second-degre-anglais-fh-montreal-canada-h3w-1w3-montreal"
-    },
-    {
-      "id": 4434691,
-      "titre": "Professeur du Second Degré EPS F/H - MONTREAL - CANADA",
-      "etab": "",
-      "ville": "Montréal",
-      "pays": "Canada",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4434691-professeur-du-second-degre-eps-fh-montreal-canada-h3w-1w3-montreal"
-    },
-    {
-      "id": 4434349,
-      "titre": "Professeur du Second Degré Mathématiques F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4434349-professeur-du-second-degre-mathematiques-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4431795,
-      "titre": "DERNIERE MINUTE - Professeur des Ecoles F/H - BERKELEY - CALIFORNIE - ETATS-UNIS",
-      "etab": "",
-      "ville": "Berkeley",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "04/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4431795-derniere-minute-professeur-des-ecoles-fh-berkeley-californie-etats-unis-94710-berkeley"
     },
     {
       "id": 4415383,
@@ -2003,17 +1915,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "09/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4263389-professeur-de-lettres-et-possible-complement-philosophie-fh-erevan-armenie-0051-%D5%A5%D6%80%D5%A5%D6%82%D5%A1%D5%B6"
-    },
-    {
-      "id": 4261171,
-      "titre": "Professeur du Second Degré Lettres Modernes F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "05/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4261171-professeur-du-second-degre-lettres-modernes-fh-tunis-tunisie-1002-tunis"
     },
     {
       "id": 4260797,
