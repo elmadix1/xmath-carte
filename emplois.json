@@ -1,7 +1,18 @@
 {
-  "updated": "2026-08-05 18:20",
-  "total": 225,
+  "updated": "2026-08-06 07:38",
+  "total": 226,
   "offers": [
+    {
+      "id": 4535687,
+      "titre": "AED (Poste réservé à un candidat habitant Abidjan)",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "06/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4535687-aed-poste-reserve-a-un-candidat-habitant-abidjan-bp-157-abidjan"
+    },
     {
       "id": 4534125,
       "titre": "Primary School English teacher M/F - Lycée Vincent van Gogh- LA HAYE PAYS-BAS",
