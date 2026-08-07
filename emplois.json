@@ -1,7 +1,29 @@
 {
-  "updated": "2026-08-06 07:38",
-  "total": 226,
+  "updated": "2026-08-07 06:10",
+  "total": 227,
   "offers": [
+    {
+      "id": 4536913,
+      "titre": "Professeur des écoles F/H - GUINEE BISSAU",
+      "etab": "",
+      "ville": "Bissau",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "06/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4536913-professeur-des-ecoles-fh-guinee-bissau-bissau"
+    },
+    {
+      "id": 4536201,
+      "titre": "Professeur de Lettres Modernes – Collège - F/H - KOH SAMUI - THAILANDE",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "Thaïlande",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "06/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4536201-professeur-de-lettres-modernes-college-fh-koh-samui-thailande-84310-koh-samui"
+    },
     {
       "id": 4535687,
       "titre": "AED (Poste réservé à un candidat habitant Abidjan)",
@@ -1640,17 +1662,6 @@
       "discipline": "Assistant d'éducation F/H",
       "date": "10/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4441785-assistant-deducation-fh-houmt-souk-tunisie-4180-houmt-souk"
-    },
-    {
-      "id": 4440899,
-      "titre": "Professeur des écoles - F/H - KOH SAMUI - THAILANDE",
-      "etab": "",
-      "ville": "Koh Samui",
-      "pays": "Thaïlande",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "10/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4440899-professeur-des-ecoles-fh-koh-samui-thailande-84310-koh-samui"
     },
     {
       "id": 4440885,
