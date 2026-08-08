@@ -1,7 +1,18 @@
 {
-  "updated": "2026-08-08 05:41",
-  "total": 193,
+  "updated": "2026-08-08 17:26",
+  "total": 192,
   "offers": [
+    {
+      "id": 4539625,
+      "titre": "Proviseur H/F",
+      "etab": "",
+      "ville": "Ouagadougou",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Proviseur F/H",
+      "date": "08/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4539625-proviseur-hf-ouagadougou"
+    },
     {
       "id": 4538435,
       "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
@@ -1574,28 +1585,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "09/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4440885-enseignant-specialise-fh-primaire-san-francisco-etats-unis-94122-san-francisco"
-    },
-    {
-      "id": 4439447,
-      "titre": "Professeur des écoles F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "09/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4439447-professeur-des-ecoles-fh-casablanca-maroc-20250-casablanca"
-    },
-    {
-      "id": 4438407,
-      "titre": "Professeur d'Anglais Primaire et Secondaire - F/H - KYOTO - JAPON",
-      "etab": "",
-      "ville": "Kyoto",
-      "pays": "Japon",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "09/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4438407-professeur-danglais-primaire-et-secondaire-fh-kyoto-japon-kyoto"
     },
     {
       "id": 4383673,
