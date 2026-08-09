@@ -1,7 +1,29 @@
 {
-  "updated": "2026-08-09 05:46",
-  "total": 191,
+  "updated": "2026-08-09 17:28",
+  "total": 192,
   "offers": [
+    {
+      "id": 4539985,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Envigado",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "09/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4539985-professeur-du-second-degre-dhistoire-geographie-fh-055427-envigado"
+    },
+    {
+      "id": 4539941,
+      "titre": "Professeur de Sciences de la Vie et de la Terre F/H MALAGA Espagne Urgent",
+      "etab": "",
+      "ville": "Málaga",
+      "pays": "Espagne",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "09/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4539941-professeur-de-sciences-de-la-vie-et-de-la-terre-fh-malaga-espagne-urgent-29018-malaga"
+    },
     {
       "id": 4539625,
       "titre": "Proviseur H/F",
@@ -1563,17 +1585,6 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "10/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4443243-professeur-ses-secondaire-fh-chicago-etats-unis-60640-chicago"
-    },
-    {
-      "id": 4441785,
-      "titre": "Assistant d'Éducation - F/H - HOUMT SOUK - TUNISIE",
-      "etab": "",
-      "ville": "Houmt Souk",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "10/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4441785-assistant-deducation-fh-houmt-souk-tunisie-4180-houmt-souk"
     },
     {
       "id": 4383673,
