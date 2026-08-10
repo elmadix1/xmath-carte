@@ -1,7 +1,51 @@
 {
-  "updated": "2026-08-10 06:10",
-  "total": 193,
+  "updated": "2026-08-10 17:49",
+  "total": 195,
   "offers": [
+    {
+      "id": 4541207,
+      "titre": "Professeur de mathématiques",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "10/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4541207-professeur-de-mathematiques-bp-157-abidjan"
+    },
+    {
+      "id": 4541191,
+      "titre": "Proviseur Adjoint - Poste réservé à un PERDIR Titulaire Ed. Nat. française",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Proviseur adjoint F/H",
+      "date": "10/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4541191-proviseur-adjoint-poste-reserve-a-un-perdir-titulaire-ed-nat-francaise-bp-157-abidjan"
+    },
+    {
+      "id": 4540399,
+      "titre": "Professeur du Second Degré - Mathématiques F/H SERBIE BELGRADE EFB",
+      "etab": "",
+      "ville": "Београд",
+      "pays": "Serbie",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "10/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4540399-professeur-du-second-degre-mathematiques-fh-serbie-belgrade-efb-%D0%B1%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4"
+    },
+    {
+      "id": 4540245,
+      "titre": "Conseiller Principal d'Éducation F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sakiet Ezzit",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "10/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4540245-conseiller-principal-deducation-fh-sfax-tunisie-sakiet-ezzit"
+    },
     {
       "id": 4539985,
       "titre": "Professeur du Second Degré d'histoire géographie F/H",
@@ -89,17 +133,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "05/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4534125-primary-school-english-teacher-mf-lycee-vincent-van-gogh-la-haye-pays-bas-2584-aa-den-haag"
-    },
-    {
-      "id": 4532977,
-      "titre": "Professeur des écoles F/H maternelle Ankara Turquie",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "04/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4532977-professeur-des-ecoles-fh-maternelle-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4531633,
@@ -210,17 +243,6 @@
       "discipline": "Professeur de français langue étrangère F/H",
       "date": "29/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4523875-professeur-de-francais-langue-etrangere-fle-fh-phuket-thailande-83130-chalong"
-    },
-    {
-      "id": 4521515,
-      "titre": "Professeur du Second Degré - Physique Chimie - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "28/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4521515-professeur-du-second-degre-physique-chimie-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4520001,
