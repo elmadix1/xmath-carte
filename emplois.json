@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-09 17:28",
-  "total": 192,
+  "updated": "2026-08-10 06:10",
+  "total": 193,
   "offers": [
     {
       "id": 4539985,
@@ -1576,17 +1576,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4444349-responsable-of-brand-content-community-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4443243,
-      "titre": "Professeur SES secondaire - F/H - CHICAGO - ETATS-UNIS",
-      "etab": "",
-      "ville": "Chicago",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "10/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4443243-professeur-ses-secondaire-fh-chicago-etats-unis-60640-chicago"
-    },
-    {
       "id": 4383673,
       "titre": "Surveillant 1er degré pause méridienne - F/H - Lycée Stendhal - MILAN - ITALIE",
       "etab": "",
@@ -1750,6 +1739,28 @@
       "discipline": "Sécrétaire / assistant F/H",
       "date": "16/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4292813-assistant-de-direction-fh-nador-maroc-nador"
+    },
+    {
+      "id": 4285711,
+      "titre": "Professeur de Français/Histoire Géographie - F/H - NADOR - MAROC",
+      "etab": "",
+      "ville": "Nador",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "09/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4285711-professeur-de-francaishistoire-geographie-fh-nador-maroc-nador"
+    },
+    {
+      "id": 4285423,
+      "titre": "Professeur de Mathématiques et Physique-Chimie - F/H - NADOR - MAROC",
+      "etab": "",
+      "ville": "Nador",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "09/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4285423-professeur-de-mathematiques-et-physique-chimie-fh-nador-maroc-nador"
     },
     {
       "id": 4263389,
