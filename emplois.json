@@ -1,7 +1,40 @@
 {
-  "updated": "2026-08-11 05:53",
+  "updated": "2026-08-11 17:56",
   "total": 192,
   "offers": [
+    {
+      "id": 4543605,
+      "titre": "Professeur de Mathématiques / Mathematics Teacher - French Program 2026-27",
+      "etab": "",
+      "ville": "Cambridge",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "11/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4543605-professeur-de-mathematiques-mathematics-teacher-french-program-2026-27-02140-cambridge"
+    },
+    {
+      "id": 4543115,
+      "titre": "PROFESSEUR DE PHILOSOPHIE",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "11/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4543115-professeur-de-philosophie-bamako"
+    },
+    {
+      "id": 4543053,
+      "titre": "PROFESSEURS DES ECOLES",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "11/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4543053-professeurs-des-ecoles-bamako"
+    },
     {
       "id": 4541207,
       "titre": "Professeur de mathématiques",
@@ -1411,17 +1444,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4460727-enseignant-fh-tamarin-ile-maurice-tamarin"
     },
     {
-      "id": 4460723,
-      "titre": "Professeur du Second Degré - F/H - OULAN BATOR - MONGOLIE",
-      "etab": "",
-      "ville": "Ulaanbaatar",
-      "pays": "Mongolie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4460723-professeur-du-second-degre-fh-oulan-bator-mongolie-ulaanbaatar"
-    },
-    {
       "id": 4460505,
       "titre": "Professeur du Second Degré - Mathématiques - F/H - TUNIS - TUNISIE",
       "etab": "",
@@ -1992,28 +2014,6 @@
       "discipline": "Professeur d'éducation musicale F/H",
       "date": "29/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4083445-professeur-deducation-musicale-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4068021,
-      "titre": "Professeur du Second Degré - SVT - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "12/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4068021-professeur-du-second-degre-svt-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4067979,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "12/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4067979-professeur-du-second-degre-mathematiques-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4066961,
