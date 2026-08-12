@@ -1,7 +1,62 @@
 {
-  "updated": "2026-08-12 06:11",
-  "total": 193,
+  "updated": "2026-08-12 17:58",
+  "total": 198,
   "offers": [
+    {
+      "id": 4545187,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Santa Cruz de la Sierra",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "12/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4545187-professeur-du-second-degre-mathematiques-fh-santa-cruz-de-la-sierra"
+    },
+    {
+      "id": 4544959,
+      "titre": "Professeur d'Histoire-Geographie: Sept 2026 (vacant)",
+      "etab": "",
+      "ville": "England",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "12/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4544959-professeur-dhistoire-geographie-sept-2026-vacant-greater-london"
+    },
+    {
+      "id": 4544689,
+      "titre": "Conseiller Principal d'Éducation F/H",
+      "etab": "",
+      "ville": "München",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "12/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4544689-conseiller-principal-deducation-fh-81373-munchen"
+    },
+    {
+      "id": 4544655,
+      "titre": "Directeur école primaire F/H - Maroc - Tanger",
+      "etab": "",
+      "ville": "Tanger",
+      "pays": "Maroc",
+      "contrat": "CDD terme fixe",
+      "discipline": "Directeur du primaire F/H",
+      "date": "12/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4544655-directeur-ecole-primaire-fh-maroc-tanger-90000-tanger"
+    },
+    {
+      "id": 4544343,
+      "titre": "Professeur du Second Degré - Sciences Numériques et Technologie F/H",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
+      "date": "12/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4544343-professeur-du-second-degre-sciences-numeriques-et-technologie-fh-cairo"
+    },
     {
       "id": 4543605,
       "titre": "Professeur de Mathématiques / Mathematics Teacher - French Program 2026-27",
