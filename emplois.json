@@ -1,7 +1,18 @@
 {
-  "updated": "2026-08-13 06:15",
+  "updated": "2026-08-13 17:56",
   "total": 197,
   "offers": [
+    {
+      "id": 4545779,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "13/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4545779-professeur-du-second-degre-lettres-modernes-fh-lfa-alexandrie-egypte-alexandria"
+    },
     {
       "id": 4545327,
       "titre": "URGENT - PROFESSEUR(E) DES ÉCOLES TITULAIRE – WINDFIELD, THAÏLANDE",
@@ -320,17 +331,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "31/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4526901-professeur-du-second-degre-lettres-modernes-fh-tegucigalpa-honduras-tegucigalpa"
-    },
-    {
-      "id": 4526867,
-      "titre": "Professeur du second degré en Lettres F/H - VINA DEL MAR - CHILI",
-      "etab": "",
-      "ville": "Viña del Mar",
-      "pays": "Chili",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "30/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4526867-professeur-du-second-degre-en-lettres-fh-vina-del-mar-chili-vina-del-mar"
     },
     {
       "id": 4523875,
@@ -991,17 +991,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "06/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4484863-professeur-des-ecoles-fh-hurghada-egypte-hurghada"
-    },
-    {
-      "id": 4484851,
-      "titre": "ENSEIGNANT DE SVT - F/H - VILNIUS - LITUANIE",
-      "etab": "",
-      "ville": "Vilnius",
-      "pays": "Lituanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "06/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4484851-enseignant-de-svt-fh-vilnius-lituanie-10317-vilnius"
     },
     {
       "id": 4484837,
@@ -2102,6 +2091,17 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "07/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4007705-professeur-mathematiques-fh-bucarest-roumanie-015016-bucuresti"
+    },
+    {
+      "id": 3945259,
+      "titre": "Technicien spécialisé en informatique F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Chargé de maintenance et d’entretien F/H",
+      "date": "13/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3945259-technicien-specialise-en-informatique-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 3841871,
