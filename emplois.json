@@ -1,7 +1,18 @@
 {
-  "updated": "2026-08-12 17:58",
-  "total": 198,
+  "updated": "2026-08-13 06:15",
+  "total": 197,
   "offers": [
+    {
+      "id": 4545327,
+      "titre": "URGENT - PROFESSEUR(E) DES ÉCOLES TITULAIRE – WINDFIELD, THAÏLANDE",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "Thaïlande",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "13/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4545327-urgent-professeure-des-ecoles-titulaire-windfield-thailande-84310-koh-samui"
+    },
     {
       "id": 4545187,
       "titre": "Professeur du Second Degré - Mathématiques F/H",
@@ -1763,17 +1774,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4328637-professeur-du-second-degre-physique-chimie-fh-santiago-chili-7630599-santiago"
     },
     {
-      "id": 4320497,
-      "titre": "Professeur du Second Degré - Physique Chimie - F/H - MANAGUA - NICARAGUA",
-      "etab": "",
-      "ville": "Managua",
-      "pays": "Nicaragua",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "13/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4320497-professeur-du-second-degre-physique-chimie-fh-managua-nicaragua-managua"
-    },
-    {
       "id": 4308081,
       "titre": "Professeur de physique chimie - F/H - Lycée Victor Hugo - FRANCFORT - ALLEMAGNE",
       "etab": "",
@@ -1882,17 +1882,6 @@
       "discipline": "Professeur d’arabe F/H",
       "date": "10/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4233163-professeur-darabe-maternelle-elementaire-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4230797,
-      "titre": "Professeur du Second Degré - SES - F/H - LUSAKA - ZAMBIE",
-      "etab": "",
-      "ville": "Lusaka",
-      "pays": "Zambie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "23/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4230797-professeur-du-second-degre-ses-fh-lusaka-zambie-lusaka"
     },
     {
       "id": 4225869,
