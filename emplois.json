@@ -1,7 +1,18 @@
 {
-  "updated": "2026-08-13 17:56",
-  "total": 197,
+  "updated": "2026-08-14 06:12",
+  "total": 196,
   "offers": [
+    {
+      "id": 4546933,
+      "titre": "Professeur des écoles - École française de Melbourne",
+      "etab": "",
+      "ville": "Caulfield North",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "14/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4546933-professeur-des-ecoles-ecole-francaise-de-melbourne-3161-caulfield-north"
+    },
     {
       "id": 4545779,
       "titre": "Professeur du Second Degré - Lettres Modernes F/H - LFA (ALEXANDRIE-EGYPTE)",
@@ -727,28 +738,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "11/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4495999-professeur-de-maths-pour-le-lycee-leon-lafricain-de-rabat-fh-rabat-maroc-rabat"
-    },
-    {
-      "id": 4495933,
-      "titre": "Professeur du Second Degré F/H - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "11/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4495933-professeur-du-second-degre-fh-dakar-senegal-dakar"
-    },
-    {
-      "id": 4495931,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "11/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4495931-professeur-du-second-degre-dhistoire-geographie-fh-dakar-senegal-dakar"
     },
     {
       "id": 4494667,
