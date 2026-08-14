@@ -1,7 +1,29 @@
 {
-  "updated": "2026-08-14 06:12",
-  "total": 196,
+  "updated": "2026-08-14 17:51",
+  "total": 192,
   "offers": [
+    {
+      "id": 4548839,
+      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
+      "etab": "",
+      "ville": "Zakia",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "14/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4548839-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-76269-zakia"
+    },
+    {
+      "id": 4547591,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Ulaanbaatar",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "14/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4547591-professeur-des-ecoles-fh-ulaanbaatar"
+    },
     {
       "id": 4546933,
       "titre": "Professeur des écoles - École française de Melbourne",
@@ -289,17 +311,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4530787-professeur-du-second-degre-education-physique-et-sportive-fh-malabo"
     },
     {
-      "id": 4529681,
-      "titre": "Urgent - Conseiller Principal d'Éducation - F/H - GUATEMALA",
-      "etab": "",
-      "ville": "San José Pinula",
-      "pays": "Guatemala",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "02/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4529681-urgent-conseiller-principal-deducation-fh-guatemala-san-jose-pinula"
-    },
-    {
       "id": 4529311,
       "titre": "Professeur et tuteur CNED de mathématiques et sciences - COLOMBO - SRI LANKA",
       "etab": "",
@@ -518,17 +529,6 @@
       "discipline": "Responsable des ressources humaines F/H",
       "date": "22/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4511237-responsable-des-ressources-humaines-fh-londres-royaume-uni-greater-london"
-    },
-    {
-      "id": 4510871,
-      "titre": "Professeur Lettres Modernes et Histoire Géographie - F/H - TIRANA - ALBANIE",
-      "etab": "",
-      "ville": "Lundër 1",
-      "pays": "Albanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "01/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4510871-professeur-lettres-modernes-et-histoire-geographie-fh-tirana-albanie-lunder-1"
     },
     {
       "id": 4510323,
@@ -1598,28 +1598,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4451927-professeur-de-mathematiques-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4450135,
-      "titre": "Professeur des écoles F/H - Anglais - MONTREAL - CANADA",
-      "etab": "",
-      "ville": "Montréal",
-      "pays": "Canada",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4450135-professeur-des-ecoles-fh-anglais-montreal-canada-h3w-1w3-montreal"
-    },
-    {
-      "id": 4449199,
-      "titre": "Professeur des écoles F/H - SAINT PETERSBOURG - RUSSIE",
-      "etab": "",
-      "ville": "Санкт-Петербург",
-      "pays": "Russie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4449199-professeur-des-ecoles-fh-saint-petersbourg-russie-191180-%D1%81%D0%B0%D0%BD%D0%BA%D1%82-%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
-    },
-    {
       "id": 4447987,
       "titre": "Professeur des écoles (double niveau GS/CP) - F/H - TIRANA - ALBANIE",
       "etab": "",
@@ -1673,17 +1651,6 @@
       "discipline": "Sécrétaire / assistant F/H",
       "date": "22/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4356171-assistant-de-gestion-comptable-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 4349505,
-      "titre": "Professeur F/H du Second Degré - Histoire-Géo et SES - TIRANA - ALBANIE",
-      "etab": "",
-      "ville": "Lundër 1",
-      "pays": "Albanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "01/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4349505-professeur-fh-du-second-degre-histoire-geo-et-ses-tirana-albanie-lunder-1"
     },
     {
       "id": 4331925,
@@ -1827,17 +1794,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "29/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4260797-intervenant-periscolaire-activites-en-anglais-fh-budapest-hongrie-1029-budapest"
-    },
-    {
-      "id": 4259761,
-      "titre": "Professeur du Second Degré - SVT & SPC - F/H - TIRANA - ALBANIE",
-      "etab": "",
-      "ville": "Lundër 1",
-      "pays": "Albanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "01/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4259761-professeur-du-second-degre-svt-spc-fh-tirana-albanie-lunder-1"
     },
     {
       "id": 4241269,
