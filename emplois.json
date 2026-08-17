@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17 05:33",
-  "total": 186,
+  "updated": "2026-08-17 17:24",
+  "total": 182,
   "offers": [
     {
       "id": 4548839,
@@ -45,17 +45,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "13/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4545779-professeur-du-second-degre-lettres-modernes-fh-lfa-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4545327,
-      "titre": "URGENT - PROFESSEUR(E) DES ÉCOLES TITULAIRE – WINDFIELD, THAÏLANDE",
-      "etab": "",
-      "ville": "Koh Samui",
-      "pays": "Thaïlande",
-      "contrat": "CDD sans terme fixe",
-      "discipline": "Professeur des écoles F/H",
-      "date": "13/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4545327-urgent-professeure-des-ecoles-titulaire-windfield-thailande-84310-koh-samui"
     },
     {
       "id": 4545187,
@@ -1532,28 +1521,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4458985-professeur-danglais-au-second-degre-fh-munich-allemagne-81373-munchen"
     },
     {
-      "id": 4456047,
-      "titre": "Professeur du Second Degré de philosophie F/H - LA MARSA - TUNISIE",
-      "etab": "",
-      "ville": "La Marsa",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de philosophie F/H",
-      "date": "18/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4456047-professeur-du-second-degre-de-philosophie-fh-la-marsa-tunisie-2046-la-marsa"
-    },
-    {
-      "id": 4455931,
-      "titre": "Professeur de Lettres F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "18/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4455931-professeur-de-lettres-fh-sfax-tunisie-3062-sfax"
-    },
-    {
       "id": 4447987,
       "titre": "Professeur des écoles (double niveau GS/CP) - F/H - TIRANA - ALBANIE",
       "etab": "",
@@ -1563,6 +1530,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "15/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4447987-professeur-des-ecoles-double-niveau-gscp-fh-tirana-albanie-lunder-1"
+    },
+    {
+      "id": 4415431,
+      "titre": "Professeur des écoles - F/H - TACHKENT - OUZBEKISTAN",
+      "etab": "",
+      "ville": "Tachkent",
+      "pays": "Ouzbékistan",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "17/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4415431-professeur-des-ecoles-fh-tachkent-ouzbekistan-tachkent"
     },
     {
       "id": 4383673,
@@ -1796,17 +1774,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4216473-professeur-du-2nd-degre-anglais-americain-fh-manille-philippines-paranaque"
     },
     {
-      "id": 4216329,
-      "titre": "Professeur du 2nd degré - Histoire-Géographie - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "18/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4216329-professeur-du-2nd-degre-histoire-geographie-fh-manille-philippines-paranaque"
-    },
-    {
       "id": 4199903,
       "titre": "PROFESSEUR DE TECHNOLOGIE, ROBOTIQUE, PROGRAMMATION -F/H- KOH SAMUI - THAILANDE",
       "etab": "",
@@ -1904,17 +1871,6 @@
       "discipline": "Professeur d’arabe F/H",
       "date": "17/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4112253-professeur-darabe-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
-    },
-    {
-      "id": 4112205,
-      "titre": "Professeur d'espagnol F/H -Groupe Scolaire Jacques Chirac-RABAT-MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’espagnol F/H",
-      "date": "17/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4112205-professeur-despagnol-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
     },
     {
       "id": 4089901,
