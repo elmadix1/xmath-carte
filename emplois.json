@@ -1,7 +1,29 @@
 {
-  "updated": "2026-08-18 05:26",
-  "total": 183,
+  "updated": "2026-08-18 17:24",
+  "total": 181,
   "offers": [
+    {
+      "id": 4551971,
+      "titre": "CONSEILLER PRINCIPAL D'EDUCATION H/F pour le GSRD de Tunis - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "18/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4551971-conseiller-principal-deducation-hf-pour-le-gsrd-de-tunis-tunis-tunisie-2037-tunis"
+    },
+    {
+      "id": 4551851,
+      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "18/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4551851-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
+    },
     {
       "id": 4551463,
       "titre": "Professeur du Second Degré - Physique Chimie F/H",
@@ -221,17 +243,6 @@
       "discipline": "Proviseur F/H",
       "date": "08/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4539625-proviseur-hf-ouagadougou"
-    },
-    {
-      "id": 4538435,
-      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4538435-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
     },
     {
       "id": 4536913,
@@ -1444,17 +1455,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4462379-directeur-du-primaire-fh-abidjan-cote-divoire-abidjan"
     },
     {
-      "id": 4462073,
-      "titre": "CONSEILLER PRINCIPAL D'EDUCATION H/F pour le GSRD de Tunis - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4462073-conseiller-principal-deducation-hf-pour-le-gsrd-de-tunis-tunis-tunisie-2037-tunis"
-    },
-    {
       "id": 4461543,
       "titre": "Professeur d'Histoire géographie - F/H - DUBAI - EMIRATS ARABES UNIS",
       "etab": "",
@@ -1508,28 +1508,6 @@
       "discipline": "Professeur de technologie F/H",
       "date": "20/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4460503-professeur-sciences-de-lingenieur-fh-tunis-tunisie-1053-tunis"
-    },
-    {
-      "id": 4459147,
-      "titre": "Professeur du Second Degré - PHYSIQUE/CHIMIE - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "19/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4459147-professeur-du-second-degre-physiquechimie-fh-tunis-tunisie-1053-tunis"
-    },
-    {
-      "id": 4458985,
-      "titre": "Professeur d'anglais au Second Degré - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "19/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4458985-professeur-danglais-au-second-degre-fh-munich-allemagne-81373-munchen"
     },
     {
       "id": 4447987,
@@ -1884,6 +1862,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4112253-professeur-darabe-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
     },
     {
+      "id": 4102357,
+      "titre": "Professeur des écoles - F/H - Le CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "18/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
+    },
+    {
       "id": 4089901,
       "titre": "Assistant maternel - personnel parlant allemand - F/H - MUNICH - ALLEMAGNE",
       "etab": "",
@@ -2003,17 +1992,6 @@
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "14/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3486827-professeur-du-second-degre-sciences-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
-    },
-    {
-      "id": 3485571,
-      "titre": "Conseiller Principal d'Éducation - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "19/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3485571-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
     }
   ]
 }
