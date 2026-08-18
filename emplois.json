@@ -1,7 +1,18 @@
 {
-  "updated": "2026-08-17 17:24",
-  "total": 182,
+  "updated": "2026-08-18 05:26",
+  "total": 183,
   "offers": [
+    {
+      "id": 4551463,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "etab": "",
+      "ville": "Managua",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "18/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4551463-professeur-du-second-degre-physique-chimie-fh-managua"
+    },
     {
       "id": 4548839,
       "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
@@ -1319,7 +1330,7 @@
       "pays": "Vanuatu",
       "contrat": "Contrat permanent",
       "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "26/06/2026",
+      "date": "18/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4469333-professeur-deco-gestion-fh-port-vila-vanuatu-port-vila"
     },
     {
