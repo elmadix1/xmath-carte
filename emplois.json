@@ -1,7 +1,40 @@
 {
-  "updated": "2026-08-18 17:24",
-  "total": 181,
+  "updated": "2026-08-19 05:27",
+  "total": 184,
   "offers": [
+    {
+      "id": 4553775,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Rio de Janeiro",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "18/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4553775-professeur-du-second-degre-dhistoire-geographie-fh-rio-de-janeiro"
+    },
+    {
+      "id": 4553597,
+      "titre": "Professeur du Second Degré - Philosophie F/H - Guadalajara Mexique",
+      "etab": "",
+      "ville": "Zapopan",
+      "pays": "Mexique",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "18/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4553597-professeur-du-second-degre-philosophie-fh-guadalajara-mexique-zapopan"
+    },
+    {
+      "id": 4553547,
+      "titre": "Professeur de SVT & IB Biology - NEW YORK - ETATS-UNIS",
+      "etab": "",
+      "ville": "New York",
+      "pays": "États-Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "18/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4553547-professeur-de-svt-ib-biology-new-york-etats-unis-10017-new-york"
+    },
     {
       "id": 4551971,
       "titre": "CONSEILLER PRINCIPAL D'EDUCATION H/F pour le GSRD de Tunis - TUNIS - TUNISIE",
