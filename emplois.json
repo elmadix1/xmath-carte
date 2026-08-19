@@ -1,7 +1,29 @@
 {
-  "updated": "2026-08-19 05:27",
-  "total": 184,
+  "updated": "2026-08-19 17:24",
+  "total": 183,
   "offers": [
+    {
+      "id": 4554605,
+      "titre": "Professeur du Second Degré d'histoire géographie DNL- F/H - AMSTERDAM - PAYS-BAS",
+      "etab": "",
+      "ville": "Amsterdam",
+      "pays": "Pays-Bas",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "19/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4554605-professeur-du-second-degre-dhistoire-geographie-dnl-fh-amsterdam-pays-bas-1075-sw-amsterdam"
+    },
+    {
+      "id": 4553801,
+      "titre": "CPE - F/H – SHARJAH - EMIRATS ARABES UNIS",
+      "etab": "",
+      "ville": "Sharjah",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "19/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4553801-cpe-fh-sharjah-emirats-arabes-unis-sharjah"
+    },
     {
       "id": 4553775,
       "titre": "Professeur du Second Degré d'histoire géographie F/H",
@@ -1070,17 +1092,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4483383-professeur-deps-fh-brazaville-republique-du-congo-brazzaville"
     },
     {
-      "id": 4482529,
-      "titre": "Conseiller en prévention et en immobilier - H/F - UCCLE - BELGIQUE",
-      "etab": "",
-      "ville": "Uccle",
-      "pays": "Belgique",
-      "contrat": "CDD terme fixe",
-      "discipline": "Chargé de maintenance et d’entretien F/H",
-      "date": "03/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4482529-conseiller-en-prevention-et-en-immobilier-hf-uccle-belgique-1180-uccle"
-    },
-    {
       "id": 4482215,
       "titre": "Professeur du Second Degré - EPS - F/H - TUNIS - TUNISIE",
       "etab": "",
@@ -1519,28 +1530,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "22/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4460727-enseignant-fh-tamarin-ile-maurice-tamarin"
-    },
-    {
-      "id": 4460505,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "20/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4460505-professeur-du-second-degre-mathematiques-fh-tunis-tunisie-1053-tunis"
-    },
-    {
-      "id": 4460503,
-      "titre": "Professeur Sciences de l'Ingénieur - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de technologie F/H",
-      "date": "20/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4460503-professeur-sciences-de-lingenieur-fh-tunis-tunisie-1053-tunis"
     },
     {
       "id": 4447987,
