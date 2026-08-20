@@ -1,7 +1,51 @@
 {
-  "updated": "2026-08-20 05:28",
-  "total": 184,
+  "updated": "2026-08-20 17:26",
+  "total": 185,
   "offers": [
+    {
+      "id": 4557369,
+      "titre": "Professeur du Second Degré - Philosophie F/H",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "20/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4557369-professeur-du-second-degre-philosophie-fh-bamako"
+    },
+    {
+      "id": 4556855,
+      "titre": "Professeur du Second Degré de SES F/H à temps partiel 12h/s",
+      "etab": "",
+      "ville": "Laguna de Duero",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "20/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4556855-professeur-du-second-degre-de-ses-fh-a-temps-partiel-12hs-47140-laguna-de-duero"
+    },
+    {
+      "id": 4556833,
+      "titre": "Professeur du Second Degré - Enseignement de la langue arabe - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’arabe F/H",
+      "date": "20/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4556833-professeur-du-second-degre-enseignement-de-la-langue-arabe-tunis-tunisie-1002-tunis"
+    },
+    {
+      "id": 4555797,
+      "titre": "Professeur.e du Second Degré - Anglais - F/H - Lycée Français de Budapest",
+      "etab": "",
+      "ville": "Budapest",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "20/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4555797-professeur-e-du-second-degre-anglais-fh-lycee-francais-de-budapest-1029-budapest"
+    },
     {
       "id": 4555641,
       "titre": "Professeur d'Espagnol - Lycée international Balzac - Le Caire - Egypte",
@@ -287,17 +331,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "09/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4539985-professeur-du-second-degre-dhistoire-geographie-fh-055427-envigado"
-    },
-    {
-      "id": 4539941,
-      "titre": "Professeur de Sciences de la Vie et de la Terre F/H MALAGA Espagne Urgent",
-      "etab": "",
-      "ville": "Málaga",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "09/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4539941-professeur-de-sciences-de-la-vie-et-de-la-terre-fh-malaga-espagne-urgent-29018-malaga"
     },
     {
       "id": 4539625,
@@ -1345,17 +1378,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4475381-professeur-du-second-degre-education-musicale-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
-      "id": 4474587,
-      "titre": "Professeur des écoles - GS - F/H - TIRANA - ALBANIE",
-      "etab": "",
-      "ville": "Lundër 1",
-      "pays": "Albanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "21/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4474587-professeur-des-ecoles-gs-fh-tirana-albanie-lunder-1"
-    },
-    {
       "id": 4474041,
       "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
       "etab": "",
@@ -1541,17 +1563,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "22/06/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4460727-enseignant-fh-tamarin-ile-maurice-tamarin"
-    },
-    {
-      "id": 4447987,
-      "titre": "Professeur des écoles (double niveau GS/CP) - F/H - TIRANA - ALBANIE",
-      "etab": "",
-      "ville": "Lundër 1",
-      "pays": "Albanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "15/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4447987-professeur-des-ecoles-double-niveau-gscp-fh-tirana-albanie-lunder-1"
     },
     {
       "id": 4415431,
