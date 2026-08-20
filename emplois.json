@@ -1,7 +1,18 @@
 {
-  "updated": "2026-08-19 17:24",
-  "total": 183,
+  "updated": "2026-08-20 05:28",
+  "total": 184,
   "offers": [
+    {
+      "id": 4555641,
+      "titre": "Professeur d'Espagnol - Lycée international Balzac - Le Caire - Egypte",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "19/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4555641-professeur-despagnol-lycee-international-balzac-le-caire-egypte-cairo"
+    },
     {
       "id": 4554605,
       "titre": "Professeur du Second Degré d'histoire géographie DNL- F/H - AMSTERDAM - PAYS-BAS",
