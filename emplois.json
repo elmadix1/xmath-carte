@@ -1,7 +1,29 @@
 {
-  "updated": "2026-08-21 05:30",
-  "total": 184,
+  "updated": "2026-08-21 17:25",
+  "total": 177,
   "offers": [
+    {
+      "id": 4559191,
+      "titre": "DIRECTEUR (trice) ADMINISTRATIF(ve) ET FINANCIER(ère)",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Directeur Administratif et Financier F/H",
+      "date": "21/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4559191-directeur-trice-administratifve-et-financierere-bamako"
+    },
+    {
+      "id": 4558419,
+      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "21/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4558419-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
+    },
     {
       "id": 4557369,
       "titre": "Professeur du Second Degré - Philosophie F/H",
@@ -1378,17 +1400,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4475381-professeur-du-second-degre-education-musicale-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
-      "id": 4474041,
-      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "29/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4474041-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
-    },
-    {
       "id": 4474017,
       "titre": "ENSEIGNANT(E) REFERENT(E) ECOLE INCLUSIVE - F/H - FES - MAROC",
       "etab": "",
@@ -1521,39 +1532,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4463927-professeur-du-second-degre-physique-chimie-fh-abidjan"
     },
     {
-      "id": 4462379,
-      "titre": "Directeur du primaire F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Directeur du primaire F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4462379-directeur-du-primaire-fh-abidjan-cote-divoire-abidjan"
-    },
-    {
-      "id": 4461543,
-      "titre": "Professeur d'Histoire géographie - F/H - DUBAI - EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4461543-professeur-dhistoire-geographie-fh-dubai-emirats-arabes-unis-dubai"
-    },
-    {
-      "id": 4460889,
-      "titre": "Professeur des écoles F/H - MERCER ISLAND - ETATS-UNIS",
-      "etab": "",
-      "ville": "Mercer Island",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4460889-professeur-des-ecoles-fh-mercer-island-etats-unis-98040-mercer-island"
-    },
-    {
       "id": 4415431,
       "titre": "Professeur des écoles - F/H - TACHKENT - OUZBEKISTAN",
       "etab": "",
@@ -1596,17 +1574,6 @@
       "discipline": "Professeur de philosophie F/H",
       "date": "04/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4369331-professeur-de-philosophielettres-modernes-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4356171,
-      "titre": "Assistant de gestion comptable - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Sécrétaire / assistant F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4356171-assistant-de-gestion-comptable-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 4331925,
@@ -1906,17 +1873,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
-      "id": 4089901,
-      "titre": "Assistant maternel - personnel parlant allemand - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Aide maternelle F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4089901-assistant-maternel-personnel-parlant-allemand-fh-munich-allemagne-81539-munchen"
-    },
-    {
       "id": 4083445,
       "titre": "Professeur d'éducation musicale - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -1950,17 +1906,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4066597-professeurs-dhistoire-geographie-fh-en-arabe-et-francais-casablanca-maroc-casablanca"
     },
     {
-      "id": 4007705,
-      "titre": "Professeur Mathématiques - F/H - BUCAREST - ROUMANIE",
-      "etab": "",
-      "ville": "București",
-      "pays": "Roumanie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "07/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4007705-professeur-mathematiques-fh-bucarest-roumanie-015016-bucuresti"
-    },
-    {
       "id": 3945259,
       "titre": "Technicien spécialisé en informatique F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -1981,28 +1926,6 @@
       "discipline": "Assistant d'éducation F/H",
       "date": "13/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3841871-mission-de-volontariat-du-service-civique-fh-bruxelles-belgique-1180-uccle"
-    },
-    {
-      "id": 3799657,
-      "titre": "Assistant maternel - personnel parlant allemand - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3799657-assistant-maternel-personnel-parlant-allemand-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 3799639,
-      "titre": "Educateur/Erzieher - personnel parlant allemand - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "22/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3799639-educateurerzieher-personnel-parlant-allemand-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3506689,
