@@ -1,7 +1,29 @@
 {
-  "updated": "2026-08-24 17:28",
-  "total": 172,
+  "updated": "2026-08-25 05:29",
+  "total": 173,
   "offers": [
+    {
+      "id": 4562581,
+      "titre": "Professeur des écoles F/H- Cycle 2",
+      "etab": "",
+      "ville": "Los Angeles",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "24/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4562581-professeur-des-ecoles-fh-cycle-2-91356-los-angeles"
+    },
+    {
+      "id": 4562555,
+      "titre": "Professeur du Second Degré - Mathématiques F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "24/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4562555-professeur-du-second-degre-mathematiques-fh-lfa-alexandrie-egypte-alexandria"
+    },
     {
       "id": 4562455,
       "titre": "Professeur du Second Degré - Histoire Géo - F/H - Remplacement - DAKAR - SENEGAL",
@@ -1464,17 +1486,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "15/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4469331-professeur-histoire-geographie-fh-port-vila-vanuatu-port-vila"
-    },
-    {
-      "id": 4469225,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H - ENVIGADO - COLOMBIE",
-      "etab": "",
-      "ville": "Envigado",
-      "pays": "Colombie",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "25/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4469225-professeur-du-second-degre-lettres-modernes-fh-envigado-colombie-055427-envigado"
     },
     {
       "id": 4464569,
