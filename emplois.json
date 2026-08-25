@@ -1,7 +1,73 @@
 {
-  "updated": "2026-08-25 05:29",
-  "total": 173,
+  "updated": "2026-08-25 17:29",
+  "total": 178,
   "offers": [
+    {
+      "id": 4564617,
+      "titre": "Professeur des Écoles Remplaçant - F/H - LYCEE FRANCAIS JEAN MERMOZ - DAKAR",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4564617-professeur-des-ecoles-remplacant-fh-lycee-francais-jean-mermoz-dakar-dakar"
+    },
+    {
+      "id": 4564599,
+      "titre": "Professeur des écoles F/H - LYCEE FRANCAIS JEAN MERMOZ - DAKAR - SENEGAL",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "Sénégal",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4564599-professeur-des-ecoles-fh-lycee-francais-jean-mermoz-dakar-senegal-dakar"
+    },
+    {
+      "id": 4564565,
+      "titre": "Professeur Lettres Modernes -F/H-Lycée Jean Mermoz- Remplacement congé maternité",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "25/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4564565-professeur-lettres-modernes-fh-lycee-jean-mermoz-remplacement-conge-maternite-dakar"
+    },
+    {
+      "id": 4563581,
+      "titre": "Professeur du Second Degré - Anglais en section internationale (H/F)",
+      "etab": "",
+      "ville": "Uccle",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "25/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4563581-professeur-du-second-degre-anglais-en-section-internationale-hf-1180-uccle"
+    },
+    {
+      "id": 4563035,
+      "titre": "Professeur du Second Degré en Lettres Modernes - F/H - KOWEIT - KOWEIT",
+      "etab": "",
+      "ville": "Salmiya",
+      "pays": "Koweït",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "25/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4563035-professeur-du-second-degre-en-lettres-modernes-fh-koweit-koweit-salmiya"
+    },
+    {
+      "id": 4562811,
+      "titre": "Assistant/ Assistante d'Education - Second degré - Alexandrie",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "25/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4562811-assistant-assistante-deducation-second-degre-alexandrie-alexandria"
+    },
     {
       "id": 4562581,
       "titre": "Professeur des écoles F/H- Cycle 2",
@@ -232,17 +298,6 @@
       "discipline": "Professeur de philosophie F/H",
       "date": "18/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4553597-professeur-du-second-degre-philosophie-fh-guadalajara-mexique-zapopan"
-    },
-    {
-      "id": 4553547,
-      "titre": "Professeur de SVT & IB Biology - NEW YORK - ETATS-UNIS",
-      "etab": "",
-      "ville": "New York",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "18/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4553547-professeur-de-svt-ib-biology-new-york-etats-unis-10017-new-york"
     },
     {
       "id": 4551971,
