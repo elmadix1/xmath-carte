@@ -1,7 +1,29 @@
 {
-  "updated": "2026-08-27 16:06",
-  "total": 190,
+  "updated": "2026-08-28 01:18",
+  "total": 194,
   "offers": [
+    {
+      "id": 4568761,
+      "titre": "RECRUTEMENT – PROFESSEUR(E) SVT VACATAIRE",
+      "etab": "",
+      "ville": "Nabeul",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "27/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4568761-recrutement-professeure-svt-vacataire-8000-nabeul-"
+    },
+    {
+      "id": 4568749,
+      "titre": "Professeur de FLE / FLEsco",
+      "etab": "",
+      "ville": "Ciudad de México",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de français langue étrangère F/H",
+      "date": "27/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4568749-professeur-de-fle-flesco-11850-ciudad-de-mexico"
+    },
     {
       "id": 4567965,
       "titre": "Professeur de Mathématiques F/H remplaçant - RIGA - LETTONIE",
@@ -2091,6 +2113,28 @@
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "14/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3486827-professeur-du-second-degre-sciences-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
+    },
+    {
+      "id": 3486789,
+      "titre": "Professeur Mathématiques Physique-Chimie - F/H - SARAJEVO - BOSNIE-HERZÉGOVINE",
+      "etab": "",
+      "ville": "Sarajevo",
+      "pays": "Bosnie-Herzégovine",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "27/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3486789-professeur-mathematiques-physique-chimie-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
+    },
+    {
+      "id": 3486771,
+      "titre": "Professeur du Second Degré Mathématiques - F/H - SARAJEVO - BOSNIE-HERZÉGOVINE",
+      "etab": "",
+      "ville": "Sarajevo",
+      "pays": "Bosnie-Herzégovine",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "27/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3486771-professeur-du-second-degre-mathematiques-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
     }
   ]
 }
