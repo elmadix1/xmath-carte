@@ -1,7 +1,18 @@
 {
-  "updated": "2026-08-29 11:30",
+  "updated": "2026-08-29 19:39",
   "total": 191,
   "offers": [
+    {
+      "id": 4571287,
+      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "29/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4571287-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-bamako"
+    },
     {
       "id": 4571163,
       "titre": "Professeur du Second Degré",
@@ -1576,28 +1587,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4476775-directeur-du-primaire-fh-lycee-les-meharees-mauritanie-mauritania"
     },
     {
-      "id": 4476527,
-      "titre": "Professeur du Second Degré - ANGLAIS - LFA - ALEXANDRIE - ÉGYPTE",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "30/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4476527-professeur-du-second-degre-anglais-lfa-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4476385,
-      "titre": "Professeur des écoles titulaire remplaçant polyvalent - F/H - LA MARSA - TUNISIE",
-      "etab": "",
-      "ville": "الموقع الأثري بقرطاج",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "30/06/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4476385-professeur-des-ecoles-titulaire-remplacant-polyvalent-fh-la-marsa-tunisie-%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9-%D8%A7%D9%84%D8%A7%D8%AB%D8%B1%D9%8A-%D8%A8%D9%82%D8%B1%D8%B7%D8%A7%D8%AC"
-    },
-    {
       "id": 4473997,
       "titre": "Professeur des écoles F/H",
       "etab": "",
@@ -1695,6 +1684,17 @@
       "discipline": "Professeur de philosophie F/H",
       "date": "04/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4369331-professeur-de-philosophielettres-modernes-fh-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4367931,
+      "titre": "Professeur du Second Degré - Lettres et histoire géographie F/H - Panama",
+      "etab": "",
+      "ville": "Provincia de Panamá Oeste",
+      "pays": "Panama",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "29/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4367931-professeur-du-second-degre-lettres-et-histoire-geographie-fh-panama-arraijan"
     },
     {
       "id": 4346337,
