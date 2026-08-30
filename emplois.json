@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-30 10:17",
-  "total": 189,
+  "updated": "2026-08-30 19:39",
+  "total": 187,
   "offers": [
     {
       "id": 4571287,
@@ -1543,28 +1543,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4478711-professeur-de-lettres-histoire-geographie-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4478649,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H - HOUMT SOUK - TUNISIE",
-      "etab": "",
-      "ville": "Houmt Souk",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "01/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4478649-professeur-du-second-degre-lettres-modernes-fh-houmt-souk-tunisie-4180-houmt-souk"
-    },
-    {
-      "id": 4478269,
-      "titre": "Coordinateur des activités extra scolaires F/H - DAR ES SALAAM - TANZANIE",
-      "etab": "",
-      "ville": "Dar es Salaam",
-      "pays": "Tanzanie",
-      "contrat": "CDD terme fixe",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "01/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4478269-coordinateur-des-activites-extra-scolaires-fh-dar-es-salaam-tanzanie-dar-es-salaam"
-    },
-    {
       "id": 4473997,
       "titre": "Professeur des écoles F/H",
       "etab": "",
@@ -1741,6 +1719,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4308081-professeur-de-physique-chimie-fh-lycee-victor-hugo-francfort-allemagne-60488-frankfurt-am-main"
     },
     {
+      "id": 4285711,
+      "titre": "Professeur de Français/Histoire Géographie - F/H - NADOR - MAROC",
+      "etab": "",
+      "ville": "Nador",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "30/08/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4285711-professeur-de-francaishistoire-geographie-fh-nador-maroc-nador"
+    },
+    {
       "id": 4285423,
       "titre": "Professeur de Mathématiques et Physique-Chimie - F/H - NADOR - MAROC",
       "etab": "",
@@ -1750,17 +1739,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "09/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4285423-professeur-de-mathematiques-et-physique-chimie-fh-nador-maroc-nador"
-    },
-    {
-      "id": 4285221,
-      "titre": "Professeur des écoles - F/H - NADOR - MAROC",
-      "etab": "",
-      "ville": "Nador",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "27/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4285221-professeur-des-ecoles-fh-nador-maroc-nador"
     },
     {
       "id": 4263389,
