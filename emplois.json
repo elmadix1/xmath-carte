@@ -1,28 +1,72 @@
 {
-  "updated": "2026-09-01 09:45",
-  "total": 167,
+  "updated": "2026-09-01 19:46",
+  "total": 163,
   "offers": [
+    {
+      "id": 4575679,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Conakry",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "01/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4575679-professeur-du-second-degre-mathematiques-fh-conakry"
+    },
+    {
+      "id": 4575305,
+      "titre": "Professeur de S.E.S.",
+      "etab": "",
+      "ville": "Milano",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "01/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4575305-professeur-de-s-e-s-20148-milano"
+    },
+    {
+      "id": 4574841,
+      "titre": "Professeur du Second Degré - EPS F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "01/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4574841-professeur-du-second-degre-eps-fh-lfa-alexandrie-egypte-alexandria"
+    },
+    {
+      "id": 4574685,
+      "titre": "Assistant(e) de Direction - H/F - MANILLE - PHILIPPINES",
+      "etab": "",
+      "ville": "Parañaque",
+      "pays": "Philippines",
+      "contrat": "Contrat permanent",
+      "discipline": "Secrétaire / assistant F/H",
+      "date": "01/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4574685-assistante-de-direction-hf-manille-philippines-paranaque"
+    },
     {
       "id": 4573215,
       "titre": "Assistant d'éducation - 100% à temps plein - F/H - LISBONNE - PORTUGAL",
       "etab": "",
       "ville": "Lisboa",
       "pays": "Portugal",
-      "contrat": "Contrat permanent",
+      "contrat": "Contrat temporaire",
       "discipline": "Assistant d'éducation F/H",
       "date": "31/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4573215-assistant-deducation-100-a-temps-plein-fh-lisbonne-portugal-1070-103-lisboa"
     },
     {
       "id": 4573213,
-      "titre": "Assistant d'éducation - F/H - à temps partiel 75% - LISBONNE - PORTUGAL",
+      "titre": "Assistant d'éducation - F/H - Temps partiel 75% - LISBONNE - PORTUGAL",
       "etab": "",
       "ville": "Lisboa",
       "pays": "Portugal",
       "contrat": "Contrat temporaire",
       "discipline": "Assistant d'éducation F/H",
       "date": "31/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4573213-assistant-deducation-fh-a-temps-partiel-75-lisbonne-portugal-1070-103-lisboa"
+      "url": "https://talents.aefe.fr/fr/annonce/4573213-assistant-deducation-fh-temps-partiel-75-lisbonne-portugal-1070-103-lisboa"
     },
     {
       "id": 4572411,
@@ -48,25 +92,25 @@
     },
     {
       "id": 4571287,
-      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
+      "titre": "Professeur du Second Degré Sciences de la Vie et de la Terre F/H - BAMAKO - MALI",
       "etab": "",
       "ville": "Bamako",
-      "pays": "",
+      "pays": "Mali",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "29/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4571287-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-bamako"
+      "url": "https://talents.aefe.fr/fr/annonce/4571287-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-bamako-mali-bamako"
     },
     {
       "id": 4571163,
-      "titre": "Professeur du Second Degré",
+      "titre": "Professeur du Second Degré F/H - BAMAKO - MALI",
       "etab": "",
       "ville": "Bamako",
-      "pays": "",
+      "pays": "Mali",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de technologie F/H",
       "date": "29/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4571163-professeur-du-second-degre-bamako"
+      "url": "https://talents.aefe.fr/fr/annonce/4571163-professeur-du-second-degre-fh-bamako-mali-bamako"
     },
     {
       "id": 4570429,
@@ -256,39 +300,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4565051-professeur-de-mathematiques-second-degre-fh-prague-republique-tcheque-hlavni-mesto-praha"
     },
     {
-      "id": 4564617,
-      "titre": "Professeur des Écoles Remplaçant - F/H - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "25/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4564617-professeur-des-ecoles-remplacant-fh-dakar-senegal-dakar"
-    },
-    {
-      "id": 4564599,
-      "titre": "Professeur des écoles F/H - Lycée français Jean Mermoz - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "25/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4564599-professeur-des-ecoles-fh-lycee-francais-jean-mermoz-dakar-senegal-dakar"
-    },
-    {
-      "id": 4564565,
-      "titre": "Professeur Lettres Modernes - F/H - Remplacement - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "25/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4564565-professeur-lettres-modernes-fh-remplacement-dakar-senegal-dakar"
-    },
-    {
       "id": 4562811,
       "titre": "Assistant d'Education - Second degré - ALEXANDRIE - EGYPTE",
       "etab": "",
@@ -397,17 +408,6 @@
       "discipline": "Professeur d’arabe F/H",
       "date": "20/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4556833-professeur-du-second-degre-enseignement-de-la-langue-arabe-tunis-tunisie-1002-tunis"
-    },
-    {
-      "id": 4555797,
-      "titre": "Professeur du Second Degré - Anglais - F/H - BUDAPEST - HONGRIE",
-      "etab": "",
-      "ville": "Budapest",
-      "pays": "Hongrie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "20/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4555797-professeur-du-second-degre-anglais-fh-budapest-hongrie-1029-budapest"
     },
     {
       "id": 4554605,
@@ -1220,7 +1220,7 @@
       "pays": "Royaume-Uni",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "07/07/2026",
+      "date": "01/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4488361-enseignants-suppleants-qualifies-du-1er-degre-fh-londres-royaume-uni-greater-london"
     },
     {
@@ -1310,39 +1310,6 @@
       "discipline": "Secrétaire / assistant F/H",
       "date": "06/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4484605-gestionnaire-financier-fh-munich-allemagne-81373-munchen"
-    },
-    {
-      "id": 4483383,
-      "titre": "Professeur d'EPS - F/H - BRAZAVILLE - REPUBLIQUE DU CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "Congo-Brazzaville",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "03/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4483383-professeur-deps-fh-brazaville-republique-du-congo-brazzaville"
-    },
-    {
-      "id": 4482215,
-      "titre": "Professeur du Second Degré - EPS - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "03/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4482215-professeur-du-second-degre-eps-fh-tunis-tunisie-1002-tunis"
-    },
-    {
-      "id": 4481895,
-      "titre": "Professeur du Second Degré en ANGLAIS - F/H - BRAZZAVILLE - CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "03/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4481895-professeur-du-second-degre-en-anglais-fh-brazzaville-congo-brazzaville"
     },
     {
       "id": 4473997,
@@ -1445,7 +1412,7 @@
     },
     {
       "id": 4367931,
-      "titre": "Professeur du Second Degré - Lettres et histoire géographie F/H - Panama",
+      "titre": "Professeur du Second Degré Lettres et histoire géographie F/H - PANAMA",
       "etab": "",
       "ville": "Provincia de Panamá Oeste",
       "pays": "Panama",
@@ -1508,17 +1475,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "10/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4308081-professeur-de-physique-chimie-fh-lycee-victor-hugo-francfort-allemagne-60488-frankfurt-am-main"
-    },
-    {
-      "id": 4285711,
-      "titre": "Professeur de Français/Histoire Géographie - F/H - NADOR - MAROC",
-      "etab": "",
-      "ville": "Nador",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "30/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4285711-professeur-de-francaishistoire-geographie-fh-nador-maroc-nador"
     },
     {
       "id": 4285423,
