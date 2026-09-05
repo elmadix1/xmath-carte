@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-04 19:18",
+  "updated": "2026-09-05 08:48",
   "total": 169,
   "offers": [
+    {
+      "id": 4583509,
+      "titre": "Professeur de SES - F/H - Lycée Léon l'Africain - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "05/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4583509-professeur-de-ses-fh-lycee-leon-lafricain-casablanca-maroc-20250-casablanca"
+    },
     {
       "id": 4583099,
       "titre": "Professeur du Second Degré - Physique Chimie F/H",
@@ -19,7 +30,7 @@
       "etab": "",
       "ville": "Lisboa",
       "pays": "Portugal",
-      "contrat": "Contrat permanent",
+      "contrat": "Contrat temporaire",
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "04/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4583081-professeur-2nd-degre-susceptible-vacant-eps-fh-100-lisbonne-portugal-1070-103-lisboa"
@@ -1343,17 +1354,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "07/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4487859-enseignant-specialise-cappei-fh-lisbonne-portugal-1350-164-lisboa"
-    },
-    {
-      "id": 4486875,
-      "titre": "Professeur du Second Degré - Philosophie F/H - Tunis - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "",
-      "discipline": "",
-      "date": "07/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4486875-professeur-du-second-degre-philosophie-fh-tunis-tunisie-1002-tunis"
     },
     {
       "id": 4484605,
