@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-05 08:48",
-  "total": 169,
+  "updated": "2026-09-05 18:48",
+  "total": 167,
   "offers": [
+    {
+      "id": 4583767,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Houmt Souk",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "05/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4583767-professeur-du-second-degre-lettres-modernes-fh-4180-houmt-souk"
+    },
     {
       "id": 4583509,
       "titre": "Professeur de SES - F/H - Lycée Léon l'Africain - CASABLANCA - MAROC",
@@ -1345,17 +1356,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4488361-enseignants-suppleants-qualifies-du-1er-degre-fh-londres-royaume-uni-greater-london"
     },
     {
-      "id": 4487859,
-      "titre": "Enseignant spécialisé - CAPPEI - F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4487859-enseignant-specialise-cappei-fh-lisbonne-portugal-1350-164-lisboa"
-    },
-    {
       "id": 4484605,
       "titre": "Gestionnaire financier F/H - MUNICH - ALLEMAGNE",
       "etab": "",
@@ -1486,17 +1486,6 @@
       "discipline": "Psychologue scolaire F/H",
       "date": "27/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4390911-psychologue-scolaire-hf-ho-chi-minh-ville-vietnam-ho-chi-minh"
-    },
-    {
-      "id": 4371659,
-      "titre": "Professeur des écoles - ANGLOPHONE - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4371659-professeur-des-ecoles-anglophone-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4367931,
@@ -1805,17 +1794,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "27/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3799639-educateurerzieher-personnel-parlant-allemand-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 3506689,
-      "titre": "Professeur d’Anglais (13h) - F/H - Rentrée 2025 - SOFIA - BULGARIE",
-      "etab": "",
-      "ville": "Sofia",
-      "pays": "Bulgarie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "07/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3506689-professeur-d-anglais-13h-fh-rentree-2025-sofia-bulgarie-1700-sofia"
     },
     {
       "id": 3487641,
