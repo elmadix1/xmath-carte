@@ -1,7 +1,29 @@
 {
-  "updated": "2026-09-06 09:09",
+  "updated": "2026-09-06 18:51",
   "total": 165,
   "offers": [
+    {
+      "id": 4583903,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "etab": "",
+      "ville": "Hurghada",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "06/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4583903-professeur-du-second-degre-physique-chimie-fh-hurghada"
+    },
+    {
+      "id": 4583901,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Hurghada",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "06/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4583901-professeur-du-second-degre-mathematiques-fh-hurghada"
+    },
     {
       "id": 4583767,
       "titre": "Professeur du Second Degré - Lettres Modernes F/H",
@@ -1321,28 +1343,6 @@
       "discipline": "Psychologue scolaire F/H",
       "date": "09/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4491153-psychologue-scolaire-fh-hong-kong-hong-kong-island"
-    },
-    {
-      "id": 4489963,
-      "titre": "CPE/CONSEILLER D'ORIENTATION PSYCHOLOGUE - F/H - BAMAKO - MALI",
-      "etab": "",
-      "ville": "Bamako",
-      "pays": "Mali",
-      "contrat": "CDD terme fixe",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "08/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4489963-cpeconseiller-dorientation-psychologue-fh-bamako-mali-bamako"
-    },
-    {
-      "id": 4489867,
-      "titre": "Professeur HISTOIRE-GEOGRAPHIE/EDUCATION MORALE ET CIVIQUE - F/H - BAMAKO - MALI",
-      "etab": "",
-      "ville": "Bamako",
-      "pays": "Mali",
-      "contrat": "CDD terme fixe",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "08/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4489867-professeur-histoire-geographieeducation-morale-et-civique-fh-bamako-mali-bamako"
     },
     {
       "id": 4488361,
