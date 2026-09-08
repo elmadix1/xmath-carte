@@ -1,50 +1,94 @@
 {
-  "updated": "2026-09-08 09:22",
-  "total": 170,
+  "updated": "2026-09-08 19:45",
+  "total": 168,
   "offers": [
     {
+      "id": 4588619,
+      "titre": "Auxiliaire de Vie Scolaire F/H - Remplacement congé maternité",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "08/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4588619-auxiliaire-de-vie-scolaire-fh-remplacement-conge-maternite-dakar"
+    },
+    {
+      "id": 4588613,
+      "titre": "Auxiliaire de Vie Scolaire F/H - Lycée français Jean MERMOZ - DAKAR - SENEGAL",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "Sénégal",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "08/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4588613-auxiliaire-de-vie-scolaire-fh-lycee-francais-jean-mermoz-dakar-senegal-dakar"
+    },
+    {
+      "id": 4588417,
+      "titre": "Professeur du Second Degré - TECHNOLOGIE - SNT F/H - Le Caire Egypte Voltaire",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
+      "date": "08/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4588417-professeur-du-second-degre-technologie-snt-fh-le-caire-egypte-voltaire-cairo"
+    },
+    {
+      "id": 4586987,
+      "titre": "Enseignants du 1er degré (H/F)-Ecoles primaire de l'ERT- EGD- Tunis-TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "08/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4586987-enseignants-du-1er-degre-hf-ecoles-primaire-de-lert-egd-tunis-tunisie-1082-tunis"
+    },
+    {
       "id": 4586355,
-      "titre": "Professeur de SVT - collège/lycée - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "titre": "Professeur de SVT - collège-lycée - F/H - ADDIS-ABEBA - ETHIOPIE",
       "etab": "",
       "ville": "Addis-Abeba",
       "pays": "Éthiopie",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "08/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4586355-professeur-de-svt-collegelycee-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+      "url": "https://talents.aefe.fr/fr/annonce/4586355-professeur-de-svt-college-lycee-fh-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4586295,
-      "titre": "Psychologue Scolaire F/H",
+      "titre": "Psychologue Scolaire F/H - QINGPU - CHINE",
       "etab": "",
       "ville": "Shanghai",
-      "pays": "",
+      "pays": "Chine",
       "contrat": "Contrat temporaire",
       "discipline": "Psychologue scolaire F/H",
       "date": "08/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4586295-psychologue-scolaire-fh-shanghai"
+      "url": "https://talents.aefe.fr/fr/annonce/4586295-psychologue-scolaire-fh-qingpu-chine-shanghai"
     },
     {
       "id": 4586251,
-      "titre": "Professeur.e de technique cinématographique 2nd degré-ARGENTINE-Buenos Aires",
+      "titre": "Professeur de technique cinématographique F/H - BUENOS AIRES - ARGENTINE",
       "etab": "",
       "ville": "BAG",
       "pays": "Argentine",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "07/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4586251-professeur-e-de-technique-cinematographique-2nd-degre-argentine-buenos-aires-c1428-bag"
+      "url": "https://talents.aefe.fr/fr/annonce/4586251-professeur-de-technique-cinematographique-fh-buenos-aires-argentine-c1428-bag"
     },
     {
       "id": 4586227,
-      "titre": "Professeur.e des écoles F/H - BUENOS AIRES - ARGENTINE",
+      "titre": "Professeur des écoles F/H - BUENOS AIRES - ARGENTINE",
       "etab": "",
       "ville": "BAG",
       "pays": "Argentine",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "07/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4586227-professeur-e-des-ecoles-fh-buenos-aires-argentine-c1428-bag"
+      "url": "https://talents.aefe.fr/fr/annonce/4586227-professeur-des-ecoles-fh-buenos-aires-argentine-c1428-bag"
     },
     {
       "id": 4584927,
@@ -597,17 +641,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4562811-assistant-deducation-second-degre-alexandrie-egypte-alexandria"
     },
     {
-      "id": 4562455,
-      "titre": "Professeur du Second Degré - Histoire Géo - F/H - Remplacement - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "24/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4562455-professeur-du-second-degre-histoire-geo-fh-remplacement-dakar-senegal-dakar"
-    },
-    {
       "id": 4561707,
       "titre": "Professeur d'allemand F/H - HAMBOURG - ALLEMAGNE",
       "etab": "",
@@ -793,17 +826,6 @@
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "12/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4544689-conseiller-principal-deducation-fh-munich-allemagne-81373-munchen"
-    },
-    {
-      "id": 4544343,
-      "titre": "Professeur du Second Degré - SVT - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
-      "date": "12/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4544343-professeur-du-second-degre-svt-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4543605,
@@ -1015,17 +1037,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4517469-professeur-des-ecoles-fh-amman-jordanie-amman"
     },
     {
-      "id": 4516517,
-      "titre": "Professeur du Second Degré - Espagnol - F/H - Remplacement - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’espagnol F/H",
-      "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4516517-professeur-du-second-degre-espagnol-fh-remplacement-dakar-senegal-dakar"
-    },
-    {
       "id": 4516087,
       "titre": "Enseignant d'espagnol F/H - ABIDJAN - COTE D'IVOIRE",
       "etab": "",
@@ -1189,17 +1200,6 @@
       "discipline": "Assistant ressources humaines F/H",
       "date": "20/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4507185-assistant-rh-fh-rabat-maroc-rabat"
-    },
-    {
-      "id": 4507179,
-      "titre": "Technicien de laboratoire F/H - Groupe Scolaire Jacques Chirac - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Technicien de laboratoire F/H",
-      "date": "20/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4507179-technicien-de-laboratoire-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
     },
     {
       "id": 4506705,
@@ -1554,17 +1554,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4314973-chef-detablissement-rentree-2026-2027-fh-bamako-mali-bamako"
     },
     {
-      "id": 4308081,
-      "titre": "Professeur de physique chimie - F/H - Lycée Victor Hugo - FRANCFORT - ALLEMAGNE",
-      "etab": "",
-      "ville": "Frankfurt am Main",
-      "pays": "Allemagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "10/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4308081-professeur-de-physique-chimie-fh-lycee-victor-hugo-francfort-allemagne-60488-frankfurt-am-main"
-    },
-    {
       "id": 4285423,
       "titre": "Professeur de Mathématiques et Physique-Chimie - F/H - NADOR - MAROC",
       "etab": "",
@@ -1607,17 +1596,6 @@
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "28/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4258505-professeur-de-sciences-numeriques-et-technologie-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4233163,
-      "titre": "Professeur d'Arabe maternelle-élémentaire - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’arabe F/H",
-      "date": "10/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4233163-professeur-darabe-maternelle-elementaire-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4225869,
