@@ -1,8 +1,36 @@
 {
-  "updated": "2026-09-11 09:21",
-  "total": 20,
+  "updated": "2026-09-11 19:26",
+  "total": 23,
   "source": "MLF Monde",
   "offers": [
+    {
+      "id": 3736,
+      "titre": "Professeur anglais primaire collège Ben Guerir",
+      "etab": "",
+      "ville": "Marrakech",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/06/2026",
+      "date_limite": "12/07/2026",
+      "date_prise": "01/09/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3736_offre-emploi-professeur-anglais-primaire-college-ben-guerir.html"
+    },
+    {
+      "id": 3742,
+      "titre": "Professeur de Mathématiques 2026-2027",
+      "etab": "",
+      "ville": "Boston",
+      "pays": "États-Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "31/07/2026",
+      "date_limite": "15/07/2026",
+      "date_prise": "24/08/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3742_offre-emploi-professeur-de-mathematiques-20262027.html"
+    },
     {
       "id": 3737,
       "titre": "Prosseur(e) des écoles Ben Guerir. Poste susceptible d'être vacant rentrée sept 2026",
@@ -46,32 +74,18 @@
       "url": "https://recrutement.mlfmonde.org/3761_offre-emploi-professeur-de-lettres.html"
     },
     {
-      "id": 3752,
-      "titre": "Proviseur(e)",
+      "id": 3750,
+      "titre": "Chef(fe) d’établissement",
       "etab": "",
-      "ville": "Florence",
-      "pays": "Italie",
+      "ville": "Casablanca",
+      "pays": "Maroc",
       "contrat": "",
       "discipline": "",
       "date": "03/09/2026",
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3752_offre-emploi-proviseure.html"
-    },
-    {
-      "id": 3743,
-      "titre": "Proviseur(e) Adjoint(e)",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "",
-      "discipline": "",
-      "date": "02/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3743_offre-emploi-proviseure-adjointe.html"
+      "url": "https://recrutement.mlfmonde.org/3750_offre-emploi-cheffe-detablissement.html"
     },
     {
       "id": 3759,
@@ -172,18 +186,18 @@
       "url": "https://recrutement.mlfmonde.org/3753_offre-emploi-cheffe-detablissement.html"
     },
     {
-      "id": 3744,
-      "titre": "Directeur(trice) d'école élémentaire",
+      "id": 3752,
+      "titre": "Proviseur(e)",
       "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
+      "ville": "Florence",
+      "pays": "Italie",
       "contrat": "",
       "discipline": "",
-      "date": "02/09/2026",
+      "date": "03/09/2026",
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3744_offre-emploi-directeurtrice-decole-elementaire.html"
+      "url": "https://recrutement.mlfmonde.org/3752_offre-emploi-proviseure.html"
     },
     {
       "id": 3751,
@@ -200,22 +214,8 @@
       "url": "https://recrutement.mlfmonde.org/3751_offre-emploi-cheffe-detablissement.html"
     },
     {
-      "id": 3750,
-      "titre": "Chef(fe) d’établissement",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3750_offre-emploi-cheffe-detablissement.html"
-    },
-    {
       "id": 3749,
-      "titre": "Directeur régional - Drafin",
+      "titre": "Directeur(trice) régional(e) - Drafin",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
@@ -225,7 +225,7 @@
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3749_offre-emploi-directeur-regional-drafin.html"
+      "url": "https://recrutement.mlfmonde.org/3749_offre-emploi-directeurtrice-regionale-drafin.html"
     },
     {
       "id": 3748,
@@ -257,7 +257,7 @@
     },
     {
       "id": 3746,
-      "titre": "Directeur(trice) régional adjoint Drafin",
+      "titre": "Directeur(trice) régional(e) adjoint(e) - Drafin",
       "etab": "",
       "ville": "Beyrouth",
       "pays": "Liban",
@@ -267,7 +267,7 @@
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3746_offre-emploi-directeurtrice-regional-adjoint-drafin.html"
+      "url": "https://recrutement.mlfmonde.org/3746_offre-emploi-directeurtrice-regionale-adjointe-drafin.html"
     },
     {
       "id": 3745,
@@ -282,6 +282,48 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3745_offre-emploi-directeurtrice-administratif-et-financier.html"
+    },
+    {
+      "id": 3744,
+      "titre": "Directeur(trice) d'école élémentaire",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "02/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3744_offre-emploi-directeurtrice-decole-elementaire.html"
+    },
+    {
+      "id": 3743,
+      "titre": "Proviseur(e) Adjoint(e)",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "02/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3743_offre-emploi-proviseure-adjointe.html"
+    },
+    {
+      "id": 3762,
+      "titre": "Remplacement en CDD – Classe de CM1/CM2",
+      "etab": "",
+      "ville": "El Jadida",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "11/09/2026",
+      "date_limite": "23/04/2027",
+      "date_prise": "02/11/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3762_offre-emploi-remplacement-en-cdd-classe-de-cm1cm2.html"
     }
   ]
 }

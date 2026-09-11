@@ -1,7 +1,29 @@
 {
-  "updated": "2026-09-11 09:21",
-  "total": 164,
+  "updated": "2026-09-11 19:26",
+  "total": 165,
   "offers": [
+    {
+      "id": 4595079,
+      "titre": "Professeur des écoles - F/H - HAMBOURG - ALLEMAGNE",
+      "etab": "",
+      "ville": "Hamburg",
+      "pays": "Allemagne",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "11/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4595079-professeur-des-ecoles-fh-hambourg-allemagne-22529-hamburg"
+    },
+    {
+      "id": 4594375,
+      "titre": "Professeur Documentaliste F/H",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "11/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4594375-professeur-documentaliste-fh-1001-tunis"
+    },
     {
       "id": 4592927,
       "titre": "Conseiller Principal d'Education H/F - TUNIS - TUNISIE",
@@ -1290,17 +1312,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4498163-conseiller-principal-d-education-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4497069,
-      "titre": "Mission de volontaire du service civique F/H - BRUXELLES - BELGIQUE",
-      "etab": "",
-      "ville": "Uccle",
-      "pays": "Belgique",
-      "contrat": "Contrat de service civique",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "13/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4497069-mission-de-volontaire-du-service-civique-fh-bruxelles-belgique-1180-uccle"
-    },
-    {
       "id": 4489867,
       "titre": "Professeur Histoire-Géo/Education morale et civique - F/H - BAMAKO - MALI",
       "etab": "",
@@ -1664,6 +1675,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4112253-professeur-darabe-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
     },
     {
+      "id": 4083445,
+      "titre": "Professeur d'éducation musicale - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation musicale F/H",
+      "date": "11/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4083445-professeur-deducation-musicale-fh-casablanca-maroc-casablanca"
+    },
+    {
       "id": 4076721,
       "titre": "Professeur des écoles - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -1728,17 +1750,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "31/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4066597-professeurs-dhistoire-geographie-fh-en-arabe-et-francais-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 3841871,
-      "titre": "Mission de volontariat du service civique F/H - BRUXELLES - BELGIQUE",
-      "etab": "",
-      "ville": "Uccle",
-      "pays": "Belgique",
-      "contrat": "Contrat de service civique",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "13/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3841871-mission-de-volontariat-du-service-civique-fh-bruxelles-belgique-1180-uccle"
     },
     {
       "id": 3799657,
