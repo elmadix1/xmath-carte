@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-12 09:02",
-  "total": 166,
+  "updated": "2026-09-12 18:57",
+  "total": 165,
   "offers": [
+    {
+      "id": 4595789,
+      "titre": "URGENT - PROFESSEUR DE FRANCAIS-NIVEAU COLLEGE",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "12/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4595789-urgent-professeur-de-francais-niveau-college-bp-157-abidjan"
+    },
     {
       "id": 4595573,
       "titre": "Assistant de direction H/F",
@@ -1312,17 +1323,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4498951-professeur-remplacant-de-svt-fh-lycee-franco-libanais-dubai-e-a-u-dubai"
     },
     {
-      "id": 4498163,
-      "titre": "Conseiller principal d’éducation - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "14/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4498163-conseiller-principal-d-education-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4489867,
       "titre": "Professeur Histoire-Géo/Education morale et civique - F/H - BAMAKO - MALI",
       "etab": "",
@@ -1794,17 +1794,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "28/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3487641-professeur-de-physique-chimie-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 3486827,
-      "titre": "Professeur du Second Degré Sciences - F/H - SARAJEVO - BOSNIE-HERZÉGOVINE",
-      "etab": "",
-      "ville": "Sarajevo",
-      "pays": "Bosnie-Herzégovine",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
-      "date": "14/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3486827-professeur-du-second-degre-sciences-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
     },
     {
       "id": 3486789,
