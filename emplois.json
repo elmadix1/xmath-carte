@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-13 19:13",
-  "total": 162,
+  "updated": "2026-09-14 10:19",
+  "total": 158,
   "offers": [
+    {
+      "id": 4596645,
+      "titre": "Adjoint(e) d’éducation (H/F) - EGD - LYCEE GUSTAVE FLAUBERT - LA MARSA - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "14/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4596645-adjointe-d-education-hf-egd-lycee-gustave-flaubert-la-marsa-tunisie-2078-la-marsa"
+    },
     {
       "id": 4595789,
       "titre": "URGENT - PROFESSEUR DE FRANCAIS-NIVEAU COLLEGE",
@@ -190,28 +201,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4588777-professeur-du-second-degre-maths-technologie-fh-taipei-taiwan-taipei-city"
     },
     {
-      "id": 4588619,
-      "titre": "Auxiliaire de Vie Scolaire F/H - Remplacement congé maternité - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "08/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4588619-auxiliaire-de-vie-scolaire-fh-remplacement-conge-maternite-dakar-senegal-dakar"
-    },
-    {
-      "id": 4588613,
-      "titre": "Auxiliaire de Vie Scolaire F/H - Lycée français Jean MERMOZ - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "08/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4588613-auxiliaire-de-vie-scolaire-fh-lycee-francais-jean-mermoz-dakar-senegal-dakar"
-    },
-    {
       "id": 4588417,
       "titre": "Professeur du Second Degré en TECHNOLOGIE-SNT F/H - LE CAIRE - EGYPTE",
       "etab": "",
@@ -364,17 +353,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "04/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4583099-professeur-du-second-degre-physique-chimie-fh-pereira-colombie-pereira"
-    },
-    {
-      "id": 4583081,
-      "titre": "Professeur 2nd Degré - EPS - F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "04/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4583081-professeur-2nd-degre-eps-fh-lisbonne-portugal-1070-103-lisboa"
     },
     {
       "id": 4582815,
@@ -652,17 +630,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4570429-secretaire-fh-asuncion-paraguay-asuncion"
     },
     {
-      "id": 4570383,
-      "titre": "Professeur d'anglais vacataire F/H - Lycée Descartes - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "28/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4570383-professeur-danglais-vacataire-fh-lycee-descartes-rabat-maroc-rabat"
-    },
-    {
       "id": 4569011,
       "titre": "Professeur du Second Degré - Lettres-FLE - F/H - MANILLE - PHILIPPINES",
       "etab": "",
@@ -749,17 +716,6 @@
       "discipline": "Assistant d'éducation F/H",
       "date": "25/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4562811-assistant-deducation-second-degre-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4561707,
-      "titre": "Professeur d'allemand F/H - HAMBOURG - ALLEMAGNE",
-      "etab": "",
-      "ville": "Hamburg",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "24/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4561707-professeur-dallemand-fh-hambourg-allemagne-22529-hamburg"
     },
     {
       "id": 4561375,
