@@ -1,7 +1,62 @@
 {
-  "updated": "2026-09-14 10:19",
-  "total": 158,
+  "updated": "2026-09-14 20:46",
+  "total": 159,
   "offers": [
+    {
+      "id": 4598391,
+      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "etab": "",
+      "ville": "Dakar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "14/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4598391-professeur-du-second-degre-education-physique-et-sportive-fh-dakar"
+    },
+    {
+      "id": 4598385,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Lagos",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "14/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4598385-professeur-du-second-degre-dhistoire-geographie-fh-106104-lagos"
+    },
+    {
+      "id": 4598367,
+      "titre": "Conseiller(ère) Principal(e) d'Éducation (CPE)",
+      "etab": "",
+      "ville": "Cuenca",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "14/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4598367-conseillerere-principale-deducation-cpe-cuenca"
+    },
+    {
+      "id": 4597503,
+      "titre": "Directeur du primaire F/H - remplacement - AMSTERDAM - PAYS BAS",
+      "etab": "",
+      "ville": "Amsterdam",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Directeur du primaire F/H",
+      "date": "14/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4597503-directeur-du-primaire-fh-remplacement-amsterdam-pays-bas-1077-me-amsterdam"
+    },
+    {
+      "id": 4597331,
+      "titre": "Secrétaire pédagogique primaire (H/F) - CDI 32h",
+      "etab": "",
+      "ville": "Luxembourg",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Secrétaire / assistant F/H",
+      "date": "14/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4597331-secretaire-pedagogique-primaire-hf-cdi-32h-luxembourg"
+    },
     {
       "id": 4596645,
       "titre": "Adjoint(e) d’éducation (H/F) - EGD - LYCEE GUSTAVE FLAUBERT - LA MARSA - TUNISIE",
@@ -122,17 +177,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "10/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4590897-professeur-despagnol-remplacant-fh-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4590839,
-      "titre": "Professeur de Lettres Modernes F/H - LAS TERRENAS - REPUBLIQUE DOMINICAINE",
-      "etab": "",
-      "ville": "Las Terrenas",
-      "pays": "Rép. dominicaine",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "09/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4590839-professeur-de-lettres-modernes-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
     },
     {
       "id": 4590731,
@@ -452,17 +496,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "04/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4580741-professeur-danglais-lva-du-second-degre-fh-bangkok-thailande-10310-bangkok"
-    },
-    {
-      "id": 4580667,
-      "titre": "Professeur d'Arts Plastiques 1er et 2e degrés F/H - SAN DIEGO - ETATS-UNIS",
-      "etab": "",
-      "ville": "San Diego",
-      "pays": "États-Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’arts plastiques F/H",
-      "date": "03/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4580667-professeur-darts-plastiques-1er-et-2e-degres-fh-san-diego-etats-unis-92037-san-diego"
     },
     {
       "id": 4580573,
@@ -1004,17 +1037,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4529311-professeur-et-tuteur-cned-de-mathematiques-et-sciences-fh-colombo-sri-lanka-colombo"
     },
     {
-      "id": 4528751,
-      "titre": "Professeur du Second Degré - Physique Chimie F/H",
-      "etab": "",
-      "ville": "Villanueva de la Cañada",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "31/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4528751-professeur-du-second-degre-physique-chimie-fh-28691-villanueva-de-la-canada"
-    },
-    {
       "id": 4526903,
       "titre": "Professeur de Sciences Numériques et Technologie F/H - TEGUCIGALPA - HONDURAS",
       "etab": "",
@@ -1530,17 +1552,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "07/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4196309-professeur-danglais-en-maternelle-et-elementaire-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4174615,
-      "titre": "Professeur du Second Degré Lettres Modernes 2026/2028 - F/H - PEREIRA - COLOMBIE",
-      "etab": "",
-      "ville": "Risaralda",
-      "pays": "Colombie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "23/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4174615-professeur-du-second-degre-lettres-modernes-20262028-fh-pereira-colombie-pereira"
     },
     {
       "id": 4171805,
