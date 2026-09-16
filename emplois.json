@@ -1,7 +1,62 @@
 {
-  "updated": "2026-09-16 09:41",
-  "total": 160,
+  "updated": "2026-09-16 19:53",
+  "total": 158,
   "offers": [
+    {
+      "id": 4602323,
+      "titre": "Professeur du Second Degré - SVT F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "16/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4602323-professeur-du-second-degre-svt-fh-lfa-alexandrie-egypte-alexandria"
+    },
+    {
+      "id": 4602087,
+      "titre": "Enseignant(e) - tchèque langue maternelle et langue étrangère -PRAGUE",
+      "etab": "",
+      "ville": "Hlavní město Praha",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4602087-enseignante-tcheque-langue-maternelle-et-langue-etrangere-prague-hlavni-mesto-praha"
+    },
+    {
+      "id": 4601999,
+      "titre": "Professeur(e) remplaçant(e) d'arabe",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’arabe F/H",
+      "date": "16/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4601999-professeure-remplacante-darabe-3062-sfax"
+    },
+    {
+      "id": 4601731,
+      "titre": "Enseignant Lettres collège (H/F) - CDD temps plein",
+      "etab": "",
+      "ville": "Luxembourg",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "16/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4601731-enseignant-lettres-college-hf-cdd-temps-plein-luxembourg"
+    },
+    {
+      "id": 4601339,
+      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "16/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4601339-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
+    },
     {
       "id": 4600881,
       "titre": "Professeur du Second Degré d'Histoire Géographie DNL F/H - AMSTERDAM - PAYS-BAS",
@@ -15,18 +70,18 @@
     },
     {
       "id": 4600371,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - LAS TERRENAS - REPUBLIQUE DOMINICAINE",
       "etab": "",
       "ville": "Las Terrenas",
-      "pays": "",
+      "pays": "Rép. dominicaine",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "15/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4600371-professeur-des-ecoles-fh-32000-las-terrenas"
+      "url": "https://talents.aefe.fr/fr/annonce/4600371-professeur-des-ecoles-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
     },
     {
       "id": 4600311,
-      "titre": "Professeur du Second Degré - Portugais - F/H - LISBONNE PORTUGAL",
+      "titre": "Professeur du Second Degré - Portugais - F/H - LISBONNE - PORTUGAL",
       "etab": "",
       "ville": "Lisboa",
       "pays": "Portugal",
@@ -37,7 +92,7 @@
     },
     {
       "id": 4600301,
-      "titre": "Professeur du 2nd degré - Anglais - F/H - LISBONNE PORTUGAL",
+      "titre": "Professeur du 2nd degré - Anglais - F/H - LISBONNE - PORTUGAL",
       "etab": "",
       "ville": "Lisboa",
       "pays": "Portugal",
@@ -59,25 +114,25 @@
     },
     {
       "id": 4600205,
-      "titre": "Professeur Remplaçant du Second Degré - Physique Chimie F/H - Lycée PMF - Tunis",
+      "titre": "Professeur Remplaçant du Second Degré - Physique Chimie F/H - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
-      "pays": "",
+      "pays": "Tunisie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de physique chimie F/H",
       "date": "15/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4600205-professeur-remplacant-du-second-degre-physique-chimie-fh-lycee-pmf-tunis-1082-tunis"
+      "url": "https://talents.aefe.fr/fr/annonce/4600205-professeur-remplacant-du-second-degre-physique-chimie-fh-tunis-tunisie-1082-tunis"
     },
     {
       "id": 4599659,
-      "titre": "URGENT- Professeur(e) de Lettres et Philosophie",
+      "titre": "URGENT- Professeur de Lettres et Philosophie F/H - CUENCA - EQUATEUR",
       "etab": "",
       "ville": "Cuenca",
-      "pays": "",
+      "pays": "Équateur",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de lettres classiques F/H",
       "date": "15/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4599659-urgent-professeure-de-lettres-et-philosophie-cuenca"
+      "url": "https://talents.aefe.fr/fr/annonce/4599659-urgent-professeur-de-lettres-et-philosophie-fh-cuenca-equateur-cuenca"
     },
     {
       "id": 4599315,
@@ -92,14 +147,14 @@
     },
     {
       "id": 4599255,
-      "titre": "Gestionnaire au GSU Balzac - H/F - Novembre 2026- GSU Balzac - Kénitra -Maroc",
+      "titre": "Gestionnaire au GSU Balzac - H/F - Novembre 2026 - KENITRA - MAROC",
       "etab": "",
       "ville": "Rabat",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Gestionnaire matériel F/H",
       "date": "15/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4599255-gestionnaire-au-gsu-balzac-hf-novembre-2026-gsu-balzac-kenitra-maroc-rabat"
+      "url": "https://talents.aefe.fr/fr/annonce/4599255-gestionnaire-au-gsu-balzac-hf-novembre-2026-kenitra-maroc-rabat"
     },
     {
       "id": 4598391,
@@ -839,39 +894,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4562811-assistant-deducation-second-degre-alexandrie-egypte-alexandria"
     },
     {
-      "id": 4561375,
-      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4561375-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
-    },
-    {
-      "id": 4561365,
-      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "24/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4561365-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
-    },
-    {
-      "id": 4560333,
-      "titre": "Professeur du Second Degré - SVT - F/H - ALEXANDRIE - EGYPTE",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "23/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4560333-professeur-du-second-degre-svt-fh-alexandrie-egypte-alexandria"
-    },
-    {
       "id": 4556833,
       "titre": "Professeur du Second Degré - Enseignement de la langue arabe - TUNIS - TUNISIE",
       "etab": "",
@@ -903,17 +925,6 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "18/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4553775-professeur-du-second-degre-dhistoire-geographie-fh-rio-de-janeiro-bresil-rio-de-janeiro"
-    },
-    {
-      "id": 4551851,
-      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "18/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4551851-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
     },
     {
       "id": 4551463,
@@ -1048,17 +1059,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4540245-conseiller-principal-deducation-fh-sfax-tunisie-sakiet-ezzit"
     },
     {
-      "id": 4539985,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H - ENVIGADO - COLOMBIE",
-      "etab": "",
-      "ville": "Envigado",
-      "pays": "Colombie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "09/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4539985-professeur-du-second-degre-dhistoire-geographie-fh-envigado-colombie-055427-envigado"
-    },
-    {
       "id": 4539625,
       "titre": "Proviseur H/F - OUAGADOUGOU - BURKINA FASO",
       "etab": "",
@@ -1189,17 +1189,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "25/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4517469-professeur-des-ecoles-fh-amman-jordanie-amman"
-    },
-    {
-      "id": 4516087,
-      "titre": "Enseignant d'espagnol F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’espagnol F/H",
-      "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4516087-enseignant-despagnol-fh-abidjan-cote-divoire-abidjan"
     },
     {
       "id": 4515717,
@@ -1398,17 +1387,6 @@
       "discipline": "Secrétaire / assistant F/H",
       "date": "02/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4484605-gestionnaire-financier-fh-munich-allemagne-81373-munchen"
-    },
-    {
-      "id": 4473997,
-      "titre": "Professeur des écoles F/H - CONAKRY - GUINEE",
-      "etab": "",
-      "ville": "Conakry",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "27/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4473997-professeur-des-ecoles-fh-conakry-guinee-conakry"
     },
     {
       "id": 4469333,
