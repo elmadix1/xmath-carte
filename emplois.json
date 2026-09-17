@@ -1,7 +1,29 @@
 {
-  "updated": "2026-09-16 19:53",
-  "total": 158,
+  "updated": "2026-09-17 09:49",
+  "total": 157,
   "offers": [
+    {
+      "id": 4602435,
+      "titre": "ORTHOPHONISTE SCOLAIRE - PHNOM PENH - CAMBODGE - LYCEE RENE DESCARTES",
+      "etab": "",
+      "ville": "Phnom Penh",
+      "pays": "Cambodge",
+      "contrat": "CDD terme fixe",
+      "discipline": "Orthophoniste scolaire F/H",
+      "date": "17/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4602435-orthophoniste-scolaire-phnom-penh-cambodge-lycee-rene-descartes-phnom-penh"
+    },
+    {
+      "id": 4602391,
+      "titre": "TFS – Direction de l’École secondaire",
+      "etab": "",
+      "ville": "Toronto",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Principal F/H",
+      "date": "16/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4602391-tfs-direction-de-l-ecole-secondaire-m4n-1t7-toronto"
+    },
     {
       "id": 4602323,
       "titre": "Professeur du Second Degré - SVT F/H - LFA (ALEXANDRIE-EGYPTE)",
@@ -740,17 +762,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4579033-enseignant-stagiaire-fh-kinshasa-republique-democratique-du-congo-kinshasa"
     },
     {
-      "id": 4577713,
-      "titre": "Professeur du Second Degré - Mathématiques / P-C - F/H - TANGER - MAROC",
-      "etab": "",
-      "ville": "Tangier",
-      "pays": "Maroc",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "02/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4577713-professeur-du-second-degre-mathematiques-p-c-fh-tanger-maroc-tangier"
-    },
-    {
       "id": 4575679,
       "titre": "Professeur du Second Degré - Mathématiques F/H - CONAKRY - GUINEE",
       "etab": "",
@@ -859,28 +870,6 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "27/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4567177-professeur-du-second-degre-ses-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4566495,
-      "titre": "Professeur du Second Degré - Anglais - F/H - TANGER - MAROC",
-      "etab": "",
-      "ville": "Tangier",
-      "pays": "Maroc",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "26/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4566495-professeur-du-second-degre-anglais-fh-tanger-maroc-tangier"
-    },
-    {
-      "id": 4566417,
-      "titre": "Documentaliste F/H - TANGER - MAROC",
-      "etab": "",
-      "ville": "Tangier",
-      "pays": "Maroc",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "26/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4566417-documentaliste-fh-tanger-maroc-tangier"
     },
     {
       "id": 4562811,
@@ -1422,17 +1411,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4467827-conseiller-dorientation-fh-cotonou-benin-cotonou"
     },
     {
-      "id": 4458985,
-      "titre": "Professeur d'anglais au Second Degré - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "02/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4458985-professeur-danglais-au-second-degre-fh-munich-allemagne-81373-munchen"
-    },
-    {
       "id": 4444353,
       "titre": "Responsable of digital acquisition & growth marketing - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -1464,6 +1442,17 @@
       "discipline": "Assistant de service social F/H",
       "date": "04/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4443931-senco-coordinateur-besoins-educatifs-particuliers-fh-londres-royaume-uni-greater-london"
+    },
+    {
+      "id": 4415431,
+      "titre": "Professeur des écoles - F/H - TACHKENT - OUZBEKISTAN",
+      "etab": "",
+      "ville": "Tachkent",
+      "pays": "Ouzbékistan",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "17/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4415431-professeur-des-ecoles-fh-tachkent-ouzbekistan-tachkent"
     },
     {
       "id": 4399289,
