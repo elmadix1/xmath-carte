@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-17 20:01",
-  "total": 153,
+  "updated": "2026-09-18 09:23",
+  "total": 156,
   "offers": [
+    {
+      "id": 4604727,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Villanueva de la Cañada",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "18/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4604727-professeur-du-second-degre-mathematiques-fh-28691-villanueva-de-la-canada"
+    },
     {
       "id": 4602435,
       "titre": "ORTHOPHONISTE SCOLAIRE - PHNOM PENH - CAMBODGE - LYCEE RENE DESCARTES",
@@ -806,17 +817,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4569011-professeur-du-second-degre-lettres-fle-fh-manille-philippines-paranaque"
     },
     {
-      "id": 4568935,
-      "titre": "Professeur de Lettres Modernes F/H - BARTON - AUSTRALIE",
-      "etab": "",
-      "ville": "Barton",
-      "pays": "Australie",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "28/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4568935-professeur-de-lettres-modernes-fh-barton-australie-2600-barton"
-    },
-    {
       "id": 4568761,
       "titre": "Professeur SVT vacataire F/H - NABEUL - TUNISIE",
       "etab": "",
@@ -848,6 +848,17 @@
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "27/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4567177-professeur-du-second-degre-ses-fh-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4565121,
+      "titre": "Professeur Documentaliste F/H - COTONOU - BENIN",
+      "etab": "",
+      "ville": "Cotonou",
+      "pays": "Bénin",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "18/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4565121-professeur-documentaliste-fh-cotonou-benin-cotonou"
     },
     {
       "id": 4562811,
@@ -1640,6 +1651,28 @@
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "31/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4066597-professeurs-dhistoire-geographie-fh-en-arabe-et-francais-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4041779,
+      "titre": "Surveillant des études (temps partiel) - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "18/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
+    },
+    {
+      "id": 4020099,
+      "titre": "Surveillant de la pause méridienne (temps partiel) - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "18/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,
