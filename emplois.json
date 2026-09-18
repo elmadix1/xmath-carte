@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-18 09:23",
-  "total": 156,
+  "updated": "2026-09-18 19:25",
+  "total": 153,
   "offers": [
+    {
+      "id": 4605847,
+      "titre": "Gestionnaire des Ressources Humaines F/H",
+      "etab": "",
+      "ville": "Brazzaville",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant ressources humaines F/H",
+      "date": "18/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4605847-gestionnaire-des-ressources-humaines-fh-brazzaville"
+    },
     {
       "id": 4604727,
       "titre": "Professeur du Second Degré - Mathématiques F/H",
@@ -111,17 +122,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "15/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4600371-professeur-des-ecoles-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
-    },
-    {
-      "id": 4600311,
-      "titre": "Professeur du Second Degré - Portugais - F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "15/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4600311-professeur-du-second-degre-portugais-fh-lisbonne-portugal-1070-103-lisboa"
     },
     {
       "id": 4600301,
@@ -1114,17 +1114,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4526901-professeur-du-second-degre-lettres-modernes-fh-tegucigalpa-honduras-tegucigalpa"
     },
     {
-      "id": 4520001,
-      "titre": "Prodesseurs des écoles poste en maternelle petite section F/H - NEW DELHI - INDE",
-      "etab": "",
-      "ville": "New Delhi",
-      "pays": "Inde",
-      "contrat": "CDD terme fixe",
-      "discipline": "Professeur des écoles F/H",
-      "date": "27/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4520001-prodesseurs-des-ecoles-poste-en-maternelle-petite-section-fh-new-delhi-inde-110011-new-delhi"
-    },
-    {
       "id": 4518453,
       "titre": "Coordinateur d'élèves à besoins éducatifs particuliers (EBEP) F/H - DUBAI - EAU",
       "etab": "",
@@ -1277,28 +1266,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "20/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4508539-enseignant-danglais-en-maternelle-fh-dakar-senegal-dakar"
-    },
-    {
-      "id": 4507195,
-      "titre": "Infirmier Scolaire F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat temporaire",
-      "discipline": "Infirmier scolaire F/H",
-      "date": "20/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4507195-infirmier-scolaire-fh-rabat-maroc-rabat"
-    },
-    {
-      "id": 4507185,
-      "titre": "Assistant RH F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant ressources humaines F/H",
-      "date": "20/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4507185-assistant-rh-fh-rabat-maroc-rabat"
     },
     {
       "id": 4506705,
@@ -1532,6 +1499,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4266163-professeur-des-ecoles-rentree-2026-fh-sofia-bulgarie-1700-%D1%81%D0%BE%D1%84%D0%B8%D1%8F"
     },
     {
+      "id": 4261171,
+      "titre": "Professeur du Second Degré Lettres Modernes F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "18/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4261171-professeur-du-second-degre-lettres-modernes-fh-tunis-tunisie-1002-tunis"
+    },
+    {
       "id": 4225869,
       "titre": "Infirmier Scolaire F/H - Lycée Français Gustave Eiffel - BUDAPEST - HONGRIE",
       "etab": "",
@@ -1574,17 +1552,6 @@
       "discipline": "Directeur du primaire F/H",
       "date": "24/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4171805-directeur-du-primaire-fh-cuenca-equateur-cuenca"
-    },
-    {
-      "id": 4151917,
-      "titre": "Professeur de lettres modernes - F/H - COTONOU - BENIN",
-      "etab": "",
-      "ville": "Cotonou",
-      "pays": "Bénin",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "20/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4151917-professeur-de-lettres-modernes-fh-cotonou-benin-9087-cotonou"
     },
     {
       "id": 4140125,
