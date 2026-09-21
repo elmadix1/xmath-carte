@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-21 10:23",
-  "total": 147,
+  "updated": "2026-09-21 20:46",
+  "total": 143,
   "offers": [
+    {
+      "id": 4609325,
+      "titre": "Professeur des écoles F/H à temps plein pour remplacement SERBIE-BELGRADE-EFB",
+      "etab": "",
+      "ville": "Београд",
+      "pays": "Serbie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "21/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4609325-professeur-des-ecoles-fh-a-temps-plein-pour-remplacement-serbie-belgrade-efb-%D0%B1%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4"
+    },
     {
       "id": 4607669,
       "titre": "Professeur du Second Degré - EPS F/H - MADRID - ESPAGNE",
@@ -377,17 +388,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4592597-professeur-des-ecoles-fh-monastir-tunisie-monastir"
     },
     {
-      "id": 4592437,
-      "titre": "Professeur d'EPS - F/H - LONDRES - ROYAUME UNI",
-      "etab": "",
-      "ville": "England",
-      "pays": "Royaume-Uni",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "10/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4592437-professeur-deps-fh-londres-royaume-uni-greater-london"
-    },
-    {
       "id": 4591825,
       "titre": "Professeur d'Anglais - 1er degré - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
       "etab": "",
@@ -672,28 +672,6 @@
       "discipline": "Professeur d’espagnol F/H",
       "date": "04/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4581361-enseignant-d-espagnol-et-catalan-fh-barcelone-espagne-08034-barcelona"
-    },
-    {
-      "id": 4581325,
-      "titre": "Professeur du Second Degré EPS F/H - BARCELONE - ESPAGNE",
-      "etab": "",
-      "ville": "Barcelona",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "04/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4581325-professeur-du-second-degre-eps-fh-barcelone-espagne-08034-barcelona"
-    },
-    {
-      "id": 4581293,
-      "titre": "Professeur du Second Degré EPS F/H - BARCELONE - ESPAGNE",
-      "etab": "",
-      "ville": "Barcelona",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "04/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4581293-professeur-du-second-degre-eps-fh-barcelone-espagne-08034-barcelona"
     },
     {
       "id": 4581133,
@@ -1191,17 +1169,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4515291-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-singapore-singapore"
     },
     {
-      "id": 4515079,
-      "titre": "Professeur des écoles F/H - ZAKIA - MEXIQUE",
-      "etab": "",
-      "ville": "Zakia",
-      "pays": "Mexique",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "23/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4515079-professeur-des-ecoles-fh-zakia-mexique-76269-zakia"
-    },
-    {
       "id": 4515063,
       "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1211,17 +1178,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "19/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4515063-professeur-des-ecoles-fh-rio-de-janeiro-bresil-rio-de-janeiro"
-    },
-    {
-      "id": 4514561,
-      "titre": "Professeur des écoles - F/H - CALGARY - CANADA",
-      "etab": "",
-      "ville": "Calgary",
-      "pays": "Canada",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "23/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4514561-professeur-des-ecoles-fh-calgary-canada-t2t-6g2-calgary"
     },
     {
       "id": 4489867,
