@@ -1,7 +1,62 @@
 {
-  "updated": "2026-09-20 19:16",
-  "total": 149,
+  "updated": "2026-09-21 10:23",
+  "total": 147,
   "offers": [
+    {
+      "id": 4607669,
+      "titre": "Professeur du Second Degré - EPS F/H - MADRID - ESPAGNE",
+      "etab": "",
+      "ville": "Madrid",
+      "pays": "Espagne",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "21/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4607669-professeur-du-second-degre-eps-fh-madrid-espagne-28043-madrid"
+    },
+    {
+      "id": 4607635,
+      "titre": "Enseignant de néerlandais langue étrangère - F/H - Amsterdam - PAYS BAS",
+      "etab": "",
+      "ville": "Den Haag",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "21/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4607635-enseignant-de-neerlandais-langue-etrangere-fh-amsterdam-pays-bas-2584-aa-den-haag"
+    },
+    {
+      "id": 4607275,
+      "titre": "Assistant d'Éducation - F/H - KUALA LUMPUR - MALAISIE",
+      "etab": "",
+      "ville": "Kuala Lumpur",
+      "pays": "Malaisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "21/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4607275-assistant-deducation-fh-kuala-lumpur-malaisie-kuala-lumpur"
+    },
+    {
+      "id": 4607273,
+      "titre": "Professeur de SES Sciences Economiques et Sociales - lycée - F/H - DUBAÏ",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "21/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4607273-professeur-de-ses-sciences-economiques-et-sociales-lycee-fh-dubai-dubai"
+    },
+    {
+      "id": 4607271,
+      "titre": "URGENT - Enseignant en Mathématiques - F/H - KUALA LUMPUR - MALAISIE",
+      "etab": "",
+      "ville": "Kuala Lumpur",
+      "pays": "Malaisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "21/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4607271-urgent-enseignant-en-mathematiques-fh-kuala-lumpur-malaisie-kuala-lumpur"
+    },
     {
       "id": 4607169,
       "titre": "Enseignant spécialisé - CAPPEI / CAPA SH - F/H - LISBONNE - PORTUGAL",
@@ -285,7 +340,7 @@
       "pays": "Allemagne",
       "contrat": "CDD terme fixe",
       "discipline": "Professeur des écoles F/H",
-      "date": "11/09/2026",
+      "date": "21/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4595079-professeur-des-ecoles-fh-hambourg-allemagne-22529-hamburg"
     },
     {
@@ -575,17 +630,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4583099-professeur-du-second-degre-physique-chimie-fh-pereira-colombie-pereira"
     },
     {
-      "id": 4582815,
-      "titre": "Professeur d'EPS en remplacement F/H - MILAN - ITALIE",
-      "etab": "",
-      "ville": "Milano",
-      "pays": "Italie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "04/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4582815-professeur-deps-en-remplacement-fh-milan-italie-20148-milano"
-    },
-    {
       "id": 4582663,
       "titre": "Professeur.e des écoles F/H - BUENOS AIRES - ARGENTINE",
       "etab": "",
@@ -661,17 +705,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "04/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4581133-professeur-du-second-degre-anglais-fh-istanbul-turquie-sar%C4%B1yer"
-    },
-    {
-      "id": 4580741,
-      "titre": "Professeur d'anglais (LVA) du Second Degré - F/H - BANGKOK - THAILANDE",
-      "etab": "",
-      "ville": "Bangkok",
-      "pays": "Thaïlande",
-      "contrat": "CDD sans terme fixe",
-      "discipline": "Professeur du second degré F/H",
-      "date": "04/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4580741-professeur-danglais-lva-du-second-degre-fh-bangkok-thailande-10310-bangkok"
     },
     {
       "id": 4580573,
@@ -751,17 +784,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4579503-professeur-dhistoire-geographie-fh-royaume-uni-londres-greater-london"
     },
     {
-      "id": 4579033,
-      "titre": "Enseignant stagiaire F/H - KINSHASA - REPUBLIQUE DEMOCRATIQUE DU CONGO",
-      "etab": "",
-      "ville": "Kinshasa",
-      "pays": "RD Congo",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "03/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4579033-enseignant-stagiaire-fh-kinshasa-republique-democratique-du-congo-kinshasa"
-    },
-    {
       "id": 4575679,
       "titre": "Professeur du Second Degré - Mathématiques F/H - CONAKRY - GUINEE",
       "etab": "",
@@ -771,17 +793,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "01/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4575679-professeur-du-second-degre-mathematiques-fh-conakry-guinee-conakry"
-    },
-    {
-      "id": 4575305,
-      "titre": "Professeur de SES - Remplacement - F/H - MILAN - ITALIE",
-      "etab": "",
-      "ville": "Milano",
-      "pays": "Italie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "01/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4575305-professeur-de-ses-remplacement-fh-milan-italie-20148-milano"
     },
     {
       "id": 4574841,
@@ -1213,28 +1224,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4514561-professeur-des-ecoles-fh-calgary-canada-t2t-6g2-calgary"
     },
     {
-      "id": 4513471,
-      "titre": "Professeur de musique F/H - TEL AVIV - ISRAEL",
-      "etab": "",
-      "ville": "Tel Aviv-Yafo",
-      "pays": "Israël",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation musicale F/H",
-      "date": "23/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4513471-professeur-de-musique-fh-tel-aviv-israel-tel-aviv-yafo"
-    },
-    {
-      "id": 4512991,
-      "titre": "Professeur des écoles F/H - SAN FRANCISCO - ETATS UNIS",
-      "etab": "",
-      "ville": "San Francisco",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "23/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4512991-professeur-des-ecoles-fh-san-francisco-etats-unis-94102-san-francisco"
-    },
-    {
       "id": 4489867,
       "titre": "Professeur Histoire-Géo/Education morale et civique - F/H - BAMAKO - MALI",
       "etab": "",
@@ -1387,17 +1376,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "07/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4331837-professeurs-des-ecoles-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331647,
-      "titre": "Professeur d'H-G - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "23/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331647-professeur-dh-g-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4331631,
