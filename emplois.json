@@ -1,7 +1,73 @@
 {
-  "updated": "2026-09-22 09:38",
-  "total": 145,
+  "updated": "2026-09-22 20:02",
+  "total": 148,
   "offers": [
+    {
+      "id": 4611351,
+      "titre": "Enseignant classe de maternelle PRISE DE FONCTION IMMÉDIATE",
+      "etab": "",
+      "ville": "Laâyoune-Sakia El Hamra",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4611351-enseignant-classe-de-maternelle-prise-de-fonction-immediate-laayoune"
+    },
+    {
+      "id": 4611057,
+      "titre": "Chargé de comptabilité budgétaire F/H remplaçante - Lycée PMF - Tunisie",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Secrétaire / assistant F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4611057-charge-de-comptabilite-budgetaire-fh-remplacante-lycee-pmf-tunisie-1082-tunis"
+    },
+    {
+      "id": 4610617,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Marbella",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4610617-professeur-des-ecoles-fh-29601-marbella"
+    },
+    {
+      "id": 4610517,
+      "titre": "Enseignant.e premier degré depréférence spécialisé.e dans le CP",
+      "etab": "",
+      "ville": "Malabo",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4610517-enseignant-e-premier-degre-depreference-specialise-e-dans-le-cp-malabo"
+    },
+    {
+      "id": 4610329,
+      "titre": "Professeur des écoles",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4610329-professeur-des-ecoles-1350-164-lisboa"
+    },
+    {
+      "id": 4610321,
+      "titre": "Professeur du Second Degré",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4610321-professeur-du-second-degre-1350-164-lisboa"
+    },
     {
       "id": 4610021,
       "titre": "Secrétaire F/H",
@@ -333,17 +399,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4599255-gestionnaire-au-gsu-balzac-hf-novembre-2026-kenitra-maroc-rabat"
     },
     {
-      "id": 4598391,
-      "titre": "Professeur du Second Degré Education Physique et Sportive F/H - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "14/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4598391-professeur-du-second-degre-education-physique-et-sportive-fh-dakar-senegal-dakar"
-    },
-    {
       "id": 4598385,
       "titre": "Professeur du Second Degré d'histoire géographie F/H",
       "etab": "",
@@ -474,6 +529,17 @@
       "discipline": "Professeur du second degré F/H",
       "date": "10/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4590897-professeur-despagnol-remplacant-fh-alexandrie-egypte-alexandria"
+    },
+    {
+      "id": 4590839,
+      "titre": "Professeur de Lettres Modernes F/H - LAS TERRENAS - REPUBLIQUE DOMINICAINE",
+      "etab": "",
+      "ville": "Las Terrenas",
+      "pays": "Rép. dominicaine",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4590839-professeur-de-lettres-modernes-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
     },
     {
       "id": 4590731,
@@ -1136,28 +1202,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4529311-professeur-et-tuteur-cned-de-mathematiques-et-sciences-fh-colombo-sri-lanka-colombo"
     },
     {
-      "id": 4526903,
-      "titre": "Professeur de Sciences Numériques et Technologie F/H - TEGUCIGALPA - HONDURAS",
-      "etab": "",
-      "ville": "Tegucigalpa",
-      "pays": "Honduras",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
-      "date": "31/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4526903-professeur-de-sciences-numeriques-et-technologie-fh-tegucigalpa-honduras-tegucigalpa"
-    },
-    {
-      "id": 4526901,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - TEGUCIGALPA - HONDURAS",
-      "etab": "",
-      "ville": "Tegucigalpa",
-      "pays": "Honduras",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "31/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4526901-professeur-du-second-degre-lettres-modernes-fh-tegucigalpa-honduras-tegucigalpa"
-    },
-    {
       "id": 4518453,
       "titre": "Coordinateur d'élèves à besoins éducatifs particuliers (EBEP) F/H - DUBAI - EAU",
       "etab": "",
@@ -1442,17 +1486,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "07/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4196309-professeur-danglais-en-maternelle-et-elementaire-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4171805,
-      "titre": "Directeur du primaire F/H - CUENCA - EQUATEUR",
-      "etab": "",
-      "ville": "Cuenca",
-      "pays": "Équateur",
-      "contrat": "Contrat permanent",
-      "discipline": "Directeur du primaire F/H",
-      "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4171805-directeur-du-primaire-fh-cuenca-equateur-cuenca"
     },
     {
       "id": 4140125,
