@@ -1,7 +1,73 @@
 {
-  "updated": "2026-09-21 20:46",
-  "total": 143,
+  "updated": "2026-09-22 09:38",
+  "total": 145,
   "offers": [
+    {
+      "id": 4610021,
+      "titre": "Secrétaire F/H",
+      "etab": "",
+      "ville": "Kinshasa",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Secrétaire / assistant F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4610021-secretaire-fh-kinshasa"
+    },
+    {
+      "id": 4609973,
+      "titre": "Professeur Documentaliste F/H",
+      "etab": "",
+      "ville": "Brazzaville",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4609973-professeur-documentaliste-fh-brazzaville"
+    },
+    {
+      "id": 4609869,
+      "titre": "ENSEIGNANT/E FLE/FLSco",
+      "etab": "",
+      "ville": "Mapou",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur de français langue étrangère F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4609869-enseignante-fleflsco-mapou"
+    },
+    {
+      "id": 4609837,
+      "titre": "Enseignant/e Documentaliste pour le CDI",
+      "etab": "",
+      "ville": "Mapou",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4609837-enseignante-documentaliste-pour-le-cdi-mapou"
+    },
+    {
+      "id": 4609731,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "22/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4609731-professeur-du-second-degre-dhistoire-geographie-fh-dubai"
+    },
+    {
+      "id": 4609701,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Nouakchott",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "21/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4609701-professeur-des-ecoles-fh-nouakchott"
+    },
     {
       "id": 4609325,
       "titre": "Professeur des écoles F/H à temps plein pour remplacement SERBIE-BELGRADE-EFB",
@@ -100,17 +166,6 @@
       "discipline": "Assistant ressources humaines F/H",
       "date": "18/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4605847-gestionnaire-des-ressources-humaines-fh-brazzaville"
-    },
-    {
-      "id": 4604727,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
-      "etab": "",
-      "ville": "Villanueva de la Cañada",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "18/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4604727-professeur-du-second-degre-mathematiques-fh-28691-villanueva-de-la-canada"
     },
     {
       "id": 4602435,
@@ -806,17 +861,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4570429-secretaire-fh-asuncion-paraguay-asuncion"
     },
     {
-      "id": 4569011,
-      "titre": "Professeur du Second Degré - Lettres-FLE - F/H - MANILLE - PHILIPPINES",
-      "etab": "",
-      "ville": "Parañaque",
-      "pays": "Philippines",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "28/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4569011-professeur-du-second-degre-lettres-fle-fh-manille-philippines-paranaque"
-    },
-    {
       "id": 4568761,
       "titre": "Professeur SVT vacataire F/H - NABEUL - TUNISIE",
       "etab": "",
@@ -1145,28 +1189,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "25/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4517469-professeur-des-ecoles-fh-amman-jordanie-amman"
-    },
-    {
-      "id": 4515717,
-      "titre": "Professeur du Second Degré - Arts Plastiques-Français - F/H - DAKAR - SENEGAL",
-      "etab": "",
-      "ville": "Dakar",
-      "pays": "Sénégal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’arts plastiques F/H",
-      "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4515717-professeur-du-second-degre-arts-plastiques-francais-fh-dakar-senegal-dakar"
-    },
-    {
-      "id": 4515291,
-      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre - F/H - SINGAPORE",
-      "etab": "",
-      "ville": "Singapore",
-      "pays": "",
-      "contrat": "CDD terme fixe",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "24/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4515291-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-singapore-singapore"
     },
     {
       "id": 4515063,
