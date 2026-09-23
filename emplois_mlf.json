@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-22 20:02",
-  "total": 50,
+  "updated": "2026-09-23 09:44",
+  "total": 51,
   "source": "MLF Monde",
   "offers": [
     {
@@ -102,10 +102,24 @@
       "url": "https://recrutement.mlfmonde.org/3770_offre-emploi-conseiller-principal-deducation.html"
     },
     {
-      "id": 3758,
-      "titre": "Chef(fe) d’établissement",
+      "id": 3790,
+      "titre": "Professeur.e(s) des écoles",
       "etab": "",
-      "ville": "Dakhla",
+      "ville": "Chicago",
+      "pays": "États-Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/09/2026",
+      "date_limite": "01/10/2026",
+      "date_prise": "02/10/2026",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3790_offre-emploi-professeures-des-ecoles.html"
+    },
+    {
+      "id": 3748,
+      "titre": "Directeur(trice) d'école",
+      "etab": "",
+      "ville": "Casablanca",
       "pays": "Maroc",
       "contrat": "",
       "discipline": "",
@@ -113,7 +127,63 @@
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3758_offre-emploi-cheffe-detablissement.html"
+      "url": "https://recrutement.mlfmonde.org/3748_offre-emploi-directeurtrice-decole.html"
+    },
+    {
+      "id": 3743,
+      "titre": "Proviseur(e) Adjoint(e)",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "02/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3743_offre-emploi-proviseure-adjointe.html"
+    },
+    {
+      "id": 3744,
+      "titre": "Directeur(trice) d'école élémentaire",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "02/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3744_offre-emploi-directeurtrice-decole-elementaire.html"
+    },
+    {
+      "id": 3745,
+      "titre": "Directeur(trice) Administratif et Financier",
+      "etab": "",
+      "ville": "Muharraq",
+      "pays": "Bahreïn",
+      "contrat": "",
+      "discipline": "",
+      "date": "02/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3745_offre-emploi-directeurtrice-administratif-et-financier.html"
+    },
+    {
+      "id": 3746,
+      "titre": "Directeur(trice) régional(e) adjoint(e) - Drafin",
+      "etab": "",
+      "ville": "Beyrouth",
+      "pays": "Liban",
+      "contrat": "",
+      "discipline": "",
+      "date": "03/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3746_offre-emploi-directeurtrice-regionale-adjointe-drafin.html"
     },
     {
       "id": 3759,
@@ -128,6 +198,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3759_offre-emploi-cheffe-detablissement.html"
+    },
+    {
+      "id": 3758,
+      "titre": "Chef(fe) d’établissement",
+      "etab": "",
+      "ville": "Dakhla",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "03/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3758_offre-emploi-cheffe-detablissement.html"
     },
     {
       "id": 3757,
@@ -158,20 +242,6 @@
       "url": "https://recrutement.mlfmonde.org/3756_offre-emploi-proviseure.html"
     },
     {
-      "id": 3755,
-      "titre": "Directeur(trice) d'école",
-      "etab": "",
-      "ville": "Marrakech",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3755_offre-emploi-directeurtrice-decole.html"
-    },
-    {
       "id": 3754,
       "titre": "Directeur(trice) d'école",
       "etab": "",
@@ -184,90 +254,6 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3754_offre-emploi-directeurtrice-decole.html"
-    },
-    {
-      "id": 3753,
-      "titre": "Chef(fe) d’établissement",
-      "etab": "",
-      "ville": "Laayoune",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3753_offre-emploi-cheffe-detablissement.html"
-    },
-    {
-      "id": 3751,
-      "titre": "Chef(fe) d’établissement",
-      "etab": "",
-      "ville": "El Jadida",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3751_offre-emploi-cheffe-detablissement.html"
-    },
-    {
-      "id": 3750,
-      "titre": "Chef(fe) d’établissement",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3750_offre-emploi-cheffe-detablissement.html"
-    },
-    {
-      "id": 3749,
-      "titre": "Directeur(trice) régional(e) - Drafin",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3749_offre-emploi-directeurtrice-regionale-drafin.html"
-    },
-    {
-      "id": 3748,
-      "titre": "Directeur(trice) d'école",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3748_offre-emploi-directeurtrice-decole.html"
-    },
-    {
-      "id": 3752,
-      "titre": "Proviseur(e)",
-      "etab": "",
-      "ville": "Florence",
-      "pays": "Italie",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3752_offre-emploi-proviseure.html"
     },
     {
       "id": 3747,
@@ -284,74 +270,88 @@
       "url": "https://recrutement.mlfmonde.org/3747_offre-emploi-proviseure-adjointe.html"
     },
     {
-      "id": 3746,
-      "titre": "Directeur(trice) régional(e) adjoint(e) - Drafin",
+      "id": 3749,
+      "titre": "Directeur(trice) régional(e) - Drafin",
       "etab": "",
-      "ville": "Beyrouth",
-      "pays": "Liban",
+      "ville": "Casablanca",
+      "pays": "Maroc",
       "contrat": "",
       "discipline": "",
       "date": "03/09/2026",
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3746_offre-emploi-directeurtrice-regionale-adjointe-drafin.html"
+      "url": "https://recrutement.mlfmonde.org/3749_offre-emploi-directeurtrice-regionale-drafin.html"
     },
     {
-      "id": 3745,
-      "titre": "Directeur(trice) Administratif et Financier",
+      "id": 3750,
+      "titre": "Chef(fe) d’établissement",
       "etab": "",
-      "ville": "Muharraq",
-      "pays": "Bahreïn",
+      "ville": "Casablanca",
+      "pays": "Maroc",
       "contrat": "",
       "discipline": "",
-      "date": "02/09/2026",
+      "date": "03/09/2026",
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3745_offre-emploi-directeurtrice-administratif-et-financier.html"
+      "url": "https://recrutement.mlfmonde.org/3750_offre-emploi-cheffe-detablissement.html"
     },
     {
-      "id": 3744,
-      "titre": "Directeur(trice) d'école élémentaire",
+      "id": 3755,
+      "titre": "Directeur(trice) d'école",
       "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
+      "ville": "Marrakech",
+      "pays": "Maroc",
       "contrat": "",
       "discipline": "",
-      "date": "02/09/2026",
+      "date": "03/09/2026",
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3744_offre-emploi-directeurtrice-decole-elementaire.html"
+      "url": "https://recrutement.mlfmonde.org/3755_offre-emploi-directeurtrice-decole.html"
     },
     {
-      "id": 3743,
-      "titre": "Proviseur(e) Adjoint(e)",
+      "id": 3752,
+      "titre": "Proviseur(e)",
       "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
+      "ville": "Florence",
+      "pays": "Italie",
       "contrat": "",
       "discipline": "",
-      "date": "02/09/2026",
+      "date": "03/09/2026",
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3743_offre-emploi-proviseure-adjointe.html"
+      "url": "https://recrutement.mlfmonde.org/3752_offre-emploi-proviseure.html"
     },
     {
-      "id": 3778,
-      "titre": "Professeur-e des écoles au cycle 2",
+      "id": 3751,
+      "titre": "Chef(fe) d’établissement",
       "etab": "",
-      "ville": "Muharraq",
-      "pays": "Bahreïn",
+      "ville": "El Jadida",
+      "pays": "Maroc",
       "contrat": "",
       "discipline": "",
-      "date": "20/09/2026",
-      "date_limite": "30/11/2026",
+      "date": "03/09/2026",
+      "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3778_offre-emploi-professeure-des-ecoles-au-cycle-2.html"
+      "url": "https://recrutement.mlfmonde.org/3751_offre-emploi-cheffe-detablissement.html"
+    },
+    {
+      "id": 3753,
+      "titre": "Chef(fe) d’établissement",
+      "etab": "",
+      "ville": "Laayoune",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "03/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3753_offre-emploi-cheffe-detablissement.html"
     },
     {
       "id": 3777,
@@ -366,6 +366,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3777_offre-emploi-professeure-des-ecoles-au-cycle-3.html"
+    },
+    {
+      "id": 3778,
+      "titre": "Professeur-e des écoles au cycle 2",
+      "etab": "",
+      "ville": "Muharraq",
+      "pays": "Bahreïn",
+      "contrat": "",
+      "discipline": "",
+      "date": "20/09/2026",
+      "date_limite": "30/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3778_offre-emploi-professeure-des-ecoles-au-cycle-2.html"
     },
     {
       "id": 3769,
@@ -410,20 +424,6 @@
       "url": "https://recrutement.mlfmonde.org/3786_offre-emploi-enseignant-e-deducation-musicale.html"
     },
     {
-      "id": 3785,
-      "titre": "Enseignant(e) d'Arts plastiques",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "20/09/2026",
-      "date_limite": "29/01/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3785_offre-emploi-enseignante-darts-plastiques.html"
-    },
-    {
       "id": 3787,
       "titre": "Professeur(e) documentaliste",
       "etab": "",
@@ -438,6 +438,20 @@
       "url": "https://recrutement.mlfmonde.org/3787_offre-emploi-professeure-documentaliste.html"
     },
     {
+      "id": 3775,
+      "titre": "Enseignant(e) de Mathématiques",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "18/09/2026",
+      "date_limite": "29/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3775_offre-emploi-enseignante-de-mathematiques.html"
+    },
+    {
       "id": 3788,
       "titre": "Professeur(e) des écoles",
       "etab": "",
@@ -450,6 +464,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3788_offre-emploi-professeure-des-ecoles.html"
+    },
+    {
+      "id": 3785,
+      "titre": "Enseignant(e) d'Arts plastiques",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "20/09/2026",
+      "date_limite": "29/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3785_offre-emploi-enseignante-darts-plastiques.html"
     },
     {
       "id": 3784,
@@ -494,6 +522,20 @@
       "url": "https://recrutement.mlfmonde.org/3782_offre-emploi-enseignante-deducation-physique-et-sportive.html"
     },
     {
+      "id": 3789,
+      "titre": "Professeur de mathématiques",
+      "etab": "",
+      "ville": "Tanger",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "21/09/2026",
+      "date_limite": "29/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3789_offre-emploi-professeur-de-mathematiques.html"
+    },
+    {
       "id": 3781,
       "titre": "Enseignant (e) d'Arabe",
       "etab": "",
@@ -536,20 +578,6 @@
       "url": "https://recrutement.mlfmonde.org/3779_offre-emploi-enseignant-en-sciences-physique-et-chimique.html"
     },
     {
-      "id": 3789,
-      "titre": "Professeur de mathématiques",
-      "etab": "",
-      "ville": "Tanger",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "21/09/2026",
-      "date_limite": "29/01/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3789_offre-emploi-professeur-de-mathematiques.html"
-    },
-    {
       "id": 3776,
       "titre": "Enseignant(e) de Lettres modernes",
       "etab": "",
@@ -562,20 +590,6 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3776_offre-emploi-enseignante-de-lettres-modernes.html"
-    },
-    {
-      "id": 3775,
-      "titre": "Enseignant(e) de Mathématiques",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "18/09/2026",
-      "date_limite": "29/01/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3775_offre-emploi-enseignante-de-mathematiques.html"
     },
     {
       "id": 3774,

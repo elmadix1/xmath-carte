@@ -1,7 +1,29 @@
 {
-  "updated": "2026-09-22 20:02",
-  "total": 148,
+  "updated": "2026-09-23 09:44",
+  "total": 149,
   "offers": [
+    {
+      "id": 4612013,
+      "titre": "Professeur du Second Degré - Anglais (collège & lycée) F/H- Le Caire- Égypte",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "23/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4612013-professeur-du-second-degre-anglais-college-lycee-fh-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4611813,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Mapou",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4611813-professeur-des-ecoles-fh-mapou"
+    },
     {
       "id": 4611351,
       "titre": "Enseignant classe de maternelle PRISE DE FONCTION IMMÉDIATE",
@@ -1222,17 +1244,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "27/07/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4517987-professeur-du-second-degre-mathematiques-fh-houmt-souk-tunisie-4180-houmt-souk"
-    },
-    {
-      "id": 4517469,
-      "titre": "Professeur des écoles F/H - AMMAN - JORDANIE",
-      "etab": "",
-      "ville": "Amman",
-      "pays": "Jordanie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "25/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4517469-professeur-des-ecoles-fh-amman-jordanie-amman"
     },
     {
       "id": 4515063,
