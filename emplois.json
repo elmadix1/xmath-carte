@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-23 09:44",
-  "total": 149,
+  "updated": "2026-09-23 19:58",
+  "total": 148,
   "offers": [
+    {
+      "id": 4613155,
+      "titre": "Professeur du Second Degré - Lettres Modernes (2026-2027)",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "23/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4613155-professeur-du-second-degre-lettres-modernes-2026-2027-1350-164-lisboa"
+    },
     {
       "id": 4612013,
       "titre": "Professeur du Second Degré - Anglais (collège & lycée) F/H- Le Caire- Égypte",
@@ -111,17 +122,6 @@
       "discipline": "Professeur documentaliste F/H",
       "date": "22/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4609973-professeur-documentaliste-fh-brazzaville"
-    },
-    {
-      "id": 4609869,
-      "titre": "ENSEIGNANT/E FLE/FLSco",
-      "etab": "",
-      "ville": "Mapou",
-      "pays": "",
-      "contrat": "CDD terme fixe",
-      "discipline": "Professeur de français langue étrangère F/H",
-      "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4609869-enseignante-fleflsco-mapou"
     },
     {
       "id": 4609837,
@@ -257,69 +257,69 @@
     },
     {
       "id": 4602435,
-      "titre": "ORTHOPHONISTE SCOLAIRE - PHNOM PENH - CAMBODGE - LYCEE RENE DESCARTES",
+      "titre": "Orthophoniste scolaire F/H - PHNOM PENH - CAMBODGE",
       "etab": "",
       "ville": "Phnom Penh",
       "pays": "Cambodge",
       "contrat": "CDD terme fixe",
       "discipline": "Orthophoniste scolaire F/H",
       "date": "17/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4602435-orthophoniste-scolaire-phnom-penh-cambodge-lycee-rene-descartes-phnom-penh"
+      "url": "https://talents.aefe.fr/fr/annonce/4602435-orthophoniste-scolaire-fh-phnom-penh-cambodge-phnom-penh"
     },
     {
       "id": 4602391,
-      "titre": "TFS – Direction de l’École secondaire",
+      "titre": "TFS – Direction de l’École secondaire F/H - TORONTO - CANADA",
       "etab": "",
       "ville": "Toronto",
-      "pays": "",
+      "pays": "Canada",
       "contrat": "Contrat permanent",
       "discipline": "Principal F/H",
       "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4602391-tfs-direction-de-l-ecole-secondaire-m4n-1t7-toronto"
+      "url": "https://talents.aefe.fr/fr/annonce/4602391-tfs-direction-de-l-ecole-secondaire-fh-toronto-canada-m4n-1t7-toronto"
     },
     {
       "id": 4602323,
-      "titre": "Professeur du Second Degré - SVT F/H - LFA (ALEXANDRIE-EGYPTE)",
+      "titre": "Professeur du Second Degré SVT F/H - ALEXANDRIE - EGYPTE",
       "etab": "",
       "ville": "Alexandria",
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4602323-professeur-du-second-degre-svt-fh-lfa-alexandrie-egypte-alexandria"
+      "url": "https://talents.aefe.fr/fr/annonce/4602323-professeur-du-second-degre-svt-fh-alexandrie-egypte-alexandria"
     },
     {
       "id": 4602087,
-      "titre": "Enseignant(e) - tchèque langue maternelle et langue étrangère -PRAGUE",
+      "titre": "Enseignant tchèque langue maternelle et étrangère F/H - PRAGUE - REP. TCHEQUE",
       "etab": "",
       "ville": "Hlavní město Praha",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4602087-enseignante-tcheque-langue-maternelle-et-langue-etrangere-prague-hlavni-mesto-praha"
+      "url": "https://talents.aefe.fr/fr/annonce/4602087-enseignant-tcheque-langue-maternelle-et-etrangere-fh-prague-rep-tcheque-hlavni-mesto-praha"
     },
     {
       "id": 4601999,
-      "titre": "Professeur(e) remplaçant(e) d'arabe",
+      "titre": "Professeur remplaçant d'arabe F/H - SFAX - TUNISIE",
       "etab": "",
       "ville": "Sfax",
-      "pays": "",
+      "pays": "Tunisie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’arabe F/H",
       "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4601999-professeure-remplacante-darabe-3062-sfax"
+      "url": "https://talents.aefe.fr/fr/annonce/4601999-professeur-remplacant-darabe-fh-sfax-tunisie-3062-sfax"
     },
     {
       "id": 4601731,
-      "titre": "Enseignant Lettres collège (H/F) - CDD temps plein",
+      "titre": "Enseignant Lettres collège H/F - CDD temps plein - LUXEMBOURG",
       "etab": "",
       "ville": "Luxembourg",
-      "pays": "",
+      "pays": "Luxembourg",
       "contrat": "Contrat temporaire",
       "discipline": "professeur de lettres modernes F/H",
       "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4601731-enseignant-lettres-college-hf-cdd-temps-plein-luxembourg"
+      "url": "https://talents.aefe.fr/fr/annonce/4601731-enseignant-lettres-college-hf-cdd-temps-plein-luxembourg-luxembourg"
     },
     {
       "id": 4601339,
@@ -694,17 +694,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "07/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4586227-professeur-des-ecoles-fh-buenos-aires-argentine-c1428-bag"
-    },
-    {
-      "id": 4584927,
-      "titre": "URGENT - Professeur du Second Degré en Lettres F/H - MADRID - ESPAGNE",
-      "etab": "",
-      "ville": "Alcobendas",
-      "pays": "Espagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "07/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4584927-urgent-professeur-du-second-degre-en-lettres-fh-madrid-espagne-28109-alcobendas"
     },
     {
       "id": 4584639,
