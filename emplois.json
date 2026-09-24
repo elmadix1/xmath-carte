@@ -1,7 +1,84 @@
 {
-  "updated": "2026-09-24 09:42",
-  "total": 148,
+  "updated": "2026-09-24 20:17",
+  "total": 154,
   "offers": [
+    {
+      "id": 4615555,
+      "titre": "Assistant d'Éducation - F/H - VILLE - PAYS",
+      "etab": "",
+      "ville": "Asuncion",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "24/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4615555-assistant-deducation-fh-ville-pays-asuncion"
+    },
+    {
+      "id": 4615527,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Zakia",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "24/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4615527-professeur-des-ecoles-fh-76269-zakia"
+    },
+    {
+      "id": 4615419,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Tiabaya",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "24/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4615419-professeur-des-ecoles-fh-tiabaya"
+    },
+    {
+      "id": 4615399,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "etab": "",
+      "ville": "Tiabaya",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "24/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4615399-professeur-du-second-degre-physique-chimie-fh-tiabaya"
+    },
+    {
+      "id": 4614975,
+      "titre": "Coordinateur(trice) du Département d’Anglais – Écoles Prim – Full time - LONDRES",
+      "etab": "",
+      "ville": "London",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "24/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4614975-coordinateurtrice-du-departement-d-anglais-ecoles-prim-full-time-londres-london"
+    },
+    {
+      "id": 4614515,
+      "titre": "Professeur de Lettres F/H au Lycée des Mascareignes - Maurice",
+      "etab": "",
+      "ville": "Moka",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "24/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4614515-professeur-de-lettres-fh-au-lycee-des-mascareignes-maurice-moka"
+    },
+    {
+      "id": 4614397,
+      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "24/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4614397-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
+    },
     {
       "id": 4613853,
       "titre": "PROFESSEUR D'ANGLAIS SIA LITTERATURE / HANOI VIETNAM / SUSC VACANT REMPLACEMENT",
@@ -246,7 +323,7 @@
     },
     {
       "id": 4607001,
-      "titre": "Proviseur - Chef d'établissement (H/F) - CDI - VAUBAN - LUXEMBOURG",
+      "titre": "Proviseur - Chef d'établissement - H/F - CDI - VAUBAN - LUXEMBOURG",
       "etab": "",
       "ville": "Luxembourg",
       "pays": "Luxembourg",
@@ -257,14 +334,14 @@
     },
     {
       "id": 4605847,
-      "titre": "Gestionnaire des Ressources Humaines F/H",
+      "titre": "Gestionnaire des Ressources Humaines F/H - BRAZZAVILLE - REPUBLIQUE DU CONGO",
       "etab": "",
       "ville": "Brazzaville",
-      "pays": "",
+      "pays": "Congo-Brazzaville",
       "contrat": "Contrat permanent",
       "discipline": "Assistant ressources humaines F/H",
       "date": "18/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4605847-gestionnaire-des-ressources-humaines-fh-brazzaville"
+      "url": "https://talents.aefe.fr/fr/annonce/4605847-gestionnaire-des-ressources-humaines-fh-brazzaville-republique-du-congo-brazzaville"
     },
     {
       "id": 4602435,
@@ -331,17 +408,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "16/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4601731-enseignant-lettres-college-hf-cdd-temps-plein-luxembourg-luxembourg"
-    },
-    {
-      "id": 4601339,
-      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4601339-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
     },
     {
       "id": 4600881,
@@ -1037,17 +1103,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4551463-professeur-du-second-degre-physique-chimie-fh-managua-nicaragua-managua"
     },
     {
-      "id": 4548839,
-      "titre": "Professeur du Second Degré - SVT - F/H - ZAKIA - MEXIQUE",
-      "etab": "",
-      "ville": "Zakia",
-      "pays": "Mexique",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "14/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4548839-professeur-du-second-degre-svt-fh-zakia-mexique-76269-zakia"
-    },
-    {
       "id": 4547591,
       "titre": "Professeur des écoles F/H - OULAN-BATOR - MONGOLIE",
       "etab": "",
@@ -1145,17 +1200,6 @@
       "discipline": "Proviseur adjoint F/H",
       "date": "10/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4541191-proviseur-adjoint-fh-abidjan-cote-divoire-bp-157-abidjan"
-    },
-    {
-      "id": 4540245,
-      "titre": "Conseiller Principal d'Éducation F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sakiet Ezzit",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "10/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4540245-conseiller-principal-deducation-fh-sfax-tunisie-sakiet-ezzit"
     },
     {
       "id": 4539625,
@@ -1389,6 +1433,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4367931-professeur-du-second-degre-lettres-et-histoire-geographie-fh-panama-arraijan"
     },
     {
+      "id": 4332017,
+      "titre": "Référent du Pôle EBEP - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "24/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4332017-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
       "id": 4331837,
       "titre": "Professeurs des écoles - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
       "etab": "",
@@ -1566,7 +1621,7 @@
     },
     {
       "id": 4041779,
-      "titre": "Surveillant des études (temps partiel) - F/H - MUNICH - ALLEMAGNE",
+      "titre": "Surveillant des études - temps partiel - F/H - MUNICH - ALLEMAGNE",
       "etab": "",
       "ville": "München",
       "pays": "Allemagne",
@@ -1577,7 +1632,7 @@
     },
     {
       "id": 4020099,
-      "titre": "Surveillant de la pause méridienne (temps partiel) - F/H - MUNICH - ALLEMAGNE",
+      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
       "etab": "",
       "ville": "München",
       "pays": "Allemagne",
@@ -1585,6 +1640,17 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "18/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
+    },
+    {
+      "id": 3951581,
+      "titre": "Professeur des écoles - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "24/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/3951581-professeur-des-ecoles-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 3799657,
