@@ -1,7 +1,29 @@
 {
-  "updated": "2026-09-24 20:17",
+  "updated": "2026-09-25 10:00",
   "total": 154,
   "offers": [
+    {
+      "id": 4615649,
+      "titre": "Assistant d'éducation",
+      "etab": "",
+      "ville": "Αγλαντζιά",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "25/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4615649-assistant-deducation-2121-%CE%B1%CE%B3%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%B9%CE%B1"
+    },
+    {
+      "id": 4615643,
+      "titre": "PE Professeur des Écoles",
+      "etab": "",
+      "ville": "Dhaka",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4615643-pe-professeur-des-ecoles-1212-dhaka"
+    },
     {
       "id": 4615555,
       "titre": "Assistant d'Éducation - F/H - VILLE - PAYS",
@@ -188,17 +210,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "22/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4610321-professeur-du-second-degre-1350-164-lisboa"
-    },
-    {
-      "id": 4610021,
-      "titre": "Secrétaire F/H",
-      "etab": "",
-      "ville": "Kinshasa",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Secrétaire / assistant F/H",
-      "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4610021-secretaire-fh-kinshasa"
     },
     {
       "id": 4609973,
@@ -1257,28 +1268,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4529311-professeur-et-tuteur-cned-de-mathematiques-et-sciences-fh-colombo-sri-lanka-colombo"
     },
     {
-      "id": 4518453,
-      "titre": "Coordinateur d'élèves à besoins éducatifs particuliers (EBEP) F/H - DUBAI - EAU",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant de service social F/H",
-      "date": "27/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4518453-coordinateur-deleves-a-besoins-educatifs-particuliers-ebep-fh-dubai-eau-dubai"
-    },
-    {
-      "id": 4517987,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - HOUMT SOUK - TUNISIE",
-      "etab": "",
-      "ville": "Houmt Souk",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "27/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4517987-professeur-du-second-degre-mathematiques-fh-houmt-souk-tunisie-4180-houmt-souk"
-    },
-    {
       "id": 4515063,
       "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1321,6 +1310,17 @@
       "discipline": "Secrétaire / assistant F/H",
       "date": "02/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4484605-gestionnaire-financier-fh-munich-allemagne-81373-munchen"
+    },
+    {
+      "id": 4480659,
+      "titre": "Psychologue scolaire F/H -Lycée Francais International d'Accra-ACCRA- GHANA",
+      "etab": "",
+      "ville": "Accra",
+      "pays": "Ghana",
+      "contrat": "Contrat permanent",
+      "discipline": "Psychologue scolaire F/H",
+      "date": "25/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4480659-psychologue-scolaire-fh-lycee-francais-international-daccra-accra-ghana-accra"
     },
     {
       "id": 4469333,
