@@ -1,7 +1,40 @@
 {
-  "updated": "2026-09-25 10:00",
-  "total": 154,
+  "updated": "2026-09-25 20:15",
+  "total": 156,
   "offers": [
+    {
+      "id": 4617389,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Saly",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "25/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4617389-professeur-du-second-degre-dhistoire-geographie-fh-saly"
+    },
+    {
+      "id": 4617361,
+      "titre": "Professeur du Second Degré",
+      "etab": "",
+      "ville": "Saly",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "25/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4617361-professeur-du-second-degre-saly"
+    },
+    {
+      "id": 4616747,
+      "titre": "Professeur F/H d’Histoire-Géographie / HGGSP – KOH SAMUI – THAILAND",
+      "etab": "",
+      "ville": "Koh Samui",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "25/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4616747-professeur-fh-d-histoire-geographie-hggsp-koh-samui-thailand-84310-koh-samui"
+    },
     {
       "id": 4615649,
       "titre": "Assistant d'éducation",
@@ -485,17 +518,6 @@
       "discipline": "Professeur de lettres classiques F/H",
       "date": "15/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4599659-urgent-professeur-de-lettres-et-philosophie-fh-cuenca-equateur-cuenca"
-    },
-    {
-      "id": 4599315,
-      "titre": "Professeur de mathématiques vacataire F/H - Lycée Descartes - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "15/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4599315-professeur-de-mathematiques-vacataire-fh-lycee-descartes-rabat-maroc-rabat"
     },
     {
       "id": 4599255,
@@ -1224,17 +1246,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4539625-proviseur-hf-ouagadougou-burkina-faso-ouagadougou"
     },
     {
-      "id": 4536201,
-      "titre": "Professeur de Lettres Modernes – Collège - F/H - KOH SAMUI - THAILANDE",
-      "etab": "",
-      "ville": "Koh Samui",
-      "pays": "Thaïlande",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "06/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4536201-professeur-de-lettres-modernes-college-fh-koh-samui-thailande-84310-koh-samui"
-    },
-    {
       "id": 4535687,
       "titre": "AED (Poste réservé à un candidat habitant Abdijan) F/H - ABIDJAN - COTE D'IVOIRE",
       "etab": "",
@@ -1530,6 +1541,17 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "03/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4218059-professeur-de-lettres-modernes-fh-concepcion-chili-4030000-concepcion"
+    },
+    {
+      "id": 4212531,
+      "titre": "Professeur des écoles - F/H - KIRKLAND - SEATTLE - ETATS UNIS",
+      "etab": "",
+      "ville": "Kirkland",
+      "pays": "États-Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4212531-professeur-des-ecoles-fh-kirkland-seattle-etats-unis-98034-kirkland"
     },
     {
       "id": 4196309,
