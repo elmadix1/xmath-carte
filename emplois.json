@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-28 11:25",
-  "total": 155,
+  "updated": "2026-09-28 22:25",
+  "total": 153,
   "offers": [
+    {
+      "id": 4619433,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Praia",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "28/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4619433-professeur-des-ecoles-fh-praia"
+    },
     {
       "id": 4617389,
       "titre": "Professeur du Second Degré d'histoire géographie F/H",
@@ -619,17 +630,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4592597-professeur-des-ecoles-fh-monastir-tunisie-monastir"
     },
     {
-      "id": 4591825,
-      "titre": "Professeur d'Anglais - 1er degré - F/H - Lycée Victor Hugo - MARRAKECH - MAROC",
-      "etab": "",
-      "ville": "Marrakesh",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "10/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4591825-professeur-danglais-1er-degre-fh-lycee-victor-hugo-marrakech-maroc-marrakesh"
-    },
-    {
       "id": 4591221,
       "titre": "Professeur des écoles remplacant F/H - MADRID - ESPAGNE",
       "etab": "",
@@ -925,17 +925,6 @@
       "discipline": "Aide maternelle F/H",
       "date": "03/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4580573-agent-specialise-des-ecoles-maternelles-fh-amsterdam-pays-bas-1077-me-amsterdam"
-    },
-    {
-      "id": 4580427,
-      "titre": "Professeur de physique chimie F/H - PRAIA - CAP VERT",
-      "etab": "",
-      "ville": "Praia",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "03/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4580427-professeur-de-physique-chimie-fh-praia-cap-vert-praia"
     },
     {
       "id": 4580425,
@@ -1389,17 +1378,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4443931-senco-coordinateur-besoins-educatifs-particuliers-fh-londres-royaume-uni-greater-london"
     },
     {
-      "id": 4415431,
-      "titre": "Professeur des écoles - F/H - TACHKENT - OUZBEKISTAN",
-      "etab": "",
-      "ville": "Tachkent",
-      "pays": "Ouzbékistan",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "17/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4415431-professeur-des-ecoles-fh-tachkent-ouzbekistan-tachkent"
-    },
-    {
       "id": 4399289,
       "titre": "Secrétaire général adjoint (SGA) - F/H - MUNICH - ALLEMAGNE",
       "etab": "",
@@ -1576,17 +1554,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140091-professeur-physique-chimie-fh-le-caire-egypte-cairo"
     },
     {
-      "id": 4136021,
-      "titre": "Professeur des écoles remplaçant F/H – Rentrée 2026-2027 - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "CDD terme fixe",
-      "discipline": "Professeur des écoles F/H",
-      "date": "03/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4136021-professeur-des-ecoles-remplacant-fh-rentree-2026-2027-rabat-maroc-rabat"
-    },
-    {
       "id": 4102357,
       "titre": "Professeur des écoles - F/H - Le CAIRE - EGYPTE",
       "etab": "",
@@ -1607,6 +1574,17 @@
       "discipline": "Professeur d'éducation musicale F/H",
       "date": "11/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4083445-professeur-deducation-musicale-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4076705,
+      "titre": "Conseiller Principal d'Éducation - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "28/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4076705-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4066805,
