@@ -1,7 +1,18 @@
 {
-  "updated": "2026-09-29 11:03",
-  "total": 152,
+  "updated": "2026-09-29 21:15",
+  "total": 149,
   "offers": [
+    {
+      "id": 4622263,
+      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "29/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4622263-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-alexandria"
+    },
     {
       "id": 4621523,
       "titre": "Conseiller Principal d'Éducation F/H",
@@ -443,17 +454,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4602391-tfs-direction-de-l-ecole-secondaire-fh-toronto-canada-m4n-1t7-toronto"
     },
     {
-      "id": 4602323,
-      "titre": "Professeur du Second Degré SVT F/H - ALEXANDRIE - EGYPTE",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4602323-professeur-du-second-degre-svt-fh-alexandrie-egypte-alexandria"
-    },
-    {
       "id": 4601999,
       "titre": "Professeur remplaçant d'arabe F/H - SFAX - TUNISIE",
       "etab": "",
@@ -551,17 +551,6 @@
       "discipline": "Gestionnaire matériel F/H",
       "date": "15/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4599255-gestionnaire-au-gsu-balzac-hf-novembre-2026-kenitra-maroc-rabat"
-    },
-    {
-      "id": 4598385,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H",
-      "etab": "",
-      "ville": "Lagos",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "14/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4598385-professeur-du-second-degre-dhistoire-geographie-fh-106104-lagos"
     },
     {
       "id": 4598367,
@@ -1565,17 +1554,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140091-professeur-physique-chimie-fh-le-caire-egypte-cairo"
     },
     {
-      "id": 4102357,
-      "titre": "Professeur des écoles - F/H - Le CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "19/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
-    },
-    {
       "id": 4083445,
       "titre": "Professeur d'éducation musicale - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -1596,17 +1574,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "10/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4066805-professeur-de-sciences-de-la-vie-et-de-la-terre-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4066597,
-      "titre": "Professeurs d'histoire géographie F/H en Arabe et Français - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "31/07/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4066597-professeurs-dhistoire-geographie-fh-en-arabe-et-francais-casablanca-maroc-casablanca"
     },
     {
       "id": 4041779,
