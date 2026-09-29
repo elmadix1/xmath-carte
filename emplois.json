@@ -1,7 +1,29 @@
 {
-  "updated": "2026-09-28 22:25",
-  "total": 153,
+  "updated": "2026-09-29 11:03",
+  "total": 152,
   "offers": [
+    {
+      "id": 4621523,
+      "titre": "Conseiller Principal d'Éducation F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "29/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4621523-conseiller-principal-deducation-fh-casablanca"
+    },
+    {
+      "id": 4620723,
+      "titre": "Professeur de Technologie et Physique Chimie H/F - La Haye -PAYS-BAS",
+      "etab": "",
+      "ville": "Den Haag",
+      "pays": "Pays-Bas",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de technologie F/H",
+      "date": "29/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4620723-professeur-de-technologie-et-physique-chimie-hf-la-haye-pays-bas-2584-aa-den-haag"
+    },
     {
       "id": 4619433,
       "titre": "Professeur des écoles F/H",
@@ -430,17 +452,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "16/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4602323-professeur-du-second-degre-svt-fh-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4602087,
-      "titre": "Enseignant tchèque langue maternelle et étrangère F/H - PRAGUE - REP. TCHEQUE",
-      "etab": "",
-      "ville": "Hlavní město Praha",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4602087-enseignant-tcheque-langue-maternelle-et-etrangere-fh-prague-rep-tcheque-hlavni-mesto-praha"
     },
     {
       "id": 4601999,
@@ -969,17 +980,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "03/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4580009-professeur-despagnol-au-2nd-degre-fh-temps-plein-bizerte-tunisie-7000-bizerte"
-    },
-    {
-      "id": 4575679,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - CONAKRY - GUINEE",
-      "etab": "",
-      "ville": "Conakry",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "01/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4575679-professeur-du-second-degre-mathematiques-fh-conakry-guinee-conakry"
     },
     {
       "id": 4574841,
@@ -1543,6 +1543,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140125-professeur-dhistoire-geographie-fh-le-caire-egypte-cairo"
     },
     {
+      "id": 4140109,
+      "titre": "Professeur de SVT - F/H - LYCEE BALZAC - LE CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "29/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
+    },
+    {
       "id": 4140091,
       "titre": "Professeur Physique Chimie - F/H - LE CAIRE - EGYPTE",
       "etab": "",
@@ -1574,17 +1585,6 @@
       "discipline": "Professeur d'éducation musicale F/H",
       "date": "11/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4083445-professeur-deducation-musicale-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4076705,
-      "titre": "Conseiller Principal d'Éducation - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "28/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4076705-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4066805,
@@ -1629,17 +1629,6 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "18/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 3951581,
-      "titre": "Professeur des écoles - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3951581-professeur-des-ecoles-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 3799657,
