@@ -1,7 +1,40 @@
 {
-  "updated": "2026-09-30 10:53",
-  "total": 145,
+  "updated": "2026-09-30 21:12",
+  "total": 147,
   "offers": [
+    {
+      "id": 4624423,
+      "titre": "Psychologue scolaire",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Psychologue scolaire F/H",
+      "date": "30/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4624423-psychologue-scolaire-3062-sfax"
+    },
+    {
+      "id": 4623559,
+      "titre": "Adjoint d'Éducation au secondaire - F/H - MADRID - ESPAGNE",
+      "etab": "",
+      "ville": "Madrid",
+      "pays": "Espagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "30/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4623559-adjoint-deducation-au-secondaire-fh-madrid-espagne-28043-madrid"
+    },
+    {
+      "id": 4623465,
+      "titre": "Directeur(trice) des Opérations",
+      "etab": "",
+      "ville": "Düsseldorf",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Directeur Administratif et Financier F/H",
+      "date": "30/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4623465-directeurtrice-des-operations-40237-dusseldorf"
+    },
     {
       "id": 4622263,
       "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
@@ -617,17 +650,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "10/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4592597-professeur-des-ecoles-fh-monastir-tunisie-monastir"
-    },
-    {
-      "id": 4591221,
-      "titre": "Professeur des écoles remplacant F/H - MADRID - ESPAGNE",
-      "etab": "",
-      "ville": "Madrid",
-      "pays": "Espagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "30/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4591221-professeur-des-ecoles-remplacant-fh-madrid-espagne-28043-madrid"
     },
     {
       "id": 4590897,
