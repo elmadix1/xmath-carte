@@ -1,7 +1,29 @@
 {
-  "updated": "2026-09-30 21:12",
-  "total": 147,
+  "updated": "2026-10-01 11:20",
+  "total": 146,
   "offers": [
+    {
+      "id": 4625251,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Ulaanbaatar",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "01/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4625251-professeur-des-ecoles-fh-ulaanbaatar"
+    },
+    {
+      "id": 4624541,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Praia",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "30/09/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4624541-professeur-des-ecoles-fh-praia"
+    },
     {
       "id": 4624423,
       "titre": "Psychologue scolaire",
@@ -410,19 +432,8 @@
       "url": "https://talents.aefe.fr/fr/annonce/4607273-professeur-de-ses-sciences-economiques-et-sociales-lycee-fh-dubai-dubai"
     },
     {
-      "id": 4607271,
-      "titre": "URGENT - Enseignant en Mathématiques - F/H - KUALA LUMPUR - MALAISIE",
-      "etab": "",
-      "ville": "Kuala Lumpur",
-      "pays": "Malaisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "21/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4607271-urgent-enseignant-en-mathematiques-fh-kuala-lumpur-malaisie-kuala-lumpur"
-    },
-    {
       "id": 4607169,
-      "titre": "Enseignant spécialisé - CAPPEI / CAPA SH - F/H - LISBONNE - PORTUGAL",
+      "titre": "Enseignant spécialisé CAPPEI-CAPA SH - F/H - LISBONNE - PORTUGAL",
       "etab": "",
       "ville": "Lisboa",
       "pays": "Portugal",
@@ -562,17 +573,6 @@
       "discipline": "Professeur de lettres classiques F/H",
       "date": "15/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4599659-urgent-professeur-de-lettres-et-philosophie-fh-cuenca-equateur-cuenca"
-    },
-    {
-      "id": 4599255,
-      "titre": "Gestionnaire au GSU Balzac - H/F - Novembre 2026 - KENITRA - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Gestionnaire matériel F/H",
-      "date": "15/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4599255-gestionnaire-au-gsu-balzac-hf-novembre-2026-kenitra-maroc-rabat"
     },
     {
       "id": 4598367,
@@ -914,17 +914,6 @@
       "discipline": "Professeur d’espagnol F/H",
       "date": "04/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4581361-enseignant-d-espagnol-et-catalan-fh-barcelone-espagne-08034-barcelona"
-    },
-    {
-      "id": 4581133,
-      "titre": "Professeur du Second Degré - Anglais - F/H - ISTANBUL - TURQUIE",
-      "etab": "",
-      "ville": "İstanbul",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "04/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4581133-professeur-du-second-degre-anglais-fh-istanbul-turquie-sar%C4%B1yer"
     },
     {
       "id": 4580573,
