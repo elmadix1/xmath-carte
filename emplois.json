@@ -1,7 +1,29 @@
 {
-  "updated": "2026-10-02 10:52",
-  "total": 138,
+  "updated": "2026-10-02 21:09",
+  "total": 137,
   "offers": [
+    {
+      "id": 4629075,
+      "titre": "Professeur espagnol",
+      "etab": "",
+      "ville": "Ciudad de México",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "02/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4629075-professeur-espagnol-11850-ciudad-de-mexico"
+    },
+    {
+      "id": 4628853,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Ciudad de México",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "02/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4628853-professeur-des-ecoles-fh-11850-ciudad-de-mexico"
+    },
     {
       "id": 4625251,
       "titre": "Professeur des écoles F/H",
@@ -92,135 +114,135 @@
     },
     {
       "id": 4619433,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - PRAIA - CAP VERT",
       "etab": "",
       "ville": "Praia",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "28/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4619433-professeur-des-ecoles-fh-praia"
+      "url": "https://talents.aefe.fr/fr/annonce/4619433-professeur-des-ecoles-fh-praia-cap-vert-praia"
     },
     {
       "id": 4617389,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "titre": "Professeur du Second Degré d'histoire géographie F/H - SALY - SENEGAL",
       "etab": "",
       "ville": "Saly",
-      "pays": "",
+      "pays": "Sénégal",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "25/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4617389-professeur-du-second-degre-dhistoire-geographie-fh-saly"
+      "url": "https://talents.aefe.fr/fr/annonce/4617389-professeur-du-second-degre-dhistoire-geographie-fh-saly-senegal-saly"
     },
     {
       "id": 4617361,
-      "titre": "Professeur du Second Degré",
+      "titre": "Professeur du Second Degré F/H - SALY - SENEGAL",
       "etab": "",
       "ville": "Saly",
-      "pays": "",
+      "pays": "Sénégal",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "25/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4617361-professeur-du-second-degre-saly"
+      "url": "https://talents.aefe.fr/fr/annonce/4617361-professeur-du-second-degre-fh-saly-senegal-saly"
     },
     {
       "id": 4616747,
-      "titre": "Professeur F/H d’Histoire-Géographie / HGGSP – KOH SAMUI – THAILAND",
+      "titre": "Professeur d’Histoire-Géographie HGGSP - F/H - KOH SAMUI - THAILAND",
       "etab": "",
       "ville": "Koh Samui",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "25/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4616747-professeur-fh-d-histoire-geographie-hggsp-koh-samui-thailand-84310-koh-samui"
+      "url": "https://talents.aefe.fr/fr/annonce/4616747-professeur-d-histoire-geographie-hggsp-fh-koh-samui-thailand-84310-koh-samui"
     },
     {
       "id": 4615649,
-      "titre": "Assistant d'éducation",
+      "titre": "Assistant d'éducation F/H - NICOSIE - CHYPRE",
       "etab": "",
       "ville": "Αγλαντζιά",
-      "pays": "",
+      "pays": "Chypre",
       "contrat": "Contrat permanent",
       "discipline": "Assistant d'éducation F/H",
       "date": "25/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615649-assistant-deducation-2121-%CE%B1%CE%B3%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%B9%CE%B1"
+      "url": "https://talents.aefe.fr/fr/annonce/4615649-assistant-deducation-fh-nicosie-chypre-2121-%CE%B1%CE%B3%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%B9%CE%B1"
     },
     {
       "id": 4615643,
-      "titre": "PE Professeur des Écoles",
+      "titre": "Professeur des Écoles F/H - DHAKA - BANGLADESH",
       "etab": "",
       "ville": "Dhaka",
-      "pays": "",
+      "pays": "Bangladesh",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "25/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615643-pe-professeur-des-ecoles-1212-dhaka"
+      "url": "https://talents.aefe.fr/fr/annonce/4615643-professeur-des-ecoles-fh-dhaka-bangladesh-1212-dhaka"
     },
     {
       "id": 4615555,
-      "titre": "Assistant d'Éducation - F/H - VILLE - PAYS",
+      "titre": "Assistant d'Éducation - F/H - ASUNCION - PARAGUAY",
       "etab": "",
       "ville": "Asuncion",
-      "pays": "",
+      "pays": "Paraguay",
       "contrat": "Contrat permanent",
       "discipline": "Assistant d'éducation F/H",
       "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615555-assistant-deducation-fh-ville-pays-asuncion"
+      "url": "https://talents.aefe.fr/fr/annonce/4615555-assistant-deducation-fh-asuncion-paraguay-asuncion"
     },
     {
       "id": 4615527,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - ZAKIA - MEXIQUE",
       "etab": "",
       "ville": "Zakia",
-      "pays": "",
+      "pays": "Mexique",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615527-professeur-des-ecoles-fh-76269-zakia"
+      "url": "https://talents.aefe.fr/fr/annonce/4615527-professeur-des-ecoles-fh-zakia-mexique-76269-zakia"
     },
     {
       "id": 4615419,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - TIABAYA - PEROU",
       "etab": "",
       "ville": "Tiabaya",
-      "pays": "",
+      "pays": "Pérou",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615419-professeur-des-ecoles-fh-tiabaya"
+      "url": "https://talents.aefe.fr/fr/annonce/4615419-professeur-des-ecoles-fh-tiabaya-perou-tiabaya"
     },
     {
       "id": 4615399,
-      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "titre": "Professeur du Second Degré - Physique Chimie - F/H - TIABAYA - PEROU",
       "etab": "",
       "ville": "Tiabaya",
-      "pays": "",
+      "pays": "Pérou",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de physique chimie F/H",
       "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615399-professeur-du-second-degre-physique-chimie-fh-tiabaya"
+      "url": "https://talents.aefe.fr/fr/annonce/4615399-professeur-du-second-degre-physique-chimie-fh-tiabaya-perou-tiabaya"
     },
     {
       "id": 4614975,
-      "titre": "Coordinateur(trice) du Département d’Anglais – Écoles Prim – Full time - LONDRES",
+      "titre": "Coordinateur du Département d’Anglais écoles Primaire - LONDRES - ROYAUME UNI",
       "etab": "",
       "ville": "London",
-      "pays": "",
+      "pays": "Royaume-Uni",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d’anglais F/H",
       "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4614975-coordinateurtrice-du-departement-d-anglais-ecoles-prim-full-time-londres-london"
+      "url": "https://talents.aefe.fr/fr/annonce/4614975-coordinateur-du-departement-d-anglais-ecoles-primaire-londres-royaume-uni-london"
     },
     {
       "id": 4614515,
-      "titre": "Professeur de Lettres F/H au Lycée des Mascareignes - Maurice",
+      "titre": "Professeur de Lettres F/H au Lycée des Mascareignes - MOKA - MAURICE",
       "etab": "",
       "ville": "Moka",
       "pays": "",
       "contrat": "CDD terme fixe",
       "discipline": "professeur de lettres modernes F/H",
       "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4614515-professeur-de-lettres-fh-au-lycee-des-mascareignes-maurice-moka"
+      "url": "https://talents.aefe.fr/fr/annonce/4614515-professeur-de-lettres-fh-au-lycee-des-mascareignes-moka-maurice-moka"
     },
     {
       "id": 4614397,
@@ -235,135 +257,135 @@
     },
     {
       "id": 4613853,
-      "titre": "PROFESSEUR D'ANGLAIS SIA LITTERATURE / HANOI VIETNAM / SUSC VACANT REMPLACEMENT",
+      "titre": "Professeur d'anglais SIA Littérature F/H - HANOI - VIETNAM",
       "etab": "",
       "ville": "Hà Nội",
       "pays": "Vietnam",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’anglais américain F/H",
       "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4613853-professeur-danglais-sia-litterature-hanoi-vietnam-susc-vacant-remplacement-100000-ha-noi"
+      "url": "https://talents.aefe.fr/fr/annonce/4613853-professeur-danglais-sia-litterature-fh-hanoi-vietnam-100000-ha-noi"
     },
     {
       "id": 4613155,
-      "titre": "Professeur du Second Degré - Lettres Modernes (2026-2027)",
+      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - LISBONNE - PORTUGAL",
       "etab": "",
       "ville": "Lisboa",
-      "pays": "",
+      "pays": "Portugal",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "23/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4613155-professeur-du-second-degre-lettres-modernes-2026-2027-1350-164-lisboa"
+      "url": "https://talents.aefe.fr/fr/annonce/4613155-professeur-du-second-degre-lettres-modernes-fh-lisbonne-portugal-1350-164-lisboa"
     },
     {
       "id": 4612013,
-      "titre": "Professeur du Second Degré - Anglais (collège & lycée) F/H- Le Caire- Égypte",
+      "titre": "Professeur du Second Degré - Anglais - F/H - LE CAIRE - ÉGYPTE",
       "etab": "",
       "ville": "Cairo",
       "pays": "Égypte",
       "contrat": "CDD sans terme fixe",
       "discipline": "Professeur d’anglais F/H",
       "date": "23/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4612013-professeur-du-second-degre-anglais-college-lycee-fh-le-caire-egypte-cairo"
+      "url": "https://talents.aefe.fr/fr/annonce/4612013-professeur-du-second-degre-anglais-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4611813,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H -MAPOU - MAURICE",
       "etab": "",
       "ville": "Mapou",
       "pays": "",
       "contrat": "CDD terme fixe",
       "discipline": "Professeur des écoles F/H",
       "date": "23/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4611813-professeur-des-ecoles-fh-mapou"
+      "url": "https://talents.aefe.fr/fr/annonce/4611813-professeur-des-ecoles-fh-mapou-maurice-mapou"
     },
     {
       "id": 4611057,
-      "titre": "Chargé de comptabilité budgétaire F/H remplaçante - Lycée PMF - Tunisie",
+      "titre": "Chargé de comptabilité budgétaire F/H remplaçante - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
       "contrat": "Contrat temporaire",
       "discipline": "Secrétaire / assistant F/H",
       "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4611057-charge-de-comptabilite-budgetaire-fh-remplacante-lycee-pmf-tunisie-1082-tunis"
+      "url": "https://talents.aefe.fr/fr/annonce/4611057-charge-de-comptabilite-budgetaire-fh-remplacante-tunis-tunisie-1082-tunis"
     },
     {
       "id": 4610617,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - MARBELLA - ESPAGNE",
       "etab": "",
       "ville": "Marbella",
-      "pays": "",
+      "pays": "Espagne",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4610617-professeur-des-ecoles-fh-29601-marbella"
+      "url": "https://talents.aefe.fr/fr/annonce/4610617-professeur-des-ecoles-fh-marbella-espagne-29601-marbella"
     },
     {
       "id": 4610517,
-      "titre": "Enseignant.e premier degré depréférence spécialisé.e dans le CP",
+      "titre": "Enseignant premier degré spécialisé CP - F/H - MALABO - GUINEE EQUATORIALE",
       "etab": "",
       "ville": "Malabo",
-      "pays": "",
+      "pays": "Guinée",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4610517-enseignant-e-premier-degre-depreference-specialise-e-dans-le-cp-malabo"
+      "url": "https://talents.aefe.fr/fr/annonce/4610517-enseignant-premier-degre-specialise-cp-fh-malabo-guinee-equatoriale-malabo"
     },
     {
       "id": 4610329,
-      "titre": "Professeur des écoles",
+      "titre": "Professeur des écoles F/H - LISBONNE - PORTUGAL",
       "etab": "",
       "ville": "Lisboa",
-      "pays": "",
+      "pays": "Portugal",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4610329-professeur-des-ecoles-1350-164-lisboa"
+      "url": "https://talents.aefe.fr/fr/annonce/4610329-professeur-des-ecoles-fh-lisbonne-portugal-1350-164-lisboa"
     },
     {
       "id": 4610321,
-      "titre": "Professeur du Second Degré",
+      "titre": "Professeur du Second Degré - remplaçants - F/H - LISBONNE - PORTUGAL",
       "etab": "",
       "ville": "Lisboa",
-      "pays": "",
+      "pays": "Portugal",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4610321-professeur-du-second-degre-1350-164-lisboa"
+      "url": "https://talents.aefe.fr/fr/annonce/4610321-professeur-du-second-degre-remplacants-fh-lisbonne-portugal-1350-164-lisboa"
     },
     {
       "id": 4609973,
-      "titre": "Professeur Documentaliste F/H",
+      "titre": "Professeur Documentaliste F/H - BRAZZAVILLE - REPUBLIQUE DU CONGO",
       "etab": "",
       "ville": "Brazzaville",
-      "pays": "",
+      "pays": "Congo-Brazzaville",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur documentaliste F/H",
       "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4609973-professeur-documentaliste-fh-brazzaville"
+      "url": "https://talents.aefe.fr/fr/annonce/4609973-professeur-documentaliste-fh-brazzaville-republique-du-congo-brazzaville"
     },
     {
       "id": 4609837,
-      "titre": "Enseignant/e Documentaliste pour le CDI",
+      "titre": "Enseignant documentaliste pour le CDI - F/H - MAPOU - MAURICE",
       "etab": "",
       "ville": "Mapou",
       "pays": "",
       "contrat": "CDD terme fixe",
       "discipline": "Professeur documentaliste F/H",
       "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4609837-enseignante-documentaliste-pour-le-cdi-mapou"
+      "url": "https://talents.aefe.fr/fr/annonce/4609837-enseignant-documentaliste-pour-le-cdi-fh-mapou-maurice-mapou"
     },
     {
       "id": 4609701,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - NOUAKCHOTT - MAURITANIE",
       "etab": "",
       "ville": "Nouakchott",
-      "pays": "",
+      "pays": "Mauritanie",
       "contrat": "CDD terme fixe",
       "discipline": "Professeur des écoles F/H",
       "date": "21/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4609701-professeur-des-ecoles-fh-nouakchott"
+      "url": "https://talents.aefe.fr/fr/annonce/4609701-professeur-des-ecoles-fh-nouakchott-mauritanie-nouakchott"
     },
     {
       "id": 4607635,
@@ -386,17 +408,6 @@
       "discipline": "Assistant d'éducation F/H",
       "date": "21/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4607275-assistant-deducation-fh-kuala-lumpur-malaisie-kuala-lumpur"
-    },
-    {
-      "id": 4607273,
-      "titre": "Professeur de SES Sciences Economiques et Sociales - lycée - F/H - DUBAÏ",
-      "etab": "",
-      "ville": "Dubai",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "21/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4607273-professeur-de-ses-sciences-economiques-et-sociales-lycee-fh-dubai-dubai"
     },
     {
       "id": 4607169,
@@ -1136,17 +1147,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4535687-aed-poste-reserve-a-un-candidat-habitant-abdijan-fh-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
-      "id": 4530787,
-      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
-      "etab": "",
-      "ville": "Malabo",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'éducation physique et sportive F/H",
-      "date": "03/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4530787-professeur-du-second-degre-education-physique-et-sportive-fh-malabo"
-    },
-    {
       "id": 4515063,
       "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1170,7 +1170,7 @@
     },
     {
       "id": 4480659,
-      "titre": "Psychologue scolaire F/H -Lycée Francais International d'Accra-ACCRA- GHANA",
+      "titre": "Psychologue scolaire F/H - Lycée Francais International d'Accra - ACCRA - GHANA",
       "etab": "",
       "ville": "Accra",
       "pays": "Ghana",
@@ -1365,17 +1365,6 @@
       "discipline": "Infirmier scolaire F/H",
       "date": "27/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4225869-infirmier-scolaire-fh-lycee-francais-gustave-eiffel-budapest-hongrie-1029-budapest"
-    },
-    {
-      "id": 4218059,
-      "titre": "Professeur de Lettres modernes F/H - CONCEPCION - CHILI",
-      "etab": "",
-      "ville": "Concepción",
-      "pays": "Chili",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "03/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4218059-professeur-de-lettres-modernes-fh-concepcion-chili-4030000-concepcion"
     },
     {
       "id": 4212531,
