@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-05 12:01",
-  "total": 142,
+  "updated": "2026-10-05 23:04",
+  "total": 144,
   "offers": [
+    {
+      "id": 4631311,
+      "titre": "PROFESSEUR Documentaliste - F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "05/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4631311-professeur-documentaliste-fh-tunis-tunisie-2037-tunis"
+    },
     {
       "id": 4631043,
       "titre": "Professeur des écoles F/H",
@@ -1475,6 +1486,17 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "11/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140091-professeur-physique-chimie-fh-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4102357,
+      "titre": "Professeur des écoles - F/H - Le CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "05/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4083445,
