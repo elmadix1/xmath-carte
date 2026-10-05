@@ -1,61 +1,149 @@
 {
-  "updated": "2026-10-04 19:55",
-  "total": 137,
+  "updated": "2026-10-05 12:01",
+  "total": 142,
   "offers": [
     {
+      "id": 4631043,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Nouakchott",
+      "pays": "",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "05/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4631043-professeur-des-ecoles-fh-nouakchott"
+    },
+    {
+      "id": 4630975,
+      "titre": "Professeur des écoles - F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "05/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4630975-professeur-des-ecoles-fh-tunis-tunisie-1053-tunis"
+    },
+    {
+      "id": 4630655,
+      "titre": "Enseignant Flsco - F/H - HONG KONG",
+      "etab": "",
+      "ville": "Hong Kong Island",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "05/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4630655-enseignant-flsco-fh-hong-kong-hong-kong-island"
+    },
+    {
+      "id": 4630055,
+      "titre": "Aide documentaliste et animateur de la BCD - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "05/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4630055-aide-documentaliste-et-animateur-de-la-bcd-fh-munich-allemagne-81373-munchen"
+    },
+    {
+      "id": 4630041,
+      "titre": "Assistant de gestion budgétaire F/H - IRF ZECO (mi-temps) - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Secrétaire / assistant F/H",
+      "date": "05/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4630041-assistant-de-gestion-budgetaire-fh-irf-zeco-mi-temps-munich-allemagne-81373-munchen"
+    },
+    {
+      "id": 4629991,
+      "titre": "Professeur(e) des écoles CM1/CM2 – Chicago (dès que possible)",
+      "etab": "",
+      "ville": "Chicago",
+      "pays": "",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "05/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4629991-professeure-des-ecoles-cm1cm2-chicago-des-que-possible-60614-chicago"
+    },
+    {
+      "id": 4629989,
+      "titre": "Professeur·e de français / histoire-géographie – 6e, 5e et 4e",
+      "etab": "",
+      "ville": "Chicago",
+      "pays": "",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "05/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4629989-professeur-e-de-francais-histoire-geographie-6e-5e-et-4e-60614-chicago"
+    },
+    {
+      "id": 4629973,
+      "titre": "Professeur des écoles F/H - BISSAU - GUINEEE BISSAU",
+      "etab": "",
+      "ville": "Bissau",
+      "pays": "Guinée",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "04/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4629973-professeur-des-ecoles-fh-bissau-guineee-bissau-bissau"
+    },
+    {
       "id": 4629075,
-      "titre": "Professeur espagnol",
+      "titre": "Professeur d'espagnol F/H - MEXICO - MEXIQUE",
       "etab": "",
       "ville": "Ciudad de México",
-      "pays": "",
+      "pays": "Mexique",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d’espagnol F/H",
       "date": "02/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4629075-professeur-espagnol-11850-ciudad-de-mexico"
+      "url": "https://talents.aefe.fr/fr/annonce/4629075-professeur-despagnol-fh-mexico-mexique-11850-ciudad-de-mexico"
     },
     {
       "id": 4628853,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - MEXICO - MEXIQUE",
       "etab": "",
       "ville": "Ciudad de México",
-      "pays": "",
+      "pays": "Mexique",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "02/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4628853-professeur-des-ecoles-fh-11850-ciudad-de-mexico"
+      "url": "https://talents.aefe.fr/fr/annonce/4628853-professeur-des-ecoles-fh-mexico-mexique-11850-ciudad-de-mexico"
     },
     {
       "id": 4625251,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - OULAN-BATOR - MONGOLIE",
       "etab": "",
       "ville": "Ulaanbaatar",
-      "pays": "",
+      "pays": "Mongolie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "01/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4625251-professeur-des-ecoles-fh-ulaanbaatar"
+      "url": "https://talents.aefe.fr/fr/annonce/4625251-professeur-des-ecoles-fh-oulan-bator-mongolie-ulaanbaatar"
     },
     {
       "id": 4624541,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - PRAIA - CAP VERT",
       "etab": "",
       "ville": "Praia",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "30/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4624541-professeur-des-ecoles-fh-praia"
+      "url": "https://talents.aefe.fr/fr/annonce/4624541-professeur-des-ecoles-fh-praia-cap-vert-praia"
     },
     {
       "id": 4624423,
-      "titre": "Psychologue scolaire",
+      "titre": "Psychologue scolaire F/H - SFAX - TUNISIE",
       "etab": "",
       "ville": "Sfax",
-      "pays": "",
+      "pays": "Tunisie",
       "contrat": "Contrat permanent",
       "discipline": "Psychologue scolaire F/H",
       "date": "30/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4624423-psychologue-scolaire-3062-sfax"
+      "url": "https://talents.aefe.fr/fr/annonce/4624423-psychologue-scolaire-fh-sfax-tunisie-3062-sfax"
     },
     {
       "id": 4623559,
@@ -70,40 +158,40 @@
     },
     {
       "id": 4623465,
-      "titre": "Directeur(trice) des Opérations",
+      "titre": "Directeur des Opérations F/H - DUSSELDORF - ALLEMAGNE",
       "etab": "",
       "ville": "Düsseldorf",
-      "pays": "",
+      "pays": "Allemagne",
       "contrat": "Contrat temporaire",
       "discipline": "Directeur Administratif et Financier F/H",
       "date": "30/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4623465-directeurtrice-des-operations-40237-dusseldorf"
+      "url": "https://talents.aefe.fr/fr/annonce/4623465-directeur-des-operations-fh-dusseldorf-allemagne-40237-dusseldorf"
     },
     {
       "id": 4622263,
-      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
+      "titre": "Professeur du Second Degré - SVT - F/H - ALEXANDRIE - EGYPTE",
       "etab": "",
       "ville": "Alexandria",
-      "pays": "",
+      "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "29/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4622263-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-alexandria"
+      "url": "https://talents.aefe.fr/fr/annonce/4622263-professeur-du-second-degre-svt-fh-alexandrie-egypte-alexandria"
     },
     {
       "id": 4621523,
-      "titre": "Conseiller Principal d'Éducation F/H",
+      "titre": "Conseiller Principal d'Éducation F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "29/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4621523-conseiller-principal-deducation-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4621523-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4620723,
-      "titre": "Professeur de Technologie et Physique Chimie H/F - La Haye -PAYS-BAS",
+      "titre": "Professeur de Technologie et Physique Chimie H/F - LA HAYE - PAYS-BAS",
       "etab": "",
       "ville": "Den Haag",
       "pays": "Pays-Bas",
@@ -366,17 +454,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4609973-professeur-documentaliste-fh-brazzaville-republique-du-congo-brazzaville"
     },
     {
-      "id": 4609837,
-      "titre": "Enseignant documentaliste pour le CDI - F/H - MAPOU - MAURICE",
-      "etab": "",
-      "ville": "Mapou",
-      "pays": "",
-      "contrat": "CDD terme fixe",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4609837-enseignant-documentaliste-pour-le-cdi-fh-mapou-maurice-mapou"
-    },
-    {
       "id": 4609701,
       "titre": "Professeur des écoles F/H - NOUAKCHOTT - MAURITANIE",
       "etab": "",
@@ -595,17 +672,6 @@
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "10/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4592927-conseiller-principal-deducation-hf-tunis-tunisie-2037-tunis"
-    },
-    {
-      "id": 4592597,
-      "titre": "Professeur des écoles F/H - MONASTIR - TUNISIE",
-      "etab": "",
-      "ville": "Monastir",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "10/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4592597-professeur-des-ecoles-fh-monastir-tunisie-monastir"
     },
     {
       "id": 4590897,
@@ -1134,17 +1200,6 @@
       "discipline": "Proviseur F/H",
       "date": "08/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4539625-proviseur-hf-ouagadougou-burkina-faso-ouagadougou"
-    },
-    {
-      "id": 4535687,
-      "titre": "AED (Poste réservé à un candidat habitant Abdijan) F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "CDD terme fixe",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "06/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4535687-aed-poste-reserve-a-un-candidat-habitant-abdijan-fh-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
       "id": 4515063,
