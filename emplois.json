@@ -1,10 +1,54 @@
 {
-  "updated": "2026-10-05 23:04",
+  "updated": "2026-10-06 11:43",
   "total": 144,
   "offers": [
     {
+      "id": 4633327,
+      "titre": "Professeur d'anglais au Primaire | Primary English Teacher - F/H - RU - LONDRES",
+      "etab": "",
+      "ville": "London",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "06/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4633327-professeur-danglais-au-primaire-primary-english-teacher-fh-ru-londres-london"
+    },
+    {
+      "id": 4633115,
+      "titre": "Directeur d’École Primaire (H/F) – Tanger, Maroc",
+      "etab": "",
+      "ville": "Tangier",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Directeur du primaire F/H",
+      "date": "06/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4633115-directeur-d-ecole-primaire-hf-tanger-maroc-tangier"
+    },
+    {
+      "id": 4632699,
+      "titre": "Professeur du 2nd Degré - Mathématiques F/H - CDD de 8 mois - TEMPS PLEIN",
+      "etab": "",
+      "ville": "Douala",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "06/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4632699-professeur-du-2nd-degre-mathematiques-fh-cdd-de-8-mois-temps-plein-douala"
+    },
+    {
+      "id": 4632587,
+      "titre": "PROFESSEUR DE MATHEMATIQUES - F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "06/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4632587-professeur-de-mathematiques-fh-tunis-tunisie-2037-tunis"
+    },
+    {
       "id": 4631311,
-      "titre": "PROFESSEUR Documentaliste - F/H - TUNIS - TUNISIE",
+      "titre": "Professeur documentaliste - F/H - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
@@ -15,14 +59,14 @@
     },
     {
       "id": 4631043,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - NOUAKCHOTT - MAURITANIE",
       "etab": "",
       "ville": "Nouakchott",
-      "pays": "",
+      "pays": "Mauritanie",
       "contrat": "CDD sans terme fixe",
       "discipline": "Professeur des écoles F/H",
       "date": "05/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4631043-professeur-des-ecoles-fh-nouakchott"
+      "url": "https://talents.aefe.fr/fr/annonce/4631043-professeur-des-ecoles-fh-nouakchott-mauritanie-nouakchott"
     },
     {
       "id": 4630975,
@@ -34,17 +78,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "05/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4630975-professeur-des-ecoles-fh-tunis-tunisie-1053-tunis"
-    },
-    {
-      "id": 4630655,
-      "titre": "Enseignant Flsco - F/H - HONG KONG",
-      "etab": "",
-      "ville": "Hong Kong Island",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "05/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4630655-enseignant-flsco-fh-hong-kong-hong-kong-island"
     },
     {
       "id": 4630055,
@@ -59,36 +92,36 @@
     },
     {
       "id": 4630041,
-      "titre": "Assistant de gestion budgétaire F/H - IRF ZECO (mi-temps) - MUNICH - ALLEMAGNE",
+      "titre": "Assistant de gestion budgétaire - IRF ZECO à mi-temps - F/H - MUNICH - ALLEMAGNE",
       "etab": "",
       "ville": "München",
       "pays": "Allemagne",
       "contrat": "Contrat temporaire",
       "discipline": "Secrétaire / assistant F/H",
       "date": "05/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4630041-assistant-de-gestion-budgetaire-fh-irf-zeco-mi-temps-munich-allemagne-81373-munchen"
+      "url": "https://talents.aefe.fr/fr/annonce/4630041-assistant-de-gestion-budgetaire-irf-zeco-a-mi-temps-fh-munich-allemagne-81373-munchen"
     },
     {
       "id": 4629991,
-      "titre": "Professeur(e) des écoles CM1/CM2 – Chicago (dès que possible)",
+      "titre": "Professeur des écoles CM1/CM2 - F/H - CHICAGO - ETATS-UNIS",
       "etab": "",
       "ville": "Chicago",
-      "pays": "",
+      "pays": "États-Unis",
       "contrat": "CDD sans terme fixe",
       "discipline": "Professeur des écoles F/H",
       "date": "05/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4629991-professeure-des-ecoles-cm1cm2-chicago-des-que-possible-60614-chicago"
+      "url": "https://talents.aefe.fr/fr/annonce/4629991-professeur-des-ecoles-cm1cm2-fh-chicago-etats-unis-60614-chicago"
     },
     {
       "id": 4629989,
-      "titre": "Professeur·e de français / histoire-géographie – 6e, 5e et 4e",
+      "titre": "Professeur de français et histoire-géographie - F/H - CHICAGO - ETATS-UNIS",
       "etab": "",
       "ville": "Chicago",
-      "pays": "",
+      "pays": "États-Unis",
       "contrat": "CDD sans terme fixe",
       "discipline": "professeur de lettres modernes F/H",
       "date": "05/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4629989-professeur-e-de-francais-histoire-geographie-6e-5e-et-4e-60614-chicago"
+      "url": "https://talents.aefe.fr/fr/annonce/4629989-professeur-de-francais-et-histoire-geographie-fh-chicago-etats-unis-60614-chicago"
     },
     {
       "id": 4629973,
@@ -267,17 +300,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4615649-assistant-deducation-fh-nicosie-chypre-2121-%CE%B1%CE%B3%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%B9%CE%B1"
     },
     {
-      "id": 4615643,
-      "titre": "Professeur des Écoles F/H - DHAKA - BANGLADESH",
-      "etab": "",
-      "ville": "Dhaka",
-      "pays": "Bangladesh",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "25/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615643-professeur-des-ecoles-fh-dhaka-bangladesh-1212-dhaka"
-    },
-    {
       "id": 4615555,
       "titre": "Assistant d'Éducation - F/H - ASUNCION - PARAGUAY",
       "etab": "",
@@ -386,17 +408,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "23/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4612013-professeur-du-second-degre-anglais-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4611813,
-      "titre": "Professeur des écoles F/H -MAPOU - MAURICE",
-      "etab": "",
-      "ville": "Mapou",
-      "pays": "",
-      "contrat": "CDD terme fixe",
-      "discipline": "Professeur des écoles F/H",
-      "date": "23/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4611813-professeur-des-ecoles-fh-mapou-maurice-mapou"
     },
     {
       "id": 4611057,
@@ -949,17 +960,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4580425-professeur-d-anglais-fh-native-speaker-or-native-alike-casablanca-maroc-casablanca"
     },
     {
-      "id": 4580419,
-      "titre": "Professeur des écoles - F/H - écoles Al Jabr - TANGER - MAROC",
-      "etab": "",
-      "ville": "Tangier",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "03/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4580419-professeur-des-ecoles-fh-ecoles-al-jabr-tanger-maroc-tangier"
-    },
-    {
       "id": 4580037,
       "titre": "Professeur de mathématiques au 2nd dégré F/H - Temps plein - BIZERTE - TUNISIE",
       "etab": "",
@@ -1489,7 +1489,7 @@
     },
     {
       "id": 4102357,
-      "titre": "Professeur des écoles - F/H - Le CAIRE - EGYPTE",
+      "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
       "etab": "",
       "ville": "Cairo",
       "pays": "Égypte",
