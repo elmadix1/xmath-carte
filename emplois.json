@@ -1,7 +1,51 @@
 {
-  "updated": "2026-10-06 11:43",
+  "updated": "2026-10-06 21:27",
   "total": 144,
   "offers": [
+    {
+      "id": 4634421,
+      "titre": "Agent spécialisé en école maternelle remplaçant(e) pour missions ponctuelles",
+      "etab": "",
+      "ville": "Serrekunda",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Aide maternelle F/H",
+      "date": "06/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4634421-agent-specialise-en-ecole-maternelle-remplacante-pour-missions-ponctuelles-serrekunda"
+    },
+    {
+      "id": 4634417,
+      "titre": "Professeur des écoles remplaçant pour des missions ponctuelles",
+      "etab": "",
+      "ville": "Serrekunda",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "06/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4634417-professeur-des-ecoles-remplacant-pour-des-missions-ponctuelles-serrekunda"
+    },
+    {
+      "id": 4634409,
+      "titre": "Proviseur H/F - Tunis - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Proviseur F/H",
+      "date": "06/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4634409-proviseur-hf-tunis-tunisie-1002-tunis"
+    },
+    {
+      "id": 4634279,
+      "titre": "Professeur de mathématiques vacataire F/H - Lycée Descartes - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "06/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4634279-professeur-de-mathematiques-vacataire-fh-lycee-descartes-rabat-maroc-rabat"
+    },
     {
       "id": 4633327,
       "titre": "Professeur d'anglais au Primaire | Primary English Teacher - F/H - RU - LONDRES",
@@ -718,17 +762,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4590839-professeur-de-lettres-modernes-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
     },
     {
-      "id": 4590731,
-      "titre": "Professeur de technologie-informatique F/H - BUENOS AIRES - ARGENTINE",
-      "etab": "",
-      "ville": "BAG",
-      "pays": "Argentine",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
-      "date": "09/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4590731-professeur-de-technologie-informatique-fh-buenos-aires-argentine-c1428-bag"
-    },
-    {
       "id": 4590455,
       "titre": "Professeur d’anglais pour l'école secondaire F/H - BUENOS AIRES - ARGENTINE",
       "etab": "",
@@ -828,28 +861,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4586295-psychologue-scolaire-fh-qingpu-chine-shanghai"
     },
     {
-      "id": 4586251,
-      "titre": "Professeur de technique cinématographique F/H - BUENOS AIRES - ARGENTINE",
-      "etab": "",
-      "ville": "BAG",
-      "pays": "Argentine",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "07/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4586251-professeur-de-technique-cinematographique-fh-buenos-aires-argentine-c1428-bag"
-    },
-    {
-      "id": 4586227,
-      "titre": "Professeur des écoles F/H - BUENOS AIRES - ARGENTINE",
-      "etab": "",
-      "ville": "BAG",
-      "pays": "Argentine",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4586227-professeur-des-ecoles-fh-buenos-aires-argentine-c1428-bag"
-    },
-    {
       "id": 4584639,
       "titre": "Référent du Pôle EBEP - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
       "etab": "",
@@ -914,17 +925,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "04/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4583099-professeur-du-second-degre-physique-chimie-fh-pereira-colombie-pereira"
-    },
-    {
-      "id": 4582663,
-      "titre": "Professeur.e des écoles F/H - BUENOS AIRES - ARGENTINE",
-      "etab": "",
-      "ville": "BAG",
-      "pays": "Argentine",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "04/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4582663-professeur-e-des-ecoles-fh-buenos-aires-argentine-c1428-bag"
     },
     {
       "id": 4581679,
