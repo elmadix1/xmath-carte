@@ -1,10 +1,21 @@
 {
-  "updated": "2026-10-07 11:31",
-  "total": 145,
+  "updated": "2026-10-07 21:45",
+  "total": 142,
   "offers": [
     {
+      "id": 4635581,
+      "titre": "Professeur des écoles - Casabalanca Maroc",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "07/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4635581-professeur-des-ecoles-casabalanca-maroc-casablanca"
+    },
+    {
       "id": 4634587,
-      "titre": "PROVISEUR ADJOINT 2027-2028 - F/H - HOUSTON - TEXAS - ETATS-UNIS",
+      "titre": "Proviseur adjoint 2027-2028 - F/H - HOUSTON - TEXAS - ETATS-UNIS",
       "etab": "",
       "ville": "Houston",
       "pays": "États-Unis",
@@ -15,29 +26,29 @@
     },
     {
       "id": 4634421,
-      "titre": "Agent spécialisé en école maternelle remplaçant(e) pour missions ponctuelles",
+      "titre": "Agent spécialisé en école maternelle remplaçant F/H - SERREKUNDA - GAMBIE",
       "etab": "",
       "ville": "Serrekunda",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Aide maternelle F/H",
       "date": "06/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4634421-agent-specialise-en-ecole-maternelle-remplacante-pour-missions-ponctuelles-serrekunda"
+      "url": "https://talents.aefe.fr/fr/annonce/4634421-agent-specialise-en-ecole-maternelle-remplacant-fh-serrekunda-gambie-serrekunda"
     },
     {
       "id": 4634417,
-      "titre": "Professeur des écoles remplaçant pour des missions ponctuelles",
+      "titre": "Professeur des écoles remplaçant F/H - SERREKUND - GAMBIE",
       "etab": "",
       "ville": "Serrekunda",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "06/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4634417-professeur-des-ecoles-remplacant-pour-des-missions-ponctuelles-serrekunda"
+      "url": "https://talents.aefe.fr/fr/annonce/4634417-professeur-des-ecoles-remplacant-fh-serrekund-gambie-serrekunda"
     },
     {
       "id": 4634409,
-      "titre": "Proviseur H/F - Tunis - TUNISIE",
+      "titre": "Proviseur H/F - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
@@ -59,18 +70,18 @@
     },
     {
       "id": 4633327,
-      "titre": "Professeur d'anglais au Primaire | Primary English Teacher - F/H - RU - LONDRES",
+      "titre": "Professeur d'anglais au Primaire | Primary English Teacher - F/H - LONDRES - R-U",
       "etab": "",
       "ville": "London",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’anglais F/H",
       "date": "06/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4633327-professeur-danglais-au-primaire-primary-english-teacher-fh-ru-londres-london"
+      "url": "https://talents.aefe.fr/fr/annonce/4633327-professeur-danglais-au-primaire-primary-english-teacher-fh-londres-r-u-london"
     },
     {
       "id": 4633115,
-      "titre": "Directeur d’École Primaire (H/F) – Tanger, Maroc",
+      "titre": "Directeur d’école Primaire H/F – TANGER - MAROC",
       "etab": "",
       "ville": "Tangier",
       "pays": "Maroc",
@@ -81,18 +92,18 @@
     },
     {
       "id": 4632699,
-      "titre": "Professeur du 2nd Degré - Mathématiques F/H - CDD de 8 mois - TEMPS PLEIN",
+      "titre": "Professeur du 2nd Degré de Mathématiques F/H - CDD de 8 mois - DOUALA - CAMEROUN",
       "etab": "",
       "ville": "Douala",
-      "pays": "",
+      "pays": "Cameroun",
       "contrat": "CDD terme fixe",
       "discipline": "Professeur de mathématiques F/H",
       "date": "06/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4632699-professeur-du-2nd-degre-mathematiques-fh-cdd-de-8-mois-temps-plein-douala"
+      "url": "https://talents.aefe.fr/fr/annonce/4632699-professeur-du-2nd-degre-de-mathematiques-fh-cdd-de-8-mois-douala-cameroun-douala"
     },
     {
       "id": 4632587,
-      "titre": "PROFESSEUR DE MATHEMATIQUES - F/H - TUNIS - TUNISIE",
+      "titre": "Professeur de Mathématiques - F/H - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
@@ -377,17 +388,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4615527-professeur-des-ecoles-fh-zakia-mexique-76269-zakia"
     },
     {
-      "id": 4615419,
-      "titre": "Professeur des écoles F/H - TIABAYA - PEROU",
-      "etab": "",
-      "ville": "Tiabaya",
-      "pays": "Pérou",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615419-professeur-des-ecoles-fh-tiabaya-perou-tiabaya"
-    },
-    {
       "id": 4615399,
       "titre": "Professeur du Second Degré - Physique Chimie - F/H - TIABAYA - PEROU",
       "etab": "",
@@ -650,28 +650,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "15/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4600371-professeur-des-ecoles-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
-    },
-    {
-      "id": 4600301,
-      "titre": "Professeur du 2nd degré - Anglais - F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "15/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4600301-professeur-du-2nd-degre-anglais-fh-lisbonne-portugal-1070-103-lisboa"
-    },
-    {
-      "id": 4600287,
-      "titre": "ASEM - 1er degré - F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Aide maternelle F/H",
-      "date": "15/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4600287-asem-1er-degre-fh-lisbonne-portugal-1070-103-lisboa"
     },
     {
       "id": 4600205,
@@ -1497,17 +1475,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "07/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4130039-professeur-du-second-degre-lettres-modernes-et-philosophie-fh-kerobokan-bali-kabupaten-badung"
-    },
-    {
-      "id": 4102357,
-      "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "05/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4083445,
