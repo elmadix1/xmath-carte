@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-06 21:27",
-  "total": 144,
+  "updated": "2026-10-07 11:31",
+  "total": 145,
   "offers": [
+    {
+      "id": 4634587,
+      "titre": "PROVISEUR ADJOINT 2027-2028 - F/H - HOUSTON - TEXAS - ETATS-UNIS",
+      "etab": "",
+      "ville": "Houston",
+      "pays": "États-Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Proviseur adjoint F/H",
+      "date": "06/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4634587-proviseur-adjoint-2027-2028-fh-houston-texas-etats-unis-77084-houston"
+    },
     {
       "id": 4634421,
       "titre": "Agent spécialisé en école maternelle remplaçant(e) pour missions ponctuelles",
@@ -762,17 +773,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4590839-professeur-de-lettres-modernes-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
     },
     {
-      "id": 4590455,
-      "titre": "Professeur d’anglais pour l'école secondaire F/H - BUENOS AIRES - ARGENTINE",
-      "etab": "",
-      "ville": "BAG",
-      "pays": "Argentine",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "09/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4590455-professeur-d-anglais-pour-lecole-secondaire-fh-buenos-aires-argentine-c1428-bag"
-    },
-    {
       "id": 4590187,
       "titre": "Professeur d'italien - F/H - CARTHAGE - TUNISIE",
       "etab": "",
@@ -1202,17 +1202,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4541191-proviseur-adjoint-fh-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
-      "id": 4539625,
-      "titre": "Proviseur H/F - OUAGADOUGOU - BURKINA FASO",
-      "etab": "",
-      "ville": "Ouagadougou",
-      "pays": "Burkina Faso",
-      "contrat": "CDD terme fixe",
-      "discipline": "Proviseur F/H",
-      "date": "08/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4539625-proviseur-hf-ouagadougou-burkina-faso-ouagadougou"
-    },
-    {
       "id": 4515063,
       "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1486,6 +1475,28 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "11/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140091-professeur-physique-chimie-fh-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4136021,
+      "titre": "Professeur des écoles poste susceptible d'être vacant F/H",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "07/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4136021-professeur-des-ecoles-poste-susceptible-detre-vacant-fh-rabat"
+    },
+    {
+      "id": 4130039,
+      "titre": "Professeur du Second Degré -Lettres Modernes et Philosophie -F/H- KEROBOKAN-BALI",
+      "etab": "",
+      "ville": "Bali",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "07/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4130039-professeur-du-second-degre-lettres-modernes-et-philosophie-fh-kerobokan-bali-kabupaten-badung"
     },
     {
       "id": 4102357,
