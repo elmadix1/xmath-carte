@@ -1,17 +1,39 @@
 {
-  "updated": "2026-10-07 21:45",
-  "total": 142,
+  "updated": "2026-10-08 11:46",
+  "total": 140,
   "offers": [
     {
+      "id": 4637121,
+      "titre": "Chargée des encaissements F/H",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Comptable F/H",
+      "date": "08/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4637121-chargee-des-encaissements-fh-rabat"
+    },
+    {
+      "id": 4636873,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "etab": "",
+      "ville": "Uccle",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "08/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4636873-professeur-du-second-degre-physique-chimie-fh-1180-uccle"
+    },
+    {
       "id": 4635581,
-      "titre": "Professeur des écoles - Casabalanca Maroc",
+      "titre": "Professeur des écoles F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "07/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4635581-professeur-des-ecoles-casabalanca-maroc-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4635581-professeur-des-ecoles-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4634587,
@@ -1213,28 +1235,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4480659-psychologue-scolaire-fh-lycee-francais-international-daccra-accra-ghana-accra"
     },
     {
-      "id": 4469333,
-      "titre": "Professeur d'Eco-gestion - F/H - PORT-VILA - VANUATU",
-      "etab": "",
-      "ville": "Port-Vila",
-      "pays": "Vanuatu",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "18/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4469333-professeur-deco-gestion-fh-port-vila-vanuatu-port-vila"
-    },
-    {
-      "id": 4469331,
-      "titre": "Professeur Histoire-Géographie - F/H - PORT-VILA - VANUATU",
-      "etab": "",
-      "ville": "Port-Vila",
-      "pays": "Vanuatu",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "09/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4469331-professeur-histoire-geographie-fh-port-vila-vanuatu-port-vila"
-    },
-    {
       "id": 4467827,
       "titre": "Conseiller d'orientation - F/H - COTONOU - BENIN",
       "etab": "",
@@ -1400,17 +1400,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4225869-infirmier-scolaire-fh-lycee-francais-gustave-eiffel-budapest-hongrie-1029-budapest"
     },
     {
-      "id": 4212531,
-      "titre": "Professeur des écoles - F/H - KIRKLAND - SEATTLE - ETATS UNIS",
-      "etab": "",
-      "ville": "Kirkland",
-      "pays": "États-Unis",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "25/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4212531-professeur-des-ecoles-fh-kirkland-seattle-etats-unis-98034-kirkland"
-    },
-    {
       "id": 4196309,
       "titre": "Professeur d'anglais en maternelle et élémentaire - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -1456,25 +1445,25 @@
     },
     {
       "id": 4136021,
-      "titre": "Professeur des écoles poste susceptible d'être vacant F/H",
+      "titre": "Professeur des écoles poste susceptible d'être vacant F/H - RABAT - MAROC",
       "etab": "",
       "ville": "Rabat",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "07/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4136021-professeur-des-ecoles-poste-susceptible-detre-vacant-fh-rabat"
+      "url": "https://talents.aefe.fr/fr/annonce/4136021-professeur-des-ecoles-poste-susceptible-detre-vacant-fh-rabat-maroc-rabat"
     },
     {
       "id": 4130039,
-      "titre": "Professeur du Second Degré -Lettres Modernes et Philosophie -F/H- KEROBOKAN-BALI",
+      "titre": "Professeur de Lettres Modernes et Philosophie - F/H - KEROBOKAN - BALI",
       "etab": "",
       "ville": "Bali",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "professeur de lettres modernes F/H",
       "date": "07/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4130039-professeur-du-second-degre-lettres-modernes-et-philosophie-fh-kerobokan-bali-kabupaten-badung"
+      "url": "https://talents.aefe.fr/fr/annonce/4130039-professeur-de-lettres-modernes-et-philosophie-fh-kerobokan-bali-kabupaten-badung"
     },
     {
       "id": 4083445,
@@ -1508,17 +1497,6 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "18/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 4020099,
-      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "18/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,
