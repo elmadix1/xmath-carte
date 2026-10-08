@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-08 11:46",
-  "total": 140,
+  "updated": "2026-10-08 21:45",
+  "total": 141,
   "offers": [
+    {
+      "id": 4638241,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "08/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4638241-professeur-des-ecoles-fh-casablanca"
+    },
     {
       "id": 4637121,
       "titre": "Chargée des encaissements F/H",
@@ -762,17 +773,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4590897-professeur-despagnol-remplacant-fh-alexandrie-egypte-alexandria"
     },
     {
-      "id": 4590839,
-      "titre": "Professeur de Lettres Modernes F/H - LAS TERRENAS - REPUBLIQUE DOMINICAINE",
-      "etab": "",
-      "ville": "Las Terrenas",
-      "pays": "Rép. dominicaine",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4590839-professeur-de-lettres-modernes-fh-las-terrenas-republique-dominicaine-32000-las-terrenas"
-    },
-    {
       "id": 4590187,
       "titre": "Professeur d'italien - F/H - CARTHAGE - TUNISIE",
       "etab": "",
@@ -1165,7 +1165,7 @@
       "pays": "Allemagne",
       "contrat": "CDD terme fixe",
       "discipline": "Conseiller principal d'éducation F/H",
-      "date": "12/08/2026",
+      "date": "08/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4544689-conseiller-principal-deducation-fh-munich-allemagne-81373-munchen"
     },
     {
@@ -1497,6 +1497,17 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "18/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
+    },
+    {
+      "id": 4020099,
+      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "08/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,
