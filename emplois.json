@@ -1,7 +1,139 @@
 {
-  "updated": "2026-10-09 11:39",
-  "total": 139,
+  "updated": "2026-10-09 21:27",
+  "total": 149,
   "offers": [
+    {
+      "id": 4640531,
+      "titre": "PROFESSEUR DE SVT (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640531-professeur-de-svt-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640527,
+      "titre": "PROFESSEUR D’HISTOIRE-GÉOGRAPHIE (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640527-professeur-d-histoire-geographie-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640525,
+      "titre": "PROFESSEUR DE PHYSIQUE-CHIMIE (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640525-professeur-de-physique-chimie-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640519,
+      "titre": "PROFESSEUR D'ANGLAIS (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640519-professeur-danglais-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640505,
+      "titre": "PROFESSEUR DE TECHNOLOGIE NUMERIQUE (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de technologie F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640505-professeur-de-technologie-numerique-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640495,
+      "titre": "PROFESSEUR DE FLE ET DE LETTRES (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de français langue étrangère F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640495-professeur-de-fle-et-de-lettres-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640489,
+      "titre": "Professeur de mathématiques (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640489-professeur-de-mathematiques-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640461,
+      "titre": "Professeur des écoles (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640461-professeur-des-ecoles-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640423,
+      "titre": "Responsable administratif et financier (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Directeur Administratif et Financier F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640423-responsable-administratif-et-financier-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640391,
+      "titre": "Responsable pédagogique / Directeur des études (F/H) KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Responsable pédagogique",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640391-responsable-pedagogique-directeur-des-etudes-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640367,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Conakry",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640367-professeur-des-ecoles-fh-conakry"
+    },
+    {
+      "id": 4640055,
+      "titre": "Chef d'établissement - directeur (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Proviseur F/H",
+      "date": "09/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640055-chef-detablissement-directeur-fh-kankan-guinee-kankan"
+    },
     {
       "id": 4638241,
       "titre": "Professeur des écoles F/H - CASABLANCA - MAROC",
@@ -1156,28 +1288,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "11/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4543605-professeur-de-mathematiques-fh-mathematics-teacher-cambridge-usa-02140-cambridge"
-    },
-    {
-      "id": 4541207,
-      "titre": "Professeur de mathématiques - F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "10/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4541207-professeur-de-mathematiques-fh-abidjan-cote-divoire-bp-157-abidjan"
-    },
-    {
-      "id": 4541191,
-      "titre": "Proviseur adjoint - F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Proviseur adjoint F/H",
-      "date": "10/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4541191-proviseur-adjoint-fh-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
       "id": 4515063,
