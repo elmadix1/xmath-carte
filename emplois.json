@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-11 20:46",
-  "total": 143,
+  "updated": "2026-10-12 12:41",
+  "total": 136,
   "offers": [
+    {
+      "id": 4642261,
+      "titre": "Professeur du Second Degré EPS - F/H - DUBAI - EMIRATS ARABES UNIS",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "12/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4642261-professeur-du-second-degre-eps-fh-dubai-emirats-arabes-unis-dubai"
+    },
     {
       "id": 4640531,
       "titre": "PROFESSEUR DE SVT (F/H) - KANKAN - GUINEE",
@@ -597,17 +608,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4611057-charge-de-comptabilite-budgetaire-fh-remplacante-tunis-tunisie-1082-tunis"
     },
     {
-      "id": 4610617,
-      "titre": "Professeur des écoles F/H - MARBELLA - ESPAGNE",
-      "etab": "",
-      "ville": "Marbella",
-      "pays": "Espagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4610617-professeur-des-ecoles-fh-marbella-espagne-29601-marbella"
-    },
-    {
       "id": 4610517,
       "titre": "Enseignant premier degré spécialisé CP - F/H - MALABO - GUINEE EQUATORIALE",
       "etab": "",
@@ -914,17 +914,6 @@
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "08/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4588417-professeur-du-second-degre-en-technologie-snt-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4586987,
-      "titre": "Enseignants du 1er degré H/F - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "08/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4586987-enseignants-du-1er-degre-hf-tunis-tunisie-1082-tunis"
     },
     {
       "id": 4586355,
@@ -1400,28 +1389,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4276169-professeur-du-second-degre-lettres-modernes-fh-tunis-tunisie-1001-tunis"
     },
     {
-      "id": 4266163,
-      "titre": "Professeur des écoles - Rentrée 2026 - F/H - SOFIA - BULGARIE",
-      "etab": "",
-      "ville": "София",
-      "pays": "Bulgarie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "02/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4266163-professeur-des-ecoles-rentree-2026-fh-sofia-bulgarie-1700-%D1%81%D0%BE%D1%84%D0%B8%D1%8F"
-    },
-    {
-      "id": 4261171,
-      "titre": "Professeur du Second Degré Lettres Modernes F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "18/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4261171-professeur-du-second-degre-lettres-modernes-fh-tunis-tunisie-1002-tunis"
-    },
-    {
       "id": 4225869,
       "titre": "Infirmier Scolaire F/H - Lycée Français Gustave Eiffel - BUDAPEST - HONGRIE",
       "etab": "",
@@ -1431,17 +1398,6 @@
       "discipline": "Infirmier scolaire F/H",
       "date": "27/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4225869-infirmier-scolaire-fh-lycee-francais-gustave-eiffel-budapest-hongrie-1029-budapest"
-    },
-    {
-      "id": 4196309,
-      "titre": "Professeur d'anglais en maternelle et élémentaire - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "07/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4196309-professeur-danglais-en-maternelle-et-elementaire-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4140125,
@@ -1464,28 +1420,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "29/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4136021,
-      "titre": "Professeur des écoles poste susceptible d'être vacant F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4136021-professeur-des-ecoles-poste-susceptible-detre-vacant-fh-rabat-maroc-rabat"
-    },
-    {
-      "id": 4130039,
-      "titre": "Professeur de Lettres Modernes et Philosophie - F/H - KEROBOKAN - BALI",
-      "etab": "",
-      "ville": "Bali",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "07/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4130039-professeur-de-lettres-modernes-et-philosophie-fh-kerobokan-bali-kabupaten-badung"
     },
     {
       "id": 4083445,
@@ -1528,7 +1462,7 @@
       "pays": "Allemagne",
       "contrat": "Contrat temporaire",
       "discipline": "Agent du périscolaire F/H",
-      "date": "08/10/2026",
+      "date": "12/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
@@ -1563,17 +1497,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "27/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3486789-professeur-mathematiques-physique-chimie-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
-    },
-    {
-      "id": 3486771,
-      "titre": "Professeur du Second Degré Mathématiques - F/H - SARAJEVO - BOSNIE-HERZÉGOVINE",
-      "etab": "",
-      "ville": "Sarajevo",
-      "pays": "Bosnie-Herzégovine",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "27/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3486771-professeur-du-second-degre-mathematiques-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
     }
   ]
 }
