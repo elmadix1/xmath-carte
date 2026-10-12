@@ -1,7 +1,29 @@
 {
-  "updated": "2026-10-12 12:41",
-  "total": 136,
+  "updated": "2026-10-12 23:27",
+  "total": 137,
   "offers": [
+    {
+      "id": 4642761,
+      "titre": "Assistant(e)/secretaire (H/F) du comité de gestion du LGM ADDIS-ABEBA ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Secrétaire / assistant F/H",
+      "date": "12/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4642761-assistantesecretaire-hf-du-comite-de-gestion-du-lgm-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4642683,
+      "titre": "Professeur d'Art Plastique - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’arts plastiques F/H",
+      "date": "12/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4642683-professeur-dart-plastique-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
     {
       "id": 4642261,
       "titre": "Professeur du Second Degré EPS - F/H - DUBAI - EMIRATS ARABES UNIS",
@@ -114,7 +136,7 @@
     },
     {
       "id": 4640391,
-      "titre": "Responsable pédagogique / Directeur des études (F/H) KANKAN - GUINEE",
+      "titre": "Responsable pédagogique / Directeur des études (F/H) - KANKAN - GUINEE",
       "etab": "",
       "ville": "Kankan",
       "pays": "Guinée",
@@ -125,14 +147,14 @@
     },
     {
       "id": 4640367,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles (F/H) - KONAKRY - GUINEE",
       "etab": "",
       "ville": "Conakry",
-      "pays": "",
+      "pays": "Guinée",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "09/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640367-professeur-des-ecoles-fh-conakry"
+      "url": "https://talents.aefe.fr/fr/annonce/4640367-professeur-des-ecoles-fh-konakry-guinee-conakry"
     },
     {
       "id": 4640055,
@@ -749,17 +771,6 @@
       "discipline": "Professeur d’arabe F/H",
       "date": "16/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4601999-professeur-remplacant-darabe-fh-sfax-tunisie-3062-sfax"
-    },
-    {
-      "id": 4601731,
-      "titre": "Enseignant Lettres collège H/F - CDD temps plein - LUXEMBOURG",
-      "etab": "",
-      "ville": "Luxembourg",
-      "pays": "Luxembourg",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4601731-enseignant-lettres-college-hf-cdd-temps-plein-luxembourg-luxembourg"
     },
     {
       "id": 4600371,
