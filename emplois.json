@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-12 23:27",
-  "total": 137,
+  "updated": "2026-10-13 12:27",
+  "total": 133,
   "offers": [
     {
       "id": 4642761,
@@ -905,17 +905,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4589105-professeur-du-second-degre-espagnol-fh-addis-abeba-ethiopie-addis-abeba"
     },
     {
-      "id": 4588777,
-      "titre": "Professeur du Second Degré Maths-Technologie F/H - TAIPEI - TAIWAN",
-      "etab": "",
-      "ville": "Taipei City",
-      "pays": "Taiwan",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "09/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4588777-professeur-du-second-degre-maths-technologie-fh-taipei-taiwan-taipei-city"
-    },
-    {
       "id": 4588417,
       "titre": "Professeur du Second Degré en TECHNOLOGIE-SNT F/H - LE CAIRE - EGYPTE",
       "etab": "",
@@ -1114,17 +1103,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4568761-professeur-svt-vacataire-fh-nabeul-tunisie-8000-nabeul-"
     },
     {
-      "id": 4567745,
-      "titre": "Professeur des écoles – Poste susceptible d’être vacant F/H",
-      "etab": "",
-      "ville": "England",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "27/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4567745-professeur-des-ecoles-poste-susceptible-d-etre-vacant-fh-greater-london"
-    },
-    {
       "id": 4567177,
       "titre": "Professeur du Second Degré SES F/H - LE CAIRE - EGYPTE",
       "etab": "",
@@ -1200,28 +1178,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "18/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4551463-professeur-du-second-degre-physique-chimie-fh-managua-nicaragua-managua"
-    },
-    {
-      "id": 4547591,
-      "titre": "Professeur des écoles F/H - OULAN-BATOR - MONGOLIE",
-      "etab": "",
-      "ville": "Ulaanbaatar",
-      "pays": "Mongolie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "14/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4547591-professeur-des-ecoles-fh-oulan-bator-mongolie-ulaanbaatar"
-    },
-    {
-      "id": 4546933,
-      "titre": "Professeur des écoles - F/H - MELBOURNE - AUSTRALIE",
-      "etab": "",
-      "ville": "Caulfield North",
-      "pays": "Australie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "14/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4546933-professeur-des-ecoles-fh-melbourne-australie-3161-caulfield-north"
     },
     {
       "id": 4544689,
