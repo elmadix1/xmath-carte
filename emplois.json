@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-13 21:43",
-  "total": 132,
+  "updated": "2026-10-14 09:54",
+  "total": 133,
   "offers": [
+    {
+      "id": 4645649,
+      "titre": "Conseiller Principal d'Éducation F/H",
+      "etab": "",
+      "ville": "Conakry",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "14/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4645649-conseiller-principal-deducation-fh-conakry"
+    },
     {
       "id": 4642761,
       "titre": "Assistant(e)/secretaire (H/F) du comité de gestion du LGM ADDIS-ABEBA ETHIOPIE",
@@ -1136,17 +1147,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4556833-professeur-du-second-degre-enseignement-de-la-langue-arabe-tunis-tunisie-1002-tunis"
     },
     {
-      "id": 4553801,
-      "titre": "CPE F/H – SHARJAH - EMIRATS ARABES UNIS",
-      "etab": "",
-      "ville": "Sharjah",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "19/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4553801-cpe-fh-sharjah-emirats-arabes-unis-sharjah"
-    },
-    {
       "id": 4553775,
       "titre": "Professeur du Second Degré d'histoire géographie F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1266,6 +1266,17 @@
       "discipline": "Secrétaire / assistant F/H",
       "date": "02/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4399289-secretaire-general-adjoint-sga-fh-munich-allemagne-81373-munchen"
+    },
+    {
+      "id": 4396003,
+      "titre": "Professeur Documentaliste - F/H - RIO DE JANEIRO - BRESIL",
+      "etab": "",
+      "ville": "Rio de Janeiro",
+      "pays": "Brésil",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "14/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4396003-professeur-documentaliste-fh-rio-de-janeiro-bresil-rio-de-janeiro"
     },
     {
       "id": 4390911,
