@@ -1,7 +1,62 @@
 {
-  "updated": "2026-10-15 09:36",
-  "total": 136,
+  "updated": "2026-10-15 20:11",
+  "total": 141,
   "offers": [
+    {
+      "id": 4648901,
+      "titre": "Professeur du Second Degré - Espagnol F/H",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "15/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4648901-professeur-du-second-degre-espagnol-fh-7630599-santiago"
+    },
+    {
+      "id": 4648849,
+      "titre": "Professeur des écoles F/H - CUSCO - PEROU",
+      "etab": "",
+      "ville": "Cusco",
+      "pays": "Pérou",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4648849-professeur-des-ecoles-fh-cusco-perou-08003-cusco"
+    },
+    {
+      "id": 4648801,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "15/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4648801-professeur-du-second-degre-mathematiques-fh-7630599-santiago"
+    },
+    {
+      "id": 4648779,
+      "titre": "Professeur du Second Degré de SES (Sciences Économique et Sociales) F/H",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "15/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4648779-professeur-du-second-degre-de-ses-sciences-economique-et-sociales-fh-7630599-santiago"
+    },
+    {
+      "id": 4648639,
+      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
+      "etab": "",
+      "ville": "Santiago",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "15/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4648639-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-7630599-santiago"
+    },
     {
       "id": 4647583,
       "titre": "Professeur de mathématiques - F/H - CASABLANCA - MAROC",
@@ -15,29 +70,29 @@
     },
     {
       "id": 4647069,
-      "titre": "Responsable administratif et financier",
+      "titre": "Responsable administratif et financier F/H - LAS TERRENAS - REP. DOMINICAINE",
       "etab": "",
       "ville": "Las Terrenas",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Directeur Administratif et Financier F/H",
       "date": "14/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4647069-responsable-administratif-et-financier-32000-las-terrenas"
+      "url": "https://talents.aefe.fr/fr/annonce/4647069-responsable-administratif-et-financier-fh-las-terrenas-rep-dominicaine-32000-las-terrenas"
     },
     {
       "id": 4646063,
-      "titre": "Adjoint(e) au SG-en charge de la gestion matérielle et budgétaire de l'ERT-Tunis",
+      "titre": "Adjoint au SG (F/H) - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
-      "pays": "",
+      "pays": "Tunisie",
       "contrat": "Contrat permanent",
       "discipline": "Directeur Administratif et Financier F/H",
       "date": "14/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4646063-adjointe-au-sg-en-charge-de-la-gestion-materielle-et-budgetaire-de-lert-tunis-1082-tunis"
+      "url": "https://talents.aefe.fr/fr/annonce/4646063-adjoint-au-sg-fh-tunis-tunisie-1082-tunis"
     },
     {
       "id": 4646027,
-      "titre": "Chargé de comptabilité générale F/H Agence Comptable- TUNIS - TUNISIE",
+      "titre": "Chargé de comptabilité générale F/H - Agence Comptable - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
@@ -48,25 +103,25 @@
     },
     {
       "id": 4645649,
-      "titre": "Conseiller Principal d'Éducation F/H",
+      "titre": "Conseiller Principal d'Éducation F/H - CONAKRY - GUINEE",
       "etab": "",
       "ville": "Conakry",
-      "pays": "",
+      "pays": "Guinée",
       "contrat": "Contrat temporaire",
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "14/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4645649-conseiller-principal-deducation-fh-conakry"
+      "url": "https://talents.aefe.fr/fr/annonce/4645649-conseiller-principal-deducation-fh-conakry-guinee-conakry"
     },
     {
       "id": 4642761,
-      "titre": "Assistant(e)/secretaire (H/F) du comité de gestion du LGM ADDIS-ABEBA ETHIOPIE",
+      "titre": "Assistant/secretaire (H/F) du comité de gestion du LGM - ADDIS-ABEBA - ETHIOPIE",
       "etab": "",
       "ville": "Addis-Abeba",
       "pays": "Éthiopie",
       "contrat": "Contrat temporaire",
       "discipline": "Secrétaire / assistant F/H",
       "date": "12/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4642761-assistantesecretaire-hf-du-comite-de-gestion-du-lgm-addis-abeba-ethiopie-addis-abeba"
+      "url": "https://talents.aefe.fr/fr/annonce/4642761-assistantsecretaire-hf-du-comite-de-gestion-du-lgm-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4642683,
@@ -510,14 +565,14 @@
     },
     {
       "id": 4620723,
-      "titre": "Professeur de Technologie et Physique Chimie H/F - LA HAYE - PAYS-BAS",
+      "titre": "Professeur de Technologie H/F - LA HAYE - PAYS-BAS",
       "etab": "",
       "ville": "Den Haag",
       "pays": "Pays-Bas",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de technologie F/H",
       "date": "29/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4620723-professeur-de-technologie-et-physique-chimie-hf-la-haye-pays-bas-2584-aa-den-haag"
+      "url": "https://talents.aefe.fr/fr/annonce/4620723-professeur-de-technologie-hf-la-haye-pays-bas-2584-aa-den-haag"
     },
     {
       "id": 4619433,
