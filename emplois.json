@@ -1,7 +1,29 @@
 {
-  "updated": "2026-10-14 20:25",
-  "total": 134,
+  "updated": "2026-10-15 09:36",
+  "total": 136,
   "offers": [
+    {
+      "id": 4647583,
+      "titre": "Professeur de mathématiques - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "15/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4647583-professeur-de-mathematiques-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4647069,
+      "titre": "Responsable administratif et financier",
+      "etab": "",
+      "ville": "Las Terrenas",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Directeur Administratif et Financier F/H",
+      "date": "14/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4647069-responsable-administratif-et-financier-32000-las-terrenas"
+    },
     {
       "id": 4646063,
       "titre": "Adjoint(e) au SG-en charge de la gestion matérielle et budgétaire de l'ERT-Tunis",
