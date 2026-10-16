@@ -1,7 +1,51 @@
 {
-  "updated": "2026-10-16 09:28",
-  "total": 146,
+  "updated": "2026-10-16 19:48",
+  "total": 147,
   "offers": [
+    {
+      "id": 4651377,
+      "titre": "Professeur de la langue Arabe F/H - Collège Saint Exupéry - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’arabe F/H",
+      "date": "16/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4651377-professeur-de-la-langue-arabe-fh-college-saint-exupery-rabat-maroc-rabat"
+    },
+    {
+      "id": 4651343,
+      "titre": "Professeur d'anglais vacataire F/H - Lycée Descartes - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "16/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4651343-professeur-danglais-vacataire-fh-lycee-descartes-rabat-maroc-rabat"
+    },
+    {
+      "id": 4650761,
+      "titre": "Professeur de Sciences Physiques et Chimie - F/H - LISBONNE - PORTUGAL",
+      "etab": "",
+      "ville": "Lisboa",
+      "pays": "Portugal",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "16/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4650761-professeur-de-sciences-physiques-et-chimie-fh-lisbonne-portugal-1350-164-lisboa"
+    },
+    {
+      "id": 4650019,
+      "titre": "Professeur des écoles (Ecole primaire) remplaçant - F/H - ANKARA - TURQUIE",
+      "etab": "",
+      "ville": "Ankara",
+      "pays": "Turquie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4650019-professeur-des-ecoles-ecole-primaire-remplacant-fh-ankara-turquie-golbas%C4%B1"
+    },
     {
       "id": 4649735,
       "titre": "Professeur d'anglais au Primaire | Primary English Teacher - F/H - LONDRES - RU",
@@ -12,28 +56,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "16/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4649735-professeur-danglais-au-primaire-primary-english-teacher-fh-londres-ru-greater-london"
-    },
-    {
-      "id": 4649129,
-      "titre": "Professeur.e du second degré - Espagnol - Vienne - Autriche",
-      "etab": "",
-      "ville": "Wien",
-      "pays": "Autriche",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur du second degré F/H",
-      "date": "16/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4649129-professeur-e-du-second-degre-espagnol-vienne-autriche-1090-wien"
-    },
-    {
-      "id": 4649107,
-      "titre": "Professeur.e du second degré - Lettres - Vienne - Autriche",
-      "etab": "",
-      "ville": "Wien",
-      "pays": "Autriche",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "16/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4649107-professeur-e-du-second-degre-lettres-vienne-autriche-1090-wien"
     },
     {
       "id": 4649065,
@@ -48,25 +70,25 @@
     },
     {
       "id": 4649063,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - SANTIAGO DE SURCO - PEROU",
       "etab": "",
       "ville": "Santiago de Surco",
-      "pays": "",
+      "pays": "Pérou",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "15/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4649063-professeur-des-ecoles-fh-15039-santiago-de-surco"
+      "url": "https://talents.aefe.fr/fr/annonce/4649063-professeur-des-ecoles-fh-santiago-de-surco-perou-15039-santiago-de-surco"
     },
     {
       "id": 4648901,
-      "titre": "Professeur du Second Degré - Espagnol F/H",
+      "titre": "Professeur du Second Degré Espagnol F/H - SANTIAGO - CHILI",
       "etab": "",
       "ville": "Santiago",
-      "pays": "",
+      "pays": "Chili",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d’espagnol F/H",
       "date": "15/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4648901-professeur-du-second-degre-espagnol-fh-7630599-santiago"
+      "url": "https://talents.aefe.fr/fr/annonce/4648901-professeur-du-second-degre-espagnol-fh-santiago-chili-7630599-santiago"
     },
     {
       "id": 4648849,
@@ -81,36 +103,36 @@
     },
     {
       "id": 4648801,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "titre": "Professeur du Second Degré Mathématiques F/H - SANTIAGO - CHILI",
       "etab": "",
       "ville": "Santiago",
-      "pays": "",
+      "pays": "Chili",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "15/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4648801-professeur-du-second-degre-mathematiques-fh-7630599-santiago"
+      "url": "https://talents.aefe.fr/fr/annonce/4648801-professeur-du-second-degre-mathematiques-fh-santiago-chili-7630599-santiago"
     },
     {
       "id": 4648779,
-      "titre": "Professeur du Second Degré de SES (Sciences Économique et Sociales) F/H",
+      "titre": "Professeur de Sciences Économique et Sociales F/H - SANTIAGO - CHILI",
       "etab": "",
       "ville": "Santiago",
-      "pays": "",
+      "pays": "Chili",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "15/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4648779-professeur-du-second-degre-de-ses-sciences-economique-et-sociales-fh-7630599-santiago"
+      "url": "https://talents.aefe.fr/fr/annonce/4648779-professeur-de-sciences-economique-et-sociales-fh-santiago-chili-7630599-santiago"
     },
     {
       "id": 4648639,
-      "titre": "Professeur du Second Degré - Sciences de la Vie et de la Terre F/H",
+      "titre": "Professeur de Sciences de la Vie et de la Terre F/H - SANTIAGO - CHILI",
       "etab": "",
       "ville": "Santiago",
-      "pays": "",
+      "pays": "Chili",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "15/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4648639-professeur-du-second-degre-sciences-de-la-vie-et-de-la-terre-fh-7630599-santiago"
+      "url": "https://talents.aefe.fr/fr/annonce/4648639-professeur-de-sciences-de-la-vie-et-de-la-terre-fh-santiago-chili-7630599-santiago"
     },
     {
       "id": 4647583,
@@ -136,25 +158,25 @@
     },
     {
       "id": 4646063,
-      "titre": "Adjoint au SG (F/H) - TUNIS - TUNISIE",
+      "titre": "Adjoint(e) au SG (F/H) - ERT - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
       "contrat": "Contrat permanent",
       "discipline": "Directeur Administratif et Financier F/H",
       "date": "14/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4646063-adjoint-au-sg-fh-tunis-tunisie-1082-tunis"
+      "url": "https://talents.aefe.fr/fr/annonce/4646063-adjointe-au-sg-fh-ert-tunis-tunisie-1082-tunis"
     },
     {
       "id": 4646027,
-      "titre": "Chargé de comptabilité générale F/H - Agence Comptable - TUNIS - TUNISIE",
+      "titre": "Chargé de comptabilité générale F/H - Agence Comptable - ERT -TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
       "contrat": "Contrat permanent",
       "discipline": "Secrétaire / assistant F/H",
       "date": "14/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4646027-charge-de-comptabilite-generale-fh-agence-comptable-tunis-tunisie-1082-tunis"
+      "url": "https://talents.aefe.fr/fr/annonce/4646027-charge-de-comptabilite-generale-fh-agence-comptable-ert-tunis-tunisie-1082-tunis"
     },
     {
       "id": 4645649,
@@ -628,17 +650,6 @@
       "discipline": "Professeur de technologie F/H",
       "date": "29/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4620723-professeur-de-technologie-hf-la-haye-pays-bas-2584-aa-den-haag"
-    },
-    {
-      "id": 4619433,
-      "titre": "Professeur des écoles F/H - PRAIA - CAP VERT",
-      "etab": "",
-      "ville": "Praia",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "28/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4619433-professeur-des-ecoles-fh-praia-cap-vert-praia"
     },
     {
       "id": 4617389,
