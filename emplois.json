@@ -1,7 +1,62 @@
 {
-  "updated": "2026-10-15 20:11",
-  "total": 141,
+  "updated": "2026-10-16 09:28",
+  "total": 146,
   "offers": [
+    {
+      "id": 4649735,
+      "titre": "Professeur d'anglais au Primaire | Primary English Teacher - F/H - LONDRES - RU",
+      "etab": "",
+      "ville": "England",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "16/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4649735-professeur-danglais-au-primaire-primary-english-teacher-fh-londres-ru-greater-london"
+    },
+    {
+      "id": 4649129,
+      "titre": "Professeur.e du second degré - Espagnol - Vienne - Autriche",
+      "etab": "",
+      "ville": "Wien",
+      "pays": "Autriche",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "16/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4649129-professeur-e-du-second-degre-espagnol-vienne-autriche-1090-wien"
+    },
+    {
+      "id": 4649107,
+      "titre": "Professeur.e du second degré - Lettres - Vienne - Autriche",
+      "etab": "",
+      "ville": "Wien",
+      "pays": "Autriche",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "16/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4649107-professeur-e-du-second-degre-lettres-vienne-autriche-1090-wien"
+    },
+    {
+      "id": 4649065,
+      "titre": "Professeur des écoles - F/H - ADELAIDE - AUSTRALIE",
+      "etab": "",
+      "ville": "Highgate",
+      "pays": "Australie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4649065-professeur-des-ecoles-fh-adelaide-australie-5063-highgate"
+    },
+    {
+      "id": 4649063,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Santiago de Surco",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "15/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4649063-professeur-des-ecoles-fh-15039-santiago-de-surco"
+    },
     {
       "id": 4648901,
       "titre": "Professeur du Second Degré - Espagnol F/H",
