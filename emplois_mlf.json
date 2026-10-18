@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-18 09:19",
-  "total": 65,
+  "updated": "2026-10-18 19:13",
+  "total": 66,
   "source": "MLF Monde",
   "offers": [
     {
@@ -86,6 +86,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3744_offre-emploi-directeurtrice-decole-elementaire.html"
+    },
+    {
+      "id": 3743,
+      "titre": "Proviseur(e) Adjoint(e)",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "02/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3743_offre-emploi-proviseure-adjointe.html"
     },
     {
       "id": 3793,
@@ -200,6 +214,20 @@
       "url": "https://recrutement.mlfmonde.org/3753_offre-emploi-cheffe-detablissement.html"
     },
     {
+      "id": 3752,
+      "titre": "Proviseur(e)",
+      "etab": "",
+      "ville": "Florence",
+      "pays": "Italie",
+      "contrat": "",
+      "discipline": "",
+      "date": "03/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3752_offre-emploi-proviseure.html"
+    },
+    {
       "id": 3751,
       "titre": "Chef(fe) d’établissement",
       "etab": "",
@@ -298,34 +326,6 @@
       "url": "https://recrutement.mlfmonde.org/3745_offre-emploi-directeurtrice-administratif-et-financier.html"
     },
     {
-      "id": 3752,
-      "titre": "Proviseur(e)",
-      "etab": "",
-      "ville": "Florence",
-      "pays": "Italie",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3752_offre-emploi-proviseure.html"
-    },
-    {
-      "id": 3743,
-      "titre": "Proviseur(e) Adjoint(e)",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "",
-      "discipline": "",
-      "date": "02/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3743_offre-emploi-proviseure-adjointe.html"
-    },
-    {
       "id": 3830,
       "titre": "1)\tDirectreur(trice) - Lycée international Balzac (Susceptible d'être vacant)",
       "etab": "",
@@ -352,6 +352,34 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3829_offre-emploi-personnel-de-direction-proviseure-le-caire-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3795,
+      "titre": "Professeur(e) d'Histoire Géographie",
+      "etab": "",
+      "ville": "Muharraq",
+      "pays": "Bahreïn",
+      "contrat": "",
+      "discipline": "",
+      "date": "27/09/2026",
+      "date_limite": "30/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3795_offre-emploi-professeure-dhistoire-geographie.html"
+    },
+    {
+      "id": 3792,
+      "titre": "Professeur(e) de philosophie & lettres",
+      "etab": "",
+      "ville": "Muharraq",
+      "pays": "Bahreïn",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/09/2026",
+      "date_limite": "30/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3792_offre-emploi-professeure-de-philosophie-lettres.html"
     },
     {
       "id": 3791,
@@ -410,34 +438,6 @@
       "url": "https://recrutement.mlfmonde.org/3769_offre-emploi-professeure-de-lettres-modernes.html"
     },
     {
-      "id": 3792,
-      "titre": "Professeur(e) de philosophie & lettres",
-      "etab": "",
-      "ville": "Muharraq",
-      "pays": "Bahreïn",
-      "contrat": "",
-      "discipline": "",
-      "date": "23/09/2026",
-      "date_limite": "30/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3792_offre-emploi-professeure-de-philosophie-lettres.html"
-    },
-    {
-      "id": 3795,
-      "titre": "Professeur(e) d'Histoire Géographie",
-      "etab": "",
-      "ville": "Muharraq",
-      "pays": "Bahreïn",
-      "contrat": "",
-      "discipline": "",
-      "date": "27/09/2026",
-      "date_limite": "30/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3795_offre-emploi-professeure-dhistoire-geographie.html"
-    },
-    {
       "id": 3841,
       "titre": "Personnel de direction / Proviseur-e adjoint-e/ Le Caire (susceptible d'être vacant)",
       "etab": "",
@@ -450,6 +450,34 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3841_offre-emploi-personnel-de-direction-proviseure-adjointe-le-caire-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3844,
+      "titre": "Conseiller(ère) pédagogique (susceptible d'être vacant)",
+      "etab": "",
+      "ville": "Le Caire",
+      "pays": "Égypte",
+      "contrat": "",
+      "discipline": "",
+      "date": "18/10/2026",
+      "date_limite": "18/12/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3844_offre-emploi-conseillerere-pedagogique-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3843,
+      "titre": "Professeur(e) des Ecoles - Maternelle/Elémentaire",
+      "etab": "",
+      "ville": "Rhode Island",
+      "pays": "États-Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "15/10/2026",
+      "date_limite": "31/12/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3843_offre-emploi-professeure-des-ecoles-maternelleelementaire.html"
     },
     {
       "id": 3797,
@@ -466,18 +494,18 @@
       "url": "https://recrutement.mlfmonde.org/3797_offre-emploi-professeure-de-francaishg-pour-college-et-lycee.html"
     },
     {
-      "id": 3843,
-      "titre": "Professeur(e) des Ecoles - Maternelle/Elémentaire",
+      "id": 3840,
+      "titre": "Conseiller(ère) pédagogique 1er degré",
       "etab": "",
-      "ville": "Rhode Island",
-      "pays": "États-Unis",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
       "contrat": "",
       "discipline": "",
-      "date": "15/10/2026",
-      "date_limite": "31/12/2026",
+      "date": "10/10/2026",
+      "date_limite": "08/01/2027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3843_offre-emploi-professeure-des-ecoles-maternelleelementaire.html"
+      "url": "https://recrutement.mlfmonde.org/3840_offre-emploi-conseillerere-pedagogique-1er-degre.html"
     },
     {
       "id": 3834,
@@ -536,20 +564,6 @@
       "url": "https://recrutement.mlfmonde.org/3837_offre-emploi-professeure-de-sciences-physiques-et-chimie-poste-susceptible-detre-vacant.html"
     },
     {
-      "id": 3840,
-      "titre": "Conseiller(ère) pédagogique 1er degré",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "",
-      "discipline": "",
-      "date": "10/10/2026",
-      "date_limite": "08/01/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3840_offre-emploi-conseillerere-pedagogique-1er-degre.html"
-    },
-    {
       "id": 3838,
       "titre": "Professeur(e) des écoles",
       "etab": "",
@@ -578,20 +592,6 @@
       "url": "https://recrutement.mlfmonde.org/3839_offre-emploi-professeure-des-ecoles-poste-susceptible-detre-vacant.html"
     },
     {
-      "id": 3833,
-      "titre": "Professeur(e) de Sciences économiques et sociales",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "",
-      "discipline": "",
-      "date": "10/10/2026",
-      "date_limite": "10/01/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3833_offre-emploi-professeure-de-sciences-economiques-et-sociales.html"
-    },
-    {
       "id": 3764,
       "titre": "Professeur de français",
       "etab": "",
@@ -604,6 +604,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3764_offre-emploi-professeur-de-francais.html"
+    },
+    {
+      "id": 3833,
+      "titre": "Professeur(e) de Sciences économiques et sociales",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "10/10/2026",
+      "date_limite": "10/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3833_offre-emploi-professeure-de-sciences-economiques-et-sociales.html"
     },
     {
       "id": 3794,
@@ -690,6 +704,20 @@
       "url": "https://recrutement.mlfmonde.org/3809_offre-emploi-proviseure-au-lycee-francais-victor-hugo-de-djerba.html"
     },
     {
+      "id": 3768,
+      "titre": "Professeur(e) premier degré",
+      "etab": "",
+      "ville": "Laayoune",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "16/09/2026",
+      "date_limite": "01/02/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3768_offre-emploi-professeure-premier-degre.html"
+    },
+    {
       "id": 3842,
       "titre": "Poste de professeur(e) de Sciences Physiques et Chimiques",
       "etab": "",
@@ -744,34 +772,6 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3767_offre-emploi-professeur-de-physique-chimie.html"
-    },
-    {
-      "id": 3768,
-      "titre": "Professeur(e) premier degré",
-      "etab": "",
-      "ville": "Laayoune",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "16/09/2026",
-      "date_limite": "01/02/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3768_offre-emploi-professeure-premier-degre.html"
-    },
-    {
-      "id": 2626,
-      "titre": "Professeur.e des Ecoles au Lycée Français International de Dubai",
-      "etab": "",
-      "ville": "Dubaï",
-      "pays": "Émirats Arabes Unis",
-      "contrat": "",
-      "discipline": "",
-      "date": "07/11/2022",
-      "date_limite": "20/03/2027",
-      "date_prise": "20/08/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/2626_offre-emploi-professeure-des-ecoles-au-lycee-francais-international-de-dubai.html"
     },
     {
       "id": 3814,
@@ -898,6 +898,20 @@
       "date_prise": "20/08/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3799_offre-emploi-professeure-de-mathematiques-au-lycee-francais-international-de-dubai.html"
+    },
+    {
+      "id": 2626,
+      "titre": "Professeur.e des Ecoles au Lycée Français International de Dubai",
+      "etab": "",
+      "ville": "Dubaï",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "07/11/2022",
+      "date_limite": "20/03/2027",
+      "date_prise": "20/08/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/2626_offre-emploi-professeure-des-ecoles-au-lycee-francais-international-de-dubai.html"
     },
     {
       "id": 3762,
