@@ -1,7 +1,40 @@
 {
-  "updated": "2026-10-19 10:29",
+  "updated": "2026-10-19 21:21",
   "total": 147,
   "offers": [
+    {
+      "id": 4653633,
+      "titre": "CONSEILLER·ÈRE PRINCIPAL·E D’ÉDUCATION (CPE) pour la RENTREE 2027",
+      "etab": "",
+      "ville": "New York",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4653633-conseiller-ere-principal-e-d-education-cpe-pour-la-rentree-2027-10017-new-york"
+    },
+    {
+      "id": 4653589,
+      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4653589-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
+    },
+    {
+      "id": 4653489,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Saly",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4653489-professeur-du-second-degre-lettres-modernes-fh-saly"
+    },
     {
       "id": 4652403,
       "titre": "2 Surveillants - F/H - EGD - LYCEE GUSTAVE FLAUBERT - LA MARSA - TUNISIE",
@@ -697,14 +730,14 @@
     },
     {
       "id": 4617361,
-      "titre": "Professeur du Second Degré F/H - SALY - SENEGAL",
+      "titre": "Professeur du Second Degré ANGLAIS F/H - SALY - SENEGAL",
       "etab": "",
       "ville": "Saly",
       "pays": "Sénégal",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "25/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4617361-professeur-du-second-degre-fh-saly-senegal-saly"
+      "url": "https://talents.aefe.fr/fr/annonce/4617361-professeur-du-second-degre-anglais-fh-saly-senegal-saly"
     },
     {
       "id": 4616747,
@@ -740,17 +773,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4615527-professeur-des-ecoles-fh-zakia-mexique-76269-zakia"
     },
     {
-      "id": 4615399,
-      "titre": "Professeur du Second Degré - Physique Chimie - F/H - TIABAYA - PEROU",
-      "etab": "",
-      "ville": "Tiabaya",
-      "pays": "Pérou",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615399-professeur-du-second-degre-physique-chimie-fh-tiabaya-perou-tiabaya"
-    },
-    {
       "id": 4614975,
       "titre": "Coordinateur du Département d’Anglais écoles Primaire - LONDRES - ROYAUME UNI",
       "etab": "",
@@ -771,17 +793,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "24/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4614515-professeur-de-lettres-fh-au-lycee-des-mascareignes-moka-maurice-moka"
-    },
-    {
-      "id": 4614397,
-      "titre": "Professeur de physique chimie - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4614397-professeur-de-physique-chimie-fh-sfax-tunisie-sfax"
     },
     {
       "id": 4613853,
@@ -1310,17 +1321,6 @@
       "discipline": "Assistant d'éducation F/H",
       "date": "25/08/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4562811-assistant-deducation-second-degre-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4556833,
-      "titre": "Professeur du Second Degré - Enseignement de la langue arabe - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’arabe F/H",
-      "date": "20/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4556833-professeur-du-second-degre-enseignement-de-la-langue-arabe-tunis-tunisie-1002-tunis"
     },
     {
       "id": 4544689,
