@@ -1,7 +1,40 @@
 {
-  "updated": "2026-10-18 19:13",
-  "total": 145,
+  "updated": "2026-10-19 10:29",
+  "total": 147,
   "offers": [
+    {
+      "id": 4652403,
+      "titre": "2 Surveillants - F/H - EGD - LYCEE GUSTAVE FLAUBERT - LA MARSA - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4652403-2-surveillants-fh-egd-lycee-gustave-flaubert-la-marsa-tunisie-la-marsa"
+    },
+    {
+      "id": 4652101,
+      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
+      "etab": "",
+      "ville": "Sfax",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4652101-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
+    },
+    {
+      "id": 4651901,
+      "titre": "Professeur d'Anglais Primaire et Secondaire F/H - Kyoto - JAPON",
+      "etab": "",
+      "ville": "Kyoto",
+      "pays": "Japon",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4651901-professeur-danglais-primaire-et-secondaire-fh-kyoto-japon-kyoto"
+    },
     {
       "id": 4651377,
       "titre": "Professeur de la langue Arabe F/H - Collège Saint Exupéry - RABAT - MAROC",
@@ -848,17 +881,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "21/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4609701-professeur-des-ecoles-fh-nouakchott-mauritanie-nouakchott"
-    },
-    {
-      "id": 4607635,
-      "titre": "Enseignant de néerlandais langue étrangère - F/H - Amsterdam - PAYS BAS",
-      "etab": "",
-      "ville": "Den Haag",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "21/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4607635-enseignant-de-neerlandais-langue-etrangere-fh-amsterdam-pays-bas-2584-aa-den-haag"
     },
     {
       "id": 4607275,
