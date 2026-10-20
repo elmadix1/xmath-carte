@@ -1,7 +1,84 @@
 {
-  "updated": "2026-10-19 21:21",
-  "total": 147,
+  "updated": "2026-10-20 09:48",
+  "total": 150,
   "offers": [
+    {
+      "id": 4654019,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Amman",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "20/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4654019-professeur-du-second-degre-lettres-modernes-fh-amman"
+    },
+    {
+      "id": 4653887,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Houmt Souk",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "20/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4653887-professeur-du-second-degre-mathematiques-fh-4180-houmt-souk"
+    },
+    {
+      "id": 4653831,
+      "titre": "Professeur de Lettres Modernes (Susceptible d’être vacant) F/H HOUSTON -USA",
+      "etab": "",
+      "ville": "Houston",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4653831-professeur-de-lettres-modernes-susceptible-d-etre-vacant-fh-houston-usa-77055-houston"
+    },
+    {
+      "id": 4653829,
+      "titre": "Professeur du Second Degré Histoire-Géographie (F/H) HOUSTON - ÉTATS-UNIS",
+      "etab": "",
+      "ville": "Houston",
+      "pays": "États-Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4653829-professeur-du-second-degre-histoire-geographie-fh-houston-etats-unis-77055-houston"
+    },
+    {
+      "id": 4653827,
+      "titre": "Professeur F/H Certifié ou Agrégé de Science Physique Chimie -HOUSTON -USA",
+      "etab": "",
+      "ville": "Houston",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4653827-professeur-fh-certifie-ou-agrege-de-science-physique-chimie-houston-usa-77055-houston"
+    },
+    {
+      "id": 4653825,
+      "titre": "Professeur des écoles - F/H - HOUSTON - TEXAS - ETATS UNIS",
+      "etab": "",
+      "ville": "Houston",
+      "pays": "États-Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4653825-professeur-des-ecoles-fh-houston-texas-etats-unis-77055-houston"
+    },
+    {
+      "id": 4653815,
+      "titre": "Professeur Certifié/Agrégé - Mathématiques - F/H - HOUSTON - TEXAS - ETATS UNIS",
+      "etab": "",
+      "ville": "Houston",
+      "pays": "États-Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "19/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4653815-professeur-certifieagrege-mathematiques-fh-houston-texas-etats-unis-77055-houston"
+    },
     {
       "id": 4653633,
       "titre": "CONSEILLER·ÈRE PRINCIPAL·E D’ÉDUCATION (CPE) pour la RENTREE 2027",
@@ -846,7 +923,7 @@
       "pays": "Guinée",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
-      "date": "22/09/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4610517-enseignant-premier-degre-specialise-cp-fh-malabo-guinee-equatoriale-malabo"
     },
     {
@@ -1323,17 +1400,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4562811-assistant-deducation-second-degre-alexandrie-egypte-alexandria"
     },
     {
-      "id": 4544689,
-      "titre": "Conseiller Principal d'Éducation F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "CDD terme fixe",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "08/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4544689-conseiller-principal-deducation-fh-munich-allemagne-81373-munchen"
-    },
-    {
       "id": 4515063,
       "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1376,17 +1442,6 @@
       "discipline": "Chargé du centre de documentation F/H",
       "date": "15/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4467827-conseiller-dorientation-fh-cotonou-benin-cotonou"
-    },
-    {
-      "id": 4444353,
-      "titre": "Responsable of digital acquisition & growth marketing - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Chargé de communication F/H",
-      "date": "28/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4444353-responsable-of-digital-acquisition-growth-marketing-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4444349,
@@ -1521,6 +1576,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4225869-infirmier-scolaire-fh-lycee-francais-gustave-eiffel-budapest-hongrie-1029-budapest"
     },
     {
+      "id": 4207739,
+      "titre": "Professeur du Second Degré - Mathématiques",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "20/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4207739-professeur-du-second-degre-mathematiques-bp-157-abidjan"
+    },
+    {
       "id": 4140125,
       "titre": "Professeur d'histoire géographie - F/H - LE CAIRE - EGYPTE",
       "etab": "",
@@ -1543,28 +1609,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
     },
     {
-      "id": 4083445,
-      "titre": "Professeur d'éducation musicale - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d'éducation musicale F/H",
-      "date": "11/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4083445-professeur-deducation-musicale-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4066805,
-      "titre": "Professeur de sciences de la vie et de la terre - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "10/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4066805-professeur-de-sciences-de-la-vie-et-de-la-terre-fh-casablanca-maroc-casablanca"
-    },
-    {
       "id": 4041779,
       "titre": "Surveillant des études - temps partiel - F/H - MUNICH - ALLEMAGNE",
       "etab": "",
@@ -1574,17 +1618,6 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "18/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 4020099,
-      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "12/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,
