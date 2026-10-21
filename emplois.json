@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-21 09:49",
-  "total": 151,
+  "updated": "2026-10-21 20:28",
+  "total": 156,
   "offers": [
+    {
+      "id": 4656669,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "La Paz",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "21/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4656669-professeur-du-second-degre-mathematiques-fh-la-paz"
+    },
     {
       "id": 4656123,
       "titre": "Direction technique études espagnoles et catalanes, Enseignant espagnol catalan",
@@ -147,14 +158,14 @@
     },
     {
       "id": 4653633,
-      "titre": "CONSEILLER·ÈRE PRINCIPAL·E D’ÉDUCATION (CPE) pour la RENTREE 2027",
+      "titre": "Conseiller Principal d'Éducation (F/H) - Rentrée 2027 - NEW YORK - ETATS-UNIS",
       "etab": "",
       "ville": "New York",
-      "pays": "",
+      "pays": "États-Unis",
       "contrat": "Contrat permanent",
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "19/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4653633-conseiller-ere-principal-e-d-education-cpe-pour-la-rentree-2027-10017-new-york"
+      "url": "https://talents.aefe.fr/fr/annonce/4653633-conseiller-principal-deducation-fh-rentree-2027-new-york-etats-unis-10017-new-york"
     },
     {
       "id": 4653589,
@@ -169,14 +180,14 @@
     },
     {
       "id": 4653489,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "titre": "Professeur du Second Degré - Lettres Modernes (F/H) - SALY - SENEGAL",
       "etab": "",
       "ville": "Saly",
-      "pays": "",
+      "pays": "Sénégal",
       "contrat": "Contrat temporaire",
       "discipline": "professeur de lettres modernes F/H",
       "date": "19/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4653489-professeur-du-second-degre-lettres-modernes-fh-saly"
+      "url": "https://talents.aefe.fr/fr/annonce/4653489-professeur-du-second-degre-lettres-modernes-fh-saly-senegal-saly"
     },
     {
       "id": 4652403,
@@ -1598,6 +1609,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4207739-professeur-du-second-degre-mathematiques-bp-157-abidjan"
     },
     {
+      "id": 4196309,
+      "titre": "Professeur d'anglais en maternelle et élémentaire - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "21/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4196309-professeur-danglais-en-maternelle-et-elementaire-fh-casablanca-maroc-casablanca"
+    },
+    {
       "id": 4140125,
       "titre": "Professeur d'histoire géographie - F/H - LE CAIRE - EGYPTE",
       "etab": "",
@@ -1620,6 +1642,39 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
     },
     {
+      "id": 4083445,
+      "titre": "Professeur d'éducation musicale - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation musicale F/H",
+      "date": "21/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4083445-professeur-deducation-musicale-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4066961,
+      "titre": "Professeur de lettres modernes - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "21/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4066961-professeur-de-lettres-modernes-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4066805,
+      "titre": "Professeur de sciences de la vie et de la terre - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "21/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4066805-professeur-de-sciences-de-la-vie-et-de-la-terre-fh-casablanca-maroc-casablanca"
+    },
+    {
       "id": 4041779,
       "titre": "Surveillant des études - temps partiel - F/H - MUNICH - ALLEMAGNE",
       "etab": "",
@@ -1638,7 +1693,7 @@
       "pays": "Allemagne",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "27/08/2026",
+      "date": "21/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3799657-assistant-maternel-personnel-parlant-allemand-fh-munich-allemagne-81539-munchen"
     },
     {
@@ -1649,7 +1704,7 @@
       "pays": "Allemagne",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
-      "date": "27/08/2026",
+      "date": "21/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3799639-educateurerzieher-personnel-parlant-allemand-fh-munich-allemagne-81539-munchen"
     },
     {

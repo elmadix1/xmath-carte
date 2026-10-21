@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-21 09:49",
-  "total": 93,
+  "updated": "2026-10-21 20:28",
+  "total": 97,
   "source": "MLF Monde",
   "offers": [
     {
@@ -74,10 +74,10 @@
       "url": "https://recrutement.mlfmonde.org/3790_offre-emploi-professeures-des-ecoles.html"
     },
     {
-      "id": 3757,
-      "titre": "Directeur(trice) d'école",
+      "id": 3753,
+      "titre": "Chef(fe) d’établissement",
       "etab": "",
-      "ville": "Rabat",
+      "ville": "Laayoune",
       "pays": "Maroc",
       "contrat": "",
       "discipline": "",
@@ -85,7 +85,7 @@
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3757_offre-emploi-directeurtrice-decole.html"
+      "url": "https://recrutement.mlfmonde.org/3753_offre-emploi-cheffe-detablissement.html"
     },
     {
       "id": 3793,
@@ -100,20 +100,6 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3793_offre-emploi-directeurtrice-decole.html"
-    },
-    {
-      "id": 3874,
-      "titre": "Directeur(trice) d'école",
-      "etab": "",
-      "ville": "Dakhla",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "20/10/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3874_offre-emploi-directeurtrice-decole.html"
     },
     {
       "id": 3759,
@@ -142,6 +128,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3758_offre-emploi-cheffe-detablissement.html"
+    },
+    {
+      "id": 3757,
+      "titre": "Directeur(trice) d'école",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "03/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3757_offre-emploi-directeurtrice-decole.html"
     },
     {
       "id": 3756,
@@ -186,18 +186,18 @@
       "url": "https://recrutement.mlfmonde.org/3754_offre-emploi-directeurtrice-decole.html"
     },
     {
-      "id": 3753,
-      "titre": "Chef(fe) d’établissement",
+      "id": 3752,
+      "titre": "Proviseur(e)",
       "etab": "",
-      "ville": "Laayoune",
-      "pays": "Maroc",
+      "ville": "Florence",
+      "pays": "Italie",
       "contrat": "",
       "discipline": "",
       "date": "03/09/2026",
       "date_limite": "11/11/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3753_offre-emploi-cheffe-detablissement.html"
+      "url": "https://recrutement.mlfmonde.org/3752_offre-emploi-proviseure.html"
     },
     {
       "id": 3751,
@@ -256,20 +256,6 @@
       "url": "https://recrutement.mlfmonde.org/3748_offre-emploi-directeurtrice-decole.html"
     },
     {
-      "id": 3752,
-      "titre": "Proviseur(e)",
-      "etab": "",
-      "ville": "Florence",
-      "pays": "Italie",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3752_offre-emploi-proviseure.html"
-    },
-    {
       "id": 3747,
       "titre": "Proviseur(e) Adjoint(e)",
       "etab": "",
@@ -312,20 +298,6 @@
       "url": "https://recrutement.mlfmonde.org/3745_offre-emploi-directeurtrice-administratif-et-financier.html"
     },
     {
-      "id": 3743,
-      "titre": "Proviseur(e) Adjoint(e)",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "",
-      "discipline": "",
-      "date": "02/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3743_offre-emploi-proviseure-adjointe.html"
-    },
-    {
       "id": 3744,
       "titre": "Directeur(trice) d'école élémentaire",
       "etab": "",
@@ -340,6 +312,20 @@
       "url": "https://recrutement.mlfmonde.org/3744_offre-emploi-directeurtrice-decole-elementaire.html"
     },
     {
+      "id": 3743,
+      "titre": "Proviseur(e) Adjoint(e)",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "02/09/2026",
+      "date_limite": "11/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3743_offre-emploi-proviseure-adjointe.html"
+    },
+    {
       "id": 3830,
       "titre": "1)\tDirectreur(trice) - Lycée international Balzac (Susceptible d'être vacant)",
       "etab": "",
@@ -352,6 +338,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3830_offre-emploi-1-directreurtrice-lycee-international-balzac-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3829,
+      "titre": "Personnel de direction / Proviseur-e / Le Caire (susceptible d'être vacant)",
+      "etab": "",
+      "ville": "Le Caire",
+      "pays": "Égypte",
+      "contrat": "",
+      "discipline": "",
+      "date": "03/10/2026",
+      "date_limite": "30/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3829_offre-emploi-personnel-de-direction-proviseure-le-caire-susceptible-detre-vacant.html"
     },
     {
       "id": 3795,
@@ -438,22 +438,8 @@
       "url": "https://recrutement.mlfmonde.org/3769_offre-emploi-professeure-de-lettres-modernes.html"
     },
     {
-      "id": 3829,
-      "titre": "Personnel de direction / Proviseur-e / Le Caire (susceptible d'être vacant)",
-      "etab": "",
-      "ville": "Le Caire",
-      "pays": "Égypte",
-      "contrat": "",
-      "discipline": "",
-      "date": "03/10/2026",
-      "date_limite": "30/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3829_offre-emploi-personnel-de-direction-proviseure-le-caire-susceptible-detre-vacant.html"
-    },
-    {
       "id": 3841,
-      "titre": "Personnel de direction / Proviseur-e adjoint-e/ Le Caire (susceptible d'être vacant)",
+      "titre": "CPE faisant de fonction de proviseur adjoint/Proviseur adjoint",
       "etab": "",
       "ville": "Le Caire",
       "pays": "Égypte",
@@ -463,7 +449,7 @@
       "date_limite": "15/12/2026",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3841_offre-emploi-personnel-de-direction-proviseure-adjointe-le-caire-susceptible-detre-vacant.html"
+      "url": "https://recrutement.mlfmonde.org/3841_offre-emploi-cpe-faisant-de-fonction-de-proviseur-adjointproviseur-adjoint.html"
     },
     {
       "id": 3844,
@@ -508,8 +494,8 @@
       "url": "https://recrutement.mlfmonde.org/3843_offre-emploi-professeure-des-ecoles-maternelleelementaire.html"
     },
     {
-      "id": 3845,
-      "titre": "Professeur certifié ou agrégé de Lettres modernes (poste à temps plein)",
+      "id": 3846,
+      "titre": "Professeur des Écoles (Susceptible d’être vacant)",
       "etab": "",
       "ville": "Houston",
       "pays": "États-Unis",
@@ -519,7 +505,7 @@
       "date_limite": "01/01/2027",
       "date_prise": "01/08/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3845_offre-emploi-professeur-certifie-ou-agrege-de-lettres-modernes-poste-a-temps-plein.html"
+      "url": "https://recrutement.mlfmonde.org/3846_offre-emploi-professeur-des-ecoles-susceptible-detre-vacant.html"
     },
     {
       "id": 3847,
@@ -536,8 +522,8 @@
       "url": "https://recrutement.mlfmonde.org/3847_offre-emploi-professeur-certifie-ou-agrege-de-mathematiques-susceptible-detre-vacant.html"
     },
     {
-      "id": 3846,
-      "titre": "Professeur des Écoles (Susceptible d’être vacant)",
+      "id": 3845,
+      "titre": "Professeur certifié ou agrégé de Lettres modernes (poste à temps plein)",
       "etab": "",
       "ville": "Houston",
       "pays": "États-Unis",
@@ -547,7 +533,7 @@
       "date_limite": "01/01/2027",
       "date_prise": "01/08/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3846_offre-emploi-professeur-des-ecoles-susceptible-detre-vacant.html"
+      "url": "https://recrutement.mlfmonde.org/3845_offre-emploi-professeur-certifie-ou-agrege-de-lettres-modernes-poste-a-temps-plein.html"
     },
     {
       "id": 3848,
@@ -576,34 +562,6 @@
       "date_prise": "01/08/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3851_offre-emploi-professeur-certifie-ou-agrege-dhistoire-et-geographie-susceptible-detre-vacant.html"
-    },
-    {
-      "id": 3834,
-      "titre": "Professeur(e) d'anglais - Poste susceptible d'être vacant",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "",
-      "discipline": "",
-      "date": "10/10/2026",
-      "date_limite": "08/01/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3834_offre-emploi-professeure-danglais-poste-susceptible-detre-vacant.html"
-    },
-    {
-      "id": 3835,
-      "titre": "Professeur(e) de lettres - Poste susceptible d'être vacant",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "",
-      "discipline": "",
-      "date": "10/10/2026",
-      "date_limite": "08/01/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3835_offre-emploi-professeure-de-lettres-poste-susceptible-detre-vacant.html"
     },
     {
       "id": 3840,
@@ -676,18 +634,32 @@
       "url": "https://recrutement.mlfmonde.org/3836_offre-emploi-professeure-de-philosophie-poste-susceptible-detre-vacant.html"
     },
     {
-      "id": 3833,
-      "titre": "Professeur(e) de Sciences économiques et sociales",
+      "id": 3835,
+      "titre": "Professeur(e) de lettres - Poste susceptible d'être vacant",
       "etab": "",
       "ville": "Abidjan",
       "pays": "Côte d'Ivoire",
       "contrat": "",
       "discipline": "",
       "date": "10/10/2026",
-      "date_limite": "10/01/2027",
+      "date_limite": "08/01/2027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3833_offre-emploi-professeure-de-sciences-economiques-et-sociales.html"
+      "url": "https://recrutement.mlfmonde.org/3835_offre-emploi-professeure-de-lettres-poste-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3834,
+      "titre": "Professeur(e) d'anglais - Poste susceptible d'être vacant",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "10/10/2026",
+      "date_limite": "08/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3834_offre-emploi-professeure-danglais-poste-susceptible-detre-vacant.html"
     },
     {
       "id": 3764,
@@ -704,6 +676,20 @@
       "url": "https://recrutement.mlfmonde.org/3764_offre-emploi-professeur-de-francais.html"
     },
     {
+      "id": 3833,
+      "titre": "Professeur(e) de Sciences économiques et sociales",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "10/10/2026",
+      "date_limite": "10/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3833_offre-emploi-professeure-de-sciences-economiques-et-sociales.html"
+    },
+    {
       "id": 3794,
       "titre": "Proviseur (poste susceptible d'être vacant)",
       "etab": "",
@@ -718,20 +704,6 @@
       "url": "https://recrutement.mlfmonde.org/3794_offre-emploi-proviseur-poste-susceptible-detre-vacant.html"
     },
     {
-      "id": 3796,
-      "titre": "Professeur de mathématiques",
-      "etab": "",
-      "ville": "Lubumbashi",
-      "pays": "République Démocratique du Congo",
-      "contrat": "",
-      "discipline": "",
-      "date": "27/09/2026",
-      "date_limite": "22/01/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3796_offre-emploi-professeur-de-mathematiques.html"
-    },
-    {
       "id": 3761,
       "titre": "Professeur d'histoire géographie EMC",
       "etab": "",
@@ -744,6 +716,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3761_offre-emploi-professeur-dhistoire-geographie-emc.html"
+    },
+    {
+      "id": 3796,
+      "titre": "Professeur de mathématiques",
+      "etab": "",
+      "ville": "Lubumbashi",
+      "pays": "République Démocratique du Congo",
+      "contrat": "",
+      "discipline": "",
+      "date": "27/09/2026",
+      "date_limite": "22/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3796_offre-emploi-professeur-de-mathematiques.html"
     },
     {
       "id": 3789,
@@ -830,20 +816,6 @@
       "url": "https://recrutement.mlfmonde.org/3767_offre-emploi-professeur-de-physique-chimie.html"
     },
     {
-      "id": 3842,
-      "titre": "Poste de professeur(e) de Sciences Physiques et Chimiques",
-      "etab": "",
-      "ville": "Moanda",
-      "pays": "Gabon",
-      "contrat": "",
-      "discipline": "",
-      "date": "15/10/2026",
-      "date_limite": "01/02/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3842_offre-emploi-poste-de-professeure-de-sciences-physiques-et-chimiques.html"
-    },
-    {
       "id": 3768,
       "titre": "Professeur(e) premier degré",
       "etab": "",
@@ -858,8 +830,22 @@
       "url": "https://recrutement.mlfmonde.org/3768_offre-emploi-professeure-premier-degre.html"
     },
     {
-      "id": 3866,
-      "titre": "Professeur de lettres modernes",
+      "id": 3842,
+      "titre": "Poste de professeur(e) de Sciences Physiques et Chimiques",
+      "etab": "",
+      "ville": "Moanda",
+      "pays": "Gabon",
+      "contrat": "",
+      "discipline": "",
+      "date": "15/10/2026",
+      "date_limite": "01/02/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3842_offre-emploi-poste-de-professeure-de-sciences-physiques-et-chimiques.html"
+    },
+    {
+      "id": 3865,
+      "titre": "Professeur d’éducation physique et sportive (EPS)",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
@@ -869,7 +855,7 @@
       "date_limite": "14/02/2027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3866_offre-emploi-professeur-de-lettres-modernes.html"
+      "url": "https://recrutement.mlfmonde.org/3865_offre-emploi-professeur-deducation-physique-et-sportive-eps.html"
     },
     {
       "id": 3860,
@@ -928,8 +914,8 @@
       "url": "https://recrutement.mlfmonde.org/3864_offre-emploi-professeur-despagnol.html"
     },
     {
-      "id": 3865,
-      "titre": "Professeur d’éducation physique et sportive (EPS)",
+      "id": 3873,
+      "titre": "Professeur des écoles",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
@@ -939,63 +925,7 @@
       "date_limite": "14/02/2027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3865_offre-emploi-professeur-deducation-physique-et-sportive-eps.html"
-    },
-    {
-      "id": 3867,
-      "titre": "Professeur de sciences physiques et chimiques (SPC)",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "20/10/2026",
-      "date_limite": "14/02/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3867_offre-emploi-professeur-de-sciences-physiques-et-chimiques-spc.html"
-    },
-    {
-      "id": 3868,
-      "titre": "Professeur de technologie",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "20/10/2026",
-      "date_limite": "14/02/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3868_offre-emploi-professeur-de-technologie.html"
-    },
-    {
-      "id": 3870,
-      "titre": "Professeur de sciences économiques et sociales (SES)",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "20/10/2026",
-      "date_limite": "14/02/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3870_offre-emploi-professeur-de-sciences-economiques-et-sociales-ses.html"
-    },
-    {
-      "id": 3871,
-      "titre": "Professeur de sciences de la vie et de la Terre (SVT)",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "20/10/2026",
-      "date_limite": "14/02/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3871_offre-emploi-professeur-de-sciences-de-la-vie-et-de-la-terre-svt.html"
+      "url": "https://recrutement.mlfmonde.org/3873_offre-emploi-professeur-des-ecoles.html"
     },
     {
       "id": 3872,
@@ -1012,8 +942,8 @@
       "url": "https://recrutement.mlfmonde.org/3872_offre-emploi-professeur-dhistoiregeographie-hg.html"
     },
     {
-      "id": 3873,
-      "titre": "Professeur des écoles",
+      "id": 3871,
+      "titre": "Professeur de sciences de la vie et de la Terre (SVT)",
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
@@ -1023,63 +953,63 @@
       "date_limite": "14/02/2027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3873_offre-emploi-professeur-des-ecoles.html"
+      "url": "https://recrutement.mlfmonde.org/3871_offre-emploi-professeur-de-sciences-de-la-vie-et-de-la-terre-svt.html"
     },
     {
-      "id": 3813,
-      "titre": "Professeur.e de Philosophie et Lettres au Lycée Victor Hugo de Djerba",
+      "id": 3870,
+      "titre": "Professeur de sciences économiques et sociales (SES)",
       "etab": "",
-      "ville": "Djerba",
-      "pays": "Tunisie",
+      "ville": "Casablanca",
+      "pays": "Maroc",
       "contrat": "",
       "discipline": "",
-      "date": "29/09/2026",
-      "date_limite": "20/03/2027",
+      "date": "20/10/2026",
+      "date_limite": "14/02/2027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3813_offre-emploi-professeure-de-philosophie-et-lettres-au-lycee-victor-hugo-de-djerba.html"
+      "url": "https://recrutement.mlfmonde.org/3870_offre-emploi-professeur-de-sciences-economiques-et-sociales-ses.html"
     },
     {
-      "id": 3799,
-      "titre": "Professeur.e de Mathématiques au Lycée Français International de Dubai",
+      "id": 3868,
+      "titre": "Professeur de technologie",
       "etab": "",
-      "ville": "Dubaï",
-      "pays": "Émirats Arabes Unis",
+      "ville": "Casablanca",
+      "pays": "Maroc",
       "contrat": "",
       "discipline": "",
-      "date": "29/09/2026",
-      "date_limite": "20/03/2027",
-      "date_prise": "20/08/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3799_offre-emploi-professeure-de-mathematiques-au-lycee-francais-international-de-dubai.html"
-    },
-    {
-      "id": 3814,
-      "titre": "Professeur.e de Mathématiques au Lycée Victor Hugo de Djerba",
-      "etab": "",
-      "ville": "Djerba",
-      "pays": "Tunisie",
-      "contrat": "",
-      "discipline": "",
-      "date": "29/09/2026",
-      "date_limite": "20/03/2027",
+      "date": "20/10/2026",
+      "date_limite": "14/02/2027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3814_offre-emploi-professeure-de-mathematiques-au-lycee-victor-hugo-de-djerba.html"
+      "url": "https://recrutement.mlfmonde.org/3868_offre-emploi-professeur-de-technologie.html"
     },
     {
-      "id": 3812,
-      "titre": "Professeur.e de Lettres et Philosophie au Lycée Victor Hugo de Djerba",
+      "id": 3867,
+      "titre": "Professeur de sciences physiques et chimiques (SPC)",
       "etab": "",
-      "ville": "Djerba",
-      "pays": "Tunisie",
+      "ville": "Casablanca",
+      "pays": "Maroc",
       "contrat": "",
       "discipline": "",
-      "date": "29/09/2026",
-      "date_limite": "20/03/2027",
+      "date": "20/10/2026",
+      "date_limite": "14/02/2027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3812_offre-emploi-professeure-de-lettres-et-philosophie-au-lycee-victor-hugo-de-djerba.html"
+      "url": "https://recrutement.mlfmonde.org/3867_offre-emploi-professeur-de-sciences-physiques-et-chimiques-spc.html"
+    },
+    {
+      "id": 3866,
+      "titre": "Professeur de lettres modernes",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "20/10/2026",
+      "date_limite": "14/02/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3866_offre-emploi-professeur-de-lettres-modernes.html"
     },
     {
       "id": 3811,
@@ -1096,50 +1026,36 @@
       "url": "https://recrutement.mlfmonde.org/3811_offre-emploi-professeure-des-ecoles-au-lycee-victor-hugo-de-djerba.html"
     },
     {
-      "id": 3810,
-      "titre": "Professeur.e d’Histoire et Géographie au Lycée Victor Hugo de Djerba",
+      "id": 3876,
+      "titre": "Professeur.e d’Anglais au Lycée Théodore Monod d’Abu Dhabi",
       "etab": "",
-      "ville": "Djerba",
-      "pays": "Tunisie",
-      "contrat": "",
-      "discipline": "",
-      "date": "29/09/2026",
-      "date_limite": "20/03/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3810_offre-emploi-professeure-dhistoire-et-geographie-au-lycee-victor-hugo-de-djerba.html"
-    },
-    {
-      "id": 2626,
-      "titre": "Professeur.e des Ecoles au Lycée Français International de Dubai",
-      "etab": "",
-      "ville": "Dubaï",
+      "ville": "Abou Dabi",
       "pays": "Émirats Arabes Unis",
       "contrat": "",
       "discipline": "",
-      "date": "07/11/2022",
+      "date": "21/10/2026",
       "date_limite": "20/03/2027",
       "date_prise": "20/08/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/2626_offre-emploi-professeure-des-ecoles-au-lycee-francais-international-de-dubai.html"
+      "url": "https://recrutement.mlfmonde.org/3876_offre-emploi-professeure-danglais-au-lycee-theodore-monod-dabu-dhabi.html"
     },
     {
-      "id": 3806,
-      "titre": "Professeur.e de Science Physique et Chimie au Lycée Français Bilingue International (ICE)",
+      "id": 3877,
+      "titre": "Professeur.e de mathématiques au Lycée Théodore Monod d’Abu Dhabi",
       "etab": "",
-      "ville": "Dubaï",
+      "ville": "Abou Dabi",
       "pays": "Émirats Arabes Unis",
       "contrat": "",
       "discipline": "",
-      "date": "29/09/2026",
+      "date": "21/10/2026",
       "date_limite": "20/03/2027",
       "date_prise": "20/08/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3806_offre-emploi-professeure-de-science-physique-et-chimie-au-lycee-francais-bilingue-international-ice.html"
+      "url": "https://recrutement.mlfmonde.org/3877_offre-emploi-professeure-de-mathematiques-au-lycee-theodore-monod-dabu-dhabi.html"
     },
     {
-      "id": 3802,
-      "titre": "Directeur(ice) d’Ecole au Lycée International de Dubai",
+      "id": 3799,
+      "titre": "Professeur.e de Mathématiques au Lycée Français International de Dubai",
       "etab": "",
       "ville": "Dubaï",
       "pays": "Émirats Arabes Unis",
@@ -1149,7 +1065,7 @@
       "date_limite": "20/03/2027",
       "date_prise": "20/08/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3802_offre-emploi-directeurice-decole-au-lycee-international-de-dubai.html"
+      "url": "https://recrutement.mlfmonde.org/3799_offre-emploi-professeure-de-mathematiques-au-lycee-francais-international-de-dubai.html"
     },
     {
       "id": 3800,
@@ -1166,6 +1082,104 @@
       "url": "https://recrutement.mlfmonde.org/3800_offre-emploi-directeurrice-au-lycee-francais-international-elite-de-tyr.html"
     },
     {
+      "id": 3802,
+      "titre": "Directeur(ice) d’Ecole au Lycée International de Dubai",
+      "etab": "",
+      "ville": "Dubaï",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "29/09/2026",
+      "date_limite": "20/03/2027",
+      "date_prise": "20/08/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3802_offre-emploi-directeurice-decole-au-lycee-international-de-dubai.html"
+    },
+    {
+      "id": 3806,
+      "titre": "Professeur.e de Science Physique et Chimie au Lycée Français Bilingue International (ICE)",
+      "etab": "",
+      "ville": "Dubaï",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "29/09/2026",
+      "date_limite": "20/03/2027",
+      "date_prise": "20/08/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3806_offre-emploi-professeure-de-science-physique-et-chimie-au-lycee-francais-bilingue-international-ice.html"
+    },
+    {
+      "id": 3810,
+      "titre": "Professeur.e d’Histoire et Géographie au Lycée Victor Hugo de Djerba",
+      "etab": "",
+      "ville": "Djerba",
+      "pays": "Tunisie",
+      "contrat": "",
+      "discipline": "",
+      "date": "29/09/2026",
+      "date_limite": "20/03/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3810_offre-emploi-professeure-dhistoire-et-geographie-au-lycee-victor-hugo-de-djerba.html"
+    },
+    {
+      "id": 3814,
+      "titre": "Professeur.e de Mathématiques au Lycée Victor Hugo de Djerba",
+      "etab": "",
+      "ville": "Djerba",
+      "pays": "Tunisie",
+      "contrat": "",
+      "discipline": "",
+      "date": "29/09/2026",
+      "date_limite": "20/03/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3814_offre-emploi-professeure-de-mathematiques-au-lycee-victor-hugo-de-djerba.html"
+    },
+    {
+      "id": 3813,
+      "titre": "Professeur.e de Philosophie et Lettres au Lycée Victor Hugo de Djerba",
+      "etab": "",
+      "ville": "Djerba",
+      "pays": "Tunisie",
+      "contrat": "",
+      "discipline": "",
+      "date": "29/09/2026",
+      "date_limite": "20/03/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3813_offre-emploi-professeure-de-philosophie-et-lettres-au-lycee-victor-hugo-de-djerba.html"
+    },
+    {
+      "id": 3812,
+      "titre": "Professeur.e de Lettres et Philosophie au Lycée Victor Hugo de Djerba",
+      "etab": "",
+      "ville": "Djerba",
+      "pays": "Tunisie",
+      "contrat": "",
+      "discipline": "",
+      "date": "29/09/2026",
+      "date_limite": "20/03/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3812_offre-emploi-professeure-de-lettres-et-philosophie-au-lycee-victor-hugo-de-djerba.html"
+    },
+    {
+      "id": 2626,
+      "titre": "Professeur.e des Ecoles au Lycée Français International de Dubai",
+      "etab": "",
+      "ville": "Dubaï",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "07/11/2022",
+      "date_limite": "20/03/2027",
+      "date_prise": "20/08/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/2626_offre-emploi-professeure-des-ecoles-au-lycee-francais-international-de-dubai.html"
+    },
+    {
       "id": 3762,
       "titre": "Remplacement en CDD – Classe de CM1/CM2",
       "etab": "",
@@ -1180,8 +1194,22 @@
       "url": "https://recrutement.mlfmonde.org/3762_offre-emploi-remplacement-en-cdd-classe-de-cm1cm2.html"
     },
     {
-      "id": 3855,
-      "titre": "Professeur(e) de mathématiques",
+      "id": 3879,
+      "titre": "Professeur d'espagnol (poste susceptible d'être vacant)",
+      "etab": "",
+      "ville": "Dakhla",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "21/10/2026",
+      "date_limite": "01/05/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3879_offre-emploi-professeur-despagnol-poste-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3857,
+      "titre": "Professeur(e) de physique/chimie (susceptible d'être vacant)",
       "etab": "",
       "ville": "Dakhla",
       "pays": "Maroc",
@@ -1191,7 +1219,35 @@
       "date_limite": "01/05/2027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3855_offre-emploi-professeure-de-mathematiques.html"
+      "url": "https://recrutement.mlfmonde.org/3857_offre-emploi-professeure-de-physiquechimie-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3878,
+      "titre": "CPE",
+      "etab": "",
+      "ville": "Dakhla",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "21/10/2026",
+      "date_limite": "01/05/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3878_offre-emploi-cpe.html"
+    },
+    {
+      "id": 3869,
+      "titre": "Professeur d'EPS (poste susceptible d'être vacant)",
+      "etab": "",
+      "ville": "Dakhla",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "20/10/2026",
+      "date_limite": "01/05/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3869_offre-emploi-professeur-deps-poste-susceptible-detre-vacant.html"
     },
     {
       "id": 3852,
@@ -1222,6 +1278,20 @@
       "url": "https://recrutement.mlfmonde.org/3853_offre-emploi-professeure-de-francais.html"
     },
     {
+      "id": 3854,
+      "titre": "Professeur(e) d'histoire/géographie",
+      "etab": "",
+      "ville": "Dakhla",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "20/10/2026",
+      "date_limite": "01/05/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3854_offre-emploi-professeure-dhistoiregeographie.html"
+    },
+    {
       "id": 3861,
       "titre": "Professeur(e) de SES (poste susceptible d'être vacant)",
       "etab": "",
@@ -1236,8 +1306,8 @@
       "url": "https://recrutement.mlfmonde.org/3861_offre-emploi-professeure-de-ses-poste-susceptible-detre-vacant.html"
     },
     {
-      "id": 3869,
-      "titre": "Professeur d'EPS (poste susceptible d'être vacant)",
+      "id": 3855,
+      "titre": "Professeur(e) de mathématiques",
       "etab": "",
       "ville": "Dakhla",
       "pays": "Maroc",
@@ -1247,21 +1317,7 @@
       "date_limite": "01/05/2027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3869_offre-emploi-professeur-deps-poste-susceptible-detre-vacant.html"
-    },
-    {
-      "id": 3854,
-      "titre": "Professeur(e) d'histoire/géographie",
-      "etab": "",
-      "ville": "Dakhla",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "20/10/2026",
-      "date_limite": "01/05/2027",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3854_offre-emploi-professeure-dhistoiregeographie.html"
+      "url": "https://recrutement.mlfmonde.org/3855_offre-emploi-professeure-de-mathematiques.html"
     },
     {
       "id": 3859,
@@ -1292,18 +1348,18 @@
       "url": "https://recrutement.mlfmonde.org/3858_offre-emploi-professeure-de-svt-susceptible-detre-vacant.html"
     },
     {
-      "id": 3857,
-      "titre": "Professeur(e) de physique/chimie (susceptible d'être vacant)",
+      "id": 3874,
+      "titre": "Directeur(trice) d'école (poste susceptible d'être vacant)",
       "etab": "",
       "ville": "Dakhla",
       "pays": "Maroc",
       "contrat": "",
       "discipline": "",
       "date": "20/10/2026",
-      "date_limite": "01/05/2027",
+      "date_limite": "01/03/3027",
       "date_prise": "01/09/2027",
       "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3857_offre-emploi-professeure-de-physiquechimie-susceptible-detre-vacant.html"
+      "url": "https://recrutement.mlfmonde.org/3874_offre-emploi-directeurtrice-decole-poste-susceptible-detre-vacant.html"
     }
   ]
 }
