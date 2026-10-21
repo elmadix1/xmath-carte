@@ -1,7 +1,40 @@
 {
-  "updated": "2026-10-20 20:16",
-  "total": 148,
+  "updated": "2026-10-21 09:49",
+  "total": 151,
   "offers": [
+    {
+      "id": 4656123,
+      "titre": "Direction technique études espagnoles et catalanes, Enseignant espagnol catalan",
+      "etab": "",
+      "ville": "Barcelona",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "21/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4656123-direction-technique-etudes-espagnoles-et-catalanes-enseignant-espagnol-catalan-08034-barcelona"
+    },
+    {
+      "id": 4655873,
+      "titre": "Un/e Conseiller/ère Principal/e d’Education (C.P.E.)",
+      "etab": "",
+      "ville": "Mapou",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "21/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4655873-une-conseillerere-principale-d-education-c-p-e-mapou"
+    },
+    {
+      "id": 4655853,
+      "titre": "Professeur Documentaliste F/H",
+      "etab": "",
+      "ville": "North Vancouver",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "20/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4655853-professeur-documentaliste-fh-v7k-2e6-north-vancouver"
+    },
     {
       "id": 4655779,
       "titre": "SUISSE - Berne - Professeur du Second Degré - Mathématiques F/H",
