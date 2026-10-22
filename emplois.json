@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-21 20:28",
-  "total": 156,
+  "updated": "2026-10-22 09:49",
+  "total": 157,
   "offers": [
     {
       "id": 4656669,
@@ -41,7 +41,7 @@
       "etab": "",
       "ville": "North Vancouver",
       "pays": "",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur documentaliste F/H",
       "date": "20/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4655853-professeur-documentaliste-fh-v7k-2e6-north-vancouver"
@@ -1684,6 +1684,17 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "18/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
+    },
+    {
+      "id": 4020099,
+      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "22/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,
