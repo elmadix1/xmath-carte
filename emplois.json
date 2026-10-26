@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-25 19:27",
-  "total": 159,
+  "updated": "2026-10-26 10:44",
+  "total": 157,
   "offers": [
+    {
+      "id": 4662323,
+      "titre": "Professeur de lettres au second degré - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "26/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4662323-professeur-de-lettres-au-second-degre-fh-munich-allemagne-81373-munchen"
+    },
     {
       "id": 4660607,
       "titre": "Professeur des écoles F/H - Maternelle",
@@ -243,17 +254,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "19/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4653489-professeur-du-second-degre-lettres-modernes-fh-saly-senegal-saly"
-    },
-    {
-      "id": 4652403,
-      "titre": "2 Surveillants - F/H - EGD - LYCEE GUSTAVE FLAUBERT - LA MARSA - TUNISIE",
-      "etab": "",
-      "ville": "La Marsa",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "19/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4652403-2-surveillants-fh-egd-lycee-gustave-flaubert-la-marsa-tunisie-la-marsa"
     },
     {
       "id": 4652101,
@@ -1455,17 +1455,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4568761-professeur-svt-vacataire-fh-nabeul-tunisie-8000-nabeul-"
     },
     {
-      "id": 4567177,
-      "titre": "Professeur du Second Degré SES F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur Sciences économiques et sociales F/H",
-      "date": "27/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4567177-professeur-du-second-degre-ses-fh-le-caire-egypte-cairo"
-    },
-    {
       "id": 4515063,
       "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1539,7 +1528,7 @@
       "pays": "Allemagne",
       "contrat": "Contrat permanent",
       "discipline": "Secrétaire / assistant F/H",
-      "date": "02/09/2026",
+      "date": "26/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4399289-secretaire-general-adjoint-sga-fh-munich-allemagne-81373-munchen"
     },
     {
@@ -1552,17 +1541,6 @@
       "discipline": "Professeur documentaliste F/H",
       "date": "14/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4396003-professeur-documentaliste-fh-rio-de-janeiro-bresil-rio-de-janeiro"
-    },
-    {
-      "id": 4390911,
-      "titre": "Psychologue Scolaire - H/F - HO-CHI-MINH-VILLE - VIETNAM",
-      "etab": "",
-      "ville": "Hồ Chí Minh",
-      "pays": "Vietnam",
-      "contrat": "Contrat temporaire",
-      "discipline": "Psychologue scolaire F/H",
-      "date": "27/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4390911-psychologue-scolaire-hf-ho-chi-minh-ville-vietnam-ho-chi-minh"
     },
     {
       "id": 4367931,
