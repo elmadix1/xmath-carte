@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-26 10:44",
-  "total": 157,
+  "updated": "2026-10-26 21:19",
+  "total": 151,
   "offers": [
+    {
+      "id": 4663015,
+      "titre": "Professeur de langue et littérature anglaise (H/F) - CDD - VAUBAN - LUXEMBOURG",
+      "etab": "",
+      "ville": "Luxembourg",
+      "pays": "Luxembourg",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais britannique F/H",
+      "date": "26/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4663015-professeur-de-langue-et-litterature-anglaise-hf-cdd-vauban-luxembourg-luxembourg"
+    },
     {
       "id": 4662323,
       "titre": "Professeur de lettres au second degré - F/H - MUNICH - ALLEMAGNE",
@@ -531,28 +542,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4640525-professeur-de-physique-chimie-fh-kankan-guinee-kankan"
     },
     {
-      "id": 4640519,
-      "titre": "PROFESSEUR D'ANGLAIS (F/H) - KANKAN - GUINEE",
-      "etab": "",
-      "ville": "Kankan",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "09/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640519-professeur-danglais-fh-kankan-guinee-kankan"
-    },
-    {
-      "id": 4640505,
-      "titre": "PROFESSEUR DE TECHNOLOGIE NUMERIQUE (F/H) - KANKAN - GUINEE",
-      "etab": "",
-      "ville": "Kankan",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de technologie F/H",
-      "date": "09/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640505-professeur-de-technologie-numerique-fh-kankan-guinee-kankan"
-    },
-    {
       "id": 4640495,
       "titre": "PROFESSEUR DE FLE ET DE LETTRES (F/H) - KANKAN - GUINEE",
       "etab": "",
@@ -562,28 +551,6 @@
       "discipline": "Professeur de français langue étrangère F/H",
       "date": "09/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4640495-professeur-de-fle-et-de-lettres-fh-kankan-guinee-kankan"
-    },
-    {
-      "id": 4640489,
-      "titre": "Professeur de mathématiques (F/H) - KANKAN - GUINEE",
-      "etab": "",
-      "ville": "Kankan",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "09/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640489-professeur-de-mathematiques-fh-kankan-guinee-kankan"
-    },
-    {
-      "id": 4640461,
-      "titre": "Professeur des écoles (F/H) - KANKAN - GUINEE",
-      "etab": "",
-      "ville": "Kankan",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "09/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640461-professeur-des-ecoles-fh-kankan-guinee-kankan"
     },
     {
       "id": 4640423,
@@ -1444,17 +1411,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4570429-secretaire-fh-asuncion-paraguay-asuncion"
     },
     {
-      "id": 4568761,
-      "titre": "Professeur SVT vacataire F/H - NABEUL - TUNISIE",
-      "etab": "",
-      "ville": "Nabeul",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "27/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4568761-professeur-svt-vacataire-fh-nabeul-tunisie-8000-nabeul-"
-    },
-    {
       "id": 4515063,
       "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1598,17 +1554,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4276169-professeur-du-second-degre-lettres-modernes-fh-tunis-tunisie-1001-tunis"
     },
     {
-      "id": 4225869,
-      "titre": "Infirmier Scolaire F/H - Lycée Français Gustave Eiffel - BUDAPEST - HONGRIE",
-      "etab": "",
-      "ville": "Budapest",
-      "pays": "Hongrie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Infirmier scolaire F/H",
-      "date": "27/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4225869-infirmier-scolaire-fh-lycee-francais-gustave-eiffel-budapest-hongrie-1029-budapest"
-    },
-    {
       "id": 4207739,
       "titre": "Professeur du Second Degré - Mathématiques",
       "etab": "",
@@ -1717,17 +1662,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "21/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/3799639-educateurerzieher-personnel-parlant-allemand-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 3486789,
-      "titre": "Professeur Mathématiques Physique-Chimie - F/H - SARAJEVO - BOSNIE-HERZÉGOVINE",
-      "etab": "",
-      "ville": "Sarajevo",
-      "pays": "Bosnie-Herzégovine",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "27/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/3486789-professeur-mathematiques-physique-chimie-fh-sarajevo-bosnie-herzegovine-71000-sarajevo"
     }
   ]
 }
