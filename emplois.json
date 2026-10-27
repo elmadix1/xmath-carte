@@ -1,7 +1,40 @@
 {
-  "updated": "2026-10-26 21:19",
-  "total": 151,
+  "updated": "2026-10-27 10:12",
+  "total": 153,
   "offers": [
+    {
+      "id": 4664795,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "27/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4664795-professeur-du-second-degre-dhistoire-geographie-fh-casablanca"
+    },
+    {
+      "id": 4664785,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "27/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4664785-professeur-du-second-degre-physique-chimie-fh-casablanca"
+    },
+    {
+      "id": 4664761,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "27/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4664761-professeur-du-second-degre-mathematiques-fh-casablanca"
+    },
     {
       "id": 4663015,
       "titre": "Professeur de langue et littérature anglaise (H/F) - CDD - VAUBAN - LUXEMBOURG",
@@ -1453,17 +1486,6 @@
       "discipline": "Chargé du centre de documentation F/H",
       "date": "15/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4467827-conseiller-dorientation-fh-cotonou-benin-cotonou"
-    },
-    {
-      "id": 4444349,
-      "titre": "Responsable of brand, content & community - F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Chargé de communication F/H",
-      "date": "28/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4444349-responsable-of-brand-content-community-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4443931,
