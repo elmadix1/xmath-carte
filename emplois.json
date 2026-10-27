@@ -1,7 +1,18 @@
 {
-  "updated": "2026-10-27 10:12",
+  "updated": "2026-10-27 21:07",
   "total": 153,
   "offers": [
+    {
+      "id": 4666499,
+      "titre": "Enseignant du Primaire (maternelle et élémentaire) F/H - PORTLAND USA",
+      "etab": "",
+      "ville": "Portland",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "27/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4666499-enseignant-du-primaire-maternelle-et-elementaire-fh-portland-usa-97229-portland"
+    },
     {
       "id": 4664795,
       "titre": "Professeur du Second Degré d'histoire géographie F/H",
@@ -1431,17 +1442,6 @@
       "discipline": "Secrétaire / assistant F/H",
       "date": "01/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4574685-assistant-de-direction-hf-manille-philippines-paranaque"
-    },
-    {
-      "id": 4570429,
-      "titre": "Secrétaire F/H - ASUNCION - PARAGUAY",
-      "etab": "",
-      "ville": "Asuncion",
-      "pays": "Paraguay",
-      "contrat": "Contrat permanent",
-      "discipline": "Secrétaire / assistant F/H",
-      "date": "28/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4570429-secretaire-fh-asuncion-paraguay-asuncion"
     },
     {
       "id": 4515063,
