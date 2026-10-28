@@ -1,7 +1,40 @@
 {
-  "updated": "2026-10-27 21:07",
-  "total": 153,
+  "updated": "2026-10-28 10:58",
+  "total": 156,
   "offers": [
+    {
+      "id": 4667275,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H - Titulaire du MEN Français",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "28/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4667275-professeur-du-second-degre-physique-chimie-fh-titulaire-du-men-francais-13317-riyadh"
+    },
+    {
+      "id": 4667227,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "28/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4667227-professeur-du-second-degre-lettres-modernes-fh-13317-riyadh"
+    },
+    {
+      "id": 4667191,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "28/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4667191-professeur-des-ecoles-fh-13317-riyadh"
+    },
     {
       "id": 4666499,
       "titre": "Enseignant du Primaire (maternelle et élémentaire) F/H - PORTLAND USA",
