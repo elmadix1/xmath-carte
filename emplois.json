@@ -1,7 +1,40 @@
 {
-  "updated": "2026-10-28 10:58",
-  "total": 156,
+  "updated": "2026-10-28 21:31",
+  "total": 158,
   "offers": [
+    {
+      "id": 4668597,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Tiabaya",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "28/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4668597-professeur-du-second-degre-mathematiques-fh-tiabaya"
+    },
+    {
+      "id": 4667317,
+      "titre": "Professeur du Second Degré - Titulaire du MEN Français",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’espagnol F/H",
+      "date": "28/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4667317-professeur-du-second-degre-titulaire-du-men-francais-13317-riyadh"
+    },
+    {
+      "id": 4667301,
+      "titre": "Professeur du Second Degré - Philosophie F/H",
+      "etab": "",
+      "ville": "Riyadh",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "28/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4667301-professeur-du-second-degre-philosophie-fh-13317-riyadh"
+    },
     {
       "id": 4667275,
       "titre": "Professeur du Second Degré - Physique Chimie F/H - Titulaire du MEN Français",
@@ -1004,17 +1037,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4614975-coordinateur-du-departement-d-anglais-ecoles-primaire-londres-royaume-uni-london"
     },
     {
-      "id": 4614515,
-      "titre": "Professeur de Lettres F/H au Lycée des Mascareignes - MOKA - MAURICE",
-      "etab": "",
-      "ville": "Moka",
-      "pays": "",
-      "contrat": "CDD terme fixe",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4614515-professeur-de-lettres-fh-au-lycee-des-mascareignes-moka-maurice-moka"
-    },
-    {
       "id": 4613853,
       "titre": "Professeur d'anglais SIA Littérature F/H - HANOI - VIETNAM",
       "etab": "",
@@ -1554,17 +1576,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4396003-professeur-documentaliste-fh-rio-de-janeiro-bresil-rio-de-janeiro"
     },
     {
-      "id": 4367931,
-      "titre": "Professeur du Second Degré Lettres et histoire géographie F/H - PANAMA",
-      "etab": "",
-      "ville": "Provincia de Panamá Oeste",
-      "pays": "Panama",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "29/08/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4367931-professeur-du-second-degre-lettres-et-histoire-geographie-fh-panama-arraijan"
-    },
-    {
       "id": 4332017,
       "titre": "Référent du Pôle EBEP - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
       "etab": "",
@@ -1695,6 +1706,17 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "18/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
+    },
+    {
+      "id": 4020099,
+      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "28/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,

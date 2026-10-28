@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-28 10:58",
-  "total": 101,
+  "updated": "2026-10-28 21:31",
+  "total": 102,
   "source": "MLF Monde",
   "offers": [
     {
@@ -436,6 +436,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3795_offre-emploi-professeure-dhistoire-geographie.html"
+    },
+    {
+      "id": 3803,
+      "titre": "Professeur (e) de Mathématiques",
+      "etab": "",
+      "ville": "Muharraq",
+      "pays": "Bahreïn",
+      "contrat": "",
+      "discipline": "",
+      "date": "29/09/2026",
+      "date_limite": "30/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3803_offre-emploi-professeur-e-de-mathematiques.html"
     },
     {
       "id": 3829,
