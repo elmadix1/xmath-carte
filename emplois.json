@@ -1,7 +1,95 @@
 {
-  "updated": "2026-10-29 11:16",
-  "total": 161,
+  "updated": "2026-10-29 21:32",
+  "total": 163,
   "offers": [
+    {
+      "id": 4669469,
+      "titre": "Assistant d'Éducation - F/H - Casablanca",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "29/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4669469-assistant-deducation-fh-casablanca-casablanca"
+    },
+    {
+      "id": 4669455,
+      "titre": "Professeur d'Arabe maternelle-élémentaire - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’arabe F/H",
+      "date": "29/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4669455-professeur-darabe-maternelle-elementaire-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4669447,
+      "titre": "Professeur du Second Degré - Sciences Economiques et Sociales F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "29/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4669447-professeur-du-second-degre-sciences-economiques-et-sociales-fh-casablanca"
+    },
+    {
+      "id": 4669445,
+      "titre": "Professeur du Second Degré - Sciences Numériques et Technologie F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de Sciences Numériques et Technologie F/H",
+      "date": "29/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4669445-professeur-du-second-degre-sciences-numeriques-et-technologie-fh-casablanca"
+    },
+    {
+      "id": 4669443,
+      "titre": "Professeur du Second Degré - Philosophie F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de philosophie F/H",
+      "date": "29/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4669443-professeur-du-second-degre-philosophie-fh-casablanca"
+    },
+    {
+      "id": 4669441,
+      "titre": "Professeur Documentaliste F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "29/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4669441-professeur-documentaliste-fh-casablanca"
+    },
+    {
+      "id": 4669429,
+      "titre": "Professeur du Second Degré - Langue Arabe -F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "29/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4669429-professeur-du-second-degre-langue-arabe-fh-casablanca"
+    },
+    {
+      "id": 4669427,
+      "titre": "Professeur du Second Degré - Langue espagnole -F/H",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "29/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4669427-professeur-du-second-degre-langue-espagnole-fh-casablanca"
+    },
     {
       "id": 4669421,
       "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
@@ -254,17 +342,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "20/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4655779-suisse-berne-professeur-du-second-degre-mathematiques-fh-3005-bern"
-    },
-    {
-      "id": 4655767,
-      "titre": "SUISSE - Berne - Professeur des écoles F/H",
-      "etab": "",
-      "ville": "Bern",
-      "pays": "Suisse",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "20/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4655767-suisse-berne-professeur-des-ecoles-fh-3005-bern"
     },
     {
       "id": 4654901,
@@ -641,48 +718,15 @@
       "url": "https://talents.aefe.fr/fr/annonce/4642261-professeur-du-second-degre-eps-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
-      "id": 4640531,
-      "titre": "PROFESSEUR DE SVT (F/H) - KANKAN - GUINEE",
+      "id": 4640461,
+      "titre": "Professeur des écoles (F/H) - KANKAN - GUINEE",
       "etab": "",
       "ville": "Kankan",
       "pays": "Guinée",
       "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "09/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640531-professeur-de-svt-fh-kankan-guinee-kankan"
-    },
-    {
-      "id": 4640527,
-      "titre": "PROFESSEUR D’HISTOIRE-GÉOGRAPHIE (F/H) - KANKAN - GUINEE",
-      "etab": "",
-      "ville": "Kankan",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "09/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640527-professeur-d-histoire-geographie-fh-kankan-guinee-kankan"
-    },
-    {
-      "id": 4640525,
-      "titre": "PROFESSEUR DE PHYSIQUE-CHIMIE (F/H) - KANKAN - GUINEE",
-      "etab": "",
-      "ville": "Kankan",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "09/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640525-professeur-de-physique-chimie-fh-kankan-guinee-kankan"
-    },
-    {
-      "id": 4640495,
-      "titre": "PROFESSEUR DE FLE ET DE LETTRES (F/H) - KANKAN - GUINEE",
-      "etab": "",
-      "ville": "Kankan",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de français langue étrangère F/H",
-      "date": "09/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640495-professeur-de-fle-et-de-lettres-fh-kankan-guinee-kankan"
+      "discipline": "Professeur des écoles F/H",
+      "date": "29/10/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640461-professeur-des-ecoles-fh-kankan-guinee-kankan"
     },
     {
       "id": 4640423,
@@ -883,17 +927,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4630975-professeur-des-ecoles-fh-tunis-tunisie-1053-tunis"
     },
     {
-      "id": 4630055,
-      "titre": "Aide documentaliste et animateur de la BCD - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "05/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4630055-aide-documentaliste-et-animateur-de-la-bcd-fh-munich-allemagne-81373-munchen"
-    },
-    {
       "id": 4630041,
       "titre": "Assistant de gestion budgétaire - IRF ZECO à mi-temps - F/H - MUNICH - ALLEMAGNE",
       "etab": "",
@@ -969,17 +1002,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "29/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4622263-professeur-du-second-degre-svt-fh-alexandrie-egypte-alexandria"
-    },
-    {
-      "id": 4621523,
-      "titre": "Conseiller Principal d'Éducation F/H - CASABLANCA - MAROC",
-      "etab": "",
-      "ville": "Casablanca",
-      "pays": "Maroc",
-      "contrat": "Contrat temporaire",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "29/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4621523-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4620723,
@@ -1132,7 +1154,7 @@
       "pays": "Portugal",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
-      "date": "22/09/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4610321-professeur-du-second-degre-remplacants-fh-lisbonne-portugal-1350-164-lisboa"
     },
     {
