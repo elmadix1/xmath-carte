@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-30 11:10",
-  "total": 119,
+  "updated": "2026-10-30 21:21",
+  "total": 123,
   "source": "MLF Monde",
   "offers": [
     {
@@ -466,6 +466,62 @@
       "url": "https://recrutement.mlfmonde.org/3829_offre-emploi-personnel-de-direction-proviseure-le-caire-susceptible-detre-vacant.html"
     },
     {
+      "id": 3905,
+      "titre": "POSTE de SVT SUSCEPTIBLE D'ETRE VACANT",
+      "etab": "",
+      "ville": "Djeddah",
+      "pays": "Arabie Saoudite",
+      "contrat": "",
+      "discipline": "",
+      "date": "30/10/2026",
+      "date_limite": "30/11/2026",
+      "date_prise": "31/08/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3905_offre-emploi-poste-de-svt-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3907,
+      "titre": "poste Professeur d'arabe SUSCEPTIBLE D'ETRE VACANT",
+      "etab": "",
+      "ville": "Djeddah",
+      "pays": "Arabie Saoudite",
+      "contrat": "",
+      "discipline": "",
+      "date": "30/10/2026",
+      "date_limite": "30/11/2026",
+      "date_prise": "31/08/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3907_offre-emploi-poste-professeur-darabe-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3908,
+      "titre": "POSTE DE PHILOSOPHIE SUSCEPTIBLE D'ETRE VACANT",
+      "etab": "",
+      "ville": "Djeddah",
+      "pays": "Arabie Saoudite",
+      "contrat": "",
+      "discipline": "",
+      "date": "30/10/2026",
+      "date_limite": "30/11/2026",
+      "date_prise": "31/08/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3908_offre-emploi-poste-de-philosophie-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3909,
+      "titre": "POSTE MUSIQUE SUSCEPTIBLE D'ETRE VACANT",
+      "etab": "",
+      "ville": "Djeddah",
+      "pays": "Arabie Saoudite",
+      "contrat": "",
+      "discipline": "",
+      "date": "30/10/2026",
+      "date_limite": "30/11/2026",
+      "date_prise": "31/08/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3909_offre-emploi-poste-musique-susceptible-detre-vacant.html"
+    },
+    {
       "id": 3889,
       "titre": "Professeur des écoles élémentaire Djeddah",
       "etab": "",
@@ -755,7 +811,7 @@
       "discipline": "",
       "date": "24/10/2026",
       "date_limite": "31/12/2026",
-      "date_prise": "23/10/2026",
+      "date_prise": "01/08/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3886_offre-emploi-directeurdirectrice-du-secondaire.html"
     },
