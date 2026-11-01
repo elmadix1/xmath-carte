@@ -1,7 +1,51 @@
 {
-  "updated": "2026-11-01 11:39",
-  "total": 161,
+  "updated": "2026-11-01 20:58",
+  "total": 164,
   "offers": [
+    {
+      "id": 4672931,
+      "titre": "Professeur de Musique F/H - CONCEPCION - CHILI",
+      "etab": "",
+      "ville": "Concepción",
+      "pays": "Chili",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation musicale F/H",
+      "date": "01/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4672931-professeur-de-musique-fh-concepcion-chili-4030000-concepcion"
+    },
+    {
+      "id": 4672917,
+      "titre": "Professeur de Mathématiques F/H - CONCEPCION - CHILI",
+      "etab": "",
+      "ville": "Concepción",
+      "pays": "Chili",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "01/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4672917-professeur-de-mathematiques-fh-concepcion-chili-4030000-concepcion"
+    },
+    {
+      "id": 4672913,
+      "titre": "Professeur d'Histoire Géographie F/H - CONCEPCION - CHILI",
+      "etab": "",
+      "ville": "Concepción",
+      "pays": "Chili",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "01/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4672913-professeur-dhistoire-geographie-fh-concepcion-chili-4030000-concepcion"
+    },
+    {
+      "id": 4672907,
+      "titre": "Professeur de Lettres modernes F/H - CONCEPCION - CHILI",
+      "etab": "",
+      "ville": "Concepción",
+      "pays": "Chili",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "01/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4672907-professeur-de-lettres-modernes-fh-concepcion-chili-4030000-concepcion"
+    },
     {
       "id": 4672867,
       "titre": "Professeur du Second Degré - Lettres Modernes F/H",
@@ -729,17 +773,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4642261-professeur-du-second-degre-eps-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
-      "id": 4640461,
-      "titre": "Professeur des écoles (F/H) - KANKAN - GUINEE",
-      "etab": "",
-      "ville": "Kankan",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640461-professeur-des-ecoles-fh-kankan-guinee-kankan"
-    },
-    {
       "id": 4640423,
       "titre": "Responsable administratif et financier (F/H) - KANKAN - GUINEE",
       "etab": "",
@@ -747,7 +780,7 @@
       "pays": "Guinée",
       "contrat": "Contrat temporaire",
       "discipline": "Directeur Administratif et Financier F/H",
-      "date": "09/10/2026",
+      "date": "01/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4640423-responsable-administratif-et-financier-fh-kankan-guinee-kankan"
     },
     {
@@ -758,7 +791,7 @@
       "pays": "Guinée",
       "contrat": "Contrat temporaire",
       "discipline": "Responsable pédagogique",
-      "date": "09/10/2026",
+      "date": "01/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4640391-responsable-pedagogique-directeur-des-etudes-fh-kankan-guinee-kankan"
     },
     {
@@ -780,7 +813,7 @@
       "pays": "Guinée",
       "contrat": "Contrat temporaire",
       "discipline": "Proviseur F/H",
-      "date": "09/10/2026",
+      "date": "01/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4640055-chef-detablissement-directeur-fh-kankan-guinee-kankan"
     },
     {
