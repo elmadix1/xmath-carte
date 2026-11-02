@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01 20:58",
+  "updated": "2026-11-02 13:03",
   "total": 123,
   "source": "MLF Monde",
   "offers": [
@@ -326,20 +326,6 @@
       "url": "https://recrutement.mlfmonde.org/3759_offre-emploi-cheffe-detablissement.html"
     },
     {
-      "id": 3793,
-      "titre": "Directeur(trice) d'école",
-      "etab": "",
-      "ville": "El Jadida",
-      "pays": "Maroc",
-      "contrat": "",
-      "discipline": "",
-      "date": "24/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3793_offre-emploi-directeurtrice-decole.html"
-    },
-    {
       "id": 3830,
       "titre": "1)\tDirectreur(trice) - Lycée international Balzac (Susceptible d'être vacant)",
       "etab": "",
@@ -422,6 +408,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3792_offre-emploi-professeure-de-philosophie-lettres.html"
+    },
+    {
+      "id": 3793,
+      "titre": "Directeur(trice) d'école",
+      "etab": "",
+      "ville": "El Jadida",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "24/09/2026",
+      "date_limite": "30/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3793_offre-emploi-directeurtrice-decole.html"
     },
     {
       "id": 3795,

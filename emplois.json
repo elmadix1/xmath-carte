@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-01 20:58",
-  "total": 164,
+  "updated": "2026-11-02 13:03",
+  "total": 163,
   "offers": [
     {
       "id": 4672931,
@@ -399,6 +399,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4655779-suisse-berne-professeur-du-second-degre-mathematiques-fh-3005-bern"
     },
     {
+      "id": 4655767,
+      "titre": "SUISSE - Berne - Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Bern",
+      "pays": "Suisse",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "01/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4655767-suisse-berne-professeur-des-ecoles-fh-3005-bern"
+    },
+    {
       "id": 4654901,
       "titre": "Professeur du Second Degré - Physique Chimie F/H - MADRID - ESPAGNE",
       "etab": "",
@@ -411,25 +422,25 @@
     },
     {
       "id": 4654019,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "titre": "Professeur du Second Degré Lettres Modernes F/H - AMMAN - JORDANIE",
       "etab": "",
       "ville": "Amman",
-      "pays": "",
+      "pays": "Jordanie",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "20/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4654019-professeur-du-second-degre-lettres-modernes-fh-amman"
+      "url": "https://talents.aefe.fr/fr/annonce/4654019-professeur-du-second-degre-lettres-modernes-fh-amman-jordanie-amman"
     },
     {
       "id": 4653887,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "titre": "Professeur du Second Degré Mathématiques F/H - HOUMT SOUK - TUNISIE",
       "etab": "",
       "ville": "Houmt Souk",
-      "pays": "",
+      "pays": "Tunisie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "20/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4653887-professeur-du-second-degre-mathematiques-fh-4180-houmt-souk"
+      "url": "https://talents.aefe.fr/fr/annonce/4653887-professeur-du-second-degre-mathematiques-fh-houmt-souk-tunisie-4180-houmt-souk"
     },
     {
       "id": 4653831,
@@ -708,14 +719,14 @@
     },
     {
       "id": 4646063,
-      "titre": "Adjoint(e) au SG (F/H) - ERT - TUNIS - TUNISIE",
+      "titre": "Adjoint au SG (F/H) - ERT - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
       "contrat": "Contrat permanent",
       "discipline": "Directeur Administratif et Financier F/H",
       "date": "14/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4646063-adjointe-au-sg-fh-ert-tunis-tunisie-1082-tunis"
+      "url": "https://talents.aefe.fr/fr/annonce/4646063-adjoint-au-sg-fh-ert-tunis-tunisie-1082-tunis"
     },
     {
       "id": 4646027,
@@ -1048,17 +1059,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4622263-professeur-du-second-degre-svt-fh-alexandrie-egypte-alexandria"
     },
     {
-      "id": 4620723,
-      "titre": "Professeur de Technologie H/F - LA HAYE - PAYS-BAS",
-      "etab": "",
-      "ville": "Den Haag",
-      "pays": "Pays-Bas",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de technologie F/H",
-      "date": "29/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4620723-professeur-de-technologie-hf-la-haye-pays-bas-2584-aa-den-haag"
-    },
-    {
       "id": 4617389,
       "titre": "Professeur du Second Degré d'histoire géographie F/H - SALY - SENEGAL",
       "etab": "",
@@ -1088,7 +1088,7 @@
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'histoire géographie F/H",
-      "date": "25/09/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4616747-professeur-d-histoire-geographie-hggsp-fh-koh-samui-thailand-84310-koh-samui"
     },
     {
@@ -1664,17 +1664,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4331631-professeurs-de-lettres-modernes-fh-addis-abeba-ethiopie-addis-abeba"
     },
     {
-      "id": 4276169,
-      "titre": "Professeur du Second Degré - Lettres Modernes - F/H - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "03/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4276169-professeur-du-second-degre-lettres-modernes-fh-tunis-tunisie-1001-tunis"
-    },
-    {
       "id": 4249035,
       "titre": "Professeur Lettres - F/H - PODGORICA - MONTENEGRO",
       "etab": "",
@@ -1687,14 +1676,14 @@
     },
     {
       "id": 4207739,
-      "titre": "Professeur du Second Degré - Mathématiques",
+      "titre": "Professeur du Second Degré Mathématiques F/H - ABIDJAN - COTE D'IVOIRE",
       "etab": "",
       "ville": "Abidjan",
-      "pays": "",
+      "pays": "Côte d'Ivoire",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "20/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4207739-professeur-du-second-degre-mathematiques-bp-157-abidjan"
+      "url": "https://talents.aefe.fr/fr/annonce/4207739-professeur-du-second-degre-mathematiques-fh-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
       "id": 4196309,
