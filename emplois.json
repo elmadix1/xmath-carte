@@ -1,10 +1,76 @@
 {
-  "updated": "2026-11-02 23:48",
-  "total": 166,
+  "updated": "2026-11-03 12:36",
+  "total": 168,
   "offers": [
     {
+      "id": 4675891,
+      "titre": "Professeur du Second Degré EPS F/H - ADDIS ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "03/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4675891-professeur-du-second-degre-eps-fh-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4675669,
+      "titre": "PROFESSEURS DES ECOLES - F/H - BAMAKO - MALI",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "Mali",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "03/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4675669-professeurs-des-ecoles-fh-bamako-mali-bamako"
+    },
+    {
+      "id": 4675533,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H - TOKYO - JAPON 2026 - 2027",
+      "etab": "",
+      "ville": "Tokyo",
+      "pays": "Japon",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "03/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4675533-professeur-du-second-degre-physique-chimie-fh-tokyo-japon-2026-2027-tokyo"
+    },
+    {
+      "id": 4675531,
+      "titre": "Assistant d'Éducation - F/H - TOKYO - JAPON - 2026 -2027",
+      "etab": "",
+      "ville": "Tokyo",
+      "pays": "Japon",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "03/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4675531-assistant-deducation-fh-tokyo-japon-2026-2027-tokyo"
+    },
+    {
+      "id": 4675529,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H - TOKYO - JAPON 2026-2027",
+      "etab": "",
+      "ville": "Tokyo",
+      "pays": "Japon",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "03/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4675529-professeur-du-second-degre-dhistoire-geographie-fh-tokyo-japon-2026-2027-tokyo"
+    },
+    {
+      "id": 4675523,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Taipei City",
+      "pays": "",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "03/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4675523-professeur-des-ecoles-fh-taipei-city"
+    },
+    {
       "id": 4675421,
-      "titre": "Enseignant spécialisé - F/H - NEW YORK - Etats-Unis",
+      "titre": "Enseignant spécialisé - F/H - NEW YORK - ETATS-UNIS",
       "etab": "",
       "ville": "New York",
       "pays": "États-Unis",
@@ -15,80 +81,80 @@
     },
     {
       "id": 4675419,
-      "titre": "Enseignants titulaires - Professeur de Physique-Chimie F/H - NEW YORK - USA",
+      "titre": "Professeur de Physique-Chimie F/H - Enseignants titulaires - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de physique chimie F/H",
       "date": "02/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4675419-enseignants-titulaires-professeur-de-physique-chimie-fh-new-york-usa-10021-new-york"
+      "url": "https://talents.aefe.fr/fr/annonce/4675419-professeur-de-physique-chimie-fh-enseignants-titulaires-new-york-usa-10021-new-york"
     },
     {
       "id": 4675403,
-      "titre": "Enseignants titulaires - Professeur lettres classiques F/H - NEW YORK - USA",
+      "titre": "Professeur lettres classiques F/H - Enseignant titulaire - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de lettres classiques F/H",
       "date": "02/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4675403-enseignants-titulaires-professeur-lettres-classiques-fh-new-york-usa-10021-new-york"
+      "url": "https://talents.aefe.fr/fr/annonce/4675403-professeur-lettres-classiques-fh-enseignant-titulaire-new-york-usa-10021-new-york"
     },
     {
       "id": 4675391,
-      "titre": "Enseignants titulaires - Professeur d'histoire-géographie F/H - NEW YORK - USA",
+      "titre": "Professeur d'histoire-géographie F/H - Enseignant titulaire - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "02/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4675391-enseignants-titulaires-professeur-dhistoire-geographie-fh-new-york-usa-10021-new-york"
+      "url": "https://talents.aefe.fr/fr/annonce/4675391-professeur-dhistoire-geographie-fh-enseignant-titulaire-new-york-usa-10021-new-york"
     },
     {
       "id": 4675387,
-      "titre": "Enseignants titulaires - Professeur d'EPS - F/H - NEW YORK - USA",
+      "titre": "Professeur d'EPS F/H - Enseignant titulaire - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "02/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4675387-enseignants-titulaires-professeur-deps-fh-new-york-usa-10021-new-york"
+      "url": "https://talents.aefe.fr/fr/annonce/4675387-professeur-deps-fh-enseignant-titulaire-new-york-usa-10021-new-york"
     },
     {
       "id": 4675383,
-      "titre": "Enseignants titulaires - Professeur de SVT - F/H - NEW YORK - USA",
+      "titre": "Professeur de SVT F/H - Enseignant titulaire - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "02/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4675383-enseignants-titulaires-professeur-de-svt-fh-new-york-usa-10021-new-york"
+      "url": "https://talents.aefe.fr/fr/annonce/4675383-professeur-de-svt-fh-enseignant-titulaire-new-york-usa-10021-new-york"
     },
     {
       "id": 4675291,
-      "titre": "Enseignants titulaires - Professeur lettres modernes F/H- NEW YORK -USA",
+      "titre": "Professeur lettres modernes F/H- Enseignant titulaire - NEW YORK -USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "02/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4675291-enseignants-titulaires-professeur-lettres-modernes-fh-new-york-usa-10021-new-york"
+      "url": "https://talents.aefe.fr/fr/annonce/4675291-professeur-lettres-modernes-fh-enseignant-titulaire-new-york-usa-10021-new-york"
     },
     {
       "id": 4675277,
-      "titre": "Enseignants titulaires - Professeur des écoles F/H - NEW YORK - USA",
+      "titre": "Professeur des écoles F/H - Enseignant titulaire - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "02/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4675277-enseignants-titulaires-professeur-des-ecoles-fh-new-york-usa-10021-new-york"
+      "url": "https://talents.aefe.fr/fr/annonce/4675277-professeur-des-ecoles-fh-enseignant-titulaire-new-york-usa-10021-new-york"
     },
     {
       "id": 4672931,
@@ -169,150 +235,150 @@
     },
     {
       "id": 4669447,
-      "titre": "Professeur du Second Degré - Sciences Economiques et Sociales F/H",
+      "titre": "Professeur du Second Degré SES F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4669447-professeur-du-second-degre-sciences-economiques-et-sociales-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4669447-professeur-du-second-degre-ses-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4669445,
-      "titre": "Professeur du Second Degré - Sciences Numériques et Technologie F/H",
+      "titre": "Professeur de Sciences Numériques et Technologie F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4669445-professeur-du-second-degre-sciences-numeriques-et-technologie-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4669445-professeur-de-sciences-numeriques-et-technologie-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4669443,
-      "titre": "Professeur du Second Degré - Philosophie F/H",
+      "titre": "Professeur du Second Degré Philosophie F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de philosophie F/H",
       "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4669443-professeur-du-second-degre-philosophie-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4669443-professeur-du-second-degre-philosophie-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4669441,
-      "titre": "Professeur Documentaliste F/H",
+      "titre": "Professeur Documentaliste F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur documentaliste F/H",
       "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4669441-professeur-documentaliste-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4669441-professeur-documentaliste-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4669429,
-      "titre": "Professeur du Second Degré - Langue Arabe -F/H",
+      "titre": "Professeur du Second Degré Langue Arabe F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4669429-professeur-du-second-degre-langue-arabe-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4669429-professeur-du-second-degre-langue-arabe-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4669427,
-      "titre": "Professeur du Second Degré - Langue espagnole -F/H",
+      "titre": "Professeur du Second Degré Langue espagnole F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4669427-professeur-du-second-degre-langue-espagnole-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4669427-professeur-du-second-degre-langue-espagnole-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4669421,
-      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "titre": "Professeur du Second Degré EPS (F/H) - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4669421-professeur-du-second-degre-education-physique-et-sportive-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4669421-professeur-du-second-degre-eps-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4668597,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "titre": "Professeur du Second Degré Mathématiques F/H - TIABAYA - PEROU",
       "etab": "",
       "ville": "Tiabaya",
-      "pays": "",
+      "pays": "Pérou",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "28/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4668597-professeur-du-second-degre-mathematiques-fh-tiabaya"
+      "url": "https://talents.aefe.fr/fr/annonce/4668597-professeur-du-second-degre-mathematiques-fh-tiabaya-perou-tiabaya"
     },
     {
       "id": 4667317,
-      "titre": "Professeur du Second Degré - Titulaire du MEN Français",
+      "titre": "Professeur du Second Degré F/H - Titulaire du MEN - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’espagnol F/H",
       "date": "28/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4667317-professeur-du-second-degre-titulaire-du-men-francais-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4667317-professeur-du-second-degre-fh-titulaire-du-men-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4667301,
-      "titre": "Professeur du Second Degré - Philosophie F/H",
+      "titre": "Professeur du Second Degré Philosophie F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de philosophie F/H",
       "date": "28/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4667301-professeur-du-second-degre-philosophie-fh-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4667301-professeur-du-second-degre-philosophie-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4667275,
-      "titre": "Professeur du Second Degré - Physique Chimie F/H - Titulaire du MEN Français",
+      "titre": "Professeur du Second Degré Physique Chimie F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de physique chimie F/H",
       "date": "28/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4667275-professeur-du-second-degre-physique-chimie-fh-titulaire-du-men-francais-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4667275-professeur-du-second-degre-physique-chimie-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4667227,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "28/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4667227-professeur-du-second-degre-lettres-modernes-fh-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4667227-professeur-du-second-degre-lettres-modernes-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4667191,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - RIYAD - ARABIE SAOUDITE",
       "etab": "",
       "ville": "Riyadh",
-      "pays": "",
+      "pays": "Arabie Saoudite",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "28/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4667191-professeur-des-ecoles-fh-13317-riyadh"
+      "url": "https://talents.aefe.fr/fr/annonce/4667191-professeur-des-ecoles-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
       "id": 4666499,
-      "titre": "Enseignant du Primaire (maternelle et élémentaire) F/H - PORTLAND USA",
+      "titre": "Enseignant du Primaire (maternelle et élémentaire) F/H - PORTLAND - USA",
       "etab": "",
       "ville": "Portland",
       "pays": "",
@@ -323,36 +389,36 @@
     },
     {
       "id": 4664795,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "titre": "Professeur du Second Degré d'histoire géographie F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "27/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4664795-professeur-du-second-degre-dhistoire-geographie-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4664795-professeur-du-second-degre-dhistoire-geographie-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4664785,
-      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "titre": "Professeur du Second Degré Physique Chimie F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de physique chimie F/H",
       "date": "27/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4664785-professeur-du-second-degre-physique-chimie-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4664785-professeur-du-second-degre-physique-chimie-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4664761,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "titre": "Professeur du Second Degré Mathématiques F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "27/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4664761-professeur-du-second-degre-mathematiques-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4664761-professeur-du-second-degre-mathematiques-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4663015,
@@ -488,14 +554,14 @@
     },
     {
       "id": 4655767,
-      "titre": "SUISSE - Berne - Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - BERNE - SUISSE",
       "etab": "",
       "ville": "Bern",
       "pays": "Suisse",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "01/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4655767-suisse-berne-professeur-des-ecoles-fh-3005-bern"
+      "url": "https://talents.aefe.fr/fr/annonce/4655767-professeur-des-ecoles-fh-berne-suisse-3005-bern"
     },
     {
       "id": 4654901,
@@ -641,37 +707,15 @@
       "url": "https://talents.aefe.fr/fr/annonce/4651901-professeur-danglais-primaire-et-secondaire-fh-kyoto-japon-kyoto"
     },
     {
-      "id": 4651377,
-      "titre": "Professeur de la langue Arabe F/H - Collège Saint Exupéry - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’arabe F/H",
-      "date": "16/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4651377-professeur-de-la-langue-arabe-fh-college-saint-exupery-rabat-maroc-rabat"
-    },
-    {
-      "id": 4651343,
-      "titre": "Professeur d'anglais vacataire F/H - Lycée Descartes - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "16/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4651343-professeur-danglais-vacataire-fh-lycee-descartes-rabat-maroc-rabat"
-    },
-    {
       "id": 4650983,
-      "titre": "Professeur Documentaliste F/H",
+      "titre": "Professeur Documentaliste F/H - NAIROBI - KENYA",
       "etab": "",
       "ville": "Nairobi",
-      "pays": "",
+      "pays": "Kenya",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur documentaliste F/H",
       "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4650983-professeur-documentaliste-fh-nairobi"
+      "url": "https://talents.aefe.fr/fr/annonce/4650983-professeur-documentaliste-fh-nairobi-kenya-nairobi"
     },
     {
       "id": 4650761,
@@ -1517,7 +1561,7 @@
       "pays": "Chine",
       "contrat": "Contrat temporaire",
       "discipline": "Psychologue scolaire F/H",
-      "date": "08/09/2026",
+      "date": "03/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4586295-psychologue-scolaire-fh-qingpu-chine-shanghai"
     },
     {
@@ -1585,17 +1629,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "04/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4583099-professeur-du-second-degre-physique-chimie-fh-pereira-colombie-pereira"
-    },
-    {
-      "id": 4581679,
-      "titre": "Responsable de maintenance thermique F/H - VALENCE - ESPAGNE",
-      "etab": "",
-      "ville": "Paterna",
-      "pays": "Espagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Chargé de maintenance et d’entretien F/H",
-      "date": "04/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4581679-responsable-de-maintenance-thermique-fh-valence-espagne-46980-paterna"
     },
     {
       "id": 4515063,
@@ -1739,17 +1772,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "29/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4102357,
-      "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4083445,
