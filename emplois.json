@@ -1,7 +1,40 @@
 {
-  "updated": "2026-11-03 12:36",
-  "total": 168,
+  "updated": "2026-11-03 22:12",
+  "total": 166,
   "offers": [
+    {
+      "id": 4677567,
+      "titre": "Rejoignez TFS pour l’année scolaire 2027-2028 !",
+      "etab": "",
+      "ville": "Toronto",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "03/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4677567-rejoignez-tfs-pour-l-annee-scolaire-2027-2028-m4n-1t7-toronto"
+    },
+    {
+      "id": 4676821,
+      "titre": "Professeur de lettres vacataire F/H - Collège Saint Exupéry - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "03/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4676821-professeur-de-lettres-vacataire-fh-college-saint-exupery-rabat-maroc-rabat"
+    },
+    {
+      "id": 4676513,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Kinshasa",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "03/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4676513-professeur-du-second-degre-dhistoire-geographie-fh-kinshasa"
+    },
     {
       "id": 4675891,
       "titre": "Professeur du Second Degré EPS F/H - ADDIS ABEBA - ETHIOPIE",
@@ -202,25 +235,25 @@
     },
     {
       "id": 4672867,
-      "titre": "Professeur du Second Degré - Lettres Modernes F/H",
+      "titre": "Professeur du Second Degré Lettres Modernes F/H - BUSAITEEN - BAHRAIN",
       "etab": "",
       "ville": "Busaiteen",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "professeur de lettres modernes F/H",
       "date": "01/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4672867-professeur-du-second-degre-lettres-modernes-fh-busaiteen"
+      "url": "https://talents.aefe.fr/fr/annonce/4672867-professeur-du-second-degre-lettres-modernes-fh-busaiteen-bahrain-busaiteen"
     },
     {
       "id": 4669469,
-      "titre": "Assistant d'Éducation - F/H - Casablanca",
+      "titre": "Assistant d'Éducation - F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Assistant d'éducation F/H",
       "date": "29/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4669469-assistant-deducation-fh-casablanca-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4669469-assistant-deducation-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4669455,
@@ -683,17 +716,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "19/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4653489-professeur-du-second-degre-lettres-modernes-fh-saly-senegal-saly"
-    },
-    {
-      "id": 4652101,
-      "titre": "Professeur des écoles - F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "19/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4652101-professeur-des-ecoles-fh-sfax-tunisie-3062-sfax"
     },
     {
       "id": 4651901,
@@ -1367,17 +1389,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4607169-enseignant-specialise-cappei-capa-sh-fh-lisbonne-portugal-1350-164-lisboa"
     },
     {
-      "id": 4607001,
-      "titre": "Proviseur - Chef d'établissement - H/F - CDI - VAUBAN - LUXEMBOURG",
-      "etab": "",
-      "ville": "Luxembourg",
-      "pays": "Luxembourg",
-      "contrat": "Contrat permanent",
-      "discipline": "Proviseur F/H",
-      "date": "19/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4607001-proviseur-chef-detablissement-hf-cdi-vauban-luxembourg-luxembourg"
-    },
-    {
       "id": 4605847,
       "titre": "Gestionnaire des Ressources Humaines F/H - BRAZZAVILLE - REPUBLIQUE DU CONGO",
       "etab": "",
@@ -1398,28 +1409,6 @@
       "discipline": "Orthophoniste scolaire F/H",
       "date": "17/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4602435-orthophoniste-scolaire-fh-phnom-penh-cambodge-phnom-penh"
-    },
-    {
-      "id": 4602391,
-      "titre": "TFS – Direction de l’École secondaire F/H - TORONTO - CANADA",
-      "etab": "",
-      "ville": "Toronto",
-      "pays": "Canada",
-      "contrat": "Contrat permanent",
-      "discipline": "Principal F/H",
-      "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4602391-tfs-direction-de-l-ecole-secondaire-fh-toronto-canada-m4n-1t7-toronto"
-    },
-    {
-      "id": 4601999,
-      "titre": "Professeur remplaçant d'arabe F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’arabe F/H",
-      "date": "16/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4601999-professeur-remplacant-darabe-fh-sfax-tunisie-3062-sfax"
     },
     {
       "id": 4600205,
@@ -1620,17 +1609,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4583767-professeur-du-second-degre-lettres-modernes-fh-houmt-souk-tunisie-4180-houmt-souk"
     },
     {
-      "id": 4583099,
-      "titre": "Professeur du Second Degré - Physique Chimie - F/H - PEREIRA - COLOMBIE",
-      "etab": "",
-      "ville": "Pereira",
-      "pays": "Colombie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "04/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4583099-professeur-du-second-degre-physique-chimie-fh-pereira-colombie-pereira"
-    },
-    {
       "id": 4515063,
       "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1662,17 +1640,6 @@
       "discipline": "Chargé du centre de documentation F/H",
       "date": "15/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4467827-conseiller-dorientation-fh-cotonou-benin-cotonou"
-    },
-    {
-      "id": 4443931,
-      "titre": "SENCO coordinateur besoins éducatifs particuliers - F/H - LONDRES - ROYAUME UNI",
-      "etab": "",
-      "ville": "England",
-      "pays": "Royaume-Uni",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant de service social F/H",
-      "date": "04/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4443931-senco-coordinateur-besoins-educatifs-particuliers-fh-londres-royaume-uni-greater-london"
     },
     {
       "id": 4399289,
@@ -1731,14 +1698,14 @@
     },
     {
       "id": 4249035,
-      "titre": "Professeur Lettres - F/H - PODGORICA - MONTENEGRO",
+      "titre": "Professeur de Lettres - F/H - PODGORICA - MONTENEGRO",
       "etab": "",
       "ville": "Podgorica",
       "pays": "Monténégro",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "30/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4249035-professeur-lettres-fh-podgorica-montenegro-podgorica"
+      "url": "https://talents.aefe.fr/fr/annonce/4249035-professeur-de-lettres-fh-podgorica-montenegro-podgorica"
     },
     {
       "id": 4207739,
@@ -1772,6 +1739,17 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "29/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4102357,
+      "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "03/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4083445,
