@@ -1,7 +1,40 @@
 {
-  "updated": "2026-11-04 22:23",
-  "total": 170,
+  "updated": "2026-11-05 12:56",
+  "total": 173,
   "offers": [
+    {
+      "id": 4680729,
+      "titre": "Professeur du Second Degré - Sciences Numériques et Technologie F/H",
+      "etab": "",
+      "ville": "Santa Tecla",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de technologie F/H",
+      "date": "05/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4680729-professeur-du-second-degre-sciences-numeriques-et-technologie-fh-santa-tecla"
+    },
+    {
+      "id": 4680231,
+      "titre": "Assistant d'éducation au service restauration F/H - MADRID - ESPAGNE",
+      "etab": "",
+      "ville": "Madrid",
+      "pays": "Espagne",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "05/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4680231-assistant-deducation-au-service-restauration-fh-madrid-espagne-28043-madrid"
+    },
+    {
+      "id": 4680045,
+      "titre": "Chargé.e de BCD - Lycée français international Victor Hugo-FRANCFORT-ALLEMAGNE",
+      "etab": "",
+      "ville": "Frankfurt am Main",
+      "pays": "Allemagne",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Chargé du centre de documentation F/H",
+      "date": "05/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4680045-charge-e-de-bcd-lycee-francais-international-victor-hugo-francfort-allemagne-60488-frankfurt-am-main"
+    },
     {
       "id": 4679773,
       "titre": "Professeur des écoles F/H",
