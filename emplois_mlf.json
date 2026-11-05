@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-05 12:56",
-  "total": 157,
+  "updated": "2026-11-05 22:31",
+  "total": 160,
   "source": "MLF Monde",
   "offers": [
     {
@@ -730,6 +730,34 @@
       "date_prise": "30/08/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3902_offre-emploi-lettres-modernes-susceptible-detre-vacant-3.html"
+    },
+    {
+      "id": 3914,
+      "titre": "Professeur des écoles",
+      "etab": "",
+      "ville": "Muanda",
+      "pays": "République Démocratique du Congo",
+      "contrat": "",
+      "discipline": "",
+      "date": "05/11/2026",
+      "date_limite": "01/12/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3914_offre-emploi-professeur-des-ecoles.html"
+    },
+    {
+      "id": 3913,
+      "titre": "Directeur d'école",
+      "etab": "",
+      "ville": "Muanda",
+      "pays": "République Démocratique du Congo",
+      "contrat": "",
+      "discipline": "",
+      "date": "05/11/2026",
+      "date_limite": "10/12/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3913_offre-emploi-directeur-decole.html"
     },
     {
       "id": 3841,
@@ -2018,6 +2046,20 @@
       "date_prise": "20/08/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3877_offre-emploi-professeure-de-mathematiques-au-lycee-theodore-monod-dabu-dhabi.html"
+    },
+    {
+      "id": 3910,
+      "titre": "professeur de SES",
+      "etab": "",
+      "ville": "Laayoune",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "02/11/2026",
+      "date_limite": "31/03/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3910_offre-emploi-professeur-de-ses.html"
     },
     {
       "id": 3762,

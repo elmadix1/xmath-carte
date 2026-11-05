@@ -1,17 +1,50 @@
 {
-  "updated": "2026-11-05 12:56",
-  "total": 173,
+  "updated": "2026-11-05 22:31",
+  "total": 170,
   "offers": [
     {
+      "id": 4681695,
+      "titre": "Professeur des écoles primaire - F/H - ENGLEWOOD - ETATS-UNIS",
+      "etab": "",
+      "ville": "Englewood",
+      "pays": "États-Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "05/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4681695-professeur-des-ecoles-primaire-fh-englewood-etats-unis-07631-englewood"
+    },
+    {
+      "id": 4681647,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "Zakia",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "05/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4681647-professeur-du-second-degre-dhistoire-geographie-fh-76269-zakia"
+    },
+    {
+      "id": 4681291,
+      "titre": "Directeur d’école primaire H/F – Dès le 01/01/2027 – CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Directeur du primaire F/H",
+      "date": "05/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4681291-directeur-d-ecole-primaire-hf-des-le-01012027-casablanca-maroc-casablanca"
+    },
+    {
       "id": 4680729,
-      "titre": "Professeur du Second Degré - Sciences Numériques et Technologie F/H",
+      "titre": "Professeur de Sciences Numériques et Technologie F/H - SANTA TECLA - EL SALVADOR",
       "etab": "",
       "ville": "Santa Tecla",
-      "pays": "",
+      "pays": "Salvador",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de technologie F/H",
       "date": "05/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4680729-professeur-du-second-degre-sciences-numeriques-et-technologie-fh-santa-tecla"
+      "url": "https://talents.aefe.fr/fr/annonce/4680729-professeur-de-sciences-numeriques-et-technologie-fh-santa-tecla-el-salvador-santa-tecla"
     },
     {
       "id": 4680231,
@@ -26,40 +59,40 @@
     },
     {
       "id": 4680045,
-      "titre": "Chargé.e de BCD - Lycée français international Victor Hugo-FRANCFORT-ALLEMAGNE",
+      "titre": "Chargé de BCD F/H - FRANCFORT - ALLEMAGNE",
       "etab": "",
       "ville": "Frankfurt am Main",
       "pays": "Allemagne",
       "contrat": "CDD sans terme fixe",
       "discipline": "Chargé du centre de documentation F/H",
       "date": "05/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4680045-charge-e-de-bcd-lycee-francais-international-victor-hugo-francfort-allemagne-60488-frankfurt-am-main"
+      "url": "https://talents.aefe.fr/fr/annonce/4680045-charge-de-bcd-fh-francfort-allemagne-60488-frankfurt-am-main"
     },
     {
       "id": 4679773,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - SANTA TECLA - EL SAVADOR",
       "etab": "",
       "ville": "Santa Tecla",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "04/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4679773-professeur-des-ecoles-fh-santa-tecla"
+      "url": "https://talents.aefe.fr/fr/annonce/4679773-professeur-des-ecoles-fh-santa-tecla-el-savador-santa-tecla"
     },
     {
       "id": 4679605,
-      "titre": "Professeur des écoles remplaçant H/F",
+      "titre": "Professeur des écoles remplaçant H/F - ABIDJAN - COTE D'IVOIRE",
       "etab": "",
       "ville": "Abidjan",
-      "pays": "",
+      "pays": "Côte d'Ivoire",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "04/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4679605-professeur-des-ecoles-remplacant-hf-bp-157-abidjan"
+      "url": "https://talents.aefe.fr/fr/annonce/4679605-professeur-des-ecoles-remplacant-hf-abidjan-cote-divoire-bp-157-abidjan"
     },
     {
       "id": 4679555,
-      "titre": "Professeur d'arabe F/H- Enseignant titulaire - NEW YORK -USA",
+      "titre": "Professeur d'arabe F/H - Enseignant titulaire - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
@@ -70,7 +103,7 @@
     },
     {
       "id": 4679471,
-      "titre": "Professeur d'italien F/H- Enseignant titulaire - NEW YORK -USA",
+      "titre": "Professeur d'italien F/H - Enseignant titulaire - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "Italie",
@@ -81,7 +114,7 @@
     },
     {
       "id": 4679449,
-      "titre": "Professeur d'espagnol F/H- Enseignant titulaire - NEW YORK -USA",
+      "titre": "Professeur d'espagnol F/H - Enseignant titulaire - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
@@ -92,7 +125,7 @@
     },
     {
       "id": 4679409,
-      "titre": "Professeur d'allemand F/H- Enseignant titulaire - NEW YORK -USA",
+      "titre": "Professeur d'allemand F/H - Enseignant titulaire - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
@@ -103,14 +136,14 @@
     },
     {
       "id": 4678847,
-      "titre": "Professeur de FLE à partir du 4 janvier 2027 à Vilnius au LIFV",
+      "titre": "Professeur de FLE F/H - à partir du 4 janvier 2027 - VILNIUS - LITUANIE",
       "etab": "",
       "ville": "Vilnius",
-      "pays": "",
+      "pays": "Lituanie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "04/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4678847-professeur-de-fle-a-partir-du-4-janvier-2027-a-vilnius-au-lifv-10317-vilnius"
+      "url": "https://talents.aefe.fr/fr/annonce/4678847-professeur-de-fle-fh-a-partir-du-4-janvier-2027-vilnius-lituanie-10317-vilnius"
     },
     {
       "id": 4678843,
@@ -125,7 +158,7 @@
     },
     {
       "id": 4678755,
-      "titre": "Enseignants titulaires - Professeur de mathématiques F/H- NEW YORK - USA",
+      "titre": "Enseignants titulaires - Professeur de mathématiques F/H - NEW YORK - USA",
       "etab": "",
       "ville": "New York",
       "pays": "",
@@ -136,25 +169,25 @@
     },
     {
       "id": 4678525,
-      "titre": "URGENT Professeur en HGGSP et en SES - DELHI - INDE prise de poste le 5/01/2027",
+      "titre": "URGENT Professeur en HGGSP et en SES - NEW DELHI - INDE",
       "etab": "",
       "ville": "New Delhi",
       "pays": "Inde",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "04/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4678525-urgent-professeur-en-hggsp-et-en-ses-delhi-inde-prise-de-poste-le-5012027-110011-new-delhi"
+      "url": "https://talents.aefe.fr/fr/annonce/4678525-urgent-professeur-en-hggsp-et-en-ses-new-delhi-inde-110011-new-delhi"
     },
     {
       "id": 4677763,
-      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "titre": "Professeur du Second Degré Education Physique et Sportive F/H - BRAZZAVILLE -RDC",
       "etab": "",
       "ville": "Brazzaville",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "04/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4677763-professeur-du-second-degre-education-physique-et-sportive-fh-brazzaville"
+      "url": "https://talents.aefe.fr/fr/annonce/4677763-professeur-du-second-degre-education-physique-et-sportive-fh-brazzaville-rdc-brazzaville"
     },
     {
       "id": 4677567,
@@ -642,14 +675,14 @@
     },
     {
       "id": 4659267,
-      "titre": "Professeur des écoles primaire - F/H - JERSEY CITY - ETATS-UNIS",
+      "titre": "Professeur du Secondaire - F/H - JERSEY CITY - ETATS-UNIS",
       "etab": "",
       "ville": "Jersey City",
       "pays": "États-Unis",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "22/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4659267-professeur-des-ecoles-primaire-fh-jersey-city-etats-unis-07302-jersey-city"
+      "url": "https://talents.aefe.fr/fr/annonce/4659267-professeur-du-secondaire-fh-jersey-city-etats-unis-07302-jersey-city"
     },
     {
       "id": 4659263,
@@ -738,17 +771,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "20/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4655779-professeur-du-second-degre-mathematiques-fh-berne-suisse-3005-bern"
-    },
-    {
-      "id": 4655767,
-      "titre": "Professeur des écoles F/H - BERNE - SUISSE",
-      "etab": "",
-      "ville": "Bern",
-      "pays": "Suisse",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "01/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4655767-professeur-des-ecoles-fh-berne-suisse-3005-bern"
     },
     {
       "id": 4654019,
@@ -1664,28 +1686,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4584623-asem-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
-      "id": 4583903,
-      "titre": "Professeur du Second Degré Physique Chimie F/H - HURGHADA - EGYPTE",
-      "etab": "",
-      "ville": "Hurghada",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "06/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4583903-professeur-du-second-degre-physique-chimie-fh-hurghada-egypte-hurghada"
-    },
-    {
-      "id": 4583901,
-      "titre": "Professeur du Second Degré Mathématiques F/H - HURGHADA - EGYPTE",
-      "etab": "",
-      "ville": "Hurghada",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "06/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4583901-professeur-du-second-degre-mathematiques-fh-hurghada-egypte-hurghada"
-    },
-    {
       "id": 4515063,
       "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1752,17 +1752,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4332017-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
-      "id": 4331837,
-      "titre": "Professeurs des écoles - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331837-professeurs-des-ecoles-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
       "id": 4331631,
       "titre": "Professeurs de Lettres modernes - F/H - ADDIS-ABEBA - ETHIOPIE",
       "etab": "",
@@ -1818,17 +1807,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
     },
     {
-      "id": 4102357,
-      "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "03/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
-    },
-    {
       "id": 4083445,
       "titre": "Professeur d'éducation musicale - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -1871,17 +1849,6 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "18/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 4020099,
-      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "28/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,
