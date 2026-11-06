@@ -1,7 +1,29 @@
 {
-  "updated": "2026-11-05 22:31",
-  "total": 170,
+  "updated": "2026-11-06 12:43",
+  "total": 168,
   "offers": [
+    {
+      "id": 4682617,
+      "titre": "Enseignant(e)s qualifié(e)s du 1er degré en CDD – Temps plein - F/H - LONDRES",
+      "etab": "",
+      "ville": "England",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur des écoles F/H",
+      "date": "06/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4682617-enseignantes-qualifiees-du-1er-degre-en-cdd-temps-plein-fh-londres-greater-london"
+    },
+    {
+      "id": 4682215,
+      "titre": "Infirmier/ère Scolaire - F/H - VARSOVIE - POLOGNE",
+      "etab": "",
+      "ville": "Warszawa",
+      "pays": "Pologne",
+      "contrat": "Contrat permanent",
+      "discipline": "Infirmier scolaire F/H",
+      "date": "06/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4682215-infirmierere-scolaire-fh-varsovie-pologne-03-916-warszawa"
+    },
     {
       "id": 4681695,
       "titre": "Professeur des écoles primaire - F/H - ENGLEWOOD - ETATS-UNIS",
@@ -15,14 +37,14 @@
     },
     {
       "id": 4681647,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "titre": "Professeur du Second Degré d'histoire géographie F/H - ZAKIA - MEXIQUE",
       "etab": "",
       "ville": "Zakia",
-      "pays": "",
+      "pays": "Mexique",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "05/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4681647-professeur-du-second-degre-dhistoire-geographie-fh-76269-zakia"
+      "url": "https://talents.aefe.fr/fr/annonce/4681647-professeur-du-second-degre-dhistoire-geographie-fh-zakia-mexique-76269-zakia"
     },
     {
       "id": 4681291,
@@ -705,17 +727,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "22/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4658501-professeur-de-lettres-fh-lycee-leon-lafricain-casablanca-maroc-20250-casablanca"
-    },
-    {
-      "id": 4658095,
-      "titre": "Chef d'établissement F/H - PODGORICA - MONTENEGRO",
-      "etab": "",
-      "ville": "Podgorica",
-      "pays": "Monténégro",
-      "contrat": "CDD sans terme fixe",
-      "discipline": "Directeur du primaire F/H",
-      "date": "22/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4658095-chef-detablissement-fh-podgorica-montenegro-podgorica"
     },
     {
       "id": 4656669,
@@ -1664,28 +1675,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4586295-psychologue-scolaire-fh-qingpu-chine-shanghai"
     },
     {
-      "id": 4584639,
-      "titre": "Référent du Pôle EBEP - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "07/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4584639-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4584623,
-      "titre": "ASEM - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Aide maternelle F/H",
-      "date": "07/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4584623-asem-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
       "id": 4515063,
       "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1750,17 +1739,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "24/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4332017-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4331631,
-      "titre": "Professeurs de Lettres modernes - F/H - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "07/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4331631-professeurs-de-lettres-modernes-fh-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4249035,
