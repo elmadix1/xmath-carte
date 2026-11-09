@@ -1,72 +1,94 @@
 {
-  "updated": "2026-11-08 20:58",
-  "total": 166,
+  "updated": "2026-11-09 13:35",
+  "total": 167,
   "offers": [
     {
+      "id": 4684547,
+      "titre": "Professeur d’HG, HGGSP, possible complément en Philosophie -F/H- EREVAN- ARMENIE",
+      "etab": "",
+      "ville": "Երևան",
+      "pays": "Arménie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "09/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4684547-professeur-d-hg-hggsp-possible-complement-en-philosophie-fh-erevan-armenie-0051-%D5%A5%D6%80%D5%A5%D6%82%D5%A1%D5%B6"
+    },
+    {
+      "id": 4684545,
+      "titre": "Professeur de Lettres et possible complément Philosophie -F/H - EREVAN - ARMENIE",
+      "etab": "",
+      "ville": "Երևան",
+      "pays": "Arménie",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "09/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4684545-professeur-de-lettres-et-possible-complement-philosophie-fh-erevan-armenie-0051-%D5%A5%D6%80%D5%A5%D6%82%D5%A1%D5%B6"
+    },
+    {
       "id": 4684437,
-      "titre": "Professeur du Second Degré Espagnol",
+      "titre": "Professeur du Second Degré Espagnol F/H - SALY - SENEGAL",
       "etab": "",
       "ville": "Saly",
-      "pays": "",
+      "pays": "Sénégal",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "08/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4684437-professeur-du-second-degre-espagnol-saly"
+      "url": "https://talents.aefe.fr/fr/annonce/4684437-professeur-du-second-degre-espagnol-fh-saly-senegal-saly"
     },
     {
       "id": 4684021,
-      "titre": "DIRECTEUR/TRICE DU SECONDAIRE",
+      "titre": "Directeur du secondaire F/H - BETHESDA - ETATS-UNIS",
       "etab": "",
       "ville": "Bethesda",
-      "pays": "",
+      "pays": "États-Unis",
       "contrat": "CDD sans terme fixe",
       "discipline": "Principal F/H",
       "date": "06/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4684021-directeurtrice-du-secondaire-20814-bethesda"
+      "url": "https://talents.aefe.fr/fr/annonce/4684021-directeur-du-secondaire-fh-bethesda-etats-unis-20814-bethesda"
     },
     {
       "id": 4683133,
-      "titre": "Professeur des écoles - H/F - Lycée Claude Gay, Osorno (Chili) - Rythme Sud",
+      "titre": "Professeur des écoles - H/F - Lycée Claude Gay - OSORNO - CHILI",
       "etab": "",
       "ville": "Osorno",
       "pays": "Chili",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "06/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4683133-professeur-des-ecoles-hf-lycee-claude-gay-osorno-chili-rythme-sud-osorno"
+      "url": "https://talents.aefe.fr/fr/annonce/4683133-professeur-des-ecoles-hf-lycee-claude-gay-osorno-chili-osorno"
     },
     {
       "id": 4682737,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - ENVIGADO - COLOMBIE",
       "etab": "",
       "ville": "Envigado",
-      "pays": "",
+      "pays": "Colombie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "06/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4682737-professeur-des-ecoles-fh-055427-envigado"
+      "url": "https://talents.aefe.fr/fr/annonce/4682737-professeur-des-ecoles-fh-envigado-colombie-055427-envigado"
     },
     {
       "id": 4682617,
-      "titre": "Enseignant(e)s qualifié(e)s du 1er degré en CDD – Temps plein - F/H - LONDRES",
+      "titre": "Enseignants qualifiés F/H - 1er degré - CDD Temps plein - LONDRES - ROYAUME-UNI",
       "etab": "",
       "ville": "England",
-      "pays": "",
+      "pays": "Royaume-Uni",
       "contrat": "CDD terme fixe",
       "discipline": "Professeur des écoles F/H",
       "date": "06/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4682617-enseignantes-qualifiees-du-1er-degre-en-cdd-temps-plein-fh-londres-greater-london"
+      "url": "https://talents.aefe.fr/fr/annonce/4682617-enseignants-qualifies-fh-1er-degre-cdd-temps-plein-londres-royaume-uni-greater-london"
     },
     {
       "id": 4682215,
-      "titre": "Infirmier/ère Scolaire - F/H - VARSOVIE - POLOGNE",
+      "titre": "Infirmier Scolaire - F/H - VARSOVIE - POLOGNE",
       "etab": "",
       "ville": "Warszawa",
       "pays": "Pologne",
       "contrat": "Contrat permanent",
       "discipline": "Infirmier scolaire F/H",
       "date": "06/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4682215-infirmierere-scolaire-fh-varsovie-pologne-03-916-warszawa"
+      "url": "https://talents.aefe.fr/fr/annonce/4682215-infirmier-scolaire-fh-varsovie-pologne-03-916-warszawa"
     },
     {
       "id": 4681695,
@@ -312,14 +334,14 @@
     },
     {
       "id": 4675533,
-      "titre": "Professeur du Second Degré Physique Chimie F/H - TOKYO - JAPON",
+      "titre": "Professeur Physique Chimie F/H - TOKYO - JAPON (janvier 2027-juillet 2027)",
       "etab": "",
       "ville": "Tokyo",
       "pays": "Japon",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de physique chimie F/H",
       "date": "03/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4675533-professeur-du-second-degre-physique-chimie-fh-tokyo-japon-tokyo"
+      "url": "https://talents.aefe.fr/fr/annonce/4675533-professeur-physique-chimie-fh-tokyo-japon-janvier-2027-juillet-2027-tokyo"
     },
     {
       "id": 4675531,
@@ -571,7 +593,7 @@
       "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
-      "date": "29/10/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4669429-professeur-du-second-degre-langue-arabe-fh-casablanca-maroc-casablanca"
     },
     {
@@ -1279,17 +1301,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4631311-professeur-documentaliste-fh-tunis-tunisie-2037-tunis"
     },
     {
-      "id": 4631043,
-      "titre": "Professeur des écoles F/H - NOUAKCHOTT - MAURITANIE",
-      "etab": "",
-      "ville": "Nouakchott",
-      "pays": "Mauritanie",
-      "contrat": "CDD sans terme fixe",
-      "discipline": "Professeur des écoles F/H",
-      "date": "05/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4631043-professeur-des-ecoles-fh-nouakchott-mauritanie-nouakchott"
-    },
-    {
       "id": 4630975,
       "titre": "Professeur des écoles - F/H - TUNIS - TUNISIE",
       "etab": "",
@@ -1431,17 +1442,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "24/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4615527-professeur-des-ecoles-fh-zakia-mexique-76269-zakia"
-    },
-    {
-      "id": 4613853,
-      "titre": "Professeur d'anglais SIA Littérature F/H - HANOI - VIETNAM",
-      "etab": "",
-      "ville": "Hà Nội",
-      "pays": "Vietnam",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d’anglais américain F/H",
-      "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4613853-professeur-danglais-sia-litterature-fh-hanoi-vietnam-100000-ha-noi"
     },
     {
       "id": 4613155,
@@ -1631,17 +1631,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4592927-conseiller-principal-deducation-hf-tunis-tunisie-2037-tunis"
     },
     {
-      "id": 4590897,
-      "titre": "Professeur d'Espagnol remplaçant F/H - ALEXANDRIE - EGYPTE",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "10/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4590897-professeur-despagnol-remplacant-fh-alexandrie-egypte-alexandria"
-    },
-    {
       "id": 4586295,
       "titre": "Psychologue Scolaire F/H - QINGPU - CHINE",
       "etab": "",
@@ -1651,6 +1640,17 @@
       "discipline": "Psychologue scolaire F/H",
       "date": "03/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4586295-psychologue-scolaire-fh-qingpu-chine-shanghai"
+    },
+    {
+      "id": 4584639,
+      "titre": "Référent du Pôle EBEP - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "09/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4584639-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4515063,
@@ -1761,6 +1761,17 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "29/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4102357,
+      "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "09/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4083445,
