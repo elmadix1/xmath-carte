@@ -1,7 +1,128 @@
 {
-  "updated": "2026-11-10 13:14",
-  "total": 167,
+  "updated": "2026-11-10 22:09",
+  "total": 178,
   "offers": [
+    {
+      "id": 4688549,
+      "titre": "Assistant administratif et pédagogique (H/F)",
+      "etab": "",
+      "ville": "Lomé",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Secrétaire / assistant F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688549-assistant-administratif-et-pedagogique-hf-lome"
+    },
+    {
+      "id": 4688537,
+      "titre": "Professeur du Second Degré - Histoire Géographie F/H - WASHINGTON - ETATS UNIS",
+      "etab": "",
+      "ville": "Bethesda",
+      "pays": "États-Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688537-professeur-du-second-degre-histoire-geographie-fh-washington-etats-unis-20814-bethesda"
+    },
+    {
+      "id": 4688531,
+      "titre": "Professeur des écoles - F/H - WASHINGTON D.C. (BESTHESDA) - ETATS UNIS",
+      "etab": "",
+      "ville": "Bethesda",
+      "pays": "États-Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688531-professeur-des-ecoles-fh-washington-d-c-besthesda-etats-unis-20814-bethesda"
+    },
+    {
+      "id": 4688343,
+      "titre": "Enseignant(e) spécialisé(e) - Primaire | San Francisco |",
+      "etab": "",
+      "ville": "San Francisco",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688343-enseignante-specialisee-primaire-san-francisco-94122-san-francisco"
+    },
+    {
+      "id": 4688307,
+      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "etab": "",
+      "ville": "San Francisco",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688307-professeur-du-second-degre-education-physique-et-sportive-fh-94122-san-francisco"
+    },
+    {
+      "id": 4688281,
+      "titre": "Conseiller Principal d'Éducation - F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688281-conseiller-principal-deducation-fh-tunis-tunisie-1002-tunis"
+    },
+    {
+      "id": 4688277,
+      "titre": "Professeur des écoles F/H - San Francisco - USA",
+      "etab": "",
+      "ville": "San Francisco",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688277-professeur-des-ecoles-fh-san-francisco-usa-94122-san-francisco"
+    },
+    {
+      "id": 4688205,
+      "titre": "Professeur de lettres Collège et Lycée",
+      "etab": "",
+      "ville": "Bethesda",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688205-professeur-de-lettres-college-et-lycee-20814-bethesda"
+    },
+    {
+      "id": 4688175,
+      "titre": "Professeur d'education physique et sportive",
+      "etab": "",
+      "ville": "Bethesda",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688175-professeur-deducation-physique-et-sportive-20814-bethesda"
+    },
+    {
+      "id": 4688137,
+      "titre": "Enseignant de sciences physique et chimie",
+      "etab": "",
+      "ville": "Bethesda",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688137-enseignant-de-sciences-physique-et-chimie-20814-bethesda"
+    },
+    {
+      "id": 4687817,
+      "titre": "Professeur de mandarin F/H - Enseignant titulaire - NEW YORK - USA",
+      "etab": "",
+      "ville": "New York",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mandarin F/H",
+      "date": "10/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4687817-professeur-de-mandarin-fh-enseignant-titulaire-new-york-usa-10021-new-york"
+    },
     {
       "id": 4685981,
       "titre": "Professeur du Second Degré F/H - HURGHADA - EGYPTE",
@@ -37,7 +158,7 @@
     },
     {
       "id": 4684545,
-      "titre": "Professeur de Lettres et possible complément Philosophie -F/H - EREVAN - ARMENIE",
+      "titre": "Professeur de Lettres et possible complément Philosophie F/H - EREVAN - ARMENIE",
       "etab": "",
       "ville": "Երևան",
       "pays": "Arménie",

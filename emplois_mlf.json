@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-10 13:14",
-  "total": 160,
+  "updated": "2026-11-10 22:09",
+  "total": 161,
   "source": "MLF Monde",
   "offers": [
     {
@@ -1612,6 +1612,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3888_offre-emploi-proviseure-au-lycee-francais-international-elite-de-beyrouth.html"
+    },
+    {
+      "id": 3915,
+      "titre": "Professeur d'Histoire-géographie",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "10/11/2026",
+      "date_limite": "31/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3915_offre-emploi-professeur-dhistoiregeographie.html"
     },
     {
       "id": 3765,
