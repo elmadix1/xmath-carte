@@ -1,7 +1,29 @@
 {
-  "updated": "2026-11-09 13:35",
-  "total": 167,
+  "updated": "2026-11-10 00:33",
+  "total": 169,
   "offers": [
+    {
+      "id": 4685981,
+      "titre": "Professeur du Second Degré",
+      "etab": "",
+      "ville": "Hurghada",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "09/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4685981-professeur-du-second-degre-hurghada"
+    },
+    {
+      "id": 4685973,
+      "titre": "Professeur des écoles F/H",
+      "etab": "",
+      "ville": "Hurghada",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "09/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4685973-professeur-des-ecoles-fh-hurghada"
+    },
     {
       "id": 4684547,
       "titre": "Professeur d’HG, HGGSP, possible complément en Philosophie -F/H- EREVAN- ARMENIE",
@@ -525,7 +547,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Assistant d'éducation F/H",
       "date": "29/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4669469-assistant-deducation-fh-casablanca-maroc-casablanca"
@@ -547,7 +569,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur Sciences économiques et sociales F/H",
       "date": "29/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4669447-professeur-du-second-degre-ses-fh-casablanca-maroc-casablanca"
@@ -558,7 +580,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur de Sciences Numériques et Technologie F/H",
       "date": "29/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4669445-professeur-de-sciences-numeriques-et-technologie-fh-casablanca-maroc-casablanca"
@@ -569,7 +591,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur de philosophie F/H",
       "date": "29/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4669443-professeur-du-second-degre-philosophie-fh-casablanca-maroc-casablanca"
@@ -580,7 +602,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur documentaliste F/H",
       "date": "29/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4669441-professeur-documentaliste-fh-casablanca-maroc-casablanca"
@@ -591,9 +613,9 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur du second degré F/H",
-      "date": "",
+      "date": "29/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4669429-professeur-du-second-degre-langue-arabe-fh-casablanca-maroc-casablanca"
     },
     {
@@ -602,7 +624,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur du second degré F/H",
       "date": "29/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4669427-professeur-du-second-degre-langue-espagnole-fh-casablanca-maroc-casablanca"
@@ -613,7 +635,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "29/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4669421-professeur-du-second-degre-eps-fh-casablanca-maroc-casablanca"
@@ -701,7 +723,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "27/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4664795-professeur-du-second-degre-dhistoire-geographie-fh-casablanca-maroc-casablanca"
@@ -712,7 +734,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur de physique chimie F/H",
       "date": "27/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4664785-professeur-du-second-degre-physique-chimie-fh-casablanca-maroc-casablanca"
@@ -723,7 +745,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur de mathématiques F/H",
       "date": "27/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4664761-professeur-du-second-degre-mathematiques-fh-casablanca-maroc-casablanca"
@@ -848,6 +870,17 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "20/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4655779-professeur-du-second-degre-mathematiques-fh-berne-suisse-3005-bern"
+    },
+    {
+      "id": 4655767,
+      "titre": "Professeur des écoles F/H - BERNE - SUISSE",
+      "etab": "",
+      "ville": "Bern",
+      "pays": "Suisse",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "09/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4655767-professeur-des-ecoles-fh-berne-suisse-3005-bern"
     },
     {
       "id": 4653887,
@@ -1125,17 +1158,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4642761-assistantsecretaire-hf-du-comite-de-gestion-du-lgm-addis-abeba-ethiopie-addis-abeba"
     },
     {
-      "id": 4642683,
-      "titre": "Professeur d'Art Plastique - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’arts plastiques F/H",
-      "date": "12/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4642683-professeur-dart-plastique-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
       "id": 4642261,
       "titre": "Professeur du Second Degré EPS - F/H - DUBAI - EMIRATS ARABES UNIS",
       "etab": "",
@@ -1170,14 +1192,14 @@
     },
     {
       "id": 4640367,
-      "titre": "Professeur des écoles (F/H) - KONAKRY - GUINEE",
+      "titre": "Professeur des écoles (F/H) - CONAKRY - GUINEE",
       "etab": "",
       "ville": "Conakry",
       "pays": "Guinée",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "09/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4640367-professeur-des-ecoles-fh-konakry-guinee-conakry"
+      "url": "https://talents.aefe.fr/fr/annonce/4640367-professeur-des-ecoles-fh-conakry-guinee-conakry"
     },
     {
       "id": 4640055,
@@ -1196,7 +1218,7 @@
       "etab": "",
       "ville": "Casablanca",
       "pays": "Maroc",
-      "contrat": "Contrat temporaire",
+      "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "08/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4638241-professeur-des-ecoles-fh-casablanca-maroc-casablanca"
@@ -1620,17 +1642,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4594375-professeur-documentaliste-fh-tunis-tunisie-1001-tunis"
     },
     {
-      "id": 4592927,
-      "titre": "Conseiller Principal d'Education H/F - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "10/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4592927-conseiller-principal-deducation-hf-tunis-tunisie-2037-tunis"
-    },
-    {
       "id": 4586295,
       "titre": "Psychologue Scolaire F/H - QINGPU - CHINE",
       "etab": "",
@@ -1717,6 +1728,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "24/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4332017-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4331631,
+      "titre": "Professeurs de Lettres modernes - F/H - ADDIS-ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "09/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4331631-professeurs-de-lettres-modernes-fh-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4249035,
