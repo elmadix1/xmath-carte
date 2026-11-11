@@ -1,7 +1,18 @@
 {
-  "updated": "2026-11-11 12:22",
+  "updated": "2026-11-11 23:17",
   "total": 184,
   "offers": [
+    {
+      "id": 4688745,
+      "titre": "Professeur d'histoire et de géographie en anglais - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "11/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688745-professeur-dhistoire-et-de-geographie-en-anglais-fh-munich-allemagne-81373-munchen"
+    },
     {
       "id": 4688701,
       "titre": "Professeur des écoles - F/H - écoles Al Jabr Dar Bouazza",
@@ -1266,17 +1277,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "15/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4647583-professeur-de-mathematiques-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4647069,
-      "titre": "Responsable administratif et financier F/H - LAS TERRENAS - REP. DOMINICAINE",
-      "etab": "",
-      "ville": "Las Terrenas",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Directeur Administratif et Financier F/H",
-      "date": "14/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4647069-responsable-administratif-et-financier-fh-las-terrenas-rep-dominicaine-32000-las-terrenas"
     },
     {
       "id": 4646063,
