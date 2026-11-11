@@ -1,7 +1,62 @@
 {
-  "updated": "2026-11-10 22:09",
-  "total": 178,
+  "updated": "2026-11-11 12:22",
+  "total": 184,
   "offers": [
+    {
+      "id": 4688701,
+      "titre": "Professeur des écoles - F/H - écoles Al Jabr Dar Bouazza",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "11/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688701-professeur-des-ecoles-fh-ecoles-al-jabr-dar-bouazza-casablanca"
+    },
+    {
+      "id": 4688697,
+      "titre": "Professeur Second Degré d'histoire géographie - F/H - CASABLANCA - MAROC",
+      "etab": "",
+      "ville": "Casablanca",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "11/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688697-professeur-second-degre-dhistoire-geographie-fh-casablanca-maroc-casablanca"
+    },
+    {
+      "id": 4688685,
+      "titre": "Infirmier scolaire - F/H - Lycée Français de Prague - PRAGUE - TCHÉQUIE",
+      "etab": "",
+      "ville": "Hlavní město Praha",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Infirmier scolaire F/H",
+      "date": "11/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688685-infirmier-scolaire-fh-lycee-francais-de-prague-prague-tchequie-hlavni-mesto-praha"
+    },
+    {
+      "id": 4688661,
+      "titre": "Professeur du Second Degré d'histoire géographie - F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "11/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688661-professeur-du-second-degre-dhistoire-geographie-fh-tunis-tunisie-tunis"
+    },
+    {
+      "id": 4688647,
+      "titre": "Professeur de Mathématiques (H/F) 2026/2027 au lycée Descartes - Rabat - Maroc",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "11/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4688647-professeur-de-mathematiques-hf-20262027-au-lycee-descartes-rabat-maroc-rabat"
+    },
     {
       "id": 4688549,
       "titre": "Assistant administratif et pédagogique (H/F)",
@@ -1796,17 +1851,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4467827-conseiller-dorientation-fh-cotonou-benin-cotonou"
     },
     {
-      "id": 4399289,
-      "titre": "Secrétaire général adjoint F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Secrétaire / assistant F/H",
-      "date": "26/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4399289-secretaire-general-adjoint-fh-munich-allemagne-81373-munchen"
-    },
-    {
       "id": 4396003,
       "titre": "Professeur Documentaliste - F/H - RIO DE JANEIRO - BRESIL",
       "etab": "",
@@ -1884,6 +1928,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
     },
     {
+      "id": 4136021,
+      "titre": "Professeur des écoles F/H - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "11/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4136021-professeur-des-ecoles-fh-rabat-maroc-rabat"
+    },
+    {
       "id": 4102357,
       "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
       "etab": "",
@@ -1935,8 +1990,19 @@
       "pays": "Allemagne",
       "contrat": "Contrat temporaire",
       "discipline": "Agent du périscolaire F/H",
-      "date": "18/09/2026",
+      "date": "11/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
+    },
+    {
+      "id": 4020099,
+      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "11/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,
