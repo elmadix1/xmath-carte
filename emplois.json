@@ -1,7 +1,29 @@
 {
-  "updated": "2026-11-11 23:17",
+  "updated": "2026-11-12 13:32",
   "total": 184,
   "offers": [
+    {
+      "id": 4689123,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Kinshasa",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "12/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4689123-professeur-du-second-degre-mathematiques-fh-kinshasa"
+    },
+    {
+      "id": 4689053,
+      "titre": "Professeur du Second Degré Allemand",
+      "etab": "",
+      "ville": "Hà Nội",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur du second degré F/H",
+      "date": "12/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4689053-professeur-du-second-degre-allemand-100000-ha-noi"
+    },
     {
       "id": 4688745,
       "titre": "Professeur d'histoire et de géographie en anglais - F/H - MUNICH - ALLEMAGNE",
@@ -1301,17 +1323,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4646027-charge-de-comptabilite-generale-fh-agence-comptable-ert-tunis-tunisie-1082-tunis"
     },
     {
-      "id": 4645649,
-      "titre": "Conseiller Principal d'Éducation F/H - CONAKRY - GUINEE",
-      "etab": "",
-      "ville": "Conakry",
-      "pays": "Guinée",
-      "contrat": "Contrat temporaire",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "14/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4645649-conseiller-principal-deducation-fh-conakry-guinee-conakry"
-    },
-    {
       "id": 4642761,
       "titre": "Assistant/secretaire (H/F) du comité de gestion du LGM - ADDIS-ABEBA - ETHIOPIE",
       "etab": "",
@@ -1387,17 +1398,6 @@
       "discipline": "Professeur des écoles F/H",
       "date": "08/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4638241-professeur-des-ecoles-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4637121,
-      "titre": "Chargée des encaissements F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "CDD terme fixe",
-      "discipline": "Comptable F/H",
-      "date": "08/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4637121-chargee-des-encaissements-fh-rabat-maroc-rabat"
     },
     {
       "id": 4635581,

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11 23:18",
+  "updated": "2026-11-12 13:32",
   "total": 161,
   "source": "MLF Monde",
   "offers": [
@@ -86,34 +86,6 @@
       "date_prise": "02/10/2026",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3790_offre-emploi-professeures-des-ecoles.html"
-    },
-    {
-      "id": 3743,
-      "titre": "Proviseur(e) Adjoint(e)",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "",
-      "discipline": "",
-      "date": "02/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3743_offre-emploi-proviseure-adjointe.html"
-    },
-    {
-      "id": 3744,
-      "titre": "Directeur(trice) d'école élémentaire",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "",
-      "discipline": "",
-      "date": "02/09/2026",
-      "date_limite": "11/11/2026",
-      "date_prise": "01/09/2027",
-      "source": "MLF",
-      "url": "https://recrutement.mlfmonde.org/3744_offre-emploi-directeurtrice-decole-elementaire.html"
     },
     {
       "id": 3745,
@@ -338,6 +310,34 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3830_offre-emploi-1-directreurtrice-lycee-international-balzac-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3743,
+      "titre": "Proviseur(e) Adjoint(e)",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "02/09/2026",
+      "date_limite": "20/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3743_offre-emploi-proviseure-adjointe.html"
+    },
+    {
+      "id": 3744,
+      "titre": "Directeur(trice) d'école élémentaire",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "contrat": "",
+      "discipline": "",
+      "date": "02/09/2026",
+      "date_limite": "20/11/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3744_offre-emploi-directeurtrice-decole-elementaire.html"
     },
     {
       "id": 3769,
