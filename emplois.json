@@ -1,7 +1,40 @@
 {
-  "updated": "2026-11-12 13:32",
-  "total": 184,
+  "updated": "2026-11-12 22:34",
+  "total": 187,
   "offers": [
+    {
+      "id": 4691153,
+      "titre": "Professeur du Second Degré - Lettres Modernes F/H - VIÑA DEL MAR - CHILI",
+      "etab": "",
+      "ville": "Viña del Mar",
+      "pays": "Chili",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "12/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4691153-professeur-du-second-degre-lettres-modernes-fh-vina-del-mar-chili-vina-del-mar"
+    },
+    {
+      "id": 4691117,
+      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "etab": "",
+      "ville": "San Francisco",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "12/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4691117-professeur-du-second-degre-dhistoire-geographie-fh-94122-san-francisco"
+    },
+    {
+      "id": 4690465,
+      "titre": "CPE/Conseiller d'Orientation Psychologue- F/H - BAMAKO - MALI",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "Mali",
+      "contrat": "CDD terme fixe",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "12/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4690465-cpeconseiller-dorientation-psychologue-fh-bamako-mali-bamako"
+    },
     {
       "id": 4689123,
       "titre": "Professeur du Second Degré - Mathématiques F/H",
