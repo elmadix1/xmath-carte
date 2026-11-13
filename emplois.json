@@ -1,7 +1,18 @@
 {
-  "updated": "2026-11-12 22:34",
-  "total": 187,
+  "updated": "2026-11-13 12:49",
+  "total": 192,
   "offers": [
+    {
+      "id": 4691211,
+      "titre": "SECRETAIRE ADMINISTRATIF ET SCOLAIRE (H/F) - EGD - SOUSSE - TUNISIE",
+      "etab": "",
+      "ville": "Sousse",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Secrétaire / assistant F/H",
+      "date": "13/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4691211-secretaire-administratif-et-scolaire-hf-egd-sousse-tunisie-sousse"
+    },
     {
       "id": 4691153,
       "titre": "Professeur du Second Degré - Lettres Modernes F/H - VIÑA DEL MAR - CHILI",
@@ -408,6 +419,17 @@
       "discipline": "Assistant d'éducation F/H",
       "date": "05/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4680231-assistant-deducation-au-service-restauration-fh-madrid-espagne-28043-madrid"
+    },
+    {
+      "id": 4680045,
+      "titre": "Chargé de BCD F/H - FRANCFORT - ALLEMAGNE",
+      "etab": "",
+      "ville": "Frankfurt am Main",
+      "pays": "Allemagne",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Chargé du centre de documentation F/H",
+      "date": "13/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4680045-charge-de-bcd-fh-francfort-allemagne-60488-frankfurt-am-main"
     },
     {
       "id": 4679773,
@@ -1114,6 +1136,39 @@
       "url": "https://talents.aefe.fr/fr/annonce/4655767-professeur-des-ecoles-fh-berne-suisse-3005-bern"
     },
     {
+      "id": 4654655,
+      "titre": "Professeur de Lycée - Lettres F/H - Ile Maurice",
+      "etab": "",
+      "ville": "Moka",
+      "pays": "Île Maurice",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "13/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4654655-professeur-de-lycee-lettres-fh-ile-maurice-moka"
+    },
+    {
+      "id": 4654433,
+      "titre": "Professeur de Lycée - Espagnol F/H - Ile Maurice",
+      "etab": "",
+      "ville": "Moka",
+      "pays": "Île Maurice",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "13/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4654433-professeur-de-lycee-espagnol-fh-ile-maurice-moka"
+    },
+    {
+      "id": 4654145,
+      "titre": "Professeur de Lycée-Mathématiques/Numérique Sciences Informatiques(NSI) F/H-MUS",
+      "etab": "",
+      "ville": "Moka",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "13/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4654145-professeur-de-lycee-mathematiquesnumerique-sciences-informatiquesnsi-fh-mus-moka"
+    },
+    {
       "id": 4653887,
       "titre": "Professeur du Second Degré Mathématiques F/H - HOUMT SOUK - TUNISIE",
       "etab": "",
@@ -1781,7 +1836,7 @@
       "pays": "Cambodge",
       "contrat": "CDD terme fixe",
       "discipline": "Orthophoniste scolaire F/H",
-      "date": "17/09/2026",
+      "date": "13/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4602435-orthophoniste-scolaire-fh-phnom-penh-cambodge-phnom-penh"
     },
     {
