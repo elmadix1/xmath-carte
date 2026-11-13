@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13 12:49",
-  "total": 161,
+  "updated": "2026-11-13 22:23",
+  "total": 163,
   "source": "MLF Monde",
   "offers": [
     {
@@ -1626,6 +1626,34 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3915_offre-emploi-professeur-dhistoiregeographie.html"
+    },
+    {
+      "id": 3917,
+      "titre": "Professeur de français - poste susceptible d'être vacant",
+      "etab": "",
+      "ville": "Moanda",
+      "pays": "Gabon",
+      "contrat": "",
+      "discipline": "",
+      "date": "12/11/2026",
+      "date_limite": "31/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3917_offre-emploi-professeur-de-francais-poste-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3918,
+      "titre": "Poste de CPE - susceptible d'être vacant",
+      "etab": "",
+      "ville": "Moanda",
+      "pays": "Gabon",
+      "contrat": "",
+      "discipline": "",
+      "date": "13/11/2026",
+      "date_limite": "31/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3918_offre-emploi-poste-de-cpe-susceptible-detre-vacant.html"
     },
     {
       "id": 3765,

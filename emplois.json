@@ -1,17 +1,39 @@
 {
-  "updated": "2026-11-13 12:49",
-  "total": 192,
+  "updated": "2026-11-13 22:23",
+  "total": 189,
   "offers": [
     {
+      "id": 4692599,
+      "titre": "Professeur des écoles F/H - AREQUIPA - PEROU",
+      "etab": "",
+      "ville": "Tiabaya",
+      "pays": "Pérou",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "13/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4692599-professeur-des-ecoles-fh-arequipa-perou-tiabaya"
+    },
+    {
+      "id": 4692253,
+      "titre": "Professeur d’Histoire Géographie-EMC - F/H - MILAN - ITALIE",
+      "etab": "",
+      "ville": "Milano",
+      "pays": "Italie",
+      "contrat": "CDD terme fixe",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "13/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4692253-professeur-d-histoire-geographie-emc-fh-milan-italie-20148-milano"
+    },
+    {
       "id": 4691211,
-      "titre": "SECRETAIRE ADMINISTRATIF ET SCOLAIRE (H/F) - EGD - SOUSSE - TUNISIE",
+      "titre": "Secrétaire administratif et scolaire F/H - EGD - SOUSSE - TUNISIE",
       "etab": "",
       "ville": "Sousse",
       "pays": "Tunisie",
       "contrat": "Contrat temporaire",
       "discipline": "Secrétaire / assistant F/H",
       "date": "13/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4691211-secretaire-administratif-et-scolaire-hf-egd-sousse-tunisie-sousse"
+      "url": "https://talents.aefe.fr/fr/annonce/4691211-secretaire-administratif-et-scolaire-fh-egd-sousse-tunisie-sousse"
     },
     {
       "id": 4691153,
@@ -26,18 +48,18 @@
     },
     {
       "id": 4691117,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H",
+      "titre": "Professeur du Second Degré d'histoire géographie F/H - SAN FRANCISCO - USA",
       "etab": "",
       "ville": "San Francisco",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "12/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4691117-professeur-du-second-degre-dhistoire-geographie-fh-94122-san-francisco"
+      "url": "https://talents.aefe.fr/fr/annonce/4691117-professeur-du-second-degre-dhistoire-geographie-fh-san-francisco-usa-94122-san-francisco"
     },
     {
       "id": 4690465,
-      "titre": "CPE/Conseiller d'Orientation Psychologue- F/H - BAMAKO - MALI",
+      "titre": "CPE/Conseiller d'Orientation Psychologue F/H - BAMAKO - MALI",
       "etab": "",
       "ville": "Bamako",
       "pays": "Mali",
@@ -48,25 +70,25 @@
     },
     {
       "id": 4689123,
-      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "titre": "Professeur du Second Degré - Mathématiques F/H - KINSHASA - RDC",
       "etab": "",
       "ville": "Kinshasa",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "12/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4689123-professeur-du-second-degre-mathematiques-fh-kinshasa"
+      "url": "https://talents.aefe.fr/fr/annonce/4689123-professeur-du-second-degre-mathematiques-fh-kinshasa-rdc-kinshasa"
     },
     {
       "id": 4689053,
-      "titre": "Professeur du Second Degré Allemand",
+      "titre": "Professeur du Second Degré Allemand F/H - HANOI - VIETNAM",
       "etab": "",
       "ville": "Hà Nội",
-      "pays": "",
+      "pays": "Vietnam",
       "contrat": "CDD terme fixe",
       "discipline": "Professeur du second degré F/H",
       "date": "12/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4689053-professeur-du-second-degre-allemand-100000-ha-noi"
+      "url": "https://talents.aefe.fr/fr/annonce/4689053-professeur-du-second-degre-allemand-fh-hanoi-vietnam-100000-ha-noi"
     },
     {
       "id": 4688745,
@@ -125,25 +147,25 @@
     },
     {
       "id": 4688647,
-      "titre": "Professeur de Mathématiques (H/F) 2026/2027 au lycée Descartes - Rabat - Maroc",
+      "titre": "Professeur de Mathématiques F/H au lycée Descartes - RABAT - MAROC",
       "etab": "",
       "ville": "Rabat",
       "pays": "Maroc",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
       "date": "11/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4688647-professeur-de-mathematiques-hf-20262027-au-lycee-descartes-rabat-maroc-rabat"
+      "url": "https://talents.aefe.fr/fr/annonce/4688647-professeur-de-mathematiques-fh-au-lycee-descartes-rabat-maroc-rabat"
     },
     {
       "id": 4688549,
-      "titre": "Assistant administratif et pédagogique (H/F)",
+      "titre": "Assistant administratif et pédagogique F/H - LOME - TOGO",
       "etab": "",
       "ville": "Lomé",
-      "pays": "",
+      "pays": "Togo",
       "contrat": "Contrat permanent",
       "discipline": "Secrétaire / assistant F/H",
       "date": "10/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4688549-assistant-administratif-et-pedagogique-hf-lome"
+      "url": "https://talents.aefe.fr/fr/annonce/4688549-assistant-administratif-et-pedagogique-fh-lome-togo-lome"
     },
     {
       "id": 4688537,
@@ -158,7 +180,7 @@
     },
     {
       "id": 4688531,
-      "titre": "Professeur des écoles - F/H - WASHINGTON D.C. (BESTHESDA) - ETATS UNIS",
+      "titre": "Professeur des écoles F/H - WASHINGTON D.C. (BESTHESDA) - ETATS UNIS",
       "etab": "",
       "ville": "Bethesda",
       "pays": "États-Unis",
@@ -169,25 +191,25 @@
     },
     {
       "id": 4688343,
-      "titre": "Enseignant(e) spécialisé(e) - Primaire | San Francisco |",
+      "titre": "Enseignant spécialisé F/H - Primaire - SAN FRANCISCO - USA",
       "etab": "",
       "ville": "San Francisco",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "10/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4688343-enseignante-specialisee-primaire-san-francisco-94122-san-francisco"
+      "url": "https://talents.aefe.fr/fr/annonce/4688343-enseignant-specialise-fh-primaire-san-francisco-usa-94122-san-francisco"
     },
     {
       "id": 4688307,
-      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "titre": "Professeur du secondaire d'EPS F/H - SAN FRANCISCO - USA",
       "etab": "",
       "ville": "San Francisco",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "10/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4688307-professeur-du-second-degre-education-physique-et-sportive-fh-94122-san-francisco"
+      "url": "https://talents.aefe.fr/fr/annonce/4688307-professeur-du-secondaire-deps-fh-san-francisco-usa-94122-san-francisco"
     },
     {
       "id": 4688281,
@@ -202,7 +224,7 @@
     },
     {
       "id": 4688277,
-      "titre": "Professeur des écoles F/H - San Francisco - USA",
+      "titre": "Professeur des écoles F/H - SAN FRANCISCO - USA",
       "etab": "",
       "ville": "San Francisco",
       "pays": "",
@@ -213,36 +235,25 @@
     },
     {
       "id": 4688205,
-      "titre": "Professeur de lettres Collège et Lycée",
+      "titre": "Professeur de lettres Collège et Lycée F/H - BETHESDA - USA",
       "etab": "",
       "ville": "Bethesda",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "10/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4688205-professeur-de-lettres-college-et-lycee-20814-bethesda"
+      "url": "https://talents.aefe.fr/fr/annonce/4688205-professeur-de-lettres-college-et-lycee-fh-bethesda-usa-20814-bethesda"
     },
     {
       "id": 4688175,
-      "titre": "Professeur d'education physique et sportive",
+      "titre": "Professeur d'education physique et sportive F/H - BETHESDA - USA",
       "etab": "",
       "ville": "Bethesda",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'éducation physique et sportive F/H",
       "date": "10/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4688175-professeur-deducation-physique-et-sportive-20814-bethesda"
-    },
-    {
-      "id": 4688137,
-      "titre": "Enseignant de sciences physique et chimie",
-      "etab": "",
-      "ville": "Bethesda",
-      "pays": "",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur de physique chimie F/H",
-      "date": "10/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4688137-enseignant-de-sciences-physique-et-chimie-20814-bethesda"
+      "url": "https://talents.aefe.fr/fr/annonce/4688175-professeur-deducation-physique-et-sportive-fh-bethesda-usa-20814-bethesda"
     },
     {
       "id": 4687817,
@@ -1137,36 +1148,36 @@
     },
     {
       "id": 4654655,
-      "titre": "Professeur de Lycée - Lettres F/H - Ile Maurice",
+      "titre": "Professeur de lycée - Lettres F/H - MOKA - ILE MAURICE",
       "etab": "",
       "ville": "Moka",
       "pays": "Île Maurice",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "13/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4654655-professeur-de-lycee-lettres-fh-ile-maurice-moka"
+      "url": "https://talents.aefe.fr/fr/annonce/4654655-professeur-de-lycee-lettres-fh-moka-ile-maurice-moka"
     },
     {
       "id": 4654433,
-      "titre": "Professeur de Lycée - Espagnol F/H - Ile Maurice",
+      "titre": "Professeur de Lycée - Espagnol F/H - MOKA - ILE MAURICE",
       "etab": "",
       "ville": "Moka",
       "pays": "Île Maurice",
       "contrat": "Contrat permanent",
       "discipline": "Professeur du second degré F/H",
       "date": "13/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4654433-professeur-de-lycee-espagnol-fh-ile-maurice-moka"
+      "url": "https://talents.aefe.fr/fr/annonce/4654433-professeur-de-lycee-espagnol-fh-moka-ile-maurice-moka"
     },
     {
       "id": 4654145,
-      "titre": "Professeur de Lycée-Mathématiques/Numérique Sciences Informatiques(NSI) F/H-MUS",
+      "titre": "Professeur de Lycée -Mathématiques-NSI - F/H - MOKA - ILE MAURICE",
       "etab": "",
       "ville": "Moka",
-      "pays": "",
+      "pays": "Île Maurice",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de mathématiques F/H",
       "date": "13/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4654145-professeur-de-lycee-mathematiquesnumerique-sciences-informatiquesnsi-fh-mus-moka"
+      "url": "https://talents.aefe.fr/fr/annonce/4654145-professeur-de-lycee-mathematiques-nsi-fh-moka-ile-maurice-moka"
     },
     {
       "id": 4653887,
@@ -1288,17 +1299,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "16/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4650761-professeur-de-sciences-physiques-et-chimie-fh-lisbonne-portugal-1350-164-lisboa"
-    },
-    {
-      "id": 4650019,
-      "titre": "Professeur des écoles (Ecole primaire) remplaçant - F/H - ANKARA - TURQUIE",
-      "etab": "",
-      "ville": "Ankara",
-      "pays": "Turquie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "16/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4650019-professeur-des-ecoles-ecole-primaire-remplacant-fh-ankara-turquie-golbas%C4%B1"
     },
     {
       "id": 4649065,
@@ -1862,17 +1862,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4599659-urgent-professeur-de-lettres-et-philosophie-fh-cuenca-equateur-cuenca"
     },
     {
-      "id": 4598367,
-      "titre": "Conseiller Principal d'Éducation CPE F/H - CUENCA - EQUATEUR",
-      "etab": "",
-      "ville": "Cuenca",
-      "pays": "Équateur",
-      "contrat": "Contrat permanent",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "14/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4598367-conseiller-principal-deducation-cpe-fh-cuenca-equateur-cuenca"
-    },
-    {
       "id": 4595079,
       "titre": "Professeur des écoles - F/H - HAMBOURG - ALLEMAGNE",
       "etab": "",
@@ -2016,17 +2005,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
     },
     {
-      "id": 4136021,
-      "titre": "Professeur des écoles F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "11/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4136021-professeur-des-ecoles-fh-rabat-maroc-rabat"
-    },
-    {
       "id": 4102357,
       "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
       "etab": "",
@@ -2080,17 +2058,6 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "11/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 4020099,
-      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "11/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,
