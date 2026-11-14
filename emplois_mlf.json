@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13 22:23",
-  "total": 163,
+  "updated": "2026-11-14 11:56",
+  "total": 164,
   "source": "MLF Monde",
   "offers": [
     {
@@ -2060,6 +2060,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3814_offre-emploi-professeure-de-mathematiques-au-lycee-victor-hugo-de-djerba.html"
+    },
+    {
+      "id": 3875,
+      "titre": "Professeur(e) des Écoles au Lycée Théodore Monod d'Abu Dhabi",
+      "etab": "",
+      "ville": "Abou Dabi",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "21/10/2026",
+      "date_limite": "20/03/2027",
+      "date_prise": "20/08/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3875_offre-emploi-professeure-des-ecoles-au-lycee-theodore-monod-dabu-dhabi.html"
     },
     {
       "id": 3876,
