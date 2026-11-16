@@ -1,17 +1,127 @@
 {
-  "updated": "2026-11-15 21:28",
-  "total": 187,
+  "updated": "2026-11-16 13:21",
+  "total": 192,
   "offers": [
     {
+      "id": 4694745,
+      "titre": "Professeur(e) Physiques Chimie - EGD - Lycée Gustave Flaubert – Marsa - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4694745-professeure-physiques-chimie-egd-lycee-gustave-flaubert-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4694729,
+      "titre": "Enseignant Lettres H/F - CDD temps plein - LUXEMBOURG",
+      "etab": "",
+      "ville": "Luxembourg",
+      "pays": "Luxembourg",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4694729-enseignant-lettres-hf-cdd-temps-plein-luxembourg-luxembourg"
+    },
+    {
+      "id": 4694685,
+      "titre": "Professeur(e) Mathématiques - EGD - Lycée Gustave Flaubert – Marsa - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4694685-professeure-mathematiques-egd-lycee-gustave-flaubert-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4694657,
+      "titre": "Professeur(e) d’Histoire Géo - EGD - Lycée Gustave Flaubert – Marsa - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4694657-professeure-d-histoire-geo-egd-lycee-gustave-flaubert-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4694633,
+      "titre": "Professeur(e) Anglais - EGD - Lycée Gustave Flaubert – Marsa - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4694633-professeure-anglais-egd-lycee-gustave-flaubert-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4694615,
+      "titre": "Professeur(e) Lettres Modernes - EGD - Lycée Gustave Flaubert – Marsa - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4694615-professeure-lettres-modernes-egd-lycee-gustave-flaubert-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4694531,
+      "titre": "Professeur des écoles F/H - BISSAU - GUINEE BISSAU",
+      "etab": "",
+      "ville": "Bissau",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4694531-professeur-des-ecoles-fh-bissau-guinee-bissau-bissau"
+    },
+    {
+      "id": 4694331,
+      "titre": "Gestionnaire du personnel et de la paie confirmé F/H - LVH - MARRAKECH -MAROC",
+      "etab": "",
+      "ville": "Marrakesh",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant ressources humaines F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4694331-gestionnaire-du-personnel-et-de-la-paie-confirme-fh-lvh-marrakech-maroc-marrakesh"
+    },
+    {
+      "id": 4694049,
+      "titre": "Agent d'entretien F/H - EGD - Lycée Gustave Flaubert - LA MARSA - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Chargé de maintenance et d’entretien F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4694049-agent-dentretien-fh-egd-lycee-gustave-flaubert-la-marsa-tunisie-2078-la-marsa"
+    },
+    {
+      "id": 4693739,
+      "titre": "Professeur remplaçant 2nd degré - Sciences Economiques et Sociales F/H - TUNIS",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4693739-professeur-remplacant-2nd-degre-sciences-economiques-et-sociales-fh-tunis-1082-tunis"
+    },
+    {
       "id": 4693549,
-      "titre": "Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - SALY - SENEGAL",
       "etab": "",
       "ville": "Saly",
-      "pays": "",
+      "pays": "Sénégal",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "15/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4693549-professeur-des-ecoles-fh-saly"
+      "url": "https://talents.aefe.fr/fr/annonce/4693549-professeur-des-ecoles-fh-saly-senegal-saly"
     },
     {
       "id": 4692599,
@@ -430,28 +540,6 @@
       "discipline": "Professeur de technologie F/H",
       "date": "05/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4680729-professeur-de-sciences-numeriques-et-technologie-fh-santa-tecla-el-salvador-santa-tecla"
-    },
-    {
-      "id": 4680231,
-      "titre": "Assistant d'éducation au service restauration F/H - MADRID - ESPAGNE",
-      "etab": "",
-      "ville": "Madrid",
-      "pays": "Espagne",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "05/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4680231-assistant-deducation-au-service-restauration-fh-madrid-espagne-28043-madrid"
-    },
-    {
-      "id": 4680045,
-      "titre": "Chargé de BCD F/H - FRANCFORT - ALLEMAGNE",
-      "etab": "",
-      "ville": "Frankfurt am Main",
-      "pays": "Allemagne",
-      "contrat": "CDD sans terme fixe",
-      "discipline": "Chargé du centre de documentation F/H",
-      "date": "13/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4680045-charge-de-bcd-fh-francfort-allemagne-60488-frankfurt-am-main"
     },
     {
       "id": 4679773,
@@ -1048,17 +1136,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4662323-professeur-de-lettres-au-second-degre-fh-munich-allemagne-81373-munchen"
     },
     {
-      "id": 4660607,
-      "titre": "Professeur des écoles F/H - Maternelle - PRAIA - CAP VERT",
-      "etab": "",
-      "ville": "Praia",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "23/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4660607-professeur-des-ecoles-fh-maternelle-praia-cap-vert-praia"
-    },
-    {
       "id": 4659267,
       "titre": "Professeur du Secondaire - F/H - JERSEY CITY - ETATS-UNIS",
       "etab": "",
@@ -1398,17 +1475,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "15/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4647583-professeur-de-mathematiques-fh-casablanca-maroc-casablanca"
-    },
-    {
-      "id": 4646063,
-      "titre": "Adjoint au SG (F/H) - ERT - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Directeur Administratif et Financier F/H",
-      "date": "14/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4646063-adjoint-au-sg-fh-ert-tunis-tunisie-1082-tunis"
     },
     {
       "id": 4646027,
@@ -1752,17 +1818,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4612013-professeur-du-second-degre-anglais-fh-le-caire-egypte-cairo"
     },
     {
-      "id": 4611057,
-      "titre": "Chargé de comptabilité budgétaire F/H remplaçante - TUNIS - TUNISIE",
-      "etab": "",
-      "ville": "Tunis",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Secrétaire / assistant F/H",
-      "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4611057-charge-de-comptabilite-budgetaire-fh-remplacante-tunis-tunisie-1082-tunis"
-    },
-    {
       "id": 4610517,
       "titre": "Enseignant premier degré spécialisé CP - F/H - MALABO - GUINEE EQUATORIALE",
       "etab": "",
@@ -1884,17 +1939,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4584639-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
-      "id": 4515063,
-      "titre": "Professeur des écoles - F/H - RIO DE JANEIRO - BRESIL",
-      "etab": "",
-      "ville": "Rio de Janeiro",
-      "pays": "Brésil",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "14/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4515063-professeur-des-ecoles-fh-rio-de-janeiro-bresil-rio-de-janeiro"
-    },
-    {
       "id": 4480659,
       "titre": "Psychologue scolaire F/H - Lycée Francais International d'Accra - ACCRA - GHANA",
       "etab": "",
@@ -1981,6 +2025,17 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "29/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4136021,
+      "titre": "Professeur des écoles F/H - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4136021-professeur-des-ecoles-fh-rabat-maroc-rabat"
     },
     {
       "id": 4102357,
