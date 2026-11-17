@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17 00:40",
-  "total": 178,
+  "updated": "2026-11-17 14:05",
+  "total": 179,
   "source": "MLF Monde",
   "offers": [
     {
@@ -338,6 +338,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3744_offre-emploi-directeurtrice-decole-elementaire.html"
+    },
+    {
+      "id": 3934,
+      "titre": "Gestionnaire",
+      "etab": "",
+      "ville": "Palma de Majorque",
+      "pays": "Espagne",
+      "contrat": "",
+      "discipline": "",
+      "date": "17/11/2026",
+      "date_limite": "20/11/2026",
+      "date_prise": "01/01/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3934_offre-emploi-gestionnaire.html"
     },
     {
       "id": 3769,
