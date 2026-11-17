@@ -1,7 +1,139 @@
 {
-  "updated": "2026-11-16 13:21",
-  "total": 192,
+  "updated": "2026-11-17 00:40",
+  "total": 200,
   "offers": [
+    {
+      "id": 4695869,
+      "titre": "Docente de español para escuela primaria - BUENOS AIRES - Argentine",
+      "etab": "",
+      "ville": "BAG",
+      "pays": "Argentine",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695869-docente-de-espanol-para-escuela-primaria-buenos-aires-argentine-c1428-bag"
+    },
+    {
+      "id": 4695867,
+      "titre": "Infirmier Scolaire F/H",
+      "etab": "",
+      "ville": "Lagos",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Infirmier scolaire F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695867-infirmier-scolaire-fh-106104-lagos"
+    },
+    {
+      "id": 4695857,
+      "titre": "Docente de español para nivel inicial - BUENOS AIRES - Argentine",
+      "etab": "",
+      "ville": "BAG",
+      "pays": "Argentine",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695857-docente-de-espanol-para-nivel-inicial-buenos-aires-argentine-c1428-bag"
+    },
+    {
+      "id": 4695259,
+      "titre": "Enseignement de SES F/H - BUENOS AIRES - ARGENTINE",
+      "etab": "",
+      "ville": "BAG",
+      "pays": "Argentine",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695259-enseignement-de-ses-fh-buenos-aires-argentine-c1428-bag"
+    },
+    {
+      "id": 4695159,
+      "titre": "Enseignement de mathématiques F/H - BUENOS AIRES - ARGENTINE",
+      "etab": "",
+      "ville": "BAG",
+      "pays": "Argentine",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695159-enseignement-de-mathematiques-fh-buenos-aires-argentine-c1428-bag"
+    },
+    {
+      "id": 4695141,
+      "titre": "Professeur(e) de SVT F/H - Groupe Scolaire Jacques Chirac - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695141-professeure-de-svt-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
+    },
+    {
+      "id": 4695133,
+      "titre": "Professeur d'histoire géographie F/H -Groupe Scolaire Jacques Chirac-RABAT-MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695133-professeur-dhistoire-geographie-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
+    },
+    {
+      "id": 4695125,
+      "titre": "Professeur de mathématiques -F/H - Groupe Scolaire Jacques Chirac- RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695125-professeur-de-mathematiques-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
+    },
+    {
+      "id": 4695093,
+      "titre": "Professeur(e) d'anglais - Groupe Scolaire Jacques Chirac - Rabat/Maroc",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695093-professeure-danglais-groupe-scolaire-jacques-chirac-rabatmaroc-rabat"
+    },
+    {
+      "id": 4695083,
+      "titre": "Professeur(e) de Lettres - F/H - Groupe Scolaire Jacques Chirac - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695083-professeure-de-lettres-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
+    },
+    {
+      "id": 4695059,
+      "titre": "Professeur des écoles F/H- Groupe Scolaire Jacques Chirac - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4695059-professeur-des-ecoles-fh-groupe-scolaire-jacques-chirac-rabat-maroc-rabat"
+    },
+    {
+      "id": 4694761,
+      "titre": "Professeur(e) SVT - EGD - Lycée Gustave Flaubert – Marsa - TUNISIE",
+      "etab": "",
+      "ville": "La Marsa",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de sciences de la vie et de la terre F/H",
+      "date": "16/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4694761-professeure-svt-egd-lycee-gustave-flaubert-marsa-tunisie-2078-la-marsa"
+    },
     {
       "id": 4694745,
       "titre": "Professeur(e) Physiques Chimie - EGD - Lycée Gustave Flaubert – Marsa - TUNISIE",
@@ -663,17 +795,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4677763-professeur-du-second-degre-education-physique-et-sportive-fh-brazzaville-rdc-brazzaville"
     },
     {
-      "id": 4677567,
-      "titre": "Enseignants niveau primaire et secondaire F/H - TORONTO - CANADA",
-      "etab": "",
-      "ville": "Toronto",
-      "pays": "Canada",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "03/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4677567-enseignants-niveau-primaire-et-secondaire-fh-toronto-canada-m4n-1t7-toronto"
-    },
-    {
       "id": 4676821,
       "titre": "Professeur de lettres vacataire F/H - Collège Saint Exupéry - RABAT - MAROC",
       "etab": "",
@@ -1222,17 +1343,6 @@
       "discipline": "Professeur de mathématiques F/H",
       "date": "20/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4655779-professeur-du-second-degre-mathematiques-fh-berne-suisse-3005-bern"
-    },
-    {
-      "id": 4655767,
-      "titre": "Professeur des écoles F/H - BERNE - SUISSE",
-      "etab": "",
-      "ville": "Bern",
-      "pays": "Suisse",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "09/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4655767-professeur-des-ecoles-fh-berne-suisse-3005-bern"
     },
     {
       "id": 4654655,
@@ -2025,28 +2135,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "29/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4136021,
-      "titre": "Professeur des écoles F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "16/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4136021-professeur-des-ecoles-fh-rabat-maroc-rabat"
-    },
-    {
-      "id": 4102357,
-      "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "09/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4083445,
