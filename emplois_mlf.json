@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17 14:05",
-  "total": 179,
+  "updated": "2026-11-17 23:45",
+  "total": 180,
   "source": "MLF Monde",
   "offers": [
     {
@@ -1962,6 +1962,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3873_offre-emploi-professeur-des-ecoles.html"
+    },
+    {
+      "id": 3933,
+      "titre": "Comptable",
+      "etab": "",
+      "ville": "Norfolk",
+      "pays": "États-Unis",
+      "contrat": "",
+      "discipline": "",
+      "date": "16/11/2026",
+      "date_limite": "15/02/2027",
+      "date_prise": "01/05/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3933_offre-emploi-comptable.html"
     },
     {
       "id": 3884,
