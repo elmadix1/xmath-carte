@@ -1,61 +1,72 @@
 {
-  "updated": "2026-11-18 13:40",
-  "total": 208,
+  "updated": "2026-11-18 23:17",
+  "total": 209,
   "offers": [
     {
+      "id": 4698705,
+      "titre": "Enseignants d’Anglais suppléants qualifiés du 2nd degré - F/H - LONDRES - UK",
+      "etab": "",
+      "ville": "England",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "18/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4698705-enseignants-d-anglais-suppleants-qualifies-du-2nd-degre-fh-londres-uk-greater-london"
+    },
+    {
       "id": 4698611,
-      "titre": "PROVISEUR-ADJOINT (H/F)",
+      "titre": "Proviseur-adjoint F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Proviseur adjoint F/H",
       "date": "18/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4698611-proviseur-adjoint-hf-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4698611-proviseur-adjoint-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4698597,
-      "titre": "DIRECTEUR D'ECOLE PRIMAIRE (H/F)",
+      "titre": "Directeur d'école primaire F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Directeur du primaire F/H",
       "date": "18/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4698597-directeur-decole-primaire-hf-20250-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4698597-directeur-decole-primaire-fh-casablanca-maroc-20250-casablanca"
     },
     {
       "id": 4698587,
-      "titre": "PROVISEUR (H/F)",
+      "titre": "Proviseur F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Proviseur F/H",
       "date": "18/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4698587-proviseur-hf-20250-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4698587-proviseur-fh-casablanca-maroc-20250-casablanca"
     },
     {
       "id": 4698407,
-      "titre": "Professeur du Second Degré",
+      "titre": "Professeur du Second Degré H/F - ASTANA - KAZAKHSTAN",
       "etab": "",
       "ville": "Astana",
-      "pays": "",
+      "pays": "Kazakhstan",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur du second degré F/H",
       "date": "18/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4698407-professeur-du-second-degre-astana"
+      "url": "https://talents.aefe.fr/fr/annonce/4698407-professeur-du-second-degre-hf-astana-kazakhstan-astana"
     },
     {
       "id": 4698375,
-      "titre": "Agent d'entretien - F/H - Lycée PMF - EGD - TUNIS - TUNISIE",
+      "titre": "Agent d'entretien - F/H - Lycée PMF - TUNIS - TUNISIE",
       "etab": "",
       "ville": "Tunis",
       "pays": "Tunisie",
       "contrat": "Contrat permanent",
       "discipline": "Chargé de maintenance et d’entretien F/H",
       "date": "18/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4698375-agent-dentretien-fh-lycee-pmf-egd-tunis-tunisie-1082-tunis"
+      "url": "https://talents.aefe.fr/fr/annonce/4698375-agent-dentretien-fh-lycee-pmf-tunis-tunisie-1082-tunis"
     },
     {
       "id": 4697893,
@@ -81,14 +92,14 @@
     },
     {
       "id": 4697729,
-      "titre": "Professeur(e) de français en collège/lycée en contrat local (20h).",
+      "titre": "Professeur de français en collège/lycée F/H - SANTIAGO DE SURCO - PEROU",
       "etab": "",
       "ville": "Santiago de Surco",
-      "pays": "",
+      "pays": "Pérou",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de lettres classiques F/H",
       "date": "17/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4697729-professeure-de-francais-en-collegelycee-en-contrat-local-20h-15039-santiago-de-surco"
+      "url": "https://talents.aefe.fr/fr/annonce/4697729-professeur-de-francais-en-collegelycee-fh-santiago-de-surco-perou-15039-santiago-de-surco"
     },
     {
       "id": 4697641,
@@ -125,47 +136,47 @@
     },
     {
       "id": 4696823,
-      "titre": "Assistant(e) de direction F/H - Ecole Primaire du Lycée Victor Hugo - Marrakech",
+      "titre": "Assistant de direction F/H - Ecole primaire - MARRAKECH - MAROC",
       "etab": "",
       "ville": "Marrakesh",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Secrétaire / assistant F/H",
       "date": "17/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4696823-assistante-de-direction-fh-ecole-primaire-du-lycee-victor-hugo-marrakech-marrakesh"
+      "url": "https://talents.aefe.fr/fr/annonce/4696823-assistant-de-direction-fh-ecole-primaire-marrakech-maroc-marrakesh"
     },
     {
       "id": 4696735,
-      "titre": "Conseiller Principal d'Éducation F/H",
+      "titre": "Conseiller Principal d'Éducation F/H - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "17/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4696735-conseiller-principal-deducation-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4696735-conseiller-principal-deducation-fh-casablanca-maroc-casablanca"
     },
     {
       "id": 4696629,
-      "titre": "Proviseur(e) adjoint(e) (Poste susceptible d'être vacant)",
+      "titre": "Proviseur adjoint F/H - Poste susceptible d'être vacant - CASABLANCA - MAROC",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Proviseur adjoint F/H",
       "date": "17/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4696629-proviseure-adjointe-poste-susceptible-detre-vacant-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4696629-proviseur-adjoint-fh-poste-susceptible-detre-vacant-casablanca-maroc-casablanca"
     },
     {
       "id": 4696613,
-      "titre": "Chef(e) d'ETABLISSEMENT / Proviseur(e) - Rentrée scolaire 2027-2028",
+      "titre": "Chef d'établissement-Proviseur F/H - Rentrée scolaire 2027-2028 - RABAT - MAROC",
       "etab": "",
       "ville": "Rabat",
-      "pays": "",
+      "pays": "Maroc",
       "contrat": "Contrat permanent",
       "discipline": "Proviseur F/H",
       "date": "17/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4696613-chefe-detablissement-proviseure-rentree-scolaire-2027-2028-rabat"
+      "url": "https://talents.aefe.fr/fr/annonce/4696613-chef-detablissement-proviseur-fh-rentree-scolaire-2027-2028-rabat-maroc-rabat"
     },
     {
       "id": 4696121,
@@ -2214,6 +2225,17 @@
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
     },
     {
+      "id": 4102357,
+      "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "18/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
+    },
+    {
       "id": 4083445,
       "titre": "Professeur d'éducation musicale - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -2256,17 +2278,6 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "11/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
-    },
-    {
-      "id": 4020099,
-      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
-      "etab": "",
-      "ville": "München",
-      "pays": "Allemagne",
-      "contrat": "Contrat temporaire",
-      "discipline": "Agent du périscolaire F/H",
-      "date": "18/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,
