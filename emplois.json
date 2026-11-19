@@ -1,17 +1,39 @@
 {
-  "updated": "2026-11-18 23:17",
-  "total": 209,
+  "updated": "2026-11-19 14:06",
+  "total": 208,
   "offers": [
     {
+      "id": 4700441,
+      "titre": "Primary english teacher - F/H - AMSTERDAM - PAYS-BAS",
+      "etab": "",
+      "ville": "Amsterdam",
+      "pays": "Pays-Bas",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "19/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4700441-primary-english-teacher-fh-amsterdam-pays-bas-1077-me-amsterdam"
+    },
+    {
+      "id": 4700193,
+      "titre": "Secrétaire école primaire et responsable périscolaire F/H - BAMAKO - MALI",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "Mali",
+      "contrat": "CDD terme fixe",
+      "discipline": "Secrétaire / assistant F/H",
+      "date": "19/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4700193-secretaire-ecole-primaire-et-responsable-periscolaire-fh-bamako-mali-bamako"
+    },
+    {
       "id": 4698705,
-      "titre": "Enseignants d’Anglais suppléants qualifiés du 2nd degré - F/H - LONDRES - UK",
+      "titre": "Enseignants suppléants qualifiés du 2nd degré - F/H - LONDRES - UK",
       "etab": "",
       "ville": "England",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’anglais F/H",
       "date": "18/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4698705-enseignants-d-anglais-suppleants-qualifies-du-2nd-degre-fh-londres-uk-greater-london"
+      "url": "https://talents.aefe.fr/fr/annonce/4698705-enseignants-suppleants-qualifies-du-2nd-degre-fh-londres-uk-greater-london"
     },
     {
       "id": 4698611,
@@ -857,7 +879,7 @@
       "pays": "Salvador",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de technologie F/H",
-      "date": "05/11/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4680729-professeur-de-sciences-numeriques-et-technologie-fh-santa-tecla-el-salvador-santa-tecla"
     },
     {
@@ -1013,17 +1035,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "03/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4675891-professeur-du-second-degre-eps-fh-addis-abeba-ethiopie-addis-abeba"
-    },
-    {
-      "id": 4675669,
-      "titre": "Professeur des écoles - F/H - BAMAKO - MALI",
-      "etab": "",
-      "ville": "Bamako",
-      "pays": "Mali",
-      "contrat": "CDD terme fixe",
-      "discipline": "Professeur des écoles F/H",
-      "date": "03/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4675669-professeur-des-ecoles-fh-bamako-mali-bamako"
     },
     {
       "id": 4675533,
@@ -1319,7 +1330,7 @@
       "pays": "Pérou",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
-      "date": "28/10/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4668597-professeur-du-second-degre-mathematiques-fh-tiabaya-perou-tiabaya"
     },
     {
@@ -1330,7 +1341,7 @@
       "pays": "Arabie Saoudite",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’espagnol F/H",
-      "date": "28/10/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4667317-professeur-du-second-degre-fh-titulaire-du-men-riyad-arabie-saoudite-13317-riyadh"
     },
     {
@@ -1341,7 +1352,7 @@
       "pays": "Arabie Saoudite",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de philosophie F/H",
-      "date": "28/10/2026",
+      "date": "",
       "url": "https://talents.aefe.fr/fr/annonce/4667301-professeur-du-second-degre-philosophie-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
@@ -1497,17 +1508,6 @@
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "21/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4655873-conseiller-principal-d-education-fh-mapou-maurice-mapou"
-    },
-    {
-      "id": 4655779,
-      "titre": "Professeur du Second Degré - Mathématiques F/H - BERNE - SUISSE",
-      "etab": "",
-      "ville": "Bern",
-      "pays": "Suisse",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "20/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4655779-professeur-du-second-degre-mathematiques-fh-berne-suisse-3005-bern"
     },
     {
       "id": 4654655,
@@ -2104,17 +2104,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4607275-assistant-deducation-fh-kuala-lumpur-malaisie-kuala-lumpur"
     },
     {
-      "id": 4607169,
-      "titre": "Enseignant spécialisé CAPPEI-CAPA SH - F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "20/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4607169-enseignant-specialise-cappei-capa-sh-fh-lisbonne-portugal-1350-164-lisboa"
-    },
-    {
       "id": 4602435,
       "titre": "Orthophoniste scolaire F/H - PHNOM PENH - CAMBODGE",
       "etab": "",
@@ -2124,6 +2113,17 @@
       "discipline": "Orthophoniste scolaire F/H",
       "date": "13/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4602435-orthophoniste-scolaire-fh-phnom-penh-cambodge-phnom-penh"
+    },
+    {
+      "id": 4589105,
+      "titre": "Professeur du Second Degré Espagnol F/H - ADDIS ABEBA - ETHIOPIE",
+      "etab": "",
+      "ville": "Addis-Abeba",
+      "pays": "Éthiopie",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur du second degré F/H",
+      "date": "19/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4589105-professeur-du-second-degre-espagnol-fh-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4584639,
@@ -2223,17 +2223,6 @@
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "29/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4102357,
-      "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "18/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4083445,
