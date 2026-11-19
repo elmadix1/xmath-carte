@@ -1,17 +1,61 @@
 {
-  "updated": "2026-11-19 14:06",
-  "total": 208,
+  "updated": "2026-11-19 23:25",
+  "total": 213,
   "offers": [
     {
+      "id": 4701305,
+      "titre": "Professeur Documentaliste F/H",
+      "etab": "",
+      "ville": "La Paz",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur documentaliste F/H",
+      "date": "19/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4701305-professeur-documentaliste-fh-la-paz"
+    },
+    {
+      "id": 4701223,
+      "titre": "Professeurs du second degré - F/H - CHICAGO - ETATS-UNIS",
+      "etab": "",
+      "ville": "Chicago",
+      "pays": "États-Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur du second degré F/H",
+      "date": "19/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4701223-professeurs-du-second-degre-fh-chicago-etats-unis-60640-chicago"
+    },
+    {
+      "id": 4701219,
+      "titre": "Professeur des écoles - F/H - CHICAGO - ETATS UNIS",
+      "etab": "",
+      "ville": "Chicago",
+      "pays": "États-Unis",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "19/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4701219-professeur-des-ecoles-fh-chicago-etats-unis-60640-chicago"
+    },
+    {
+      "id": 4701161,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "etab": "",
+      "ville": "Los Angeles",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "19/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4701161-professeur-du-second-degre-physique-chimie-fh-90034-los-angeles"
+    },
+    {
       "id": 4700441,
-      "titre": "Primary english teacher - F/H - AMSTERDAM - PAYS-BAS",
+      "titre": "Primary english teacher -Enseignant anglais primaire F/H - AMSTERDAM - PAYS-BAS",
       "etab": "",
       "ville": "Amsterdam",
       "pays": "Pays-Bas",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "19/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4700441-primary-english-teacher-fh-amsterdam-pays-bas-1077-me-amsterdam"
+      "url": "https://talents.aefe.fr/fr/annonce/4700441-primary-english-teacher-enseignant-anglais-primaire-fh-amsterdam-pays-bas-1077-me-amsterdam"
     },
     {
       "id": 4700193,
@@ -879,7 +923,7 @@
       "pays": "Salvador",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de technologie F/H",
-      "date": "",
+      "date": "05/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4680729-professeur-de-sciences-numeriques-et-technologie-fh-santa-tecla-el-salvador-santa-tecla"
     },
     {
@@ -1330,7 +1374,7 @@
       "pays": "Pérou",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de mathématiques F/H",
-      "date": "",
+      "date": "28/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4668597-professeur-du-second-degre-mathematiques-fh-tiabaya-perou-tiabaya"
     },
     {
@@ -1341,7 +1385,7 @@
       "pays": "Arabie Saoudite",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur d’espagnol F/H",
-      "date": "",
+      "date": "28/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4667317-professeur-du-second-degre-fh-titulaire-du-men-riyad-arabie-saoudite-13317-riyadh"
     },
     {
@@ -1352,7 +1396,7 @@
       "pays": "Arabie Saoudite",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de philosophie F/H",
-      "date": "",
+      "date": "28/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4667301-professeur-du-second-degre-philosophie-fh-riyad-arabie-saoudite-13317-riyadh"
     },
     {
@@ -1882,6 +1926,17 @@
       "discipline": "Professeur documentaliste F/H",
       "date": "05/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4631311-professeur-documentaliste-fh-tunis-tunisie-2037-tunis"
+    },
+    {
+      "id": 4630975,
+      "titre": "Professeur des écoles - F/H - TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "19/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4630975-professeur-des-ecoles-fh-tunis-tunisie-1053-tunis"
     },
     {
       "id": 4630041,

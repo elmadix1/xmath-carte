@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19 14:06",
-  "total": 180,
+  "updated": "2026-11-19 23:25",
+  "total": 181,
   "source": "MLF Monde",
   "offers": [
     {
@@ -1794,6 +1794,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3842_offre-emploi-poste-de-professeure-de-sciences-physiques-et-chimiques.html"
+    },
+    {
+      "id": 3935,
+      "titre": "Recrutement professeur des écoles PS, MS,GS, CP , CM2)",
+      "etab": "",
+      "ville": "Pondichery",
+      "pays": "Inde",
+      "contrat": "",
+      "discipline": "",
+      "date": "19/11/2026",
+      "date_limite": "01/02/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3935_offre-emploi-recrutement-professeur-des-ecoles-ps-msgs-cp-cm2.html"
     },
     {
       "id": 3860,
