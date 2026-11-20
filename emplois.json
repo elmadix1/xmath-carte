@@ -1,7 +1,18 @@
 {
-  "updated": "2026-11-20 13:49",
-  "total": 213,
+  "updated": "2026-11-20 22:58",
+  "total": 214,
   "offers": [
+    {
+      "id": 4702617,
+      "titre": "Professeur des écoles F/H en maternelle",
+      "etab": "",
+      "ville": "Las Terrenas",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "20/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4702617-professeur-des-ecoles-fh-en-maternelle-32000-las-terrenas"
+    },
     {
       "id": 4701569,
       "titre": "Surveillant - F/H - Lycée Van Gogh - LA HAYE - PAYS-BAS",
@@ -276,6 +287,17 @@
       "discipline": "Proviseur F/H",
       "date": "17/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4696613-chef-detablissement-proviseur-fh-rentree-scolaire-2027-2028-rabat-maroc-rabat"
+    },
+    {
+      "id": 4696535,
+      "titre": "Primary English Homeroom Teacher F/H - RABAT - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "20/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4696535-primary-english-homeroom-teacher-fh-rabat-maroc-rabat"
     },
     {
       "id": 4696121,
@@ -2135,17 +2157,6 @@
       "discipline": "Professeur documentaliste F/H",
       "date": "22/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4609973-professeur-documentaliste-fh-brazzaville-republique-du-congo-brazzaville"
-    },
-    {
-      "id": 4609701,
-      "titre": "Professeur des écoles F/H - NOUAKCHOTT - MAURITANIE",
-      "etab": "",
-      "ville": "Nouakchott",
-      "pays": "Mauritanie",
-      "contrat": "CDD terme fixe",
-      "discipline": "Professeur des écoles F/H",
-      "date": "21/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4609701-professeur-des-ecoles-fh-nouakchott-mauritanie-nouakchott"
     },
     {
       "id": 4602435,
