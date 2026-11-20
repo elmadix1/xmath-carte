@@ -1,17 +1,39 @@
 {
-  "updated": "2026-11-19 23:25",
+  "updated": "2026-11-20 13:49",
   "total": 213,
   "offers": [
     {
+      "id": 4701569,
+      "titre": "Surveillant - F/H - Lycée Van Gogh - LA HAYE - PAYS-BAS",
+      "etab": "",
+      "ville": "Den Haag",
+      "pays": "Pays-Bas",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "20/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4701569-surveillant-fh-lycee-van-gogh-la-haye-pays-bas-2584-aa-den-haag"
+    },
+    {
+      "id": 4701309,
+      "titre": "Professeur du Second Degré de Mathématiques F/H - ALEXANDRIE - EGYPTE",
+      "etab": "",
+      "ville": "Alexandria",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "20/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4701309-professeur-du-second-degre-de-mathematiques-fh-alexandrie-egypte-alexandria"
+    },
+    {
       "id": 4701305,
-      "titre": "Professeur Documentaliste F/H",
+      "titre": "Professeur Documentaliste F/H - LA PAZ - BOLIVIE",
       "etab": "",
       "ville": "La Paz",
-      "pays": "",
+      "pays": "Bolivie",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur documentaliste F/H",
       "date": "19/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4701305-professeur-documentaliste-fh-la-paz"
+      "url": "https://talents.aefe.fr/fr/annonce/4701305-professeur-documentaliste-fh-la-paz-bolivie-la-paz"
     },
     {
       "id": 4701223,
@@ -37,14 +59,14 @@
     },
     {
       "id": 4701161,
-      "titre": "Professeur du Second Degré - Physique Chimie F/H",
+      "titre": "Professeur du Second Degré - Physique Chimie F/H - LOS ANGELES - USA",
       "etab": "",
       "ville": "Los Angeles",
       "pays": "",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de physique chimie F/H",
       "date": "19/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4701161-professeur-du-second-degre-physique-chimie-fh-90034-los-angeles"
+      "url": "https://talents.aefe.fr/fr/annonce/4701161-professeur-du-second-degre-physique-chimie-fh-los-angeles-usa-90034-los-angeles"
     },
     {
       "id": 4700441,
@@ -144,6 +166,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "18/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4697893-enseignant-flsco-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
+    },
+    {
+      "id": 4697797,
+      "titre": "Professeur de lycée - Histoire Géographie F/H - MOKA - ILE MAURICE",
+      "etab": "",
+      "ville": "Moka",
+      "pays": "Île Maurice",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "20/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4697797-professeur-de-lycee-histoire-geographie-fh-moka-ile-maurice-moka"
     },
     {
       "id": 4697777,
@@ -529,17 +562,6 @@
       "discipline": "Chargé de partenariats",
       "date": "17/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4692137-personnel-ressource-en-information-et-orientation-fh-moka-ile-maurice-moka"
-    },
-    {
-      "id": 4691211,
-      "titre": "Secrétaire administratif et scolaire F/H - EGD - SOUSSE - TUNISIE",
-      "etab": "",
-      "ville": "Sousse",
-      "pays": "Tunisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Secrétaire / assistant F/H",
-      "date": "13/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4691211-secretaire-administratif-et-scolaire-fh-egd-sousse-tunisie-sousse"
     },
     {
       "id": 4691153,
@@ -1057,17 +1079,6 @@
       "discipline": "professeur de lettres modernes F/H",
       "date": "03/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4676821-professeur-de-lettres-vacataire-fh-college-saint-exupery-rabat-maroc-rabat"
-    },
-    {
-      "id": 4676513,
-      "titre": "Professeur d'histoire géographie F/H - KINSHASA - REPUBLIQUE DEMOCRATIQUE CONGO",
-      "etab": "",
-      "ville": "Kinshasa",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "03/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4676513-professeur-dhistoire-geographie-fh-kinshasa-republique-democratique-congo-kinshasa"
     },
     {
       "id": 4675891,
@@ -2005,17 +2016,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4623465-directeur-des-operations-fh-dusseldorf-allemagne-40237-dusseldorf"
     },
     {
-      "id": 4622263,
-      "titre": "Professeur du Second Degré - SVT - F/H - ALEXANDRIE - EGYPTE",
-      "etab": "",
-      "ville": "Alexandria",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "29/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4622263-professeur-du-second-degre-svt-fh-alexandrie-egypte-alexandria"
-    },
-    {
       "id": 4617389,
       "titre": "Professeur du Second Degré d'histoire géographie F/H - SALY - SENEGAL",
       "etab": "",
@@ -2148,17 +2148,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4609701-professeur-des-ecoles-fh-nouakchott-mauritanie-nouakchott"
     },
     {
-      "id": 4607275,
-      "titre": "Assistant d'Éducation - F/H - KUALA LUMPUR - MALAISIE",
-      "etab": "",
-      "ville": "Kuala Lumpur",
-      "pays": "Malaisie",
-      "contrat": "Contrat temporaire",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "21/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4607275-assistant-deducation-fh-kuala-lumpur-malaisie-kuala-lumpur"
-    },
-    {
       "id": 4602435,
       "titre": "Orthophoniste scolaire F/H - PHNOM PENH - CAMBODGE",
       "etab": "",
@@ -2201,6 +2190,17 @@
       "discipline": "Psychologue scolaire F/H",
       "date": "25/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4480659-psychologue-scolaire-fh-lycee-francais-international-daccra-accra-ghana-accra"
+    },
+    {
+      "id": 4460811,
+      "titre": "Professeur d'H-G, EMC, SES - F/H - KRONG SIEM REAP - CAMBODGE",
+      "etab": "",
+      "ville": "Krong Siem Reap",
+      "pays": "Cambodge",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "20/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4460811-professeur-dh-g-emc-ses-fh-krong-siem-reap-cambodge-krong-siem-reap"
     },
     {
       "id": 4396003,
