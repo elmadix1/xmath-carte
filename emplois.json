@@ -1,7 +1,18 @@
 {
-  "updated": "2026-11-20 22:58",
-  "total": 214,
+  "updated": "2026-11-21 13:14",
+  "total": 209,
   "offers": [
+    {
+      "id": 4703525,
+      "titre": "Professeur du Second Degré - Education Physique et Sportive F/H",
+      "etab": "",
+      "ville": "Tiabaya",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "21/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4703525-professeur-du-second-degre-education-physique-et-sportive-fh-tiabaya"
+    },
     {
       "id": 4702617,
       "titre": "Professeur des écoles F/H en maternelle",
@@ -529,17 +540,6 @@
       "discipline": "Assistant ressources humaines F/H",
       "date": "16/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4694331-gestionnaire-du-personnel-et-de-la-paie-confirme-fh-lvh-marrakech-maroc-marrakesh"
-    },
-    {
-      "id": 4694049,
-      "titre": "Agent d'entretien F/H - EGD - Lycée Gustave Flaubert - LA MARSA - TUNISIE",
-      "etab": "",
-      "ville": "La Marsa",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Chargé de maintenance et d’entretien F/H",
-      "date": "16/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4694049-agent-dentretien-fh-egd-lycee-gustave-flaubert-la-marsa-tunisie-2078-la-marsa"
     },
     {
       "id": 4693739,
@@ -1400,17 +1400,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4669421-professeur-du-second-degre-eps-fh-casablanca-maroc-casablanca"
     },
     {
-      "id": 4668597,
-      "titre": "Professeur du Second Degré Mathématiques F/H - TIABAYA - PEROU",
-      "etab": "",
-      "ville": "Tiabaya",
-      "pays": "Pérou",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "28/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4668597-professeur-du-second-degre-mathematiques-fh-tiabaya-perou-tiabaya"
-    },
-    {
       "id": 4667317,
       "titre": "Professeur du Second Degré F/H - Titulaire du MEN - RIYAD - ARABIE SAOUDITE",
       "etab": "",
@@ -2113,50 +2102,6 @@
       "discipline": "Professeur d’anglais F/H",
       "date": "23/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4612013-professeur-du-second-degre-anglais-fh-le-caire-egypte-cairo"
-    },
-    {
-      "id": 4610517,
-      "titre": "Enseignant premier degré spécialisé CP - F/H - MALABO - GUINEE EQUATORIALE",
-      "etab": "",
-      "ville": "Malabo",
-      "pays": "Guinée",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4610517-enseignant-premier-degre-specialise-cp-fh-malabo-guinee-equatoriale-malabo"
-    },
-    {
-      "id": 4610329,
-      "titre": "Professeur des écoles F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4610329-professeur-des-ecoles-fh-lisbonne-portugal-1350-164-lisboa"
-    },
-    {
-      "id": 4610321,
-      "titre": "Professeur du Second Degré - remplaçants - F/H - LISBONNE - PORTUGAL",
-      "etab": "",
-      "ville": "Lisboa",
-      "pays": "Portugal",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur du second degré F/H",
-      "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4610321-professeur-du-second-degre-remplacants-fh-lisbonne-portugal-1350-164-lisboa"
-    },
-    {
-      "id": 4609973,
-      "titre": "Professeur Documentaliste F/H - BRAZZAVILLE - REPUBLIQUE DU CONGO",
-      "etab": "",
-      "ville": "Brazzaville",
-      "pays": "Congo-Brazzaville",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur documentaliste F/H",
-      "date": "22/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4609973-professeur-documentaliste-fh-brazzaville-republique-du-congo-brazzaville"
     },
     {
       "id": 4602435,
