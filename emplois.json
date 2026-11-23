@@ -1,28 +1,160 @@
 {
-  "updated": "2026-11-22 22:18",
-  "total": 207,
+  "updated": "2026-11-23 15:39",
+  "total": 216,
   "offers": [
     {
+      "id": 4705387,
+      "titre": "Assistant d'Éducation F/H - MADRID - ESPAGNE",
+      "etab": "",
+      "ville": "Alcobendas",
+      "pays": "Espagne",
+      "contrat": "Contrat permanent",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4705387-assistant-deducation-fh-madrid-espagne-28109-alcobendas"
+    },
+    {
+      "id": 4704793,
+      "titre": "Assistant d'Éducation - F/H - KINSHASA - RDC",
+      "etab": "",
+      "ville": "Kinshasa",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Assistant d'éducation F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4704793-assistant-deducation-fh-kinshasa-rdc-kinshasa"
+    },
+    {
+      "id": 4704775,
+      "titre": "Conseiller Principal d'Éducation F/H",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Conseiller principal d'éducation F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4704775-conseiller-principal-deducation-fh-cairo"
+    },
+    {
+      "id": 4704311,
+      "titre": "Professeur des écoles (Remplacement de congé maternité) Sharjah",
+      "etab": "",
+      "ville": "Sharjah",
+      "pays": "Émirats Arabes Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4704311-professeur-des-ecoles-remplacement-de-conge-maternite-sharjah-sharjah"
+    },
+    {
+      "id": 4704047,
+      "titre": "Professeur de Mathématiques Susceptible d'être vacant F/H - SEOUL - COREE DU SUD",
+      "etab": "",
+      "ville": "Seoul",
+      "pays": "Corée du Sud",
+      "contrat": "CDD sans terme fixe",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4704047-professeur-de-mathematiques-susceptible-detre-vacant-fh-seoul-coree-du-sud-seoul"
+    },
+    {
+      "id": 4703875,
+      "titre": "Professeur de Physique-Chimie - F/H - HONG KONG",
+      "etab": "",
+      "ville": "Hong Kong Island",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4703875-professeur-de-physique-chimie-fh-hong-kong-hong-kong-island"
+    },
+    {
+      "id": 4703873,
+      "titre": "Professeur de Mathématiques - F/H - HONG KONG",
+      "etab": "",
+      "ville": "Hong Kong Island",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4703873-professeur-de-mathematiques-fh-hong-kong-hong-kong-island"
+    },
+    {
+      "id": 4703871,
+      "titre": "Professeur d’Histoire-Géographie EMC - F/H - HONG KONG",
+      "etab": "",
+      "ville": "Hong Kong Island",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'histoire géographie F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4703871-professeur-d-histoire-geographie-emc-fh-hong-kong-hong-kong-island"
+    },
+    {
+      "id": 4703869,
+      "titre": "Professeur d'Éducation Physique et Sportive - F/H - HONG KONG",
+      "etab": "",
+      "ville": "Hong Kong Island",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d'éducation physique et sportive F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4703869-professeur-deducation-physique-et-sportive-fh-hong-kong-hong-kong-island"
+    },
+    {
+      "id": 4703867,
+      "titre": "Professeur de Lettres Modernes/Classiques - H/F - HONG KONG",
+      "etab": "",
+      "ville": "Hong Kong Island",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4703867-professeur-de-lettres-modernesclassiques-hf-hong-kong-hong-kong-island"
+    },
+    {
+      "id": 4703865,
+      "titre": "Professeurs des écoles F/H - HONG KONG",
+      "etab": "",
+      "ville": "Hong Kong Island",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4703865-professeurs-des-ecoles-fh-hong-kong-hong-kong-island"
+    },
+    {
+      "id": 4703863,
+      "titre": "Enseignant Flsco en filière Française F/H - HONG KONG",
+      "etab": "",
+      "ville": "Hong Kong Island",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4703863-enseignant-flsco-en-filiere-francaise-fh-hong-kong-hong-kong-island"
+    },
+    {
       "id": 4703791,
-      "titre": "Lycée Albert Camus, Le Caire, Egypte / Professeur des écoles F/H",
+      "titre": "Professeur des écoles F/H - LE CAIRE - EGYPTE",
       "etab": "",
       "ville": "Cairo",
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "22/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4703791-lycee-albert-camus-le-caire-egypte-professeur-des-ecoles-fh-cairo"
+      "url": "https://talents.aefe.fr/fr/annonce/4703791-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4702617,
-      "titre": "Professeur des écoles F/H en maternelle",
+      "titre": "Professeur des écoles F/H en maternelle - LAS TERRENAS - REPUBLIQUE DOMINICAINE",
       "etab": "",
       "ville": "Las Terrenas",
-      "pays": "",
+      "pays": "Rép. dominicaine",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "20/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4702617-professeur-des-ecoles-fh-en-maternelle-32000-las-terrenas"
+      "url": "https://talents.aefe.fr/fr/annonce/4702617-professeur-des-ecoles-fh-en-maternelle-las-terrenas-republique-dominicaine-32000-las-terrenas"
     },
     {
       "id": 4701569,
@@ -300,17 +432,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4696613-chef-detablissement-proviseur-fh-rentree-scolaire-2027-2028-rabat-maroc-rabat"
     },
     {
-      "id": 4696535,
-      "titre": "Primary English Homeroom Teacher F/H - RABAT - MAROC",
-      "etab": "",
-      "ville": "Rabat",
-      "pays": "Maroc",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur d’anglais F/H",
-      "date": "20/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4696535-primary-english-homeroom-teacher-fh-rabat-maroc-rabat"
-    },
-    {
       "id": 4696121,
       "titre": "Professeur de Sciences Physiques et Technologie - F/H - BUCAREST - ROUMANIE",
       "etab": "",
@@ -463,17 +584,6 @@
       "discipline": "Professeur de physique chimie F/H",
       "date": "16/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4694745-professeure-physiques-chimie-egd-lycee-gustave-flaubert-marsa-tunisie-2078-la-marsa"
-    },
-    {
-      "id": 4694729,
-      "titre": "Enseignant Lettres H/F - CDD temps plein - LUXEMBOURG",
-      "etab": "",
-      "ville": "Luxembourg",
-      "pays": "Luxembourg",
-      "contrat": "Contrat temporaire",
-      "discipline": "professeur de lettres modernes F/H",
-      "date": "16/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4694729-enseignant-lettres-hf-cdd-temps-plein-luxembourg-luxembourg"
     },
     {
       "id": 4694685,
@@ -1829,6 +1939,28 @@
       "url": "https://talents.aefe.fr/fr/annonce/4642261-professeur-du-second-degre-eps-fh-dubai-emirats-arabes-unis-dubai"
     },
     {
+      "id": 4640489,
+      "titre": "Professeur de mathématiques (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640489-professeur-de-mathematiques-fh-kankan-guinee-kankan"
+    },
+    {
+      "id": 4640461,
+      "titre": "Professeur des écoles (F/H) - KANKAN - GUINEE",
+      "etab": "",
+      "ville": "Kankan",
+      "pays": "Guinée",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4640461-professeur-des-ecoles-fh-kankan-guinee-kankan"
+    },
+    {
       "id": 4640423,
       "titre": "Responsable administratif et financier (F/H) - KANKAN - GUINEE",
       "etab": "",
@@ -1994,17 +2126,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4625251-professeur-des-ecoles-fh-oulan-bator-mongolie-ulaanbaatar"
     },
     {
-      "id": 4624541,
-      "titre": "Professeur des écoles F/H - PRAIA - CAP VERT",
-      "etab": "",
-      "ville": "Praia",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "30/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4624541-professeur-des-ecoles-fh-praia-cap-vert-praia"
-    },
-    {
       "id": 4624423,
       "titre": "Psychologue scolaire F/H - SFAX - TUNISIE",
       "etab": "",
@@ -2023,7 +2144,7 @@
       "pays": "Allemagne",
       "contrat": "Contrat temporaire",
       "discipline": "Directeur Administratif et Financier F/H",
-      "date": "30/09/2026",
+      "date": "23/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4623465-directeur-des-operations-fh-dusseldorf-allemagne-40237-dusseldorf"
     },
     {
@@ -2047,17 +2168,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "25/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4617361-professeur-du-second-degre-anglais-fh-saly-senegal-saly"
-    },
-    {
-      "id": 4616747,
-      "titre": "Professeur d’Histoire-Géographie HGGSP - F/H - KOH SAMUI - THAILAND",
-      "etab": "",
-      "ville": "Koh Samui",
-      "pays": "",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "25/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4616747-professeur-d-histoire-geographie-hggsp-fh-koh-samui-thailand-84310-koh-samui"
     },
     {
       "id": 4615555,
@@ -2146,17 +2256,6 @@
       "discipline": "Professeur documentaliste F/H",
       "date": "14/10/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4396003-professeur-documentaliste-fh-rio-de-janeiro-bresil-rio-de-janeiro"
-    },
-    {
-      "id": 4332017,
-      "titre": "Référent du Pôle EBEP - F/H - Lycée Guebre-Mariam - ADDIS-ABEBA - ETHIOPIE",
-      "etab": "",
-      "ville": "Addis-Abeba",
-      "pays": "Éthiopie",
-      "contrat": "Contrat permanent",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4332017-referent-du-pole-ebep-fh-lycee-guebre-mariam-addis-abeba-ethiopie-addis-abeba"
     },
     {
       "id": 4331631,

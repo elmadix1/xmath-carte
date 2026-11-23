@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22 22:18",
-  "total": 181,
+  "updated": "2026-11-23 15:39",
+  "total": 190,
   "source": "MLF Monde",
   "offers": [
     {
@@ -844,6 +844,20 @@
       "url": "https://recrutement.mlfmonde.org/3904_offre-emploi-professeur-des-ecoles.html"
     },
     {
+      "id": 3945,
+      "titre": "Professeur des écoles",
+      "etab": "",
+      "ville": "Nantong",
+      "pays": "Chine",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "20/12/2026",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3945_offre-emploi-professeur-des-ecoles.html"
+    },
+    {
       "id": 3797,
       "titre": "Professeur.e de français/HG pour collège et lycée",
       "etab": "",
@@ -1094,6 +1108,104 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3794_offre-emploi-proviseur-poste-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3937,
+      "titre": "Professeur d'Anglais",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3937_offre-emploi-professeur-danglais.html"
+    },
+    {
+      "id": 3938,
+      "titre": "Référent 1er degré : pilotage et développement professionnel",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3938_offre-emploi-referent-1er-degre-pilotage-et-developpement-professionnel.html"
+    },
+    {
+      "id": 3939,
+      "titre": "Professeur documentaliste",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3939_offre-emploi-professeur-documentaliste.html"
+    },
+    {
+      "id": 3940,
+      "titre": "Professeur de Physique-Chimie",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3940_offre-emploi-professeur-de-physiquechimie.html"
+    },
+    {
+      "id": 3941,
+      "titre": "Professeur de lettres modernes",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3941_offre-emploi-professeur-de-lettres-modernes.html"
+    },
+    {
+      "id": 3942,
+      "titre": "Professeur d'arabe",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3942_offre-emploi-professeur-darabe.html"
+    },
+    {
+      "id": 3943,
+      "titre": "Professeur de SES et EMC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3943_offre-emploi-professeur-de-ses-et-emc.html"
     },
     {
       "id": 3761,
@@ -1808,6 +1920,20 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3935_offre-emploi-recrutement-professeur-des-ecoles-ps-msgs-cp-cm2.html"
+    },
+    {
+      "id": 3936,
+      "titre": "Professeur (e) certifié (e) en mathématiques",
+      "etab": "",
+      "ville": "Alexandrie",
+      "pays": "Égypte",
+      "contrat": "",
+      "discipline": "",
+      "date": "20/11/2026",
+      "date_limite": "12/02/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3936_offre-emploi-professeur-e-certifie-e-en-mathematiques.html"
     },
     {
       "id": 3860,
