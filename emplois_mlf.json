@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23 15:39",
-  "total": 190,
+  "updated": "2026-11-24 03:10",
+  "total": 195,
   "source": "MLF Monde",
   "offers": [
     {
@@ -1152,6 +1152,20 @@
       "url": "https://recrutement.mlfmonde.org/3939_offre-emploi-professeur-documentaliste.html"
     },
     {
+      "id": 3944,
+      "titre": "Professeur d'Arts Plastiques",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3944_offre-emploi-professeur-darts-plastiques.html"
+    },
+    {
       "id": 3940,
       "titre": "Professeur de Physique-Chimie",
       "etab": "",
@@ -1206,6 +1220,62 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3943_offre-emploi-professeur-de-ses-et-emc.html"
+    },
+    {
+      "id": 3950,
+      "titre": "Professeurs des écoles",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3950_offre-emploi-professeurs-des-ecoles.html"
+    },
+    {
+      "id": 3947,
+      "titre": "Professeur d'EPS",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3947_offre-emploi-professeur-deps.html"
+    },
+    {
+      "id": 3948,
+      "titre": "Professeur de mathématiques",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3948_offre-emploi-professeur-de-mathematiques.html"
+    },
+    {
+      "id": 3949,
+      "titre": "CPE",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "23/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3949_offre-emploi-cpe.html"
     },
     {
       "id": 3761,

@@ -1,7 +1,51 @@
 {
-  "updated": "2026-11-23 15:39",
-  "total": 216,
+  "updated": "2026-11-24 03:10",
+  "total": 218,
   "offers": [
+    {
+      "id": 4705933,
+      "titre": "Professeur des écoles F/H - LOS ANGELES - ETATS UNIS",
+      "etab": "",
+      "ville": "Pasadena",
+      "pays": "États-Unis",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4705933-professeur-des-ecoles-fh-los-angeles-etats-unis-91106-pasadena"
+    },
+    {
+      "id": 4705897,
+      "titre": "Professeur du Second Degré - Sciences Économiques et Sociales F/H",
+      "etab": "",
+      "ville": "Montréal",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur Sciences économiques et sociales F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4705897-professeur-du-second-degre-sciences-economiques-et-sociales-fh-h3w-1w3-montreal"
+    },
+    {
+      "id": 4705801,
+      "titre": "Professeur des écoles F/H Austin - TEXAS - USA",
+      "etab": "",
+      "ville": "Austin",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4705801-professeur-des-ecoles-fh-austin-texas-usa-78727-austin"
+    },
+    {
+      "id": 4705755,
+      "titre": "Assistante de direction Ecole Primaire",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Secrétaire / assistant F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4705755-assistante-de-direction-ecole-primaire-bp-157-abidjan"
+    },
     {
       "id": 4705387,
       "titre": "Assistant d'Éducation F/H - MADRID - ESPAGNE",
@@ -15,7 +59,7 @@
     },
     {
       "id": 4704793,
-      "titre": "Assistant d'Éducation - F/H - KINSHASA - RDC",
+      "titre": "Assistant d'éducation - F/H - KINSHASA - RDC",
       "etab": "",
       "ville": "Kinshasa",
       "pays": "",
@@ -26,25 +70,25 @@
     },
     {
       "id": 4704775,
-      "titre": "Conseiller Principal d'Éducation F/H",
+      "titre": "Conseiller Principal d'Éducation F/H - LE CAIRE - EGYPTE",
       "etab": "",
       "ville": "Cairo",
-      "pays": "",
+      "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Conseiller principal d'éducation F/H",
       "date": "23/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4704775-conseiller-principal-deducation-fh-cairo"
+      "url": "https://talents.aefe.fr/fr/annonce/4704775-conseiller-principal-deducation-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4704311,
-      "titre": "Professeur des écoles (Remplacement de congé maternité) Sharjah",
+      "titre": "Professeur des écoles remplaçant F/H - SHARJAH - EMIRATS ARABES UNIS",
       "etab": "",
       "ville": "Sharjah",
       "pays": "Émirats Arabes Unis",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur des écoles F/H",
       "date": "23/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4704311-professeur-des-ecoles-remplacement-de-conge-maternite-sharjah-sharjah"
+      "url": "https://talents.aefe.fr/fr/annonce/4704311-professeur-des-ecoles-remplacant-fh-sharjah-emirats-arabes-unis-sharjah"
     },
     {
       "id": 4704047,
@@ -1940,7 +1984,7 @@
     },
     {
       "id": 4640489,
-      "titre": "Professeur de mathématiques (F/H) - KANKAN - GUINEE",
+      "titre": "Professeur de mathématiques F/H - KANKAN - GUINEE",
       "etab": "",
       "ville": "Kankan",
       "pays": "Guinée",
@@ -1951,7 +1995,7 @@
     },
     {
       "id": 4640461,
-      "titre": "Professeur des écoles (F/H) - KANKAN - GUINEE",
+      "titre": "Professeur des écoles F/H - KANKAN - GUINEE",
       "etab": "",
       "ville": "Kankan",
       "pays": "Guinée",
@@ -2168,28 +2212,6 @@
       "discipline": "Professeur du second degré F/H",
       "date": "25/09/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4617361-professeur-du-second-degre-anglais-fh-saly-senegal-saly"
-    },
-    {
-      "id": 4615555,
-      "titre": "Assistant d'Éducation - F/H - ASUNCION - PARAGUAY",
-      "etab": "",
-      "ville": "Asuncion",
-      "pays": "Paraguay",
-      "contrat": "Contrat permanent",
-      "discipline": "Assistant d'éducation F/H",
-      "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615555-assistant-deducation-fh-asuncion-paraguay-asuncion"
-    },
-    {
-      "id": 4615527,
-      "titre": "Professeur des écoles F/H - ZAKIA - MEXIQUE",
-      "etab": "",
-      "ville": "Zakia",
-      "pays": "Mexique",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur des écoles F/H",
-      "date": "24/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4615527-professeur-des-ecoles-fh-zakia-mexique-76269-zakia"
     },
     {
       "id": 4602435,
