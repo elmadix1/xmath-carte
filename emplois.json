@@ -1,7 +1,40 @@
 {
-  "updated": "2026-11-25 01:16",
-  "total": 238,
+  "updated": "2026-11-25 15:17",
+  "total": 240,
   "offers": [
+    {
+      "id": 4708973,
+      "titre": "Professeur du Second Degré - Mathématiques F/H",
+      "etab": "",
+      "ville": "Zakia",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "25/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4708973-professeur-du-second-degre-mathematiques-fh-76269-zakia"
+    },
+    {
+      "id": 4708729,
+      "titre": "Professeur de Lettres Modernes - F/H – TUNIS - TUNISIE",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat permanent",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "25/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4708729-professeur-de-lettres-modernes-fh-tunis-tunisie-tunis"
+    },
+    {
+      "id": 4708401,
+      "titre": "Professeur de Lettres Remplaçant F/H - Lycée PMF - Tunis - Tunisie",
+      "etab": "",
+      "ville": "Tunis",
+      "pays": "Tunisie",
+      "contrat": "Contrat temporaire",
+      "discipline": "professeur de lettres modernes F/H",
+      "date": "25/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4708401-professeur-de-lettres-remplacant-fh-lycee-pmf-tunis-tunisie-1082-tunis"
+    },
     {
       "id": 4707957,
       "titre": "Professeur de collège en mathématiques - sciences - technologie",
@@ -1356,17 +1389,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4681695-professeur-des-ecoles-primaire-fh-englewood-etats-unis-07631-englewood"
     },
     {
-      "id": 4681647,
-      "titre": "Professeur du Second Degré d'histoire géographie F/H - ZAKIA - MEXIQUE",
-      "etab": "",
-      "ville": "Zakia",
-      "pays": "Mexique",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur d'histoire géographie F/H",
-      "date": "05/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4681647-professeur-du-second-degre-dhistoire-geographie-fh-zakia-mexique-76269-zakia"
-    },
-    {
       "id": 4681291,
       "titre": "Directeur d’école primaire H/F – Dès le 01/01/2027 – CASABLANCA - MAROC",
       "etab": "",
@@ -2423,17 +2445,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4625251-professeur-des-ecoles-fh-oulan-bator-mongolie-ulaanbaatar"
     },
     {
-      "id": 4624423,
-      "titre": "Psychologue scolaire F/H - SFAX - TUNISIE",
-      "etab": "",
-      "ville": "Sfax",
-      "pays": "Tunisie",
-      "contrat": "Contrat permanent",
-      "discipline": "Psychologue scolaire F/H",
-      "date": "30/09/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4624423-psychologue-scolaire-fh-sfax-tunisie-3062-sfax"
-    },
-    {
       "id": 4623465,
       "titre": "Directeur des Opérations F/H - DUSSELDORF - ALLEMAGNE",
       "etab": "",
@@ -2551,8 +2562,19 @@
       "pays": "Égypte",
       "contrat": "Contrat temporaire",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
-      "date": "29/09/2026",
+      "date": "25/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4140109-professeur-de-svt-fh-lycee-balzac-le-caire-egypte-cairo"
+    },
+    {
+      "id": 4102357,
+      "titre": "Professeur des écoles - F/H - LE CAIRE - EGYPTE",
+      "etab": "",
+      "ville": "Cairo",
+      "pays": "Égypte",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "25/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4102357-professeur-des-ecoles-fh-le-caire-egypte-cairo"
     },
     {
       "id": 4083445,
