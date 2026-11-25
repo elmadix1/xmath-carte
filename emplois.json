@@ -1,7 +1,51 @@
 {
-  "updated": "2026-11-24 15:31",
-  "total": 234,
+  "updated": "2026-11-25 01:16",
+  "total": 238,
   "offers": [
+    {
+      "id": 4707957,
+      "titre": "Professeur de collège en mathématiques - sciences - technologie",
+      "etab": "",
+      "ville": "Taipei City",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "25/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4707957-professeur-de-college-en-mathematiques-sciences-technologie-taipei-city"
+    },
+    {
+      "id": 4707593,
+      "titre": "Professeure des écoles F/H",
+      "etab": "",
+      "ville": "Dubai",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "24/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4707593-professeure-des-ecoles-fh-dubai"
+    },
+    {
+      "id": 4707585,
+      "titre": "URGENT -Professeur des écoles vacataire F/H - Remplaçant - RABAT/KENITRA - MAROC",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur des écoles F/H",
+      "date": "24/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4707585-urgent-professeur-des-ecoles-vacataire-fh-remplacant-rabatkenitra-maroc-rabat"
+    },
+    {
+      "id": 4707519,
+      "titre": "Enseignant(e)s de Mathématiques suppléant(e)s du 2nd degré - F/H - LONDRES UK",
+      "etab": "",
+      "ville": "England",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Professeur de mathématiques F/H",
+      "date": "24/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4707519-enseignantes-de-mathematiques-suppleantes-du-2nd-degre-fh-londres-uk-greater-london"
+    },
     {
       "id": 4707305,
       "titre": "Psychologue scolaire F/H - SFAX - TUNISIE",
@@ -48,102 +92,102 @@
     },
     {
       "id": 4706857,
-      "titre": "Professeur Documentaliste F/H",
+      "titre": "Professeur Documentaliste",
       "etab": "",
       "ville": "Casablanca",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur documentaliste F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4706857-professeur-documentaliste-fh-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4706857-professeur-documentaliste-casablanca"
     },
     {
       "id": 4706837,
-      "titre": "Professeur des écoles spécialisé(e) – Responsable du Pôle Accompagnement H/F",
+      "titre": "Professeur des écoles spécialisé(e) – Responsable du Pôle Accompagnement",
       "etab": "",
       "ville": "Casablanca",
       "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4706837-professeur-des-ecoles-specialisee-responsable-du-pole-accompagnement-hf-20250-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4706837-professeur-des-ecoles-specialisee-responsable-du-pole-accompagnement-20250-casablanca"
     },
     {
       "id": 4706763,
-      "titre": "PROFESSEUR DE LETTRES - F/H - CASABLANCA - MAROC",
+      "titre": "Professeur de Lettres",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "Maroc",
+      "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4706763-professeur-de-lettres-fh-casablanca-maroc-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4706763-professeur-de-lettres-casablanca"
     },
     {
       "id": 4706757,
-      "titre": "PROFESSEUR DE PHYSIQUE-CHIMIE - F/H - CASABLANCA - MAROC",
+      "titre": "Professeur de Physique Chimie",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "Maroc",
+      "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de physique chimie F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4706757-professeur-de-physique-chimie-fh-casablanca-maroc-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4706757-professeur-de-physique-chimie-casablanca"
     },
     {
       "id": 4706755,
-      "titre": "Professeur du Second Degré d'histoire géographie - F/H - CASABLANCA - MAROC",
+      "titre": "Professeur d'Histoire Géographie",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "Maroc",
+      "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4706755-professeur-du-second-degre-dhistoire-geographie-fh-casablanca-maroc-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4706755-professeur-dhistoire-geographie-casablanca"
     },
     {
       "id": 4706751,
-      "titre": "Professeur du Second Degré - Mathématiques - F/H - CASABLANCA - MAROC",
+      "titre": "Professeur de Mathématiques",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "Maroc",
+      "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de mathématiques F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4706751-professeur-du-second-degre-mathematiques-fh-casablanca-maroc-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4706751-professeur-de-mathematiques-casablanca"
     },
     {
       "id": 4706747,
-      "titre": "Professeur du Second Degré - SVT - F/H - CASABLANCA - MAROC",
+      "titre": "Professeur de SVT",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "Maroc",
+      "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de sciences de la vie et de la terre F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4706747-professeur-du-second-degre-svt-fh-casablanca-maroc-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4706747-professeur-de-svt-casablanca"
     },
     {
       "id": 4706717,
-      "titre": "Professeur des écoles - ANGLOPHONE - F/H - CASABLANCA - MAROC",
+      "titre": "Professeur des écoles anglophone",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "Maroc",
+      "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4706717-professeur-des-ecoles-anglophone-fh-casablanca-maroc-20250-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4706717-professeur-des-ecoles-anglophone-20250-casablanca"
     },
     {
       "id": 4706705,
-      "titre": "Professeur des écoles - F/H - CASABLANCA - MAROC",
+      "titre": "Professeur des écoles",
       "etab": "",
       "ville": "Casablanca",
-      "pays": "Maroc",
+      "pays": "",
       "contrat": "Contrat permanent",
       "discipline": "Professeur des écoles F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4706705-professeur-des-ecoles-fh-casablanca-maroc-20250-casablanca"
+      "url": "https://talents.aefe.fr/fr/annonce/4706705-professeur-des-ecoles-20250-casablanca"
     },
     {
       "id": 4706299,
@@ -169,58 +213,58 @@
     },
     {
       "id": 4705953,
-      "titre": "Professeur(e) documentaliste au secondaire",
+      "titre": "Professeur(e) documentaliste au secondaire F/H OTTAWA, CANADA",
       "etab": "",
       "ville": "Ottawa",
-      "pays": "",
+      "pays": "Canada",
       "contrat": "Contrat permanent",
       "discipline": "Professeur documentaliste F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4705953-professeure-documentaliste-au-secondaire-k1g-4a7-ottawa"
+      "url": "https://talents.aefe.fr/fr/annonce/4705953-professeure-documentaliste-au-secondaire-fh-ottawa-canada-k1g-4a7-ottawa"
     },
     {
       "id": 4705951,
-      "titre": "Professeur(e) de lettres modernes au secondaire",
+      "titre": "Professeur(e) de lettres modernes au secondaire F/H OTTAWA, CANADA",
       "etab": "",
       "ville": "Ottawa",
-      "pays": "",
+      "pays": "Canada",
       "contrat": "Contrat permanent",
       "discipline": "professeur de lettres modernes F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4705951-professeure-de-lettres-modernes-au-secondaire-k1g-4a7-ottawa"
+      "url": "https://talents.aefe.fr/fr/annonce/4705951-professeure-de-lettres-modernes-au-secondaire-fh-ottawa-canada-k1g-4a7-ottawa"
     },
     {
       "id": 4705949,
-      "titre": "Professeur(e) d’histoire-géographie au secondaire",
+      "titre": "Professeur(e) d’histoire-géographie au secondaire F/H OTTAWA, CANADA",
       "etab": "",
       "ville": "Ottawa",
-      "pays": "",
+      "pays": "Canada",
       "contrat": "Contrat permanent",
       "discipline": "Professeur d'histoire géographie F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4705949-professeure-d-histoire-geographie-au-secondaire-k1g-4a7-ottawa"
+      "url": "https://talents.aefe.fr/fr/annonce/4705949-professeure-d-histoire-geographie-au-secondaire-fh-ottawa-canada-k1g-4a7-ottawa"
     },
     {
       "id": 4705947,
-      "titre": "Professeur(e) de physique-chimie au secondaire",
+      "titre": "Professeur(e) de physique-chimie au secondaire F/H OTTAWA, CANADA",
       "etab": "",
       "ville": "Ottawa",
-      "pays": "",
+      "pays": "Canada",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de physique chimie F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4705947-professeure-de-physique-chimie-au-secondaire-k1g-4a7-ottawa"
+      "url": "https://talents.aefe.fr/fr/annonce/4705947-professeure-de-physique-chimie-au-secondaire-fh-ottawa-canada-k1g-4a7-ottawa"
     },
     {
       "id": 4705941,
-      "titre": "Professeur(e) de mathématiques au secondaire",
+      "titre": "Professeur(e) de mathématiques au secondaire F/H OTTAWA, CANADA",
       "etab": "",
       "ville": "Ottawa",
-      "pays": "",
+      "pays": "Canada",
       "contrat": "Contrat permanent",
       "discipline": "Professeur de mathématiques F/H",
       "date": "24/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4705941-professeure-de-mathematiques-au-secondaire-k1g-4a7-ottawa"
+      "url": "https://talents.aefe.fr/fr/annonce/4705941-professeure-de-mathematiques-au-secondaire-fh-ottawa-canada-k1g-4a7-ottawa"
     },
     {
       "id": 4705933,
