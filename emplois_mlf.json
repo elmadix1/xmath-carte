@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25 15:17",
-  "total": 196,
+  "updated": "2026-11-26 00:52",
+  "total": 199,
   "source": "MLF Monde",
   "offers": [
     {
@@ -1292,6 +1292,20 @@
       "url": "https://recrutement.mlfmonde.org/3949_offre-emploi-cpe.html"
     },
     {
+      "id": 3952,
+      "titre": "professeur SVT",
+      "etab": "",
+      "ville": "Rabat",
+      "pays": "Maroc",
+      "contrat": "",
+      "discipline": "",
+      "date": "24/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3952_offre-emploi-professeur-svt.html"
+    },
+    {
       "id": 3761,
       "titre": "Professeur d'histoire géographie EMC",
       "etab": "",
@@ -1922,6 +1936,20 @@
       "url": "https://recrutement.mlfmonde.org/3918_offre-emploi-poste-de-cpe-susceptible-detre-vacant.html"
     },
     {
+      "id": 3951,
+      "titre": "Professeur d'EPS poste susceptible d'être vacant",
+      "etab": "",
+      "ville": "Moanda",
+      "pays": "Gabon",
+      "contrat": "",
+      "discipline": "",
+      "date": "24/11/2026",
+      "date_limite": "31/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3951_offre-emploi-professeur-deps-poste-susceptible-detre-vacant.html"
+    },
+    {
       "id": 3765,
       "titre": "professeur de mathématiques",
       "etab": "",
@@ -2200,6 +2228,20 @@
       "date_prise": "01/05/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3933_offre-emploi-comptable.html"
+    },
+    {
+      "id": 3953,
+      "titre": "Conseiller(ère) pédagogique à la maternelle",
+      "etab": "",
+      "ville": "Le Caire",
+      "pays": "Égypte",
+      "contrat": "",
+      "discipline": "",
+      "date": "25/11/2026",
+      "date_limite": "20/02/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3953_offre-emploi-conseillerere-pedagogique-a-la-maternelle.html"
     },
     {
       "id": 3884,

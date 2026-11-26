@@ -1,7 +1,40 @@
 {
-  "updated": "2026-11-25 15:17",
-  "total": 240,
+  "updated": "2026-11-26 00:52",
+  "total": 243,
   "offers": [
+    {
+      "id": 4709429,
+      "titre": "Technicien de laboratoire",
+      "etab": "",
+      "ville": "Abidjan",
+      "pays": "",
+      "contrat": "Contrat temporaire",
+      "discipline": "Aide de laboratoire F/H",
+      "date": "25/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4709429-technicien-de-laboratoire-bp-157-abidjan"
+    },
+    {
+      "id": 4709401,
+      "titre": "Professeur d’anglais au secondaire (F/H) – OTTAWA, CANADA",
+      "etab": "",
+      "ville": "Ottawa",
+      "pays": "Canada",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur d’anglais F/H",
+      "date": "25/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4709401-professeur-d-anglais-au-secondaire-fh-ottawa-canada-k1g-4a7-ottawa"
+    },
+    {
+      "id": 4709239,
+      "titre": "PROVISEUR(E) ADJOINT(E)-ETABLISSEMENT LIBERTE BAMAKO- A COMPTER DE JANVIER 2027",
+      "etab": "",
+      "ville": "Bamako",
+      "pays": "",
+      "contrat": "CDD terme fixe",
+      "discipline": "Proviseur adjoint F/H",
+      "date": "25/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4709239-proviseure-adjointe-etablissement-liberte-bamako-a-compter-de-janvier-2027-bamako"
+    },
     {
       "id": 4708973,
       "titre": "Professeur du Second Degré - Mathématiques F/H",
@@ -2533,17 +2566,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4249035-professeur-de-lettres-fh-podgorica-montenegro-podgorica"
     },
     {
-      "id": 4207739,
-      "titre": "Professeur du Second Degré Mathématiques F/H - ABIDJAN - COTE D'IVOIRE",
-      "etab": "",
-      "ville": "Abidjan",
-      "pays": "Côte d'Ivoire",
-      "contrat": "Contrat temporaire",
-      "discipline": "Professeur de mathématiques F/H",
-      "date": "20/10/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4207739-professeur-du-second-degre-mathematiques-fh-abidjan-cote-divoire-bp-157-abidjan"
-    },
-    {
       "id": 4196309,
       "titre": "Professeur d'anglais en maternelle et élémentaire - F/H - CASABLANCA - MAROC",
       "etab": "",
@@ -2619,6 +2641,17 @@
       "discipline": "Agent du périscolaire F/H",
       "date": "11/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4041779-surveillant-des-etudes-temps-partiel-fh-munich-allemagne-81539-munchen"
+    },
+    {
+      "id": 4020099,
+      "titre": "Surveillant de la pause méridienne - temps partiel - F/H - MUNICH - ALLEMAGNE",
+      "etab": "",
+      "ville": "München",
+      "pays": "Allemagne",
+      "contrat": "Contrat temporaire",
+      "discipline": "Agent du périscolaire F/H",
+      "date": "25/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4020099-surveillant-de-la-pause-meridienne-temps-partiel-fh-munich-allemagne-81539-munchen"
     },
     {
       "id": 3799657,
