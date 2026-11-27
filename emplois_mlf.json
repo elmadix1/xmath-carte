@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27 00:55",
-  "total": 199,
+  "updated": "2026-11-27 14:40",
+  "total": 205,
   "source": "MLF Monde",
   "offers": [
     {
@@ -1292,6 +1292,20 @@
       "url": "https://recrutement.mlfmonde.org/3949_offre-emploi-cpe.html"
     },
     {
+      "id": 3957,
+      "titre": "Recrutement d'un professeur de physique Chimie susceptible d'être vacant",
+      "etab": "",
+      "ville": "Al-Khobar",
+      "pays": "Arabie Saoudite",
+      "contrat": "",
+      "discipline": "",
+      "date": "27/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3957_offre-emploi-recrutement-dun-professeur-de-physique-chimie-susceptible-detre-vacant.html"
+    },
+    {
       "id": 3952,
       "titre": "professeur SVT",
       "etab": "",
@@ -1304,6 +1318,76 @@
       "date_prise": "01/09/2027",
       "source": "MLF",
       "url": "https://recrutement.mlfmonde.org/3952_offre-emploi-professeur-svt.html"
+    },
+    {
+      "id": 3956,
+      "titre": "Recrutement d'un professeur de SVT",
+      "etab": "",
+      "ville": "Al-Khobar",
+      "pays": "Arabie Saoudite",
+      "contrat": "",
+      "discipline": "",
+      "date": "27/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3956_offre-emploi-recrutement-dun-professeur-de-svt.html"
+    },
+    {
+      "id": 3958,
+      "titre": "Recrutement d'un professeur de lettres/histoire-géo/EMC susceptible d'être vacant",
+      "etab": "",
+      "ville": "Al-Khobar",
+      "pays": "Arabie Saoudite",
+      "contrat": "",
+      "discipline": "",
+      "date": "27/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3958_offre-emploi-recrutement-dun-professeur-de-lettreshistoiregeoemc-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3959,
+      "titre": "Recrutement d'un professeur des écoles susceptible d'être vacant",
+      "etab": "",
+      "ville": "Al-Khobar",
+      "pays": "Arabie Saoudite",
+      "contrat": "",
+      "discipline": "",
+      "date": "27/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3959_offre-emploi-recrutement-dun-professeur-des-ecoles-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3960,
+      "titre": "Recrutement d'un professeur des écoles susceptible d'être vacant",
+      "etab": "",
+      "ville": "Al-Khobar",
+      "pays": "Arabie Saoudite",
+      "contrat": "",
+      "discipline": "",
+      "date": "27/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3960_offre-emploi-recrutement-dun-professeur-des-ecoles-susceptible-detre-vacant.html"
+    },
+    {
+      "id": 3961,
+      "titre": "Recrutement d'un professeur de lettres/histoire susceptible d'être vacant",
+      "etab": "",
+      "ville": "Al-Khobar",
+      "pays": "Arabie Saoudite",
+      "contrat": "",
+      "discipline": "",
+      "date": "27/11/2026",
+      "date_limite": "15/01/2027",
+      "date_prise": "01/09/2027",
+      "source": "MLF",
+      "url": "https://recrutement.mlfmonde.org/3961_offre-emploi-recrutement-dun-professeur-de-lettreshistoire-susceptible-detre-vacant.html"
     },
     {
       "id": 3761,
