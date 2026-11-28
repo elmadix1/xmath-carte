@@ -1,7 +1,29 @@
 {
-  "updated": "2026-11-28 00:22",
-  "total": 165,
+  "updated": "2026-11-28 13:51",
+  "total": 167,
   "offers": [
+    {
+      "id": 4712692,
+      "titre": "Professeur des écoles F/H - VIÑA DEL MAR (CHILI)",
+      "etab": "",
+      "ville": "Viña del Mar",
+      "pays": "Chili",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "28/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4712692-professeur-des-ecoles-fh-vina-del-mar-chili-vina-del-mar"
+    },
+    {
+      "id": 4712690,
+      "titre": "Professeur du Second Degré - Physique Chimie F/H - VIÑA DEL MAR (CHILI)",
+      "etab": "",
+      "ville": "Viña del Mar",
+      "pays": "Chili",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur de physique chimie F/H",
+      "date": "28/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4712690-professeur-du-second-degre-physique-chimie-fh-vina-del-mar-chili-vina-del-mar"
+    },
     {
       "id": 4710811,
       "titre": "Professeur des écoles F/H",
@@ -344,17 +366,6 @@
       "url": "https://talents.aefe.fr/fr/annonce/4705387-assistant-deducation-fh-madrid-espagne-28109-alcobendas"
     },
     {
-      "id": 4704775,
-      "titre": "Conseiller Principal d'Éducation F/H - LE CAIRE - EGYPTE",
-      "etab": "",
-      "ville": "Cairo",
-      "pays": "Égypte",
-      "contrat": "Contrat temporaire",
-      "discipline": "Conseiller principal d'éducation F/H",
-      "date": "23/11/2026",
-      "url": "https://talents.aefe.fr/fr/annonce/4704775-conseiller-principal-deducation-fh-le-caire-egypte-cairo"
-    },
-    {
       "id": 4703875,
       "titre": "Professeur de Physique-Chimie - F/H - HONG KONG",
       "etab": "",
@@ -375,6 +386,17 @@
       "discipline": "Professeur des écoles F/H",
       "date": "23/11/2026",
       "url": "https://talents.aefe.fr/fr/annonce/4703865-professeurs-des-ecoles-fh-hong-kong-hong-kong-island"
+    },
+    {
+      "id": 4703863,
+      "titre": "Enseignant Flsco en filière Française F/H - HONG KONG",
+      "etab": "",
+      "ville": "Hong Kong Island",
+      "pays": "",
+      "contrat": "Contrat permanent",
+      "discipline": "Professeur des écoles F/H",
+      "date": "23/11/2026",
+      "url": "https://talents.aefe.fr/fr/annonce/4703863-enseignant-flsco-en-filiere-francaise-fh-hong-kong-hong-kong-island"
     },
     {
       "id": 4703791,
